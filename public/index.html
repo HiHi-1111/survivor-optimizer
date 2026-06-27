@@ -1,10 +1,316 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fan-made Survivor.io optimizer dashboard for gear, pets, tech parts, events, collectibles, and global upgrade planning." />
   <title>Survivor.io Optimizer</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Survivor.io Optimizer</h1>
-  <p>Site is live. Next step: add calculator UI.</p>
+  <div class="page-glow page-glow-one"></div>
+  <div class="page-glow page-glow-two"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Survivor.io Optimizer home">
+      <span class="brand-mark">S</span>
+      <span>
+        <strong>Survivor.io</strong>
+        <small>Optimizer</small>
+      </span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#tools">Tools</a>
+      <a href="#optimizer">Optimizer</a>
+      <a href="#results">Results</a>
+      <a href="#data">Data</a>
+    </nav>
+
+    <div class="topbar-actions">
+      <button class="ghost-btn" type="button" data-fill-sample>Sample</button>
+      <a class="primary-btn small" href="#optimizer">Run Optimizer</a>
+    </div>
+  </header>
+
+  <main id="top" class="site-shell">
+    <section class="hero section-pad">
+      <div class="hero-copy">
+        <p class="eyebrow">Fan-made upgrade planner</p>
+        <h1>Know what to upgrade next.</h1>
+        <p class="hero-text">
+          A rolling dashboard for comparing gear, pets, tech parts, collectibles, event value, and global upgrade priority based on your actual account.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#optimizer">Start Optimizing</a>
+          <button class="secondary-btn" type="button" data-scroll-results>View Example Plan</button>
+        </div>
+        <div class="hero-stats" aria-label="Tool highlights">
+          <span><strong>DPS-first</strong> scoring</span>
+          <span><strong>AFK</strong> friendly</span>
+          <span><strong>F2P</strong> aware</span>
+        </div>
+      </div>
+
+      <aside class="snapshot-card card">
+        <div class="card-head">
+          <div>
+            <p class="eyebrow">Live profile</p>
+            <h2>Profile Snapshot</h2>
+          </div>
+          <span class="status-pill">Draft</span>
+        </div>
+        <div class="snapshot-grid">
+          <div><span>Chapter</span><strong id="snap-chapter">126</strong></div>
+          <div><span>Gems</span><strong id="snap-gems">51,000</strong></div>
+          <div><span>Mode</span><strong id="snap-mode">Steamroll</strong></div>
+          <div><span>Goal</span><strong id="snap-goal">Max DPS</strong></div>
+          <div><span>Pet</span><strong id="snap-pet">Eagle</strong></div>
+          <div><span>Relic Cores</span><strong id="snap-cores">2</strong></div>
+        </div>
+        <div class="snapshot-meter">
+          <div class="meter-label"><span>Upgrade pressure</span><strong>High</strong></div>
+          <div class="meter-track"><span></span></div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="tools" class="section-pad compact-section">
+      <div class="section-title">
+        <p class="eyebrow">Tool list</p>
+        <h2>Pick a calculator</h2>
+        <p>Built as a long scrolling list so every tool can grow without turning the site into a mess.</p>
+      </div>
+
+      <div class="tool-roll">
+        <article class="tool-card card active" data-tool="gear">
+          <div class="tool-icon">⚔</div>
+          <div>
+            <h3>Gear Optimizer</h3>
+            <p>Compare weapon, necklace, gloves, armor, belt, and boots for damage value.</p>
+          </div>
+          <button type="button">Open</button>
+        </article>
+
+        <article class="tool-card card" data-tool="pets">
+          <div class="tool-icon">🦅</div>
+          <div>
+            <h3>Pet Planner</h3>
+            <p>Plan eagle, crab, awakening crystals, cookies, assists, and xeno decisions.</p>
+          </div>
+          <button type="button">Open</button>
+        </article>
+
+        <article class="tool-card card" data-tool="tech">
+          <div class="tool-icon">🔧</div>
+          <div>
+            <h3>Tech Part Planner</h3>
+            <p>Track drone, RPG, molotov, twinborn, resonance, chips, and assist value.</p>
+          </div>
+          <button type="button">Open</button>
+        </article>
+
+        <article class="tool-card card" data-tool="events">
+          <div class="tool-icon">🎟</div>
+          <div>
+            <h3>Event Value Calculator</h3>
+            <p>Decide when to spend gems, keys, event currency, or save for a stronger event.</p>
+          </div>
+          <button type="button">Open</button>
+        </article>
+
+        <article class="tool-card card" data-tool="collectibles">
+          <div class="tool-icon">💠</div>
+          <div>
+            <h3>Collectible Planner</h3>
+            <p>Rank shards, damage bonuses, collection sets, and late-game upgrade timing.</p>
+          </div>
+          <button type="button">Open</button>
+        </article>
+
+        <article class="tool-card card" data-tool="global">
+          <div class="tool-icon">🧠</div>
+          <div>
+            <h3>Global Upgrade Plan</h3>
+            <p>Get a ranked next-step plan across every system instead of one item at a time.</p>
+          </div>
+          <button type="button">Open</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="optimizer" class="section-pad optimizer-grid">
+      <div class="card input-panel">
+        <div class="card-head">
+          <div>
+            <p class="eyebrow">Step 1</p>
+            <h2>Account Inputs</h2>
+          </div>
+          <span class="rarity-pill">Account</span>
+        </div>
+
+        <form class="input-grid" id="optimizer-form">
+          <label>
+            Chapter
+            <input id="chapter" type="number" min="1" max="999" value="126" />
+          </label>
+          <label>
+            Gems
+            <input id="gems" type="number" min="0" value="51000" />
+          </label>
+          <label>
+            Survivor
+            <select id="survivor">
+              <option>Master Yang</option>
+              <option>Metallia</option>
+              <option>King</option>
+              <option>Common</option>
+            </select>
+          </label>
+          <label>
+            Main weapon
+            <select id="weapon">
+              <option>SS Starforged Havoc</option>
+              <option>Kunai</option>
+              <option>Void Power</option>
+              <option>Lightchaser</option>
+            </select>
+          </label>
+          <label>
+            Pet
+            <select id="pet">
+              <option>Eagle</option>
+              <option>Crab</option>
+              <option>Rex</option>
+              <option>Croaky</option>
+            </select>
+          </label>
+          <label>
+            Relic cores
+            <input id="cores" type="number" min="0" value="2" />
+          </label>
+          <label>
+            Tech focus
+            <select id="tech-focus">
+              <option>Drone / Twinborn</option>
+              <option>RPG / Rocket</option>
+              <option>Molotov</option>
+              <option>Soccer Ball</option>
+            </select>
+          </label>
+          <label>
+            Account style
+            <select id="style">
+              <option>AFK / Low Effort</option>
+              <option>Boss Damage</option>
+              <option>Chapter Push</option>
+              <option>Balanced</option>
+            </select>
+          </label>
+        </form>
+      </div>
+
+      <div class="card goal-panel">
+        <div class="card-head">
+          <div>
+            <p class="eyebrow">Step 2</p>
+            <h2>Optimization Goal</h2>
+          </div>
+          <span class="rarity-pill purple">DPS</span>
+        </div>
+
+        <div class="check-list" role="group" aria-label="Optimization goals">
+          <label><input type="checkbox" value="Max DPS" checked /> Max DPS</label>
+          <label><input type="checkbox" value="AFK / Low Effort" checked /> AFK / Low Effort</label>
+          <label><input type="checkbox" value="Steamroll" checked /> Steamroll</label>
+          <label><input type="checkbox" value="Enders Echo" /> Enders Echo</label>
+          <label><input type="checkbox" value="Boss Damage" /> Boss Damage</label>
+          <label><input type="checkbox" value="Save Gems" checked /> Save Gems</label>
+          <label><input type="checkbox" value="Spend Gems If High Value" /> Spend Gems If High Value</label>
+        </div>
+
+        <button class="primary-btn full" type="button" id="generate-plan">Generate Plan</button>
+        <p class="panel-note">This front-end is a starter shell. Next, we connect these inputs to your Python optimizer logic or a JS version of it.</p>
+      </div>
+    </section>
+
+    <section id="results" class="section-pad results-section">
+      <div class="section-title">
+        <p class="eyebrow">Output</p>
+        <h2>Recommended Upgrade Plan</h2>
+        <p>Ranked recommendations should be readable fast: what to do, why it matters, what it costs, and confidence.</p>
+      </div>
+
+      <div class="results-card card" id="result-list">
+        <article class="result-row top-result">
+          <span class="rank">1</span>
+          <div>
+            <h3>Hold gems unless the event gives high-value relic/core progress</h3>
+            <p>Your account has enough gems to spend, but the optimizer should protect them unless the event return beats saved-chest value.</p>
+          </div>
+          <div class="result-meta">
+            <span>Cost: 0</span>
+            <strong>High confidence</strong>
+          </div>
+        </article>
+
+        <article class="result-row">
+          <span class="rank">2</span>
+          <div>
+            <h3>Prioritize DPS systems over HP-heavy upgrades</h3>
+            <p>For your style, survivability only matters when it blocks progress. Damage and speed should win most ties.</p>
+          </div>
+          <div class="result-meta">
+            <span>Cost: varies</span>
+            <strong>High confidence</strong>
+          </div>
+        </article>
+
+        <article class="result-row">
+          <span class="rank">3</span>
+          <div>
+            <h3>Push pet and tech upgrades that improve clear speed</h3>
+            <p>Pet level, awakening materials, drone/twinborn, and resonance should be compared against SS gear costs before spending.</p>
+          </div>
+          <div class="result-meta">
+            <span>Cost: resources</span>
+            <strong>Medium confidence</strong>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="data" class="section-pad info-strip">
+      <div class="card why-card">
+        <p class="eyebrow">Why this style?</p>
+        <h2>Simple rolling layout, easy to expand.</h2>
+        <p>
+          This page is built like a tool list: compact sections, clear actions, and result cards. That makes it easy to add real calculators one by one without redesigning the whole site every time.
+        </p>
+      </div>
+      <div class="card data-card">
+        <h3>Next code steps</h3>
+        <ul>
+          <li>Replace sample results with real optimizer output.</li>
+          <li>Add import/export profile JSON.</li>
+          <li>Add separate screens for gear, pets, tech, events, and collectibles.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="site-shell footer-inner">
+      <p><strong>Survivor.io Optimizer</strong></p>
+      <p>Fan-made planning tool. Not affiliated with Habby.</p>
+      <div class="footer-links">
+        <a href="https://github.com/HiHi-1111/survivor.io-optimizer">GitHub</a>
+        <a href="#data">Data Sources</a>
+        <a href="#top">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
