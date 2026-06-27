@@ -7,29 +7,29 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="top-nav">
-    <section class="mode-selector" aria-label="Scenario selector">
-      <button class="mode-btn is-active" data-scenario="clan" type="button">Clan Expedition</button>
-      <button class="mode-btn" data-scenario="enders" type="button">Ender’s Echo</button>
-      <button class="mode-btn" data-scenario="trials" type="button">Path of Trials</button>
+  <header class="utility-header">
+    <section class="mode-tabs" aria-label="Scenario selector">
+      <button class="mode-btn is-active" data-scenario="clan" type="button">Expedition</button>
+      <button class="mode-btn" data-scenario="enders" type="button">Echo</button>
+      <button class="mode-btn" data-scenario="trials" type="button">Trials</button>
     </section>
 
-    <section class="base-stats" aria-label="Base stats">
-      <label>Base ATK<input type="number" id="base-atk" min="0" placeholder="0" class="input-field" /></label>
-      <label>Crit Rate %<input type="number" id="crit-rate" min="0" max="100" step="0.1" class="input-field" /></label>
-      <label>Crit DMG %<input type="number" id="crit-dmg" min="0" step="0.1" placeholder="100.0" class="input-field" /></label>
+    <section class="stat-strip" aria-label="Base stats">
+      <label>Base ATK<input type="number" id="base-atk" min="0" placeholder="0" class="glass-input" /></label>
+      <label>Crit %<input type="number" id="crit-rate" min="0" max="100" step="0.1" class="glass-input" /></label>
+      <label>Crit DMG<input type="number" id="crit-dmg" min="0" step="0.1" placeholder="100" class="glass-input" /></label>
     </section>
 
-    <section class="share-config" aria-label="Share configuration">
-      <input type="text" id="share-string-output" readonly class="input-field share-field" />
-      <button id="btn-copy-string" class="btn-accent" type="button">Copy Configuration</button>
+    <section class="share-tray" aria-label="Share configuration">
+      <input type="text" id="share-string-output" readonly class="glass-input share-field" />
+      <button id="btn-copy-string" class="copy-btn" type="button">Copy</button>
       <span id="copy-status" class="copy-status" aria-live="polite"></span>
     </section>
   </header>
 
-  <main>
-    <section class="dual-grid">
-      <article class="panel character-panel">
+  <main class="main-dashboard-grid">
+    <aside class="dashboard-column left-column">
+      <article class="panel survivor-panel">
         <div class="panel-head">
           <h3>Select Survivor</h3>
           <span id="selected-survivor-label" class="mini-badge">Master Yang</span>
@@ -39,33 +39,29 @@
 
       <article class="panel run-panel">
         <div class="panel-head">
-          <h3>In-Run Active & Passive Skills</h3>
-          <span id="evo-count" class="mini-badge">0 evolutions ready</span>
+          <h3>Run Evolution Setup</h3>
+          <span id="evo-count" class="mini-badge">0 ready</span>
         </div>
-        <div class="skill-matrix">
-          <div>
-            <h4>Active Skills</h4>
-            <div id="active-grid" class="slot-grid six-grid"></div>
-          </div>
-          <div>
-            <h4>Passive Evolution Items</h4>
-            <div id="passive-grid" class="slot-grid six-grid"></div>
-          </div>
+        <div id="skill-pairs" class="skill-pairs"></div>
+      </article>
+    </aside>
+
+    <section class="dashboard-column center-column">
+      <article class="panel equipment-panel">
+        <div class="panel-head">
+          <h3>Six-Slot Equipment Matrix</h3>
+          <span class="mini-badge">2 × 3 grid</span>
         </div>
+        <div id="equipment-grid" class="equipment-grid"></div>
       </article>
     </section>
 
-    <section class="equipment-wrapper">
-      <div class="panel-head">
-        <h3>Six-Slot Equipment Matrix</h3>
-        <span class="mini-badge">Weapon • Necklace • Gloves • Armor • Belt • Boots</span>
-      </div>
-      <div id="equipment-grid" class="equipment-grid"></div>
-    </section>
-
-    <section class="advanced-grid">
+    <aside class="dashboard-column right-column">
       <article class="panel tech-panel">
-        <div class="panel-head"><h3>Tech Parts Configuration</h3><span class="mini-badge">6 slots</span></div>
+        <div class="panel-head">
+          <h3>Tech Parts</h3>
+          <span class="mini-badge">Priority</span>
+        </div>
         <div id="tech-grid" class="tech-grid"></div>
         <button id="btn-tech-order" class="btn-secondary wide" type="button">Generate Target Priority Checklist</button>
         <div id="tech-checklist" class="collapsible-output"></div>
@@ -73,7 +69,7 @@
 
       <article class="panel collectibles-panel">
         <div class="collectible-header">
-          <h3>Collectibles Progression</h3>
+          <h3>Collectibles</h3>
           <button id="tooltip-guide-trigger" class="lightbulb" type="button" aria-label="Collectible guide">💡</button>
           <div id="collectible-tooltip" class="tooltip-card" hidden>
             <strong>Store strategy</strong>
@@ -86,23 +82,21 @@
         </div>
         <div id="collectibles-grid" class="collectibles-grid"></div>
       </article>
-    </section>
-
-    <section class="control-center">
-      <div class="resource-row">
-        <label>Universal Shards Bank<input type="number" id="core-shards-pool" class="input-large" value="0" min="0" /></label>
-        <label>Stellar Cores Bank<input type="number" id="core-stellar-pool" class="input-large" value="0" min="0" /></label>
-      </div>
-
-      <div id="exclusion-toggles" class="toggle-row"></div>
-
-      <button id="btn-execute-optimization" class="btn-primary-trigger" type="button">RUN PERFORMANCE OPTIMIZATION MATRIX</button>
-    </section>
-
-    <section id="results-dashboard" class="results-dashboard" hidden>
-      <div id="results-grid" class="results-grid"></div>
-    </section>
+    </aside>
   </main>
+
+  <section class="optimization-footer">
+    <div class="footer-resources">
+      <label>Universal Shards<input type="number" id="core-shards-pool" class="input-large" value="0" min="0" /></label>
+      <label>Stellar Cores<input type="number" id="core-stellar-pool" class="input-large" value="0" min="0" /></label>
+    </div>
+    <div id="exclusion-toggles" class="toggle-row"></div>
+    <button id="btn-execute-optimization" class="execute-btn" type="button">RUN PERFORMANCE OPTIMIZATION MATRIX</button>
+  </section>
+
+  <section id="results-dashboard" class="results-dashboard" hidden>
+    <div id="results-grid" class="results-grid"></div>
+  </section>
 
   <script src="app.js"></script>
 </body>
