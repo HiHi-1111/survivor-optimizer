@@ -1,0 +1,30 @@
+Damage multipliers 
+Key talent breakpoints 
+Store: 
+OilSource 
+OilAmount 
+Frequency 
+UnlockRequirement 
+DPSRelevant 
+ 
+18. Ender’s Echo Rewards 
+Source: 
+EE_Rewards_2024-09-15 
+What it does 
+Ender’s Echo is a recurring boss damage mode. 
+Rewards are based on: 
+Participation 
+Damage/ranking 
+Season/round rewards 
+Mode progression 
+Optimizer use 
+EE build should prioritize: 
+Single-target boss DPS 
+Crit breakpoints 
+Yang/Metallia/Joey active build 
+Pet damage 
+SS Weapon 
+SS Belt 
+SS Gloves 
+Vulnerability 
+Weaken/Lacerate/Chill/Poison uptime

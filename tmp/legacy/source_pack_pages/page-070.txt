@@ -1,0 +1,34 @@
+EnergyOverloadStacks 
+SkillDamageBonus 
+VoidFissureDamageTakenBonus 
+VoidPowerDamage 
+ChaosMeteorVulnerability 
+DamageToWeakened 
+DamageToChilled 
+BossLockOnBehavior 
+AttackIntervalReduction 
+MaxSkillLevelIncrease 
+Database flags: 
+Slot = Weapon 
+DPSRelevant = Very High 
+Debuffs = Vulnerability, Void Fissure damage taken, Weakened synergy, Chilled synergy 
+ModeValue = Very High for boss modes and general DPS 
+ 
+2. SS Necklace 
+Main association 
+SS Necklace | Skill Choice | Energy Shield | Clarity | Skill Damage | Reverse Scale | Shield HP 
+This is a mixed item. A lot of it is shield/HP, but the useful DPS parts are: 
+Extra skill choice 
+Skill damage 
+Shield-based skill damage 
+Clarity upgrade 
+Reverse Scale 
+Base / rarity effects 
+Skill choice chances when match starts +1 
+HP +15% 
+Adversity: 
+Gain an energy shield with 30% of Max HP when dying. 
+Once per battle. 
+Resets on revival. 
+HP +25% 
+Clarity:

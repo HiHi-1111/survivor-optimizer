@@ -1,0 +1,32 @@
+Dailies 
+Weeklies 
+Events 
+Special Ops 
+Ender’s Echo 
+Clan systems 
+Chapter clears 
+Zone Ops 
+Path of Trials 
+Privilege card 
+Monthly card 
+Ads/free shop 
+Achievements/missions 
+Compensation/mail 
+Optimizer use 
+MonthlyGemIncomeEstimate 
+EventBudget 
+BlackFridaySavingsProjection 
+GemSpendWarning 
+Rule: 
+Spend gems only when expected DPS/item value beats future event value. 
+ 
+17. Sources of Oil 
+Sources: 
+Sources_Of_Oil_2024-11-03 
+Sources_of_Oil_2024-12-18 
+Oil use 
+Oil is tied to talent/account progression. 
+DPS-relevant if it unlocks: 
+ATK 
+Crit Rate 
+Crit Damage

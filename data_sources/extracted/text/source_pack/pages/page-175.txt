@@ -1,0 +1,40 @@
+Whistling Arrow EX: 
+Light and shadow at once. 
+Gets 2 arrows. 
+ 
+Shield Damage Boost +50%. 
+Eternal / Rainbow: 
+Twinborn Blaster Sharkmaw Gun: 
+Explosions pull enemies in. 
+Cluster Arrows can split 1 time. 
+ 
+Drill Shot: 
+Targets hit by Drill Shot take +5% damage. 
+ 
+Whistling Arrow: 
+First Whistling Arrow damage doubled. 
+When target is hit by first Whistling Arrow, second Whistling Arrow deals +900% damage for 
+1.5s. 
+ 
+Skill Damage +75%. 
+Collectible set 
+CollectibleSetName = Hyperrift Tech 
+AssociatedTwinborn = Twinborn RPG / Twinborn Blaster Sharkmaw Gun 
+10x yellow stars: 
+Blaster Sharkmaw Gun damage +24%. 
+ 
+20x yellow stars: 
+Blaster Sharkmaw Gun damage +48%. 
+Damage to Lacerated targets +5%. 
+ 
+10x red stars: 
+Blaster Sharkmaw Gun damage +36%. 
+ 
+20x red stars: 
+Cluster Arrows damage +25%. 
+Damage to Lacerated targets +5%. 
+Optimizer flags 
+Debuff = Poison, Laceration synergy 
+Stats = SkillDamage, ShieldDamage, DamageToLacerated 
+SpecialMechanics = ClusterArrows, Poison, PullExplosion 
+DPSRelevant = High

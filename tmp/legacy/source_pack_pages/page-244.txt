@@ -1,0 +1,40 @@
+Line 
+6 
+Yellow 4 Damage to Chilled targets +40%; Skill Damage +30% 
+Line 
+7 
+Red 2 
+Damage to Chilled targets +60%; Skill Damage +45% 
+Line 
+8 
+Red 4 
+Max Shield Resonance stacks +6 
+Optimizer notes 
+Main buckets: 
+- Skill Damage 
+- Damage to Chilled targets 
+- Shield Damage Boost 
+- Shockwave Blast Damage 
+ 
+Debuffs: 
+- Needs Chilled source to fully use DamageToChilled 
+- Hoverboard itself is more of a Chilled damage scaler than a Chill source unless another source 
+confirms it applies Chill 
+ 
+Conditions: 
+- Thorn Shield stacks 
+- Shockwave Blast triggers 
+- Avoiding hits helps stack/maintain value 
+- Line completion matters 
+ 
+DPSRelevant = Yes 
+UseStyle = Stack shield, avoid hits, convert shield events into damage 
+ 
+8. Doomsteed full extraction 
+Mount identity 
+MountID = MOUNT_DOOMSTEED 
+MountName = Doomsteed 
+UnlockCost = 80 Doomsteed shards 
+UpgradeMaterial = Doomsteed shards + Mount Cores 
+DamageStyle = Blazing Charge collision damage 
+Debuffs = Poisoned damage, Lacerated damage, Boss damage, Root

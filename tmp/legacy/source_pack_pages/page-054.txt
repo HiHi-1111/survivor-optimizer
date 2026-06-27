@@ -1,0 +1,35 @@
+Pet takes 30% damage in place of player 
+DPSRelevant = No 
+Vampirism 
+Increases pet HP absorb from attacks by 1/2% 
+DPSRelevant = No, unless survival model is added 
+ 
+Misc pet skills 
+Nine Lives 
+When player and pet take fatal damage, nullifies that attack and heals allies for 50% HP. 
+Cooldown: 100 seconds. 
+DPSRelevant = No 
+Satellite Cannon 
+Guides satellite to blast a shot at a certain area. 
+Damage: 1000% ATK. 
+Cooldown: 5 seconds. 
++250% damage when owner levels up. 
+DPSRelevant = Yes 
+Time Stop 
+When player's HP is below 30%, stops time and freezes enemies for 5 seconds. 
+Player and pet are invincible during it. 
+Cooldown: 60 seconds. 
+DPSRelevant = No, but useful utility 
+ 
+Assist skills 
+Assist skills are separate from the deployed pet’s normal skill set. These should be modeled as: 
+AssistPetSkill | AssistPet | DeployedPetBuff | InBattleScaling 
+The assist skills shown: 
+Boost 
+For every 5 owner levels, pet Range increases by 5/6/7.5/10%. 
+DPSRelevant = Medium/High 
+Durable 
+For every 5 owner levels, pet shot Duration increases by 8/10/12/15%. 
+DPSRelevant = Medium/High if pet projectile duration matters 
+Penetration 
+For every 10/8/6/5 owner levels, penetrated units of pet shot +1.

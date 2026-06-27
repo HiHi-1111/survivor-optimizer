@@ -1,0 +1,27 @@
+AssociatedForgeEffect 
+RequiredStars 
+BonusType 
+DPSRelevant 
+ 
+Most important DPS connections from this 
+source 
+1. Crit Rate breakpoint system 
+The SS Belt creates major breakpoints: 
+Crit Rate >100% = Crit Damage +30% 
+Crit Rate >130% = Skill Damage +30% 
+Crit Rate >150% = Crit Damage +100% 
+This means Crit Rate is not linear. If an upgrade pushes the player over 100/130/150%, it 
+becomes more valuable. 
+ 
+2. Debuff families involved 
+This SS gear source connects to multiple debuffs: 
+Weaken 
+Chill 
+Vulnerability 
+Void Fissure damage taken 
+That means this source must connect to your Boss_Debuffs table later. 
+ 
+3. Energy Shield / Energy Level are separate systems 
+Do not mix these up. 
+Energy Shield = shield HP system 
+Energy Level = armor/orb damage multiplier system

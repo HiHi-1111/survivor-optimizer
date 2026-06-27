@@ -1,0 +1,35 @@
+Twinborn Molotov Deep Wound +15%. 
+ 
+10x red stars: 
+Twinborn Molotov Damage +10%. 
+ 
+20x red stars: 
+Twinborn Molotov Damage +20%. 
+Optimizer flags 
+Debuff = Deep Wound, Burn 
+Stats = SkillDamage, ShieldDamage 
+SpecialMechanics = BlazingJet, SprayCanister, BossBurn, DeepWound 
+DPSRelevant = High 
+MetaPriority = Good Legendary priority, lower Eternal priority 
+ 
+Batch 4 optimizer table structure 
+Use this table for the database: 
+TwinbornEffectID 
+TwinbornPairID 
+ModeName 
+BaseTech 
+PairedTech 
+Rarity 
+EffectText 
+AffectedStat 
+StatAmount 
+AssociatedDebuff 
+AssociatedSkill 
+Condition 
+DPSRelevant 
+IgnoreForDPS 
+SourceImage 
+SourceDate 
+Example rows: 
+TB_DRONE_RED_DESTROYER | TB_DRONE_FORCEFIELD | Twinborn Destroyer | Drone | 
+Forcefield | Red | Newtype Warhead restores fire rate and doubles explosion range; creates

@@ -1,0 +1,33 @@
+For your damage-only optimizer: 
+SS Weapon = Very High DPS 
+SS Gloves = Very High DPS 
+SS Belt = Very High DPS 
+SS Armor = High DPS 
+SS Boots = High but condition-based DPS 
+SS Necklace = Medium/High, mostly skill/shield conditional 
+HP effects should be stored but mostly ignored for DPS. 
+ 
+1. SS Weapon 
+Main association 
+SS Weapon | Starforged Havoc | Havoc Nova | Eternity Ray | Void Fissure | Void Power | 
+Energy Overload | Chaos Meteor | Chilled/Weakened damage 
+This is one of the most important DPS systems because it combines: 
+Skill damage 
+Attack speed/interval changes 
+Void Fissure damage taken debuff 
+Energy Overload stacking 
+Chaos path max-level increases 
+Chilled target damage 
+Weakened target damage 
+Boss lock-on behavior 
+Base / rarity effects 
+ATK +15% 
+Starforge: 
+Triggers Energy Overload 1 time for every 2 Eternity Ray attacks. 
+Increases own skill damage by 30% for 10 seconds. 
+Max 2 stacks. 
+Starforged Havoc: 
+Higher thrust damage with lower HP. 
+ATK +25% 
+Havoc Nova: 
+Releases Void power during a thrust.

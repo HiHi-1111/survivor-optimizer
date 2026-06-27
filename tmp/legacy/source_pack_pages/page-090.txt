@@ -1,0 +1,36 @@
+SS gear is the late-game gear layer. Each slot has special systems: 
+Slot 
+Main function 
+SS 
+Weapon 
+Starforged Havoc, Void Power, Energy Overload, Void Fissure, Chaos Meteor, 
+boss damage loops. 
+SS 
+Necklace 
+Extra skill choices, skill damage, energy shield effects. 
+SS Gloves 
+Weaken, damage to Weakened targets, Red Star passive scaling, crit damage 
+scaling. 
+SS Armor 
+Energy levels, energy orbs, damage multiplier, skill damage, crit damage by 
+energy level. 
+SS Belt 
+Crit rate ramping, Mega Crit breakpoints, Eternal Laser stored damage. 
+SS Boots 
+Movement speed, Chill, Glacial Bloodline stacks, damage to Chilled enemies, 
+Vulnerability from ice arrows. 
+Unlock / upgrade requirement 
+SS gear upgrades use: 
+Relic Cores 
+Eternal Cores 
+Void Cores 
+Chaos Cores 
+SS gear/fodder requirements 
+Forge path level: E1-E5, V1-V5, Chaos levels where available 
+Most important DPS breakpoints 
+From SS Belt: 
+Crit Rate >100% = Crit Damage +30% 
+Crit Rate >130% = Skill Damage +30% 
+Crit Rate >150% = Crit Damage +100% 
+This means the optimizer must value Crit Rate extra hard when it crosses one of those 
+breakpoints.

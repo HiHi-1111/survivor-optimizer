@@ -1,0 +1,95 @@
+Author: conda-forge
+Commands:
+- conda
+- mamba
+- pip
+- pip3
+- python
+- pythonw
+Copyright: Copyright (c) 2019-2026, conda-forge
+Documentations:
+- DocumentLabel: Docs
+  DocumentUrl: https://conda-forge.org/docs/
+InstallModes:
+- silent
+InstallerType: nullsoft
+Installers:
+- Architecture: x64
+  InstallerSha256: 14A8635465B5190537DDAD6286746FFEBBC55A1ED2A7BB14A506595FE3191E1E
+  InstallerSwitches:
+    Custom: /S /JustMe /AddToPath=0 /RegisterPython=0
+  InstallerUrl: https://github.com/conda-forge/miniforge/releases/download/26.3.2-3/Miniforge3-26.3.2-3-Windows-x86_64.exe
+  RequireExplicitUpgrade: true
+  Scope: user
+- Architecture: x64
+  ElevationRequirement: elevationRequired
+  InstallerSha256: 14A8635465B5190537DDAD6286746FFEBBC55A1ED2A7BB14A506595FE3191E1E
+  InstallerSwitches:
+    Custom: /S /AllUsers /AddToPath=0 /RegisterPython=0
+  InstallerUrl: https://github.com/conda-forge/miniforge/releases/download/26.3.2-3/Miniforge3-26.3.2-3-Windows-x86_64.exe
+  Scope: machine
+License: BSD-3-Clause
+LicenseUrl: https://raw.githubusercontent.com/conda-forge/miniforge/HEAD/LICENSE
+Localization:
+- Author: conda-forge
+  Copyright: Copyright (c) 2019-2026, conda-forge
+  Documentations:
+  - DocumentLabel: "\u6587\u6863"
+    DocumentUrl: https://conda-forge.org/docs/
+  License: BSD-3-Clause
+  LicenseUrl: https://raw.githubusercontent.com/conda-forge/miniforge/HEAD/LICENSE
+  PackageLocale: zh-CN
+  PackageName: Miniforge3
+  PackageUrl: https://github.com/conda-forge/miniforge
+  Publisher: conda-forge
+  PublisherSupportUrl: https://github.com/conda-forge/miniforge/issues
+  PublisherUrl: https://conda-forge.org/
+  ReleaseNotesUrl: https://github.com/conda-forge/miniforge/releases/tag/26.3.2-3
+  ShortDescription: "Miniforge \u662F\u7528\u4E8E conda \u7684\u514D\u8D39\u6700\u5C0F\u5316\u5B89\u88C5\u7A0B\u5E8F\uFF0C\u4E13\u7528\u4E8E
+    conda-forge\u3002"
+  Tags:
+  - anaconda
+  - conda
+  - conda-forge
+  - mamba
+  - python
+ManifestType: merged
+ManifestVersion: 1.12.0
+Moniker: miniforge3
+PackageIdentifier: CondaForge.Miniforge3
+PackageLocale: en-US
+PackageName: Miniforge3
+PackageUrl: https://github.com/conda-forge/miniforge
+PackageVersion: 26.3.2-3
+ProductCode: Miniforge3 26.3.2-3 (Python 3.13.13 64-bit)
+Publisher: conda-forge
+PublisherSupportUrl: https://github.com/conda-forge/miniforge/issues
+PublisherUrl: https://conda-forge.org/
+ReleaseDate: 2026-06-01
+ReleaseNotes: 'What''s Changed
+
+  - docs: Add batch install CLI parameter docs footnote by @5HT2 in https://github.com/conda-forge/miniforge/pull/881
+
+  - Add clarification regarding shell initialization for the macOS pkg installer by
+  @psobolewskiPhD in https://github.com/conda-forge/miniforge/pull/879
+
+  - Pin to mamba 2.5.0 by @jaimergp in https://github.com/conda-forge/miniforge/pull/885
+
+  - Copy for releases after signing by @jaimergp in https://github.com/conda-forge/miniforge/pull/886
+
+  New Contributors
+
+  - @5HT2 made their first contribution in https://github.com/conda-forge/miniforge/pull/881
+
+  - @psobolewskiPhD made their first contribution in https://github.com/conda-forge/miniforge/pull/879
+
+  Full Changelog: https://github.com/conda-forge/miniforge/compare/26.3.2-2...26.3.2-3'
+ReleaseNotesUrl: https://github.com/conda-forge/miniforge/releases/tag/26.3.2-3
+ShortDescription: Miniforge is a free minimal installer for conda specific to conda-forge.
+Tags:
+- anaconda
+- conda
+- conda-forge
+- mamba
+- python
+UpgradeBehavior: install

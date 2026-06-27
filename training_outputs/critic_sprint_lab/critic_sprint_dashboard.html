@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="5">
+<title>Critic Sprint Lab</title>
+<style>
+body { background:#101010; color:#eee; font-family:Segoe UI, Arial; margin:24px; }
+.card { background:#1c1c1c; border:1px solid #333; border-radius:12px; padding:16px; margin-bottom:16px; }
+.good { color:#75f59a; }
+.bad { color:#ff7373; }
+.warn { color:#ffd166; }
+table { border-collapse:collapse; width:100%; font-size:13px; }
+td, th { border:1px solid #333; padding:6px; }
+th { background:#222; }
+</style>
+</head>
+<body>
+<h1>Survivor Optimizer: Critic Sprint Lab</h1>
+<div class="card">
+<p>Rounds: <b>2</b></p>
+<p>Optimizer wins: <b class="good">0</b> | Enemy/Critic wins: <b class="bad">2</b></p>
+<p>Best mode: <b class="warn">starvation</b></p>
+<p>Best cut: <b class="good">77.563%</b></p>
+<p>Latest evaluator regressions: <b>0</b></p>
+<p>Latest critic regressions: <b>2100</b></p>
+<p>GPU critic rows: <b>403200</b></p>
+<p>Top fail: <b class="bad">safe protected fact score too low</b></p>
+</div>
+<div class="card">
+<table>
+<tr><th>Round</th><th>Diff</th><th>Full</th><th>Starve</th><th>Best</th><th>Cut %</th><th>Eval Regr</th><th>Critic Regr</th><th>GPU Rows</th><th>P/S</th><th>Top Fail</th></tr>
+<tr><td>2</td><td>1</td><td>1.0</td><td>1.0</td><td>starvation</td><td>77.563</td><td>0</td><td>2100</td><td>403200</td><td>27.96</td><td>safe protected fact score too low</td></tr><tr><td>1</td><td>1</td><td>1.0</td><td>1.0</td><td>starvation</td><td>77.554</td><td>0</td><td>2100</td><td>403200</td><td>27.663</td><td>safe protected fact score too low</td></tr>
+</table>
+</div>
+</body>
+</html>

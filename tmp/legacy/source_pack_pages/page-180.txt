@@ -1,0 +1,43 @@
+Blue: 
+ATK +100 
+HP +400 
+Purple: 
+In-match Guardian skill becomes Twinborn Guardian. 
+Can evolve into Twinborn Defender. 
+ 
+Twinborn Guardian: 
+Knockback distance doubled. 
+ 
+Laser Launcher: 
+Lasers slow enemies on hit. 
+Yellow: 
+ATK +400 
+HP +1600 
+Red: 
+Twinborn Guardian: 
+Guardian becomes Twinborn Guardian. 
+Damage +200%. 
+ 
+Twinborn Defender EX: 
+Twinborn Defender damage +200%. 
+Chills targets for 5s. 
+Damage to Chilled targets +70%. 
+ 
+Death Ray EX: 
+Snares enemies. 
+Bosses and elites first. 
+Eternal / Rainbow: 
+Twinborn Guardian: 
+Enemies hit by Guardian deal -10% damage. 
+Additional Twinborn Guardian damage +300%. 
+ 
+Twinborn Defender EX: 
+Additional Twinborn Defender damage +300%. 
+Twinborn Defender inflicts Lacerate for 5s on targets hit. 
+Skill Damage +100%. 
+ 
+Laser Launcher: 
+Triggers delayed explosions along the laser path. 
+ 
+Death Ray: 
+Triggers small-range explosion when rays gather.

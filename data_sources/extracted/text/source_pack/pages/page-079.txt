@@ -1,0 +1,37 @@
+Repeat to extend duration. 
+Eternal forge path 
+E1: 
+Ice Armor: 
+2% Energy Shield. 
++4% shield damage boost for each Glacial Bloodline stack. 
+E2: 
+HP +10% 
+E3: 
+Enhanced Ice Armor: 
+Shield damage boost +21%. 
+For every 25% shield HP gained, Movement Speed +10%. 
+E4: 
+Final HP +16000 
+E5: 
+Rime Blast: 
+Charge stacks +1. 
+Void forge path 
+V1: 
+HP +10% 
+V2: 
+Frost Blast: 
+Damage on Chilled enemies +20%. 
+V3: 
+Final HP +16000 
+V4: 
+Ice Arrow: 
+Damage on Chilled enemies +20%. 
+When crystal trail reaches 30 blocks in length, the trail immediately explodes, firing homing ice 
+arrows. 
+Ice arrows inflict Chill and 10% Vulnerability for 10 seconds. 
+Unstackable. 
+V5: 
+Final HP +32000 
+Optimizer notes 
+Boots are good, but they are not always active. The calculator should score them based on 
+whether the mode allows movement and whether chill uptime is realistic.

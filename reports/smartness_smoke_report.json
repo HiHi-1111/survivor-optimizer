@@ -1,0 +1,136 @@
+{
+  "smartness_score_percent": 60.0,
+  "passed": 3,
+  "total": 5,
+  "verdict": "SMARTNESS_NEEDS_MORE_CASES_OR_FIXES",
+  "results": [
+    {
+      "name": "save_rare_core_when_no_breakpoint",
+      "passed": true,
+      "checks": [
+        {
+          "check": "must_include_any",
+          "passed": true,
+          "expected": [
+            "save",
+            "hold",
+            "wait"
+          ]
+        },
+        {
+          "check": "must_not_include_any",
+          "passed": true,
+          "expected_absent": [
+            "spend relic",
+            "waste relic"
+          ]
+        }
+      ],
+      "reason": "Rare core should not be spent if no meaningful breakpoint is available.",
+      "output_preview": "{\"scenario\": {\"id\": \"scenario_1\", \"name\": \"short-term boss damage\", \"description\": \"optimizes immediate damage output using current inventory.\", \"weights\": {\"damage_score\": 1.0, \"long_term_score\": 0.2, \"resource_efficiency_score\": 0.4, \"breakpoint_score\": 0.8, \"confidence_score\": 0.2}}, \"recommendation\": {\"action_id\": \"core_selector:\", \"action_type\": \"use_core_selector_chest\", \"allocation\": {\"astral_core\": 0, \"xeno_core\": 0, \"resonance_chip\": 0}, \"total_score\": 1.0, \"sub_scores\": {\"damage_score\": 0, \"long_term_score\": 0, \"resource_efficiency_score\": 0, \"breakpoint_score\": 0.0, \"confidence_score\": 5.0}, \"reasons\": [\"this is a baseline resource-value estimate until real breakpoints are added.\"], \"confidence\": \"medium\"}, \"best\": {\"action_id\": \"core_selector:\", \"action_type\": \"use_core_selector_chest\", \"allocation\": {\"astral_core\": 0, \"xeno_core\": 0, \"resonance_chip\": 0}, \"total_score\": 1.0, \"sub_scores\": {\"damage_score\": 0, \"long_term_score\": 0, \"resource_efficiency_score\": 0, \"breakpoint_score\": 0.0, \"confidence_score\": 5.0}, \"reasons\": [\"this is a baseline resource-value estimate until real breakpoints are added.\"], \"confidence\": \"medium\"}, \"ranked_alternatives\": [{\"action_id\": \"cor"
+    },
+    {
+      "name": "pet_chest_plus_xeno_core_combo",
+      "passed": false,
+      "checks": [
+        {
+          "check": "must_include_any",
+          "passed": true,
+          "expected": [
+            "pet",
+            "xeno",
+            "chest"
+          ]
+        },
+        {
+          "check": "must_not_include_any",
+          "passed": false,
+          "expected_absent": [
+            "collectible"
+          ]
+        }
+      ],
+      "reason": "Pet chest and xeno core should be evaluated as a combo, not isolated.",
+      "output_preview": "{\"scenario\": {\"id\": \"scenario_1\", \"name\": \"short-term boss damage\", \"description\": \"optimizes immediate damage output using current inventory.\", \"weights\": {\"damage_score\": 1.0, \"long_term_score\": 0.2, \"resource_efficiency_score\": 0.4, \"breakpoint_score\": 0.8, \"confidence_score\": 0.2}}, \"recommendation\": {\"action_id\": \"core_selector:\", \"action_type\": \"use_core_selector_chest\", \"allocation\": {\"astral_core\": 0, \"xeno_core\": 0, \"resonance_chip\": 0}, \"total_score\": 1.0, \"sub_scores\": {\"damage_score\": 0, \"long_term_score\": 0, \"resource_efficiency_score\": 0, \"breakpoint_score\": 0.0, \"confidence_score\": 5.0}, \"reasons\": [\"this is a baseline resource-value estimate until real breakpoints are added.\"], \"confidence\": \"medium\"}, \"best\": {\"action_id\": \"core_selector:\", \"action_type\": \"use_core_selector_chest\", \"allocation\": {\"astral_core\": 0, \"xeno_core\": 0, \"resonance_chip\": 0}, \"total_score\": 1.0, \"sub_scores\": {\"damage_score\": 0, \"long_term_score\": 0, \"resource_efficiency_score\": 0, \"breakpoint_score\": 0.0, \"confidence_score\": 5.0}, \"reasons\": [\"this is a baseline resource-value estimate until real breakpoints are added.\"], \"confidence\": \"medium\"}, \"ranked_alternatives\": [{\"action_id\": \"cor"
+    },
+    {
+      "name": "astral_core_prefers_ss_or_af_path",
+      "passed": true,
+      "checks": [
+        {
+          "check": "must_include_any",
+          "passed": true,
+          "expected": [
+            "astral",
+            "ss",
+            "forge",
+            "core"
+          ]
+        },
+        {
+          "check": "must_not_include_any",
+          "passed": true,
+          "expected_absent": [
+            "trash"
+          ]
+        }
+      ],
+      "reason": "Astral cores should point toward SS/AF-style value, not random spending.",
+      "output_preview": "{\"scenario\": {\"id\": \"scenario_1\", \"name\": \"short-term boss damage\", \"description\": \"optimizes immediate damage output using current inventory.\", \"weights\": {\"damage_score\": 1.0, \"long_term_score\": 0.2, \"resource_efficiency_score\": 0.4, \"breakpoint_score\": 0.8, \"confidence_score\": 0.2}}, \"recommendation\": {\"action_id\": \"core_selector:\", \"action_type\": \"use_core_selector_chest\", \"allocation\": {\"astral_core\": 0, \"xeno_core\": 0, \"resonance_chip\": 0}, \"total_score\": 10.6, \"sub_scores\": {\"damage_score\": 0, \"long_term_score\": 0, \"resource_efficiency_score\": 0, \"breakpoint_score\": 12.0, \"confidence_score\": 5.0}, \"reasons\": [\"astral cores reach a possible ss or astral breakpoint.\"], \"confidence\": \"medium\"}, \"best\": {\"action_id\": \"core_selector:\", \"action_type\": \"use_core_selector_chest\", \"allocation\": {\"astral_core\": 0, \"xeno_core\": 0, \"resonance_chip\": 0}, \"total_score\": 10.6, \"sub_scores\": {\"damage_score\": 0, \"long_term_score\": 0, \"resource_efficiency_score\": 0, \"breakpoint_score\": 12.0, \"confidence_score\": 5.0}, \"reasons\": [\"astral cores reach a possible ss or astral breakpoint.\"], \"confidence\": \"medium\"}, \"ranked_alternatives\": [{\"action_id\": \"core_selector:\", \"action_type\": \"use_core_s"
+    },
+    {
+      "name": "collectible_chest_with_shards",
+      "passed": false,
+      "checks": [
+        {
+          "check": "must_include_any",
+          "passed": true,
+          "expected": [
+            "collectible",
+            "shard",
+            "set"
+          ]
+        },
+        {
+          "check": "must_not_include_any",
+          "passed": false,
+          "expected_absent": [
+            "xeno"
+          ]
+        }
+      ],
+      "reason": "Collectible chest and shards should trigger collectible/set logic.",
+      "output_preview": "{\"scenario\": {\"id\": \"scenario_1\", \"name\": \"short-term boss damage\", \"description\": \"optimizes immediate damage output using current inventory.\", \"weights\": {\"damage_score\": 1.0, \"long_term_score\": 0.2, \"resource_efficiency_score\": 0.4, \"breakpoint_score\": 0.8, \"confidence_score\": 0.2}}, \"recommendation\": {\"action_id\": \"core_selector:\", \"action_type\": \"use_core_selector_chest\", \"allocation\": {\"astral_core\": 0, \"xeno_core\": 0, \"resonance_chip\": 0}, \"total_score\": 1.0, \"sub_scores\": {\"damage_score\": 0, \"long_term_score\": 0, \"resource_efficiency_score\": 0, \"breakpoint_score\": 0.0, \"confidence_score\": 5.0}, \"reasons\": [\"this is a baseline resource-value estimate until real breakpoints are added.\"], \"confidence\": \"medium\"}, \"best\": {\"action_id\": \"core_selector:\", \"action_type\": \"use_core_selector_chest\", \"allocation\": {\"astral_core\": 0, \"xeno_core\": 0, \"resonance_chip\": 0}, \"total_score\": 1.0, \"sub_scores\": {\"damage_score\": 0, \"long_term_score\": 0, \"resource_efficiency_score\": 0, \"breakpoint_score\": 0.0, \"confidence_score\": 5.0}, \"reasons\": [\"this is a baseline resource-value estimate until real breakpoints are added.\"], \"confidence\": \"medium\"}, \"ranked_alternatives\": [{\"action_id\": \"cor"
+    },
+    {
+      "name": "steamroll_prioritizes_damage_not_survival",
+      "passed": true,
+      "checks": [
+        {
+          "check": "must_include_any",
+          "passed": true,
+          "expected": [
+            "damage",
+            "dps",
+            "attack",
+            "steamroll",
+            "core",
+            "xeno",
+            "astral"
+          ]
+        },
+        {
+          "check": "must_not_include_any",
+          "passed": true,
+          "expected_absent": [
+            "hp",
+            "healing",
+            "revive"
+          ]
+        }
+      ],
+      "reason": "Steamroll should bias toward damage/DPS, not defensive value.",
+      "output_preview": "{\"scenario\": {\"id\": \"scenario_1\", \"name\": \"short-term boss damage\", \"description\": \"optimizes immediate damage output using current inventory.\", \"weights\": {\"damage_score\": 1.0, \"long_term_score\": 0.2, \"resource_efficiency_score\": 0.4, \"breakpoint_score\": 0.8, \"confidence_score\": 0.2}}, \"recommendation\": {\"action_id\": \"core_selector:\", \"action_type\": \"use_core_selector_chest\", \"allocation\": {\"astral_core\": 0, \"xeno_core\": 0, \"resonance_chip\": 0}, \"total_score\": 17.0, \"sub_scores\": {\"damage_score\": 0, \"long_term_score\": 0, \"resource_efficiency_score\": 0, \"breakpoint_score\": 20.0, \"confidence_score\": 5.0}, \"reasons\": [\"astral cores reach a possible ss or astral breakpoint.\", \"xeno cores reach a useful long-term xeno progression threshold.\"], \"confidence\": \"medium\"}, \"best\": {\"action_id\": \"core_selector:\", \"action_type\": \"use_core_selector_chest\", \"allocation\": {\"astral_core\": 0, \"xeno_core\": 0, \"resonance_chip\": 0}, \"total_score\": 17.0, \"sub_scores\": {\"damage_score\": 0, \"long_term_score\": 0, \"resource_efficiency_score\": 0, \"breakpoint_score\": 20.0, \"confidence_score\": 5.0}, \"reasons\": [\"astral cores reach a possible ss or astral breakpoint.\", \"xeno cores reach a useful long-term xeno"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+800: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+900: 
+Crit Damage +60 
+Super Soccer Ball explosion damage +100%. 
+Crit Damage +30%. 
+ 
+1000: 
++1400 ATK, +5600 HP 
+ 
+1100: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+1200: 
+Crit Damage +70 
+Every 10 Spiked Quantum Ball hits triggers Hi-Energy. 
+Crit Damage +10%. 
+This effect does not stack. 
+ 
+1350: 
++1600 ATK, +6400 HP 
+ 
+1500: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+1650: 
+Shield Damage +30 
+Every 10 Spiked Quantum Ball hits triggers Protection. 
+Shield damage boost +10%. 
+This effect does not stack. 
+ 
+1800: 
++1800 ATK, +7200 HP 
+ 
+1950: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+2100: 
+Chill Damage +60 
+Every 10 Icy Quantum Ball hits triggers Hoarfrost. 
+Damage to Chilled targets +10%. 
+This effect does not stack.

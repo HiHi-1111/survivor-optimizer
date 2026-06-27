@@ -1,0 +1,35 @@
+10x yellow stars: 
+Crit Damage +20%. 
+ 
+20x yellow stars: 
+Shield Damage Boost +20%. 
+Damage to Poisoned targets +10%. 
+ 
+10x red stars: 
+Twinborn Death Ray damage +4%. 
+Skill Damage +20%. 
+ 
+20x red stars: 
+Crit Damage +20%. 
+Damage to Poisoned targets +10%. 
+Optimizer flags 
+Debuff = Slow/Snare, Poisoned target synergy from collectible 
+Stats = CritRate, CritDamage, SkillDamage, ShieldDamage 
+SpecialMechanics = LockOn, DeathRayExplosion, LaserDelayedExplosions 
+DPSRelevant = High 
+MetaPriority = Strong if crit/skill damage scaling is needed 
+ 
+11. Twinborn Brick / Twinborn 1-ton Iron 
+Pair association 
+TwinbornPairID = TB_MOLOTOV_BRICK 
+Mode = Brick side 
+BaseTech = Brick 
+PairTech = Molotov 
+CanEvolveInto = Twinborn 1-ton Iron 
+Effects by rarity 
+Blue: 
+ATK +100 
+HP +400 
+Purple: 
+In-match Brick skill turns into Twinborn Brick. 
+Can evolve into Twinborn 1-ton Iron.

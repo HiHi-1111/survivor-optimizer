@@ -1,0 +1,35 @@
+1.8 → 2.0 = 5 
+2.0 → 2.2 = 5 
+2.2 → 2.4 = 7 
+2.4 → 2.6 = 9 
+2.6 → 2.8 = 12 
+2.8 → 3.0 = 15 
+Total = 60 resonance chips 
+Drone resonance 
+Drone resonance gives: 
+Attack Wingbit 
+Augment Wingbit 
+Attack Wingbit damage 
+Augment Wingbit damage 
+Wingbit interval reduction 
+Extra shots 
+Precision Device ATK bonuses 
+ATK/HP from resonance milestones 
+The special Drone source also says: 
+Augment Wingbit increases Destroyer/Drone damage. 
+Attack Wingbit attacks enemies with bullets. 
+Attack Wingbit base damage = x8 base attack. 
+Attack duration = 2s. 
+Base cooldown = 4s, can go down to 1s. 
+Augment Wingbit buff duration = 3s. 
+Base buff cooldown = 3s, can go down to 1s. 
+RPG / C4 resonance 
+RPG resonance is tied to: 
+RPG 
+Sharkmaw Gun 
+C4 
+Hi-Maintainer 
+Explosion radius 
+Launch interval 
+Explosion delay 
+C4 explosion damage

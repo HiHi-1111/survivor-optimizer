@@ -1,0 +1,37 @@
+12000: 
+Shield Damage +60 
+EM explosion damage +75%. 
+Additional shield damage boost +10%. 
+ 
+12500: 
++7500 ATK, +30000 HP 
+ 
+13000: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+13500: 
+Skill Damage +165 
+Transgenic Caltrops damage +25%. 
+Mutation effect permanently increases Skill Damage by an additional 65%. 
+ 
+14000: 
++7500 ATK, +30000 HP 
+ 
+14500: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+15000: 
+Poison Damage +150 
+Overload EM explosion damage +75%. 
+Boost effect permanently increases damage to Poisoned targets by an additional 30%. 
+Database flags 
+TwinbornID = TB_DURIAN 
+Mode = Durian / Caltrops 
+PrimaryStats = ShieldDamage, SkillDamage, PoisonDamage 
+Debuff = Poison 
+SpecialMechanics = EMExplosion, OverloadExplosion, LightningBalls, MutationEffect, 
+PoisonBoostEffect 
+DPSRelevant = MediumHigh 
+IgnoreForDPS = HP 
+ 
+2. Twinborn Soccer Resonance

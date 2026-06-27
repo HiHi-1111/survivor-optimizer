@@ -1,0 +1,31 @@
+A2 
+●​ Master Mentor: 
+○​ Equipped Pet Crit Rate +10% 
+○​ Pet Crit Damage +20% 
+A3 
+●​ Phantom Assault: 
+○​ +1 Phantom 
+○​ Phantom damage +20% 
+A4 
+●​ Master Mentor: 
+○​ Equipped Pet Skill cooldown -15% 
+●​ Unlocks 1 Teamwork Passive Slot. 
+A5 
+●​ Phantom Assault: 
+○​ +1 Phantom 
+○​ Phantom damage +20% 
+A6 
+●​ Master Mentor: 
+○​ Equipped Pet Skill cooldown -10% 
+○​ Pet Crit Rate +20% 
+○​ Pet Crit Damage +20% 
+●​ Teamwork Passive Slot +1. 
+Optimizer notes 
+Splinter is heavily tied to pet crit scaling and pet skill cooldown. He should become stronger in 
+the calculator if pets are a major DPS source. 
+Database flags: 
+PetCritRateSource = Yes​
+ PetCritDamageSource = Yes​
+ PetSkillCooldownSource = Yes​
+ Debuff = Slow / Enhanced Slow​
+ GlobalValue = Crit Rate at 5-star​

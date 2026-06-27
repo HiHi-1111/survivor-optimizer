@@ -1,0 +1,53 @@
+{
+  "goals": {
+    "dps_first": true,
+    "hp_weight": 0,
+    "active_state_only": true,
+    "locked_preview_never_counts": true,
+    "inactive_inventory_never_counts": true,
+    "rare_blockers_protected": [
+      "relic_core",
+      "awakening_core",
+      "resonance_chip",
+      "xeno_core",
+      "selector",
+      "s_shard",
+      "pet_awakening_crystal"
+    ],
+    "cheap_material_bait_must_lose": true,
+    "global_plan_required": true,
+    "tiny_runtime_target_mb": 1.0,
+    "micro_runtime_target_mb": 5.0,
+    "potato_target_profiles_per_second": 20
+  },
+  "state": {
+    "cycle": 4,
+    "difficulty": 7,
+    "trap_strength": 36000,
+    "random_cases": 602,
+    "best_pass_streak": 2,
+    "total_failures_found": 0,
+    "created_at": 1782512810.288253,
+    "pass_streak": 2,
+    "speed_pressure": 1,
+    "last_cycle_seconds": 84.704,
+    "last_failures": 0,
+    "last_failure_counts": {},
+    "last_hard_ok": true,
+    "last_speed_ok": true,
+    "last_size_ok": true,
+    "last_runtime_zip": {
+      "folder": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517",
+      "zip": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517.zip",
+      "folder_mb": 0.793,
+      "zip_mb": 0.081
+    }
+  },
+  "last_failure_counts": {},
+  "latest_runtime": {
+    "folder": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517",
+    "zip": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517.zip",
+    "folder_mb": 0.793,
+    "zip_mb": 0.081
+  }
+}

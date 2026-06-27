@@ -1,0 +1,22 @@
+[
+  {
+    "id": "sp_yellow_5_global_crit", "name": "SP Y5 Global Crit Milestone", "category": "crit_stat",
+    "description": "Each documented TMNT SP survivor gives All Survivors Crit Rate +8% at five yellow stars.",
+    "effects": [{"stat": "global_crit_rate", "value": 0.08, "operation": "add", "condition": "yellow_stars >= 5"}],
+    "tags": ["crit", "global", "survivor", "breakpoint"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=3-18", "confidence": "medium",
+    "notes": "Apply once per eligible survivor milestone; verify against the named survivor guide.", "scoring_relevance": ["damage"]
+  },
+  {
+    "id": "ss_belt_crit_thresholds", "name": "SS Belt Crit Thresholds", "category": "crit_stat",
+    "description": "SS belt conditional bonuses trigger above 100%, 130%, and 150% Crit Rate.",
+    "effects": [
+      {"stat": "crit_damage", "value": 0.30, "operation": "add", "condition": "crit_rate > 1.00"},
+      {"stat": "skill_damage", "value": 0.30, "operation": "add", "condition": "crit_rate > 1.30"},
+      {"stat": "crit_damage", "value": 1.00, "operation": "add", "condition": "crit_rate > 1.50"}
+    ],
+    "tags": ["crit", "ss_belt", "breakpoint"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#page=90", "confidence": "medium",
+    "notes": "Threshold wording is strictly above, not greater-than-or-equal; verify against SS gear guide.", "scoring_relevance": ["damage"]
+  }
+]

@@ -1,0 +1,155 @@
+{
+  "best_cut_percent": 90.288,
+  "dashboard": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\extreme_cut_lab\\extreme_cut_dashboard.html",
+  "enemy_wins": 0,
+  "gpu_info": {
+    "cuda": true,
+    "gpu_name": "NVIDIA GeForce RTX 4070",
+    "torch": true,
+    "warmup_seconds": 0.044722
+  },
+  "latest_best_mode": "starvation",
+  "latest_gpu_eval_rows": 0,
+  "latest_gpu_matrix_rows": 4200,
+  "latest_profiles_per_sec": 28.403,
+  "latest_reward_score": 1025.9984,
+  "latest_top_fail": "none",
+  "lessons": {
+    "enemy_wins": 0,
+    "failures": {},
+    "optimizer_wins": 34,
+    "patch_candidates": []
+  },
+  "optimizer_wins": 34,
+  "patch_dir": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\extreme_cut_lab\\patch_candidates",
+  "plateau": false,
+  "repo_weight": {
+    "active_repo_mb_excluding_venv_git_outputs": 731.57,
+    "note": "Audit only. No source deletion.",
+    "risky_cleanup_candidates_audit_only": [],
+    "top_files": [
+      {
+        "mb": 10.046,
+        "path": "data_sources\\extracted\\processed_images\\folder\\Clan_Level_Rewards_2024-11-28_result.png"
+      },
+      {
+        "mb": 10.046,
+        "path": "data_sources\\source_pack\\raw\\Clan_Level_Rewards_2024-11-28_result.png"
+      },
+      {
+        "mb": 7.965,
+        "path": "knowledge\\source_pack\\source_database.json"
+      },
+      {
+        "mb": 7.119,
+        "path": "data_sources\\extracted\\processed_images\\folder\\Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.png"
+      },
+      {
+        "mb": 7.119,
+        "path": "data_sources\\source_pack\\raw\\Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.png"
+      },
+      {
+        "mb": 7.015,
+        "path": "data_sources\\extracted\\processed_images\\folder\\Awakening_Core_Guide_2024-10-04_result.png"
+      },
+      {
+        "mb": 7.015,
+        "path": "data_sources\\source_pack\\raw\\Awakening_Core_Guide_2024-10-04_result.png"
+      },
+      {
+        "mb": 6.598,
+        "path": "data_sources\\extracted\\processed_images\\folder\\Resonance_2024-10-30_result.png"
+      },
+      {
+        "mb": 6.598,
+        "path": "data_sources\\source_pack\\raw\\Resonance_2024-10-30_result.png"
+      },
+      {
+        "mb": 6.555,
+        "path": "data_sources\\extracted\\processed_images\\folder\\Tech_Part_Resonance_Drone_2024-11-28_result.png"
+      },
+      {
+        "mb": 6.555,
+        "path": "data_sources\\source_pack\\raw\\Tech_Part_Resonance_Drone_2024-11-28_result.png"
+      },
+      {
+        "mb": 6.553,
+        "path": "data_sources\\extracted\\processed_images\\folder\\Collectible_Chest_Odds_2024-11-28_result.png"
+      },
+      {
+        "mb": 6.553,
+        "path": "data_sources\\source_pack\\raw\\Collectible_Chest_Odds_2024-11-28_result.png"
+      },
+      {
+        "mb": 6.552,
+        "path": "data_sources\\extracted\\processed_images\\folder\\Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28_result.png"
+      },
+      {
+        "mb": 6.552,
+        "path": "data_sources\\source_pack\\raw\\Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28_result.png"
+      },
+      {
+        "mb": 6.45,
+        "path": "knowledge\\source_pack\\tables\\raw_evidence.json"
+      },
+      {
+        "mb": 6.405,
+        "path": "data_sources\\extracted\\processed_images\\folder\\Survivors_2025-01-26_result.png"
+      },
+      {
+        "mb": 6.405,
+        "path": "data_sources\\source_pack\\raw\\Survivors_2025-01-26_result.png"
+      },
+      {
+        "mb": 6.392,
+        "path": "data_sources\\extracted\\processed_images\\folder\\Master_Yang_Skills_2024-11-28_result.png"
+      },
+      {
+        "mb": 6.392,
+        "path": "data_sources\\source_pack\\raw\\Master_Yang_Skills_2024-11-28_result.png"
+      },
+      {
+        "mb": 6.227,
+        "path": "data_sources\\extracted\\processed_images\\folder\\Pets_2024-11-28_result.png"
+      },
+      {
+        "mb": 6.227,
+        "path": "data_sources\\source_pack\\raw\\Pets_2024-11-28_result.png"
+      },
+      {
+        "mb": 5.886,
+        "path": "data_sources\\extracted\\processed_images\\folder\\EE_Rewards_2024-09-15_result.png"
+      },
+      {
+        "mb": 5.886,
+        "path": "data_sources\\source_pack\\raw\\EE_Rewards_2024-09-15_result.png"
+      },
+      {
+        "mb": 5.754,
+        "path": "data_sources\\extracted\\processed_images\\folder\\Energy_Essence_Cost_2024-11-28 (1)_result.png"
+      },
+      {
+        "mb": 5.754,
+        "path": "data_sources\\extracted\\processed_images\\folder\\Energy_Essence_Cost_2024-11-28_result.png"
+      },
+      {
+        "mb": 5.754,
+        "path": "data_sources\\source_pack\\raw\\Energy_Essence_Cost_2024-11-28 (1)_result.png"
+      },
+      {
+        "mb": 5.754,
+        "path": "data_sources\\source_pack\\raw\\Energy_Essence_Cost_2024-11-28_result.png"
+      },
+      {
+        "mb": 5.733,
+        "path": "data_sources\\extracted\\processed_images\\folder\\Clan_Expedition_Rewards_2024-11-28_result.png"
+      },
+      {
+        "mb": 5.733,
+        "path": "data_sources\\source_pack\\raw\\Clan_Expedition_Rewards_2024-11-28_result.png"
+      }
+    ]
+  },
+  "rounds_completed": 34,
+  "rounds_file": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\extreme_cut_lab\\extreme_cut_rounds.json"
+}

@@ -1,0 +1,200 @@
+{
+  "items": [],
+  "item_effects": [
+    {
+      "id": "survival_effect_guide",
+      "name": "Survival-Only Effect",
+      "category": "item_effect",
+      "description": "Survival-only stat mentioned in source text.",
+      "effects": [],
+      "tags": [
+        "survival",
+        "ignored_by_default"
+      ],
+      "source": "guide.txt",
+      "source_type": "discord",
+      "date": "",
+      "confidence": "low",
+      "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+      "scoring_relevance": [
+        "survival",
+        "ignored_by_default"
+      ]
+    }
+  ],
+  "gear": [],
+  "gear_sets": [],
+  "weapons": [],
+  "skills": [],
+  "survivors": [],
+  "survivor_awakenings": [],
+  "survivor_energy_essence_costs": [],
+  "pets": [],
+  "pet_merging": [],
+  "pet_awakenings": [],
+  "xeno_pets": [],
+  "tech_parts": [],
+  "tech_resonance": [],
+  "tech_resonance_costs": [],
+  "collectibles": [],
+  "collectible_sets": [],
+  "collectible_chest_odds": [],
+  "resources": [
+    {
+      "id": "astral_core",
+      "name": "Astral Core",
+      "category": "resource",
+      "description": "Astral Core is mentioned as an optimizer resource in the source dataset.",
+      "effects": [],
+      "tags": [
+        "core",
+        "astral_forge",
+        "ss_gear"
+      ],
+      "source": "guide.txt",
+      "source_type": "discord",
+      "date": "",
+      "confidence": "low",
+      "notes": "Heuristic extraction from local training text; verify exact values before trusting recommendations.",
+      "scoring_relevance": [
+        "resource"
+      ]
+    },
+    {
+      "id": "xeno_core",
+      "name": "Xeno Core",
+      "category": "resource",
+      "description": "Xeno Core is mentioned as an optimizer resource in the source dataset.",
+      "effects": [],
+      "tags": [
+        "core",
+        "xeno_pet",
+        "awakening"
+      ],
+      "source": "guide.txt",
+      "source_type": "discord",
+      "date": "",
+      "confidence": "low",
+      "notes": "Heuristic extraction from local training text; verify exact values before trusting recommendations.",
+      "scoring_relevance": [
+        "resource"
+      ]
+    }
+  ],
+  "chests": [],
+  "chest_odds": [],
+  "events": [],
+  "event_shops": [],
+  "conversions": [],
+  "crit_stats": [],
+  "source_confidence": [],
+  "breakpoints": [
+    {
+      "id": "breakpoint_af_guide",
+      "name": "Breakpoint: AF",
+      "category": "breakpoint",
+      "description": "Astral Core is best near an AF breakpoint.",
+      "effects": [],
+      "tags": [
+        "af",
+        "needs_review"
+      ],
+      "source": "guide.txt",
+      "source_type": "discord",
+      "date": "",
+      "confidence": "low",
+      "notes": "Heuristic breakpoint extraction. Exact threshold/cost must be verified.",
+      "scoring_relevance": [
+        "utility"
+      ],
+      "requirements": {}
+    },
+    {
+      "id": "breakpoint_ee_screenshot",
+      "name": "Breakpoint: EE",
+      "category": "breakpoint",
+      "description": "screenshot",
+      "effects": [],
+      "tags": [
+        "ee",
+        "needs_review"
+      ],
+      "source": "screenshot.png",
+      "source_type": "discord",
+      "date": "",
+      "confidence": "low",
+      "notes": "Heuristic breakpoint extraction. Exact threshold/cost must be verified.",
+      "scoring_relevance": [
+        "utility"
+      ],
+      "requirements": {}
+    }
+  ],
+  "rules": [
+    {
+      "id": "rule_best_guide",
+      "name": "Rule: Best",
+      "category": "rule",
+      "description": "Astral Core is best near an AF breakpoint.",
+      "effects": [],
+      "tags": [
+        "best"
+      ],
+      "source": "guide.txt",
+      "source_type": "discord",
+      "date": "",
+      "confidence": "low",
+      "notes": "Heuristic rule extracted from trigger wording. Review before treating as final balance guidance.",
+      "scoring_relevance": [
+        "utility"
+      ],
+      "applies_to": [
+        "resources",
+        "pets",
+        "survivors",
+        "survival"
+      ]
+    }
+  ],
+  "hidden_interactions": [],
+  "warnings": [
+    {
+      "id": "training_no_text_screenshot",
+      "name": "Training Warning",
+      "category": "warning",
+      "description": "No readable text was extracted from a dataset file.",
+      "effects": [],
+      "tags": [
+        "training",
+        "needs_review"
+      ],
+      "source": "screenshot.png",
+      "source_type": "discord",
+      "date": "",
+      "confidence": "low",
+      "notes": "Local OCR dependencies are unavailable; image was copied but not OCRed.",
+      "scoring_relevance": [
+        "utility"
+      ]
+    },
+    {
+      "id": "training_extract_warning_screenshot_1",
+      "name": "Training Warning",
+      "category": "warning",
+      "description": "Dataset extraction warning.",
+      "effects": [],
+      "tags": [
+        "training",
+        "needs_review"
+      ],
+      "source": "screenshot.png",
+      "source_type": "discord",
+      "date": "",
+      "confidence": "low",
+      "notes": "Local OCR dependencies are unavailable; image was copied but not OCRed.",
+      "scoring_relevance": [
+        "utility"
+      ]
+    }
+  ]
+}

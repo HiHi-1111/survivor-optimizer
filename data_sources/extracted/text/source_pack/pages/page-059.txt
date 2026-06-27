@@ -1,0 +1,30 @@
+R3: Level 90 
+R4: Level 105 
+R5: Level 130 
+Player ATK from affection 
+The table gives player ATK per affection level and max ATK. 
+Important max ATK values: 
+Base: 300 max ATK 
+Y1: 900 max ATK 
+Y2: 1800 max ATK 
+Y3: 2700 max ATK 
+Y4: 3600 max ATK 
+Y5: 4800 max ATK 
+R1: 6000 max ATK 
+R2: 7500 max ATK 
+R3: 9000 max ATK 
+R4: 11.3k max ATK 
+R5: 15k max ATK 
+Optimizer notes 
+This is very important because pet awakening is not only pet damage. It gives player ATK 
+through affection. 
+For the calculator: 
+PetAffectionATK = Global/player ATK source 
+PetAwakeningCrystalCost = investment cost 
+PetAwakeningStage = unlock requirement 
+HP values should be stored but not scored for your DPS optimizer. 
+ 
+Preferred pet toys 
+The source groups toys by pet pair. 
+Dog + Cat 
+Robot + Frog

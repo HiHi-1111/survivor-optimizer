@@ -1,0 +1,32 @@
+PrimaryStats = CritDamage, SkillDamage, Vulnerability 
+Debuff = Vulnerability 
+DPSRelevant = VeryHigh 
+BestUse = Late-game DPS / vulnerability scaling 
+IgnoreForDPS = HP 
+ 
+2. Twinborn Boomerang Resonance 
+Main association 
+Twinborn Boomerang 
+Twinborn Magvolt Fang 
+Lightning Zone 
+Vulnerability stacks 
+Skill Damage 
+Weakened target damage 
+Phase Driver 
+Stat columns 
+Vulnerability 
+Skill Damage 
+Weakened Damage 
+Optimizer identity 
+Twinborn Boomerang is not like old trash Boomerang. The Twinborn version becomes a 
+Vulnerability stack + Weakened damage + Skill Damage system. 
+DPSRelevant = High later 
+DebuffFamily = Vulnerability / Weaken 
+ScalingType = Vulnerability stacks + Weakened target damage 
+Extracted resonance rows 
+50: 
++200 ATK, +800 HP 
+ 
+100: 
+Max lightning zone strikes +3 
+Twinborn Boomerang does not require passive skill to upgrade

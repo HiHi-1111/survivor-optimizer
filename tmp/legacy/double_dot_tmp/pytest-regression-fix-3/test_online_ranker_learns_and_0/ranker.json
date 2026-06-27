@@ -1,0 +1,163 @@
+{
+  "checkpoint_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\..tmp\\pytest-regression-fix-3\\test_online_ranker_learns_and_0\\ranker.json",
+  "enabled": true,
+  "feature_importance": [
+    {
+      "feature": "immediate_damage",
+      "importance": 0.00976187,
+      "weight": 0.00976187
+    },
+    {
+      "feature": "breakpoint_value",
+      "importance": 0.0021693,
+      "weight": 0.0021693
+    },
+    {
+      "feature": "long_term_damage",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "resource_efficiency",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "rarity_value",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "confidence",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "mode_relevance",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "chain_reaction_value",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "profile_stage",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "scenario_id",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "system_type",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "action_type",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "resource_costs",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "damage_gain_estimate",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "crit_gain_estimate",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "attack_gain_estimate",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "long_term_value_estimate",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "breakpoint_distance",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "resource_bottleneck_score",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "synergy_score",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "save_value",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "chest_expected_value",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "confidence_score",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "missing_data_penalty",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "source_confidence",
+      "importance": 0.0,
+      "weight": 0.0
+    }
+  ],
+  "loaded_from_checkpoint": false,
+  "model": "online_linear_pairwise_ranker",
+  "samples": 1,
+  "updates": 1,
+  "version": 1,
+  "weights": [
+    0.009761870601839528,
+    0.0,
+    0.002169304578186562,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

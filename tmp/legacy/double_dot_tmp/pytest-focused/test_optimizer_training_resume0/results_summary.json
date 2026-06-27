@@ -1,0 +1,16 @@
+{
+  "best_checkpoint_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\..tmp\\pytest-focused\\test_optimizer_training_resume0\\results.checkpoint.json",
+  "coverage_report_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\..tmp\\pytest-focused\\test_optimizer_training_resume0\\results_coverage_report.json",
+  "detailed_metrics_file_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\..tmp\\pytest-focused\\test_optimizer_training_resume0\\results_metrics.json",
+  "false_prune_rate": 0,
+  "full_mode_profiles_per_second": 0.0,
+  "gpu_actually_used": false,
+  "gpu_batch_utilization": 0.0,
+  "gpu_scored_chain_coverage_percent": 0.0,
+  "gpu_wall_rows_per_sec": 0,
+  "learned_pruning_usage_percent": 0.0,
+  "profiles_per_second": 0.0,
+  "profiles_tested": 0,
+  "systems_covered": 0,
+  "test_result_status": "not_run_by_trainer"
+}

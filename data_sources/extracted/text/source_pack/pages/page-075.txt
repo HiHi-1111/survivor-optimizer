@@ -1,0 +1,37 @@
+Eternal forge path 
+E1: 
+Peerless: 
+-100 required hits for energy orb drops. 
++5% additional damage multiplier for each energy level. 
+E2: 
+HP +10% 
+E3: 
+Suppression: 
+Able to trigger Super Enhance at Lv.4. 
++5% additional damage multiplier for each energy level. 
+E4: 
+Final HP +16000 
+E5: 
+Ultimate Eternity: 
+-100 required hits for energy orb drops. 
++10% additional Crit Damage for each energy level. 
+Void forge path 
+V1: 
+HP +10% 
+V2: 
+Cabalistic: 
+Energy level is maxed at the start. 
+Restore additional 2% of energy shield when looting energy orbs. 
+Shield damage boost +10%. 
+V3: 
+Final HP +16000 
+V4: 
+Destructive Restraint: 
+Energy drain speed halved. 
+Shield damage boost +20%. 
+V5: 
+Final HP +32000 
+Optimizer notes 
+This armor is not just tank gear. It creates a full energy-level DPS system. 
+Track: 
+EnergyLevel

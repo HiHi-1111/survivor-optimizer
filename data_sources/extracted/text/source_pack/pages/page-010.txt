@@ -1,0 +1,27 @@
+○​ Damage to Chilled targets +3% 
+●​ Unlocks 1 Teamwork Passive Slot. 
+A5 
+●​ Spinning Smash damage +50%. 
+A6 
+●​ Brotherhood adds: 
+○​ Damage to Weakened targets +3% 
+○​ Damage to Poisoned targets +3% 
+○​ Damage to Chilled targets +3% 
+●​ Teamwork Passive Slot +1. 
+Optimizer notes 
+Donatello is a global scaling engine. He should not be treated like a normal survivor only. His 
+Brotherhood passive creates value based on how many SP awakening passives are equipped. 
+Database flags: 
+GlobalPassive = Brotherhood​
+ ScalingInput = Equipped SP Awakening Passive Count​
+ CritRateSource = +3% per SP passive at A1​
+ SkillDamageSource = +3% per SP passive at A2​
+ CritDamageSource = +3% per SP passive at A2​
+ DebuffDamage = Lacerated / Poisoned / Chilled / Weakened​
+ TeamworkSlot = A4 and A6​
+ DPSRelevant = Very High 
+This one is important for your optimizer because it affects build synergy, not just one survivor. 
+ 
+Michelangelo 
+Main association 
+Michelangelo is associated with:

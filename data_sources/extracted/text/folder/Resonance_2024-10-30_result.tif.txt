@@ -1,0 +1,40 @@
+‘IY Drone Resonance
+
+@ RPG Resonance
+
+@ Molotov Resonance
+
+Increase from | Increase from
+
+petonanca) rane] ro sun ress rom] meese om anna roan] Tine sun
+sonnet an Tal out
+100 1 atack wing sam | 42m | | 10 | | |snormow aun septnencAbomb.scoma vox | |, repeats Ts apa asenc eae
+150 600 4200 | +400 ATK +2400 HP 150 600 4200 | +400 ATK +2400 HP |Soulfires (SF) that will lock on to the nearest target (Lock-on only triggers once)
+[300 | | frrmvomenewnane | zt | toon | | 00 | | feta scomozee |
+350 2000 12000 | +800 ATK +3200 HP 350 2000 12000 | +800 ATK +3200 HP 250 1200 6800 |+600 ATK +3200 HP
+400 Precision Device ATK +5% 400 Hi-Maintainer HP +5% 300 ISF generated +1, fuel barrel fire damage +5%
+500 3000 17000 | +1000 ATK +4000 HP 500 3000 17000 | +1000 ATK +4000 HP 400 Energy Diffuser ATK +5%
+550 Precision Device ATK +5% 550 Hi-Maintainer HP +5% a ISF damage +20%. When 3 SFs hit the same target, it is inflicted with +5%
+600 Astck wing interel-2 aux | rox || soo | | |crerpiionseiay-oss scomavon | eep wound ors
+800 Precision Device ATK +5% 800 Hi-Maintainer HP +5% 550 Energy Diffuser ATK +5%
+| 200 | | asomentwraoromesion | ssem | asean_| 600 S¢ spawn round terval
+100 Precision Device ATK +5% 1000 5600 30000 | +1400 ATK +5600 HP 800 Energy Diffuser ATK +5%
+1200 [Attack Wingbit Dmg +50% 2.64% 28.75% 100 Hi-Maintainer HP +5% 900 ISF Damage +30%
+1500 Precision Device ATK +5% 1350 7200 | 38000 |+1600 ATK +6400 HP 1100 Energy Diffuser ATK +5%
+1300 | 9000 | 47000 |+1800 ATK +7200 HP | 150 | | -——_—chexplosion delay -05s.scomg+20% --«s——SSs«s| | 1350. | 7200 | 30800 | +1600 ATK +6400 HP
+1950 Precision Device ATK +5% 1800 9000 | 47000 | +1800 ATK +7200 HP 1500 Energy Diffuser ATK +5%
+200 attack Wingbit +5 shots, Intervals esex | 4ossx | | 1950 HtMaintainer HP +596 | 1650 | | —_—_|se poison effect damage 100% Polson durations =|
+2400 Precision Device ATK +5% 2250 1000 57000 | +2000 ATK +8000 HP 1950 Energy Diffuser ATK +5%
+2700 | 18500 | 69500 |+2500 ATK +1000 HP | 2550 | |__| ce explosion racius +20%. C4 explosion delay -0.55.S¢.0mg+20%| | 2250 | 11000 | 46000 |+z000 ark +8000 HP
+2850 Precision Device ATK +5% 2700 | 13500 | 69500 |+2500 ATK #10000 HP 2400 Energy Diffuser ATK +5%
+3500 | 16500 | 94500 |+3000 ATK +12000 HP | 3000 | | -—_ctexplesion img +35%.sc0me+20%  -—-—s| | 2700. | 18500 | 56000 |+2500 ATK +10000 HP
+4000 Precision Device ATK +5% 3500 | 16500 | 84500 |+3000 ATK +12000 HP 2850 Energy Diffuser ATK +5%
+4500 Attack Wingbit Dmg +25%,+5 shots 9.53% 93.71% 4000 Hi-Maintainer HP +5% 3000 SF damage +30%, Deep Wound effect +5%
+5000 | 20000 | 102000 | +3500 ATK +1400 HP | 4500 | | _——_|ctexplosion radius +20%.scomgxio% «=| | 3500. | 16500 | 68000 +3000 ATK +2000 HP
+5500 Precision Device ATK +5% 5000 20000 | 102000 | +3500 ATK #14000 HP 4000 Energy Diffuser ATK +5%
+7000 Precision Device ATK +5% 6500 24000 | 122000 | +4000 ATK +16000 HP 5500 Energy Diffuser ATK +5%
+8500 Precision Device ATK +5% 8000 | 30000 | 152000 |+6000 ATK +24000 HP. 7000 Energy Diffuser ATK +5%
+[9000 |__| __|asomentwingbit omg enhancement 20x | «20% | soon | | 2500 Hints HP #5 7300 St gnerted Fre damage 15%
+Data by @jj_g4m3r 9000 SF Damage +10%, Deep Wound effect +5%
+
+‘Game version 3.3. Updated 2024-10-30

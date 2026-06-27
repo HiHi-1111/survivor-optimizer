@@ -1,0 +1,327 @@
+*
+&
+
+Frog
+
+3®@
+
+© Fish
+
+¢ Spits corrosive saliva Spits explosive bubbles
+
+that deals 200% ATK
+
+damage/1s for 2s
+
+Primary
+Attack
+
+“S266
+
+Cooldown: 15
+
+Increases
+owner’s Skill
+Damage by 3%
+
+A)
+
++
+
+Increases pet’s
+
+inherited HP by
+10%
+
+\4
+
+Increases owner’s
+Battle EXP gain
+by 7.5%
+
+iB.
+se
+Increases
+owner’s Crit Rate
+by 4%
+
+cmp
+Soh
+Increases
+owner’s Crit
+
+Damage increase per level up
+
+at enemies. Hits and
+explosions deal 200%
+‘ATK damage
+
+es
+
+4%)) Dog
+
+Yells at enemies with _ ‘€4PS up and smashes the
+
+loud noises to deal
+250% ATK damage
+
+Damage increase per level up Damage increase per level up_
+
+Cooldown: 1s
+
+8
+4
+Increases
+
+owner’s Battle
+EXP gain by 5%
+
+e
+
+Increases owner’s
+Collision Damage
+Reduction by 10%
+
+&
+
+Increases owner’s
+Shot Damage
+Reduction by 15%
+
+Become bigger,
+increases pet’s
+ATK and Skill
+Range by 20%
+
+i)
+
+When owner’s HP is below
+
+30%, stops time and freezes
+
+all enemies for 5s, during
+
+Damage by 10% which the player and pet are
+
+invincible. 60s CD
+
+Increases
+owner’s Crit Rate
+by 3%
+
+a2
+6
+Increases owner’s
+Crit Damage by
+6%
+
+@)
+
+Increases pet’s
+movement by
+75%
+
+@:.
+
+Increases pet’s HP
+absorb from
+attacks by 2%
+
+Takes 30%
+damage in place of
+owner
+
+S) Turtle
+
+ground hard to create a
+shockwave that deals
+300% ATK damage
+
+Damage increase per level up
+
+Increases owner’s
+Shot Damage
+Reduction by 10%
+
+G
+
+Increases owner’s
+Collision Damage
+Reduction by 10%
+
+Reduces pet’s
+revival time by
+30%
+
+Increases pet’s
+inherited HP by
+15%
+
+@
+
+Reduces pet’s
+damage taken by
+60%
+
+fa
+& Eagle
+
+Flaps wings to create a
+whirlwind that deals 350%
+ATK damage. Whirlwind
+penetrates all enemies
+Damage increase per level up
+
+Cooldown: 1s
+
+&
+Become bigger,
+increases pet’s
+ATK and Skill
+Range by 15%
+
+a
+
+Increases pet’s
+ATK Damage by
+15%
+
+& yy
+2o
+Reduces pet’s
+ATK and Skill CD
+by 20%
+
+@)
+
+Increases pet’s
+movement by
+75%
+
++2
+oy
+
+Attacks have 5% — when player and pet take
+chance to deal 10x fatal damage, nullify that
+damage to enemies _ attack and heal al allies
+
+below 50% HP
+
+(
+
+HK Cat
+
+claws to deal 200%
+ATK damage
+
+Damage increase per level up
+
+Increases pet’s
+ATK and Skill Crit
+Rate by 15%
+
+@
+
++
+
+Increases pet’s
+
+inherited HP by
+10%
+
+Reduces pet’s
+ATK and Skill CD
+by 20%
+
+«
+
+Increases pet’s
+ATK Damage by
+20%
+
+9uP.
+
+for 50% HP. 100s CD
+
+» Crab
+
+at enemies to deal 500%
+
+ATK damage. Water bullets
+
+penetrate 2 enemies
+
+“S88
+
+Cooldown: 1s
+
+Increases pet’s
+HP absorb from
+attacks by 1%
+
+Increases pet’s
+ATK Damage by
+15%
+
+cS
+bo}
+Increases pet’s
+ATK and Skill Crit
+Rate by 20%
+
+CS
+C2
+Increases pet’s
+
+inherited ATK by
+15%
+
+7
+©
+Reduces pet’s ATK
+
+and Skill CD by
+30%
+
+—p
+
+A Robot
+
+Scratches with sharp Fires powerful water bullets Fires 3 burning lasers at
+
+enemies to deal 400%
+ATK damage
+
+Damage increase per level up Damage increase per level up
+
+Reduces pet’s
+ATK and Skill CD
+by 15%
+
+Lo
+
+Reduces pet’s
+revival time by
+20%
+
+@
+
+Reduces pet’s
+damage taken by
+40%
+
+j
+fe
+
+Increases pet’s
+inherited ATK by
+15%
+
+©
+323
+Guides satellite to blast a
+powerful shot at a certain
+area to deal 1000% ATK
+
+damage. 5s CD. +250%
+damage when owner levels up

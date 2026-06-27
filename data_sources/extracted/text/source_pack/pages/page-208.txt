@@ -1,0 +1,32 @@
+Twinborn Rocket/RPG 
+Twinborn Durian 
+Twinborn Soccer 
+Twinborn Molotov/Brick 
+Collectibles 
+Skill Damage 
+Skill Damage is one of the best generic DPS stats. 
+Main sources: 
+SS Necklace Clarity 
+SS Gloves Berserk 
+SS Armor Super Enhance 
+Yang skills 
+Pet Encouragement 
+Twinborn resonance 
+Combat Harmony 
+Collectibles 
+Tech parts 
+Optimizer logic: 
+TotalSkillDamage = 
+ GlobalSkillDamage 
++ GearSkillDamage 
++ SurvivorSkillDamage 
++ PetSkillDamage 
++ TechSkillDamage 
++ ConditionalSkillDamage 
+Do not mix Skill Damage with Crit Damage. They are separate multiplier groups unless the 
+calculator later confirms exact game formula. 
+ 
+3. Relic Core Usage 
+Sources: 
+Relic_Core_Usage_-_Enders_Echo_2024-11-29 
+Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29

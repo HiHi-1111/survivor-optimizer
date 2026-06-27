@@ -1,0 +1,42 @@
+[
+  {
+    "row_id": "src_db677208af2ce990",
+    "data_type": "shop",
+    "system": "clan_shop",
+    "subsystem": "clan_shop",
+    "item_id": "clan_shop",
+    "name": "Clan Shop",
+    "rarity": null,
+    "level": null,
+    "star": null,
+    "awakening": null,
+    "cost": null,
+    "currency": "clan_coin",
+    "quantity": null,
+    "limit": null,
+    "unlock_condition": "chapter 3 won",
+    "effect_type": null,
+    "effect_value": null,
+    "effect_unit": null,
+    "damage_bucket": null,
+    "debuff_type": null,
+    "applies_to": null,
+    "consumed_by": null,
+    "source_kind": "exact",
+    "confidence": "exact",
+    "extraction_method": "visual_table_verified",
+    "damage_relevance": "indirect",
+    "long_term_value": null,
+    "recommended_disposition": "profile_dependent",
+    "ignore_for_dps": true,
+    "needs_review": false,
+    "source": {
+      "source_file": "Clan_Shop_2025-02-17_result.png",
+      "page_or_image": 1,
+      "section": "Clan Shop Table",
+      "original_source_file": "Clan_Shop_2025-02-17_result.png"
+    },
+    "notes": "",
+    "metadata": {}
+  }
+]

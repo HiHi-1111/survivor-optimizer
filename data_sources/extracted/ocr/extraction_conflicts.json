@@ -1,0 +1,2377 @@
+[
+  {
+    "candidate_fact_ids": [
+      "fact_001839d45b6c18d12a550aee",
+      "fact_09b82e415b58f01d8b834954",
+      "fact_6816182197c4582fbea1eef9",
+      "fact_a4694b90989c498f3ebdab52",
+      "fact_cb5364ecbddf800d4718ba52",
+      "fact_e75aa3e796a4f54179d663e9"
+    ],
+    "canonical_subject": "black",
+    "id": "conflict_a7627efeb43868586ab14e36",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Weapons_V2_2_2024-11-28.webp",
+      "Weapons_V2_2_2024-11-28_result.png",
+      "Weapons_V2_2_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_0099fa3b54f49507778c3419",
+      "fact_9f34e3e6f5720ae9cb3db5a3",
+      "fact_b5a795d05adefc4e6fff4328"
+    ],
+    "canonical_subject": "fee_x",
+    "id": "conflict_714571c4cd4f32fb64f3cfb6",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28.webp",
+      "Skills_2024-11-28_result.png",
+      "Skills_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_012c3f8a4a9f71d4f7eeefc5",
+      "fact_4fe9e8e00877cb3d84c90099",
+      "fact_55fabe23095ff7ada85e67a4",
+      "fact_72ff611fd6ffca2c840c0bfb",
+      "fact_7a3d3b93d21692b99d3c9eaa",
+      "fact_7a8fa788c14298375259c204",
+      "fact_8653bdd8140a815916bc50d8",
+      "fact_932932329ef4b08820b9a625",
+      "fact_9521f4ca0fb286e160916bdb",
+      "fact_a267c0ebfb595bfe2fe900bb",
+      "fact_a7f8f6a388ef0775f43fd7ba",
+      "fact_bc17332a32dfda822cd623f4",
+      "fact_e488dec8db716929ba4c2b91",
+      "fact_e63cf818deb7c9870a8b563e",
+      "fact_eb4bac36952f4450179974ca",
+      "fact_f0bf316210a1efdfe37e051f",
+      "fact_f4f5dfabd622d79c184c71ca",
+      "fact_f51337f3152969d9bb6d3fcf"
+    ],
+    "canonical_subject": "precision_device_atk_atk_hp_energy_diffuser_atk",
+    "id": "conflict_25fb92ac9d05537c995d85d4",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Resonance_2024-10-30_result.png",
+      "Resonance_2024-10-30_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "tech_resonance"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_018a7fd30ad9f50538ce3fdd",
+      "fact_04944856903da075aead4195",
+      "fact_05ad36460bf9fe8f564f4d27",
+      "fact_0720f64911c17c5da3514fdc",
+      "fact_0b2180298c49a82fa87019cc",
+      "fact_0d8aad8caffddbcd31f187ab",
+      "fact_0e13fd37d3a0973ebf55d8a6",
+      "fact_0e3303b10a144097933247bd",
+      "fact_120327ac228fb767c08a3e7e",
+      "fact_12fa4ea6f30a5ea7ac8c0656",
+      "fact_1498a861a4c1f60c035793bb",
+      "fact_180aad79e56622f860f33654",
+      "fact_1df59408c05eb279962cf90f",
+      "fact_1f6e61080ece556569b777af",
+      "fact_1f73656b9aaa98cb419672c9",
+      "fact_210e4ddfb0d21e8aef71c0c5",
+      "fact_21ece896fc1479c9cd3279df",
+      "fact_2229759a29c7ec003056ddca",
+      "fact_246c7bcd07ff2933cbea1a2a",
+      "fact_24ef6bbfc06eec2339d330f0",
+      "fact_26b64a13a3c9c466287691dd",
+      "fact_26c88ea39df5e0e6c5288882",
+      "fact_29af3fd026f18b30000e2c9d",
+      "fact_2a3bdb3c20e5f627819cdaa2",
+      "fact_2c2791ea9eed89ed20385473",
+      "fact_2cff8a8e04dbc77362446b82",
+      "fact_2d50531dd49b1baea392bd93",
+      "fact_30f7db93b76ae61af79d2348",
+      "fact_326f9e6dce08e0940e172b86",
+      "fact_34129ae082d8fbfbf1219afc",
+      "fact_34358123f2e68ba38b5920c9",
+      "fact_382ebbc3bbfc139827f013e1",
+      "fact_38fee3dda5b8a748c198516e",
+      "fact_39568ffd25fa24e623917e6e",
+      "fact_3afcabc4ca571b4ed9ceb847",
+      "fact_3ba6673bc93f5095fb9ce6cf",
+      "fact_42066172aebdc62aed27dc1e",
+      "fact_46f987802ae1e8443dcfd2ff",
+      "fact_48f22a0c5e75476b8be8cd61",
+      "fact_4c4874a8ca7e71a8eff6df5c",
+      "fact_4d77c06f354e160fa2011fcb",
+      "fact_51b4cd53a90cf9df03f6170e",
+      "fact_521d1d64883fa500d60ba62a",
+      "fact_5775742212712f7494ec592c",
+      "fact_5995777caf25974fc2cde2c0",
+      "fact_5a3f07b172bc02eb8c0f339a",
+      "fact_5b16009201a21ad414c73440",
+      "fact_5c222ca79c96cb868d5c0cae",
+      "fact_5e0beeb973d785592c4c3ff4",
+      "fact_5f1053b19456725d44f4c96c",
+      "fact_605fcde2d9bd452cd6d33c7a",
+      "fact_63ffbf974b2653d23de706d3",
+      "fact_64b4ae6f184089fde81ed28c",
+      "fact_671c1cb5e80bf9ddcd3684ac",
+      "fact_6f4ea4e60bb86e45e8b4aad4",
+      "fact_6fc09a65192d885ffddc04a3",
+      "fact_71c5d3df3a971e6c7a632281",
+      "fact_722abda54e33c5f4af3502f8",
+      "fact_7343ec56895ddb74ce68c857",
+      "fact_8085eb400702c8ca66099c9a",
+      "fact_81e8cee1116721e6f1fc8ef3",
+      "fact_8285711c86547d188a765a24",
+      "fact_834fcb1d5a5b7454764d5adc",
+      "fact_884ce7e5dc82e5d94a2f5a19",
+      "fact_89a4a994c32a25d09b218583",
+      "fact_8a88596b36fda3e5ecbc942c",
+      "fact_8abcfcf7d96e3cbd8395be91",
+      "fact_8ca423a419204c7726e80366",
+      "fact_8cac5676129bb510a53c78c8",
+      "fact_8f631d2c90884cad83fdf6f3",
+      "fact_905cdb78642e840d2da88179",
+      "fact_90cd925edff591352f5ceac2",
+      "fact_90eaf75e84fe4dc1ffb1df03",
+      "fact_91665588dd0de31388b54b1e",
+      "fact_91f7f41436a903f136e71b84",
+      "fact_983149c29c1cddfb46142edc",
+      "fact_9bf1afb61f3b6ac0a8bc7e81",
+      "fact_a09904905371ebeafa308c0a",
+      "fact_a132a3589cace55be44e19d2",
+      "fact_a3d807f55556f54a4608eebf",
+      "fact_a41aabdbe62f4b6ffcfb00cd",
+      "fact_a5359bbffa14973e02c47571",
+      "fact_a5ea9aa7795829a5afe31f3e",
+      "fact_a607f80a28530a1bd5cab480",
+      "fact_ad55155478aef04cffb321fe",
+      "fact_ad781a86f1bfedf561ef5863",
+      "fact_af1a302c8ddd9da778d5ce48",
+      "fact_b02b2375b9b94bcee97f9e63",
+      "fact_b0a116b96ddb16bdff21f7e1",
+      "fact_b0cb40e179944540c629f3a7",
+      "fact_b60bcc7325775baecdd809b4",
+      "fact_bf20c99ff5fb5672a3746993",
+      "fact_bf4d96efca313d574e69520f",
+      "fact_c0691caaeeaa2b19d6204259",
+      "fact_c120a3c4c4c380200a432278",
+      "fact_c21245443f7eebfcacfb11cf",
+      "fact_c28679d643992b0714d9d243",
+      "fact_c314f558254bb6cd648f64bd",
+      "fact_c4d08f1e0e0e8b8332999a43",
+      "fact_c583dbf76362b429e07c7a50",
+      "fact_c95c046fc73ad173fb30c7d6",
+      "fact_c9aee978f892feec069c0c18",
+      "fact_c9d497eaa14c4b059d77ebdf",
+      "fact_cd248111695e4cdc96c52c00",
+      "fact_cd560858d5ccd2c987254a71",
+      "fact_d080df5efb097f33993d03fd",
+      "fact_d18e4b3a7d7d308436c6821d",
+      "fact_d205fe2598eadb92aea585a6",
+      "fact_d30063fa30c4d998b2e9ece9",
+      "fact_d8e5ebaa71c416589dfaf1fd",
+      "fact_d91bd534d08f2e9dff92dfde",
+      "fact_da1be75a7c38b73b1efd8a94",
+      "fact_db3b3df1e75ed9db1a331554",
+      "fact_dbe10296258206544cd1b4e1",
+      "fact_dcc0ab8ab9d6c5a7966cf639",
+      "fact_df781e7f2e9cf4fa60f2ae62",
+      "fact_e05bbbdaa9b13ddc844dbfaa",
+      "fact_e1ba7c7622dbb5826cc0922f",
+      "fact_e42cf838fd591a2fd2109680",
+      "fact_e48a37812235d026d93c4fa9",
+      "fact_e71cfaae530f881b734c582d",
+      "fact_e77eb1293206bc8aac88be3b",
+      "fact_e9a4a381892bbadf47c2ca78",
+      "fact_ed40793638268ced978b461d",
+      "fact_ed4d23de4f4af6608206860d",
+      "fact_ef49a79129f72c2fd9d5890f",
+      "fact_f0dc9a920ab26d9228e10106",
+      "fact_f5ba463c0430c7d10a22a2ff",
+      "fact_f6ac439564faa48eee641e72",
+      "fact_f73341f9b8bf46c1359c24f0",
+      "fact_f74fa52114c76e659e722fea",
+      "fact_f8db643162fcb951781ee41f",
+      "fact_fa4ccd91dcb32c4a2433c485",
+      "fact_fb56066bda8ae4902d6d4f97",
+      "fact_fb6138a33bddaeb7eb4e23cc",
+      "fact_fbf4b20e7600713492b6ba48"
+    ],
+    "canonical_subject": "k",
+    "id": "conflict_d047703e4569b4527d769a18",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Energy_Essence_Cost_2024-11-28 (1).webp",
+      "Energy_Essence_Cost_2024-11-28 (1)_result.png",
+      "Energy_Essence_Cost_2024-11-28.webp",
+      "Energy_Essence_Cost_2024-11-28_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "survivor_energy_essence_costs"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_01a5232116771f2944b0690b",
+      "fact_03046b95ea1f111b202d9a64",
+      "fact_16f2bb3e5dfc0ec3424df5f1",
+      "fact_1bea624d63cc0c79597ebb4a",
+      "fact_1ecd4a545885186c3755fa6c",
+      "fact_20a9625d87a3c18114a9e450",
+      "fact_298e396ecba4f6d457394b30",
+      "fact_2ace71995f9fbc784dd157a4",
+      "fact_2f0929afce2f94bb4857b436",
+      "fact_419c2d0571a7b17515381834",
+      "fact_432f22b1ca923afaf1c1804b",
+      "fact_489f90bf0ff43dd5930dcbe0",
+      "fact_4cd3eff45e6669cf9d962fdd",
+      "fact_54b34cafeba583dfcd1da969",
+      "fact_602678bde1b8b649114dad1a",
+      "fact_7a75a5fc1eae78276bbcd67f",
+      "fact_85ef0051bee969a7951fd70e",
+      "fact_8922e36f51721b4fb4ed151b",
+      "fact_8edc90b7f87c0a0de4ecf19d",
+      "fact_9792c278d42acb1fccb717df",
+      "fact_9a12847f63f8f0a1ea435e4b",
+      "fact_9aab3d0951e59686bdfe152b",
+      "fact_a3908e21d771e70dd5ecb9d8",
+      "fact_b5c182de29ec3c32ba535372",
+      "fact_b6d769fa4a9f0c051e29d064",
+      "fact_bb6cfbe4a3b3e477eed57260",
+      "fact_c02a932e954f3564f5e68421",
+      "fact_c41b3695480e9ef3b34d7a63",
+      "fact_d1df93894a35c7a8fce5872e",
+      "fact_d4eb99612c3cf802e1bab459",
+      "fact_ddcd3036dbbbac149c593a72",
+      "fact_deb125f030044d35a8185cf8",
+      "fact_e858a0aec80acb8804f5f7a1",
+      "fact_f0b9f09c133aacad4ee792e1",
+      "fact_f21755c0626a120e6e587b4a",
+      "fact_f45acdd65e473d34c4c95ede",
+      "fact_f7a3e87b19e1826874f9d1b1",
+      "fact_f9bc3d45dc1e9e49add4028b",
+      "fact_fac178c97307edcb4c8acef0",
+      "fact_fca5df6be670c1a65266e914"
+    ],
+    "canonical_subject": "k_k_k_k",
+    "id": "conflict_ca09038832e794ccc2fdd4a3",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Equip_Design_Costs_2024-11-14.webp",
+      "Equip_Design_Costs_2024-11-14_result.png",
+      "Equip_Design_Costs_2024-11-14_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_01aa315ce58f7b8e8ad2eb51",
+      "fact_29451983273c99e8df86f72a",
+      "fact_774ba13396a39759ecd34373",
+      "fact_7d4b398a8a4e41a57c04694e",
+      "fact_807734bda8867220d834e614",
+      "fact_98dab5c9bae248f1a956d0b9",
+      "fact_b241783389d832099054c41e",
+      "fact_dacb84915ca4d0a348cf4fad",
+      "fact_e5425bc2b7631e243cf7648f"
+    ],
+    "canonical_subject": "hit",
+    "id": "conflict_a4fa6827226dabef38b6bb91",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Weapons_V2_2_2024-11-28.webp",
+      "Weapons_V2_2_2024-11-28_result.png",
+      "Weapons_V2_2_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_0214923575c156f8d265b0e2",
+      "fact_04f9da29171ef6524c535afe",
+      "fact_5568cd5f802918454040f1a0",
+      "fact_93c8edbe15595a0e13926365",
+      "fact_a929f1b23746d0f6c9b23192",
+      "fact_f36be21b9133d80e845c19be"
+    ],
+    "canonical_subject": "array",
+    "id": "conflict_96345586ddf34de165755e84",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Weapons_V2_2_2024-11-28.webp",
+      "Weapons_V2_2_2024-11-28_result.png",
+      "Weapons_V2_2_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_02671e4867f2d39fc5b8a4c6",
+      "fact_376ed7b00f12d4596e39523a",
+      "fact_511d6d94d9862958ae67d5fa",
+      "fact_87939a9ccccbac246655b2e1",
+      "fact_8c835fe78df6ee76dec3f2e7",
+      "fact_99c3e4f05a866c75f4f6f6c3",
+      "fact_ab1253dccef43f7bd8c4a773",
+      "fact_ddd6843f143686a9fa5805bb"
+    ],
+    "canonical_subject": "ee",
+    "id": "conflict_cdad917e49ca59559e52c3bc",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.png",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_02b95a5b2cd6cf1bda94cb64",
+      "fact_1728668b48f522301d40c7e4",
+      "fact_5bd727e9079c721c2b0dd128",
+      "fact_6a8742bf549b263986650898",
+      "fact_ddc294abfe9fcad937ecb39d"
+    ],
+    "canonical_subject": "fe_k",
+    "id": "conflict_bf319bfb010d36543d9b04c9",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28.webp",
+      "Skills_2024-11-28_result.png",
+      "Skills_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_030a8a6ec13a3fc6324a4638",
+      "fact_431d8e013b52664a2aed4af2",
+      "fact_9340eb6fe70e4b56d1853456"
+    ],
+    "canonical_subject": "after_take_each_pet_to_y5_with_a_balanced_approach_to_get_the_most_atk_per_crystal_ex_all_pet",
+    "id": "conflict_d3a811151845aa4131318ebc",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04.webp",
+      "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04_result.png",
+      "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "pets"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_03988ed15468880838f08457",
+      "fact_07bc2efcbff45585b778dcc8",
+      "fact_17b158ea3e0d4190c370657d",
+      "fact_2c1d53ddba567ec6b98e603a",
+      "fact_34c58982af33c5b5ca0c7b1b",
+      "fact_379a3b1a7f35557f0bfab647",
+      "fact_4f6654341a829286a2e93d77",
+      "fact_5099518f65cb36eab3646be1",
+      "fact_52e43423212d77a2004edd01",
+      "fact_57a1e2ca150b2e93d9867edd",
+      "fact_5d3cc1eb35559def982c48cd",
+      "fact_5e693789f4ba2e479b4e03df",
+      "fact_75d73c0ff60de7af7c6dceff",
+      "fact_7866971d7bd09bed08659d07",
+      "fact_7fe73d10946d680fb8b12fba",
+      "fact_87566be9e30979a4d38a426d",
+      "fact_8c7c76bd6aca60ab669b8464",
+      "fact_9532888b7cb362f850245a75",
+      "fact_aa9466aac43d7ceb14a94165",
+      "fact_c27af8e530def5959835ba0a",
+      "fact_c94b639bf807db6a4d1d8f1b",
+      "fact_ec431fc644fef6b1d15d000e",
+      "fact_f041f7897f5fca14fefebdbc",
+      "fact_f74c638f6d1153046ed967fa"
+    ],
+    "canonical_subject": "survivor_hp",
+    "id": "conflict_c1f213e4f432947e2b981f16",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Clan_Level_Rewards_2024-11-28.png",
+      "Clan_Level_Rewards_2024-11-28_result.png",
+      "Clan_Level_Rewards_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "survivors"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_03b12705efc98f098696686a",
+      "fact_11d18d10734047578084c032",
+      "fact_20921112bad72dabf365beeb",
+      "fact_9238cf1e1c222ebe39d05bea",
+      "fact_c0e028e6614418cb953d20ae",
+      "fact_c32e120a926ec0fc2df4d0c4"
+    ],
+    "canonical_subject": "when",
+    "id": "conflict_37f787dd85ce4b29460d2192",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Weapons_V2_2_2024-11-28.webp",
+      "Weapons_V2_2_2024-11-28_result.png",
+      "Weapons_V2_2_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_03bd0de03539d3ce449f6c67",
+      "fact_1f6133540cab66ed6bd2a96b",
+      "fact_2902908a9838cb1c3b067cec",
+      "fact_31c522c0aa70612cfc01a7ab",
+      "fact_36d38940ba930c8ce5ff5f4d",
+      "fact_371c4b771982824cfdd0232d",
+      "fact_4af6e412dce7d2bb7901468c",
+      "fact_4eea82cff8101d4ce67488f7",
+      "fact_573e02a500acc585c7565fe0",
+      "fact_61fc8d74a16f249e188e5ee2",
+      "fact_68849abbb9a6668546f72702",
+      "fact_6acc4de73e1aed92257d0182",
+      "fact_6d34e11a26f0f0f0da262f22",
+      "fact_6eb2c2a09371829f86026230",
+      "fact_748a50df33eea24f02726df4",
+      "fact_77f6fabe0671dcdc102831d2",
+      "fact_7b1132d6561b70a3279d295f",
+      "fact_7f6a0d9b9750dc3da3ce0a46",
+      "fact_91fd071ae25590c401b55b68",
+      "fact_a24d19180fce71398e823872",
+      "fact_acdae3e763a5f99df5b5acaa",
+      "fact_aeb01a4cdaa229cfd14c89e4",
+      "fact_b9625af42e21bc4edac4b0e7",
+      "fact_c5a28222648ad18445d82100",
+      "fact_cb88ffbc6e3ce5189a09462a",
+      "fact_cd4b128b298cd7c3ddeb086f",
+      "fact_d9b5116726ac0f732acf8a24",
+      "fact_dadc03aa7d9274d4e54daba8",
+      "fact_db2cd7853cde978c4f4e8182",
+      "fact_e4f7020446ea7b63849da2c3",
+      "fact_eaf2f381f26d85c1b293e57f",
+      "fact_ef892f655154986901923f60",
+      "fact_f9a77aafb0f5d4a0a4220ce8",
+      "fact_fd7d1b3997b1816b10353769"
+    ],
+    "canonical_subject": "k_k",
+    "id": "conflict_bd0c37af8c281c28fc4d3225",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Energy_Essence_Cost_2024-11-28 (1)_result.tif",
+      "Energy_Essence_Cost_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "survivor_energy_essence_costs"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_03d9b52d04d0522a32d6cec5",
+      "fact_1686903f1e81696789ad9f25",
+      "fact_4405ac2f77bdc451fca55afe",
+      "fact_49fa5604e72092ccc3841337",
+      "fact_586c26c644e97aea0cf6487d",
+      "fact_5c6d9a8f7adda22b505679cd",
+      "fact_634bd893c8c46f183336cb53",
+      "fact_7634322aa5a874172868f1b1",
+      "fact_7eb68e7cedbcb9f0d9465e16",
+      "fact_7f49beaa288f058f5f6e33f0",
+      "fact_8268b9f9e4a00c04a27cd0df",
+      "fact_911e38b5af6fdcc88a8ee77d",
+      "fact_a6099c4e5307884bc1482c06",
+      "fact_b540030f33a43e02640ce93c",
+      "fact_b5ae31192f6c9ba9b1537b01",
+      "fact_c9fbd0fca75d755c7e28a6ff",
+      "fact_eab5fa7fc6db8fc87772c844",
+      "fact_f8dcc290cc97ae517db2f4c8",
+      "fact_fb60645512bdc6e2108f84f1"
+    ],
+    "canonical_subject": "are",
+    "id": "conflict_7cc6c242572c21f07699c2e7",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28.webp",
+      "Skills_2024-11-28_result.png",
+      "Skills_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_04eb61ef031f0e80852792bc",
+      "fact_3e6e45769058976ee53128fa",
+      "fact_7d82eef41ad057e1439709af",
+      "fact_9fe73b6185aba3f816467c65",
+      "fact_defc99c4c6f52df4feb71643"
+    ],
+    "canonical_subject": "et_f2p_gems_season_excluding_events_and_packs",
+    "id": "conflict_557c94269c21d3a5f249c21b",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Sources_Of_Gems_2024-10-07_result.png",
+      "Sources_Of_Gems_2024-10-07_result.tif",
+      "Sources_of_Gems_2024-12-18.webp",
+      "Sources_of_Gems_2024-12-18_result.png",
+      "Sources_of_Gems_2024-12-18_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "chests"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_052762b31bdfc36f50a2a00e",
+      "fact_4ef52cc7b927e7173344c28d",
+      "fact_94af24db339ba7318f90761f",
+      "fact_a32ebb251857e729e3866587",
+      "fact_bf500ae698ff178651b373b0",
+      "fact_cd08d637bd418c698b08b024"
+    ],
+    "canonical_subject": "max_s",
+    "id": "conflict_88d63496bab275c546cfdfbc",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28.webp",
+      "Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28_result.png",
+      "Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "tech_resonance"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_052e7d8982462e618c7f0078",
+      "fact_538b456984759428633e952d",
+      "fact_8a528549b86e9437c4dee143",
+      "fact_c772815d3556e6794379dc85"
+    ],
+    "canonical_subject": "hen_x",
+    "id": "conflict_9b13cc7f1c0bcc70faa8779f",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28.webp",
+      "Skills_2024-11-28_result.png",
+      "Skills_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_05a3d3ccd074f3833bc1a01e",
+      "fact_14c3d6d940b60c97dbecdb53",
+      "fact_539d6715a17959504dcadb48",
+      "fact_73a664b302f4a88536a8fb4d",
+      "fact_7cd8a6f431076441549ee2ab",
+      "fact_b5fc6b61d3522aa9d9ecd20d",
+      "fact_e4d88aeb6d0339b9d521d404",
+      "fact_f6d7550cfca471477d79906c"
+    ],
+    "canonical_subject": "bb",
+    "id": "conflict_b646ad56167eb779e1cedb63",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29.webp",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.png",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_06a7572e9f82307894bd5a6e",
+      "fact_4c6f106b536634b896f2f7ff",
+      "fact_663236b4cbed2bba687211ca",
+      "fact_a1f7db5fabbc82bf913fef6a",
+      "fact_c03c6199f96605aec504c6e8"
+    ],
+    "canonical_subject": "hey_k",
+    "id": "conflict_b55438633df3cf7da64b12cd",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28.webp",
+      "Skills_2024-11-28_result.png",
+      "Skills_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_06b23025344c609c5fc6d379",
+      "fact_0fbccf5239069e971ab25296"
+    ],
+    "canonical_subject": "e",
+    "id": "conflict_f05d0f2bbf5638ee6a305258",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Collectibles_Edition_3_2024-11-28.webp",
+      "Item_Values_2024-10-02.webp"
+    ],
+    "status": "manual_review_required",
+    "system": "collectibles"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_080f2d8813517b08ebc384ab",
+      "fact_52a287bd8dfa0e6e8e4639fe",
+      "fact_abf00de7a6d0520e7b623488",
+      "fact_b0b51d918a1378d03d83f50d",
+      "fact_c27679243d308e4d41d16ad5",
+      "fact_c95f5127a5608b45000a1187",
+      "fact_efd380fc9fb540a70a788bff",
+      "fact_f998f4e3b32a355e3c985c65"
+    ],
+    "canonical_subject": "to",
+    "id": "conflict_9969d995033e1c7e5aa92f08",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.png",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.tif",
+      "Weapons_V2_2_2024-11-28.webp",
+      "Weapons_V2_2_2024-11-28_result.png",
+      "Weapons_V2_2_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_085a56414c7ff78bceab8841",
+      "fact_1092c521ff3cb5747c361ff7",
+      "fact_6e04d302b54c95f8593cc37d",
+      "fact_899944a43cb9c5392e33f6e1",
+      "fact_cb0f279d57971766f54ca17e"
+    ],
+    "canonical_subject": "sen_x",
+    "id": "conflict_94614effbe2e2567fb338497",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28.webp",
+      "Skills_2024-11-28_result.png",
+      "Skills_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_0924f32e2d3f7b06a0c7f01a",
+      "fact_4616d30725722dac52738b3b",
+      "fact_9d98abe477652ace75d6bd89"
+    ],
+    "canonical_subject": "a_special_ops_estimate",
+    "id": "conflict_db60a0603585c55f5e71330a",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Sources_Of_Gems_2024-10-07.webp",
+      "Sources_Of_Gems_2024-10-07_result.png",
+      "Sources_Of_Gems_2024-10-07_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "chests"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_09aced0f6ef3b70f8814aed0",
+      "fact_2c5f60af58710330a6371f4e",
+      "fact_340077229a2ec4d7c3ed918a",
+      "fact_5bd29f5ff21ea963d1418980",
+      "fact_88321f869802d05873ec575e",
+      "fact_e4c8791a08992ec5f1b256da"
+    ],
+    "canonical_subject": "go_to_https_danke0_com_calc_damage_increase_to_calculate_the_most_accurate_spread_for_your_stats",
+    "id": "conflict_9eaaa9d695dea3dfb9749756",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29.webp",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.png",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.tif",
+      "Relic_Core_Usage_-_Enders_Echo_2024-11-29.webp",
+      "Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.png",
+      "Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_0a1aa0ec2f40ec6800610da4",
+      "fact_2bc79b8715766b746963b3fb",
+      "fact_6b9d8f2910fba6a5bb4c7644",
+      "fact_a738844c7bf40f625e2ca03b",
+      "fact_d05d3fc1884004d4c7d3d7a3"
+    ],
+    "canonical_subject": "oy",
+    "id": "conflict_1f28d057e1925d0b4ff0735d",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Relic_Core_Usage_-_Enders_Echo_2024-11-29.webp",
+      "Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_0a9875d7f16152f69b5af623",
+      "fact_4d1bceb3c8d62afaf9100a8e",
+      "fact_50deb8fd02601dabdd052e4d",
+      "fact_8f1b051711fe650341125f88",
+      "fact_a4ecffc90a2ed07c8dab83c2",
+      "fact_bd077e46a15f20f329efba7c"
+    ],
+    "canonical_subject": "stats",
+    "id": "conflict_98f1f4a1b9d044a68cd16c36",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Weapons_V2_2_2024-11-28.webp",
+      "Weapons_V2_2_2024-11-28_result.png",
+      "Weapons_V2_2_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_0a9f20a8b1387edb34806652",
+      "fact_1f7c8c8fdcb840a7951923cc",
+      "fact_1fd333574d37adbabb599e70",
+      "fact_2484311371682bfdc2f7dcc1",
+      "fact_339a716be96a32577a4e3e37",
+      "fact_43439de7b57c48d28c045792",
+      "fact_6b14d49e291f8089bbe28c6a",
+      "fact_6d00d88eea70ee0ae364e115",
+      "fact_712e61a3271453cc3ffcd092",
+      "fact_99f03a55fce968416c846e8e",
+      "fact_be63a73754e9090c0f5c3576",
+      "fact_ca9367bfaa3f9ddaa26c8ab3"
+    ],
+    "canonical_subject": "m_m_m_m",
+    "id": "conflict_8fcbabe2629099c7ebf77436",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Equip_Design_Costs_2024-11-14.webp",
+      "Equip_Design_Costs_2024-11-14_result.png",
+      "Equip_Design_Costs_2024-11-14_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_0adc406c885da656573ad2da",
+      "fact_760b946e18cae0a3077ed454",
+      "fact_8ca9ac00eb130ddb56c6a2df",
+      "fact_b107edd2c68dfcaafc5b291a",
+      "fact_b2b6146b5b8d51bb1314c9d6",
+      "fact_d10abff5dc9f4038e0baec6d",
+      "fact_d4ab7cc4c39b90bd9a9a1325",
+      "fact_e5152cdca1d85cf1233907ec",
+      "fact_fea5be629f1bbe95d3a1b4f8"
+    ],
+    "canonical_subject": "x2",
+    "id": "conflict_14fd421dcc3656de038a8877",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Clan_Level_Rewards_2024-11-28.png",
+      "Clan_Level_Rewards_2024-11-28_result.png",
+      "Clan_Level_Rewards_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "survivors"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_0b30590a75395bf6af83c08d",
+      "fact_0fe01781ab127fcd31079b76",
+      "fact_5180d20c636d052bfbbe2ba3",
+      "fact_5f0659daa038a84eceb0a99e",
+      "fact_82a89f1d670c4aa1cb9a9347",
+      "fact_9125b564d551c1073a73dde0",
+      "fact_9b6c1d2eb6232535da53900b",
+      "fact_b1577ee4acac2cbacef7a92e",
+      "fact_f351297abb7dee7331cd96fb"
+    ],
+    "canonical_subject": "quantity",
+    "id": "conflict_e14df55940aceb006c1dfb06",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Survivor_Pass_2024-12-19.webp",
+      "Survivor_Pass_2024-12-19_result.png",
+      "Survivor_Pass_2024-12-19_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_0edefb4ef83cb61effaa5031",
+      "fact_32d1b7187953205dadb0c993",
+      "fact_6ae35be51c5b3987609cd5d2",
+      "fact_9aed750b3c6af29f5e78390d",
+      "fact_be91e1bfc80b5fc5968b8ccd"
+    ],
+    "canonical_subject": "i",
+    "id": "conflict_af9ad38d00411f036d73fd47",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29.webp",
+      "Relic_Core_Usage_-_Enders_Echo_2024-11-29.webp",
+      "Weapons_V2_2_2024-11-28.webp",
+      "Weapons_V2_2_2024-11-28_result.png",
+      "Weapons_V2_2_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_0f78fa65b0859b4d4c336018",
+      "fact_2fa0d16912c829a7c42f08d5",
+      "fact_8c49017069a968db6730eb89"
+    ],
+    "canonical_subject": "hh",
+    "id": "conflict_e58b9929462977c2d3eeddcd",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Gloves_V2_2024-11-28_result.png",
+      "Gloves_V2_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "crit_stats"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_0ff8653accee5d278e171fee",
+      "fact_2cac75e26b17edf0eda22a1a",
+      "fact_2f681141c5519695c5654632",
+      "fact_32a72be02d1a85e0b139dcc9",
+      "fact_3670990ada17bb6e1e2f0a50",
+      "fact_39954dd0dcf0e05d096c9194",
+      "fact_3e87ac9b2cfa94caa85f984c",
+      "fact_5fb753836c1d7d2d57e3b81c",
+      "fact_6b5fee4ffc76626a9eb5a0d2",
+      "fact_9d68a72528e8b586eada2ad6",
+      "fact_b35395d64e69fe4d855bcad1",
+      "fact_bbe52d248fc2d92f9d9876da",
+      "fact_dafce16dedc20ed0f32c0f18",
+      "fact_f4ee8c6ff98822085b79753c",
+      "fact_f68f37ca3aade2e9c2531e01"
+    ],
+    "canonical_subject": "x1",
+    "id": "conflict_3586496fff067f0976642dea",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Clan_Level_Rewards_2024-11-28.png",
+      "Clan_Level_Rewards_2024-11-28_result.png",
+      "Clan_Level_Rewards_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "survivors"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_104ccaccdf39c6b189d4edc6",
+      "fact_16234fb7dc3152ac197a8c27",
+      "fact_2831c35bb88431db7098c31c"
+    ],
+    "canonical_subject": "game_version_updated",
+    "id": "conflict_8c1c051b67e5a18c60f752da",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Resonance_2024-10-30.webp",
+      "Resonance_2024-10-30_result.png",
+      "Resonance_2024-10-30_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "tech_resonance"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_104f143aa28bca3c00f3d22c",
+      "fact_40391a6b05b79ea296d981eb"
+    ],
+    "canonical_subject": "game_version_updated_credits_khaled_ahmed_thatf2pnewb_gaslightking_eustia",
+    "id": "conflict_d782689023ee5a83b51b48e6",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Sources_of_Gems_2024-12-18_result.png",
+      "Sources_of_Gems_2024-12-18_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "chests"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_10ef838916ae9abaed6f316f",
+      "fact_239c871877eae41e65e90ef4",
+      "fact_3900e01af3b084b13e7e7797",
+      "fact_689598f95bab5c1d178171f7",
+      "fact_9baa06ea346881e798422690",
+      "fact_a5ec3bed749c6543044438ee",
+      "fact_cec8f3db353beef04d52505e",
+      "fact_dddb7f6e6f2c934c71b9c4c1",
+      "fact_e0d6119a9620b5e30a71a65a",
+      "fact_f2dde032b016507727d4ddf0",
+      "fact_f6ae04b27708354a03b79cf9",
+      "fact_f93ef50faff69f2edb4ac444"
+    ],
+    "canonical_subject": "ot",
+    "id": "conflict_3df2f8e2eb1a37c1721d5d38",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29.webp",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.png",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_11376812db2fcb35cb2bb826",
+      "fact_19b610c1f44bb0b019806bbf",
+      "fact_2f511fb7dbc339ece1870169",
+      "fact_51ed922e465cd0b780fb4186",
+      "fact_54cb701899706ab832ac6e1f",
+      "fact_7cbced6d360a99ec99bb36cc"
+    ],
+    "canonical_subject": "max",
+    "id": "conflict_03685371b64a2a298e8899e4",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Weapons_V2_2_2024-11-28.webp",
+      "Weapons_V2_2_2024-11-28_result.png",
+      "Weapons_V2_2_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_12c9b87434db9ffe1c88458e",
+      "fact_2034d1b0034bdc88697e13ea",
+      "fact_408592c258869dcaa7c99d99",
+      "fact_56364f5f44313a9b889e22e2",
+      "fact_68034f0317cb1c2ffe551ed6",
+      "fact_7255546b644d8ae9c778bb4c",
+      "fact_726885185096ebc141ff7e76",
+      "fact_75599fa31889aa95274316a6",
+      "fact_a857c68a06ef8188cc138f60",
+      "fact_a9dfb6519b48429b0f8299a4",
+      "fact_ab6473453980fc8db47bcc3e",
+      "fact_cec99e28aa574c706e932a26",
+      "fact_d1792717b84ca256f1946236",
+      "fact_d2f1ca659aa82df85c49145e",
+      "fact_de794a42681d5a1b3381fb76",
+      "fact_ebe434d43d97abc5f32be83c",
+      "fact_eca9c69b8fd24e450eca3b15"
+    ],
+    "canonical_subject": "k",
+    "id": "conflict_e27b73d24ce4d0bc1fe9e94d",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "EE_Rewards_2024-09-15.webp",
+      "EE_Rewards_2024-09-15_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "events"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_137dd3fbc5ccee9afa91f5d4",
+      "fact_1d11dcfd6f79138e44d99cda",
+      "fact_81cbcb59ad157d624d6db5e4",
+      "fact_a4e0dc68b1ce122220ba121d",
+      "fact_d206aae07d1e39040dbbc56d"
+    ],
+    "canonical_subject": "wx_a_k",
+    "id": "conflict_77162e7c7f9469e5e4e7b767",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04.webp",
+      "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04_result.png",
+      "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "pets"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_1412ffc20880d816efd52ad4",
+      "fact_2513c1338607920d65ec1006",
+      "fact_55c70a1d6bb5861beaae8dc1",
+      "fact_7050e6e34e7a2d777c45bc34",
+      "fact_8b23d82f4fd5a4a93f560dc6",
+      "fact_8f61084c4ae8384dec9b5c1b",
+      "fact_97d9f40493e8bac0f38c67cb",
+      "fact_c0c139554b8bcc9b5cb14998",
+      "fact_cf7c2f515f29d4cb08100dfc",
+      "fact_d007ba085f932cc68c2baa4d",
+      "fact_d4c91b186a3a23e87b9f423e",
+      "fact_edf64f95cd49a210befccca5"
+    ],
+    "canonical_subject": "max_clan_size_increased_to",
+    "id": "conflict_3c16b23722b55f97b435d6be",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Clan_Level_Rewards_2024-11-28.png",
+      "Clan_Level_Rewards_2024-11-28_result.png",
+      "Clan_Level_Rewards_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "survivors"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_146c939ae422f96436cae735",
+      "fact_261b011e77ec83c14e68d111",
+      "fact_2be040dfa6a9411b7f5bb599",
+      "fact_2be7e8a7ff086523f8d23a05",
+      "fact_466ceb1d0317dc5dfb171d79",
+      "fact_65bbd7addcbca4d32a74c7d5",
+      "fact_7279101e1de8cacb64721964",
+      "fact_81d575f2bed70ba389370a9d",
+      "fact_84f766902e21d27bd281b069",
+      "fact_91402f8e24c33b11a86c2549",
+      "fact_966658cf603b1702cd76919c",
+      "fact_97eec3635427386587208c80",
+      "fact_9bd0f6b0c24c7ddabda0b358",
+      "fact_a11baa98b33b09d7648575a8",
+      "fact_aeb7905da5fcd2a5d72a9777",
+      "fact_b46122f9c1abafe50d6e2f91",
+      "fact_ba4a2f67cff2d639599e7fa7",
+      "fact_bb0202f66ceed979188d36a6",
+      "fact_bd0d79425b06fa40121a638a",
+      "fact_bdc890b9eaa4996f0994a97e",
+      "fact_bf9b4e4a02aa3488204e3da8",
+      "fact_c01804159bc97749754fc4f2",
+      "fact_c1e89bc732853a9c63e9dcb0",
+      "fact_c37201b007a4bf3f8cf47663",
+      "fact_e40cee5bacdc279017050582",
+      "fact_fbd3111b21dd9fc0e5d69974",
+      "fact_fff2ffe1978ea17a40e09f3b"
+    ],
+    "canonical_subject": "k_m_k_m",
+    "id": "conflict_61d05020710fb55df13b980f",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Equip_Design_Costs_2024-11-14.webp",
+      "Equip_Design_Costs_2024-11-14_result.png",
+      "Equip_Design_Costs_2024-11-14_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_14abcaaaaf83610b682f1bd0",
+      "fact_3aac763d7debe3b20d282e5a",
+      "fact_824ff61d2dc3dcd508f0ca7a",
+      "fact_c5808a796d258769cd31ff56"
+    ],
+    "canonical_subject": "game_version_updated",
+    "id": "conflict_aaaaa92ba7b3c6df4ea83191",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29.webp",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.png",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.tif",
+      "Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_153e3e4ddacb566a90e35cd7",
+      "fact_164d92c95dc470de868cfff6",
+      "fact_1ab551e6dc331863be56cf44",
+      "fact_7e2674b587b59f159c018fc4",
+      "fact_c9583407ae32f50d07447dec",
+      "fact_eee7ecc61838b8f1acaf92b9"
+    ],
+    "canonical_subject": "per_tmnt",
+    "id": "conflict_5753c357580041f389962801",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Boss_Debuffs_2024-12-27.webp",
+      "Boss_Debuffs_2024-12-27_result.png",
+      "Boss_Debuffs_2024-12-27_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "survivors"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_18914718feb2305da21a6a30",
+      "fact_3396efe6161924ce8299ecb5",
+      "fact_5dff36d206fa01afa90a3fa8",
+      "fact_65615da41bedaf81c8ac8cfa",
+      "fact_65f3418ff8899a62b2b945a9",
+      "fact_93bad03f46c1293659cb3c24",
+      "fact_ae4f8ad884410e54979fbf41",
+      "fact_d2c5fcaac0dd5b4fd6a988c9",
+      "fact_e058caa3e2acc46a3855dc5a",
+      "fact_f42fde9f29d7cebe2acdd964",
+      "fact_fb5a44f39751df88fc9ac35c"
+    ],
+    "canonical_subject": "e",
+    "id": "conflict_5570b67d1e42b2429f5be7f2",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Boots_V2_2024-11-28.webp",
+      "Boots_V2_2024-11-28_result.png",
+      "Boots_V2_2024-11-28_result.tif",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29.webp",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.png",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.tif",
+      "Relic_Core_Usage_-_Enders_Echo_2024-11-29.webp"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_18e59a17f3eca5a455b60458",
+      "fact_68f7af63651d53ee4ef4c869",
+      "fact_6e541b56fd311087d3520310",
+      "fact_7257369406f73be0dd185f78",
+      "fact_c8876d24a92f8e0448b9d8f6",
+      "fact_ce193031296428b11dc7a102"
+    ],
+    "canonical_subject": "reduced",
+    "id": "conflict_16855fed2eaf263dff3d31d9",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Weapons_V2_2_2024-11-28.webp",
+      "Weapons_V2_2_2024-11-28_result.png",
+      "Weapons_V2_2_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_18e9ec59866eaef78b1f1696",
+      "fact_55826999cd269befe5c8bf3a",
+      "fact_5c8c466333389055fa3569cf",
+      "fact_aee0daea75eaf20d9b1da5fe",
+      "fact_b00f2f6c5335c2b5cb2b8b5b",
+      "fact_dfda5d4202ccf28977300f77"
+    ],
+    "canonical_subject": "reduction_by",
+    "id": "conflict_2470175209863bd16145431f",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Pets_2024-11-28.webp",
+      "Pets_2024-11-28_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "crit_stats"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_19808e4749a819c34459ceda",
+      "fact_ddd18147b1458d1e559fa9fe"
+    ],
+    "canonical_subject": "top_ke_ke_ky",
+    "id": "conflict_5eeb09f9ae3a35b9257fe949",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Clan_Expedition_Rewards_2024-11-28.webp",
+      "Clan_Expedition_Rewards_2024-11-28_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "events"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_1a56a0263e32498ee64b1d07",
+      "fact_48f274e0eb50ddf54abddbc7",
+      "fact_bfd7f62cbbdd47382cfb264e",
+      "fact_d9d94a1703871a8fd5d842d1",
+      "fact_f14e41fa8c24021c0d495218"
+    ],
+    "canonical_subject": "an_x",
+    "id": "conflict_31d79c6e20da9604109488e3",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28.webp",
+      "Skills_2024-11-28_result.png",
+      "Skills_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_1ba39ca36429444d3fd51498",
+      "fact_a7bdc09c96b734588b02b9e7"
+    ],
+    "canonical_subject": "be_a",
+    "id": "conflict_15dc1b27e29267944fd74189",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29.webp",
+      "Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_1c15d7fef8d30cdd71efd877",
+      "fact_42fc40f740f0ab34b897e904",
+      "fact_9fb5d364c20a5764b8658e34",
+      "fact_e0a76a142e7da475db555862",
+      "fact_fe6eb99c62c1164787ee0bda"
+    ],
+    "canonical_subject": "range_by",
+    "id": "conflict_7450acd69a40c374f7aa897b",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Pets_2024-11-28.webp",
+      "Pets_2024-11-28_result.png",
+      "Pets_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "crit_stats"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_1c1e6153b27e0b05bb576e45",
+      "fact_2e5a08d68b80a5daa3cf6838",
+      "fact_7a68c432a1c92e2a44dabeca",
+      "fact_7b1cb2e41372986ea4dbd3cd",
+      "fact_b08cb6e98c5eb39cb4a31883",
+      "fact_df2cca551e451e783b268928"
+    ],
+    "canonical_subject": "sword",
+    "id": "conflict_00fe6ec64a11f9e68652da9d",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Weapons_V2_2_2024-11-28.webp",
+      "Weapons_V2_2_2024-11-28_result.png",
+      "Weapons_V2_2_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_1cf51181704e5003d6b4e921",
+      "fact_20071ebc965fb0e58ce6a3b6",
+      "fact_2adc9f186cd2fd61159514ee",
+      "fact_5a1a564d84a6e81b4c7fd1f3",
+      "fact_625066e116d47ba7b240fa03",
+      "fact_73debea1f2bf3313d23801ab",
+      "fact_c6a4189a7c07e843b3ee42f0",
+      "fact_d65792f2c7feda83441f5c9e",
+      "fact_e59b84604f5661327b67fa6c",
+      "fact_f19c66467418ef466961c3f7"
+    ],
+    "canonical_subject": "of",
+    "id": "conflict_4c84f14c903dba8db87f4e92",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29.webp",
+      "Relic_Core_Usage_-_Enders_Echo_2024-11-29.webp",
+      "Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.png",
+      "Weapons_V2_2_2024-11-28.webp",
+      "Weapons_V2_2_2024-11-28_result.png",
+      "Weapons_V2_2_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_1d2051fedaa090c5d91bd4b1",
+      "fact_4636508bee4a16938053a272",
+      "fact_5f8c6ee3681b2c91e70cc62b",
+      "fact_6c56b82ab154515cc142e817",
+      "fact_6d1d6844157f0ed405988a0b",
+      "fact_71cd5ce93af564501325a261",
+      "fact_9e37721733e7c5a4ae94f050",
+      "fact_a5675c7378abb639eee730c5",
+      "fact_ac62999341b06a9db4bd4829",
+      "fact_b726a5ca33f8ad7a86134263",
+      "fact_bc6c4fa706e305fe418a2cc8",
+      "fact_c75d03cec69b040fbbbc5916",
+      "fact_d3865ba895b14234150166c3",
+      "fact_e0819b19c4a80fff7173954d",
+      "fact_e5a73dc725622acee23fc3df"
+    ],
+    "canonical_subject": "k_m_m_m",
+    "id": "conflict_fde724d29cc7f4aade49bc97",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Equip_Design_Costs_2024-11-14.webp",
+      "Equip_Design_Costs_2024-11-14_result.png",
+      "Equip_Design_Costs_2024-11-14_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_1d783ef73df7b740dbd55da7",
+      "fact_21dc0a03fbca0db509e49847",
+      "fact_363810cf35ab901fa8748ed8",
+      "fact_3ceecbca2971e7dba181dba3",
+      "fact_3d87a31c20cdd8f9bfec10bd",
+      "fact_54ea96aca10bc7ad00b63ea5",
+      "fact_72773a7bc7538cd621211a32",
+      "fact_93a30cd1529b894e572953b2",
+      "fact_d71cbdf65b515e0ec0a2b7f7",
+      "fact_db9e90b28e7228f1c5882cae",
+      "fact_ecea194e94467a310f6a7862"
+    ],
+    "canonical_subject": "bf",
+    "id": "conflict_fec21b69ef06219d48db381d",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29.webp",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.png",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.tif",
+      "Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_1fc495b4e99371d4c9d7db0a",
+      "fact_38446d21a805353810323a6c",
+      "fact_7469ed4835358ce0b3e5ca92",
+      "fact_7d4b75af8327ba35f4319e01",
+      "fact_87d451ceb4b3a76aa6ae71a3",
+      "fact_904d65d5af3a16eea0845cad"
+    ],
+    "canonical_subject": "mey",
+    "id": "conflict_7e176f1ea2be12e8e0740972",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Weapons_V2_2_2024-11-28.webp",
+      "Weapons_V2_2_2024-11-28_result.png",
+      "Weapons_V2_2_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_213734bd45a10b0d7e6ab61a",
+      "fact_214b8eec05a2815ce6960cd7",
+      "fact_260d66bbae2f12ef0cba729e",
+      "fact_90b2d74c69c2913faad11c53",
+      "fact_a1a939248c12dc6972f1108c",
+      "fact_a9b44a40c31f92c3f2aa7a5b",
+      "fact_b9dca85961bdd6ae2c855b80",
+      "fact_bada1c0e48b2709ff58b4c7a"
+    ],
+    "canonical_subject": "value",
+    "id": "conflict_304cb8b6205946fed16b06e4",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Survivor_Pass_2024-12-19_result.png",
+      "Survivor_Pass_2024-12-19_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_215c1b1b7f664c7d7d9f2c2a",
+      "fact_3324444be63e5d3a6330b42e",
+      "fact_5a7e6631cc767b1bfaabf48c",
+      "fact_62e208172d0f00ef82cfd743",
+      "fact_7c41d4d8fa886d56744c5ed3"
+    ],
+    "canonical_subject": "a",
+    "id": "conflict_acd2716d9c52a5e927724621",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Pet_Skills_2024-09-09.webp",
+      "Pet_Skills_2024-09-09_result.png",
+      "Pet_Skills_2024-09-09_result.tif",
+      "Skills_2024-11-28.webp",
+      "Skills_2024-11-28_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_23e9e81da5dba38e4d9b8117",
+      "fact_82b182a84e910cbb1fafc181",
+      "fact_f7b5a5e823dd5654e126d2fc"
+    ],
+    "canonical_subject": "crit_rate_radius_will_gradually",
+    "id": "conflict_1b3a48d19536d863f6000657",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Gloves_V2_2024-11-28.webp",
+      "Gloves_V2_2024-11-28_result.png",
+      "Gloves_V2_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "crit_stats"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_23fa48fbf2527c53bf79ec10",
+      "fact_975edb7b77153091274701fc",
+      "fact_98525486910e945edcef5ac2",
+      "fact_b9d7ea94c31ffcda8ae3ae1a",
+      "fact_c0f2e037ec3fd79fff6a695a",
+      "fact_ebe93930595bf9e4cf76e444"
+    ],
+    "canonical_subject": "x",
+    "id": "conflict_8a72a9716e23556412cac78a",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Boss_Debuffs_2024-12-27.webp",
+      "Boss_Debuffs_2024-12-27_result.png",
+      "Boss_Debuffs_2024-12-27_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "survivors"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_2556b9b29f4f859af4560664",
+      "fact_2828671cfcf100ad25d52810",
+      "fact_34f2a6d13a00eea68f2f8245",
+      "fact_6668e2ff6c7724c3a14dbd4d",
+      "fact_696a3518dd0e43919cebfe41",
+      "fact_6a161fcc084a9ffbf9f5b279",
+      "fact_7316f27b1c62357ddee586fa",
+      "fact_8d01d13eab08ecec5d312d10",
+      "fact_c83da7bbbca8edf24f94df52",
+      "fact_f14b86b9681db0f6fa8563e3",
+      "fact_f57c847cd67f735c3258c205"
+    ],
+    "canonical_subject": "by",
+    "id": "conflict_53d8d593421c59b826c2663a",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Gloves_V2_2024-11-28_result.png",
+      "Gloves_V2_2024-11-28_result.tif",
+      "Pets_2024-11-28.webp",
+      "Pets_2024-11-28_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "crit_stats"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_26210e7fc6d51fb5156015f6",
+      "fact_4e34176badcd025b6f86c7ae",
+      "fact_6623aae6556fd8a43488fe08",
+      "fact_905e021715ef8487b74e5b0b",
+      "fact_b46780c88790a59eb6197d94",
+      "fact_d1f8d2c26ff3a3071caf8f6f",
+      "fact_e588b8f4074e75f3a0e50225"
+    ],
+    "canonical_subject": "is",
+    "id": "conflict_57dc09fd2b76a98d85f8522f",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Survivor_Pass_2024-12-19.webp",
+      "Weapons_V2_2_2024-11-28.webp",
+      "Weapons_V2_2_2024-11-28_result.png",
+      "Weapons_V2_2_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_26616f31ad92d7ca97ea8e94",
+      "fact_295eb898702df7017f469218",
+      "fact_2bdbb624d773bbe4031409aa",
+      "fact_5f816e42c6c354753a65169f",
+      "fact_695915bb069f9ecea68577c7",
+      "fact_72460279d52ab8d203d5fad1",
+      "fact_8192e3e7644517f4523b6d52",
+      "fact_82543d9ceb8c36a046bb545d",
+      "fact_95d42fc32edbc5e655f9480c",
+      "fact_aa38e10059cda21ac17f2415",
+      "fact_b265605e1439e729fb02879d",
+      "fact_bec8ca726d0d4cc2193ca8b2",
+      "fact_c0d31a89af9dcf12024853f2",
+      "fact_c3884cdc8e395926446ee5da",
+      "fact_f42171406569c8ed073145aa"
+    ],
+    "canonical_subject": "ae_k",
+    "id": "conflict_57b1e7b2dad4074456d04e44",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28.webp",
+      "Skills_2024-11-28_result.png",
+      "Skills_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_2696c72815a4efc7f5cfec93",
+      "fact_58086589887f0ec63f75a585",
+      "fact_5c032baebb9facade23ab55a",
+      "fact_cfce7878ba75181f32684dca"
+    ],
+    "canonical_subject": "ae",
+    "id": "conflict_c0a46854e3375ddff3254f18",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28_result.png",
+      "Skills_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_26c689d5841196920a9d8c77",
+      "fact_4ef15bb0c37bb8ec97bf506f",
+      "fact_511cf8d4f02f796b78e7e9c7",
+      "fact_519ee391fd5fdce198a16277",
+      "fact_52d4f5e64b23813a41bba563",
+      "fact_5adc3a59ad3ae571eb498ec3",
+      "fact_922f4460b2be42d01524e6ad",
+      "fact_9b69a97442547c1fe41367c8",
+      "fact_bb9d38b73cfc08b83ca7d8c2",
+      "fact_fb825259f08447a7311f9368"
+    ],
+    "canonical_subject": "level",
+    "id": "conflict_8ef9b19ccbfde520594d7efd",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Clan_Shop_2025-02-17.webp",
+      "Clan_Shop_2025-02-17_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "clan_shop"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_26eedd10e438af6c2c487cdf",
+      "fact_8bc3cc7fc9127b3b3df02904",
+      "fact_f93cbc2ec57c98702ae1c145"
+    ],
+    "canonical_subject": "cost",
+    "id": "conflict_6af0170b64330f336afe68e9",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Clan_Shop_2025-02-17.webp",
+      "Clan_Shop_2025-02-17_result.png",
+      "Clan_Shop_2025-02-17_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "clan_shop"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_2bcd3d02e942dd3569b0c001",
+      "fact_4158e1a0a7839102252619dd",
+      "fact_678bf4fac20f50d3a12dfca8"
+    ],
+    "canonical_subject": "aen_x",
+    "id": "conflict_96628732b07edf48667b10ff",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28.webp",
+      "Skills_2024-11-28_result.png",
+      "Skills_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_2cc5a66429f8370b4d1eb551",
+      "fact_7e902d9a2202e65fbcb0b305",
+      "fact_aa75222d58e45b83da981908",
+      "fact_dd33ec9d11419210f77ba425"
+    ],
+    "canonical_subject": "aen_k",
+    "id": "conflict_9e2a335306878993b1259711",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28_result.png",
+      "Skills_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_2e59135ada6145dc26a193d1",
+      "fact_5e3a8955ea047426091e71e5",
+      "fact_688f99038f7bc5d2ab26d249"
+    ],
+    "canonical_subject": "et",
+    "id": "conflict_b1656e2f92fc8e38fcf19532",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29.webp",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.png",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_2e93ebd39286d8d03208edd4",
+      "fact_e3154fa2162e7be1169d9682"
+    ],
+    "canonical_subject": "pets",
+    "id": "conflict_82fced4229de88084d528ccc",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Chapter_Unlocks-2024-09-17.webp",
+      "Chapter_Unlocks-2024-09-17_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_2ed7054c6aed47fd45efd17f",
+      "fact_306568a4b8af1f3621ee9ae3",
+      "fact_3c6973013d319ea1e82643d2",
+      "fact_4c8dd762e4ad4d9a14a29a82",
+      "fact_4f323d3725ffa9da45d836d2",
+      "fact_4f679b6cd3f05a5beab871d9",
+      "fact_5b6f033806c8d750c31defca",
+      "fact_8151a705f70c048f758070ea",
+      "fact_821fa76f50b50e145843ce59",
+      "fact_93e0f108e0c92f1039aa46c1",
+      "fact_a36f5e6715846f4346c307ec",
+      "fact_ac400344d5469615cfbeb8c7",
+      "fact_b8efe1307adec91a05d97cca",
+      "fact_b9e8bb82de65102409db08ad",
+      "fact_f38e3a63b24c6e8406d89078",
+      "fact_f8a3d3ce010e7b72394a39f1"
+    ],
+    "canonical_subject": "a",
+    "id": "conflict_f07baf6f2cf0be2c679c7b1e",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Relic_Core_Usage_-_Enders_Echo_2024-11-29.webp",
+      "Weapons_V2_2_2024-11-28.webp",
+      "Weapons_V2_2_2024-11-28_result.png",
+      "Weapons_V2_2_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_2f1d119bbf112208c0a45958",
+      "fact_6e0eef92975442f8c2b862cc",
+      "fact_dabb2d5a5dc6e759f1693465"
+    ],
+    "canonical_subject": "bt",
+    "id": "conflict_d2fb90194d2849528596670c",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29.webp",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.png",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_300f3db0669f384bcd53c117",
+      "fact_99ab12be2928be9e1dfc230e",
+      "fact_b6134b3cef3ffe06117e780c",
+      "fact_cb349dc5272394c71156f6f4",
+      "fact_ddf84c5b45e102b166507cc9",
+      "fact_e8c71d4f1e13bf43d9e8b614"
+    ],
+    "canonical_subject": "x6",
+    "id": "conflict_0b2c7503eac3e1119b37edc1",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Clan_Level_Rewards_2024-11-28.png",
+      "Clan_Level_Rewards_2024-11-28_result.png",
+      "Clan_Level_Rewards_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "survivors"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_320a62735fc27ddb690a6784",
+      "fact_4b540fbfa21d443e1cc86ad1",
+      "fact_67f1026f75fd57d922a6edbd",
+      "fact_a70abf0619f34115966a5985",
+      "fact_c2b3ee99f9c5626ab98c5670"
+    ],
+    "canonical_subject": "fer_x",
+    "id": "conflict_ec38e287be074d1c132fc19c",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28.webp",
+      "Skills_2024-11-28_result.png",
+      "Skills_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_354295a94dd34049250b2041",
+      "fact_3631ade4dfd4133d20c66b0e"
+    ],
+    "canonical_subject": "damage_for",
+    "id": "conflict_9912a96f7cdcc465394704f8",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Gloves_V2_2024-11-28.webp",
+      "Gloves_V2_2024-11-28_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "crit_stats"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_354df0ae8c742d2c9186b285",
+      "fact_38c99ff74cd8e6cdebf6a47f",
+      "fact_849314b4def188718d903104",
+      "fact_86829880c5d264035fb71928",
+      "fact_93a5f5f7cfd98b8003c134c4",
+      "fact_d0782c141b657e60df5d49c9"
+    ],
+    "canonical_subject": "be",
+    "id": "conflict_8739ca1350674f26845b9249",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29.webp",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.png",
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.tif",
+      "Weapons_V2_2_2024-11-28.webp",
+      "Weapons_V2_2_2024-11-28_result.png",
+      "Weapons_V2_2_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_365935562a5bde5a97be724a",
+      "fact_4c229bef55e62e0d66903302",
+      "fact_959b9e523b44120e2b98e83e",
+      "fact_d7810d04a5b32c3177e61d8b"
+    ],
+    "canonical_subject": "are_k",
+    "id": "conflict_e391fb39b330034f8907ee3b",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28.webp",
+      "Skills_2024-11-28_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_3692c735018544ed8da132fe",
+      "fact_b1c4a5bac9a2ae76b8468dd5"
+    ],
+    "canonical_subject": "united_stand_increases_pet_s_inherited_atk_by",
+    "id": "conflict_abeee8d9ddefde54302104d4",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Pet_Awakening_Guide_-_Murica_2024-10-10.webp",
+      "Pet_Awakening_Guide_-_Murica_2024-10-10_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "pets"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_3848d6db34d43fa65e78fba9",
+      "fact_63b7a37c7ac8f67d2bebfb0c",
+      "fact_cbc4ef31c0d927ba9c5787fa",
+      "fact_d81729677c7c6865e5346b72"
+    ],
+    "canonical_subject": "game_version_updated",
+    "id": "conflict_73aaa23b9f1bae98e50bdd09",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Boss_Debuffs_2024-12-27_result.png",
+      "Survivor_Stat_Boosts_2024-12-12.webp",
+      "Survivor_Stat_Boosts_2024-12-12_result.png",
+      "Survivor_Stat_Boosts_2024-12-12_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "survivors"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_3bc855339502014eef50d3ad",
+      "fact_8bd4839d2f259246b0ead7e0"
+    ],
+    "canonical_subject": "for_hp_s_cd",
+    "id": "conflict_b719fdc61b167ee9186edd96",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Pets_2024-11-28.webp",
+      "Pets_2024-11-28_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "crit_stats"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_3d95f86d2d127aed71b3afd8",
+      "fact_4bb1cc6a214a8fb1ac5c0514",
+      "fact_7d8c877eb229db935cd536ee",
+      "fact_c1cddff28a4b8ed0b3885a7a",
+      "fact_e253f713f019ddc8b2f36fb5",
+      "fact_f5e0032a4ed353f2c9e564ea"
+    ],
+    "canonical_subject": "x3",
+    "id": "conflict_00ace300af52b70d350be373",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Clan_Level_Rewards_2024-11-28.png",
+      "Clan_Level_Rewards_2024-11-28_result.png",
+      "Clan_Level_Rewards_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "survivors"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_3e7f6781de8adf24b998bb7b",
+      "fact_93169a56e3b65f8da2a3451c",
+      "fact_d3a7d4016d3bb7f9ba44a778",
+      "fact_e8c5f71a0abf6a97fa4a6683",
+      "fact_e9559d461f43c3072a4dba92"
+    ],
+    "canonical_subject": "few_x",
+    "id": "conflict_f47fe2c98f2281ffeb3757ab",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28.webp",
+      "Skills_2024-11-28_result.png",
+      "Skills_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_43c68ccbac615e5beb493ef8",
+      "fact_870ddec80203485b0a214769",
+      "fact_fd5ec8b4125d66bc21f8756a"
+    ],
+    "canonical_subject": "ineffective",
+    "id": "conflict_a5ba9a392d3e54f3ac9ffcc8",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Gloves_V2_2024-11-28.webp",
+      "Gloves_V2_2024-11-28_result.png",
+      "Gloves_V2_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "crit_stats"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_49f143d44b8e8d9694c6b297",
+      "fact_4f5a99cea9a233cb0aeb494d",
+      "fact_ad8dc98161fb18ff62baa772"
+    ],
+    "canonical_subject": "x_py",
+    "id": "conflict_5897d7c8b2370a002c7625b4",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Boss_Debuffs_2024-12-27.webp",
+      "Boss_Debuffs_2024-12-27_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "survivors"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_4a1168584fcabd9776c87996",
+      "fact_6cd69c32b98768319faa3e3c",
+      "fact_a40dece1ff3dd37cda5a00d4"
+    ],
+    "canonical_subject": "powerful_f_in_battle_for_every_level_s_owner_gains_pet_s_skill_damage_increase_by",
+    "id": "conflict_40607d9860f41748bb08fa9b",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Pet_Awakening_Guide_2024-10-25.webp",
+      "Pet_Awakening_Guide_2024-10-25_result.png",
+      "Pet_Awakening_Guide_2024-10-25_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "crit_stats"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_4a352905102242dfb068cfc9",
+      "fact_6f6b7bb0fd3751790f3e0242",
+      "fact_771facd0d4ac33fc1f5b2aa4"
+    ],
+    "canonical_subject": "fern_x",
+    "id": "conflict_82b013b86fe79ec8c36eb4f6",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28_result.png",
+      "Skills_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_4b66370dc1fafcbf9329b058",
+      "fact_685f8c4a32a14d994f455d5b",
+      "fact_fefe4d048452600772174ec5"
+    ],
+    "canonical_subject": "increases_owner_s_crit_damage_by",
+    "id": "conflict_7f2c86a53eb93b8af4e52d8e",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Pet_Awakening_Guide_-_Croaky_2024-10-11.webp",
+      "Pet_Awakening_Guide_-_Croaky_2024-10-11_result.png",
+      "Pet_Awakening_Guide_-_Croaky_2024-10-11_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "crit_stats"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_4cf21da1054e9e4c0a1706fc",
+      "fact_4fec4ac4d0ec169511384138",
+      "fact_a7756717ea5b1b4569a350f2",
+      "fact_b798c21e46c2d51a037ecd37",
+      "fact_cc6adfc274f3f2b7c0d4c8e5",
+      "fact_fd0797ef817d793d5ea0662a"
+    ],
+    "canonical_subject": "ae_x",
+    "id": "conflict_0c27cc0ea12229ebd393c273",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28_result.png",
+      "Skills_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_4e0a79b6bffc2f9de80b56b3",
+      "fact_5644a1b490183e4688284722"
+    ],
+    "canonical_subject": "s_x",
+    "id": "conflict_62880465b287d52babd2a925",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Clan_Expedition_Rewards_2024-11-28.webp",
+      "Clan_Expedition_Rewards_2024-11-28_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "events"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_518f0c7e08a0f49c61e75800",
+      "fact_965567fd5ad1921c0ae72b46",
+      "fact_a61309a200d10b02f8a22434",
+      "fact_bfef2e1fe9da18d54859dcd2",
+      "fact_d1f5a9b49de4eec28618b603",
+      "fact_da7026694f7b18f4e15214e7",
+      "fact_e29f8d7a6d1af34f7da93452",
+      "fact_e7cc37a91854dbc0ffaf674e",
+      "fact_e92257351c7a87f48f62b645"
+    ],
+    "canonical_subject": "clan_member_extra_quick_earnings",
+    "id": "conflict_bdd9f35cdb9e4e7586123d03",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Clan_Level_Rewards_2024-11-28.png",
+      "Clan_Level_Rewards_2024-11-28_result.png",
+      "Clan_Level_Rewards_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "survivors"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_5243d42b8f3f5873198613d6",
+      "fact_65f7cbafb09677f62eb0762e",
+      "fact_6e68be948c95657464da63bf",
+      "fact_976e8636b54175c2bd753694",
+      "fact_d990d2e34f51bc9bc77f66e6"
+    ],
+    "canonical_subject": "monthly_pack",
+    "id": "conflict_64a2ec47550f30e69b20c373",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Sources_Of_Gems_2024-10-07.webp",
+      "Sources_Of_Gems_2024-10-07_result.png",
+      "Sources_Of_Gems_2024-10-07_result.tif",
+      "Sources_of_Gems_2024-12-18_result.png",
+      "Sources_of_Gems_2024-12-18_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "chests"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_5593119a05357ea84ce686d0",
+      "fact_ac38d806b3e3451d64979178"
+    ],
+    "canonical_subject": "sey_x",
+    "id": "conflict_eb9775c1572ac3e50caf71fa",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28_result.png",
+      "Skills_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_561fce5313e3e70d8ce14e71",
+      "fact_f83a3cdf1966afbff06ee5ae"
+    ],
+    "canonical_subject": "total",
+    "id": "conflict_38f276f0340d13e9dcf89fc0",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Survivor_2024-09-07.webp",
+      "Survivor_2024-09-07_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "survivors"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_56e14ec4813565dbd521471b",
+      "fact_a1395ce4ef42cb01bf1e9e49",
+      "fact_dc074bf50b24ef7d320d4bb1",
+      "fact_e5d36a2e4dd339882a31c4bb"
+    ],
+    "canonical_subject": "atk",
+    "id": "conflict_02ed16cb9e83c60981c8e9ad",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Eternal_Necklace_2024-11-28.webp",
+      "Eternal_Necklace_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_579f0673ebdbd11ea2b1dd21",
+      "fact_9ac86a634d88dc0701f873b3",
+      "fact_d0fe5dfdc6c15c62de868444",
+      "fact_e436f978b0a1f6e51726dcd9",
+      "fact_fe59e7c13c654f4b64df20fe"
+    ],
+    "canonical_subject": "enemy_health_x_base_damage_per_hit",
+    "id": "conflict_b84187d2fd280d5dc536b366",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Eternal_Necklace_2024-11-28.webp",
+      "Eternal_Necklace_2024-11-28_result.png",
+      "Eternal_Necklace_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_58b93af43cd4cf062b175f35",
+      "fact_5c99482a369b2dac745e3ac0",
+      "fact_e429912375ee556713023f07"
+    ],
+    "canonical_subject": "forgotten_diary",
+    "id": "conflict_6ad374d9b3be3c918246ee0c",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Collectibles_Edition_2_2024-11-28.webp",
+      "Collectibles_Edition_2_2024-11-28_result.png",
+      "Collectibles_Edition_2_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "collectibles"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_5ddc92725bd19395cbab0457",
+      "fact_819ce3427391da4b5daa32ea"
+    ],
+    "canonical_subject": "area_to_deal_atk",
+    "id": "conflict_4fdddd6ce3af7a745ff0366c",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Pets_2024-11-28.webp",
+      "Pets_2024-11-28_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "crit_stats"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_5fbe2b260dee0cec7e6a33c6",
+      "fact_c54185685dd0db3dd2f8a145",
+      "fact_e84bcb961f4af411a7743ec3",
+      "fact_fbdd471e7bde940cd18f8cd7"
+    ],
+    "canonical_subject": "updated",
+    "id": "conflict_5b99f4fd2a84242bdecd6d19",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Item_Values_2024-10-02_result.tif",
+      "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04.webp",
+      "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04_result.png",
+      "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "pets"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_60e38fed4ad5452628d13eee",
+      "fact_6569975b256a93cc3fbec7a1",
+      "fact_85b5fb60d7f10dcf0547dba0",
+      "fact_a63489d54faece7dc3e14f1e",
+      "fact_a7fccc45d16fb5170a949b32",
+      "fact_ce93af0a2e3542477560fa7c"
+    ],
+    "canonical_subject": "ee_season_ranking_legend",
+    "id": "conflict_97b7d7d34c750aa301504df5",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Sources_Of_Gems_2024-10-07.webp",
+      "Sources_Of_Gems_2024-10-07_result.png",
+      "Sources_Of_Gems_2024-10-07_result.tif",
+      "Sources_of_Gems_2024-12-18.webp",
+      "Sources_of_Gems_2024-12-18_result.png",
+      "Sources_of_Gems_2024-12-18_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "chests"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_648fb4cc9f4e59f7545d8291",
+      "fact_76c669c46d5d04dc9d3b0744",
+      "fact_a7588d60f6dfb1d93c37157e",
+      "fact_b961bb1e3fc30905b3beefb9",
+      "fact_c557728df4fd614d715242b1",
+      "fact_f02ca3f7ee13903f6c11fe75"
+    ],
+    "canonical_subject": "chapter",
+    "id": "conflict_da617c7906d558dcc1000c92",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Clan_Expedition_Rewards_2024-11-28.webp",
+      "Clan_Expedition_Rewards_2024-11-28_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "events"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_6673a787731894dafa56cf46",
+      "fact_c28f66aba138f494605e4b9b",
+      "fact_e65e5f356a229f5a64c8fc4a"
+    ],
+    "canonical_subject": "vaue",
+    "id": "conflict_03a5dadb52bd9482e77fd044",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Survivor_Pass_2024-12-19.webp",
+      "Survivor_Pass_2024-12-19_result.png",
+      "Survivor_Pass_2024-12-19_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_6687ca840fdee6e3b6fd1dc3",
+      "fact_9eaacc70fec148fdd6117b69",
+      "fact_cbca784e29c7e5c8e63979d5",
+      "fact_e3c3e4f459023eebeedd00dd"
+    ],
+    "canonical_subject": "ay_k",
+    "id": "conflict_743f85b02b8554124c74c0c4",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28.webp",
+      "Skills_2024-11-28_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_735255f7bb0f7bdd67fcfadf",
+      "fact_8722ba63d24708da42b789f2",
+      "fact_97de030b861ebea5ef13490d",
+      "fact_a04f8c0215c9ac6468177ff7"
+    ],
+    "canonical_subject": "hr_x",
+    "id": "conflict_e990aec7a5d91afdd6c3becc",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28_result.png",
+      "Skills_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_7bbb9c1c254bd7c0dcb68075",
+      "fact_da7cbab54f1f9beee818a387"
+    ],
+    "canonical_subject": "py",
+    "id": "conflict_9117f4310e43ddf87b742793",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Boss_Debuffs_2024-12-27_result.png",
+      "Survivor_2024-09-07.webp"
+    ],
+    "status": "manual_review_required",
+    "system": "survivors"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_7e5544afba9baf2233692097",
+      "fact_8eb9b6b2ed50d6ba407e77e4",
+      "fact_940dd5619b8d50cad5aed5ae",
+      "fact_a1b77d7d98dfa1c97ec85502",
+      "fact_c051770361450a3553df264a"
+    ],
+    "canonical_subject": "fen_x",
+    "id": "conflict_a8859d32e7a0acebdc9d4f61",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28.webp",
+      "Skills_2024-11-28_result.png",
+      "Skills_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_7edf0d1ed4e22cb136de615c",
+      "fact_cf1dc4d1b19585f1345a78a0",
+      "fact_f9d954842e102cf3f49c4fe5"
+    ],
+    "canonical_subject": "are_x",
+    "id": "conflict_578cba1cb44ba3333e222fe8",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Skills_2024-11-28.webp",
+      "Skills_2024-11-28_result.png",
+      "Skills_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "skills"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_9e6698a83515365d71ed722f",
+      "fact_abc16398659b4d3db6cf550c",
+      "fact_d31fb6568430985967690443",
+      "fact_e5c7db698fa79f777d74fa6d",
+      "fact_f549eae020c5a8b56e4ec10e",
+      "fact_ff8d1779e8d2e0827d114639"
+    ],
+    "canonical_subject": "permenant_privilege_card",
+    "id": "conflict_6e568965d72f9f5c8d32b01a",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Sources_Of_Gems_2024-10-07.webp",
+      "Sources_Of_Gems_2024-10-07_result.png",
+      "Sources_Of_Gems_2024-10-07_result.tif",
+      "Sources_of_Gems_2024-12-18.webp",
+      "Sources_of_Gems_2024-12-18_result.png",
+      "Sources_of_Gems_2024-12-18_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "chests"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_b230b74ee9fd2baaf1757f4e",
+      "fact_d5ef87e5265585e3ef0e034a"
+    ],
+    "canonical_subject": "o",
+    "id": "conflict_2a5cf055bad0912e58c96fa3",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Collectible_Chest_Odds_2024-11-28_result.png",
+      "Collectible_Chest_Odds_2024-11-28_result.tif"
+    ],
+    "status": "manual_review_required",
+    "system": "chest_odds"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_d248f83b7841074e896b95b9",
+      "fact_ef1edb50df97860c28ea8b6d"
+    ],
+    "canonical_subject": "fa_fe_te_s",
+    "id": "conflict_9958a03912b4c3b4dab8c77b",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Clan_Expedition_Rewards_2024-11-28.webp",
+      "Clan_Expedition_Rewards_2024-11-28_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "events"
+  },
+  {
+    "candidate_fact_ids": [
+      "fact_e6194611feec667adc35be83",
+      "fact_e6f41c3edd5180e44e5995fb"
+    ],
+    "canonical_subject": "permanent_privilege_card",
+    "id": "conflict_41f754e926f7d359dd8c953c",
+    "notes": "Different numeric values were extracted for the same normalized subject; no value was overwritten.",
+    "source_files": [
+      "Chapter_Unlocks-2024-09-17.webp",
+      "Chapter_Unlocks-2024-09-17_result.png"
+    ],
+    "status": "manual_review_required",
+    "system": "gear"
+  }
+]

@@ -1,0 +1,44 @@
+Transgenic Caltrops damage +40%. 
+Every 20 hits on targets by Transgenic Caltrops triggers mutation effect. 
+Mutation effect permanently increases Skill Damage by 45%. 
+Does not stack. 
+ 
+700: 
++1200 ATK, +4800 HP 
+ 
+800: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+900: 
+Poison Damage +50 
+Transgenic Caltrops damage +45%. 
+Every 10 lightning ball hits on targets triggers boost effect. 
+Boost effect permanently increases damage to Poisoned targets by 50%. 
+Does not stack. 
+ 
+1000: 
++1400 ATK, +5600 HP 
+ 
+1100: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+1200: 
+Shield Damage +30 
+EM explosion damage +50%. 
+Additional shield damage boost +10%. 
+ 
+1350: 
++1600 ATK, +6400 HP 
+ 
+1500: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+1650: 
+Transgenic Caltrops damage +10%. 
+Required lightning ball hits to trigger boost effect -5. 
+ 
+1800: 
++1800 ATK, +7200 HP 
+ 
+1950: 
+Quantum Nanobot ATK +5%, HP +5%

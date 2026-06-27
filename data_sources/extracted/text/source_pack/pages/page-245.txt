@@ -1,0 +1,33 @@
+BestUseLogic = Touch/hug/circle boss 
+DPSRelevant = Yes 
+Special skill 
+SkillName = Blazing Charge 
+SecondaryName = Iron Resolve 
+Effects: 
+Iron Resolve: 
+When charging energy, damage taken -10%. 
+ 
+Blazing Charge: 
+When skill is used, Doomsteed turns into Flamesteed. 
+Consumes 10 energy every second. 
+During Blazing Charge, gain damage immunity. 
+During Blazing Charge, gain +3 max bonus Movement Speed. 
+Collisions instakill minions. 
+Collisions deal damage to bosses and elites. 
+Collision damage can happen once every 0.5 seconds. 
+Fields: 
+EnergyDrain = 10 energy per second 
+DamageImmunity = Yes 
+MaxBonusMovementSpeed = +3 
+MinionCollision = Instakill 
+BossEliteCollisionDamage = Yes 
+CollisionIntervalBase = 0.5s 
+How to use 
+Keep touching/hugging the boss as much as possible. 
+Circle around the boss. 
+This stacks Doomsteed value and also works with SS Boots movement/Glacial stacks. 
+Skill/star effects 
+Stage 
+Sync 
+rate 
+Effect

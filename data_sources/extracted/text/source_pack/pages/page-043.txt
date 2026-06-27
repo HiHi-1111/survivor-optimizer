@@ -1,0 +1,28 @@
+Built-in skill themes 
+Fish is associated with: 
+Battle EXP gain 
+Collision damage reduction 
+Shot damage reduction 
+Pet size/range 
+Time Stop 
+The red skill shown is: 
+When owner's HP is below 30%, stops time and freezes all enemies for 5 seconds. 
+During this, player and pet are invincible. 
+Cooldown: 60 seconds. 
+Optimizer notes 
+Fish has some damage from explosion, but a lot of its value is utility/survival, not pure DPS. 
+Database flags: 
+Pet = Fish 
+PrimaryAttack = Explosive Bubbles 
+DamageType = Explosion / AoE 
+Utility = Time Stop 
+DPSRelevant = Medium 
+IgnoreForDPS = Time Stop, damage reduction, survival effects 
+ 
+3. Dog / Rex 
+Main association 
+Dog | Rex | Yell Attack | Owner Crit Rate | Owner Crit Damage | Damage Transfer | Pet HP 
+Absorb 
+Primary attack 
+Dog yells at enemies with loud noises: 
+250% ATK damage

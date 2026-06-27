@@ -1,0 +1,28 @@
+●​ Pet skill: Inspiration 
+●​ Crit Damage +6% / +10% 
+Optimizer notes 
+Pet crit damage should only be counted if the correct pet/skill is active. 
+Database flags: 
+SourceCategory = Pet 
+Pet = Rex 
+StatType = CritDamage 
+ConditionType = ActivePetRequired 
+DPSRelevant = Medium/High 
+Example row: 
+Rex_Active_CD | Pet | Rex | CritDamage | +5%/+10% | CurrentPetBuild | Rex must be active | 
+Yes 
+Example row: 
+PetSkill_Inspiration | PetSkill | Inspiration | CritDamage | +6%/+10% | CurrentPetBuild | Skill 
+equipped | Yes 
+ 
+9. Donatello Crit Damage passive 
+This is associated with: 
+Donatello | Brotherhood | TMNT Passive Count | Loadout Scaling 
+The source shows: 
+●​ Donatello 2 red stars 
+●​ Crit Damage: 3% / 6% / 9% 
+●​ Text: 3% per equipped TMNT passive 
+This connects with Donatello’s Brotherhood passive from the SP survivor source. 
+Database flags: 
+SourceCategory = SurvivorPassive 
+Survivor = Donatello

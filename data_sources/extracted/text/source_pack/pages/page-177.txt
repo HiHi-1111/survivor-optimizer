@@ -1,0 +1,35 @@
+Eternal / Rainbow: 
+Twinborn Maelstorm: 
+The last lightning strike is more powerful. 
+ 
+Boomerang: 
+Each hit deals additional damage. 
+ 
+Magnetic Rebounder: 
+Fires a chain lightning at nearby enemies every second. 
+Bounces to 3 targets. 
+ 
+Skill Damage +80%. 
+Collectible set 
+CollectibleSetName = Rewriting the Stars’ Memories 
+AssociatedTwinborn = Twinborn Lightning / Twinborn Maelstorm 
+10x yellow stars: 
+Twinborn Maelstorm damage +9%. 
+ 
+20x yellow stars: 
+Twinborn Maelstorm damage +9%. 
+ 
+10x red stars: 
+Twinborn Maelstorm damage +9%. 
+ 
+20x red stars: 
+Twinborn Maelstorm damage +17%. 
+Optimizer flags 
+Debuff = Vulnerability from resonance rows 
+Stats = CritDamage, SkillDamage 
+SpecialMechanics = ThunderburstField, ChainLightning, FallingThunder 
+DPSRelevant = High/Very High 
+MetaPriority = Third Eternal Twinborn priority from guide 
+ 
+8. Twinborn Boomerang / Twinborn 
+Magvolt Fang

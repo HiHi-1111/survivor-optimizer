@@ -1,0 +1,44 @@
+2250: 
++2000 ATK, +8000 HP 
+ 
+2400: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+2550: 
+Crit Damage +85 
+Required hits to trigger Hi-Energy -5. 
+Additional Crit Damage +15%. 
+ 
+2700: 
++2500 ATK, +10000 HP 
+ 
+2850: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+3000: 
+Shield Damage +45 
+Required hits to trigger Protection -5. 
+Additional shield damage boost +15%. 
+ 
+3500: 
++3000 ATK, +12000 HP 
+ 
+4000: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+4500: 
+Chill Damage +75 
+Required hits to trigger Hoarfrost -5. 
+Additional damage to Chilled targets +15%. 
+ 
+5000: 
++3500 ATK, +14000 HP 
+ 
+5500: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+6000: 
+Shield Damage +60 
+Chill Damage +90 
+Protection gains additional +15% Shield damage boost. 
+Hoarfrost gains additional +15% damage to Chilled targets.

@@ -1,0 +1,43 @@
+150: 
++400 ATK, +1600 HP 
+ 
+200: 
+Vulnerability +30 
+Lightning zone strikes inflict 1 Vulnerability stack on hit 
+Increases target's damage taken by 5% per stack 
+Max 6 stacks 
+ 
+250: 
++600 ATK, +2400 HP 
+ 
+300: 
+Twinborn Magvolt Fang Damage +25% 
+ 
+350: 
++800 ATK, +3200 HP 
+ 
+400: 
+Phase Driver ATK +5%, HP +5% 
+ 
+450: 
+Skill Damage +40 
+Buff: Skill Damage +40% 
+ 
+500: 
++1000 ATK, +4000 HP 
+ 
+550: 
+Phase Driver ATK +5%, HP +5% 
+ 
+600: 
+Weakened Damage +40 
+Damage to Weakened targets +40% 
+ 
+700: 
++1200 ATK, +4800 HP 
+ 
+800: 
+Phase Driver ATK +5%, HP +5% 
+ 
+900: 
+Vulnerability +50

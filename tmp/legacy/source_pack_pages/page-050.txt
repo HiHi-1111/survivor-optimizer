@@ -1,0 +1,29 @@
+Pet ATK and skill Crit Rate 
+Pet inherited ATK 
+Pet cooldown reduction 
+Visible effects include: 
+Pet HP absorb from attacks +1% 
+Pet ATK damage +15% 
+Pet ATK and skill Crit Rate +20% 
+Pet inherited ATK +15% 
+Pet ATK and skill cooldown -30% 
+Optimizer notes 
+Crab is a clean pet DPS scaling pet. Unlike Turtle/Fish, most of Crab’s good stats are directly 
+damage-related. 
+Database flags: 
+Pet = Crab 
+PrimaryAttack = Water Bullets 
+PrimaryDamage = 500% ATK 
+PetCritRateSource = Yes 
+PetCooldownReduction = Yes 
+PetInheritedATKSource = Yes 
+PetATKDamageSource = Yes 
+DPSRelevant = High/Very High 
+Since you have cared about Crab before, this source confirms Crab is not random trash. It has a 
+real DPS identity, especially through cooldown, crit rate, inherited ATK, and 500% primary 
+attack. 
+ 
+8. Robot 
+Main association 
+Robot | Burning Lasers | Satellite Cannon | Pet Cooldown | Inherited ATK 
+Primary attack

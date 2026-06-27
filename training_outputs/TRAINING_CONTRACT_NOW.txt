@@ -1,0 +1,43 @@
+SURVIVOR OPTIMIZER TRAINING CONTRACT
+
+Main objective:
+DPS-first optimizer. Ignore HP/defense unless it directly enables damage uptime.
+
+Current failure to fix first:
+cheap material bait vs rare blockers
+
+Must learn:
+1. Real damage math:
+   - return total_damage / final_damage / total_dps
+   - return final_multiplier
+   - return multiplier_breakdown
+   - never use fake score_out_of_1000 as the main answer
+
+2. Rare blockers outrank cheap bait:
+   - relic cores
+   - awakening cores
+   - resonance chips
+   - Xeno cores
+   - S survivor shards
+   - selectors
+   - pet awakening crystals
+   - SS/AF blocker materials
+   Cheap mats should not become top blocker at SS progression.
+
+3. Locked previews are not active:
+   - next Astral Forge preview does not count
+   - locked candidate rows do not count
+   - source/reference rows do not count
+   - unequipped copies do not count
+
+4. Global plan required:
+   - final answer must route through global_plan
+   - recommendation must include DO / SAVE / LOCKED / CONDITIONAL
+   - include missing info and next breakpoint
+
+5. Training pass target:
+   - cheap material bait vs rare blockers failure rate below 5%
+   - locked AF preview failure rate below 5%
+   - HP/defense cannot beat direct DPS
+   - 100-profile potato benchmark remains fast
+   - micro/nano runtime stays tiny after export

@@ -1,0 +1,32 @@
+Batch 4 — Tech Parts: Twinborn full 
+effects + Twinborn collectible sets 
+Sources extracted from your images: 
+Tech Parts - Twinborn 
+Tech Parts - Offensive / Defensive cleanup 
+Game version 4.5 
+Updated 2026-02-23 
+This batch is about what each Twinborn tech does at rarity stages and what collectible sets 
+are associated with each Twinborn. 
+ 
+1. Twinborn Durian / Twinborn Caltrops 
+Pair association 
+TwinbornPairID = TB_DURIAN_SOCCER 
+Mode = Durian side 
+BaseTech = Durian 
+PairTech = Soccer Ball 
+CanEvolveInto = Twinborn Caltrops 
+Effects by rarity 
+Blue: 
+ATK +100 
+HP +400 
+Purple: 
+Durian turns into Twinborn Durian in a match and can evolve into Twinborn Caltrops. 
+ 
+Twinborn Durian: 
+Flight control. 
+Durian will not stray too far from you. 
+ 
+Soccer Ball: 
+Ball damage +30%. 
+Yellow: 
+ATK +400

@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="5">
+<title>Extreme Cut Duel Lab</title>
+<style>
+body { background:#0f0f0f; color:#eee; font-family:Segoe UI, Arial; margin:24px; }
+.card { background:#1b1b1b; border:1px solid #333; border-radius:12px; padding:16px; margin-bottom:16px; }
+.good { color:#69f08f; }
+.bad { color:#ff7070; }
+.warn { color:#ffd166; }
+table { border-collapse:collapse; width:100%; font-size:12px; }
+td, th { border:1px solid #333; padding:5px; }
+th { background:#222; }
+</style>
+</head>
+<body>
+<h1>Survivor Optimizer: Extreme Cut Duel Lab</h1>
+
+<div class="card">
+<h2>Status</h2>
+<p>Rounds: <b>34</b></p>
+<p>Optimizer wins: <b class="good">34</b> | Enemy wins: <b class="bad">0</b></p>
+<p>Best mode: <b class="warn">starvation</b></p>
+<p>Best cut: <b class="good">90.288%</b></p>
+<p>Reward score: <b>1025.9984</b></p>
+<p>Profiles/sec: <b>28.403</b></p>
+<p>GPU eval rows: <b>0</b> | GPU matrix rows: <b>4200</b></p>
+<p>Plateau: <b class="warn">False</b></p>
+<p>Top fail: <b class="bad">none</b></p>
+</div>
+
+<div class="card">
+<h2>Round History</h2>
+<table>
+<tr>
+<th>Round</th><th>Diff</th><th>Full</th><th>Safe</th><th>Agg</th><th>Extreme</th><th>Risky</th><th>Starve</th>
+<th>Fail</th><th>Regr</th><th>Best Mode</th><th>Cut %</th><th>Reward</th><th>P/S</th><th>GPU Eval</th><th>GPU Matrix</th><th>Top Fail</th>
+</tr>
+<tr><td>34</td><td>17</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>90.288</td><td>1025.9984</td><td>28.403</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>33</td><td>17</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>90.284</td><td>1025.9297</td><td>30.762</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>32</td><td>16</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>89.836</td><td>1020.6698</td><td>30.185</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>31</td><td>16</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>89.849</td><td>1020.736</td><td>29.495</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>30</td><td>15</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>89.337</td><td>1014.7969</td><td>28.974</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>29</td><td>15</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>89.333</td><td>1014.7533</td><td>29.513</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>28</td><td>14</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>88.774</td><td>1008.2164</td><td>29.706</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>27</td><td>14</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>88.775</td><td>1008.2538</td><td>30.098</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>26</td><td>13</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>88.156</td><td>1000.982</td><td>30.182</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>25</td><td>13</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>88.171</td><td>1001.085</td><td>29.404</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>24</td><td>12</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>87.481</td><td>992.9715</td><td>30.895</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>23</td><td>12</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>87.477</td><td>992.9655</td><td>29.85</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>22</td><td>11</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>86.708</td><td>983.9475</td><td>30.62</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>21</td><td>11</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>86.72</td><td>983.9765</td><td>31.332</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>20</td><td>10</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>85.839</td><td>973.7099</td><td>30.886</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>19</td><td>10</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>85.846</td><td>973.714</td><td>31.171</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>18</td><td>9</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>84.858</td><td>962.1725</td><td>30.844</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>17</td><td>9</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>84.842</td><td>962.0301</td><td>30.837</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>16</td><td>8</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>83.713</td><td>948.7474</td><td>28.943</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>15</td><td>8</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>83.715</td><td>948.7403</td><td>29.9</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>14</td><td>7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>82.388</td><td>933.1218</td><td>29.325</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>13</td><td>7</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>82.398</td><td>933.1547</td><td>29.309</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>12</td><td>6</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>80.821</td><td>914.7141</td><td>29.845</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>11</td><td>6</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>80.815</td><td>914.6343</td><td>29.433</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>10</td><td>5</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>78.96</td><td>892.8279</td><td>30.051</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>9</td><td>5</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>78.982</td><td>893.0279</td><td>30.6</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>8</td><td>4</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>76.648</td><td>865.8632</td><td>30.322</td><td>0</td><td>4200</td><td>none</td></tr><tr><td>7</td><td>4</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>76.605</td><td>865.7112</td><td>29.646</td><td>0</td><td>1800</td><td>none</td></tr><tr><td>6</td><td>3</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>73.798</td><td>832.4182</td><td>29.799</td><td>0</td><td>1800</td><td>none</td></tr><tr><td>5</td><td>3</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>73.843</td><td>832.7195</td><td>26.241</td><td>0</td><td>1800</td><td>none</td></tr><tr><td>4</td><td>2</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>70.226</td><td>790.4316</td><td>29.612</td><td>0</td><td>1800</td><td>none</td></tr><tr><td>3</td><td>2</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>70.237</td><td>790.3527</td><td>29.77</td><td>0</td><td>1800</td><td>none</td></tr><tr><td>2</td><td>1</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>65.48</td><td>734.5004</td><td>31.776</td><td>0</td><td>12000</td><td>none</td></tr><tr><td>1</td><td>1</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0</td><td>0</td><td>starvation</td><td>65.462</td><td>734.8144</td><td>21.353</td><td>0</td><td>300</td><td>none</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h2>Repo Weight Audit</h2>
+<p>Active repo MB excluding venv/git/outputs: <b>731.57</b></p>
+<table><tr><th>File</th><th>MB</th></tr><tr><td>data_sources\extracted\processed_images\folder\Clan_Level_Rewards_2024-11-28_result.png</td><td>10.046</td></tr><tr><td>data_sources\source_pack\raw\Clan_Level_Rewards_2024-11-28_result.png</td><td>10.046</td></tr><tr><td>knowledge\source_pack\source_database.json</td><td>7.965</td></tr><tr><td>data_sources\extracted\processed_images\folder\Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.png</td><td>7.119</td></tr><tr><td>data_sources\source_pack\raw\Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.png</td><td>7.119</td></tr><tr><td>data_sources\extracted\processed_images\folder\Awakening_Core_Guide_2024-10-04_result.png</td><td>7.015</td></tr><tr><td>data_sources\source_pack\raw\Awakening_Core_Guide_2024-10-04_result.png</td><td>7.015</td></tr><tr><td>data_sources\extracted\processed_images\folder\Resonance_2024-10-30_result.png</td><td>6.598</td></tr><tr><td>data_sources\source_pack\raw\Resonance_2024-10-30_result.png</td><td>6.598</td></tr><tr><td>data_sources\extracted\processed_images\folder\Tech_Part_Resonance_Drone_2024-11-28_result.png</td><td>6.555</td></tr></table>
+</div>
+</body>
+</html>

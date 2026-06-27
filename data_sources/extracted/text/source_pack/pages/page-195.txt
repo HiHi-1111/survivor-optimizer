@@ -1,0 +1,60 @@
+I) Clean database tables needed 
+TechResonanceEnergyTable 
+TechMultiplierChipCostTable 
+NormalTechResonanceRules 
+TwinbornResonanceRules 
+TechOverloadRules 
+TechProgressionPriority 
+ 
+ 
+Batch 6 — Equipment Guide Extraction 
+Source: Equipment_Meta_Guide_Griffith_2026 from your pasted Discord guide. This is 
+meta/priority data, not exact stat-chart data. Use it for recommendations, warnings, and 
+progression logic. 
+ 
+A) Gear priority by slot 
+Slot 
+Item 
+What it does / value 
+Optimizer note 
+Weapo
+n 
+SS Weapon / 
+Twin Lance 
+Best-in-slot for almost all modes. Best 
+boss damage, decent crowd control. 
+Highest priority SS 
+item. 
+Weapo
+n 
+Kunai 
+Good early Ender’s Echo and boss 
+damage. Weaker late game. 
+Save one Excellent 
+Kunai. 
+Weapo
+n 
+Void Power 
+Best early/mid survival weapon. Best 
+crowd control, weak boss damage. Purple 
+enough until about Chapter 100. 
+Rush early. Do not 
+overinvest forever. 
+Weapo
+n 
+Lightchaser 
+Best for first 50 chapters. Falls off when 
+mobs get high HP. 
+Early only. 
+Weapo
+n 
+Sword of 
+Disorder 
+“Dollar-store SS weapon.” Good boss 
+damage, weak crowd control. 
+Low priority. 
+Weapo
+n 
+Other weapons 
+Trash / fodder. 
+Feed/salvage later.

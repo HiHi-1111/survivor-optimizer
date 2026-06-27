@@ -1,0 +1,93 @@
+Common
+Tsukuyomi
+Catnips
+King
+Worm
+Wesson
+Yelena
+Pointless: (Passivel +396 all skill damage
+Moonshade Slash (Select = battle): powerful frontal slash
+Medi Drone (Select in battle): Releases healing K4nme
+Survivar Instinct (Select in battle): +896 Crit Rate for each level
+Listening Bug Select in battle): Unveils enemy weaknesses and increases their damage taken
+EM Grenade (Select in battlel: Hurls hi-tech EM grenade at enemies
+Automatic Pistol (Select in battle): All-purpose firearm that Yelena cooked up with her highly advanced hacker skills
+Survivor License: Survivor License: Survivor ATK +400.Survivor HP +2000 Survivor ATK +400.Survivor HP +2000
+Survivor License: Survivor ATK +400. Survivor HP +2000
+Survivor License: Suryvor ATK +400.Survivor HP +2000
+Survivor License: Survivor ATK +400. Survivor HP +2000
+Survivor License: Survivor ATK +400. Survivor HP +2000
+Survivor License: Survivor ATK +400.Survivor HP +2000
+X10
+Nitoryu: When bladed main weapons evdive Moonhalo Slash can be evolved again; Survivor HP +209
+Expired Plan: (Passive) +390 all skill Tandes Survivor HP +209
+Sixth Sense: Survivor Instinct evolves into Cash Trade: (Passive) Greatly reduces Sixth Sense: +509 Crit Rate and 259 Crit collision damage. Slightly Umlele-GeS Damage, Survivor HP +20% projectile damage; Survivor HP +20%
+Drillmaster Perk: Chance call for HQ support when throwing grenade; Survivor HP +209
+Projection Haste: Movement Speed +596 Ahen projectian active, Survivor HP +209
+Tech Breakthrough; All drones can be freely paired, Survivor HP +2090
+x50
+Advanced Survivor License; Survivor ATK +100O. Survivor +5000
+Advanced Survivor License: Advanced Survivor License: Survivor ATK +1000. Survivor HP +5000 Survivor ATK +1000. Survivor HP +5000
+Advanced Survivor License: Advanced Survivor License: Advanced Survivor Lkcense: Advanced Survivor License: Survivor ATK +1000. Survivor HP +5000 Survivor ATK +1000. Survivor HP +5000 Survivor ATK +1000. Survivor HP +5000 Survivor ATK +1000. Survivor HP +5000
+X100
+All Survivors: HP +496
+All Survivors: ATK +496
+All Survivors: HP +496
+All Survivors: HP +496
+All Survivors: ATK +496
+All Survivors: ATK +49
+All Survivors: HP +496
+X150
+Evo Unleashed: Moonhalo Slash'$ upgrade Sting Op: Listening Bug can be upgraded EM Field: Drillmaster s Fury also Helter Skelter: (Passivel +396 all skill Advanced Medicine: Healing drone eftect Lucky Kill: (Passive) If a Critical Hit fails to requirement i5 not restricted Main Sting Op; Raise Sting Op meter to torce generates an CDs doubled will be re-calculated, Weadom enemies reteal EM field that blocks enemy attacks Survivor ATK +209 Gurynor ATK +2096 Survivor ATK +2096 Survivor ATK +2090 Survivor ATK +2090 Survivor ATK +2096
+Enhanced Projection: Critical hits can extend single Holo Projection'$ duration I0 VD Survivor ATK +2096
+X300
+Fectronic Protection: Active Spawns energy shield with 4096 of Survivor's HP
+Iai Slash: (Active) Charges Up and fires blade wave Blade wave enhanced when released at the right time
+Dauntless: (Active) Movement Speed up. 5096 damage reduction Anhen Dauntes atve
+Summon Drone: (Active) Use skill _ to get drone
+Auric Shell: (Active) Gain invincibility for 35
+Fire Support: (Active) Calls in carpet bombinain Jarge area
+Fiery Curtain: (Active) Fires hail of Shots
+Holoshield: (Passivel After 10s of no HP loss gain woundless State Lightning emitter Laser Launcher and rorcetield damage +590 Gain additional 209 energy shield Wncn nungless acvr
+*200
+X2400
+Pummel: (Passive) Triggers burning circle that deals camade to enemies every 500 crits Briet interval When triggered concecven
+Survival Shecialist Passivel For every supplies looted (Meal, bomb; magnet); character' s exclusive skill damage +290 (Max 1096)
+Lone Hero: (Passive) Crit Damage +1090 when there are fewer than
+Garrison Shield: (Passivel When energy shield active, EXP gain 42090
+Bladesmith: (Passivel When blades are used  Wejdon damage +596
+Mechmeat Unily: (Passivel When drone gains Evo, drone damage +596
+monsters on the map
+When Garrison Shield triggered, all skill damage +590 XJ0oo
+When Bladesmith triggered; equipped weapon'5 extra damage +596
+When Mechmeat Unity triggered; drone'$ extra damage +596
+Pummel Crit trigger count 200, Buming circle inflicts +590 Vulnerability
+Additional Crit damage +109 when Lone For every supplies looted character s hero triodered exclusive skill damage +29 (Max 2090]
+When Wound less active  accitional Lightning Emitter, Laser Launcher and Forcefield damage +590
+*250
+Energy shield HP spawned rorn Electronic Protection 4200 X3600
+Enemies hit by lai Slash are inflicted with When using Summon Drone +5096 HP +590 Vulnerability recovery
+When Auric Shell is active; each critical hit Dauntless duration +25_ Gain invincibility Fire Support damage +50%. Get airdrop Enemies hit by Fiery Curtain are inflicted restores 0.590 HP when Dauntless active instantly with +596 Vulnerability
+7300
+When Woundless is active: additional For everv cubblies ooted. firearm Lichtnina Emitter; Laser Launcher and weanen damage (including Starforged Forcefield damage +109, additional Havoc) +290 (Max 10%) Crit damage +20%6. Unlocks Teamwork Passive Slot Unlocks Teamwork Passive Slot
+When Garrison Shield i triggered, Crit Damage +109 Unlocks Teamwork Passive Slot 74200
+When Bladesmith triggered, all skill damage +20% Unlocks Teamwork Passive Slot
+When Mechmeat Unity triggered, Survivor Crit Damage 2096 Unlocks Teamwork Passive Slot
+Pumme Crit trigger count 100, Burning Attack interval -1090, skill power +1096 circle inflicts additional +596 Vulnerability When Lone Hero is triggered Unlocks Teamwork Passive Slot Unlocks Teamwork Passive Slot
+7350
+When Dauntless active, instakills any monsters On Imdaci (excluding elites bosses)
+Energy shield HP spawned Itom Electronic Protection +3096
+Enemies hit by lai Slash are inflicted with When using Summon Drone, +50% HP additional +596 Vulnerability recovery
+When Auric Shell active, Crit Damage +3096
+Additional Fire Support damage +5090, Get additional airdrop
+Enemies hit by Fiery Curtain are inflicted with +596 additional Vulnerability
+*400
+X4800
+When Woundless active; additional For every supples lpoted chanctens Lightning Emitter Laser Launcher and eclusive skill damade +29 (Max 1096] Forcefield damage +159 additional Crit firearm weapor damage (including damade 4250. Cain additional enerav Starforged Havoc) +296 (Max 1096] shield with 309 of Max HP When Teamwork Passive Slot - Anoungicss aclive Teamwork Passive Slot Game verslon 3.5 Updated 2025-01-26. Original by @Urshi: Updated by @procrastinazn
+Pumnme Crit trigger count 100, Burning circle inflicts additional +109 Vulnerability Teamwork Passive Slot +1
+Attack interval -1090, additional Crit damage 1596, Jdamtona skill [ power +1590 when Lone Hero triggered Teamwork Passive Slot -
+When Garrison Shield triggered, all skill damage 1100 Teamwork Passive Slot +1 X600o
+When Bladesmith triggered; equipped WeanonS extra damade +1090 Teamwork Passive Slot +1
+When Mechmeat Unity triggered; drone' extra camade +1109 Teamwork Passive Slot +1
+X12
+7500

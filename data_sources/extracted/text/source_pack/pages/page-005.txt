@@ -1,0 +1,29 @@
+Awakening upgrades 
+A1 
+●​ Active: Rocket Assault 
+●​ When Rocket Assault ends, fires a wave of Assault Sai. 
+●​ Passive: Scattered Spikes 
+●​ Throws piercing sai around every 20 seconds. 
+●​ Enemies hit get +5 seconds of Laceration. 
+●​ Damage to Lacerated enemies +10%. 
+A2 
+●​ Additional damage on Lacerated targets +10%. 
+A3 
+●​ More Assault Sai thrown during Rocket Assault. 
+A4 
+●​ Additional damage on Lacerated targets +10%. 
+●​ Unlocks 1 Teamwork Passive Slot. 
+A5 
+●​ Fires Assault Sai during Rocket Assault. 
+A6 
+●​ Additional damage on Lacerated targets +20%. 
+●​ Teamwork Passive Slot +1. 
+Optimizer notes 
+Raphael is a Laceration damage amplifier. He matters if the build uses Laceration stacking, 
+boss debuffs, or teamwork passive sharing. 
+Database flags: 
+Debuff = Bleed, Laceration​
+ DamageType = Lacerated target damage​
+ GlobalValue = Crit Rate at 5-star​
+ TeamworkSlot = A4 and A6​
+ DPSRelevant = Yes

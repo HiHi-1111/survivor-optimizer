@@ -1,0 +1,18 @@
+{
+  "tested": 5,
+  "new_failures": 4,
+  "failure_counts": {
+    "missing_decision_explanation": 4
+  },
+  "bank_size": 4,
+  "generated_test": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\tests\\test_generated_global_plan_killer_memory.py",
+  "pytest_returncode": 0,
+  "pytest_tail": "................                                                         [100%]\n16 passed in 2.46s\n",
+  "runtime": {
+    "folder": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517",
+    "zip": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517.zip",
+    "folder_mb": 0.793,
+    "zip_mb": 0.081
+  },
+  "created_at": 1782513942.7936046
+}

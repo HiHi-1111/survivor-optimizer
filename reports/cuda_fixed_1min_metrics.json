@@ -1,0 +1,714 @@
+{
+  "actions_by_system": {
+    "chests": 464,
+    "cores": 65619,
+    "merge": 46868,
+    "pet_awakenings": 15966,
+    "pets": 35128,
+    "resonance": 30145,
+    "save_hold": 28384,
+    "selectors": 54528,
+    "skills": 7637,
+    "ss_gear": 63841,
+    "survivor_awakening": 13687,
+    "survivors": 3352,
+    "tech_parts": 39194,
+    "xeno_pets": 27545
+  },
+  "actions_generated_per_second": 144.283,
+  "actions_per_second": 195.83,
+  "actions_pruned_by_learned_priors": 0,
+  "actions_reordered_by_learned_priors": 900,
+  "actions_scored_by_system": {
+    "chests": 1,
+    "cores": 6,
+    "merge": 12,
+    "pet_awakenings": 2,
+    "pets": 8,
+    "resonance": 8,
+    "salvage": 6,
+    "save_hold": 1,
+    "selectors": 3,
+    "skills": 6,
+    "ss_gear": 6,
+    "survivor_awakening": 10,
+    "survivors": 24,
+    "tech_parts": 6,
+    "xeno_pets": 2
+  },
+  "actions_skipped_by_system": {
+    "clan": 1,
+    "clan_shop": 1,
+    "collectible_sets": 1,
+    "collectibles": 1,
+    "event_shops": 1,
+    "events": 1,
+    "exchanges": 2,
+    "gear": 1,
+    "pet_merging": 1,
+    "resources": 1,
+    "salvage": 6,
+    "shops": 1,
+    "skills": 4,
+    "special_ops": 1,
+    "universal_exchange": 1
+  },
+  "actions_tested": 19987,
+  "active_gpu_processes": null,
+  "allow_exhaustive_small_inventory": false,
+  "archetype_buckets_covered": 41,
+  "assumption_chart_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\state\\profile_assumption_chart.json",
+  "assumption_chart_samples": 955320,
+  "audit_full_search_interval": 100,
+  "audit_full_search_rate": 0.0,
+  "average_actions_per_profile": 16.362,
+  "average_chain_depth": 2,
+  "average_chains_per_profile": 232.018,
+  "benchmark_command": ".\\tools\\run_training.ps1 -Minutes 1 -ProfileCount 100000 -Workers 24 -Device cuda -BatchSize 4096 -GpuScore -ComboMode -ChainDepth 2 -BeamSize 150 -MaxActionsPerProfile 1000 -KeepGenerating -LearnedPruning normal -ExplorationRate 0.08 -AuditFullSearchInterval 100 -CoverageReport",
+  "benchmark_configuration": {
+    "audit_full_search_interval": 100,
+    "batch_size": 4096,
+    "beam_size": 150,
+    "chain_depth": 2,
+    "combo_mode": true,
+    "device": "cuda",
+    "exploration_rate": 0.08,
+    "gpu_score": true,
+    "learned_pruning": "normal",
+    "max_actions_per_profile": 1000,
+    "minutes": 1.0,
+    "profile_count": 100000,
+    "selected_workers": 24,
+    "workers": "24"
+  },
+  "benchmark_valid": true,
+  "best_chains_found": 900,
+  "catalog_only_systems": [
+    "resources"
+  ],
+  "chain_depth": 2,
+  "chain_profile_interval": 1,
+  "chain_simulation_reason": "global planner reused as the deeper chain simulator",
+  "chain_simulator_profiles": 0,
+  "chain_states_per_second": 780.792,
+  "chain_states_produced": 79690,
+  "chains_by_system": {
+    "chests": 464,
+    "cores": 63696,
+    "merge": 45408,
+    "pet_awakenings": 15506,
+    "pets": 34010,
+    "resonance": 28430,
+    "save_hold": 27484,
+    "selectors": 52074,
+    "skills": 7424,
+    "ss_gear": 61918,
+    "survivor_awakening": 13232,
+    "survivors": 3352,
+    "tech_parts": 37926,
+    "xeno_pets": 26708
+  },
+  "chains_per_second": 2045.952,
+  "chains_pruned": 141608,
+  "chains_scored": 208816,
+  "chains_skipped": 0,
+  "checkpoint_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\state\\checkpoints\\optimizer_latest.json",
+  "checkpoint_saves": 4,
+  "combo_mode": true,
+  "cpu_profiles_per_second": 8.818,
+  "cpu_waiting_on_gpu": false,
+  "cpu_worker_waiting_on_gpu_seconds": 72.353072,
+  "cuda_detected": true,
+  "cuda_preflight": {
+    "cuda_available": true,
+    "device_count": 1,
+    "device_index": 0,
+    "matrix_operation_ok": true,
+    "message": "CUDA preflight passed on NVIDIA GeForce RTX 4070",
+    "passed": true,
+    "requested_device": "cuda",
+    "selected_device_name": "NVIDIA GeForce RTX 4070",
+    "tensor_allocation_ok": true,
+    "torch_imported": true,
+    "torch_version": "2.11.0+cu128"
+  },
+  "cuda_preflight_passed": true,
+  "debug_log_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\logs\\training\\runs\\trainer_20260623_125701_5336_094537600.log",
+  "deep_chain_transitions_simulated": 208816,
+  "deep_searches_per_second": 8.818,
+  "device": "cuda",
+  "dominated_states_removed": 0,
+  "elapsed_seconds": 102.063,
+  "equivalent_actions_removed_before_gpu": 36522,
+  "exploration_rate": 0.08,
+  "failure_details": {},
+  "failure_reason": null,
+  "failure_stage": null,
+  "false_prune_rate": 0.0,
+  "false_prunes": 0,
+  "fast_throughput": false,
+  "full_mode_profiles_per_second": 8.818,
+  "full_search_audits": 9,
+  "global_chains_considered": 208816,
+  "global_planner_profiles": 900,
+  "global_profile_interval": 1,
+  "gpu_acceleration_enabled": true,
+  "gpu_acceleration_reason": "shared-memory CUDA ranking before beam pruning",
+  "gpu_batch_utilization": 33.093,
+  "gpu_idle_percentage": 87.498,
+  "gpu_idle_reason": "waiting_for_cpu_candidates",
+  "gpu_operations_planned": [
+    "shared_memory_preprune_ranking",
+    "cuda_topk"
+  ],
+  "gpu_proposal_scoring_coverage_percent": 97.004,
+  "gpu_scored_chain_coverage_percent": 92.842,
+  "gpu_scoring": {
+    "async_pipeline": true,
+    "average_batch_size": 1355.49,
+    "average_gpu_batch_size": 1355.49,
+    "cpu_gpu_wait_fraction": 0.039041,
+    "cpu_waiting_on_gpu": false,
+    "cpu_workers_cuda_isolated": true,
+    "cuda_available": true,
+    "cuda_detected": true,
+    "cuda_initialization_count": 1,
+    "cuda_owner_thread_id": 16628,
+    "cuda_released": true,
+    "errors": [],
+    "failure_reason": "",
+    "gpu_acceleration_enabled": true,
+    "gpu_acceleration_reason": "shared-memory CUDA ranking before beam pruning",
+    "gpu_active_compute_rows_per_sec": 127522.714,
+    "gpu_actually_used": true,
+    "gpu_batch_utilization": 33.093,
+    "gpu_batches_completed": 200,
+    "gpu_chain_rows_scored": 271098,
+    "gpu_chain_rows_submitted": 271098,
+    "gpu_idle_percentage": 87.498,
+    "gpu_idle_reason": "waiting_for_cpu_candidates",
+    "gpu_idle_reasons_seconds": {
+      "cpu_pruned_before_gpu": 0.0,
+      "gpu_disabled": 0.0,
+      "queue_backpressure": 0.0,
+      "scoring": 2.12588,
+      "waiting_for_batch_fill": 1.063314,
+      "waiting_for_cpu_candidates": 65.938054
+    },
+    "gpu_initialized": true,
+    "gpu_operations_planned": [
+      "shared_memory_preprune_ranking",
+      "cuda_topk"
+    ],
+    "gpu_pipeline_active": true,
+    "gpu_queue_fill_rate": 0.012552,
+    "gpu_queue_high_water": 16,
+    "gpu_queue_size": 0,
+    "gpu_requested": true,
+    "gpu_rows_scored": 271098,
+    "gpu_rows_submitted": 271098,
+    "gpu_used": true,
+    "gpu_waiting_on_cpu": true,
+    "gpu_wall_rows_per_sec": 3540.292,
+    "preprune_requests": 1714,
+    "preprune_rows_by_phase": {
+      "final_state": 73986,
+      "proposal": 197112
+    },
+    "scored_rows": 271098,
+    "scoring_batches": 200,
+    "scoring_elapsed_seconds": 2.12588,
+    "service_failed": false,
+    "start_calls": 1,
+    "submitted_rows": 271098,
+    "successful_cuda_scoring_batches": 200,
+    "thread_start_count": 1
+  },
+  "gpu_waiting_on_cpu": true,
+  "gpu_wall_rows_per_sec": 3540.292,
+  "hardware": {
+    "cpu_utilization_percent": 33.3,
+    "memory_rss_mb": 8591.621,
+    "system_memory_percent": 46.6
+  },
+  "hardware_bottleneck": "CPU candidate generation/search is starving the GPU",
+  "interrupted": false,
+  "inventory_action_coverage_percent": 87.879,
+  "item_affordance_coverage_percent": 96.97,
+  "learned_hard_pruning_usage_percent": 0.0,
+  "learned_memory_loaded_from_disk": true,
+  "learned_memory_writes": 3,
+  "learned_pruned_profiles": 0,
+  "learned_pruning": "normal",
+  "learned_pruning_usage_percent": 100.0,
+  "learned_ranker": true,
+  "learned_ranker_checkpoint_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\state\\checkpoints\\learned_ranker.json",
+  "learned_ranker_samples": 582066,
+  "learned_ranker_updates": 582066,
+  "learned_reordered_profiles": 900,
+  "learned_reordering_usage_percent": 100.0,
+  "learned_usage_diagnostics": {
+    "blocked_reasons": {
+      "learned priors reordered systems; hard pruning disabled by safety latch after 34 historical false prune(s)": 900
+    },
+    "chart_loaded": true,
+    "chart_samples": 955320,
+    "decision_counts": {
+      "reordered": 900
+    },
+    "ranker_observe_updates": 582066,
+    "ranker_weights_nonzero": 19
+  },
+  "learning_memory_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\state\\learning_memory.json",
+  "main_bottleneck": "CPU candidate generation/search is starving the GPU",
+  "missing_chest_contents": [],
+  "missing_costs": [
+    "clan_shop_catalog_needs_review"
+  ],
+  "missing_data_by_system": {
+    "clan_shop": [
+      "Missing clan-shop cost or insufficient known currency; purchase is not assumed."
+    ],
+    "collectible_sets": [
+      "No source-backed records or owned resources are available for this system."
+    ],
+    "collectibles": [
+      "No source-backed records or owned resources are available for this system."
+    ],
+    "event_shops": [
+      "No source-backed records or owned resources are available for this system."
+    ],
+    "events": [
+      "No source-backed records or owned resources are available for this system."
+    ],
+    "exchanges": [
+      "No concrete exchange table is known yet; action is coverage-only."
+    ],
+    "gear": [
+      "No source-backed records or owned resources are available for this system."
+    ],
+    "pet_merging": [
+      "No source-backed records or owned resources are available for this system."
+    ],
+    "resources": [
+      "No source-backed records or owned resources are available for this system."
+    ],
+    "universal_exchange": [
+      "No source-backed records or owned resources are available for this system."
+    ]
+  },
+  "missing_item_names": [
+    "clan_shop_catalog_needs_review"
+  ],
+  "missing_unlock_requirements": [
+    "april_sp",
+    "croaky",
+    "donatello_sp",
+    "leonardo_sp",
+    "michelangelo_sp",
+    "murica",
+    "pet_awakening_crystal_path",
+    "raphael_sp",
+    "rex",
+    "splinter_sp"
+  ],
+  "needs_review_by_system": {
+    "chests": [
+      "core_selector_chest"
+    ],
+    "clan_shop": [
+      "clan_shop_catalog_needs_review"
+    ],
+    "cores": [
+      "clan_currency",
+      "energy_essence",
+      "gem",
+      "relic_core"
+    ],
+    "resonance": [
+      "clan_currency",
+      "energy_essence",
+      "gem",
+      "relic_core"
+    ],
+    "resources": [
+      "clan_currency",
+      "energy_essence",
+      "gem",
+      "relic_core"
+    ],
+    "save_hold": [
+      "clan_currency",
+      "core_selector_chest",
+      "energy_essence",
+      "gem",
+      "relic_core"
+    ],
+    "selectors": [
+      "core_selector_chest"
+    ],
+    "ss_gear": [
+      "clan_currency",
+      "energy_essence",
+      "gem",
+      "relic_core"
+    ],
+    "survivors": [
+      "clan_currency",
+      "energy_essence",
+      "gem",
+      "relic_core"
+    ],
+    "tech_parts": [
+      "clan_currency",
+      "energy_essence",
+      "gem",
+      "relic_core"
+    ],
+    "xeno_pets": [
+      "clan_currency",
+      "energy_essence",
+      "gem",
+      "relic_core"
+    ]
+  },
+  "next_data_needed": {
+    "collectible_sets": "Add source-backed records for: collectible_sets.",
+    "collectibles": "Add source-backed records for: collectibles, collectible_sets.",
+    "event_shops": "Add source-backed records for: event_shops.",
+    "events": "Add source-backed records for: events.",
+    "exchanges": "Add source-backed records for: universal_exchange.",
+    "gear": "Add source-backed records for: gear, weapons.",
+    "pet_merging": "Add source-backed records for: pet_merging.",
+    "universal_exchange": "Add source-backed records for: universal_exchange."
+  },
+  "npu": {
+    "active": false,
+    "available": false,
+    "idle_reason": "backend_unavailable",
+    "provider": null,
+    "providers": [
+      "AzureExecutionProvider",
+      "CPUExecutionProvider"
+    ],
+    "reason": "NPU unavailable for this Python path; using CPU/GPU."
+  },
+  "observable_real_data_systems": [
+    "chests",
+    "cores",
+    "merge",
+    "pet_awakenings",
+    "pets",
+    "resonance",
+    "salvage",
+    "save_hold",
+    "selectors",
+    "skills",
+    "ss_gear",
+    "survivor_awakening",
+    "survivors",
+    "tech_parts",
+    "xeno_pets"
+  ],
+  "partial_metrics_preserved": false,
+  "partial_results_valid": false,
+  "persistent_caches": {
+    "action_generation_cache": {
+      "entries": 900,
+      "hits": 0,
+      "misses": 0,
+      "path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\state\\cache\\action_generation_cache.jsonl",
+      "pending_writes": 0
+    },
+    "action_result_cache": {
+      "entries": 900,
+      "hits": 0,
+      "misses": 0,
+      "path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\state\\cache\\action_result_cache.jsonl",
+      "pending_writes": 0
+    },
+    "chain_result_cache": {
+      "entries": 900,
+      "hits": 0,
+      "misses": 0,
+      "path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\state\\cache\\chain_result_cache.jsonl",
+      "pending_writes": 0
+    },
+    "gpu_score_cache": {
+      "entries": 900,
+      "hits": 0,
+      "misses": 0,
+      "path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\state\\cache\\gpu_score_cache.jsonl",
+      "pending_writes": 0
+    },
+    "profile_feature_cache": {
+      "entries": 900,
+      "hits": 0,
+      "misses": 0,
+      "path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\state\\cache\\profile_feature_cache.jsonl",
+      "pending_writes": 0
+    },
+    "state_value_cache": {
+      "entries": 900,
+      "hits": 0,
+      "misses": 0,
+      "path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\state\\cache\\state_value_cache.jsonl",
+      "pending_writes": 0
+    }
+  },
+  "placeholder_only_systems": [
+    "clan_shop"
+  ],
+  "prebuilt_root_actions_reused": 14575,
+  "preprune_candidates_removed_before_state_transition": 132909,
+  "preprune_corrections": 0,
+  "preprune_false_prune_rate": 0.0,
+  "preprune_false_prunes": 0,
+  "preprune_full_search_audits": 18,
+  "prior_min_samples": 20,
+  "profile_buckets_covered": 19752,
+  "profile_count_limit": 100000,
+  "profile_generation": {
+    "cuda_owner": "shared_preprune_ranker",
+    "gpu_profile_features_effective": false,
+    "gpu_profile_features_requested": true,
+    "gpu_profile_features_used": false,
+    "materialize_profiles": "on_demand",
+    "numeric_batches_generated": 3,
+    "producer": {
+      "batches_produced": 3,
+      "errors": [],
+      "gpu_used": false,
+      "idle_reason": "queue_full_waiting_for_cpu",
+      "queue_capacity": 2,
+      "queue_size": 2
+    },
+    "profile_batch_size": 65536
+  },
+  "profile_prior_report_json": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\reports\\training\\profile_prior_report.json",
+  "profile_prior_report_md": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\reports\\training\\profile_prior_report.md",
+  "profile_status": "Profiles completed",
+  "profiles_available": 900,
+  "profiles_learned_from": 955320,
+  "profiles_pending_at_start": 900,
+  "profiles_per_second": 8.818,
+  "profiles_processed": 900,
+  "profiles_tested": 900,
+  "profiles_using_learned_priors": 900,
+  "proposal_budget_audits": 9,
+  "proposal_budget_candidates_removed": 18309,
+  "proposal_budget_false_prunes": 2,
+  "proposal_budget_raw_candidates": 33035,
+  "proposal_budget_selected_candidates": 14726,
+  "proposal_row_budget_audits": 9,
+  "proposal_row_budget_false_prunes": 0,
+  "proposal_rows_budget_removed": 5616,
+  "proposal_rows_created": 203200,
+  "prune_dominated_states": true,
+  "pruning_strength": "normal",
+  "ranker_device": "cuda",
+  "raw_proposal_rows": 208816,
+  "real_data_systems": [
+    "chests",
+    "cores",
+    "merge",
+    "pet_awakenings",
+    "pets",
+    "resonance",
+    "resources",
+    "salvage",
+    "save_hold",
+    "selectors",
+    "skills",
+    "ss_gear",
+    "survivor_awakening",
+    "survivors",
+    "tech_parts",
+    "xeno_pets"
+  ],
+  "recovery_note": null,
+  "resume": true,
+  "runtime_cache": {
+    "action_hits": 876,
+    "action_misses": 924,
+    "hit_rate": 0.60091,
+    "state_value_hits": 106795,
+    "state_value_misses": 70585
+  },
+  "runtime_failed": false,
+  "save_hold_recommendations": 15,
+  "shallow_searches": 0,
+  "shallow_searches_per_second": 0.0,
+  "standalone_chain_runs_skipped": 900,
+  "startup_failed": false,
+  "state_rebuilds_avoided_before_transition": 129126,
+  "systems_covered": [
+    "chests",
+    "cores",
+    "merge",
+    "pet_awakenings",
+    "pets",
+    "resonance",
+    "salvage",
+    "save_hold",
+    "selectors",
+    "skills",
+    "ss_gear",
+    "survivor_awakening",
+    "survivors",
+    "tech_parts",
+    "xeno_pets"
+  ],
+  "systems_covered_count": 15,
+  "systems_fully_supported": [
+    "chests",
+    "cores",
+    "merge",
+    "pet_awakenings",
+    "pets",
+    "resonance",
+    "salvage",
+    "save_hold",
+    "selectors",
+    "skills",
+    "ss_gear",
+    "survivor_awakening",
+    "survivors",
+    "tech_parts",
+    "xeno_pets"
+  ],
+  "systems_implemented": [
+    "chests",
+    "clan_shop",
+    "collectible_sets",
+    "collectibles",
+    "cores",
+    "event_shops",
+    "events",
+    "exchanges",
+    "gear",
+    "merge",
+    "pet_awakenings",
+    "pet_merging",
+    "pets",
+    "resonance",
+    "resources",
+    "salvage",
+    "save_hold",
+    "selectors",
+    "skills",
+    "ss_gear",
+    "survivor_awakening",
+    "survivors",
+    "tech_parts",
+    "universal_exchange",
+    "xeno_pets"
+  ],
+  "systems_missing_data": [
+    "collectible_sets",
+    "collectibles",
+    "event_shops",
+    "events",
+    "exchanges",
+    "gear",
+    "pet_merging",
+    "universal_exchange"
+  ],
+  "systems_not_covered": [
+    "clan_shop",
+    "collectible_sets",
+    "collectibles",
+    "event_shops",
+    "events",
+    "exchanges",
+    "gear",
+    "pet_merging",
+    "resources",
+    "universal_exchange"
+  ],
+  "systems_not_observed": [],
+  "systems_partially_supported": [
+    "clan_shop",
+    "collectible_sets",
+    "collectibles",
+    "event_shops",
+    "events",
+    "exchanges",
+    "gear",
+    "pet_merging",
+    "resources",
+    "universal_exchange"
+  ],
+  "systems_scored": [
+    "chests",
+    "cores",
+    "merge",
+    "pet_awakenings",
+    "pets",
+    "resonance",
+    "save_hold",
+    "selectors",
+    "skills",
+    "ss_gear",
+    "survivor_awakening",
+    "survivors",
+    "tech_parts",
+    "xeno_pets"
+  ],
+  "systems_simulated": [
+    "chests",
+    "cores",
+    "merge",
+    "pet_awakenings",
+    "pets",
+    "resonance",
+    "salvage",
+    "save_hold",
+    "selectors",
+    "skills",
+    "ss_gear",
+    "survivor_awakening",
+    "survivors",
+    "tech_parts",
+    "xeno_pets"
+  ],
+  "test_result_status": "not_run",
+  "timing": {
+    "time_spent_generating_actions": "included in worker elapsed time",
+    "time_spent_scoring": 2.12588,
+    "time_spent_simulating_chains": "included in worker elapsed time",
+    "time_spent_writing_logs": 25.00374
+  },
+  "total_actions_generated": 14726,
+  "total_actions_simulated": 208816,
+  "training_eta_seconds": 0.0,
+  "training_lock": {
+    "path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\training.lock",
+    "pid": 5336,
+    "released_on_exit": true
+  },
+  "tuning": {
+    "after": {
+      "breakpoint_value": 1.2,
+      "chain_reaction_value": 1.2,
+      "confidence": 1.084
+    },
+    "before": {
+      "breakpoint_value": 1.2,
+      "chain_reaction_value": 1.2,
+      "confidence": 1.082
+    },
+    "breakpoint_rate": 0.9767,
+    "chain_rate": 0.8956,
+    "consistency_rate": 1.0,
+    "results_used": 900,
+    "timestamp": "2026-06-23T16:58:52Z",
+    "updated": true
+  },
+  "unobservable_system_reasons": {
+    "resources": "Resource rows are inputs to core, resonance, pet, survivor, exchange, and save/hold actions; spending a currency without a destination is not a valid action."
+  },
+  "unsupported_item_count": 4,
+  "unsupported_systems": [],
+  "workers": 24
+}

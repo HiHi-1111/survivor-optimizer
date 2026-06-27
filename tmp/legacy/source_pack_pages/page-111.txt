@@ -1,0 +1,27 @@
+Optimizer rule 
+Use this for: 
+Expected value 
+Chest opening strategy 
+How many keys/gems needed 
+Chance to get target gear 
+ 
+19. Timed Muster medal conversion 
+Source: 
+Timed_Muster_Medal_Conversion_2024-12-12 
+What it does 
+Shows conversion/value for timed muster medals. 
+Optimizer rule 
+Use for event value and whether to convert/spend medals now or save/use differently. 
+ 
+20. Master source index for the calculator 
+This is the source pack I’ll use going forward: 
+Chapter_Unlocks 
+Skills 
+Boss_Debuffs 
+Shield_and_Skill_Damage_Multipliers 
+Crit_Rate_And_Damage 
+ 
+Survivor 
+Survivors 
+Survivors_S 
+Survivors_SP

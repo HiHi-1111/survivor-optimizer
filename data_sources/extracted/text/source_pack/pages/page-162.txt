@@ -1,0 +1,36 @@
+8000: 
+Total ATK 30000, Total HP 122000 
++6000 ATK, +24000 HP 
+ 
+8500: 
+Energy Diffuser ATK +5% 
+ 
+9000: 
+Soulfire Damage +10%. 
+Deep Wound effect +5%. 
+Database flags 
+TechResonanceID = NORMAL_MOLOTOV 
+MainTech = Molotov / FuelBarrel 
+SpecialMechanics = Soulfire, Poison, DeepWound, FuelBarrelFireDamage 
+SupportUnit = EnergyDiffuser 
+MaxResonance = 9000 
+DPSRelevant = MediumHigh 
+LateGameNote = Lower priority than Twinborn tech paths 
+IgnoreForDPS = HP 
+ 
+Batch 3 optimizer takeaways 
+Strongest mechanics in this batch 
+Twinborn Durian: 
+- Poison application 
+- Permanent Skill Damage mutation 
+- Permanent Poisoned-target damage boost 
+- Shield Damage 
+ 
+Twinborn Soccer: 
+- Crit Damage 
+- Chill Damage 
+- Shield Damage 
+- Hoarfrost / Hi-Energy / Protection effects 
+ 
+Normal Drone: 
+- Attack Wingbit

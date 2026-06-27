@@ -1,0 +1,44 @@
+9000: 
+Lacerate Damage +50 
+Damage to Lacerated targets +25% 
+ 
+9500: 
++7500 ATK, +30000 HP 
+ 
+10000: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+10500: 
+Shield Damage +100 
+Shield Damage Boost +35% 
+ 
+11000: 
++7500 ATK, +30000 HP 
+ 
+11500: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+12000: 
+Skill Damage +100 
+Skill Damage +40% 
+ 
+12500: 
++7500 ATK, +30000 HP 
+ 
+13000: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+13500: 
+Poison Damage +200 
+Max Mad Blight stacks +5 
+ 
+14000: 
++7500 ATK, +30000 HP 
+ 
+14500: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+15000: 
+Lacerate Damage +75 
+Blaster Sharkmaw Gun damage +60% 
+Cluster Arrows damage +25%

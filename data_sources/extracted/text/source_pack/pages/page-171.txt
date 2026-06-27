@@ -1,0 +1,42 @@
+Enemies defeated inside Twinborn Force Barrier yield bonus EXP. 
+Skill Damage +120%. 
+ 
+Destroyer exclusive: 
+Newtype Warhead. 
+Restores fire rate and missile explosion range is doubled. 
+Eternal / Rainbow: 
+Twinborn Forcefield: 
+Restores Twinborn Forcefield range. 
+Fires a large-area pulse every few seconds. 
+Crit Damage +160%. 
+Crit Rate +20%. 
+ 
+Twinborn Force Barrier: 
+Fires a suppression pulse every few seconds. 
+Monsters hit by pulse are Snared, excluding bosses. 
+ 
+Drone: 
+Starts at Lv.2. 
+ 
+Destroyer: 
+Homing range up. 
+More missiles. 
+Collectible set 
+CollectibleSetName = Impression Idols 
+AssociatedTwinborn = Twinborn Forcefield / Twinborn Force Barrier 
+10x yellow stars: 
+Twinborn Forcefield and Twinborn Force Barrier damage +21%. 
+ 
+20x yellow stars: 
+Twinborn Forcefield and Twinborn Force Barrier damage +21%. 
+Vulnerability effect +10%. 
+Crit Damage +15%. 
+ 
+10x red stars: 
+Twinborn Forcefield and Twinborn Force Barrier damage +21%. 
+Damage rate +25%. 
+ 
+20x red stars: 
+Twinborn Forcefield and Twinborn Force Barrier damage +21%. 
+Vulnerability effect +10%. 
+Crit Damage +15%.

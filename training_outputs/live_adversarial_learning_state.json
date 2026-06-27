@@ -1,0 +1,2452 @@
+{
+  "adaptive_focus": [],
+  "anti_optimizer_level": 1.0,
+  "categories": {},
+  "history": [
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511814.2070208,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 1,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511816.8127735,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 2,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511819.4728827,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 3,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511822.1578076,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 4,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511824.818864,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 5,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511827.4879332,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 6,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511830.0493262,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 7,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511832.5300577,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 8,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511835.0486526,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 9,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511837.6320734,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 10,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511840.3081048,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 11,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511842.8675547,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 12,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511845.5285256,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 13,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511848.1579158,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 14,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511850.6320348,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 15,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511853.1202335,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 16,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511855.7394211,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 17,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511858.3497205,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 18,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511860.8708236,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 19,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511863.5019882,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 20,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511866.1111088,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 21,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511868.556443,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 22,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511871.286944,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 23,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511873.9946117,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 24,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511876.683318,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 25,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511879.4308288,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 26,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511881.9671926,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 27,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511884.5628834,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 28,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511887.2319112,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 29,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511889.9928286,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 30,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511892.646999,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 31,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511895.207057,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 32,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511897.7646227,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 33,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511900.4440904,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 34,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511903.0636647,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 35,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511905.7764823,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 36,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511908.4459825,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 37,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511911.0182514,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 38,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511913.6123831,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 39,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511916.1966882,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 40,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511919.0399477,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 41,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511921.6083508,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 42,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511924.4869375,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 43,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511927.0763397,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 44,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511929.8464255,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 45,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511932.558053,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 46,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511935.0329425,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 47,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511937.6061993,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 48,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511940.1627293,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 49,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511942.7430983,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 50,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511945.3295052,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 51,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511947.9490244,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 52,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511950.6061993,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 53,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511953.1760387,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 54,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511955.8638616,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 55,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782511958.435223,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 56,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512826.842365,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 1,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512829.3858926,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 2,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512832.0736399,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 3,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512834.7087586,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 4,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512837.2949426,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 5,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512840.2795877,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 6,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512843.2333424,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 7,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512846.052121,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 8,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512849.1048806,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 9,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512852.0694082,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 10,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512854.901654,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 11,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512857.7941349,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 12,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512860.5107284,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 13,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512863.442087,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 14,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512866.12176,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 15,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512868.7098935,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 16,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512871.40583,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 17,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512874.1386673,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 18,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512876.6727998,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 19,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512879.4638555,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 20,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512882.3054209,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 21,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512885.088938,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 22,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512888.021681,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 23,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512891.0418472,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 24,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512893.925258,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 25,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512896.8391485,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 26,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512899.722916,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 27,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512902.5116737,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 28,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512905.6177354,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 29,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512908.6814256,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 30,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512911.8317294,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 31,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512914.968048,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 32,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512918.2981892,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 33,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512921.4711359,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 34,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512924.2915988,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 35,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512927.339926,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 36,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512930.3966863,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 37,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512933.348177,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 38,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512936.2822332,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 39,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512939.3470201,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 40,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512942.6018903,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 41,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512945.443072,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 42,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512962.314379,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 1,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512965.1405525,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 2,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512968.18314,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 3,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512971.185627,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 4,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512974.233132,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 5,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512977.0784638,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 6,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512979.8591201,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 7,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512982.801915,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 8,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512985.608953,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 9,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512988.4644983,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 10,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512991.6038125,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 11,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512994.7032197,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 12,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782512997.9314334,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 13,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513001.1853054,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 14,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513003.8662384,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 15,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513006.983235,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 16,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513009.8788788,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 17,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513013.2354686,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 18,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513016.8313987,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 19,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513020.1480267,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 20,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513023.609698,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 21,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513026.795147,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 22,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513030.2478423,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 23,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513063.2323327,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 1,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513066.322645,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 2,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513069.3052964,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 3,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513072.3524945,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 4,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513075.1841986,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 5,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513078.0573318,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 6,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513081.1882966,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 7,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513083.994816,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 8,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513088.1836622,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 9,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513091.7238007,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 10,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513095.3356047,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 11,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513098.3061335,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 12,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513101.695796,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 13,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513105.528692,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 14,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513109.196244,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 15,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513112.8461795,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 16,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513116.448229,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 17,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513119.6924381,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 18,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513122.6648028,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 19,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513125.4080093,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 20,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513128.5262756,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 21,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513131.8920896,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 22,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513135.5545213,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 23,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513139.2443423,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 24,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513142.5693905,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 25,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513145.6791215,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 26,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513148.51795,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 27,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513151.39067,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 28,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513154.344825,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 29,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513157.4519336,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 30,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513160.390357,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 31,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513163.3498435,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 32,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513166.5473578,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 33,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513169.7119195,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 34,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513172.7801037,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 35,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513175.8088422,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 36,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513178.6424606,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 37,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513181.4080067,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 38,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513207.7402503,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 1,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513210.660115,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 2,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513213.5088015,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 3,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513216.3926632,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 4,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513219.2610176,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 5,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513222.037407,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 6,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513224.6287627,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 7,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513227.2339673,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 8,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513229.9212358,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 9,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513232.5010474,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 10,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513235.3456023,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 11,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513238.0840333,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 12,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513240.815444,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 13,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513243.681503,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 14,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513246.2927277,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 15,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513248.9254134,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 16,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513251.845112,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 17,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513254.4226334,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 18,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513256.9379036,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 19,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513259.6949074,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 20,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513262.4379306,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 21,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513265.1386013,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 22,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513268.2169847,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 23,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513271.28672,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 24,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513274.2001846,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 25,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513278.0280707,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 26,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513281.442659,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 27,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513284.3828933,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 28,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513287.3870738,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 29,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513290.4311733,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 30,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513293.327384,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 31,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513296.0023983,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 32,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513298.7516043,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 33,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513301.402838,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 34,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513304.2533348,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 35,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513306.9169908,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 36,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513309.8531609,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 37,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513312.5167074,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 38,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513315.26852,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 39,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513317.9505358,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 40,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513320.9444416,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 41,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513361.024495,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 1,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513363.5845075,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 2,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513366.2557025,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 3,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513368.965037,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 4,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513371.5328364,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 5,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513374.1609042,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 6,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513376.6532166,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 7,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513379.1015553,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 8,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513381.586933,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 9,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513384.0611632,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 10,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513386.7972302,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 11,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513389.3837752,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 12,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513392.0532374,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 13,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513394.7172902,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 14,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513397.185499,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 15,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513399.830862,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 16,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513402.607164,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 17,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513405.3304179,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 18,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513407.83418,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 19,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513410.4801042,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 20,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513413.0034356,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 21,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513415.5386422,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 22,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513418.2115123,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 23,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513445.4150603,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 1,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513448.0209298,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 2,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513450.6259596,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 3,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513453.370777,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 4,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513455.9904964,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 5,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513458.6112037,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 6,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513461.170911,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 7,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513464.0950677,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 8,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513467.3613515,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 9,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513470.7540598,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 10,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513474.388859,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 11,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513477.3567586,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 12,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513480.0971184,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 13,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513483.0937033,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 14,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513485.800155,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 15,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513488.5739257,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 16,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513491.5768535,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 17,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513494.6245043,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 18,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513497.2494948,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 19,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513499.9699643,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 20,
+      "top_fail": "none"
+    },
+    {
+      "accuracy": 1.0,
+      "created_at": 1782513502.7101004,
+      "fail_count": 0,
+      "failure_rate": 0.0,
+      "gpu_rows_scored": 1000,
+      "pass_count": 500,
+      "round": 21,
+      "top_fail": "none"
+    }
+  ],
+  "last_status": "Learning: plateauing",
+  "optimizer_level": 14.419999999999952,
+  "rounds_seen": 244,
+  "updated_at": 1782513502.7101004,
+  "version": 1
+}

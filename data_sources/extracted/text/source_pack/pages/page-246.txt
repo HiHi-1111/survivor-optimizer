@@ -1,0 +1,64 @@
+Yellow 
+1 
+0.44 
+Tempest Rush: Blazing Charge collision damage to bosses/elites scales 
+with Movement Speed. When Movement Speed exceeds 12, +5% damage 
+for each additional point, up to 4 stacks 
+Yellow 
+2 
+0.48 
+Each energy stack provides +1 Movement Speed 
+Yellow 
+3 
+0.55 
+Blazing Charge collision damage interval becomes 0.4s 
+Yellow 
+4 
+0.62 
+Damage to Poisoned targets +60%; Damage to Lacerated targets +30% 
+Red 1 
+0.71 
+Blazing Charge: after triggering collision damage, roots bosses/elites for 
+3s. Root reduces Movement Speed to 0. Rooted targets cannot move. 
+Triggers once per unit during each Blazing Charge 
+Red 2 
+0.80 
+Damage to Poisoned targets +80%; Damage to Bosses +5% 
+Red 3 
+0.90 
+Max additional Tempest Rush stacks +8 
+Red 4 
+1.00 
+For every 160% damage to Poisoned targets, +5% damage to bosses, up 
+to 25% 
+Line effects 
+Line 
+Unlock 
+Effect 
+Line 
+1 
+Default 
+Damage to Poisoned targets +20% 
+Line 
+2 
+Default 
+Movement Speed +2 
+Line 
+3 
+Default 
+Damage to Poisoned targets +40%; Skill Damage +50% 
+Line 
+4 
+Default 
+For every 100 collision kills on minions or 5 collisions on bosses, gain 1 
+Charge stack. +30% Skill Damage for each stack, max 5 stacks 
+Line 
+5 
+Yellow 
+2 
+Each energy stack provides +1 Max Movement Speed 
+Line 
+6 
+Yellow 
+4 
+Damage to Poisoned targets +60%; Damage to Lacerated targets +30%

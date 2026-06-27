@@ -1,0 +1,27 @@
+This is associated with: 
+Collectibles | Red-star thresholds | Global DPS 
+The source shows two collectible groups for Crit Rate: 
+Red collectible group 
+●​ 10 collectibles 
+●​ Each gives Crit Rate +10% 
+●​ Total shown: 100% global Crit Rate 
+Yellow collectible group 
+●​ 11 collectibles 
+●​ Each gives Crit Rate +5% 
+●​ Total shown: 55% global Crit Rate 
+Optimizer notes 
+This is extremely important later-game account scaling. 
+For now, because the image uses icons, the optimizer should store each collectible by 
+icon/source until we map the exact collectible names from the collectible edition images. 
+Database flags: 
+SourceCategory = Collectible 
+TargetScope = Global 
+ConditionType = OwnedCollectibleStarThreshold 
+DPSRelevant = Very High 
+Example row: 
+Collectible_CR_Icon_01 | Collectible | UnknownNamePending | CritRate | +10% | Global | 
+Requires listed star threshold | Yes | Map exact name from Collectibles Edition source 
+ 
+5. Master Yang awakening Crit Rate 
+This is associated with: 
+Master Yang | Awakening Red Stars | Active Survivor DPS

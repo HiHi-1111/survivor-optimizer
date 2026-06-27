@@ -1,0 +1,42 @@
+Add a hard adversarial test to the Survivor.io optimizer.
+
+Goal:
+The optimizer must use actual total damage and damage multipliers, not a fake damage score.
+
+Create a test for a confusing high-tier profile where the player secretly has strong damage systems but is missing cheap/common low-tier materials.
+
+Test name:
+test_adversarial_high_tier_low_tier_bait_profile
+
+Profile setup:
+- Player has SS progression unlocked.
+- Player has strong gear damage multipliers.
+- Player has strong survivor damage bonuses.
+- Player is close to S survivor awakening.
+- Player has good pet damage/assist bonuses.
+- Player has good tech/resonance bonuses.
+- Player has useful collectible damage bonuses.
+- Player is missing normal salvage cubes, basic gear fodder, and other cheap/common materials.
+- Player is also missing real rare blockers:
+  - 1 relic core
+  - 1 survivor awakening core
+  - several S survivor shards
+
+Expected behavior:
+- Optimizer must calculate total damage.
+- Optimizer must calculate final damage multiplier.
+- Optimizer must show multiplier breakdown by system.
+- Optimizer must rank/compare the build against tested builds if ranking data exists.
+- Optimizer must identify the true blockers as relic core, awakening core, and S survivor shards.
+- Optimizer must classify normal salvage cubes and low-tier fodder as minor/cheap blockers, not major blockers.
+- Optimizer must not recommend farming or buying cheap low-tier materials over rare milestone blockers.
+- Optimizer must warn that the player is close to a major milestone and identify the exact mandatory missing item.
+
+Fail conditions:
+- Test fails if output uses a fake damage score like 742/1000.
+- Test fails if cheap/common materials are ranked above relic core or awakening core.
+- Test fails if the optimizer ignores the near-awakening milestone.
+- Test fails if total damage or final multiplier is missing.
+- Test fails if multiplier breakdown is missing.
+
+Use existing project structures where possible. Do not rewrite the optimizer. Add the smallest clean test and helper code needed.

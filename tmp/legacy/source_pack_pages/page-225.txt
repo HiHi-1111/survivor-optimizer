@@ -1,0 +1,33 @@
+Used for: 
+Event shop buying 
+Clan shop priority 
+Pass value 
+Gem spending 
+Black Friday saving 
+Selector value 
+Chest value 
+Value table fields 
+ItemID 
+ItemName 
+Category 
+GemEquivalent 
+DPSRelevant 
+BottleneckTier 
+Source 
+Notes 
+High bottleneck items: 
+Relic Core 
+Awakening Core 
+Resonance Chip 
+Xeno Trans Core 
+S selector / S chest 
+Collectible keys 
+Tech keys 
+Survivor shards 
+Pet awakening crystals 
+ 
+16. Sources of Gems 
+Sources: 
+Sources_Of_Gems_2024-10-07 
+Sources_of_Gems_2024-12-18 
+Gem source categories

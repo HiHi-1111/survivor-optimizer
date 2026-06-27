@@ -1,0 +1,33 @@
+Each 3 yellow stars: 
+Omnicombat E5: 
+-5% required shield value to trigger each damage buff. 
+Each 3 red stars: 
+Clarity increases skill damage by +10%. 
+25 stars total: 
+Reverse Scale V2: 
+Triggered skill damage +20%. 
+Meaning of Life 
+Associated with Fury / Weakened targets / Stealth Attack crit damage. 
+Each 3 yellow stars: 
+When Fury is active, +10% additional skill damage. 
+Each 3 red stars: 
++10% additional damage dealt to Weakened targets. 
+25 stars total: 
+Stealth Attack V2: 
++1% additional Crit Damage for every 2 levels of passive skills learned. 
+Interdimension Movement 
+Associated with SS Armor energy/shield system. 
+Each 3 yellow stars: 
+Cabalistic shield damage boost +10%. 
+Each 3 red stars: 
+Suppression: 
+Super Enhance deals additional +5% Skill Damage every level. 
+25 stars total: 
+Eternal Recharge: 
+Each Energy level additionally adds +1% damage multiplier. 
+Optimizer notes 
+Collectibles should not be treated as separate random bonuses. They modify specific SS gear 
+effects. 
+Database flags: 
+CollectibleSetBonus 
+AssociatedGearSlot

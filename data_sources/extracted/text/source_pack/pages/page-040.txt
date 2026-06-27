@@ -1,0 +1,29 @@
+Data type 3: Pets, Pet Skills, Pet 
+Awakening 
+Sources used here: 
+Pets_2024-11-28 
+Pet_Skills_2024-09-09 
+Pet_Awakening_Guide_2024-10-25 
+Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04 
+Pet_Awakening_Guide_-_Murica_2024-10-10 
+Pet_Awakening_Guide_-_Croaky_2024-10-11 
+Pet_Awakening_Guide_-_Rex_2024-10-11 
+This data type belongs in the optimizer as: 
+Pet | Pet Skill | Pet Awakening | Assist Skill | Pet Toy | Pet Affection | Pet DPS | Owner DPS Buff 
+| Pet Crit | Pet Cooldown | Pet Inherited ATK | Pet Utility 
+For your calculator, pets matter in two different ways: 
+1.​ Direct pet damage — Murica/Eagle whirlwind, Crab bullets, Robot lasers, etc. 
+2.​ Owner DPS buffs — Crit Rate, Crit Damage, Skill Damage, cooldown, pet skill damage, 
+inherited ATK. 
+HP, damage reduction, revival time, and invincibility should be stored, but mostly marked as 
+ignore for DPS unless later you make a survival-mode version. 
+ 
+Main pet structure 
+Every pet has: 
+Primary Attack 
+Fixed pet skill pool 
+Awakening/star progression 
+Assist skill compatibility 
+Disposition 
+Toy/affection bonus 
+The optimizer should not treat all pets equally. A pet is valuable based on:

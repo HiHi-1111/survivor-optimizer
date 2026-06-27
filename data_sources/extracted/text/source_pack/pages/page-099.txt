@@ -1,0 +1,26 @@
+Combat Harmony gives extra skill/passive effects and global bonuses. 
+It includes: 
+Combat Harmony skill upgrades 
+Survivor synergy levels 
+Crit Rate bonuses 
+Crit Damage bonuses 
+Level cost requirements 
+Important DPS value 
+From the crit source and harmony source: 
+Combat Harmony can give up to 30% global Crit Rate. 
+Survivor Synergy can give up to 30% global Crit Damage. 
+Optimizer rule 
+This is a global account system. It should be treated like: 
+GlobalCritRateSource 
+GlobalCritDamageSource 
+SurvivorInvestmentSystem 
+Very high long-term DPS value. 
+ 
+9. Crit Rate / Crit Damage system 
+Source: 
+Crit_Rate_And_Damage_2025-03-09 
+What it does 
+This tracks every major source of: 
+Crit Rate 
+Crit Damage 
+Global crit

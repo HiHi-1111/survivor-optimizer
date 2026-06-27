@@ -1,0 +1,33 @@
+EnergyOrbDropRequirement 
+DamageMultiplierPerEnergyLevel 
+SkillDamageWhenEnergyAbove90 
+CritDamagePerEnergyLevel 
+EnergyDrainRate 
+StartingEnergyLevel 
+Database flags: 
+Slot = Armor 
+DPSRelevant = High 
+ScalingInput = EnergyLevel 
+StatTypes = DamageMultiplier, SkillDamage, CritDamage 
+IgnoreForDPS = Revival/HP unless survival mode is added 
+ 
+5. SS Belt 
+Main association 
+SS Belt | Crit Rate ramp | Energy Shield restore | Eternal Laser | Crit Rate threshold | Crit 
+Damage threshold | Skill Damage threshold 
+This is one of the most important optimizer items because it has crit breakpoints. 
+Base / rarity effects 
+Crit Rate +5% for every 500 effective attacks in battle. 
+Max 30%. 
+ATK +15% 
+0.5% of energy shield restored when a critical hit defeats a monster. 
+Max 5 times every second. 
+ATK +25% 
+Shield damage +10% 
+Light Judgment: 
+Fires 1 Eternal Laser every 10 seconds. 
+Marks 1 boss 10 seconds before firing and enters Charging Attack state. 
+During this time, 100% of total damage dealt to boss is converted into Charging Damage. 
+Charging Damage fires as a single laser when charge phase ends. 
+Charging damage is not affected by attack multiplier bonuses. 
+Eternal forge path

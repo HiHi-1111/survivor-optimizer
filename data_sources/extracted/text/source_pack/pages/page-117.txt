@@ -1,0 +1,44 @@
+4000: 
+Phase Driver ATK +5%, HP +5% 
+ 
+4500: 
+Vulnerability +80 
+Enemies damaged by swirling Thunderburst field are inflicted with 30% Vulnerability 
+ 
+5000: 
++3500 ATK, +14000 HP 
+ 
+5500: 
+Phase Driver ATK +5%, HP +5% 
+ 
+6000: 
+After 8 falling thunder strikes, the next 4 strikes deal +25% damage 
+ 
+6500: 
++4000 ATK, +16000 HP 
+ 
+7000: 
+Phase Driver ATK +5%, HP +5% 
+ 
+7500: 
+Crit Damage +90 
+Vulnerability +100 
+Enemies damaged by swirling Thunderburst field are inflicted with 20% Vulnerability 
+Crit Damage +20% 
+ 
+8000: 
++6000 ATK, +24000 HP 
+ 
+8500: 
+Phase Driver ATK +5%, HP +5% 
+ 
+9000: 
+Crit Damage +100 
+Skill Damage +100 
+Skill Damage +30% 
+Crit Damage +10% 
+ 
+9500: 
++7500 ATK, +30000 HP 
+ 
+10000:

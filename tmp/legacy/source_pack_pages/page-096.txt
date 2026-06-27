@@ -1,0 +1,31 @@
+The C4 source says: 
+Base damage = x8 base attack 
+Maximum damage increase from resonance skills can be +240% 
+Base launch interval = 1.5s, max 0.6s 
+Throws new C4 every 1.5s 
+Base explosion delay = 4s, max 1s 
+C4 explodes after 4s from launch time 
+Molotov resonance 
+Molotov resonance is tied to: 
+Molotov 
+Fuel Barrel 
+SF / fire field effects 
+Deep Wound 
+Poison effect damage 
+Fire damage 
+SF generation interval 
+Optimizer rule 
+Tech resonance must be its own system. Do not just score it as “tech part rarity.” 
+Use: 
+MainTechPart 
+SupportTechParts 
+ResonanceEnergy 
+ResonanceMultiplier 
+ResonanceChipCost 
+SpecialMilestoneEffects 
+DPSGain 
+ 
+7. Survivor system 
+Sources: 
+Survivor_2024-09-07​
+ Survivors_2025-01-26​

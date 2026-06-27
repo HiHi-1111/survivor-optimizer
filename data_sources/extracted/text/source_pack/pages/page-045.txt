@@ -1,0 +1,29 @@
+Rex matters because it can support owner Crit Rate and Crit Damage, and the awakening 
+cost guide specifically says Rex or Croaky should be pushed to R5 first. 
+Database flags: 
+Pet = Rex 
+PrimaryAttack = Yell 
+OwnerCritRateSource = Yes 
+OwnerCritDamageSource = Yes 
+SurvivalUtility = Damage transfer 
+DPSRelevant = High 
+ 
+4. Turtle 
+Main association 
+Turtle | Shockwave | Damage Reduction | Revival | Tank Pet 
+Primary attack 
+Turtle leaps up and smashes the ground: 
+Shockwave damage: 300% ATK 
+Cooldown: 1 second 
+Built-in skill themes 
+Turtle is associated with: 
+Shot damage reduction 
+Collision damage reduction 
+Pet revival time reduction 
+Pet inherited HP 
+Pet damage taken reduction 
+Visible effects include: 
+Owner Shot Damage Reduction +10% 
+Owner Collision Damage Reduction +10% 
+Pet revival time -30% 
+Pet inherited HP +15%

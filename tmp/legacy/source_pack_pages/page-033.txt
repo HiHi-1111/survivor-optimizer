@@ -1,0 +1,26 @@
+King evolved skill 
+●​ King-related evolved skill: Crit Damage +25% 
+Optimizer notes 
+These are not global. They depend on active survivor and skill state. 
+Database flags: 
+SourceCategory = Skill 
+StatType = CritDamage 
+TargetScope = ActiveRunOnly 
+ConditionType = ActiveSurvivor / SkillUnlocked / AwakeningLevel 
+DPSRelevant = High 
+ 
+5. Collectible Crit Damage 
+This is associated with: 
+Collectibles | Red-star thresholds | Global DPS 
+The source shows two collectible groups: 
+Red collectible group 
+●​ 10 collectibles 
+●​ Each gives Crit Damage +10% 
+●​ Total: 100% global Crit Damage 
+Yellow collectible group 
+●​ 13 collectibles 
+●​ Each gives Crit Damage +5% 
+●​ Total: 65% global Crit Damage 
+Optimizer notes 
+This should be connected to the collectible database later. For now, store by icon ID and source 
+image.

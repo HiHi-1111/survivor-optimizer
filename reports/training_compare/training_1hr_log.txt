@@ -1,0 +1,1 @@
+optimizer training startup failed [run_lock]: Stale training lock exists at C:\Users\iyoua\Downloads\survivor-optimizer\training_outputs\training.lock. Remove it or rerun with --force-stale-lock after confirming no trainer is active.

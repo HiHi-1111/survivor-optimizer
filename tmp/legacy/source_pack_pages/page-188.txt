@@ -1,0 +1,39 @@
+destruction forcefield; EXP +25%; missile damage +6%; skill damage +75% | SkillDamage | 
++75% | None | Twinborn Destroyer | Evolved | Yes | No | Tech Parts - Twinborn | 2026-02-23 
+TB_LASER_RED_DEATHRAY | TB_LASER_GUARDIAN | Twinborn Death Ray | Laser 
+Launcher | Guardian | Red | Tracks and locks onto enemies, bosses and elites first; Crit Rate 
++20%; Crit Damage +40% | CritRate/CritDamage | +20%/+40% | None | Twinborn Death Ray | 
+Evolved | Yes | No | Tech Parts - Twinborn | 2026-02-23 
+TB_BRICK_ETERNAL_1TON | TB_MOLOTOV_BRICK | Twinborn 1-ton Iron | Brick | Molotov | 
+Eternal | 1-ton Iron count +2; weakens targets for 10s; damage +170%; damage to Weakened 
+targets +70% | DamageToWeakened | +70% | Weaken | Twinborn 1-ton Iron | Evolved | Yes | No 
+| Tech Parts - Twinborn | 2026-02-23 
+ 
+Biggest takeaways from Batch 4 
+Best Twinborn pair overall: 
+Drone + Forcefield 
+ 
+Best pure late-game damage pair after that: 
+Drill + RPG 
+ 
+Best debuff/crit scaling pair: 
+Lightning + Boomerang 
+ 
+Best crit/laser scaling pair: 
+Laser + Guardian 
+ 
+Best burn/deep wound pair: 
+Molotov + Brick 
+ 
+Lowest priority pair: 
+Soccer + Durian 
+For the optimizer, the strongest Twinborn stats to prioritize are: 
+Skill Damage 
+Crit Rate 
+Crit Damage 
+Vulnerability 
+Damage to Weakened 
+Damage to Chilled 
+Damage to Lacerated 
+Deep Wound 
+Shield Damage Boost

@@ -1,0 +1,32 @@
+{
+  "valid": true,
+  "errors": [],
+  "rows": 5682,
+  "actions": 34,
+  "systems": {
+    "breakpoints": 36,
+    "chest_odds": 42,
+    "chests": 184,
+    "clan_shop": 41,
+    "collectibles": 486,
+    "conversions": 100,
+    "crit_stats": 308,
+    "events": 270,
+    "gear": 1218,
+    "mounts": 125,
+    "pet_awakenings": 6,
+    "pet_merging": 29,
+    "pets": 153,
+    "resources": 109,
+    "skills": 430,
+    "ss_gear": 13,
+    "survivor_energy_essence_costs": 1284,
+    "survivors": 499,
+    "tech_parts": 105,
+    "tech_resonance": 218,
+    "unlocks": 25,
+    "xeno_pets": 1
+  },
+  "exact_rows": 1245,
+  "review_rows": 4496
+}

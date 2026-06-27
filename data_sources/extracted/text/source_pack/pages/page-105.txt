@@ -1,0 +1,32 @@
+Unlock requirement 
+Clans unlock at: 
+Chapter 3 after winning 
+What clan does 
+Clan gives: 
+Clan shop 
+Clan expedition 
+Clan level perks 
+Clan member stat boosts 
+Quick earning boosts 
+Clan EXP rewards 
+Clan currency spending 
+Clan shop 
+The clan shop source includes: 
+S selector/chests 
+S survivor shards 
+Survivor shards 
+Collectible keys 
+Tech keys 
+Pet/equipment related chests 
+Relic/core-style items 
+Other upgrade currencies 
+The chart shows stock changing by clan level: 
+Level 1-11 
+Level 12 
+Level 13 
+Level 14 
+Level 15 
+Level 16 
+Important: some clan shop items are icon-only in the image, so I’ll store them by icon ID first if 
+the exact item name is not readable. 
+Example:

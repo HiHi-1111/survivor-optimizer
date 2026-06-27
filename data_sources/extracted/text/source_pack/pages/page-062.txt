@@ -1,0 +1,36 @@
+Pet base table 
+PetID 
+PetName 
+BaseAnimal 
+PrimaryAttackName 
+PrimaryAttackDescription 
+PrimaryDamagePercent 
+PrimaryCooldown 
+DamageType 
+HitType 
+DPSRelevant 
+Notes 
+SourceImage 
+SourceDate 
+Example: 
+PET_MURICA | Murica | Eagle | Whirlwind | Creates penetrating whirlwind | 350% ATK | 1s | 
+Penetrating | Multi-hit/line | Yes | Strong direct pet DPS | Pets_2024-11-28 
+Example: 
+PET_CRAB | Crab | Crab | Water Bullets | Fires powerful water bullets | 500% ATK | 1s | 
+Projectile | Bullet | Yes | Strong pet DPS scaling from crit/CD/ATK | Pets_2024-11-28 
+ 
+Pet skill table 
+PetSkillID 
+SkillName 
+SkillCategory 
+AffectedTarget 
+AffectedStat 
+ValuePurple 
+ValueYellow 
+ValueRed 
+Condition 
+DPSRelevant 
+Notes 
+SourceImage 
+SourceDate 
+Example:

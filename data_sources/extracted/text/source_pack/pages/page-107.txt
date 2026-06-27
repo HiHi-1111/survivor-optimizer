@@ -1,0 +1,30 @@
+Survivor shards 
+Reset vial key 
+Awakening core 
+Tech keys 
+S keys 
+Relic core 
+Collectible key 
+Pass EXP sources 
+From the pass EXP chart: 
+Dailies 
+Defeat monsters 
+Clear main chapters/challenges 
+Regular Challenge 
+Path of Trials 
+Ender’s Echo 
+Clan Expedition 
+Special Ops 
+Season max shown: 
+15,590 to 15,740 EXP range 
+Optimizer rule 
+Pass value should be treated as: 
+RewardValue / Cost 
+DPSMaterialValue 
+RelicCoreValue 
+ShardValue 
+KeyValue 
+ 
+15. Gems, oil, essence, designs, item 
+values 
+Sources:

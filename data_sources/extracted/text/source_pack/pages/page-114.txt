@@ -1,0 +1,31 @@
+1. Twinborn Lightning Resonance 
+Main association 
+Twinborn Lightning 
+Twinborn Maelstorm 
+Thunderburst Field 
+Falling Thunder 
+Phase Driver 
+Crit Damage 
+Skill Damage 
+Vulnerability 
+Stat columns 
+Crit Damage 
+Skill Damage 
+Vulnerability 
+Optimizer identity 
+Twinborn Lightning is a crit + skill damage + vulnerability tech. It becomes much more 
+important later because it gives Vulnerability and large crit/skill damage chunks. 
+DPSRelevant = Very High later 
+DebuffFamily = Vulnerability 
+ScalingType = Thunderburst / Falling Thunder / Crit Damage / Skill Damage 
+Extracted resonance rows 
+50: 
++200 ATK, +800 HP 
+ 
+100: 
+Twinborn Maelstorm Damage +10% 
+ 
+150: 
++400 ATK, +1600 HP 
+ 
+200:

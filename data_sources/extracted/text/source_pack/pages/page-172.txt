@@ -1,0 +1,34 @@
+Skill Damage +20%. 
+Optimizer flags 
+Debuff = Snare, Vulnerability from collectible 
+Stats = SkillDamage, CritDamage, CritRate, DamageRate 
+SpecialMechanics = ForcefieldPulse, SuppressionPulse, BonusEXP 
+DPSRelevant = High 
+MetaPriority = Part of best Twinborn pair because it unlocks Drone/Forcefield 
+ 
+5. Twinborn Drill Shot / Twinborn Frostfire 
+Dualist 
+Pair association 
+TwinbornPairID = TB_DRILL_RPG 
+Mode = Drill side 
+BaseTech = Drill Shot 
+PairTech = RPG 
+CanEvolveInto = Twinborn Frostfire Dualist 
+Effects by rarity 
+Blue: 
+ATK +100 
+HP +400 
+Purple: 
+Drill Shot turns into Twinborn Drill Shot. 
+Can evolve into Twinborn Frostfire Dualist. 
+Fire Whistleshot + Ice Whistleshot. 
+ 
+Twinborn Drill Shot: 
+Drill Shot flight speed +30%. 
+ 
+RPG: 
+Firing cooldown -0.5s. 
+Yellow: 
+ATK +400 
+HP +1600 
+Red:

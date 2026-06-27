@@ -1,0 +1,32 @@
+[
+  {
+    "id": "durian", "name": "Durian", "category": "skill", "description": "Active skill listed as unlocking after Chapter 6.",
+    "effects": [], "unlock_requirement": {"chapter_completed": 6}, "tags": ["skill", "chapter_unlock"],
+    "source_type": "inferred", "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=109-110", "confidence": "medium",
+    "notes": "Unlock chapter is explanation-derived; exact skill values are not asserted.", "scoring_relevance": ["damage"]
+  },
+  {
+    "id": "laser_launcher", "name": "Laser Launcher", "category": "skill", "description": "Active skill listed as unlocking after Chapter 10.",
+    "effects": [], "unlock_requirement": {"chapter_completed": 10}, "tags": ["skill", "chapter_unlock"],
+    "source_type": "inferred", "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=109-110", "confidence": "medium",
+    "notes": "Unlock chapter is explanation-derived; exact skill values are not asserted.", "scoring_relevance": ["damage"]
+  },
+  {
+    "id": "modular_mine", "name": "Modular Mine", "category": "skill", "description": "Active skill listed as unlocking after Chapter 10.",
+    "effects": [], "unlock_requirement": {"chapter_completed": 10}, "tags": ["skill", "chapter_unlock", "merge_skill"],
+    "source_type": "inferred", "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=109-110", "confidence": "medium",
+    "notes": "Can combine with Lightning Emitter or Molotov; exact combat values are not asserted.", "scoring_relevance": ["damage"]
+  },
+  {
+    "id": "thunderbolt_bomb", "name": "Thunderbolt Bomb", "category": "skill", "description": "Combined skill formed from Modular Mine and Lightning Emitter.",
+    "effects": [], "unlock_requirement": {"chapter_completed": 10}, "ingredients": ["modular_mine", "lightning_emitter"],
+    "tags": ["skill", "combined_skill"], "source_type": "inferred", "source": "data_sources/source_pack/optimizer_source_reference.pdf#page=110", "confidence": "medium",
+    "notes": "Exact combat values are not asserted.", "scoring_relevance": ["damage"]
+  },
+  {
+    "id": "inferno_bomb", "name": "Inferno Bomb", "category": "skill", "description": "Combined skill formed from Modular Mine and Molotov.",
+    "effects": [], "unlock_requirement": {"chapter_completed": 10}, "ingredients": ["modular_mine", "molotov"],
+    "tags": ["skill", "combined_skill"], "source_type": "inferred", "source": "data_sources/source_pack/optimizer_source_reference.pdf#page=110", "confidence": "medium",
+    "notes": "Exact combat values are not asserted.", "scoring_relevance": ["damage"]
+  }
+]

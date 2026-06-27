@@ -1,0 +1,31 @@
+4-star 
+●​ Advanced Survivor License: 
+○​ Survivor ATK +1000 
+○​ Survivor HP +5000 
+5-star 
+●​ All Survivors: Crit Rate +8% 
+6-star 
+●​ Sonic Boom 
+●​ Mega Soundwave Balls explode in a small area when enemies are hit. 
+●​ Survivor ATK +20%. 
+Awakening upgrades 
+A1 
+●​ Active: Reporter Snapshot 
+●​ Reporter Snapshot damage +50%. 
+●​ Passive: Pet Companion 
+●​ When in battle, deployed pet’s: 
+○​ Attack +5% 
+○​ HP +5% 
+A2 
+●​ Deployed pet additional: 
+○​ Attack +5% 
+○​ HP +5% 
+A3 
+●​ Reporter Snapshot damage +50%. 
+●​ Targets hit by Snapshot are inflicted with 5% Vulnerability. 
+A4 
+●​ Deployed pet additional: 
+○​ Attack +10% 
+○​ HP +10% 
+●​ Unlocks 1 Teamwork Passive Slot. 
+A5

@@ -1,0 +1,209 @@
+"""Cheap candidate dedupe and per-profile budgets before dict/GPU materialization."""
+
+from __future__ import annotations
+
+from collections import defaultdict
+from dataclasses import dataclass
+from typing import Any, Iterable
+
+from optimizer.action_types import OptimizerAction
+
+
+DEFAULT_SYSTEM_BUDGETS: dict[str, int] = {
+    "resources": 1,
+    "cores": 2,
+    "chests": 1,
+    "selectors": 3,
+    "skills": 1,
+    "gear": 2,
+    "ss_gear": 2,
+    "pets": 2,
+    "pet_merging": 1,
+    "pet_awakenings": 1,
+    "xeno_pets": 2,
+    "tech_parts": 2,
+    "resonance": 2,
+    "collectibles": 2,
+    "collectible_sets": 1,
+    "survivors": 2,
+    "survivor_awakening": 1,
+    "events": 1,
+    "event_shops": 2,
+    "clan_shop": 0,
+    "shops": 1,
+    "clan": 1,
+    "special_ops": 1,
+    "exchanges": 1,
+    "universal_exchange": 1,
+    "merge": 2,
+    "salvage": 0,
+    "save_hold": 1,
+}
+
+SCENARIO_BONUSES: dict[str, tuple[str, ...]] = {
+    "scenario_pet_xeno": ("pets", "pet_awakenings", "xeno_pets"),
+    "scenario_gear_ss": ("cores", "gear", "ss_gear"),
+    "scenario_collectibles": ("collectibles", "collectible_sets"),
+    "scenario_clan_shop": ("clan_shop",),
+    "scenario_event_shop": ("events", "event_shops", "exchanges"),
+}
+
+
+@dataclass(slots=True)
+class ProposalBudgetStats:
+    raw_candidates: int = 0
+    unsupported_removed: int = 0
+    save_aliases_removed: int = 0
+    effect_duplicates_removed: int = 0
+    over_budget_removed: int = 0
+    selected_candidates: int = 0
+
+    def to_dict(self) -> dict[str, int]:
+        return {field: int(getattr(self, field)) for field in self.__dataclass_fields__}
+
+
+def _freeze(value: Any) -> Any:
+    if isinstance(value, dict):
+        return tuple(sorted((str(key), _freeze(item)) for key, item in value.items()))
+    if isinstance(value, (list, tuple, set)):
+        return tuple(_freeze(item) for item in value)
+    return value
+
+
+def effect_key(action: OptimizerAction) -> tuple[Any, ...]:
+    """Effective scoring/transition identity, independent of explanation text."""
+    metadata = action.metadata or {}
+    return (
+        action.system,
+        action.action_type,
+        str(metadata.get("item_id", "")),
+        _freeze(action.required_items),
+        _freeze(action.consumed_items),
+        _freeze(action.produced_items),
+        float(action.expected_damage_delta),
+        float(action.long_term_value),
+        float(action.breakpoint_value),
+        _freeze(metadata.get("adds_progress", {})),
+        _freeze(metadata.get("breakpoint_requirements", {})),
+        _freeze(metadata.get("sets_breakpoints", [])),
+        _freeze(metadata.get("set_flags", {})),
+    )
+
+
+def _state_metadata(player_state: Any) -> dict[str, Any]:
+    if isinstance(player_state, dict):
+        return player_state.get("metadata", {}) or {}
+    return getattr(player_state, "metadata", {}) or {}
+
+
+
+def _rare_blocker_priority(action: OptimizerAction, player_state: Any, item_id: str) -> float:
+    try:
+        from optimizer.rare_blocker_guardrails import score_action_boost
+        return float(score_action_boost(action, player_state, item_id))
+    except Exception:
+        return 0.0
+
+def _cheap_score(action: OptimizerAction, player_state: Any) -> float:
+    metadata = action.metadata or {}
+    state_metadata = _state_metadata(player_state)
+    item_id = str(metadata.get("item_id", "")).lower()
+    score = (
+        float(action.expected_damage_delta) * 100.0
+        + float(action.breakpoint_value) * 20.0
+        + float(action.long_term_value) * 5.0
+        + float(action.resource_efficiency)
+        + 3.0 * len(metadata.get("sets_breakpoints", []) or [])
+        + 2.0 * len(metadata.get("adds_progress", {}) or {})
+        + 0.01 * float(metadata.get("inventory_count", 0.0) or 0.0)
+    )
+    if action.action_type == "save_hold":
+        score += 0.5
+    if "astral" in item_id and state_metadata.get("close_to_astral_forge_breakpoint"):
+        score += 8.0
+    if "xeno" in item_id and state_metadata.get("close_to_xeno_breakpoint"):
+        score += 8.0
+    if "resonance" in item_id and state_metadata.get("close_to_tech_resonance_breakpoint"):
+        score += 8.0
+    if "surviv" in item_id and state_metadata.get("close_to_survivor_breakpoint"):
+        score += 8.0
+    score += _rare_blocker_priority(action, player_state, item_id)
+    score -= 0.001 * sum(float(value) for value in action.consumed_items.values())
+    score -= 1.0 * len(action.warnings)
+    return score
+
+
+def dynamic_system_budgets(player_state: Any) -> dict[str, int]:
+    budgets = dict(DEFAULT_SYSTEM_BUDGETS)
+    scenario = str(getattr(player_state, "goal_scenario", "") or "")
+    if isinstance(player_state, dict):
+        scenario = str(player_state.get("goal_scenario", scenario))
+    for system in SCENARIO_BONUSES.get(scenario, ()):
+        budgets[system] = budgets.get(system, 1) + 1
+    metadata = _state_metadata(player_state)
+    near_map = {
+        "close_to_astral_forge_breakpoint": ("cores", "ss_gear"),
+        "close_to_xeno_breakpoint": ("pets", "xeno_pets"),
+        "close_to_tech_resonance_breakpoint": ("tech_parts", "resonance"),
+        "close_to_collectible_set_breakpoint": ("collectibles", "collectible_sets"),
+        "close_to_survivor_breakpoint": ("survivors", "survivor_awakening"),
+    }
+    for flag, systems in near_map.items():
+        if metadata.get(flag):
+            for system in systems:
+                budgets[system] = budgets.get(system, 1) + 1
+    return budgets
+
+
+def budget_proposals(
+    actions: Iterable[OptimizerAction], player_state: Any, *, total_budget: int = 24,
+) -> tuple[list[OptimizerAction], ProposalBudgetStats]:
+    stats = ProposalBudgetStats()
+    best_by_effect: dict[tuple[Any, ...], OptimizerAction] = {}
+    save_actions: list[OptimizerAction] = []
+    for action in actions:
+        stats.raw_candidates += 1
+        if not action.supported or action.confidence == "missing":
+            stats.unsupported_removed += 1
+            continue
+        if action.action_type == "save_hold":
+            save_actions.append(action)
+            continue
+        key = effect_key(action)
+        current = best_by_effect.get(key)
+        if current is None or _cheap_score(action, player_state) > _cheap_score(current, player_state):
+            if current is not None:
+                stats.effect_duplicates_removed += 1
+                action.metadata.setdefault("explanation_aliases", []).append(current.action_id)
+            best_by_effect[key] = action
+        else:
+            stats.effect_duplicates_removed += 1
+            current.metadata.setdefault("explanation_aliases", []).append(action.action_id)
+
+    candidates = list(best_by_effect.values())
+    if save_actions:
+        canonical_saves = [action for action in save_actions if action.system == "save_hold"] or save_actions
+        best_save = max(canonical_saves, key=lambda action: (_cheap_score(action, player_state), action.action_id))
+        aliases = [action.action_id for action in save_actions if action is not best_save]
+        if aliases:
+            best_save.metadata.setdefault("explanation_aliases", []).extend(aliases)
+        candidates.append(best_save)
+        stats.save_aliases_removed += max(0, len(save_actions) - 1)
+
+    budgets = dynamic_system_budgets(player_state)
+    by_system: defaultdict[str, list[OptimizerAction]] = defaultdict(list)
+    for action in candidates:
+        by_system[action.system].append(action)
+    selected: list[OptimizerAction] = []
+    for system, rows in by_system.items():
+        rows.sort(key=lambda action: (_cheap_score(action, player_state), action.action_id), reverse=True)
+        limit = max(0, int(budgets.get(system, 1)))
+        selected.extend(rows[:limit])
+        stats.over_budget_removed += max(0, len(rows) - limit)
+    if len(selected) > total_budget:
+        selected.sort(key=lambda action: (_cheap_score(action, player_state), action.action_id), reverse=True)
+        stats.over_budget_removed += len(selected) - total_budget
+        selected = selected[:total_budget]
+    selected.sort(key=lambda action: (action.system, action.action_id))
+    stats.selected_candidates = len(selected)
+    return selected, stats

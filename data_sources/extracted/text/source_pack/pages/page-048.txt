@@ -1,0 +1,28 @@
+Pet ATK damage 
+Database flags: 
+Pet = Murica 
+PrimaryAttack = Whirlwind 
+DamageType = Penetrating 
+PetCooldownReduction = Yes 
+PetSkillDamage = Yes 
+Crush = Yes 
+DirectPetDPS = Very High 
+DPSRelevant = Very High 
+ 
+6. Cat 
+Main association 
+Cat | Claw Attack | Pet Crit Rate | Pet Cooldown | Nine Lives 
+Primary attack 
+Cat scratches enemies with sharp claws: 
+200% ATK damage 
+Cooldown: 0.5 seconds 
+This means it attacks faster than most pets. 
+Built-in skill themes 
+Cat is associated with: 
+Pet ATK and skill Crit Rate 
+Pet inherited HP 
+Pet cooldown reduction 
+Pet ATK damage 
+Fatal-damage protection 
+Visible effects include: 
+Pet ATK and skill Crit Rate +15%

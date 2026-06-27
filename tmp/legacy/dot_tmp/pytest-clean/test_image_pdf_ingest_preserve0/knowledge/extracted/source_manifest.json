@@ -1,0 +1,63 @@
+[
+  {
+    "confidence": "medium",
+    "extraction_method": "tesseract_tsv",
+    "extraction_timestamp": "2026-06-21T03:53:01Z",
+    "height": 120,
+    "modified_date": "2026-06-21T03:53:01.958089+00:00",
+    "needs_review": true,
+    "preview_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\.tmp\\pytest-clean\\test_image_pdf_ingest_preserve0\\knowledge\\extracted\\previews\\Chest_Odds.pdf.page-001.png",
+    "source_file": "Chest_Odds.pdf",
+    "source_id": "source_dab680a4381a0d757a3e93d0",
+    "source_image_hash": "e374f3657904fa319ca45dd05228ac0f4bcaca068785b07bbf7cfbe6130e2065",
+    "source_page": 1,
+    "source_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\.tmp\\pytest-clean\\test_image_pdf_ingest_preserve0\\guides\\Chest_Odds.pdf",
+    "source_sha256": "d061d68c2a63eb3b4d4a5ccc857df0c7fd14ab95a6f4d5f9a79b0df09f8a2e33",
+    "systems": [
+      "tech_resonance",
+      "chest_odds",
+      "chests"
+    ],
+    "width": 200
+  },
+  {
+    "confidence": "medium",
+    "extraction_method": "tesseract_tsv",
+    "extraction_timestamp": "2026-06-21T03:53:01Z",
+    "height": 60,
+    "modified_date": "2026-06-21T03:53:01.912029+00:00",
+    "needs_review": true,
+    "preview_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\.tmp\\pytest-clean\\test_image_pdf_ingest_preserve0\\knowledge\\extracted\\previews\\Drone_Resonance_Cost.png.page-001.png",
+    "source_file": "Drone_Resonance_Cost.png",
+    "source_id": "source_50fb48db2eeeb82cf96c14e7",
+    "source_image_hash": "d5bf56767706b3b035f8fc4cb6d8ee2b9c478d98216dc570ed0e4f56ee1274c9",
+    "source_page": 1,
+    "source_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\.tmp\\pytest-clean\\test_image_pdf_ingest_preserve0\\guides\\Drone_Resonance_Cost.png",
+    "source_sha256": "fbf011bbdcaa5e32691d67d4e86eb764c4010ccd539112051b436395b03b320d",
+    "systems": [
+      "tech_resonance",
+      "tech_resonance_costs"
+    ],
+    "width": 100
+  },
+  {
+    "confidence": "missing",
+    "extraction_method": "tesseract_tsv",
+    "extraction_timestamp": "2026-06-21T03:53:01Z",
+    "height": 60,
+    "modified_date": "2026-06-21T03:53:01.915030+00:00",
+    "needs_review": true,
+    "preview_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\.tmp\\pytest-clean\\test_image_pdf_ingest_preserve0\\knowledge\\extracted\\previews\\Pet_Awakening_Rex.tiff.page-001.png",
+    "source_file": "Pet_Awakening_Rex.tiff",
+    "source_id": "source_5726c9dd63f32e16406bacba",
+    "source_image_hash": "d5bf56767706b3b035f8fc4cb6d8ee2b9c478d98216dc570ed0e4f56ee1274c9",
+    "source_page": 1,
+    "source_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\.tmp\\pytest-clean\\test_image_pdf_ingest_preserve0\\guides\\Pet_Awakening_Rex.tiff",
+    "source_sha256": "12539b71ac09c585cad19fd89aefc7a25d9195934d06060fcf3d1234e296fbe5",
+    "systems": [
+      "pet_awakenings",
+      "pets"
+    ],
+    "width": 100
+  }
+]

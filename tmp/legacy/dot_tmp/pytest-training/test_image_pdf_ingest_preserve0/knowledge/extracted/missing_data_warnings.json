@@ -1,0 +1,15 @@
+{
+  "count": 1,
+  "warnings": [
+    {
+      "source_file": "Pet_Awakening_Rex.tiff",
+      "source_page": 1,
+      "source_ref": "Pet_Awakening_Rex.tiff#page=1",
+      "systems": [
+        "pet_awakenings",
+        "pets"
+      ],
+      "warning": "OCR text is missing; visual manual review is required."
+    }
+  ]
+}

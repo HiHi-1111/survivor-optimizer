@@ -1,0 +1,36 @@
+Attack Wingbit 
+Augment Wingbit 
+Precision Device 
+Wingbit Damage 
+Wingbit Interval 
+Wingbit Shots 
+Important note from chart 
+Assumes Eternal tech part, R5 relic, and same ATK throughout. 
+Normal Drone resonance max shown: 9000. 
+Optimizer identity 
+Normal Drone resonance is a new-player / pre-Twinborn Destroyer resonance path. The 
+guide says once Twinborn Destroyer exists, normal Destroyer resonance becomes mostly for 
+newer players. 
+Still, it is extremely important before Twinborn. 
+Extracted resonance rows 
+50: 
+Total ATK 200, Total HP 1200 
++200 ATK, +1200 HP 
+ 
+100: 
++1 Attack Wingbit 
+Increase from previous 4.21% 
+Increase from base 4.21% 
+ 
+150: 
+Total ATK 600, Total HP 4200 
++400 ATK, +2400 HP 
+ 
+200: 
+Attack Wingbit Damage +25% 
+Increase from previous 1.06% 
+Increase from base 2.00% 
+ 
+250: 
+Total ATK 1200, Total HP 8000 
++600 ATK, +3200 HP

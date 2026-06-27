@@ -1,0 +1,32 @@
+What it does 
+Tracks damage multipliers and enemy debuffs, including: 
+Chill 
+Poison 
+Exposed 
+Weaken 
+Debilitate 
+Yin Yang 
+Laceration 
+Vulnerability 
+Shield damage multipliers 
+Skill damage multipliers 
+Optimizer rule 
+Debuffs should be treated as their own damage layer. 
+Important reason: multiple systems say “damage to Chilled,” “damage to Weakened,” “damage 
+to Lacerated,” or “Vulnerability.” Those only matter if the debuff exists and has uptime. 
+Use: 
+DebuffSource 
+DebuffDuration 
+DebuffStackLimit 
+DebuffUptime 
+DamageToDebuffedTarget 
+ModeReliability 
+ 
+11. Pet system 
+Sources: 
+Pets_2024-11-28​
+ Pet_Skills_2024-09-09​
+ Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04​
+ Pet_Awakening_Guide_2024-10-25​
+ Pet_Awakening_Guide_-_Murica_2024-10-10​
+ Pet_Awakening_Guide_-_Croaky_2024-10-11​

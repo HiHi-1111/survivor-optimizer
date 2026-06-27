@@ -1,0 +1,36 @@
+Important debuff families added 
+Vulnerability 
+Weaken 
+Chill 
+Laceration 
+Poison 
+Best calculator fields 
+TwinbornID 
+ModeName 
+ResonanceAmount 
+TotalATK 
+TotalHP 
+SkillDamage 
+CritDamage 
+CritRate 
+Vulnerability 
+WeakenedDamage 
+ChillDamage 
+PoisonDamage 
+LacerateDamage 
+ShieldDamage 
+SpecialMechanic 
+BuffText 
+DPSRelevant 
+DebuffFamily 
+Condition 
+SourceImage 
+SourceDate 
+ 
+ 
+Batch 3 — Twinborn Durian, Soccer + 
+Normal Drone/RPG/Molotov Resonance 
+Sources extracted from the images you gave: 
+Twinborn Durian Resonance 
+Twinborn Soccer Resonance 
+Normal Drone Resonance

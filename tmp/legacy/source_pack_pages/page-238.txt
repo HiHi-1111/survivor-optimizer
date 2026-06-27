@@ -1,0 +1,53 @@
+Yellow 3 
+45 
+2 
+Yellow 4 
+65 
+2 
+Red 1 
+100 
+4 
+Red 2 
+140 
+4 
+Red 3 
+180 
+4 
+Red 4 
+220 
+6 
+Total upgrade cost 
+800 
+24 
+Total including unlock 
+880 
+24 
+MountID = MOUNT_DOOMSTEED 
+OpenCost = 80 
+UpgradeCostOnly = 800 
+TotalCostWithUnlock = 880 
+CoreCost = 24 
+Important: 
+Only Doomsteed needs Mount Cores. 
+Scooter and Hoverboard only need their shards. 
+ 
+5. Sync Rate table 
+Sync Rate decides how much value you get from components installed in inactive mounts. 
+Equipped mount component value = 100% 
+Inactive mount component value = ComponentStat * MountSyncRate 
+Sync rates by mount/star 
+Stage 
+Scoote
+r 
+Hoverboard 
+Doomstee
+d 
+Base / 0 
+star 
+0.20 
+0.30 
+0.40 
+Yellow 1 
+0.22 
+0.33 
+0.44

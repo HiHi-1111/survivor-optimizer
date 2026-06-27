@@ -1,0 +1,26 @@
++------------------------------- Survivor optimizer trainer --------------------------------+
+|                                  Optimizer training live                                  |
+| +---------------------------------------------------------------------------------------+ |
+| | Metric                           | Value                                              | |
+| |----------------------------------+----------------------------------------------------| |
+| | Time                             | 21.5s / 3,600.0s                                   | |
+| | Progress                         | [--------------------------------]   0.6%          | |
+| | Stop behavior                    | finish active CPU batch, then stop when time is up | |
+| | Time-only mode                   | on                                                 | |
+| | Combo chain planner              | on                                                 | |
+| | Chain simulator interval         | every 1 profile(s)                                 | |
+| | Global planner interval          | every 1 profile(s)                                 | |
+| | Learned pruning                  | normal                                             | |
+| | Assumption chart samples         | 1,026,216                                          | |
+| | Profile status                   | No profiles completed yet                          | |
+| | Benchmark status                 | not valid until at least one profile completes     | |
+| | GPU pipeline active              | true                                               | |
+| | GPU actually used                | false                                              | |
+| | Successful CUDA scoring batches  | 50                                                 | |
+| +---------------------------------------------------------------------------------------+ |
++-------------------------------------------------------------------------------------------+optimizer training failed: CUDA error: CUDA-capable device(s) is/are busy or unavailable
+Search for `cudaErrorDevicesUnavailable' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+

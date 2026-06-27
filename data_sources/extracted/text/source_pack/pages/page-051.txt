@@ -1,0 +1,33 @@
+Robot fires 3 burning lasers: 
+3 lasers 
+Each laser deals 400% ATK damage 
+Cooldown: 1 second 
+If all lasers connect, this can be very high theoretical damage. 
+Built-in skill themes 
+Robot is associated with: 
+Pet cooldown reduction 
+Pet revival time 
+Pet damage reduction 
+Pet inherited ATK 
+Satellite Cannon 
+Visible effects include: 
+Pet ATK and skill cooldown -15% 
+Pet revival time -20% 
+Pet damage taken -40% 
+Pet inherited ATK +15% 
+Satellite blast deals 1000% ATK damage 
+Cooldown: 5 seconds 
++250% damage when owner levels up 
+Optimizer notes 
+Robot has high theoretical DPS because of lasers and Satellite Cannon, but the calculator 
+needs to eventually model hit consistency. If the lasers miss or split badly, the real value 
+drops. 
+Database flags: 
+Pet = Robot 
+PrimaryAttack = Burning Lasers 
+PrimaryDamage = 3 x 400% ATK 
+SpecialSkill = Satellite Cannon 
+SpecialDamage = 1000% ATK 
+Cooldown = 5s 
+LevelUpScaling = +250% damage when owner levels up 
+DPSRelevant = High but hit-dependent

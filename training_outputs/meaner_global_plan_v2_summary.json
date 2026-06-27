@@ -1,0 +1,16 @@
+{
+  "tested": 750,
+  "new_failures": 0,
+  "failure_counts": {},
+  "bank_size": 0,
+  "generated_test": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\tests\\test_meaner_global_plan_v2_memory.py",
+  "pytest_returncode": 0,
+  "pytest_tail": "...........................                                              [100%]\n27 passed in 4.74s\n",
+  "runtime": {
+    "folder": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517",
+    "zip": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517.zip",
+    "folder_mb": 0.793,
+    "zip_mb": 0.081
+  },
+  "created_at": 1782518331.0888164
+}

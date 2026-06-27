@@ -1,0 +1,40 @@
+Pair association 
+TwinbornPairID = TB_LIGHTNING_BOOMERANG 
+Mode = Boomerang side 
+BaseTech = Boomerang 
+PairTech = Lightning Emitter 
+CanEvolveInto = Twinborn Magvolt Fang 
+Effects by rarity 
+Blue: 
+ATK +100 
+HP +400 
+Purple: 
+Boomerang skill turns into Twinborn Boomerang. 
+Can evolve into Twinborn Magvolt Fang. 
+ 
+Twinborn Boomerang: 
+You can catch the boomerang and reset its cooldown. 
+ 
+Lightning Emitter: 
+Bolt count at all levels +2. 
+Yellow: 
+ATK +400 
+HP +1600 
+Red: 
+Twinborn Magvolt Fang: 
+Magvolt Fang generates a lightning zone within its projectiles, zapping enemies inside it. 
+ 
+Supercell EX: 
+Generated shockwave spread distance doubled. 
+ 
+Damage to Weakened targets +50%. 
+Eternal / Rainbow: 
+Twinborn Magvolt Fang: 
+Magvolt Fang hits trigger multiple lightning strikes. 
+ 
+Lightning Emitter: 
+Falling thunder adds another Thunderburst strike. 
+ 
+Supercell: 
+Falling thunder adds another Thunderburst damage. 
+Shockwave spread speed increased and returns.

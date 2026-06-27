@@ -1,0 +1,39 @@
+SpreadValue = Sum(ComponentValue * MountSyncRateOr1) 
+MergeValue = NewComponentValue * BestAvailableSlotMultiplier 
+ 
+if SpreadValue > MergeValue: 
+   KeepSeparate 
+else: 
+   Merge 
+ 
+13. Mount line effects 
+Each mount has its own line effects. A line effect activates when a horizontal row is complete. 
+Completed row = no black/empty cell in that row. 
+Completed rows are highlighted gold. 
+Only line effects from the equipped mount count. 
+Unlock rules: 
+Line 
+Unlock requirement 
+Line 1 
+Default 
+Line 2 
+Default 
+Line 3 
+Default 
+Line 4 
+Default 
+Line 5 
+Mount at 2 Yellow stars 
+Line 6 
+Mount at 4 Yellow stars 
+Line 7 
+Mount at 2 Red stars 
+Line 8 
+Mount at 4 Red stars 
+Database fields: 
+MountLineEffectID 
+MountID 
+LineNumber 
+UnlockRequirement 
+EffectText 
+AffectedStat

@@ -1,0 +1,28 @@
+Main association 
+Raphael is associated with: 
+Sai / Fury Sai / Bleed / Laceration / Lacerated-target damage / Rocket 
+Assault 
+Yellow-star upgrades 
+1-star 
+●​ Exclusive weapon: Sai 
+●​ Raphael throws 2 sai at enemies. 
+●​ Can evolve into Fury Sai. 
+2-star 
+●​ Survivor License: 
+○​ Survivor ATK +400 
+○​ Survivor HP +2000 
+3-star 
+●​ Power Strike 
+●​ For every 5 attacks, 1 more giant sai is thrown. 
+●​ Attacks inflict Bleed. 
+●​ Survivor HP +20%. 
+4-star 
+●​ Advanced Survivor License: 
+○​ Survivor ATK +1000 
+○​ Survivor HP +5000 
+5-star 
+●​ All Survivors: Crit Rate +8% 
+6-star 
+●​ Hot-headed 
+●​ Sai and Fury Sai damage +20%. 
+●​ Survivor ATK +20%.

@@ -1,0 +1,23 @@
+TeamworkSlot = A4 and A6​
+ DPSRelevant = High for pet builds 
+ 
+Important optimizer associations from this 
+whole source 
+1. Global crit from SP survivors 
+Every SP survivor shown has: 
+5 yellow stars = All Survivors Crit Rate +8% 
+That means each 5-star SP survivor is a global DPS upgrade, even if you do not use that 
+survivor. 
+For the optimizer: 
+CritRateGlobal += 8% per SP survivor at 5 yellow stars 
+This is very important for your damage-only calculator. 
+ 
+2. Laceration package 
+Laceration is tied to: 
+●​ Raphael 
+●​ Leonardo 
+●​ Michelangelo 
+●​ Donatello Brotherhood scaling 
+●​ Boss Debuffs source image also has a Laceration section 
+This means Laceration should be treated as a real debuff family. 
+Suggested field:

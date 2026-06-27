@@ -1,0 +1,5 @@
+Astral Core is used for SS gear progression and can be valuable when it helps reach an astral forge breakpoint.
+
+Xeno Core is used for Xeno pet progression and is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.
+
+Resonance Chip is used for tech/resonance progression. It can be useful for immediate stat gains, but may be weaker if it does not unlock a major breakpoint.

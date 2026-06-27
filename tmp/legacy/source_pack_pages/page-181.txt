@@ -1,0 +1,33 @@
+Collectible set 
+CollectibleSetName = Cyber Wonderland 
+AssociatedTwinborn = Twinborn Guardian / Twinborn Defender 
+10x yellow stars: 
+Twinborn Defender damage +17%. 
+ 
+20x yellow stars: 
+Twinborn Defender damage +17%. 
+Skill Damage +10%. 
+ 
+10x red stars: 
+Damage to Poisoned targets +10%. 
+ 
+20x red stars: 
+Twinborn Defender damage +33%. 
+Damage to Poisoned targets +10%. 
+Skill Damage +10%. 
+Optimizer flags 
+Debuff = Chill, Laceration, Poisoned target synergy 
+Stats = SkillDamage, DamageToChilled, DamageToPoisoned 
+SpecialMechanics = Defender, Freeze/Chill, Lacerate 
+DPSRelevant = Medium/High 
+MetaPriority = Good but behind Drone/Forcefield and Drill/RPG 
+ 
+10. Twinborn Laser Launcher / Twinborn 
+Death Ray 
+Pair association 
+TwinbornPairID = TB_LASER_GUARDIAN 
+Mode = Laser side 
+BaseTech = Laser Launcher 
+PairTech = Guardian 
+CanEvolveInto = Twinborn Death Ray 
+Effects by rarity

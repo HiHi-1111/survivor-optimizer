@@ -1,0 +1,42 @@
+Phase Driver ATK +5%, HP +5% 
+ 
+10500: 
+Crit Damage +120 
+Twinborn Maelstorm Damage +20% 
+Crit Damage +20% 
+ 
+11000: 
++7500 ATK, +30000 HP 
+ 
+11500: 
+Phase Driver ATK +5%, HP +5% 
+ 
+12000: 
+Vulnerability +175 
+Enemies damaged by swirling Thunderburst field are inflicted with 75% Vulnerability 
+ 
+12500: 
++7500 ATK, +30000 HP 
+ 
+13000: 
+Phase Driver ATK +5%, HP +5% 
+ 
+13500: 
+Skill Damage +120 
+Falling thunder deals +30% damage to enemies damaged by swirling Thunderburst field 
+Skill Damage +20% 
+ 
+14000: 
++7500 ATK, +30000 HP 
+ 
+14500: 
+Phase Driver ATK +5%, HP +5% 
+ 
+15000: 
+Crit Damage +160 
+Skill Damage +160 
+Skill Damage +40% 
+Crit Damage +40% 
+Database flags 
+TwinbornID = TB_LIGHTNING 
+Mode = Lightning / Maelstorm

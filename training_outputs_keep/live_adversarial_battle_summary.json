@@ -1,0 +1,36 @@
+{
+  "actual_evaluation_mode": "gpu_batch",
+  "average_profiles_per_sec_wall": 18.844289,
+  "best_profiles_per_sec_wall": 18.844289,
+  "cpu_only_reason": "",
+  "cuda_available": true,
+  "fatal_error": null,
+  "gpu_backend_used": true,
+  "gpu_batches_scored": 2,
+  "gpu_idle_estimate": 0.0,
+  "gpu_name": "NVIDIA GeForce RTX 4070",
+  "gpu_rows_scored": 500,
+  "gpu_rows_submitted": 500,
+  "gpu_seconds": 0.000866,
+  "minutes": 5.0,
+  "next_perf_bottleneck": "Optimizer evaluation throughput is the current bottleneck.",
+  "profiles_per_sec_scoring_only": 341.102744,
+  "remaining_failure_categories": {
+    "cheap material bait vs rare blockers": 16
+  },
+  "rounds_completed": 1,
+  "rounds_requested": "1",
+  "run_mode": "rounds",
+  "severity_counts": {
+    "medium": 16
+  },
+  "stopped_early": false,
+  "top_rules_to_fix": [
+    "Do not rank common low-tier materials above rare SS or awakening blockers at SS progression."
+  ],
+  "torch_error": null,
+  "torch_installed": true,
+  "total_failures_found": 16,
+  "total_new_cases_added": 16,
+  "total_profiles_tested": 250
+}

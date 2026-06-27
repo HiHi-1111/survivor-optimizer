@@ -1,0 +1,71 @@
+{
+  "bottleneck": "CPU candidate generation/search is starving the GPU",
+  "cpu_utilization_percent": 21.2,
+  "gpu": {
+    "async_pipeline": true,
+    "average_batch_size": 2505.183,
+    "average_gpu_batch_size": 2505.183,
+    "cpu_waiting_on_gpu": false,
+    "cuda_available": true,
+    "cuda_detected": true,
+    "errors": [],
+    "failure_reason": "",
+    "gpu_acceleration_enabled": true,
+    "gpu_acceleration_reason": "shared-memory CUDA ranking before beam pruning",
+    "gpu_active_compute_rows_per_sec": 26492.445,
+    "gpu_actually_used": true,
+    "gpu_batch_utilization": 61.162,
+    "gpu_batches_completed": 41165,
+    "gpu_chain_rows_scored": 103125845,
+    "gpu_chain_rows_submitted": 103125845,
+    "gpu_idle_percentage": 68.208,
+    "gpu_idle_reason": "waiting_for_cpu_candidates",
+    "gpu_idle_reasons_seconds": {
+      "cpu_pruned_before_gpu": 0.0,
+      "gpu_disabled": 0.0,
+      "queue_backpressure": 0.0,
+      "scoring": 3892.651144,
+      "waiting_for_batch_fill": 6054.126829,
+      "waiting_for_cpu_candidates": 16889.648123
+    },
+    "gpu_initialized": true,
+    "gpu_operations_planned": [
+      "shared_memory_preprune_ranking",
+      "cuda_topk"
+    ],
+    "gpu_pipeline_active": true,
+    "gpu_queue_fill_rate": 0.001717,
+    "gpu_queue_high_water": 24,
+    "gpu_queue_size": 0,
+    "gpu_requested": true,
+    "gpu_rows_scored": 103125845,
+    "gpu_rows_submitted": 103125845,
+    "gpu_used": true,
+    "gpu_waiting_on_cpu": true,
+    "gpu_wall_rows_per_sec": 3065.749,
+    "preprune_requests": 718528,
+    "preprune_rows_by_phase": {
+      "final_state": 27134522,
+      "proposal": 75991323
+    },
+    "scored_rows": 103125845,
+    "scoring_batches": 41165,
+    "scoring_elapsed_seconds": 3892.651144,
+    "service_failed": false,
+    "submitted_rows": 103125845,
+    "successful_cuda_scoring_batches": 41165
+  },
+  "memory_rss_mb": 5197.844,
+  "npu": {
+    "active": false,
+    "available": false,
+    "idle_reason": "backend_unavailable",
+    "provider": null,
+    "providers": [
+      "AzureExecutionProvider",
+      "CPUExecutionProvider"
+    ],
+    "reason": "NPU unavailable for this Python path; using CPU/GPU."
+  },
+  "system_memory_percent": 49.4
+}

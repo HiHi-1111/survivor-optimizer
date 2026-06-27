@@ -1,0 +1,43 @@
+2700: 
++2500 ATK, +10000 HP 
+ 
+2850: 
+Phase Driver ATK +5%, HP +5% 
+ 
+3000: 
+Vulnerability +90 
+Lightning zone strike Vulnerability max stacks +4 
+ 
+3500: 
++3000 ATK, +12000 HP 
+ 
+4000: 
+Phase Driver ATK +5%, HP +5% 
+ 
+4500: 
+Twinborn Magvolt Fang Damage +20% 
+ 
+5000: 
++3500 ATK, +14000 HP 
+ 
+5500: 
+Phase Driver ATK +5%, HP +5% 
+ 
+6000: 
+Skill Damage +90 
+Skill Damage +20% 
+ 
+6500: 
++4000 ATK, +16000 HP 
+ 
+7000: 
+Phase Driver ATK +5%, HP +5% 
+ 
+7500: 
+Weakened Damage +90 
+Damage to Weakened targets +20% 
+ 
+8000: 
++6000 ATK, +24000 HP 
+ 
+8500:

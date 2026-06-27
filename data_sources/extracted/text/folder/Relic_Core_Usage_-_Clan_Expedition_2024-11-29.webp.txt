@@ -1,0 +1,55 @@
+Clan Expedition Relic Core Guide (Read the Fine Print)
+
+Boot SS Weapon oe SS Necklace LTA SS Armour fo SS Belt & SS Gloves* & SS Boots Cores
+Cores [> | WY (20 the fnprint
+end @) a @lera@] = @laa® — @laa®@ a Gl-@ ~ @l=a® = Glew O = &
+; 5 5 @ ee 1 0 a ° 0 10 0)
+2 0 t) S ot 1 0 Eg |. ii 20 0
+5 ° ° @ of i t) % 1 2 20 30
+6 t) 0) a of 1 t) 1 2 1 0 30 30
+9 0 0 w ot 1 C) 1 2 1 2 30 60
+10! t) () 1 2 of 1 t) 1 2 1 t) 40 60
+13 ° t) 1 2 ot 1 0) 1 2 1 2 40 90
+16 t) 0) 1 2 ot 1 2 1 2 1 2 40 120
+18 ° ° 1 2 et 1 ° 1 2 2 100 90
+2 oO oO 1 2 tc] 1 2 1 2 3 2 100 120
+24 0) 2 il 2 bt 1 2 1 2 3 2 100 150
+26 0 0 1 2 bf 1 2 3 SRM 00 190
+2 t) 2 1 2 ot 1 0 1 2 3 4 100 220
+32 ° 2 1 2 t 1 1 2 3 4 100 250
+37 ° 2 1 2 of 2 1 2 3 4 160 250
+42 ° 2 e 1 2 3 4 160 320
+45 ° 2 4 of i 1 zZ 3 4 160 350
+50° 0 2 4 oe 2 i 2 3 4 220 350
+54 0 2 4 et 3 a 3 4 210 420
+57 2 2 4 be 3 4 a 3 4 240 420
+60 2 4 bof 3 4 2 2 3 4 240 450
+63 0 2 4 ot 3 3 4 280 450
+68 ° 4 ot 3 3 4 3 4 280 520
+73 0 bb 3 4 4 3 4 380 450
+76 bf 3 4 6 4 5) 4 410 450
+81 bf 3 4 5 4 3 4 420 520
+84 0 4 ot 3 4 5 4 3 4 420 550
+90 3 4 ot 3 4 5 4 3 4 490 550
+7 o 4 bt 3 4 5 4 em. 560 550
+103 3 4 bf 3 4 5 4 5 4 630 550
+no ° 4 bt 4 5 4 5 4 700 550
+116 3 4 be 5 4 5 4 5 4 770 550
+121 4 bb 5 4 5 4 5 4 830 550
+124 4 bf 3 4 5 4 5 4 770 650
+137 5 4 4 bt 5 4 5 4 5 4 910 650
+154 5 4 3 4 5 4 3 4 5 4 5 4 980 780
+167 5 4 3 4 5 4 5 4 5 4 5 1120 780
+i) 5 4 5 4 5 4 5 4 5 4 1260 780
+Thanks to @bhattaboom for doing the calculations for 1-50
+Go to https://danke007.com/calc/damage-increase to calculate the most accurate spread for your stats. Other data from https://danke007.com/suggest/
+
+Game version 34. Updated 2024-11-29
+*10 Relic Cores - if not at 71% Crit Rate, continue using Void Necklace Charts by @procrastinazn
+* 29 Relic Cores - Assuming switch to Metallia around this point. If not, prioritize v2 Belt and 3/4 Neck over 0/2 Lance
+* 50 Relic Cores - If over 101% Crit Rate excluding gloves, use 3/2 Gloves instead of 3/2 Belt
+* SS Gloves’ e3 side requires a minimum of 101% Crit from other sources not including the Gloves
+
+You need 121% Crit for e5 to have 100% uptime.
+
+Get the most up-to-dat

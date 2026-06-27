@@ -1,0 +1,35 @@
+Stats = SkillDamage, DamageToWeakened, MissileDamage 
+SpecialMechanics = HomingMissiles, DestructionForcefield, ForcefieldPulse, SuppressionPulse 
+DPSRelevant = Very High 
+MetaPriority = Highest Twinborn priority 
+This is still the king tech path for your optimizer. 
+ 
+4. Twinborn Forcefield / Twinborn Force 
+Barrier 
+Pair association 
+TwinbornPairID = TB_DRONE_FORCEFIELD 
+Mode = Forcefield side 
+BaseTech = Forcefield 
+PairTech = Drone 
+CanEvolveInto = Twinborn Force Barrier 
+Effects by rarity 
+Blue: 
+ATK +100 
+HP +400 
+Purple: 
+In-match Forcefield skill turns into Twinborn Forcefield. 
+Can evolve into Twinborn Force Barrier. 
+ 
+Twinborn Forcefield: 
+Energy Compression. 
+Range -25%. 
+2x damage. 
+ 
+Drone: 
+Auto-homing. 
+Missiles auto-track enemies in range, but fire rate is reduced. 
+Yellow: 
+ATK +400 
+HP +1600 
+Red: 
+Twinborn Force Barrier exclusive:

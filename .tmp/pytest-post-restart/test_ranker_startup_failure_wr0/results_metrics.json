@@ -1,0 +1,35 @@
+{
+  "benchmark_valid": false,
+  "cuda_preflight": {
+    "message": "ok",
+    "passed": true,
+    "selected_device_name": "test"
+  },
+  "failure_details": {
+    "preflight": {
+      "message": "ok",
+      "passed": true,
+      "selected_device_name": "test"
+    }
+  },
+  "failure_reason": "CUDA ranker startup failed: device busy",
+  "failure_stage": "gpu_ranker_startup",
+  "gpu_scoring": {
+    "errors": [
+      "CUDA ranker startup failed: device busy"
+    ],
+    "gpu_actually_used": false,
+    "gpu_initialized": false,
+    "gpu_pipeline_active": false,
+    "gpu_requested": true,
+    "gpu_used": false,
+    "successful_cuda_scoring_batches": 0
+  },
+  "profile_status": "No profiles completed yet",
+  "profiles_processed": 0,
+  "profiles_tested": 0,
+  "recovery_note": "Close other training runs, check Task Manager or nvidia-smi for GPU users, restart the terminal if needed, then rerun.",
+  "requested_device": "cuda",
+  "startup_failed": true,
+  "status": "failed"
+}

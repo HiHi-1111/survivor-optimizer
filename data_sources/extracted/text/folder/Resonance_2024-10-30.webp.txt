@@ -1,0 +1,246 @@
+a
+
+Drone Resonance
+
+& RPG Resonance
+
+@- Molotov Resonance
+
+Increase from | Increase from
+
+350 | 2000 | 12000
+
+500 | 3000 | 17000
+550
+
+700 | 4200 | 23000
+800
+
+1000 | 5600 | 30000
+1100
+1200
+1350 | 7200 | 38000
+1500
+
+1800 | 9000 | 47000
+1950
+2100
+2250 | m1000 | 57000
+2400
+
+2700 | 13500 | 69500
+
+3000
+
+3500 | 16500 | 84500
+
+5000 | 20000 | 102000
+
+6500 | 24000 | 122000
+7000
+7500
+8000 | 30000 | 152000
+8500
+
++800 ATK +3200 HP
+Precision Device ATK +5%
+
+#1000 ATK +4000 HP
+Precision Device ATK +5%
+[Attack Wingbit Interval -2s
+#1200 ATK +4800 HP
+Precision Device ATK +5%
+
+3
+8
+=
+5
+5
++
+
+#1400 ATK +5600 HP
+Precision Device ATK +5%
+[Attack Wingbit Dmg +50%
+#1600 ATK +6400 HP
+Precision Device ATK +5%
+
+#1800 ATK +7200 HP
+Precision Device ATK +5%
+
+[Attack Wingbit +5 shots, Interval -1s
++2000 ATK +8000 HP
+
+Precision Device ATK +5%
+
++2500 ATK +1000 HP
+Precision Device ATK +5%
+
+#1 Attack Wingbit
+
++3000 ATK +12000 HP
+
+Precision Device ATK +5%
+
+Attack Wingbit Dmg +25%,+5 shots
++3500 ATK #14000 HP
+
+Precision Device ATK +5%
+
++4000 ATK #16000 HP
+Precision Device ATK +5%
+[Attack Wingbit Dmg +25%
++6000 ATK +24000 HP
+
+Precision Device ATK +5%
+
+2.33% 210%
+
+2.64% 28.75%
+
+6.58% 40.93%
+
+12.97% 76.86%
+
+9.53% 93.71%
+
+3.54% 10.01%
+
+Charts by @procrastinazn
+
+‘Assumes Eternal tech part, RS
+relic, and same ATK throughout
+
+Data by @jj_g4msr
+
+700
+
+1000
+100
+
+2250
+
+6500
+7000
+
+8000
+
+4200
+
+11000
+
+20000
+
+24000
+
+30000
+
+23000
+
+30000
+
+57000
+
+102000
+
+122000
+
+152000
+
+350 2000 | 12000 |+800 ATK +3200 HP
+400 Hi-Maintainer HP +5%
+500 | 3000 | 17000 |+1000 ATK +4000 HP.
+
+550 Hi-Maintainer HP +5%
+
+#1200 ATK +4800 HP
+laintainer HP +5%
+
++1400 ATK +5600 HP.
+Hi-Maintainer HP +5%
+
+1350 | 7200 | 38000 | +1600 ATK +6400 HP
+1500 Hi-Maintainer HP +5%
+1800 | 9000 | 47000 | +1800 ATK +7200 HP
+
+1950 Hi-Maintainer HP +5%
+
++2000 ATK +8000 HP
+Hi-Maintainer HP +5%
+
+2700 | 13500 | 69500 |+2500 ATK +10000 HP
+2850 Hi-Maintainer HP +5%
+3500 | 16500 | 84500 |+3000 ATK #12000 HP
+4000 Hi-Maintainer HP +5%
+
++3500 ATK #14000 HP
+Hi-Maintainer HP +5%
+
++4000 ATK +16000 HP
+Hi-Maintainer HP +5%
+
++6000 ATK +24000 HP
+Hi-Maintainer HP +5%
+
+|
+
+oe ee ee = te peso) tare rte =
+Provo” | ote — on
+150 | 600 | 4200 |+400 ATK +2400 HP 150 | 600 | 4200 |+400 ATK +2400 HP Soutfires (SF) that wil lock on to the nearest target (Lock-on only triggers once)
+250 1200 8000 |+600 ATK +3200 HP 250 1200 8000 ATK +3200 HP
+
+250 | 1200 | 6800 |+600 ATK +3200 HP
+
+300 |SF generated +1, fuel barrel fire damage +5%
+
+350 | 2000 | 10000 |+800 ATK +3200 HP
+
+400 Energy Diffuser ATK +5%
+
+oD |SF damage +20%. When 3 SFs hit the same target, itis inflicted with +5%
+[Deep Wound for 10s
+
+500 | 3000 | 14000 |+1000 ATK +4000 HP
+
+550 Energy Diffuser ATK +5%
+
+600 |SF spawn round interval
+
+700 | 4200 | 18800 |+1200 ATK +4800 HP
+
+800 Energy Diffuser ATK +5%
+
+900 |SF Damage +30%
+
+1ooo | 5600 | 24400 |+1400 ATK +5600 HP
+
+1100 Energy Diffuser ATK +5%
+
+1200 [SF generated #1. Fuel Barrel fire damage +5%
+
+7350 | 7200 | 30800 |+1600 ATK +6400 HP
+
+1500 Energy Diffuser ATK +5%
+
+1800 | 9000 | 38000 |+1800 ATK +7200 HP
+1950 Energy Diffuser ATK +5%
+2100 |SF generation interval -1
+2250 | 11000 | 46000 |+2000 ATK +8000 HP
+2400 Energy Diffuser ATK +5%
+| 2550 | | _|sr Poison rect Damage s100%, FB fire Damage +5% |
+2700 | 13500 | 56000 |+2500 ATK +1000 HP.
+2850 Energy Diffuser ATK +5%
+3000 |SF damage +30%, Deep Wound effect +5%
+3500 | 16500 | 68000 |+3000 ATK #12000 HP.
+4000 Energy Diffuser ATK +5%
+4500 SF generated +1, FB fire damage +3%
+5000 | 20000 | 82000 |+3500 ATK #14000 HP.
+5500 Energy Diffuser ATK +5%
+6000 SF Damage +15%
+6500 | 24000 | 98000 |+4000 ATK +16000 HP
+7000 Energy Diffuser ATK +5%
+7500 ISF generated +, FB fire damage +5%
+2000 | 30000 | 122000 |+6000 ATK +24000 HP
+8500 Energy Diffuser ATK +5%
+9000 SF Damage +10%, Deep Wound effect +5%
+
+‘Game version 3:3. Updated 2024-10-30

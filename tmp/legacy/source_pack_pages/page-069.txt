@@ -1,0 +1,40 @@
+When Void Power is fired, additional homing Chaos Meteor fires are launched. 
+Inflicts 10% Vulnerability on hit for 10 seconds. 
+Does not stack. 
+C3: 
+Max Level +5 
+C4: 
+Damage to Weakened targets +20% 
+C5: 
+Max Level +5 
+C6: 
+Shatterstar: 
+When Chaos Meteorite hits enemies, Chaos Shatterstar is triggered. 
+C7: 
+Max Level +5 
+C8: 
+Damage to Chilled targets +30% 
+C9: 
+Max Level +10 
+C10: 
+Warp: 
+After Void Power hits a boss, it locks onto the boss aura and homes back in after flying out to 
+deal damage again. 
+Void Power base damage -30%. 
+Chaos Fusion Power 
+3x: 
+Eternally Immortal: 
+Thrusts no longer depend on HP. 
+All effects trigger at full HP. 
+Targets hit by Void Fissure take +10% additional damage. 
+6x: 
+Infinity Void: 
+Void Power additionally gains 30% of Overload’s damage bonus. 
+Targets hit by Void Fissure take +20% additional damage. 
+9x: 
+Chaos Wind: 
+Removes Eternity Ray and fuses its energy into Void Power, transforming it into Chaos Wind. 
+Post-fusion Chaos Wind triggers Energy Overload. 
+Each Overload stack’s damage boost effect +25%. 
+Optimizer notes 
+This is a core DPS item. The calculator should track:

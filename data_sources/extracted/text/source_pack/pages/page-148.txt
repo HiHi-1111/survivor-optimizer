@@ -1,0 +1,37 @@
+12500: 
++7500 ATK, +30000 HP 
+ 
+13000: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+13500: 
+Crit Damage +150 
+Chill Damage +180 
+Hoarfrost gains additional +35% damage to Chilled targets. 
+Hi-Energy gains additional +30% Crit Damage. 
+ 
+14000: 
++7500 ATK, +30000 HP 
+ 
+14500: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+15000: 
+Shield Damage +100 
+Crit Damage +180 
+Protection gains additional +20% Shield damage boost. 
+Hi-Energy gains additional +30% Crit Damage. 
+Database flags 
+TwinbornID = TB_SOCCER 
+Mode = Soccer / QuantumBall 
+PrimaryStats = ShieldDamage, CritDamage, ChillDamage 
+Debuff = Chill 
+SpecialMechanics = SpikedQuantumBall, IcyQuantumBall, SuperSoccerBall, HiEnergy, 
+Protection, Hoarfrost 
+DPSRelevant = MediumHigh 
+IgnoreForDPS = HP 
+ 
+3. Normal Drone Resonance 
+Main association 
+Drone 
+Destroyer

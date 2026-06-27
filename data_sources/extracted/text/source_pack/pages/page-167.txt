@@ -1,0 +1,40 @@
+Inflicts Bleed on hit for 20s. 
+Spiked Quantum Ball duration +1s. 
+Crit Damage for entire match +80%. 
+ 
+Caltrops exclusive: 
+Iron and Blood. 
+Caltrop spikes inflict Bleed. 
+Eternal / Rainbow: 
+Twinborn Soccer Ball: 
+Kicks 1 more Soccer Ball. 
+ 
+Twinborn Quantum Ball: 
+Fires 1 more Spiked Quantum Ball. 
+Damage to Chilled targets +30%. 
+Shield Damage Boost +20%. 
+ 
+Durian: 
+Leaves a pungent trail during flight. 
+Follows bosses on hit. 
+ 
+Caltrops: 
+Leaves a fiery trail during flight. 
+Drops a fire bomb every 1s that explodes after 3s. 
+Collectible set 
+CollectibleSetName = Open Void Gate 
+AssociatedTwinborn = Twinborn Soccer Ball / Twinborn Quantum Ball 
+Each 3 yellow stars: 
+Twinborn Quantum Ball +1s. 
+Shield Damage Boost +5%. 
+ 
+Each 3 red stars: 
+Twinborn Soccer Ball damage +30%. 
+Skill Damage +10%. 
+ 
+Total 25 stars: 
+Twinborn Soccer Ball damage +45%. 
+Shield Damage Boost +10%. 
+Crit Damage +10%. 
+Optimizer flags 
+Debuff = Bleed, Chill synergy

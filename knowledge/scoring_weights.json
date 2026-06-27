@@ -1,0 +1,987 @@
+{
+  "version": 1,
+  "default": {
+    "immediate_damage": 1.0,
+    "long_term_damage": 1.0,
+    "breakpoint_value": 1.2,
+    "resource_efficiency": 1.0,
+    "rarity_value": 1.0,
+    "confidence": 1.108,
+    "mode_relevance": 1.0,
+    "chain_reaction_value": 1.2,
+    "damage_score": 1.0,
+    "long_term_score": 1.0,
+    "resource_efficiency_score": 1.0,
+    "breakpoint_score": 1.2,
+    "confidence_score": 1.108,
+    "mode_relevance_score": 1.0,
+    "profile_stage": 0.0,
+    "scenario_id": 0.0,
+    "system_type": 0.0,
+    "action_type": 0.0,
+    "resource_costs": 1.0,
+    "damage_gain_estimate": 1.0,
+    "crit_gain_estimate": 1.0,
+    "attack_gain_estimate": 1.0,
+    "long_term_value_estimate": 1.0,
+    "breakpoint_distance": 1.0,
+    "resource_bottleneck_score": 1.0,
+    "synergy_score": 1.0,
+    "save_value": 1.0,
+    "chest_expected_value": 1.0,
+    "missing_data_penalty": 1.0,
+    "source_confidence": 0.5
+  },
+  "scenarios": {
+    "scenario_1": {
+      "immediate_damage": 1.0,
+      "long_term_damage": 1.0,
+      "breakpoint_value": 1.0,
+      "resource_efficiency": 1.0,
+      "rarity_value": 1.0,
+      "confidence": 1.0,
+      "mode_relevance": 1.0,
+      "chain_reaction_value": 1.0,
+      "damage_score": 1.0,
+      "long_term_score": 1.0,
+      "resource_efficiency_score": 1.0,
+      "breakpoint_score": 1.0,
+      "confidence_score": 1.0,
+      "mode_relevance_score": 1.0,
+      "profile_stage": 0.0,
+      "scenario_id": 0.0,
+      "system_type": 0.0,
+      "action_type": 0.0,
+      "resource_costs": 1.0,
+      "damage_gain_estimate": 1.0,
+      "crit_gain_estimate": 1.0,
+      "attack_gain_estimate": 1.0,
+      "long_term_value_estimate": 1.0,
+      "breakpoint_distance": 1.0,
+      "resource_bottleneck_score": 1.0,
+      "synergy_score": 1.0,
+      "save_value": 1.0,
+      "chest_expected_value": 1.0,
+      "missing_data_penalty": 1.0,
+      "source_confidence": 0.5
+    },
+    "scenario_2": {
+      "immediate_damage": 1.0,
+      "long_term_damage": 1.0,
+      "breakpoint_value": 1.0,
+      "resource_efficiency": 1.0,
+      "rarity_value": 1.0,
+      "confidence": 1.0,
+      "mode_relevance": 1.0,
+      "chain_reaction_value": 1.0,
+      "damage_score": 1.0,
+      "long_term_score": 1.0,
+      "resource_efficiency_score": 1.0,
+      "breakpoint_score": 1.0,
+      "confidence_score": 1.0,
+      "mode_relevance_score": 1.0,
+      "profile_stage": 0.0,
+      "scenario_id": 0.0,
+      "system_type": 0.0,
+      "action_type": 0.0,
+      "resource_costs": 1.0,
+      "damage_gain_estimate": 1.0,
+      "crit_gain_estimate": 1.0,
+      "attack_gain_estimate": 1.0,
+      "long_term_value_estimate": 1.0,
+      "breakpoint_distance": 1.0,
+      "resource_bottleneck_score": 1.0,
+      "synergy_score": 1.0,
+      "save_value": 1.0,
+      "chest_expected_value": 1.0,
+      "missing_data_penalty": 1.0,
+      "source_confidence": 0.5
+    },
+    "scenario_3": {
+      "immediate_damage": 1.0,
+      "long_term_damage": 1.0,
+      "breakpoint_value": 1.0,
+      "resource_efficiency": 1.0,
+      "rarity_value": 1.0,
+      "confidence": 1.0,
+      "mode_relevance": 1.0,
+      "chain_reaction_value": 1.0,
+      "damage_score": 1.0,
+      "long_term_score": 1.0,
+      "resource_efficiency_score": 1.0,
+      "breakpoint_score": 1.0,
+      "confidence_score": 1.0,
+      "mode_relevance_score": 1.0,
+      "profile_stage": 0.0,
+      "scenario_id": 0.0,
+      "system_type": 0.0,
+      "action_type": 0.0,
+      "resource_costs": 1.0,
+      "damage_gain_estimate": 1.0,
+      "crit_gain_estimate": 1.0,
+      "attack_gain_estimate": 1.0,
+      "long_term_value_estimate": 1.0,
+      "breakpoint_distance": 1.0,
+      "resource_bottleneck_score": 1.0,
+      "synergy_score": 1.0,
+      "save_value": 1.0,
+      "chest_expected_value": 1.0,
+      "missing_data_penalty": 1.0,
+      "source_confidence": 0.5
+    }
+  },
+  "notes": "Small tunable multipliers for explainable scoring. These are not neural-network weights.",
+  "last_tuned": "2026-06-25T16:51:36Z",
+  "tuning_log": [
+    {
+      "timestamp": "2026-06-19T02:55:36Z",
+      "results_used": 1000,
+      "breakpoint_rate": 0.975,
+      "chain_rate": 0.875,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.02,
+        "chain_reaction_value": 1.02,
+        "confidence": 1.008
+      },
+      "after": {
+        "breakpoint_value": 1.025,
+        "chain_reaction_value": 1.025,
+        "confidence": 1.01
+      }
+    },
+    {
+      "timestamp": "2026-06-19T03:07:38Z",
+      "results_used": 10000,
+      "breakpoint_rate": 0.9761,
+      "chain_rate": 0.867,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.025,
+        "chain_reaction_value": 1.025,
+        "confidence": 1.01
+      },
+      "after": {
+        "breakpoint_value": 1.03,
+        "chain_reaction_value": 1.03,
+        "confidence": 1.012
+      }
+    },
+    {
+      "timestamp": "2026-06-19T03:20:57Z",
+      "results_used": 112,
+      "breakpoint_rate": 0.9821,
+      "chain_rate": 0.8661,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.03,
+        "chain_reaction_value": 1.03,
+        "confidence": 1.012
+      },
+      "after": {
+        "breakpoint_value": 1.035,
+        "chain_reaction_value": 1.035,
+        "confidence": 1.014
+      }
+    },
+    {
+      "timestamp": "2026-06-19T03:23:11Z",
+      "results_used": 1000,
+      "breakpoint_rate": 0.975,
+      "chain_rate": 0.875,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.035,
+        "chain_reaction_value": 1.035,
+        "confidence": 1.014
+      },
+      "after": {
+        "breakpoint_value": 1.04,
+        "chain_reaction_value": 1.04,
+        "confidence": 1.016
+      }
+    },
+    {
+      "timestamp": "2026-06-19T03:35:05Z",
+      "results_used": 4,
+      "breakpoint_rate": 1.0,
+      "chain_rate": 1.0,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.04,
+        "chain_reaction_value": 1.04,
+        "confidence": 1.016
+      },
+      "after": {
+        "breakpoint_value": 1.045,
+        "chain_reaction_value": 1.045,
+        "confidence": 1.018
+      }
+    },
+    {
+      "timestamp": "2026-06-19T03:50:38Z",
+      "results_used": 840,
+      "breakpoint_rate": 0.9726,
+      "chain_rate": 0.8655,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.045,
+        "chain_reaction_value": 1.045,
+        "confidence": 1.018
+      },
+      "after": {
+        "breakpoint_value": 1.05,
+        "chain_reaction_value": 1.05,
+        "confidence": 1.02
+      }
+    },
+    {
+      "timestamp": "2026-06-19T13:58:40Z",
+      "results_used": 50848,
+      "breakpoint_rate": 0.9736,
+      "chain_rate": 0.8661,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.05,
+        "chain_reaction_value": 1.05,
+        "confidence": 1.02
+      },
+      "after": {
+        "breakpoint_value": 1.055,
+        "chain_reaction_value": 1.055,
+        "confidence": 1.022
+      }
+    },
+    {
+      "timestamp": "2026-06-19T20:32:42Z",
+      "results_used": 98504,
+      "breakpoint_rate": 0.9749,
+      "chain_rate": 0.8647,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.055,
+        "chain_reaction_value": 1.055,
+        "confidence": 1.022
+      },
+      "after": {
+        "breakpoint_value": 1.06,
+        "chain_reaction_value": 1.06,
+        "confidence": 1.024
+      }
+    },
+    {
+      "timestamp": "2026-06-20T17:57:54Z",
+      "results_used": 2900,
+      "breakpoint_rate": 0.971,
+      "chain_rate": 0.8579,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.06,
+        "chain_reaction_value": 1.06,
+        "confidence": 1.024
+      },
+      "after": {
+        "breakpoint_value": 1.065,
+        "chain_reaction_value": 1.065,
+        "confidence": 1.026
+      }
+    },
+    {
+      "timestamp": "2026-06-20T18:08:15Z",
+      "results_used": 3700,
+      "breakpoint_rate": 0.9719,
+      "chain_rate": 0.8659,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.065,
+        "chain_reaction_value": 1.065,
+        "confidence": 1.026
+      },
+      "after": {
+        "breakpoint_value": 1.07,
+        "chain_reaction_value": 1.07,
+        "confidence": 1.028
+      }
+    },
+    {
+      "timestamp": "2026-06-20T23:30:25Z",
+      "results_used": 25356,
+      "breakpoint_rate": 0.9774,
+      "chain_rate": 0.8768,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.07,
+        "chain_reaction_value": 1.07,
+        "confidence": 1.028
+      },
+      "after": {
+        "breakpoint_value": 1.075,
+        "chain_reaction_value": 1.075,
+        "confidence": 1.03
+      }
+    },
+    {
+      "timestamp": "2026-06-20T23:39:33Z",
+      "results_used": 2100,
+      "breakpoint_rate": 0.9752,
+      "chain_rate": 0.8805,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.075,
+        "chain_reaction_value": 1.075,
+        "confidence": 1.03
+      },
+      "after": {
+        "breakpoint_value": 1.08,
+        "chain_reaction_value": 1.08,
+        "confidence": 1.032
+      }
+    },
+    {
+      "timestamp": "2026-06-21T01:55:45Z",
+      "results_used": 2556,
+      "breakpoint_rate": 0.9765,
+      "chain_rate": 0.8834,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.08,
+        "chain_reaction_value": 1.08,
+        "confidence": 1.032
+      },
+      "after": {
+        "breakpoint_value": 1.085,
+        "chain_reaction_value": 1.085,
+        "confidence": 1.034
+      }
+    },
+    {
+      "timestamp": "2026-06-21T02:10:59Z",
+      "results_used": 2456,
+      "breakpoint_rate": 0.976,
+      "chain_rate": 0.8836,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.085,
+        "chain_reaction_value": 1.085,
+        "confidence": 1.034
+      },
+      "after": {
+        "breakpoint_value": 1.09,
+        "chain_reaction_value": 1.09,
+        "confidence": 1.036
+      }
+    },
+    {
+      "timestamp": "2026-06-21T02:51:18Z",
+      "results_used": 1956,
+      "breakpoint_rate": 0.9749,
+      "chain_rate": 0.8799,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.09,
+        "chain_reaction_value": 1.09,
+        "confidence": 1.036
+      },
+      "after": {
+        "breakpoint_value": 1.095,
+        "chain_reaction_value": 1.095,
+        "confidence": 1.038
+      }
+    },
+    {
+      "timestamp": "2026-06-21T03:51:25Z",
+      "results_used": 2200,
+      "breakpoint_rate": 0.9755,
+      "chain_rate": 0.8832,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.095,
+        "chain_reaction_value": 1.095,
+        "confidence": 1.038
+      },
+      "after": {
+        "breakpoint_value": 1.1,
+        "chain_reaction_value": 1.1,
+        "confidence": 1.04
+      }
+    },
+    {
+      "timestamp": "2026-06-21T16:46:15Z",
+      "results_used": 22756,
+      "breakpoint_rate": 0.9772,
+      "chain_rate": 0.877,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.1,
+        "chain_reaction_value": 1.1,
+        "confidence": 1.04
+      },
+      "after": {
+        "breakpoint_value": 1.105,
+        "chain_reaction_value": 1.105,
+        "confidence": 1.042
+      }
+    },
+    {
+      "timestamp": "2026-06-21T18:42:27Z",
+      "results_used": 2100,
+      "breakpoint_rate": 0.9762,
+      "chain_rate": 0.8805,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.105,
+        "chain_reaction_value": 1.105,
+        "confidence": 1.042
+      },
+      "after": {
+        "breakpoint_value": 1.11,
+        "chain_reaction_value": 1.11,
+        "confidence": 1.044
+      }
+    },
+    {
+      "timestamp": "2026-06-21T18:51:33Z",
+      "results_used": 2156,
+      "breakpoint_rate": 0.9768,
+      "chain_rate": 0.884,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.11,
+        "chain_reaction_value": 1.11,
+        "confidence": 1.044
+      },
+      "after": {
+        "breakpoint_value": 1.115,
+        "chain_reaction_value": 1.115,
+        "confidence": 1.046
+      }
+    },
+    {
+      "timestamp": "2026-06-21T19:46:32Z",
+      "results_used": 2000,
+      "breakpoint_rate": 0.9755,
+      "chain_rate": 0.8845,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.115,
+        "chain_reaction_value": 1.115,
+        "confidence": 1.046
+      },
+      "after": {
+        "breakpoint_value": 1.12,
+        "chain_reaction_value": 1.12,
+        "confidence": 1.048
+      }
+    },
+    {
+      "timestamp": "2026-06-21T20:26:12Z",
+      "results_used": 5000,
+      "breakpoint_rate": 0.9792,
+      "chain_rate": 0.8812,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.12,
+        "chain_reaction_value": 1.12,
+        "confidence": 1.048
+      },
+      "after": {
+        "breakpoint_value": 1.125,
+        "chain_reaction_value": 1.125,
+        "confidence": 1.05
+      }
+    },
+    {
+      "timestamp": "2026-06-21T20:38:11Z",
+      "results_used": 5000,
+      "breakpoint_rate": 0.979,
+      "chain_rate": 0.8812,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.125,
+        "chain_reaction_value": 1.125,
+        "confidence": 1.05
+      },
+      "after": {
+        "breakpoint_value": 1.13,
+        "chain_reaction_value": 1.13,
+        "confidence": 1.052
+      }
+    },
+    {
+      "timestamp": "2026-06-21T21:39:26Z",
+      "results_used": 48096,
+      "breakpoint_rate": 0.9776,
+      "chain_rate": 0.8764,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.13,
+        "chain_reaction_value": 1.13,
+        "confidence": 1.052
+      },
+      "after": {
+        "breakpoint_value": 1.135,
+        "chain_reaction_value": 1.135,
+        "confidence": 1.054
+      }
+    },
+    {
+      "timestamp": "2026-06-21T21:50:19Z",
+      "results_used": 4596,
+      "breakpoint_rate": 0.9785,
+      "chain_rate": 0.8808,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.135,
+        "chain_reaction_value": 1.135,
+        "confidence": 1.054
+      },
+      "after": {
+        "breakpoint_value": 1.14,
+        "chain_reaction_value": 1.14,
+        "confidence": 1.056
+      }
+    },
+    {
+      "timestamp": "2026-06-21T23:29:24Z",
+      "results_used": 64596,
+      "breakpoint_rate": 0.9769,
+      "chain_rate": 0.8755,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.14,
+        "chain_reaction_value": 1.14,
+        "confidence": 1.056
+      },
+      "after": {
+        "breakpoint_value": 1.145,
+        "chain_reaction_value": 1.145,
+        "confidence": 1.058
+      }
+    },
+    {
+      "timestamp": "2026-06-22T01:26:14Z",
+      "results_used": 3696,
+      "breakpoint_rate": 0.9756,
+      "chain_rate": 0.881,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.145,
+        "chain_reaction_value": 1.145,
+        "confidence": 1.058
+      },
+      "after": {
+        "breakpoint_value": 1.15,
+        "chain_reaction_value": 1.15,
+        "confidence": 1.06
+      }
+    },
+    {
+      "timestamp": "2026-06-22T02:18:47Z",
+      "results_used": 26600,
+      "breakpoint_rate": 0.9768,
+      "chain_rate": 0.8788,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.15,
+        "chain_reaction_value": 1.15,
+        "confidence": 1.06
+      },
+      "after": {
+        "breakpoint_value": 1.155,
+        "chain_reaction_value": 1.155,
+        "confidence": 1.062
+      }
+    },
+    {
+      "timestamp": "2026-06-22T15:59:35Z",
+      "results_used": 665,
+      "breakpoint_rate": 0.9789,
+      "chain_rate": 0.8737,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.155,
+        "chain_reaction_value": 1.155,
+        "confidence": 1.062
+      },
+      "after": {
+        "breakpoint_value": 1.16,
+        "chain_reaction_value": 1.16,
+        "confidence": 1.064
+      }
+    },
+    {
+      "timestamp": "2026-06-23T01:41:32Z",
+      "results_used": 4696,
+      "breakpoint_rate": 0.9759,
+      "chain_rate": 0.8795,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.16,
+        "chain_reaction_value": 1.16,
+        "confidence": 1.064
+      },
+      "after": {
+        "breakpoint_value": 1.165,
+        "chain_reaction_value": 1.165,
+        "confidence": 1.066
+      }
+    },
+    {
+      "timestamp": "2026-06-23T02:21:34Z",
+      "results_used": 1796,
+      "breakpoint_rate": 0.971,
+      "chain_rate": 0.8653,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.165,
+        "chain_reaction_value": 1.165,
+        "confidence": 1.066
+      },
+      "after": {
+        "breakpoint_value": 1.17,
+        "chain_reaction_value": 1.17,
+        "confidence": 1.068
+      }
+    },
+    {
+      "timestamp": "2026-06-23T02:25:01Z",
+      "results_used": 2248,
+      "breakpoint_rate": 0.9738,
+      "chain_rate": 0.8688,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.17,
+        "chain_reaction_value": 1.17,
+        "confidence": 1.068
+      },
+      "after": {
+        "breakpoint_value": 1.175,
+        "chain_reaction_value": 1.175,
+        "confidence": 1.07
+      }
+    },
+    {
+      "timestamp": "2026-06-23T02:28:30Z",
+      "results_used": 2664,
+      "breakpoint_rate": 0.9752,
+      "chain_rate": 0.8679,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.175,
+        "chain_reaction_value": 1.175,
+        "confidence": 1.07
+      },
+      "after": {
+        "breakpoint_value": 1.18,
+        "chain_reaction_value": 1.18,
+        "confidence": 1.072
+      }
+    },
+    {
+      "timestamp": "2026-06-23T02:31:59Z",
+      "results_used": 3100,
+      "breakpoint_rate": 0.9765,
+      "chain_rate": 0.8729,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.18,
+        "chain_reaction_value": 1.18,
+        "confidence": 1.072
+      },
+      "after": {
+        "breakpoint_value": 1.185,
+        "chain_reaction_value": 1.185,
+        "confidence": 1.074
+      }
+    },
+    {
+      "timestamp": "2026-06-23T02:35:28Z",
+      "results_used": 3196,
+      "breakpoint_rate": 0.9743,
+      "chain_rate": 0.8827,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.185,
+        "chain_reaction_value": 1.185,
+        "confidence": 1.074
+      },
+      "after": {
+        "breakpoint_value": 1.19,
+        "chain_reaction_value": 1.19,
+        "confidence": 1.076
+      }
+    },
+    {
+      "timestamp": "2026-06-23T02:38:57Z",
+      "results_used": 2600,
+      "breakpoint_rate": 0.975,
+      "chain_rate": 0.8781,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.19,
+        "chain_reaction_value": 1.19,
+        "confidence": 1.076
+      },
+      "after": {
+        "breakpoint_value": 1.195,
+        "chain_reaction_value": 1.195,
+        "confidence": 1.078
+      }
+    },
+    {
+      "timestamp": "2026-06-23T02:42:27Z",
+      "results_used": 3100,
+      "breakpoint_rate": 0.9794,
+      "chain_rate": 0.8768,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.195,
+        "chain_reaction_value": 1.195,
+        "confidence": 1.078
+      },
+      "after": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.08
+      }
+    },
+    {
+      "timestamp": "2026-06-23T12:42:24Z",
+      "results_used": 391476,
+      "breakpoint_rate": 0.9773,
+      "chain_rate": 0.879,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.08
+      },
+      "after": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.082
+      }
+    },
+    {
+      "timestamp": "2026-06-23T16:58:52Z",
+      "results_used": 900,
+      "breakpoint_rate": 0.9767,
+      "chain_rate": 0.8956,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.082
+      },
+      "after": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.084
+      }
+    },
+    {
+      "timestamp": "2026-06-23T17:06:22Z",
+      "results_used": 3300,
+      "breakpoint_rate": 0.9821,
+      "chain_rate": 0.8897,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.084
+      },
+      "after": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.086
+      }
+    },
+    {
+      "timestamp": "2026-06-23T22:26:31Z",
+      "results_used": 1000,
+      "breakpoint_rate": 0.969,
+      "chain_rate": 0.881,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.086
+      },
+      "after": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.088
+      }
+    },
+    {
+      "timestamp": "2026-06-23T22:31:40Z",
+      "results_used": 1000,
+      "breakpoint_rate": 0.977,
+      "chain_rate": 0.885,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.088
+      },
+      "after": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.09
+      }
+    },
+    {
+      "timestamp": "2026-06-23T22:38:21Z",
+      "results_used": 1000,
+      "breakpoint_rate": 0.982,
+      "chain_rate": 0.879,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.09
+      },
+      "after": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.092
+      }
+    },
+    {
+      "timestamp": "2026-06-23T22:43:21Z",
+      "results_used": 1000,
+      "breakpoint_rate": 0.973,
+      "chain_rate": 0.887,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.092
+      },
+      "after": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.094
+      }
+    },
+    {
+      "timestamp": "2026-06-23T23:48:40Z",
+      "results_used": 58096,
+      "breakpoint_rate": 0.9767,
+      "chain_rate": 0.8788,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.094
+      },
+      "after": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.096
+      }
+    },
+    {
+      "timestamp": "2026-06-24T19:18:07Z",
+      "results_used": 27264,
+      "breakpoint_rate": 0.9756,
+      "chain_rate": 0.8767,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.096
+      },
+      "after": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.098
+      }
+    },
+    {
+      "timestamp": "2026-06-24T20:10:01Z",
+      "results_used": 12500,
+      "breakpoint_rate": 0.9763,
+      "chain_rate": 0.8806,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.098
+      },
+      "after": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.1
+      }
+    },
+    {
+      "timestamp": "2026-06-24T21:41:33Z",
+      "results_used": 34196,
+      "breakpoint_rate": 0.9768,
+      "chain_rate": 0.8772,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.1
+      },
+      "after": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.102
+      }
+    },
+    {
+      "timestamp": "2026-06-24T22:32:45Z",
+      "results_used": 40300,
+      "breakpoint_rate": 0.9774,
+      "chain_rate": 0.8774,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.102
+      },
+      "after": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.104
+      }
+    },
+    {
+      "timestamp": "2026-06-25T02:04:53Z",
+      "results_used": 179120,
+      "breakpoint_rate": 0.9772,
+      "chain_rate": 0.8785,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.104
+      },
+      "after": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.106
+      }
+    },
+    {
+      "timestamp": "2026-06-25T16:51:36Z",
+      "results_used": 49848,
+      "breakpoint_rate": 0.9783,
+      "chain_rate": 0.8807,
+      "consistency_rate": 1.0,
+      "before": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.106
+      },
+      "after": {
+        "breakpoint_value": 1.2,
+        "chain_reaction_value": 1.2,
+        "confidence": 1.108
+      }
+    }
+  ]
+}

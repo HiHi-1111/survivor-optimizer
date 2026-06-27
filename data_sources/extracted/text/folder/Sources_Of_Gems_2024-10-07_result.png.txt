@@ -1,0 +1,34 @@
+All Sources of Gems
+
+Source Amount Interval (Days) Gems / Day
+[1 Permenant Privilege card 50 1 50
+| §F baity Rewards 250 7 36
+a
+3 $B oaity Rewards chest 150 10 15
+Start of Week Chest (very rough estimate) 1,000 7 143
+& aity Pack 10 1 10
+g C7 Weekly Pack 50 7 7
+<) & monthly Pack 100 30 3
+Shop Ads (x3) 90 1 90
+S Daily Missions 80 1 80
+5 FX weekly missions 450 7 64
+. @P special Ops 3rd Chest 20 1 20
+2 a Special Ops (estimate) 190 1 190
+NEF Zone Ops (1-20) 3,000 28 107
+EE Daily Chests 730 28 26
+.
+2 EE Mini-Season Rewards (Legend) (x9) 1,260 28 45
+2 ‘(@’ EE Season Ranking (Legend) 4,000 28 143
+* CE Ranking (Elite 3rd) 3,200 7 457
+5 | @_ rap Gems/Day excluding Events and Packs) 1,487
+2 et F2P Gems/Season (Excluding Events and Packs) 41,623
+BB Monthly Card (one time bonus) 500 30 7
+2 BB Monthly Card Daily 150 1 150
+& BB super Monthly Card (one time bonus) 1,200 30 40
+BB super Montly Card Daily 300 1 300
+5 | BW Gems/day cexcivaing events and Packs) +507 ‘1,993
+E @_Gems/season éxciuding Events and Packs) +4187 55,810
+
+Last updated 2024-10-02
+
+Game Version: 32.0 | Credits: @Khaled Ahmed, @Thatf2pnewb, @GasLightKing Eustia

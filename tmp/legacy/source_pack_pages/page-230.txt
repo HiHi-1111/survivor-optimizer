@@ -1,0 +1,43 @@
+Shop 
+Chapter 1 after losing 
+Talent Tree 
+Chapter 1 after losing 
+Growth Fund / Daily Shop / Friends 
+Chapter 2 after losing 
+Missions / Main Challenges / Quick Earnings / 
+Events 
+Chapter 2 after winning 
+Clans 
+Chapter 3 after winning 
+Durian / Laser skill 
+Chapter 4 after winning 
+Gold Mine 
+Chapter 5 after winning 
+Regular Challenge 
+Chapter 6 after losing 
+Tech Parts 
+Chapter 6 through Regular 
+Challenge 
+Ender’s Echo 
+Chapter 8 after winning 
+Survivor Pass 
+Chapter 8 after winning 
+Special Ops 
+Chapter 8 after winning 
+Pets 
+Chapter 9 after winning 
+Survivor leveling 
+Chapter 9 after winning 
+Mine/Bomb skills 
+Chapter 10 after losing 
+Permanent Privilege Card 
+Chapter 11 after losing 
+Zone Ops / Extreme Ops 
+Chapter 30 after winning 
+Optimizer rule: 
+Do not recommend a system before the player has unlocked it. 
+ 
+22. Final database schema list 
+To turn the whole dataset into your calculator, use these tables: 
+FeatureUnlocks 
+ItemValues

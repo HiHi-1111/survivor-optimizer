@@ -1,0 +1,27 @@
+Eternal_Gloves | Gear | Gloves | Red | CritRate | +10% | CurrentBuild | Equipped | Yes | Also 
+gives CritDamage +100% 
+Example row: 
+SS_Gear_Laser_Charge | Gear | UnknownSSSlot | V4 | CritRate | +20% | CurrentBuild | During 
+laser charge | Yes | Temporary burst condition 
+ 
+3. Skill Crit Rate 
+This is associated with: 
+In-Battle Skills | Survivor Skill | Stance | Temporary DPS 
+The image shows skill-based crit rate sources: 
+●​ King-related skill source: Crit Rate +40% 
+●​ King-related evolved / upgraded source: Crit Rate +50% 
+●​ Yang in Palm stance: Crit Rate +20% 
+Optimizer notes 
+These should be stored as in-run conditional sources, not account stats. 
+Important: Yang’s Palm stance crit should only count when the optimizer is modeling Master 
+Yang in Palm stance. Do not apply it to every survivor. 
+Database flags: 
+SourceCategory = Skill 
+TargetScope = ActiveRunOnly 
+ConditionType = SkillSelected / StanceActive 
+DPSRelevant = High 
+Example row: 
+Yang_Palm_Stance | Skill | MasterYang | CritRate | +20% | ActiveSurvivorOnly | Palm stance 
+active | Yes 
+ 
+4. Collectible Crit Rate

@@ -1,0 +1,56 @@
+[
+  {
+    "aggressive_accuracy": 1.0,
+    "best_cut_percent": 77.554,
+    "best_mode": "starvation",
+    "critic_regressions": 2100,
+    "cuts_by_mode_percent": {
+      "aggressive": 76.484,
+      "extreme": 76.484,
+      "risky": 77.119,
+      "safe": 76.473,
+      "starvation": 77.554
+    },
+    "difficulty": 1,
+    "evaluator_regressions": 0,
+    "extreme_accuracy": 1.0,
+    "full_accuracy": 1.0,
+    "full_failures": 0,
+    "gpu_critic_rows": 403200,
+    "gpu_critic_rps": 1252262.194,
+    "profiles_per_sec": 27.663,
+    "risky_accuracy": 1.0,
+    "round": 1,
+    "safe_accuracy": 1.0,
+    "starvation_accuracy": 1.0,
+    "top_fail": "safe protected fact score too low",
+    "wall_seconds": 151.8249
+  },
+  {
+    "aggressive_accuracy": 1.0,
+    "best_cut_percent": 77.563,
+    "best_mode": "starvation",
+    "critic_regressions": 2100,
+    "cuts_by_mode_percent": {
+      "aggressive": 76.485,
+      "extreme": 76.485,
+      "risky": 77.115,
+      "safe": 76.473,
+      "starvation": 77.563
+    },
+    "difficulty": 1,
+    "evaluator_regressions": 0,
+    "extreme_accuracy": 1.0,
+    "full_accuracy": 1.0,
+    "full_failures": 0,
+    "gpu_critic_rows": 403200,
+    "gpu_critic_rps": 1101020.246,
+    "profiles_per_sec": 27.96,
+    "risky_accuracy": 1.0,
+    "round": 2,
+    "safe_accuracy": 1.0,
+    "starvation_accuracy": 1.0,
+    "top_fail": "safe protected fact score too low",
+    "wall_seconds": 150.2149
+  }
+]

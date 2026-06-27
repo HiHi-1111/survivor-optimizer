@@ -1,0 +1,33 @@
+ATK gained per awakening crystal 
+DPS gained per awakening crystal 
+Unlock value from new skill slot 
+Direct pet damage gained 
+Owner DPS buff gained 
+ 
+Biggest DPS-relevant pet stats 
+For the optimizer, the pet system should prioritize: 
+Owner Crit Rate 
+Owner Crit Damage 
+Owner Skill Damage 
+Pet Skill Damage 
+Pet ATK Damage 
+Pet Crit Rate 
+Pet Crit Damage 
+Pet Cooldown Reduction 
+Pet Inherited ATK 
+Pet Range / Penetration 
+Pet Primary Attack Damage 
+Pet Affection ATK 
+Ignore or down-rank: 
+Pet HP 
+Owner HP 
+Damage reduction 
+Revival time 
+Invincibility 
+Damage transfer 
+Time stop 
+Store them anyway, but mark: 
+DPSRelevant = No 
+ 
+Clean database format for this data type 
+Use these tables.

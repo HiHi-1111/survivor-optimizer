@@ -1,0 +1,155 @@
+{
+  "items": [
+    {
+      "id": "example_selector_item",
+      "name": "Example Selector Item",
+      "category": "item",
+      "description": "Example item record only. Not real Survivor.io data.",
+      "effects": [],
+      "tags": ["example"],
+      "source_type": "unknown",
+      "source": "docs/ai_output_schema_example.json",
+      "date": "",
+      "confidence": "low",
+      "notes": "Schema example only.",
+      "scoring_relevance": ["utility"]
+    }
+  ],
+  "item_effects": [
+    {
+      "id": "example_core_breakpoint_effect",
+      "name": "Example Core Breakpoint Effect",
+      "category": "item_effect",
+      "description": "Example reusable effect for a resource helping a breakpoint. Placeholder only.",
+      "effects": [
+        {
+          "stat": "breakpoint_score",
+          "value": "placeholder",
+          "operation": "add",
+          "condition": "near relevant upgrade breakpoint",
+          "description": "Placeholder effect. Do not treat as real game math."
+        }
+      ],
+      "tags": ["example", "breakpoint"],
+      "source_type": "unknown",
+      "source": "docs/ai_output_schema_example.json",
+      "date": "",
+      "confidence": "low",
+      "notes": "Example uncertain data.",
+      "scoring_relevance": ["utility"]
+    }
+  ],
+  "gear": [],
+  "gear_sets": [],
+  "survivors": [],
+  "survivor_awakenings": [],
+  "pets": [],
+  "xeno_pets": [],
+  "tech_parts": [],
+  "collectibles": [],
+  "collectible_sets": [],
+  "resources": [
+    {
+      "id": "example_core",
+      "name": "Example Core",
+      "category": "resource",
+      "description": "Example resource record. Not real Survivor.io data.",
+      "effects": [],
+      "tags": ["example", "core"],
+      "source_type": "unknown",
+      "source": "docs/ai_output_schema_example.json",
+      "date": "",
+      "confidence": "low",
+      "notes": "Schema example only.",
+      "scoring_relevance": ["resource"]
+    }
+  ],
+  "chests": [
+    {
+      "id": "example_selector_chest",
+      "name": "Example Selector Chest",
+      "category": "chest",
+      "description": "Example selector chest that can choose from example resources.",
+      "effects": [],
+      "tags": ["example", "selector"],
+      "source_type": "unknown",
+      "source": "docs/ai_output_schema_example.json",
+      "date": "",
+      "confidence": "low",
+      "notes": "Schema example only.",
+      "scoring_relevance": ["resource"],
+      "choices": ["example_core"]
+    }
+  ],
+  "events": [],
+  "event_shops": [],
+  "breakpoints": [
+    {
+      "id": "example_core_breakpoint",
+      "name": "Example Core Breakpoint",
+      "category": "breakpoint",
+      "description": "Example breakpoint record for an upgrade threshold. Placeholder only.",
+      "effects": [],
+      "tags": ["example", "breakpoint"],
+      "source_type": "unknown",
+      "source": "docs/ai_output_schema_example.json",
+      "date": "",
+      "confidence": "low",
+      "notes": "Do not use as real Survivor.io data.",
+      "scoring_relevance": ["utility"],
+      "requirements": {
+        "example_core": "placeholder"
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "example_near_breakpoint_priority",
+      "name": "Example Near Breakpoint Priority",
+      "category": "rule",
+      "description": "If a resource unlocks a nearby breakpoint, score it higher. Placeholder rule.",
+      "effects": [],
+      "tags": ["example", "priority", "breakpoint"],
+      "source_type": "unknown",
+      "source": "docs/ai_output_schema_example.json",
+      "date": "",
+      "confidence": "low",
+      "notes": "Example uncertain data.",
+      "scoring_relevance": ["utility"],
+      "applies_to": ["example_core"]
+    }
+  ],
+  "hidden_interactions": [
+    {
+      "id": "example_hidden_interaction",
+      "name": "Example Hidden Interaction",
+      "category": "hidden_interaction",
+      "description": "Example record for community-tested behavior that differs from written text.",
+      "effects": [],
+      "tags": ["example", "hidden", "community_tested"],
+      "source_type": "community-tested",
+      "source": "docs/ai_output_schema_example.json",
+      "date": "",
+      "confidence": "low",
+      "notes": "Example only. Requires real verification before use.",
+      "scoring_relevance": ["utility"]
+    }
+  ],
+  "warnings": [
+    {
+      "id": "example_placeholder_warning",
+      "name": "Example Placeholder Warning",
+      "category": "warning",
+      "description": "This file demonstrates shape only and does not contain real game values.",
+      "effects": [],
+      "tags": ["example"],
+      "source_type": "unknown",
+      "source": "docs/ai_output_schema_example.json",
+      "date": "",
+      "confidence": "low",
+      "notes": "Do not compile this file into production knowledge.",
+      "scoring_relevance": ["utility"]
+    }
+  ]
+}
+

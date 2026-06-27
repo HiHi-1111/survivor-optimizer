@@ -1,0 +1,52 @@
+{
+  "compression_lessons": {},
+  "enemy_lessons": {
+    "aliases: Relic Core, S Awakening Core, Yang shard": {
+      "times_tested": 474
+    },
+    "cheap material bait vs rare blockers": {
+      "times_tested": 474
+    },
+    "inactive Twinborn mode": {
+      "times_tested": 474
+    },
+    "locked AF / Cosmic Cast preview": {
+      "times_tested": 474
+    },
+    "locked collectible breakpoint preview": {
+      "times_tested": 474
+    },
+    "multiplier strings: 2.35x, 175%, +25%": {
+      "times_tested": 474
+    },
+    "near milestone missing both core and shards": {
+      "times_tested": 474
+    },
+    "positive control": {
+      "times_tested": 840
+    },
+    "source/catalog rows mixed into player state": {
+      "times_tested": 474
+    },
+    "unbought event shop item": {
+      "times_tested": 474
+    },
+    "unequipped gear": {
+      "times_tested": 474
+    },
+    "unequipped pet": {
+      "times_tested": 475
+    },
+    "unselected survivor roster": {
+      "times_tested": 475
+    },
+    "unslotted resonance assist": {
+      "times_tested": 470
+    }
+  },
+  "enemy_wins": 0,
+  "fixer_lessons": {},
+  "optimizer_wins": 10,
+  "updated_at": 1782491997.0914578,
+  "version": 1
+}

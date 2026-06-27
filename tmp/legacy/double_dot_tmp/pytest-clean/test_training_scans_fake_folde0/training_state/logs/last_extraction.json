@@ -1,0 +1,22 @@
+[
+  {
+    "source": "guide.txt",
+    "source_type": "discord",
+    "file_type": ".txt",
+    "text": "Astral Core is best near an AF breakpoint.\nXeno Core scales later for awakening.\nHP and healing are survival-only comfort stats.",
+    "text_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\..tmp\\pytest-clean\\test_training_scans_fake_folde0\\extracted_text\\folder\\guide.txt.txt",
+    "processed_path": null,
+    "warnings": []
+  },
+  {
+    "source": "screenshot.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\..tmp\\pytest-clean\\test_training_scans_fake_folde0\\processed_images\\folder\\screenshot.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  }
+]

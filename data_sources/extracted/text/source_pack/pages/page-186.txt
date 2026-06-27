@@ -1,0 +1,42 @@
+Twinborn Molotov: 
+Fires will spread. 
+ 
+Brick: 
+Heavy like it. 
+Brick penetrates all enemies. 
+Yellow: 
+ATK +400 
+HP +1600 
+Red: 
+Twinborn Fuel Spray: 
+Shoots a Blazing Jet forward, inflicting Deep Wound for 10s. 
+Targets take additional 10% damage. 
+When the skill ends, throws Spray Canister that explodes on hit. 
+Blazing Jet and Spray Canister ignite elites and bosses on hit, burning them for 10s. 
+Skill Damage +50%. 
+ 
+1-ton Iron EX: 
+Light as a Feather. 
+1-ton Iron spins as they fly out. 
+Eternal / Rainbow: 
+Twinborn Molotov: 
+Damage rate up. 
+ 
+Twinborn Fuel Spray: 
+Spray Canister hits grant +2.5% Shield to main character. 
+Shield Damage Boost +50%. 
+Skill Damage +30%. 
+ 
+Brick: 
+Brick count at all levels +2. 
+ 
+1-ton Iron: 
+Count +2. 
+Shatters space on hit, dealing damage in small area. 
+Collectible set 
+CollectibleSetName = Wind Totem 
+AssociatedTwinborn = Twinborn Molotov / Twinborn Fuel Spray 
+10x yellow stars: 
+Twinborn Molotov Deep Wound +10%. 
+ 
+20x yellow stars:

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "pet_awakening_crystal_path", "name": "Pet Awakening Crystal Path", "category": "pet_awakening",
+    "description": "Awakening-crystal costs from Y1 through R5 total 350: 5, 5, 10, 20, 30, 40, then 60 for each R2-R5 step.",
+    "effects": [], "cost_by_level": {"Y1": 5, "Y2": 5, "Y3": 10, "Y4": 20, "Y5": 30, "R1": 40, "R2": 60, "R3": 60, "R4": 60, "R5": 60},
+    "total_cost": {"awakening_crystal": 350}, "tags": ["pet", "awakening", "cost", "breakpoint"],
+    "source_type": "inferred", "source": "data_sources/source_pack/optimizer_source_reference.pdf#page=103", "confidence": "medium",
+    "notes": "Explanation-derived table; verify against Pet_Awakening_Costs_and_Toy_Bonuses before confirmed.", "scoring_relevance": ["resource", "damage"]
+  }
+]

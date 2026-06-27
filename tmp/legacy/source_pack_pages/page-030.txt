@@ -1,0 +1,25 @@
+Optimizer notes 
+This is global and should have high priority in the account stat model. 
+Database row: 
+Combat_Harmony_CR | CombatHarmony | CritRate | +30% total | Global | Based on harmony 
+level | Yes 
+ 
+Crit Damage section 
+1. Default Crit Damage 
+The source shows: 
+Default Crit Damage = 100% 
+This should be stored as the baseline, not as an upgrade. 
+Important: do not accidentally double count this as a bonus source. 
+Database row: 
+Default_Crit_Damage | BaseStat | CritDamage | 100% | AllBuilds | Baseline | Yes | Do not treat 
+as upgrade 
+ 
+2. Survivor level Crit Damage 
+This is associated with: 
+Survivor Level | Global Crit Damage | Account DPS 
+The source shows 60% total global Crit Damage from survivor level bonuses. 
+Visible sources include: 
+●​ One survivor at level 40: Crit Damage +5% 
+●​ King level 120: Crit Damage +5% 
+●​ Tsukuyomi level 120: Crit Damage +5% 
+●​ Worm level 120: Crit Damage +5%

@@ -1,0 +1,43 @@
+5000: 
++3500 ATK, +14000 HP 
+ 
+5500: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+6000: 
+Fire Bomb Damage +30% 
+ 
+6500: 
++4000 ATK, +16000 HP 
+ 
+7000: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+7500: 
+Lacerate Damage +60 
+Extra damage to Lacerated targets +30% 
+ 
+8000: 
++6000 ATK, +24000 HP 
+ 
+8500: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+9000: 
+Chill Damage +150 
+Max Ice Focus stacks +1 
+ 
+9500: 
++7500 ATK, +30000 HP 
+ 
+10000: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+10500: 
+Shield Damage +65 
+Crit Damage +70 
+Crit Damage +30% 
+Shield Damage Boost +30% 
+ 
+11000: 
++7500 ATK, +30000 HP

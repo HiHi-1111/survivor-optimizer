@@ -1,0 +1,42 @@
+DPSRelevant 
+Notes 
+Key rule 
+Do not count “damage to Chilled / Weakened / Poisoned / Lacerated targets” unless the build 
+has a source of that debuff and realistic uptime. 
+Example: 
+SS Boots give damage to Chilled enemies. 
+That only scores high if Chill uptime is high through SS Boots trail, Drill, Soccer, Guardian, or 
+Xeno. 
+ 
+2. Shield Damage / Skill Damage 
+Multipliers 
+Shield Damage 
+Source type 
+What it means 
+DPS scoring 
+Shield Damage 
+Boost 
+Boosts damage while shield mechanics are 
+active or shield-related attacks trigger. 
+High if player has shield 
+uptime 
+Energy Shield 
+Shield HP layer used by SS 
+Necklace/Armor/Boots. 
+Indirect DPS 
+Shield restore 
+Keeps shield active longer. 
+Medium/high if shield 
+damage exists 
+Shield 
+threshold 
+effects 
+Some gear gives more damage when shield is 
+high. 
+High but conditional 
+Associated systems: 
+SS Necklace 
+SS Armor 
+SS Boots 
+SS Gloves 
+Twinborn Guardian

@@ -1,0 +1,41 @@
+4500: 
+C4 explosion radius +20%. 
+Sharkmaw Gun damage +10%. 
+ 
+5000: 
+Total ATK 20000, Total HP 102000 
++3500 ATK, +14000 HP 
+ 
+5500: 
+Hi-Maintainer HP +5% 
+ 
+6000: 
+C4 explosion delay -1s. 
+Sharkmaw Gun damage +10%. 
+ 
+6500: 
+Total ATK 24000, Total HP 122000 
++4000 ATK, +16000 HP 
+ 
+7000: 
+Hi-Maintainer HP +5% 
+ 
+7500: 
+C4 explosion damage +30%. 
+Launch radius +20%. 
+Sharkmaw Gun damage +10%. 
+ 
+8000: 
+Total ATK 30000, Total HP 152000 
++6000 ATK, +24000 HP 
+ 
+8500: 
+Hi-Maintainer HP +5% 
+ 
+9000: 
+C4 explosion radius +30%. 
+C4 launch interval -0.2s. 
+Sharkmaw Gun damage +10%. 
+Database flags 
+TechResonanceID = NORMAL_RPG 
+MainTech = RPG / SharkmawGun

@@ -1,0 +1,32 @@
+5. Teamwork Passive Slots 
+Most SP survivors unlock Teamwork Passive Slots at awakening levels: 
+●​ A4: Unlocks 1 Teamwork Passive Slot 
+●​ A6: Teamwork Passive Slot +1 
+This matters because survivor awakening is not just “upgrade survivor.” It changes how many 
+passive skills can be equipped and shared. 
+Suggested fields: 
+TeamworkPassiveSlotUnlock_A4 = 1​
+ TeamworkPassiveSlotUnlock_A6 = +1 
+ 
+Clean database format for this data type 
+Use something like this: 
+SurvivorID 
+SurvivorName 
+Grade 
+CollabGroup 
+StarType 
+StarLevel 
+UpgradeName 
+UpgradeDescription 
+AffectedStat 
+StatAmount 
+TargetScope 
+AssociatedDebuff 
+AssociatedSkill 
+AssociatedPetStat 
+TeamworkPassiveSlotChange 
+DPSRelevant 
+IgnoreForDPS 
+Notes 
+SourceImage 
+SourceDate

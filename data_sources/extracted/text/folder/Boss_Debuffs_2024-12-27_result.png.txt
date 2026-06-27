@@ -1,0 +1,102 @@
+Boss Debuffs
+
+Chill
+
+*
+
+Slows movement speed by 50%
+
+Poison
+
+3
+
+Deals 20% base damage every 1s
+
+yg Yin Yang
+
+Adds vulnerability (additive with
+other Vulnerability)
+
+Ge Vulnerability
+
+Adds vulnerability (additive with other Vulnerability)
+
+Exposed
+30%
++40%
+
++30%
+
+Synergy lvl 10 5%
+ee Harmony 2 25%
+fas
+
+[2 Harmony5 +25%
+Fait
+
++3% per TMNT
+6x Xx. passive
+
+Exposed numbers are assuming 10 stacks.
+
+Poisoned,
+
+Debilitate
+
+Reduced enemy attack
+
+Or
+
+10%
+
+Chill, Weakened, Poisoned, and Exposed are all additive with each other.
+
+2/6 red star exposed damage only applies if enemy is Chill, Weakened, or
+
+4x ® +10%
+6x fy +20%
+
+1 Py +10%
+2x Py 10%
+4x ®. +10%
+6x Wh 2%
+
++3% per TMNT
+3 ® passive
+
+»
+2 @ ee ® Gg 15% 1 fy 25% @ 119% 20-29% @ 30-49% 50%+
+tit ait
+é& 200 Resonance C4
+\b7 CoG vA (doesn't stack) a Gi 25% Xx. 35% Gear Tech Parts
+Damage % Damage % (oy 3x ® 50% Bo} 10% & 6 10%
+' yi
+& 15% Synergy vi15 10% (Gy 5x Py 65% fe ve (cy +10% & [ ) ao | +5%
+&w & +20% (2 Harmony3 25% fo @ Fae 15% C @ 5%
+» "
+vs & +20% /& Harmonys — +25% J vaceration & v4 &) 10% aries
+oy
+» S +3% per TMNT Increases damage enemy can
+|e Bp) 6/12/18/24/30% 6x Sy eee mag pets We 5%
+45% a Gy 22% Foes, > 12% a 45%
+hits
+Synergy lvl 20 10% ie Weaken 2x W® 42% 5x * 20% 6x W® +10%
+% Reduces enemy attack dmg to Triggers
+le Harmony2 25% u 0g 4x wv *8% on ranged jee Oe w® +5%
+hits
+» »
+@®@ Harmony3 +25% 2 10% 6x 43% 3x 5%
+Lee) eens ba * a *®
+Sox oy Mm PTINT) Ns 10% 1% Gf +10% Tiove's “5x Wr 45%
+every 20s.
+Damage % 2x W® 10% Lasts 5s. Le ra 50%
+
+Game version 3.5. Updated 2-27
+Contributors: LeRob, PiGeek
+Charts by @procrastinazn
+
+Get the most up-to-date images on the Ultimate Survivors server.
+
+https:
+
+/discord.com/invite/ultimatesurvivors

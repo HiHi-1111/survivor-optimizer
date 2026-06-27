@@ -1,0 +1,44 @@
+C4 explosion delay -0.5s. 
+Sharkmaw Gun damage +20%. 
+ 
+1800: 
+Total ATK 9000, Total HP 47000 
++1800 ATK, +7200 HP 
+ 
+1950: 
+Hi-Maintainer HP +5% 
+ 
+2100: 
+C4 attack radius +20%. 
+C4 explosion delay -0.5s. 
+Sharkmaw Gun damage +20%. 
+ 
+2250: 
+Total ATK 11000, Total HP 57000 
++2000 ATK, +8000 HP 
+ 
+2400: 
+Hi-Maintainer HP +5% 
+ 
+2550: 
+C4 explosion radius +20%. 
+C4 explosion delay -0.5s. 
+Sharkmaw Gun damage +20%. 
+ 
+2700: 
+Total ATK 13500, Total HP 69500 
++2500 ATK, +10000 HP 
+ 
+2850: 
+Hi-Maintainer HP +5% 
+ 
+3000: 
+C4 explosion damage +35%. 
+Sharkmaw Gun damage +20%. 
+ 
+3500: 
+Total ATK 16500, Total HP 84500 
++3000 ATK, +12000 HP 
+ 
+4000: 
+Hi-Maintainer HP +5%

@@ -1,0 +1,33 @@
+High passive level count 
+Red Star passive upgrades 
+Crit Damage stacking 
+Skill Damage 
+Energy Shield 
+Database flags: 
+Slot = Gloves 
+DPSRelevant = Very High 
+Debuff = Weaken 
+ScalingInputs = PassiveSkillLevels, RedStarPassiveCount, EnergyShieldValue 
+StatTypes = SkillDamage, CritDamage, DamageToWeakened 
+ 
+4. SS Armor 
+Main association 
+SS Armor | Revival | Toughened Armor | Energy Orbs | Energy Level | Damage Multiplier | Skill 
+Damage | Crit Damage 
+This armor has survival, but also real DPS through energy level damage multipliers. 
+Base / rarity effects 
+Revival Effect +35% 
+HP +15% 
+Toughened Armor: 
+Triggers Toughened Armor for 5 seconds when attacked. 
+60-second cooldown. 
+Immune to all damage during this period. 
+Collisions instakill minions. 
+HP +25% 
+Eternal Recharge: 
+Energy orbs drop every 50th kill. 
+Collect orbs to raise energy level, up to Lv.5. 
++5% damage multiplier for each energy level. 
+Energy drains over time. 
+Super Enhance: 
+When total energy is above 90%, +30% additional skill damage.

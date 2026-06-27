@@ -1,0 +1,36 @@
+These should not be blindly added to all builds. 
+Use conditions like: 
+ActiveSurvivor = MasterYang 
+ActiveSurvivor = King 
+ActiveSurvivor = Metallia 
+DonatelloPassiveUnlocked = True 
+EquippedTMNTPassiveCount = 0/1/2/3 
+ActivePet = Rex 
+PetSkill = Inspiration or Motivation 
+ 
+Clean database format for this data type 
+Use this table structure: 
+CritSourceID 
+StatType 
+SourceCategory 
+SourceName 
+AssociatedCharacter 
+AssociatedItem 
+AssociatedPet 
+AssociatedSkill 
+UnlockRequirement 
+Value 
+ValueType 
+TargetScope 
+ConditionType 
+IsGlobal 
+IsConditional 
+DPSRelevant 
+StackingGroup 
+Notes 
+SourceImage 
+SourceDate 
+Example rows: 
+TMNT_Raphael_5Star_CR | CritRate | SurvivorStar | Raphael | None | None | None | 5 yellow 
+stars | 8% | FlatPercent | AllSurvivors | Permanent | Yes | No | VeryHigh | GlobalCritRate | 
+Special event survivor | Crit_Rate_And_Damage_2025-03-09

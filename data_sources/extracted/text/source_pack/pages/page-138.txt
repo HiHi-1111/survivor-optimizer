@@ -1,0 +1,42 @@
+Mutation effect permanently increases Skill Damage 
+Boost effect permanently increases damage to Poisoned targets 
+Extracted resonance rows 
+50: 
++200 ATK, +800 HP 
+ 
+100: 
+Transgenic Caltrops trigger EM explosions every 2s. 
+ 
+150: 
++400 ATK, +1600 HP 
+ 
+200: 
+After every 2 EM explosions, the third becomes an Overload explosion with +50% damage. 
+ 
+250: 
++600 ATK, +2400 HP 
+ 
+300: 
+Overload EM explosion also fires 5 lightning balls in all directions, inflicting Poison on hit targets 
+for 20s. 
+ 
+350: 
++800 ATK, +3200 HP 
+ 
+400: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+450: 
+Shield Damage +20 
+Transgenic Caltrops damage +35%. 
+Shield damage boost +20%. 
+Transgenic Caltrops upgrades no longer require passive. 
+ 
+500: 
++1000 ATK, +4000 HP 
+ 
+550: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+600: 
+Skill Damage +45

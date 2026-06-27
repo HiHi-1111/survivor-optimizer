@@ -1,0 +1,34 @@
+- Laceration 
+- Shock 
+ 
+Condition: 
+- Needs disc hits / shock triggers / line completion 
+ 
+DPSRelevant = Yes 
+UseStyle = Passive auto damage 
+ 
+7. Tech Hoverboard full extraction 
+Mount identity 
+MountID = MOUNT_HOVERBOARD 
+MountName = Tech Hoverboard 
+UnlockCost = 50 Hoverboard shards 
+DamageStyle = Thorn Shield + Shockwave Blast 
+Debuffs = Chilled damage scaling 
+BestUseLogic = Avoid getting hit, stack shield 
+DPSRelevant = Yes 
+Special skill 
+SkillName = Thorn Shield 
+ 
+When used, gain 1 Thorn Shield stack. 
+Thorn Shield can stack up to 5 times. 
+Each shield stack blocks 1 hit when taking damage and triggers Shockwave Blast. 
+At full stacks, gaining Thorn Shield triggers an explosion. 
+Fields: 
+ThornShieldStackMax = 5 
+BlocksHit = Yes 
+OnHitTrigger = Shockwave Blast 
+FullStackTrigger = Explosion 
+How to use 
+Try to avoid getting hit. 
+Stack Thorn Shield. 
+Shield stack is visible on the hoverboard icon in battle.

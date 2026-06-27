@@ -1,0 +1,30 @@
+Optimizer notes 
+This is one of the most important synergy stats because it scales based on how many TMNT/SP 
+passives are equipped. 
+Database flags: 
+SourceCategory = SurvivorPassive 
+Survivor = Donatello 
+Passive = Brotherhood 
+StatType = CritRate 
+ScalingInput = EquippedTMNTPassiveCount 
+ValuePerPassive = +3% 
+MaxShown = +9% 
+ConditionType = DonatelloAwakeningUnlocked + TMNTPassivesEquipped 
+DPSRelevant = Very High 
+Example row: 
+Donatello_Brotherhood_CR | SurvivorPassive | Donatello | CritRate | +3% per equipped TMNT 
+passive | LoadoutScaling | Requires Don A1 | Yes 
+ 
+9. Combat Harmony Crit Rate 
+This is associated with: 
+Combat Harmony | Star Level | Global Account Stat 
+The source shows: 
+●​ Combat Harmony level 1: Crit Rate +2% 
+●​ Level 3: additional +3% 
+●​ Level 6: additional +5% 
+●​ Level 9: additional +5% 
+●​ Level 12: additional +5% 
+●​ Level 15: additional +5% 
+●​ Level 18: additional +5% 
+Total shown: 
+30% global Crit Rate

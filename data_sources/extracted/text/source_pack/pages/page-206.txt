@@ -1,0 +1,71 @@
+Poison 
+DOT/debuff and enables 
+damage to Poisoned 
+targets. 
+Metallia, Croaky, Durian, 
+RPG, Molotov, Xeno 
+High 
+Laceration 
+Enables damage to 
+Lacerated targets. 
+Raphael, Leonardo, 
+Michelangelo, Donatello, 
+Laser, Drill, RPG, Guardian 
+High 
+Bleed 
+Damage/debuff; 
+sometimes connects to 
+laceration-like packages. 
+Raphael, Michelangelo, 
+Durian/Caltrops, 
+Soccer/Quantum Ball, 
+Leather Gloves 
+Medium/high 
+Deep Wound 
+Increases damage taken; 
+fire/Molotov linked. 
+Molotov, Fuel Barrel, Fuel 
+Spray, Wind Totem 
+High 
+Snare / Slow 
+Control effect; not always 
+direct DPS, but increases 
+uptime/hit consistency. 
+Laser, Guardian, Forcefield, 
+Fish, Splinter 
+Medium 
+Shield 
+Damage 
+Boost 
+Separate damage 
+multiplier layer tied to 
+energy shield systems. 
+SS Necklace, SS Armor, SS 
+Boots, Twinborn charts 
+High 
+Skill Damage 
+Damage multiplier for 
+skills. 
+SS Necklace, SS Gloves, 
+Yang, tech, pets, 
+collectibles 
+Very high 
+Crit Rate / Crit 
+Damage 
+Crit multiplier layer. 
+Survivors, gear, pets, 
+collectibles, combat 
+harmony, SS Belt 
+Very high 
+Optimizer table 
+DebuffID 
+DebuffName 
+EffectType 
+DamageTakenIncrease 
+Duration 
+StackLimit 
+StackBehavior 
+SourceSystem 
+SourceItem 
+SourceSkill 
+Condition

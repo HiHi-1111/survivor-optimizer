@@ -1,0 +1,32 @@
+4-star 
+●​ Advanced Survivor License: 
+○​ Survivor ATK +1000 
+○​ Survivor HP +5000 
+5-star 
+●​ All Survivors: Crit Rate +8% 
+6-star 
+●​ Staff Strike / Seeker Bo / Savage Bo: 
+○​ Attack range up 
+○​ Damage +30% 
+●​ Survivor ATK +20% 
+Awakening upgrades 
+A1 
+●​ Active: Spinning Smash 
+●​ Fires an energy wave when Spinning Smash ends. 
+●​ Passive: Brotherhood 
+●​ Exclusive global passive. 
+●​ Effective for all Survivors when unlocked. 
+●​ Cannot be equipped to Teamwork passive slots. 
+●​ For every SP Grade Survivor Awakening passive skill equipped: 
+○​ Crit Rate +3% 
+A2 
+●​ Brotherhood adds: 
+○​ Skill Damage +3% 
+○​ Crit Damage +3% 
+○​ Per SP-grade survivor awakening passive equipped. 
+A3 
+●​ Spinning Smash attack range up. 
+A4 
+●​ Brotherhood adds damage to special debuffed targets: 
+○​ Damage to Lacerated targets +3% 
+○​ Damage to Poisoned targets +3%

@@ -1,0 +1,40 @@
+Red         | 300             | Yes         | Indirect 
+Eternal     | 1000            | Yes         | Indirect 
+ 
+B) Resonance multiplier chip cost 
+Multiplier upgrade 
+Chip 
+cost 
+1.0 → 1.2 
+1 
+1.2 → 1.4 
+1 
+1.4 → 1.6 
+2 
+1.6 → 1.8 
+3 
+1.8 → 2.0 
+5 
+2.0 → 2.2 
+5 
+2.2 → 2.4 
+7 
+2.4 → 2.6 
+9 
+2.6 → 2.8 
+12 
+2.8 → 3.0 
+15 
+Total to 3.0 
+60 chips 
+Important optimizer rule 
+Resonance chip upgrades are slot-specific. 
+Example: chips spent on Drone resonance do not boost RPG, Molotov, or Twinborn slots. 
+ 
+C) Normal tech resonance rules 
+Rule 
+Data 
+Unlock requirement 
+Legendary tech 
+Max resonance 
+9000

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://survivor-optimizer.local/schemas/action_template.schema.json",
+  "title": "Executable source-pack action template",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "action_id", "system", "action_type", "target_id", "requirements",
+    "costs", "effects", "expected_dps_gain", "breakpoint_distance", "unlock_target",
+    "confidence", "explanation_key", "aliases", "source_row_ids", "enabled"
+  ],
+  "properties": {
+    "action_id": {"type": "string", "minLength": 1},
+    "system": {"type": "string", "minLength": 1},
+    "action_type": {"type": "string", "minLength": 1},
+    "target_id": {"type": "string", "minLength": 1},
+    "requirements": {"type": "object"},
+    "costs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["resource_id", "amount"],
+        "properties": {
+          "resource_id": {"type": "string"},
+          "amount": {"type": "number", "minimum": 0}
+        }
+      }
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["effect_type", "value", "unit", "damage_bucket"],
+        "properties": {
+          "effect_type": {"type": "string"},
+          "value": {"type": "number"},
+          "unit": {"type": "string"},
+          "damage_bucket": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "expected_dps_gain": {"type": ["number", "null"]},
+    "breakpoint_distance": {"type": ["number", "null"]},
+    "unlock_target": {"type": ["string", "null"]},
+    "confidence": {"enum": ["exact", "high", "medium", "low"]},
+    "explanation_key": {"type": "string", "minLength": 1},
+    "aliases": {"type": "array", "items": {"type": "string"}},
+    "source_row_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "enabled": {"type": "boolean"},
+    "disabled_reason": {"type": ["string", "null"]}
+  }
+}

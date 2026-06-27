@@ -1,0 +1,29 @@
+This image is about SP-grade survivor progression, specifically the TMNT collab survivors: 
+Raphael, Leonardo, Donatello, Michelangelo, April, Splinter 
+This data type belongs in the optimizer as: 
+Survivor | SP Survivor | Star Upgrade | Awakening | Passive Skill | 
+Active Skill | Teamwork Passive | Debuff Source | Crit Source | Pet 
+Source 
+For your calculator, this should mostly affect DPS, not HP. The HP lines should still be stored as 
+raw data, but scoring should mark them as ignore / non-DPS. 
+ 
+Shared SP survivor structure 
+Each SP survivor has: 
+Yellow stars 
+●​ 1-star: unlocks exclusive weapon / base survivor skill. 
+●​ 2-star: Survivor License, usually Survivor ATK +400 and Survivor HP +2000. 
+●​ 3-star: improves the survivor’s main weapon or attack mechanic. 
+●​ 4-star: Advanced Survivor License, usually Survivor ATK +1000 and Survivor HP 
++5000. 
+●​ 5-star: All Survivors: Crit Rate +8%. 
+●​ 6-star: big personal DPS upgrade, usually main weapon damage + survivor ATK +20%. 
+Red awakening stars 
+●​ Adds active awakening skill improvements. 
+●​ Adds passive awakening skills. 
+●​ Some give Teamwork Passive Slots, which matter a lot because awakened passive 
+skills can be shared/equipped. 
+●​ Costs appear to scale with awakening cores, pizza/slices, and blue materials. 
+For calculator logic, 5 yellow stars is extremely important because it gives global crit rate. 
+The HP parts are mostly trash for your DPS optimizer. 
+ 
+Raphael

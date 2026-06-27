@@ -1,0 +1,17 @@
+{
+  "completed": true,
+  "device": "cpu",
+  "elapsed_seconds": 0.0,
+  "false_prune_rate": 0.0,
+  "full_search_audits": 0,
+  "interrupted": false,
+  "processed_this_run": 0,
+  "profiles_learned_from": 0,
+  "profiles_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\..tmp\\pytest-preprune\\test_optimizer_training_resume0\\profiles.jsonl",
+  "profiles_submitted": 0,
+  "results_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\..tmp\\pytest-preprune\\test_optimizer_training_resume0\\results.jsonl",
+  "systems_covered": [],
+  "updated_at": "2026-06-21T19:56:26Z",
+  "version": 1,
+  "workers": 2
+}

@@ -1,0 +1,23 @@
+Source: 
+EE_Rewards_2024-09-15 
+Unlock requirement 
+Ender’s Echo unlocks at: 
+Chapter 8 after winning 
+What it does 
+Ender’s Echo is a boss damage/ranking mode. It gives rewards based on performance/ranking. 
+Optimizer rule 
+For Ender’s Echo, favor: 
+Boss DPS 
+Crit Rate breakpoints 
+Relic core spread from EE guide 
+Debuff uptime 
+Single-target damage 
+Pet direct DPS 
+Yang/Metallia/Joey mode-specific paths 
+Do not overvalue mob-clearing effects for EE unless they directly boost boss damage. 
+ 
+17. Skills 
+Source: 
+Skills_2024-11-28 
+What it does 
+This contains in-battle skills and likely their evo/passive pairings.

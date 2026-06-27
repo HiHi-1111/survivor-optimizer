@@ -1,0 +1,28 @@
+5 yellow stars = All Survivors Crit Rate +8% 
+Shown TMNT survivors: 
+●​ Raphael 5-star: Crit Rate +8% 
+●​ Leonardo 5-star: Crit Rate +8% 
+●​ April 5-star: Crit Rate +8% 
+●​ Michelangelo 5-star: Crit Rate +8% 
+●​ Donatello 5-star: Crit Rate +8% 
+●​ Splinter 5-star: Crit Rate +8% 
+Optimizer notes 
+This is a global permanent DPS source. It should have high value because it improves all 
+builds, not just one survivor. 
+Database flag: 
+SourceCategory = SurvivorLevel 
+TargetScope = AllSurvivors 
+StatType = CritRate 
+DPSRelevant = Very High 
+ConditionType = PermanentGlobal 
+ 
+2. Gear Crit Rate 
+This is associated with: 
+Equipped Gear | Gloves / SS Gear / Necklace | Conditional DPS 
+The source shows multiple gear-based crit sources. 
+Important gear associations visible: 
+Eternal Gloves 
+From the gloves source, Eternal Gloves are heavily tied to crit. 
+Relevant effects: 
+●​ Excellent / purple: Attacks have 10% chance to crit. 
+●​ Legendary / red: Crit Rate +10%, Crit Damage +100%.

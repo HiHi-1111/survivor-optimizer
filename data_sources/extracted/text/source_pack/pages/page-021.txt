@@ -1,0 +1,27 @@
+Example row: 
+SP_RAPHAEL | Raphael | SP | TMNT | Yellow | 5 | All Survivors Crit Rate | Crit Rate +8% | 
+CritRate | 8% | All Survivors | None | None | None | 0 | Yes | No | Global DPS upgrade | 
+Survivors_SP_2025-01-26 
+Example row: 
+SP_APRIL | April | SP | TMNT | Awakening | A3 | Reporter Snapshot | Snapshot damage +50%; 
+targets get 5% Vulnerability | Vulnerability | 5% | Enemy Hit By Snapshot | Vulnerability | 
+Reporter Snapshot | None | 0 | Yes | No | Boss damage amplifier | Survivors_SP_2025-01-26 
+Next data type should be Crit Rate/Crit Damage or Boss Debuffs, because those explain how 
+these survivor bonuses actually stack into DPS. 
+Data type 2: Crit Rate & Crit Damage 
+Source: Crit_Rate_And_Damage_2025-03-09 
+This image is a stat-source registry. It is not just showing one item. It shows every major place 
+Crit Rate and Crit Damage can come from. 
+For the optimizer, this should become: 
+StatSource | CritRate | CritDamage | Global | Conditional | GearBased 
+| SurvivorBased | PetBased | SkillBased | CollectibleBased | 
+DPSRelevant 
+This is very important because crit is one of the biggest DPS multipliers in Survivor.io. 
+ 
+Main optimizer rule 
+Do not store crit as one single number only. 
+You need to split it into: 
+Global Crit Rate 
+Global Crit Damage 
+Active Survivor Crit Sources 
+Equipped Gear Crit Sources

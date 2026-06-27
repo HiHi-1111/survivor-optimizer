@@ -1,0 +1,36 @@
+This is a cost/progression table. It matters because the optimizer needs to decide where 
+awakening crystals should go. 
+Total awakening crystals 
+Total crystals to full pet awakening path shown: 350 
+Awakening crystal costs by stage 
+Y1: +5 crystals 
+Y2: +5 crystals 
+Y3: +10 crystals 
+Y4: +20 crystals 
+Y5: +30 crystals 
+R1: +40 crystals 
+R2: +60 crystals 
+R3: +60 crystals 
+R4: +60 crystals 
+R5: +60 crystals 
+Total: 350 crystals 
+Deploy count shown 
+Y1: 3 deployed pets 
+Y2: 3 deployed pets 
+Y3: 5 deployed pets 
+Y4: 5 deployed pets 
+Y5: 7 deployed pets 
+R1: 7 deployed pets 
+R2: 9 deployed pets 
+R3: 9 deployed pets 
+R4: 9 deployed pets 
+R5: 15 deployed pets 
+Affection level caps 
+Base: Level 10 
+Y1: Level 20 
+Y2: Level 30 
+Y3: Level 40 
+Y4: Level 50 
+Y5: Level 60 
+R1: Level 70 
+R2: Level 80

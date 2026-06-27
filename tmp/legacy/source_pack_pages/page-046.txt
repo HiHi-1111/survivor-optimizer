@@ -1,0 +1,27 @@
+Pet damage taken -60% 
+Optimizer notes 
+Turtle is mostly a survival/tank pet. For your damage-only calculator, most of this gets stored 
+but not scored. 
+Database flags: 
+Pet = Turtle 
+PrimaryAttack = Shockwave 
+DamageType = AoE 
+TankUtility = High 
+DPSRelevant = Low/Medium 
+IgnoreForDPS = Most defensive effects 
+ 
+5. Eagle / Murica 
+Main association 
+Eagle | Murica | Whirlwind | Penetrating Damage | Cooldown Reduction | Crush | Pet Skill 
+Damage 
+Primary attack 
+Eagle flaps wings to create a whirlwind: 
+350% ATK damage 
+Whirlwind penetrates all enemies 
+Cooldown: 1 second 
+This is why Murica is so strong early/mid game. Penetrating attacks are very valuable when they 
+hit multiple enemies or bosses consistently. 
+Built-in skill themes 
+Murica is associated with: 
+Pet size/range 
+Pet ATK damage

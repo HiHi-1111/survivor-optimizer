@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "layout_date": "2026-06-22",
+  "naming_standard": "lower_snake_case for generated artifacts; source filenames retained unless unclear",
+  "moves": [
+    {
+      "old_name": "Source files received _ data types found.pdf",
+      "new_name": "data_sources/source_pack/source_database_map.pdf",
+      "file_type": "pdf",
+      "purpose": "Master source-pack database map",
+      "source": "User-provided repository root file",
+      "date_moved": "2026-06-22"
+    },
+    {
+      "old_name": "Untitled document (4).pdf",
+      "new_name": "data_sources/source_pack/optimizer_source_reference.pdf",
+      "file_type": "pdf",
+      "purpose": "Optimizer source reference used by compiled knowledge",
+      "source": "User-provided repository root file",
+      "date_moved": "2026-06-22"
+    },
+    {
+      "old_name": "folder/",
+      "new_name": "data_sources/source_pack/raw/",
+      "file_type": "directory",
+      "purpose": "Raw source images, PDFs, and guide exports",
+      "source": "Legacy source-pack directory",
+      "date_moved": "2026-06-22"
+    },
+    {
+      "old_name": "aipromt.txt",
+      "new_name": "archive/ai/prompts/gpu_training_design_notes.txt",
+      "file_type": "text",
+      "purpose": "Archived AI/training design prompt",
+      "source": "Legacy repository root file",
+      "date_moved": "2026-06-22"
+    },
+    {
+      "old_name": "survivor_optimizer_dataset_prompt.md",
+      "new_name": "archive/ai/prompts/source_pack_dataset_prompt.md",
+      "file_type": "markdown",
+      "purpose": "Archived dataset construction prompt",
+      "source": "Legacy repository root file",
+      "date_moved": "2026-06-22"
+    },
+    {
+      "old_name": "optimizerRead.md",
+      "new_name": "docs/OPTIMIZER_GUIDE.md",
+      "file_type": "markdown",
+      "purpose": "Detailed optimizer implementation guide",
+      "source": "Legacy repository root documentation",
+      "date_moved": "2026-06-22"
+    }
+  ]
+}

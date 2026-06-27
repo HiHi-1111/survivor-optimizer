@@ -1,0 +1,447 @@
+[
+  {
+    "id": "astral_core",
+    "section": "resources",
+    "affordances": [
+      "merge",
+      "salvage_check",
+      "save_hold",
+      "spend",
+      "upgrade"
+    ],
+    "source": "data_sources/legacy/manual_notes/core_test.txt",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": false,
+    "has_choices": false,
+    "missing_data": [
+      "effects"
+    ]
+  },
+  {
+    "id": "xeno_core",
+    "section": "resources",
+    "affordances": [
+      "merge",
+      "salvage_check",
+      "save_hold",
+      "spend",
+      "upgrade"
+    ],
+    "source": "data_sources/legacy/manual_notes/core_test.txt",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": false,
+    "has_choices": false,
+    "missing_data": [
+      "effects"
+    ]
+  },
+  {
+    "id": "resonance_chip",
+    "section": "resources",
+    "affordances": [
+      "merge",
+      "salvage_check",
+      "save_hold",
+      "spend",
+      "upgrade"
+    ],
+    "source": "data_sources/legacy/manual_notes/core_test.txt",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": false,
+    "has_choices": false,
+    "missing_data": [
+      "effects"
+    ]
+  },
+  {
+    "id": "relic_core",
+    "section": "resources",
+    "affordances": [
+      "save_hold",
+      "spend"
+    ],
+    "source": "Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29_result.tif",
+    "confidence": "low",
+    "has_description": true,
+    "has_effects": false,
+    "has_choices": false,
+    "missing_data": [
+      "effects"
+    ]
+  },
+  {
+    "id": "gem",
+    "section": "resources",
+    "affordances": [
+      "exchange",
+      "save_hold",
+      "spend"
+    ],
+    "source": "Sources_of_Gems_2024-12-18_result.tif",
+    "confidence": "low",
+    "has_description": true,
+    "has_effects": false,
+    "has_choices": false,
+    "missing_data": [
+      "effects"
+    ]
+  },
+  {
+    "id": "energy_essence",
+    "section": "resources",
+    "affordances": [
+      "save_hold",
+      "spend",
+      "upgrade"
+    ],
+    "source": "Energy_Essence_Cost_Full_2024-11-28_result.tif",
+    "confidence": "low",
+    "has_description": true,
+    "has_effects": false,
+    "has_choices": false,
+    "missing_data": [
+      "effects"
+    ]
+  },
+  {
+    "id": "awakening_crystal",
+    "section": "resources",
+    "affordances": [
+      "exchange",
+      "merge",
+      "salvage_check",
+      "save_hold",
+      "spend",
+      "upgrade"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#page=103",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": false,
+    "has_choices": false,
+    "missing_data": [
+      "effects"
+    ]
+  },
+  {
+    "id": "clan_currency",
+    "section": "resources",
+    "affordances": [
+      "exchange",
+      "save_hold",
+      "spend"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=105-106",
+    "confidence": "low",
+    "has_description": true,
+    "has_effects": false,
+    "has_choices": false,
+    "missing_data": [
+      "effects"
+    ]
+  },
+  {
+    "id": "core_selector_chest",
+    "section": "chests",
+    "affordances": [
+      "open",
+      "save_hold",
+      "select",
+      "spend"
+    ],
+    "source": "data_sources/legacy/manual_notes/core_test.txt",
+    "confidence": "low",
+    "has_description": true,
+    "has_effects": false,
+    "has_choices": true,
+    "missing_data": [
+      "effects"
+    ]
+  },
+  {
+    "id": "murica",
+    "section": "pets",
+    "affordances": [
+      "merge",
+      "salvage_check",
+      "save_hold",
+      "upgrade"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=101-103",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": false,
+    "has_choices": false,
+    "missing_data": [
+      "effects"
+    ]
+  },
+  {
+    "id": "croaky",
+    "section": "pets",
+    "affordances": [
+      "merge",
+      "salvage_check",
+      "save_hold",
+      "upgrade"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=101-103",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": false,
+    "has_choices": false,
+    "missing_data": [
+      "effects"
+    ]
+  },
+  {
+    "id": "rex",
+    "section": "pets",
+    "affordances": [
+      "merge",
+      "salvage_check",
+      "save_hold",
+      "upgrade"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=101-103",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": false,
+    "has_choices": false,
+    "missing_data": [
+      "effects"
+    ]
+  },
+  {
+    "id": "precision_device_drone",
+    "section": "tech_parts",
+    "affordances": [
+      "merge",
+      "salvage_check",
+      "save_hold",
+      "upgrade"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=92-96",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": false,
+    "has_choices": false,
+    "missing_data": [
+      "effects"
+    ]
+  },
+  {
+    "id": "hi_maintainer_rpg",
+    "section": "tech_parts",
+    "affordances": [
+      "merge",
+      "salvage_check",
+      "save_hold",
+      "upgrade"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=92-96",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": false,
+    "has_choices": false,
+    "missing_data": [
+      "effects"
+    ]
+  },
+  {
+    "id": "energy_diffuser_molotov",
+    "section": "tech_parts",
+    "affordances": [
+      "merge",
+      "salvage_check",
+      "save_hold",
+      "upgrade"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=92-96",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": false,
+    "has_choices": false,
+    "missing_data": [
+      "effects"
+    ]
+  },
+  {
+    "id": "raphael_sp",
+    "section": "survivors",
+    "affordances": [
+      "save_hold"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=3-5",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": true,
+    "has_choices": false,
+    "missing_data": []
+  },
+  {
+    "id": "leonardo_sp",
+    "section": "survivors",
+    "affordances": [
+      "save_hold"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=6-8",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": true,
+    "has_choices": false,
+    "missing_data": []
+  },
+  {
+    "id": "donatello_sp",
+    "section": "survivors",
+    "affordances": [
+      "save_hold",
+      "upgrade"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=8-10",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": true,
+    "has_choices": false,
+    "missing_data": []
+  },
+  {
+    "id": "michelangelo_sp",
+    "section": "survivors",
+    "affordances": [
+      "save_hold"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=10-13",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": true,
+    "has_choices": false,
+    "missing_data": []
+  },
+  {
+    "id": "april_sp",
+    "section": "survivors",
+    "affordances": [
+      "merge",
+      "salvage_check",
+      "save_hold"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=13-15",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": true,
+    "has_choices": false,
+    "missing_data": []
+  },
+  {
+    "id": "splinter_sp",
+    "section": "survivors",
+    "affordances": [
+      "merge",
+      "salvage_check",
+      "save_hold"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=15-18",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": true,
+    "has_choices": false,
+    "missing_data": []
+  },
+  {
+    "id": "donatello_brotherhood_a1",
+    "section": "survivor_awakenings",
+    "affordances": [
+      "save_hold",
+      "upgrade"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#page=9",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": true,
+    "has_choices": false,
+    "missing_data": []
+  },
+  {
+    "id": "donatello_brotherhood_a2",
+    "section": "survivor_awakenings",
+    "affordances": [
+      "save_hold",
+      "upgrade"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#page=9",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": true,
+    "has_choices": false,
+    "missing_data": []
+  },
+  {
+    "id": "april_reporter_snapshot_a3",
+    "section": "survivor_awakenings",
+    "affordances": [
+      "merge",
+      "salvage_check",
+      "save_hold",
+      "upgrade"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#page=14",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": true,
+    "has_choices": false,
+    "missing_data": []
+  },
+  {
+    "id": "splinter_master_mentor_a1",
+    "section": "survivor_awakenings",
+    "affordances": [
+      "merge",
+      "salvage_check",
+      "save_hold",
+      "upgrade"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#page=16",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": true,
+    "has_choices": false,
+    "missing_data": []
+  },
+  {
+    "id": "teamwork_slots_a4_a6",
+    "section": "survivor_awakenings",
+    "affordances": [
+      "save_hold",
+      "upgrade"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=18-20",
+    "confidence": "medium",
+    "has_description": true,
+    "has_effects": true,
+    "has_choices": false,
+    "missing_data": []
+  },
+  {
+    "id": "clan_shop_catalog_needs_review",
+    "section": "clan_shop",
+    "affordances": [
+      "buy",
+      "exchange",
+      "save_hold",
+      "spend"
+    ],
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=105-106",
+    "confidence": "low",
+    "has_description": true,
+    "has_effects": false,
+    "has_choices": false,
+    "missing_data": [
+      "effects"
+    ]
+  }
+]

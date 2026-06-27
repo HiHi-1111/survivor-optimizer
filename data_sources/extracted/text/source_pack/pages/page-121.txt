@@ -1,0 +1,44 @@
+Skill Damage +50 
+Weakened Damage +50 
+Lightning zone strike Vulnerability max stacks +4 
+Skill Damage +10% 
+Damage to Weakened targets +10% 
+ 
+1000: 
++1400 ATK, +5600 HP 
+ 
+1100: 
+Phase Driver ATK +5%, HP +5% 
+ 
+1200: 
+Skill Damage +70 
+Skill Damage +20% 
+ 
+1350: 
++1600 ATK, +6400 HP 
+ 
+1500: 
+Phase Driver ATK +5%, HP +5% 
+ 
+1650: 
+Twinborn Magvolt Fang Damage +20% 
+ 
+1800: 
++1800 ATK, +7200 HP 
+ 
+1950: 
+Phase Driver ATK +5%, HP +5% 
+ 
+2100: 
+Weakened Damage +70 
+Damage to Weakened targets +20% 
+ 
+2250: 
++2000 ATK, +8000 HP 
+ 
+2400: 
+Phase Driver ATK +5%, HP +5% 
+ 
+2550: 
+Vulnerability +70 
+Lightning zone strike Vulnerability max stacks +4

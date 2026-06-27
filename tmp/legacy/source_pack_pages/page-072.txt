@@ -1,0 +1,32 @@
+Optimizer notes 
+The necklace is not a simple raw DPS piece. It needs condition checks. 
+Track: 
+ExtraSkillChoice 
+SkillDamage 
+EnergyShieldPercent 
+ShieldHigherThanHP 
+DeathReset 
+ClarityActive 
+ShieldDamageBoost 
+Database flags: 
+Slot = Necklace 
+DPSRelevant = Medium/High 
+ConditionType = ShieldBased / DeathSensitive / SkillChoice 
+IgnoreForDPS = HP-only lines 
+ 
+3. SS Gloves 
+Main association 
+SS Gloves | Weaken | Damage to Weakened | Red Star passive upgrades | Berserk | Crit 
+Damage from passive levels 
+This is a very important DPS slot because it connects to Weakened target damage and 
+passive skill scaling. 
+Base / rarity effects 
+Hatred: 
+On hit, inflicts Weaken on attacker, reducing its Attack by 10%. 
+ATK +15% 
+Defensive Stance: 
+Restores 15% of Energy Shield when skills level up. 
+ATK +25% 
+Potential Unleashed: 
+All passive skills learned in battle can be upgraded to Red Star, including character-exclusive 
+passives.

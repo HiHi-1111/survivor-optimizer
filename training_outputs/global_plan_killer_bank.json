@@ -1,0 +1,532 @@
+[
+  {
+    "category": "missing_decision_explanation",
+    "case": "locked_af_preview_must_not_be_recommended",
+    "missing_terms": [
+      "locked",
+      "ignore",
+      "not active",
+      "not count"
+    ],
+    "profile": {
+      "profile_name": "Realistic_Hard_Base",
+      "base_damage": 185000,
+      "player_stage": {
+        "chapter": 126,
+        "steamroll_unlocked": true,
+        "progression_stage": "SS progression",
+        "focus": "damage_only",
+        "ignore_hp_unless_direct_damage": true
+      },
+      "gear": {
+        "weapon": {
+          "name": "SS Starforged Havoc",
+          "rarity": "SS",
+          "astral_forge": 1,
+          "damage_multiplier": 2.35
+        },
+        "belt": {
+          "name": "SS Belt",
+          "rarity": "SS",
+          "astral_forge": 0,
+          "damage_multiplier": 1.75,
+          "ENEMY_LOCKED_AF_PREVIEW_999X": {
+            "damage_multiplier": "999x",
+            "active": false,
+            "equipped": false,
+            "owned": false,
+            "unlocked": false,
+            "source_kind": "locked_preview_trap",
+            "damage_relevance": "should_not_count",
+            "note": "If recommended, optimizer is hallucinating locked preview damage."
+          }
+        },
+        "necklace": {
+          "name": "S Necklace",
+          "rarity": "legendary",
+          "damage_multiplier": 1.45
+        }
+      },
+      "survivor": {
+        "name": "S Survivor",
+        "rarity": "S",
+        "level": 100,
+        "stars": 5,
+        "awakening": 0,
+        "damage_multiplier": 2.1,
+        "near_milestone": {
+          "milestone": "S Survivor Awakening 1",
+          "missing": {
+            "awakening_core": 1,
+            "s_survivor_shards": 4
+          }
+        }
+      },
+      "tech": {
+        "drone": {
+          "rarity": "legendary",
+          "resonance": 6000,
+          "damage_multiplier": 2.25
+        },
+        "lightning": {
+          "rarity": "legendary",
+          "resonance": 3000,
+          "damage_multiplier": 1.55
+        },
+        "twinborn": {
+          "unlocked": true,
+          "active_pair": "Drone/Forcefield",
+          "damage_multiplier": 1.4
+        }
+      },
+      "pet": {
+        "main": {
+          "name": "Crab",
+          "level": 100,
+          "stars": 5,
+          "awakening": 1,
+          "damage_multiplier": 1.85
+        },
+        "assist": [
+          {
+            "name": "Eagle",
+            "damage_multiplier": 1.18
+          },
+          {
+            "name": "Croaky",
+            "damage_multiplier": 1.12
+          }
+        ]
+      },
+      "collectibles": {
+        "damage_multiplier": 2.2,
+        "important_breakpoints_active": true
+      },
+      "inventory": {
+        "relic_cores": 0,
+        "needed_relic_cores_for_next_ss_af": 1,
+        "awakening_cores": 0,
+        "needed_awakening_cores_for_next_survivor_awakening": 1,
+        "s_survivor_shards": 46,
+        "needed_s_survivor_shards_for_next_survivor_awakening": 50,
+        "normal_salvage_cubes": 0,
+        "basic_gear_fodder": 0,
+        "purple_merge_items": 0,
+        "yellow_merge_items": 0,
+        "common_materials": 0
+      },
+      "stats": {
+        "hp": 2800000,
+        "defense": 85000
+      }
+    },
+    "text_sample": "best_action_chain summary chain has limited known damage breakpoint value from current knowledge. marginal_value delta 0.0 before total 0.0 damage_value 0 resource_flexibility 0.0 save_value 0.0 breakpoints  after total 0.0 damage_value 0 resource_flexibility 0.0 save_value 0.0 breakpoints  ordered_steps  alternative_chains  avoid_chains  actions_considered 0 chains_considered 0 raw_proposal_rows 0 proposal_rows_created 0 proposal_rows_budget_removed 0 states_materialized 0 actions_pruned 0 dominated_states_removed 0 systems_covered  actions_by_system  chains_by_system  systems_not_covered chests clan clan_shop collectible_sets collectibles cores event_shops events exchanges gear merge pet_awakenings pet_merging pets resonance resources salvage save_hold selectors shops skills special_ops ss_gear survivor_awakening survivors tech_parts universal_exchange xeno_pets unsupported_items  performance global_planner_seconds 0.000469 cpu_candidate_seconds 0.000313 root_action_generation_seconds 0.000307 candidate_row_creation_seconds 7e-06 numeric_feature_creation_seconds 0 state_transition_and_hashing_seconds 0 gpu_queue_wait_seconds 0.0 state_copy_count 0 state_rebuild_count 0 duplicate_"
+  },
+  {
+    "category": "missing_decision_explanation",
+    "case": "inactive_inventory_copy_must_not_be_recommended",
+    "missing_terms": [
+      "equipped",
+      "active",
+      "ignore",
+      "not active",
+      "not count"
+    ],
+    "profile": {
+      "profile_name": "Realistic_Hard_Base",
+      "base_damage": 185000,
+      "player_stage": {
+        "chapter": 126,
+        "steamroll_unlocked": true,
+        "progression_stage": "SS progression",
+        "focus": "damage_only",
+        "ignore_hp_unless_direct_damage": true
+      },
+      "gear": {
+        "weapon": {
+          "name": "SS Starforged Havoc",
+          "rarity": "SS",
+          "astral_forge": 1,
+          "damage_multiplier": 2.35,
+          "ENEMY_UNEQUIPPED_INVENTORY_COPY": {
+            "damage_multiplier": "777x",
+            "active": false,
+            "equipped": false,
+            "owned": true,
+            "unlocked": true,
+            "source_kind": "inventory_trap",
+            "damage_relevance": "should_not_count"
+          }
+        },
+        "belt": {
+          "name": "SS Belt",
+          "rarity": "SS",
+          "astral_forge": 0,
+          "damage_multiplier": 1.75
+        },
+        "necklace": {
+          "name": "S Necklace",
+          "rarity": "legendary",
+          "damage_multiplier": 1.45
+        }
+      },
+      "survivor": {
+        "name": "S Survivor",
+        "rarity": "S",
+        "level": 100,
+        "stars": 5,
+        "awakening": 0,
+        "damage_multiplier": 2.1,
+        "near_milestone": {
+          "milestone": "S Survivor Awakening 1",
+          "missing": {
+            "awakening_core": 1,
+            "s_survivor_shards": 4
+          }
+        }
+      },
+      "tech": {
+        "drone": {
+          "rarity": "legendary",
+          "resonance": 6000,
+          "damage_multiplier": 2.25
+        },
+        "lightning": {
+          "rarity": "legendary",
+          "resonance": 3000,
+          "damage_multiplier": 1.55
+        },
+        "twinborn": {
+          "unlocked": true,
+          "active_pair": "Drone/Forcefield",
+          "damage_multiplier": 1.4
+        }
+      },
+      "pet": {
+        "main": {
+          "name": "Crab",
+          "level": 100,
+          "stars": 5,
+          "awakening": 1,
+          "damage_multiplier": 1.85
+        },
+        "assist": [
+          {
+            "name": "Eagle",
+            "damage_multiplier": 1.18
+          },
+          {
+            "name": "Croaky",
+            "damage_multiplier": 1.12
+          }
+        ]
+      },
+      "collectibles": {
+        "damage_multiplier": 2.2,
+        "important_breakpoints_active": true
+      },
+      "inventory": {
+        "relic_cores": 0,
+        "needed_relic_cores_for_next_ss_af": 1,
+        "awakening_cores": 0,
+        "needed_awakening_cores_for_next_survivor_awakening": 1,
+        "s_survivor_shards": 46,
+        "needed_s_survivor_shards_for_next_survivor_awakening": 50,
+        "normal_salvage_cubes": 0,
+        "basic_gear_fodder": 0,
+        "purple_merge_items": 0,
+        "yellow_merge_items": 0,
+        "common_materials": 0
+      },
+      "stats": {
+        "hp": 2800000,
+        "defense": 85000
+      }
+    },
+    "text_sample": "best_action_chain summary chain has limited known damage breakpoint value from current knowledge. marginal_value delta 0.0 before total 0.0 damage_value 0 resource_flexibility 0.0 save_value 0.0 breakpoints  after total 0.0 damage_value 0 resource_flexibility 0.0 save_value 0.0 breakpoints  ordered_steps  alternative_chains  avoid_chains  actions_considered 0 chains_considered 0 raw_proposal_rows 0 proposal_rows_created 0 proposal_rows_budget_removed 0 states_materialized 0 actions_pruned 0 dominated_states_removed 0 systems_covered  actions_by_system  chains_by_system  systems_not_covered chests clan clan_shop collectible_sets collectibles cores event_shops events exchanges gear merge pet_awakenings pet_merging pets resonance resources salvage save_hold selectors shops skills special_ops ss_gear survivor_awakening survivors tech_parts universal_exchange xeno_pets unsupported_items  performance global_planner_seconds 0.000236 cpu_candidate_seconds 0.000189 root_action_generation_seconds 0.000183 candidate_row_creation_seconds 6e-06 numeric_feature_creation_seconds 0 state_transition_and_hashing_seconds 0 gpu_queue_wait_seconds 0.0 state_copy_count 0 state_rebuild_count 0 duplicate_"
+  },
+  {
+    "category": "missing_decision_explanation",
+    "case": "hp_defense_bait_must_not_beat_dps",
+    "missing_terms": [
+      "dps",
+      "ignore hp",
+      "hp weight",
+      "not priority"
+    ],
+    "profile": {
+      "profile_name": "Realistic_Hard_Base",
+      "base_damage": 185000,
+      "player_stage": {
+        "chapter": 126,
+        "steamroll_unlocked": true,
+        "progression_stage": "SS progression",
+        "focus": "damage_only",
+        "ignore_hp_unless_direct_damage": true
+      },
+      "gear": {
+        "weapon": {
+          "name": "SS Starforged Havoc",
+          "rarity": "SS",
+          "astral_forge": 1,
+          "damage_multiplier": 2.35
+        },
+        "belt": {
+          "name": "SS Belt",
+          "rarity": "SS",
+          "astral_forge": 0,
+          "damage_multiplier": 1.75
+        },
+        "necklace": {
+          "name": "S Necklace",
+          "rarity": "legendary",
+          "damage_multiplier": 1.45
+        },
+        "armor": {
+          "ENEMY_HP_BAIT": {
+            "hp": "999999999%",
+            "defense": "999999999%",
+            "damage_reduction": "999999999%",
+            "active": true,
+            "equipped": true,
+            "note": "HP should not beat DPS in this optimizer."
+          }
+        }
+      },
+      "survivor": {
+        "name": "S Survivor",
+        "rarity": "S",
+        "level": 100,
+        "stars": 5,
+        "awakening": 0,
+        "damage_multiplier": 2.1,
+        "near_milestone": {
+          "milestone": "S Survivor Awakening 1",
+          "missing": {
+            "awakening_core": 1,
+            "s_survivor_shards": 4
+          }
+        }
+      },
+      "tech": {
+        "drone": {
+          "rarity": "legendary",
+          "resonance": 6000,
+          "damage_multiplier": 2.25
+        },
+        "lightning": {
+          "rarity": "legendary",
+          "resonance": 3000,
+          "damage_multiplier": 1.55
+        },
+        "twinborn": {
+          "unlocked": true,
+          "active_pair": "Drone/Forcefield",
+          "damage_multiplier": 1.4
+        }
+      },
+      "pet": {
+        "main": {
+          "name": "Crab",
+          "level": 100,
+          "stars": 5,
+          "awakening": 1,
+          "damage_multiplier": 1.85
+        },
+        "assist": [
+          {
+            "name": "Eagle",
+            "damage_multiplier": 1.18
+          },
+          {
+            "name": "Croaky",
+            "damage_multiplier": 1.12
+          }
+        ]
+      },
+      "collectibles": {
+        "damage_multiplier": 2.2,
+        "important_breakpoints_active": true
+      },
+      "inventory": {
+        "relic_cores": 0,
+        "needed_relic_cores_for_next_ss_af": 1,
+        "awakening_cores": 0,
+        "needed_awakening_cores_for_next_survivor_awakening": 1,
+        "s_survivor_shards": 46,
+        "needed_s_survivor_shards_for_next_survivor_awakening": 50,
+        "normal_salvage_cubes": 0,
+        "basic_gear_fodder": 0,
+        "purple_merge_items": 0,
+        "yellow_merge_items": 0,
+        "common_materials": 0
+      },
+      "stats": {
+        "hp": 2800000,
+        "defense": 85000
+      }
+    },
+    "text_sample": "best_action_chain summary chain has limited known damage breakpoint value from current knowledge. marginal_value delta 0.0 before total 0.0 damage_value 0 resource_flexibility 0.0 save_value 0.0 breakpoints  after total 0.0 damage_value 0 resource_flexibility 0.0 save_value 0.0 breakpoints  ordered_steps  alternative_chains  avoid_chains  actions_considered 0 chains_considered 0 raw_proposal_rows 0 proposal_rows_created 0 proposal_rows_budget_removed 0 states_materialized 0 actions_pruned 0 dominated_states_removed 0 systems_covered  actions_by_system  chains_by_system  systems_not_covered chests clan clan_shop collectible_sets collectibles cores event_shops events exchanges gear merge pet_awakenings pet_merging pets resonance resources salvage save_hold selectors shops skills special_ops ss_gear survivor_awakening survivors tech_parts universal_exchange xeno_pets unsupported_items  performance global_planner_seconds 0.000214 cpu_candidate_seconds 0.000172 root_action_generation_seconds 0.000166 candidate_row_creation_seconds 6e-06 numeric_feature_creation_seconds 0 state_transition_and_hashing_seconds 0 gpu_queue_wait_seconds 0.0 state_copy_count 0 state_rebuild_count 0 duplicate_"
+  },
+  {
+    "category": "missing_decision_explanation",
+    "case": "ss_belt_121_crit_needs_breakpoint_plan",
+    "missing_terms": [
+      "100",
+      "130",
+      "150",
+      "crit"
+    ],
+    "profile": {
+      "profile_name": "Realistic_Hard_Base",
+      "base_damage": 185000,
+      "player_stage": {
+        "chapter": 126,
+        "steamroll_unlocked": true,
+        "progression_stage": "SS progression",
+        "focus": "damage_only",
+        "ignore_hp_unless_direct_damage": true
+      },
+      "gear": {
+        "weapon": {
+          "name": "SS Starforged Havoc",
+          "rarity": "SS",
+          "astral_forge": 1,
+          "damage_multiplier": 2.35
+        },
+        "belt": {
+          "name": "SS Belt",
+          "rarity": "SS",
+          "astral_forge": 0,
+          "damage_multiplier": 1.75,
+          "current": "SS Belt"
+        },
+        "necklace": {
+          "name": "S Necklace",
+          "rarity": "legendary",
+          "damage_multiplier": 1.45
+        }
+      },
+      "survivor": {
+        "name": "S Survivor",
+        "rarity": "S",
+        "level": 100,
+        "stars": 5,
+        "awakening": 0,
+        "damage_multiplier": 2.1,
+        "near_milestone": {
+          "milestone": "S Survivor Awakening 1",
+          "missing": {
+            "awakening_core": 1,
+            "s_survivor_shards": 4
+          }
+        }
+      },
+      "tech": {
+        "drone": {
+          "rarity": "legendary",
+          "resonance": 6000,
+          "damage_multiplier": 2.25
+        },
+        "lightning": {
+          "rarity": "legendary",
+          "resonance": 3000,
+          "damage_multiplier": 1.55
+        },
+        "twinborn": {
+          "unlocked": true,
+          "active_pair": "Drone/Forcefield",
+          "damage_multiplier": 1.4
+        }
+      },
+      "pet": {
+        "main": {
+          "name": "Crab",
+          "level": 100,
+          "stars": 5,
+          "awakening": 1,
+          "damage_multiplier": 1.85
+        },
+        "assist": [
+          {
+            "name": "Eagle",
+            "damage_multiplier": 1.18
+          },
+          {
+            "name": "Croaky",
+            "damage_multiplier": 1.12
+          }
+        ]
+      },
+      "collectibles": {
+        "damage_multiplier": 2.2,
+        "important_breakpoints_active": true
+      },
+      "inventory": {
+        "relic_cores": 0,
+        "needed_relic_cores_for_next_ss_af": 1,
+        "awakening_cores": 0,
+        "needed_awakening_cores_for_next_survivor_awakening": 1,
+        "s_survivor_shards": 46,
+        "needed_s_survivor_shards_for_next_survivor_awakening": 50,
+        "normal_salvage_cubes": 0,
+        "basic_gear_fodder": 0,
+        "purple_merge_items": 0,
+        "yellow_merge_items": 0,
+        "common_materials": 0
+      },
+      "stats": {
+        "hp": 2800000,
+        "defense": 85000
+      },
+      "c": {
+        "r": {
+          "i": {
+            "t": {
+              "_": {
+                "r": {
+                  "a": {
+                    "t": {
+                      "e": 121
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "relic_core": 20
+      },
+      "o": {
+        "p": {
+          "t": {
+            "i": {
+              "m": {
+                "i": {
+                  "z": {
+                    "e": {
+                      "r": {
+                        "_": {
+                          "g": {
+                            "o": {
+                              "a": {
+                                "l": "SS belt DPS with crit 121. E1 active, E3/E5 locked. Protect relic cores."
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "text_sample": "best_action_chain summary final state reaches astral_forge_breakpoint; counted once for the whole chain. marginal_value delta 119.9 before total 1.0 damage_value 0 resource_flexibility 1.0 save_value 0.0 breakpoints  after total 120.9 damage_value 120.0 resource_flexibility 0.9 save_value 0.0 breakpoints astral_forge_breakpoint ordered_steps step 1 action_id cores:spend_core:relic_core action_type spend_core system cores required_items relic_core 1 required_resources relic_core 1 consumed_items relic_core 1 consumed_resources relic_core 1 produced_items  produced_state_delta  expected_damage_delta 0.0 long_term_value 0.0 long_term_value_delta 0.0 breakpoint_value 0.0 explanation evaluate spend core for relic core using known guide/knowledge data. warnings  missing_data_warnings  risk_uncertainty  source_refs relic_core_usage_-_enders_echo_mini_2024-11-29_result.tif confidence low can_score_now true step 2 action_id cores:spend_core:relic_core action_type spend_core system cores required_items relic_core 1 required_resources relic_core 1 consumed_items relic_core 1 consumed_resources relic_core 1 produced_items  produced_state_delta  expected_damage_delta 0.0 long_term_value 0.0 lon"
+  }
+]

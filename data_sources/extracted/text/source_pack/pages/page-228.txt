@@ -1,0 +1,32 @@
+Relic core recommendation path for EE 
+Do not overvalue: 
+Wave-only effects 
+Mob-only kill farming 
+Survival HP unless dying 
+ 
+19. Wishlist Probabilities 
+Source: 
+Wishlist_Probabilities_2024-11-28 
+Equipment guide text 
+Rules 
+Rule 
+Meaning 
+Applies to S-key chests only Not EDF keys or random S from events 
+Wishlist blocks counterparts 
+Pick one item per slot to block other S items in same 
+slot 
+6 wishlisted items 
+Pulls are limited to those 6 S items instead of all 18 
+One selected item 
+Does not guarantee that item; other slots can still 
+appear 
+Optimizer fields 
+ChestType 
+WishlistSlot 
+SelectedItem 
+BlockedItems 
+PullProbability 
+ExpectedKeysToTarget 
+ExpectedGemCost 
+Wishlist priority 
+Weapon: Void Power first, then S weapon cores/fodder

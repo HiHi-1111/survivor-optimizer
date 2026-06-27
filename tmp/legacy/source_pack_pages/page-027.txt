@@ -1,0 +1,28 @@
+The source shows Yang / panda crit rate from red awakening stars: 
+●​ 1 red star: Crit Rate +5% 
+●​ 4 red stars: additional +10% 
+●​ 6 red stars: additional +15% 
+●​ Total: 30% Crit Rate 
+Optimizer notes 
+This should probably be treated as Master Yang active-survivor value, not global, unless 
+another source confirms it is global. 
+Database flags: 
+SourceCategory = SurvivorAwakening 
+Survivor = MasterYang 
+StatType = CritRate 
+TargetScope = ActiveSurvivorLikely 
+ConditionType = AwakeningLevel 
+DPSRelevant = High 
+ 
+6. Talent Crit Rate 
+This is associated with: 
+Talents | Expose Weakness | Global Account Stat 
+The source shows: 
+●​ Talent: Expose Weakness 
+●​ Level 40 
+●​ Crit Rate +8% 
+●​ Marked as global 
+Optimizer notes 
+This is a clean global stat. 
+Database row: 
+Expose_Weakness_Lv40 | Talent | CritRate | +8% | Global | Permanent | Yes

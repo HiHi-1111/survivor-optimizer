@@ -1,0 +1,36 @@
+CollectiblePools 
+CollectibleSetBonuses 
+ 
+ClanShop 
+ClanLevelRewards 
+ClanExpeditionRewards 
+SurvivorPassRewards 
+SurvivorPassEXP 
+EndersEchoRewards 
+ 
+23. Final optimizer priority logic 
+Damage-first scoring 
+Score high: 
+- ATK 
+- Crit Rate 
+- Crit Damage 
+- Skill Damage 
+- Vulnerability 
+- Weaken uptime + damage to Weakened 
+- Chill uptime + damage to Chilled 
+- Poison uptime + damage to Poisoned 
+- Laceration uptime + damage to Lacerated 
+- Deep Wound 
+- Shield Damage Boost when shield uptime exists 
+- Boss damage / single-target damage 
+- Pet direct DPS 
+- Drone/Twinborn missile scaling 
+Ignore or down-rank 
+HP 
+Healing 
+Damage reduction 
+Revival 
+Movement speed unless it enables SS Boots / hit uptime 
+EXP gain unless it affects build ramp 
+Crowd control unless it improves DPS uptime 
+Spend recommendation logic

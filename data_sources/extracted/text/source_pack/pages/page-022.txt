@@ -1,0 +1,28 @@
+In-battle Skill Crit Sources 
+Pet Crit Sources 
+Collectible Crit Sources 
+Conditional Crit Sources 
+Temporary / stance-based Crit Sources 
+Because some are always active, some require a specific survivor, some require a pet to be 
+active, some require a gear condition, and some require in-battle setup. 
+ 
+Crit Rate section 
+1. Survivor level Crit Rate 
+This is associated with: 
+Survivor Level Milestone | Global Stat | Account DPS 
+The source shows 98% total global Crit Rate possible from survivor levels / special survivor 
+unlocks. 
+Normal survivor level sources shown 
+●​ King level 80: Crit Rate +5% 
+●​ Tsukuyomi level 80: Crit Rate +5% 
+●​ Worm level 80: Crit Rate +5% 
+●​ Wesson / other survivor icon level 120: Crit Rate +5% 
+●​ Master Yang level 120: Crit Rate +10% 
+SpongeBob event survivors 
+These are marked as special-event only. 
+●​ SpongeBob level 120: Crit Rate +5% 
+●​ Squidward level 120: Crit Rate +5% 
+●​ Patrick level 120: Crit Rate +5% 
+●​ Sandy level 120: Crit Rate +5% 
+TMNT SP survivors 
+Each TMNT survivor gives:

@@ -1,0 +1,30 @@
+DPSRelevant = High for projectile/whirlwind pets 
+Powerful 
+For every 5 owner levels, pet Skill Damage increases by 5/6/7.5/10%. 
+DPSRelevant = High 
+Strong 
+For every 5 owner levels, pet Max HP increases by 10/12/15/20%. 
+DPSRelevant = No 
+Raid 
+For every 5 owner levels, pet Skill Damage increases by 6/7.5/10%. 
+Bonus trait: deployed pet cooldowns reduced by 10/15/20%. 
+DPSRelevant = Very High 
+Important note: 
+Raid is marked as Gary exclusive. 
+That means the optimizer needs an availability check: 
+If GaryAvailable = false: 
+   RaidAssistSkill = unavailable 
+ 
+Recommended pet awakening setups 
+Murica 
+Source: Pet_Awakening_Guide_-_Murica_2024-10-10 
+Murica recommended assist skills: 
+Raid* 
+Powerful 
+Boost 
+Penetration 
+Disposition: 
+Shrewd 
+Hot-blooded 
+Battler 
+Important source note:

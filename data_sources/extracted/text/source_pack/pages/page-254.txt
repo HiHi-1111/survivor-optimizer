@@ -1,0 +1,33 @@
+Add these to global bucket map: 
+SkillDamage += MountSkillDamage + MountComponentSkillDamage 
+CritDamage += MountCritDamage + MountComponentCritDamage 
+ShieldDamage += MountShieldDamage + MountComponentShieldDamage 
+DamageToBoss += MountBossDamage + MountComponentBossDamage 
+DamageToWeakened += MountDamageToWeakened + MountComponentWeakened 
+DamageToLacerated += MountDamageToLacerated + MountComponentLacerated 
+DamageToChilled += MountDamageToChilled + MountComponentChilled 
+DamageToPoisoned += MountDamageToPoisoned + MountComponentPoisoned 
+Do not mix mount skill damage with pet skill damage or tech skill damage too early. Store 
+source separately first. 
+ 
+17. Mount/debuff interaction 
+Mount 
+Debuff/damage family 
+Electric Scooter 
+Laceration, Weakened damage, Crit Damage, Shock 
+Tech 
+Hoverboard 
+Chilled damage, Shield Damage, Skill Damage 
+Doomsteed 
+Poisoned damage, Lacerated damage, Boss damage, Movement Speed, 
+Root 
+Optimizer logic: 
+DamageToPoisoned only scores high if the build has Poison uptime. 
+DamageToLacerated only scores high if the build has Laceration uptime. 
+DamageToChilled only scores high if the build has Chill uptime. 
+DamageToWeakened only scores high if the build has Weaken uptime. 
+But for components: 
+Still store all component stats exactly. 
+Do not delete “bad” component types. 
+ 
+18. Mount + SS gear synergy notes

@@ -1,0 +1,32 @@
+6. Tech resonance 
+Sources: 
+Tech_Part_Resonance_Cost_2024-11-28​
+ Resonance_2024-10-30​
+ Tech_Part_Resonance_Drone_2024-11-28​
+ Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28 
+What it does 
+Tech resonance lets a main tech part gain bonus effects from support tech parts. It adds: 
+Resonance Energy 
+ATK/HP from resonance 
+Special resonance skills 
+Multiplier upgrades 
+Drone wingbits 
+RPG/C4 explosion bonuses 
+Molotov/SF fire and poison bonuses 
+Resonance energy values 
+From Tech_Part_Resonance_Cost: 
+Yellow tech part = 50 
+Yellow +1 = 100 
+Yellow +2 = 150 
+Yellow +3 = 200 
+Red = 300 
+Red +1 = 400 
+Red +2 = 550 
+Red +3 = 700 
+Red +4 = 850 
+Rainbow / resonance-tier part = 1000 
+Multiplier upgrade cost 
+1.0 → 1.2 = 1 resonance chip 
+1.2 → 1.4 = 1 
+1.4 → 1.6 = 2 
+1.6 → 1.8 = 3

@@ -1,0 +1,30 @@
+Important notes from the source: 
+●​ SS Gloves E3 requires a minimum of 101% Crit Rate from other sources, not 
+including gloves. 
+●​ For E5, you need about 121% Crit Rate to have 100% uptime. 
+●​ The Clan Expedition table has special notes around 10, 29, 50 relic cores and when to 
+switch priorities. 
+So yes, the relic core data is already in your source pack. 
+ 
+5. Tech parts 
+Sources: 
+Tech_Parts_2024-10-09​
+ Merging_-_Tech_Parts_2024-11-28​
+ Tech_Part_Resonance_Cost_2024-11-28​
+ Resonance_2024-10-30​
+ Tech_Part_Resonance_Drone_2024-11-28​
+ Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28​
+ Twinborn_Part_2025-02-23 
+Unlock requirement 
+Tech parts unlock at: 
+Chapter 6 after losing Regular Challenge 
+What tech parts do 
+Tech parts modify in-battle skills. They turn normal skills into much stronger versions. 
+Major offensive tech parts include: 
+Tech part 
+Associated skill 
+What it does 
+Drone tech 
+Drones / Destroyer 
+One of the most important DPS techs. Unlocks Drone 
+improvement and later Drone Resonance.

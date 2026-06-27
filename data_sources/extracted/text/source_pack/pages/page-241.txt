@@ -1,0 +1,56 @@
+Red 1 
+0.38 
+Shock triggers 3 lightning strikes 
+Red 2 
+0.44 
+Damage to Weakened targets +35%; Crit Damage +90% 
+Red 3 
+0.52 
+Shock Damage +33% 
+Red 4 
+0.60 
+Each Laceration Mastery stack gives +4% damage to Lacerated targets 
+Line effects 
+Line 
+Unlock 
+Effect 
+Line 
+1 
+Default 
+Damage to Weakened targets +10% 
+Line 
+2 
+Default 
+Triggering skill fires 1 additional disc 
+Line 
+3 
+Default 
+Damage to Weakened targets +15%; Crit Damage +20% 
+Line 
+4 
+Default 
+On disc hit, Crit Damage +1%, max 35% 
+Line 
+5 
+Yellow 2 Every 3 lightning strikes grants 1 Laceration Mastery stack. Each stack 
+gives +2% damage to Lacerated targets, up to 5 stacks 
+Line 
+6 
+Yellow 4 Damage to Weakened targets +20%; Crit Damage +55% 
+Line 
+7 
+Red 2 
+Damage to Weakened targets +35%; Crit Damage +90% 
+Line 
+8 
+Red 4 
+Each Laceration Mastery stack gives +4% damage to Lacerated targets 
+Optimizer notes 
+Main buckets: 
+- Crit Damage 
+- Damage to Weakened 
+- Damage to Lacerated 
+- Disc Damage 
+- Shock Damage 
+ 
+Debuffs:

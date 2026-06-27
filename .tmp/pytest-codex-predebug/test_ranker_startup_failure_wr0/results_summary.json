@@ -1,0 +1,9 @@
+{
+  "benchmark_valid": false,
+  "detailed_metrics_file_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\.tmp\\pytest-codex-predebug\\test_ranker_startup_failure_wr0\\results_metrics.json",
+  "failure_reason": "CUDA ranker startup failed: device busy",
+  "failure_stage": "gpu_ranker_startup",
+  "profile_status": "No profiles completed yet",
+  "profiles_tested": 0,
+  "startup_failed": true
+}

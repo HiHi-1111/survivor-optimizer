@@ -1,0 +1,39 @@
+11500: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+12000: 
+Chill Damage +160 
+Ice Whistleshot damage +18% 
+Damage to Chilled targets +10% 
+ 
+12500: 
++7500 ATK, +30000 HP 
+ 
+13000: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+13500: 
+Chill Damage +190 
+Lacerate Damage +80 
+Required hits for Ice Focus -3 
+Max stacks +1 
+Extra damage to Lacerated targets +20% 
+ 
+14000: 
++7500 ATK, +30000 HP 
+ 
+14500: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+15000: 
+Chill Damage +200 
+After Ice Whistleshot hits a target, Fire Whistleshot damage to target +45% 
+Damage to Chilled targets +10% 
+Database flags 
+TwinbornID = TB_DRILL 
+Mode = Drill / Frostfire Dualist 
+PrimaryStats = ChillDamage, CritDamage, ShieldDamage, LacerateDamage 
+Debuff = Chill, Laceration 
+DPSRelevant = HighVeryHigh 
+BestUse = Chill/Lacerate builds, late-game damage stacking 
+IgnoreForDPS = HP

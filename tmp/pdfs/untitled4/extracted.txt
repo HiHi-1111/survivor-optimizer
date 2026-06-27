@@ -1,0 +1,3796 @@
+--- PAGE 1 ---
+Source files received / data types found 
+Survivors 
+1.​ Survivors_SP_2025-01-26​
+ SP / TMNT survivors: Raphael, Leonardo, Donatello, Michelangelo, April, Splinter. 
+Includes yellow-star upgrades, red awakening upgrades, passive skills, active skills, 
+teamwork passive slots, crit rate, laceration, vulnerability, pet boosts, etc. 
+Tech Part Resonance​
+ 2. Tech_Part_Resonance_Drone​
+ Drone resonance: Augment Wingbit + Attack Wingbit, damage scaling, cooldown, duration, 
+what gets boosted. 
+3.​ Tech_Part_Resonance_HI_Maintainer_RPG​
+ C4 / RPG / HI-Maintainer style resonance. Shows base damage, launch interval, 
+explosion delay, max values. 
+Equipment​
+ 4. Weapons_V2_2​
+ Weapons: Void Power, Lightchaser, Sword of Disorder, Kunai, Baseball Bat, Katana, Shotgun, 
+Revolver. 
+5.​ Armor_V2​
+ Chest armor: Eternal Suit, Voidwaker Windbreaker, Armor of Quietus, Full Metal Suit, 
+Traveler’s Jacket, Carapace, Army Uniform, Protective Suit. 
+6.​ Belts_V2​
+ Belts: Twisting Belt, Eternal Belt, Stylish Belt, Leather Belt, Voidwaker Sash, Army Belt, 
+Plated Sensor, Broad Waistguard. 
+7.​ Boots_V2​
+ Boots: Voidwaker Treads, Eternal Boots, Light Runners, Shoes of Confusion, Army 
+Boots, Prosthetic Legs, Layered Snowshoes, Highboots. 
+Forge / Cores​
+ 8. Astral_Forge​
+ AF requirements, SS gear requirements, non-SS AF costs, salvage returns, SS breakpoints. 
+9.​ Awakening_Core_Guide​
+ Awakening core priority paths for Yang, Metallia, King, Worm, Common, Catnips, TMNT 
+survivors in Ender’s Echo and Clan Expedition. 
+Debuffs / Damage Multipliers​
+ 10. Boss_Debuffs​
+
+--- PAGE 2 ---
+ Chill, Poison, Exposed, Weaken, Debilitate, Yin Yang, Laceration, Vulnerability. This is very 
+important for DPS stacking logic. 
+11.​Crit_Rate_And_Damage​
+ Crit rate and crit damage sources from survivor levels, gear, collectibles, skills, pets, 
+talents, combat harmony, survivor synergy, Don passive, Rex, etc. 
+Progression / Unlocks​
+ 12. Chapter_Unlocks​
+ Unlock timing by chapter: shop, equipment, tech parts, pets, clans, Ender’s Echo, Zone Ops, 
+Special Ops, privilege card, etc. 
+Clan​
+ 13. Clan_Expedition_Rewards​
+ Novice, Adept, Elite clan expedition rewards: chapter rewards, chest rewards, ranking rewards, 
+clan tier limits. 
+14.​Clan_Level_Rewards​
+ Clan level perks, clan EXP, clan size, quick earnings, clan member ATK/HP boosts. 
+15.​Clan_Shop​
+ Clan shop items, costs, quantities, and how stock changes by clan level. 
+Collectibles​
+ 16. Collectible_Chest_Odds​
+ Collectible chest rarity odds and shard odds. 
+17.​Collectible_Costs​
+ Collectible star costs, shard costs, exchange rates, collector’s hearts, purchase costs. 
+18.​Collectibles_Edition_1​
+ 1st Edition collectible chest item pool and drop rates. 
+19.​Collectibles_Edition_2​
+ 2nd Edition collectible chest item pool and drop rates. 
+20.​Collectibles_Edition_3​
+ 3rd Edition collectible chest item pool and drop rates. 
+ 
+Data type 1: SP Survivors / TMNT 
+Survivors 
+Source: Survivors_SP_2025-01-26 
+
+--- PAGE 3 ---
+This image is about SP-grade survivor progression, specifically the TMNT collab survivors: 
+Raphael, Leonardo, Donatello, Michelangelo, April, Splinter 
+This data type belongs in the optimizer as: 
+Survivor | SP Survivor | Star Upgrade | Awakening | Passive Skill | 
+Active Skill | Teamwork Passive | Debuff Source | Crit Source | Pet 
+Source 
+For your calculator, this should mostly affect DPS, not HP. The HP lines should still be stored as 
+raw data, but scoring should mark them as ignore / non-DPS. 
+ 
+Shared SP survivor structure 
+Each SP survivor has: 
+Yellow stars 
+●​ 1-star: unlocks exclusive weapon / base survivor skill. 
+●​ 2-star: Survivor License, usually Survivor ATK +400 and Survivor HP +2000. 
+●​ 3-star: improves the survivor’s main weapon or attack mechanic. 
+●​ 4-star: Advanced Survivor License, usually Survivor ATK +1000 and Survivor HP 
++5000. 
+●​ 5-star: All Survivors: Crit Rate +8%. 
+●​ 6-star: big personal DPS upgrade, usually main weapon damage + survivor ATK +20%. 
+Red awakening stars 
+●​ Adds active awakening skill improvements. 
+●​ Adds passive awakening skills. 
+●​ Some give Teamwork Passive Slots, which matter a lot because awakened passive 
+skills can be shared/equipped. 
+●​ Costs appear to scale with awakening cores, pizza/slices, and blue materials. 
+For calculator logic, 5 yellow stars is extremely important because it gives global crit rate. 
+The HP parts are mostly trash for your DPS optimizer. 
+ 
+Raphael 
+
+--- PAGE 4 ---
+Main association 
+Raphael is associated with: 
+Sai / Fury Sai / Bleed / Laceration / Lacerated-target damage / Rocket 
+Assault 
+Yellow-star upgrades 
+1-star 
+●​ Exclusive weapon: Sai 
+●​ Raphael throws 2 sai at enemies. 
+●​ Can evolve into Fury Sai. 
+2-star 
+●​ Survivor License: 
+○​ Survivor ATK +400 
+○​ Survivor HP +2000 
+3-star 
+●​ Power Strike 
+●​ For every 5 attacks, 1 more giant sai is thrown. 
+●​ Attacks inflict Bleed. 
+●​ Survivor HP +20%. 
+4-star 
+●​ Advanced Survivor License: 
+○​ Survivor ATK +1000 
+○​ Survivor HP +5000 
+5-star 
+●​ All Survivors: Crit Rate +8% 
+6-star 
+●​ Hot-headed 
+●​ Sai and Fury Sai damage +20%. 
+●​ Survivor ATK +20%. 
+
+--- PAGE 5 ---
+Awakening upgrades 
+A1 
+●​ Active: Rocket Assault 
+●​ When Rocket Assault ends, fires a wave of Assault Sai. 
+●​ Passive: Scattered Spikes 
+●​ Throws piercing sai around every 20 seconds. 
+●​ Enemies hit get +5 seconds of Laceration. 
+●​ Damage to Lacerated enemies +10%. 
+A2 
+●​ Additional damage on Lacerated targets +10%. 
+A3 
+●​ More Assault Sai thrown during Rocket Assault. 
+A4 
+●​ Additional damage on Lacerated targets +10%. 
+●​ Unlocks 1 Teamwork Passive Slot. 
+A5 
+●​ Fires Assault Sai during Rocket Assault. 
+A6 
+●​ Additional damage on Lacerated targets +20%. 
+●​ Teamwork Passive Slot +1. 
+Optimizer notes 
+Raphael is a Laceration damage amplifier. He matters if the build uses Laceration stacking, 
+boss debuffs, or teamwork passive sharing. 
+Database flags: 
+Debuff = Bleed, Laceration​
+ DamageType = Lacerated target damage​
+ GlobalValue = Crit Rate at 5-star​
+ TeamworkSlot = A4 and A6​
+ DPSRelevant = Yes 
+
+--- PAGE 6 ---
+ 
+Leonardo 
+Main association 
+Leonardo is associated with: 
+Dual Katanas / Fullmoon Slash / Laceration / Whirlwind Slash / 
+Laceration duration 
+Yellow-star upgrades 
+1-star 
+●​ Exclusive weapon: Swiftwind Dual Katanas 
+●​ Leonardo performs long and short slashes with his katanas. 
+●​ Can evolve into Fullmoon Slash. 
+2-star 
+●​ Survivor License: 
+○​ Survivor ATK +400 
+○​ Survivor HP +2000 
+3-star 
+●​ Voidbreaker Combo 
+●​ Adds long and short slashes. 
+●​ Survivor HP +20%. 
+4-star 
+●​ Advanced Survivor License: 
+○​ Survivor ATK +1000 
+○​ Survivor HP +5000 
+5-star 
+●​ All Survivors: Crit Rate +8% 
+6-star 
+
+--- PAGE 7 ---
+●​ Secret Art Limit 
+●​ Fullmoon Slash breakthrough art. 
+●​ Adds attack. 
+●​ Survivor ATK +20%. 
+Awakening upgrades 
+A1 
+●​ Active: Whirlwind Slash 
+●​ Whirlwind Slash damage +50%. 
+●​ Passive: Undaunted Will 
+●​ When hit by monster collisions, inflicts Laceration. 
+●​ Damage on Lacerated targets +2% for 5 seconds. 
+A2 
+●​ Additional damage on Lacerated targets +2%. 
+●​ Laceration duration +5 seconds. 
+A3 
+●​ Reduces Whirlwind Slash cooldown. 
+A4 
+●​ Additional damage on Lacerated targets +3%. 
+●​ Laceration duration +5 seconds. 
+●​ Unlocks 1 Teamwork Passive Slot. 
+A5 
+●​ Whirlwind Slash duration up. 
+A6 
+●​ Additional damage on Lacerated targets +3%. 
+●​ Laceration duration becomes permanent. 
+●​ Teamwork Passive Slot +1. 
+Optimizer notes 
+Leonardo is another Laceration support/DPS source, but his numbers look smaller than 
+Raphael/Michelangelo. His value is more about Laceration uptime and duration. 
+
+--- PAGE 8 ---
+Database flags: 
+Debuff = Laceration​
+ DamageType = Lacerated target damage​
+ Mechanic = Duration extension / permanent laceration​
+ GlobalValue = Crit Rate at 5-star​
+ TeamworkSlot = A4 and A6​
+ DPSRelevant = Yes 
+ 
+Donatello 
+Main association 
+Donatello is associated with: 
+Bo / Savage Bo / Skill Damage / Crit Damage / Crit Rate / SP passive 
+scaling / Brotherhood 
+This is one of the most important ones for the calculator because Donatello has global SP 
+passive scaling. 
+Yellow-star upgrades 
+1-star 
+●​ Exclusive weapon: Seeker Bo 
+●​ Donatello spins his bo to attack enemies. 
+●​ Can be upgraded to Savage Bo. 
+2-star 
+●​ Survivor License: 
+○​ Survivor ATK +400 
+○​ Survivor HP +2000 
+3-star 
+●​ Super Sweep 
+●​ Seeker Bo and Savage Bo damage +30%. 
+●​ Survivor HP +20%. 
+
+--- PAGE 9 ---
+4-star 
+●​ Advanced Survivor License: 
+○​ Survivor ATK +1000 
+○​ Survivor HP +5000 
+5-star 
+●​ All Survivors: Crit Rate +8% 
+6-star 
+●​ Staff Strike / Seeker Bo / Savage Bo: 
+○​ Attack range up 
+○​ Damage +30% 
+●​ Survivor ATK +20% 
+Awakening upgrades 
+A1 
+●​ Active: Spinning Smash 
+●​ Fires an energy wave when Spinning Smash ends. 
+●​ Passive: Brotherhood 
+●​ Exclusive global passive. 
+●​ Effective for all Survivors when unlocked. 
+●​ Cannot be equipped to Teamwork passive slots. 
+●​ For every SP Grade Survivor Awakening passive skill equipped: 
+○​ Crit Rate +3% 
+A2 
+●​ Brotherhood adds: 
+○​ Skill Damage +3% 
+○​ Crit Damage +3% 
+○​ Per SP-grade survivor awakening passive equipped. 
+A3 
+●​ Spinning Smash attack range up. 
+A4 
+●​ Brotherhood adds damage to special debuffed targets: 
+○​ Damage to Lacerated targets +3% 
+○​ Damage to Poisoned targets +3% 
+
+--- PAGE 10 ---
+○​ Damage to Chilled targets +3% 
+●​ Unlocks 1 Teamwork Passive Slot. 
+A5 
+●​ Spinning Smash damage +50%. 
+A6 
+●​ Brotherhood adds: 
+○​ Damage to Weakened targets +3% 
+○​ Damage to Poisoned targets +3% 
+○​ Damage to Chilled targets +3% 
+●​ Teamwork Passive Slot +1. 
+Optimizer notes 
+Donatello is a global scaling engine. He should not be treated like a normal survivor only. His 
+Brotherhood passive creates value based on how many SP awakening passives are equipped. 
+Database flags: 
+GlobalPassive = Brotherhood​
+ ScalingInput = Equipped SP Awakening Passive Count​
+ CritRateSource = +3% per SP passive at A1​
+ SkillDamageSource = +3% per SP passive at A2​
+ CritDamageSource = +3% per SP passive at A2​
+ DebuffDamage = Lacerated / Poisoned / Chilled / Weakened​
+ TeamworkSlot = A4 and A6​
+ DPSRelevant = Very High 
+This one is important for your optimizer because it affects build synergy, not just one survivor. 
+ 
+Michelangelo 
+Main association 
+Michelangelo is associated with: 
+
+--- PAGE 11 ---
+Nunchucks / Windchaser Nunchucks / Whirlwind / Bleed / Laceration / 
+Lacerated-target damage / hit-count trigger 
+Yellow-star upgrades 
+1-star 
+●​ Exclusive weapon: Arc Nunchucks 
+●​ Swings nunchucks and launches whirlwinds. 
+●​ Can be upgraded to Windchaser Nunchucks. 
+2-star 
+●​ Survivor License: 
+○​ Survivor ATK +400 
+○​ Survivor HP +2000 
+3-star 
+●​ Tubular Tornado 
+●​ Arc Nunchucks / Windchaser Nunchucks whirlwind damage +50%. 
+●​ Whirlwind range up. 
+●​ Survivor HP +20%. 
+4-star 
+●​ Advanced Survivor License: 
+○​ Survivor ATK +1000 
+○​ Survivor HP +5000 
+5-star 
+●​ All Survivors: Crit Rate +8% 
+6-star 
+●​ Apocalypse Tornado 
+●​ Arc Nunchucks / Windchaser Nunchucks whirlwind damage +50%. 
+●​ Whirlwind inflicts Bleed. 
+●​ Survivor ATK +20%. 
+Awakening upgrades 
+A1 
+
+--- PAGE 12 ---
+●​ Active: Twin Throw 
+●​ Nunchucks thrown by Twin Throw can be thrown again. 
+●​ Passive: Fantastic Storm 
+●​ Every 500 attacks on hit spawns 1 windstorm. 
+●​ Windstorm inflicts Lacerate for 5 seconds. 
+●​ Skill cooldown: 20 seconds. 
+●​ Damage to Lacerated targets +10%. 
+A2 
+●​ Fantastic Storm: 
+○​ Required hits -100 
+○​ Damage to Lacerated targets +10% 
+A3 
+●​ Twin Throw thrown nunchucks count up. 
+A4 
+●​ Fantastic Storm: 
+○​ Required hits -100 
+○​ Damage to Lacerated targets +10% 
+●​ Unlocks 1 Teamwork Passive Slot. 
+A5 
+●​ Twin Throw nunchucks attack range up. 
+●​ Attack damage +50%. 
+A6 
+●​ Fantastic Storm: 
+○​ Required hits -200 
+○​ Damage to Lacerated targets +20% 
+●​ Teamwork Passive Slot +1. 
+Optimizer notes 
+Michelangelo looks like a stronger Laceration DPS support than Leonardo because he has 
+bigger Lacerated-target damage chunks and hit-count scaling. 
+Database flags: 
+
+--- PAGE 13 ---
+Debuff = Bleed, Laceration​
+ Mechanic = Hit count trigger​
+ Trigger = Every 500 attacks, reduced by awakenings​
+ DamageType = Lacerated target damage​
+ GlobalValue = Crit Rate at 5-star​
+ TeamworkSlot = A4 and A6​
+ DPSRelevant = High 
+ 
+April 
+Main association 
+April is associated with: 
+Soundwave Balls / Mega Soundwave Balls / Vulnerability / Pet ATK / Pet 
+HP / Reporter Snapshot 
+April matters because she connects survivor awakening + pet damage + vulnerability. 
+Yellow-star upgrades 
+1-star 
+●​ Exclusive weapon: Microphone 
+●​ April fires soundwave balls at enemies. 
+●​ Can evolve into Mega Soundwave Balls. 
+2-star 
+●​ Survivor License: 
+○​ Survivor ATK +400 
+○​ Survivor HP +2000 
+3-star 
+●​ Increased Volume 
+●​ Soundwave Ball damage +30%. 
+●​ Survivor HP +20%. 
+
+--- PAGE 14 ---
+4-star 
+●​ Advanced Survivor License: 
+○​ Survivor ATK +1000 
+○​ Survivor HP +5000 
+5-star 
+●​ All Survivors: Crit Rate +8% 
+6-star 
+●​ Sonic Boom 
+●​ Mega Soundwave Balls explode in a small area when enemies are hit. 
+●​ Survivor ATK +20%. 
+Awakening upgrades 
+A1 
+●​ Active: Reporter Snapshot 
+●​ Reporter Snapshot damage +50%. 
+●​ Passive: Pet Companion 
+●​ When in battle, deployed pet’s: 
+○​ Attack +5% 
+○​ HP +5% 
+A2 
+●​ Deployed pet additional: 
+○​ Attack +5% 
+○​ HP +5% 
+A3 
+●​ Reporter Snapshot damage +50%. 
+●​ Targets hit by Snapshot are inflicted with 5% Vulnerability. 
+A4 
+●​ Deployed pet additional: 
+○​ Attack +10% 
+○​ HP +10% 
+●​ Unlocks 1 Teamwork Passive Slot. 
+A5 
+
+--- PAGE 15 ---
+●​ Reporter Snapshot damage +50%. 
+●​ Targets hit by Snapshot get additional 5% Vulnerability. 
+A6 
+●​ Deployed pet additional: 
+○​ Attack +10% 
+○​ HP +10% 
+●​ Teamwork Passive Slot +1. 
+Optimizer notes 
+April is not just personal damage. She is a pet amplifier and vulnerability source. 
+Database flags: 
+Debuff = Vulnerability​
+ PetATKSource = Yes​
+ PetHPSource = Ignore for DPS​
+ Vulnerability = 5% at A3, additional 5% at A5​
+ GlobalValue = Crit Rate at 5-star​
+ TeamworkSlot = A4 and A6​
+ DPSRelevant = High if pet build / vulnerability stacking 
+For your optimizer, April should become more valuable if the player uses a strong pet setup. 
+ 
+Splinter 
+Main association 
+Splinter is associated with: 
+Secret Art Blast / Secret Art Fusion / Slow / Enhanced Slow / Phantom 
+Assault / Pet Crit Rate / Pet Crit Damage / Pet Skill CD 
+Splinter is a pet-crit support survivor. 
+Yellow-star upgrades 
+
+--- PAGE 16 ---
+1-star 
+●​ Exclusive weapon: Secret Art Blast 
+●​ Splinter brandishes his cane and fires a power wave at enemies. 
+●​ Can evolve into Secret Art Fusion. 
+2-star 
+●​ Survivor License: 
+○​ Survivor ATK +400 
+○​ Survivor HP +2000 
+3-star 
+●​ Bonecrusher Blast 
+●​ Secret Art Blast / Secret Art Fusion power wave damage +30%. 
+●​ Inflicts Slow. 
+●​ Survivor HP +20%. 
+4-star 
+●​ Advanced Survivor License: 
+○​ Survivor ATK +1000 
+○​ Survivor HP +5000 
+5-star 
+●​ All Survivors: Crit Rate +8% 
+6-star 
+●​ Fatality Blast 
+●​ Secret Art Blast / Secret Art Fusion power wave damage +30%. 
+●​ Inflicts enhanced Slow. 
+●​ Survivor ATK +20%. 
+Awakening upgrades 
+A1 
+●​ Active: Phantom Assault 
+●​ Adds 1 phantom. 
+●​ Phantom damage +20%. 
+●​ Passive: Master Mentor 
+●​ Equipped pet skill cooldown -5%. 
+●​ Pet Crit Rate +10%. 
+
+--- PAGE 17 ---
+A2 
+●​ Master Mentor: 
+○​ Equipped Pet Crit Rate +10% 
+○​ Pet Crit Damage +20% 
+A3 
+●​ Phantom Assault: 
+○​ +1 Phantom 
+○​ Phantom damage +20% 
+A4 
+●​ Master Mentor: 
+○​ Equipped Pet Skill cooldown -15% 
+●​ Unlocks 1 Teamwork Passive Slot. 
+A5 
+●​ Phantom Assault: 
+○​ +1 Phantom 
+○​ Phantom damage +20% 
+A6 
+●​ Master Mentor: 
+○​ Equipped Pet Skill cooldown -10% 
+○​ Pet Crit Rate +20% 
+○​ Pet Crit Damage +20% 
+●​ Teamwork Passive Slot +1. 
+Optimizer notes 
+Splinter is heavily tied to pet crit scaling and pet skill cooldown. He should become stronger in 
+the calculator if pets are a major DPS source. 
+Database flags: 
+PetCritRateSource = Yes​
+ PetCritDamageSource = Yes​
+ PetSkillCooldownSource = Yes​
+ Debuff = Slow / Enhanced Slow​
+ GlobalValue = Crit Rate at 5-star​
+
+--- PAGE 18 ---
+ TeamworkSlot = A4 and A6​
+ DPSRelevant = High for pet builds 
+ 
+Important optimizer associations from this 
+whole source 
+1. Global crit from SP survivors 
+Every SP survivor shown has: 
+5 yellow stars = All Survivors Crit Rate +8% 
+That means each 5-star SP survivor is a global DPS upgrade, even if you do not use that 
+survivor. 
+For the optimizer: 
+CritRateGlobal += 8% per SP survivor at 5 yellow stars 
+This is very important for your damage-only calculator. 
+ 
+2. Laceration package 
+Laceration is tied to: 
+●​ Raphael 
+●​ Leonardo 
+●​ Michelangelo 
+●​ Donatello Brotherhood scaling 
+●​ Boss Debuffs source image also has a Laceration section 
+This means Laceration should be treated as a real debuff family. 
+Suggested field: 
+
+--- PAGE 19 ---
+DebuffFamily = Laceration​
+ DamageModifierType = Damage to Lacerated targets​
+ StackingType = Needs testing / source-specific 
+ 
+3. Vulnerability package 
+April adds Vulnerability through Reporter Snapshot. 
+This connects directly to the Boss_Debuffs source because Vulnerability is a major damage 
+amplifier. 
+Suggested field: 
+DebuffFamily = Vulnerability​
+ Source = April Awakening A3/A5​
+ DPSRelevant = Very High 
+ 
+4. Pet package 
+April and Splinter both connect to pets. 
+April: 
+●​ Pet ATK 
+●​ Pet HP 
+Splinter: 
+●​ Pet Crit Rate 
+●​ Pet Crit Damage 
+●​ Pet Skill cooldown 
+For your calculator: 
+PetATK = count for DPS​
+ PetCritRate = count for DPS​
+ PetCritDamage = count for DPS​
+ PetSkillCDReduction = count for DPS if pet skill damage is modeled​
+ PetHP = store but ignore 
+
+--- PAGE 20 ---
+ 
+5. Teamwork Passive Slots 
+Most SP survivors unlock Teamwork Passive Slots at awakening levels: 
+●​ A4: Unlocks 1 Teamwork Passive Slot 
+●​ A6: Teamwork Passive Slot +1 
+This matters because survivor awakening is not just “upgrade survivor.” It changes how many 
+passive skills can be equipped and shared. 
+Suggested fields: 
+TeamworkPassiveSlotUnlock_A4 = 1​
+ TeamworkPassiveSlotUnlock_A6 = +1 
+ 
+Clean database format for this data type 
+Use something like this: 
+SurvivorID 
+SurvivorName 
+Grade 
+CollabGroup 
+StarType 
+StarLevel 
+UpgradeName 
+UpgradeDescription 
+AffectedStat 
+StatAmount 
+TargetScope 
+AssociatedDebuff 
+AssociatedSkill 
+AssociatedPetStat 
+TeamworkPassiveSlotChange 
+DPSRelevant 
+IgnoreForDPS 
+Notes 
+SourceImage 
+SourceDate 
+
+--- PAGE 21 ---
+Example row: 
+SP_RAPHAEL | Raphael | SP | TMNT | Yellow | 5 | All Survivors Crit Rate | Crit Rate +8% | 
+CritRate | 8% | All Survivors | None | None | None | 0 | Yes | No | Global DPS upgrade | 
+Survivors_SP_2025-01-26 
+Example row: 
+SP_APRIL | April | SP | TMNT | Awakening | A3 | Reporter Snapshot | Snapshot damage +50%; 
+targets get 5% Vulnerability | Vulnerability | 5% | Enemy Hit By Snapshot | Vulnerability | 
+Reporter Snapshot | None | 0 | Yes | No | Boss damage amplifier | Survivors_SP_2025-01-26 
+Next data type should be Crit Rate/Crit Damage or Boss Debuffs, because those explain how 
+these survivor bonuses actually stack into DPS. 
+Data type 2: Crit Rate & Crit Damage 
+Source: Crit_Rate_And_Damage_2025-03-09 
+This image is a stat-source registry. It is not just showing one item. It shows every major place 
+Crit Rate and Crit Damage can come from. 
+For the optimizer, this should become: 
+StatSource | CritRate | CritDamage | Global | Conditional | GearBased 
+| SurvivorBased | PetBased | SkillBased | CollectibleBased | 
+DPSRelevant 
+This is very important because crit is one of the biggest DPS multipliers in Survivor.io. 
+ 
+Main optimizer rule 
+Do not store crit as one single number only. 
+You need to split it into: 
+Global Crit Rate 
+Global Crit Damage 
+Active Survivor Crit Sources 
+Equipped Gear Crit Sources 
+
+--- PAGE 22 ---
+In-battle Skill Crit Sources 
+Pet Crit Sources 
+Collectible Crit Sources 
+Conditional Crit Sources 
+Temporary / stance-based Crit Sources 
+Because some are always active, some require a specific survivor, some require a pet to be 
+active, some require a gear condition, and some require in-battle setup. 
+ 
+Crit Rate section 
+1. Survivor level Crit Rate 
+This is associated with: 
+Survivor Level Milestone | Global Stat | Account DPS 
+The source shows 98% total global Crit Rate possible from survivor levels / special survivor 
+unlocks. 
+Normal survivor level sources shown 
+●​ King level 80: Crit Rate +5% 
+●​ Tsukuyomi level 80: Crit Rate +5% 
+●​ Worm level 80: Crit Rate +5% 
+●​ Wesson / other survivor icon level 120: Crit Rate +5% 
+●​ Master Yang level 120: Crit Rate +10% 
+SpongeBob event survivors 
+These are marked as special-event only. 
+●​ SpongeBob level 120: Crit Rate +5% 
+●​ Squidward level 120: Crit Rate +5% 
+●​ Patrick level 120: Crit Rate +5% 
+●​ Sandy level 120: Crit Rate +5% 
+TMNT SP survivors 
+Each TMNT survivor gives: 
+
+--- PAGE 23 ---
+5 yellow stars = All Survivors Crit Rate +8% 
+Shown TMNT survivors: 
+●​ Raphael 5-star: Crit Rate +8% 
+●​ Leonardo 5-star: Crit Rate +8% 
+●​ April 5-star: Crit Rate +8% 
+●​ Michelangelo 5-star: Crit Rate +8% 
+●​ Donatello 5-star: Crit Rate +8% 
+●​ Splinter 5-star: Crit Rate +8% 
+Optimizer notes 
+This is a global permanent DPS source. It should have high value because it improves all 
+builds, not just one survivor. 
+Database flag: 
+SourceCategory = SurvivorLevel 
+TargetScope = AllSurvivors 
+StatType = CritRate 
+DPSRelevant = Very High 
+ConditionType = PermanentGlobal 
+ 
+2. Gear Crit Rate 
+This is associated with: 
+Equipped Gear | Gloves / SS Gear / Necklace | Conditional DPS 
+The source shows multiple gear-based crit sources. 
+Important gear associations visible: 
+Eternal Gloves 
+From the gloves source, Eternal Gloves are heavily tied to crit. 
+Relevant effects: 
+●​ Excellent / purple: Attacks have 10% chance to crit. 
+●​ Legendary / red: Crit Rate +10%, Crit Damage +100%. 
+
+--- PAGE 24 ---
+●​ AF3: Giantbane gives +3% Crit Rate when an elite or boss is defeated. 
+The crit source image also shows Eternal Gloves as: 
+0–40% Crit Rate, +10% with R5 collectible 
+This means Eternal Gloves crit value may depend on gear rarity, AF state, collectible support, or 
+battle condition. 
+Leather Gloves 
+Leather Gloves are associated with: 
+●​ Crit Rate +5% 
+●​ Crit Damage +50% 
+●​ Crits inflict Bleed 
+This matters because it connects crit with the Bleed / Laceration / debuff family, not just raw 
+crit. 
+SS / advanced gear sources 
+The image shows additional SS-style gear crit sources: 
+●​ 10% Crit Rate 
+●​ 20% Crit Rate 
+●​ AF3: +3% extra Crit Rate per boss / elite kill 
+●​ 30% Crit Rate 
+●​ V4: +20% Crit Rate during laser charge 
+Optimizer notes 
+Gear crit should not be treated as permanent global. It only counts if the item is equipped and 
+the condition is active. 
+Database flags: 
+SourceCategory = Gear 
+Slot = Gloves / Necklace / SSGear 
+TargetScope = CurrentBuildOnly 
+ConditionType = Equipped / BattleConditional 
+DPSRelevant = High 
+Example row: 
+
+--- PAGE 25 ---
+Eternal_Gloves | Gear | Gloves | Red | CritRate | +10% | CurrentBuild | Equipped | Yes | Also 
+gives CritDamage +100% 
+Example row: 
+SS_Gear_Laser_Charge | Gear | UnknownSSSlot | V4 | CritRate | +20% | CurrentBuild | During 
+laser charge | Yes | Temporary burst condition 
+ 
+3. Skill Crit Rate 
+This is associated with: 
+In-Battle Skills | Survivor Skill | Stance | Temporary DPS 
+The image shows skill-based crit rate sources: 
+●​ King-related skill source: Crit Rate +40% 
+●​ King-related evolved / upgraded source: Crit Rate +50% 
+●​ Yang in Palm stance: Crit Rate +20% 
+Optimizer notes 
+These should be stored as in-run conditional sources, not account stats. 
+Important: Yang’s Palm stance crit should only count when the optimizer is modeling Master 
+Yang in Palm stance. Do not apply it to every survivor. 
+Database flags: 
+SourceCategory = Skill 
+TargetScope = ActiveRunOnly 
+ConditionType = SkillSelected / StanceActive 
+DPSRelevant = High 
+Example row: 
+Yang_Palm_Stance | Skill | MasterYang | CritRate | +20% | ActiveSurvivorOnly | Palm stance 
+active | Yes 
+ 
+4. Collectible Crit Rate 
+
+--- PAGE 26 ---
+This is associated with: 
+Collectibles | Red-star thresholds | Global DPS 
+The source shows two collectible groups for Crit Rate: 
+Red collectible group 
+●​ 10 collectibles 
+●​ Each gives Crit Rate +10% 
+●​ Total shown: 100% global Crit Rate 
+Yellow collectible group 
+●​ 11 collectibles 
+●​ Each gives Crit Rate +5% 
+●​ Total shown: 55% global Crit Rate 
+Optimizer notes 
+This is extremely important later-game account scaling. 
+For now, because the image uses icons, the optimizer should store each collectible by 
+icon/source until we map the exact collectible names from the collectible edition images. 
+Database flags: 
+SourceCategory = Collectible 
+TargetScope = Global 
+ConditionType = OwnedCollectibleStarThreshold 
+DPSRelevant = Very High 
+Example row: 
+Collectible_CR_Icon_01 | Collectible | UnknownNamePending | CritRate | +10% | Global | 
+Requires listed star threshold | Yes | Map exact name from Collectibles Edition source 
+ 
+5. Master Yang awakening Crit Rate 
+This is associated with: 
+Master Yang | Awakening Red Stars | Active Survivor DPS 
+
+--- PAGE 27 ---
+The source shows Yang / panda crit rate from red awakening stars: 
+●​ 1 red star: Crit Rate +5% 
+●​ 4 red stars: additional +10% 
+●​ 6 red stars: additional +15% 
+●​ Total: 30% Crit Rate 
+Optimizer notes 
+This should probably be treated as Master Yang active-survivor value, not global, unless 
+another source confirms it is global. 
+Database flags: 
+SourceCategory = SurvivorAwakening 
+Survivor = MasterYang 
+StatType = CritRate 
+TargetScope = ActiveSurvivorLikely 
+ConditionType = AwakeningLevel 
+DPSRelevant = High 
+ 
+6. Talent Crit Rate 
+This is associated with: 
+Talents | Expose Weakness | Global Account Stat 
+The source shows: 
+●​ Talent: Expose Weakness 
+●​ Level 40 
+●​ Crit Rate +8% 
+●​ Marked as global 
+Optimizer notes 
+This is a clean global stat. 
+Database row: 
+Expose_Weakness_Lv40 | Talent | CritRate | +8% | Global | Permanent | Yes 
+ 
+
+--- PAGE 28 ---
+7. Pet Crit Rate 
+This is associated with: 
+Pet Skill | Motivation | Pet / build-dependent DPS 
+The source shows: 
+●​ Pet skill: Motivation 
+●​ Crit Rate +3% / +4% / +5% 
+The value likely depends on the pet skill level / rarity. 
+Optimizer notes 
+This should only count when the pet has the skill equipped/active. 
+Database flags: 
+SourceCategory = PetSkill 
+PetSkill = Motivation 
+StatType = CritRate 
+Value = 3/4/5% 
+TargetScope = CurrentPetBuild 
+ConditionType = EquippedPetSkill 
+DPSRelevant = Medium/High 
+ 
+8. Donatello Crit Rate passive 
+This is associated with: 
+Donatello | Brotherhood | TMNT Passive Count | Global / Loadout 
+Scaling 
+The source shows: 
+●​ Donatello 1 red star 
+●​ Crit Rate: 3% / 6% / 9% 
+●​ Text: 3% per equipped TMNT passive 
+This connects directly to the previous SP survivor source. 
+
+--- PAGE 29 ---
+Optimizer notes 
+This is one of the most important synergy stats because it scales based on how many TMNT/SP 
+passives are equipped. 
+Database flags: 
+SourceCategory = SurvivorPassive 
+Survivor = Donatello 
+Passive = Brotherhood 
+StatType = CritRate 
+ScalingInput = EquippedTMNTPassiveCount 
+ValuePerPassive = +3% 
+MaxShown = +9% 
+ConditionType = DonatelloAwakeningUnlocked + TMNTPassivesEquipped 
+DPSRelevant = Very High 
+Example row: 
+Donatello_Brotherhood_CR | SurvivorPassive | Donatello | CritRate | +3% per equipped TMNT 
+passive | LoadoutScaling | Requires Don A1 | Yes 
+ 
+9. Combat Harmony Crit Rate 
+This is associated with: 
+Combat Harmony | Star Level | Global Account Stat 
+The source shows: 
+●​ Combat Harmony level 1: Crit Rate +2% 
+●​ Level 3: additional +3% 
+●​ Level 6: additional +5% 
+●​ Level 9: additional +5% 
+●​ Level 12: additional +5% 
+●​ Level 15: additional +5% 
+●​ Level 18: additional +5% 
+Total shown: 
+30% global Crit Rate 
+
+--- PAGE 30 ---
+Optimizer notes 
+This is global and should have high priority in the account stat model. 
+Database row: 
+Combat_Harmony_CR | CombatHarmony | CritRate | +30% total | Global | Based on harmony 
+level | Yes 
+ 
+Crit Damage section 
+1. Default Crit Damage 
+The source shows: 
+Default Crit Damage = 100% 
+This should be stored as the baseline, not as an upgrade. 
+Important: do not accidentally double count this as a bonus source. 
+Database row: 
+Default_Crit_Damage | BaseStat | CritDamage | 100% | AllBuilds | Baseline | Yes | Do not treat 
+as upgrade 
+ 
+2. Survivor level Crit Damage 
+This is associated with: 
+Survivor Level | Global Crit Damage | Account DPS 
+The source shows 60% total global Crit Damage from survivor level bonuses. 
+Visible sources include: 
+●​ One survivor at level 40: Crit Damage +5% 
+●​ King level 120: Crit Damage +5% 
+●​ Tsukuyomi level 120: Crit Damage +5% 
+●​ Worm level 120: Crit Damage +5% 
+
+--- PAGE 31 ---
+●​ Metallia / red-haired survivor level 120: Crit Damage +10% 
+●​ Catnips / cat-like survivor level 120: Crit Damage +10% 
+●​ SpongeBob level 40: Crit Damage +5% 
+●​ Squidward level 40: Crit Damage +5% 
+●​ Patrick level 40: Crit Damage +5% 
+●​ Sandy level 40: Crit Damage +5% 
+Optimizer notes 
+This is permanent account DPS scaling. 
+Database flags: 
+SourceCategory = SurvivorLevel 
+StatType = CritDamage 
+TargetScope = AllSurvivors 
+ConditionType = PermanentGlobal 
+DPSRelevant = Very High 
+ 
+3. Gear Crit Damage 
+This is associated with: 
+Equipped Gear | Gloves / SS gear / Necklace | Conditional DPS 
+The source shows several gear Crit Damage sources: 
+●​ V2 gear source: Crit Damage +36% 
+●​ V4 gear source: Crit Damage +60% 
+●​ Leather Gloves: Crit Damage +50% 
+●​ Eternal Gloves red: Crit Damage +100% 
+●​ Gear + collectible condition: Crit Damage +20% 
+●​ SS necklace / energy shield condition: 
+○​ E5: 0–50%, listed as 10% per energy level 
+○​ E1: if Crit Rate >100%, Crit Damage +30% 
+○​ E5: if Crit Rate >150%, Crit Damage +100% 
+Optimizer notes 
+This is where crit math becomes conditional. The optimizer needs to know the player’s Crit 
+Rate before applying some Crit Damage bonuses. 
+
+--- PAGE 32 ---
+Especially important: 
+If Crit Rate >100%, add +30% Crit Damage 
+If Crit Rate >150%, add +100% Crit Damage 
+That means Crit Rate can unlock more Crit Damage. This makes Crit Rate more valuable than it 
+looks. 
+Database flags: 
+SourceCategory = Gear 
+StatType = CritDamage 
+ConditionType = Equipped / Threshold / EnergyLevel 
+DependsOn = CritRate / EnergyLevel / GearRarity 
+DPSRelevant = Very High 
+Example row: 
+SS_Necklace_CR_Threshold_E1 | Gear | Necklace | CritDamage | +30% | CurrentBuild | 
+Requires CritRate >100% | Yes 
+Example row: 
+SS_Necklace_CR_Threshold_E5 | Gear | Necklace | CritDamage | +100% | CurrentBuild | 
+Requires CritRate >150% | Yes 
+ 
+4. Skill Crit Damage 
+This is associated with: 
+Survivor Skill | Awakening Stars | Active Survivor DPS 
+The source shows: 
+Metallia / red-haired survivor skill 
+●​ 1 red star: Crit Damage +20% 
+●​ 3 red stars: additional +20% 
+●​ 5 red stars: additional +20% 
+Total shown: 
++60% Crit Damage 
+
+--- PAGE 33 ---
+King evolved skill 
+●​ King-related evolved skill: Crit Damage +25% 
+Optimizer notes 
+These are not global. They depend on active survivor and skill state. 
+Database flags: 
+SourceCategory = Skill 
+StatType = CritDamage 
+TargetScope = ActiveRunOnly 
+ConditionType = ActiveSurvivor / SkillUnlocked / AwakeningLevel 
+DPSRelevant = High 
+ 
+5. Collectible Crit Damage 
+This is associated with: 
+Collectibles | Red-star thresholds | Global DPS 
+The source shows two collectible groups: 
+Red collectible group 
+●​ 10 collectibles 
+●​ Each gives Crit Damage +10% 
+●​ Total: 100% global Crit Damage 
+Yellow collectible group 
+●​ 13 collectibles 
+●​ Each gives Crit Damage +5% 
+●​ Total: 65% global Crit Damage 
+Optimizer notes 
+This should be connected to the collectible database later. For now, store by icon ID and source 
+image. 
+
+--- PAGE 34 ---
+Database flags: 
+SourceCategory = Collectible 
+StatType = CritDamage 
+TargetScope = Global 
+ConditionType = OwnedCollectibleStarThreshold 
+DPSRelevant = Very High 
+ 
+6. Master Yang awakening Crit Damage 
+This is associated with: 
+Master Yang | Awakening Red Stars | Active Survivor DPS 
+The source shows: 
+●​ 1 red star: Crit Damage +5% 
+●​ 4 red stars: additional +10% 
+●​ 6 red stars: additional +25% 
+Total shown: 
+40% Crit Damage 
+Optimizer notes 
+Treat this as Yang-specific unless another source confirms it is global. 
+Database flags: 
+SourceCategory = SurvivorAwakening 
+Survivor = MasterYang 
+StatType = CritDamage 
+ValueTotal = +40% 
+TargetScope = ActiveSurvivorLikely 
+ConditionType = AwakeningLevel 
+DPSRelevant = High 
+ 
+7. Survivor Synergy Crit Damage 
+
+--- PAGE 35 ---
+This is associated with: 
+Survivor Synergy | Global Account Stat | Crit Damage 
+The source shows: 
+●​ Synergy level 5: Crit Damage +5% 
+●​ Synergy level 10: additional +5% 
+●​ Synergy level 15: additional +10% 
+●​ Synergy level 20: additional +10% 
+Total: 
+30% global Crit Damage 
+Optimizer notes 
+This is clean global DPS. 
+Database row: 
+Survivor_Synergy_CD | SurvivorSynergy | CritDamage | +30% total | Global | Based on synergy 
+level | Yes 
+ 
+8. Pet Crit Damage 
+This is associated with: 
+Pet | Rex | Inspiration | Active Pet DPS 
+The source shows two pet-related Crit Damage sources. 
+Rex 
+●​ Rex at 3 yellow stars: Crit Damage +5% 
+●​ Rex at red stars: Crit Damage +10% 
+●​ Note: Rex must be active 
+This means Rex is not just a passive account source. It only counts when Rex is deployed. 
+Inspiration 
+
+--- PAGE 36 ---
+●​ Pet skill: Inspiration 
+●​ Crit Damage +6% / +10% 
+Optimizer notes 
+Pet crit damage should only be counted if the correct pet/skill is active. 
+Database flags: 
+SourceCategory = Pet 
+Pet = Rex 
+StatType = CritDamage 
+ConditionType = ActivePetRequired 
+DPSRelevant = Medium/High 
+Example row: 
+Rex_Active_CD | Pet | Rex | CritDamage | +5%/+10% | CurrentPetBuild | Rex must be active | 
+Yes 
+Example row: 
+PetSkill_Inspiration | PetSkill | Inspiration | CritDamage | +6%/+10% | CurrentPetBuild | Skill 
+equipped | Yes 
+ 
+9. Donatello Crit Damage passive 
+This is associated with: 
+Donatello | Brotherhood | TMNT Passive Count | Loadout Scaling 
+The source shows: 
+●​ Donatello 2 red stars 
+●​ Crit Damage: 3% / 6% / 9% 
+●​ Text: 3% per equipped TMNT passive 
+This connects with Donatello’s Brotherhood passive from the SP survivor source. 
+Database flags: 
+SourceCategory = SurvivorPassive 
+Survivor = Donatello 
+
+--- PAGE 37 ---
+Passive = Brotherhood 
+StatType = CritDamage 
+ScalingInput = EquippedTMNTPassiveCount 
+ValuePerPassive = +3% 
+MaxShown = +9% 
+ConditionType = DonatelloAwakeningUnlocked + TMNTPassivesEquipped 
+DPSRelevant = Very High 
+ 
+Most important optimizer takeaways 
+1. Crit Rate is not just a damage stat — it unlocks Crit 
+Damage bonuses 
+Because some gear gives extra Crit Damage only when Crit Rate is above a threshold: 
+Crit Rate >100% = extra Crit Damage 
+Crit Rate >150% = much bigger extra Crit Damage 
+So the calculator should give extra value to Crit Rate when it helps cross those breakpoints. 
+ 
+2. Global crit sources are the best long-term investments 
+Highest-value global sources in this image: 
+Survivor Levels 
+Collectibles 
+Combat Harmony 
+Talents 
+Survivor Synergy 
+TMNT 5-star bonuses 
+These help every build and every mode. 
+ 
+3. Yang, King, Metallia, Donatello, and pets should be 
+conditional 
+
+--- PAGE 38 ---
+These should not be blindly added to all builds. 
+Use conditions like: 
+ActiveSurvivor = MasterYang 
+ActiveSurvivor = King 
+ActiveSurvivor = Metallia 
+DonatelloPassiveUnlocked = True 
+EquippedTMNTPassiveCount = 0/1/2/3 
+ActivePet = Rex 
+PetSkill = Inspiration or Motivation 
+ 
+Clean database format for this data type 
+Use this table structure: 
+CritSourceID 
+StatType 
+SourceCategory 
+SourceName 
+AssociatedCharacter 
+AssociatedItem 
+AssociatedPet 
+AssociatedSkill 
+UnlockRequirement 
+Value 
+ValueType 
+TargetScope 
+ConditionType 
+IsGlobal 
+IsConditional 
+DPSRelevant 
+StackingGroup 
+Notes 
+SourceImage 
+SourceDate 
+Example rows: 
+TMNT_Raphael_5Star_CR | CritRate | SurvivorStar | Raphael | None | None | None | 5 yellow 
+stars | 8% | FlatPercent | AllSurvivors | Permanent | Yes | No | VeryHigh | GlobalCritRate | 
+Special event survivor | Crit_Rate_And_Damage_2025-03-09 
+
+--- PAGE 39 ---
+Donatello_Brotherhood_CR | CritRate | SurvivorPassive | Donatello | None | None | Brotherhood 
+| Don A1 + equipped TMNT passives | 3% per passive | ScalingPercent | CurrentLoadout | 
+PassiveCount | Maybe | Yes | VeryHigh | LoadoutCritRate | Max shown 9% | 
+Crit_Rate_And_Damage_2025-03-09 
+SS_Necklace_CR_Threshold_CD | CritDamage | Gear | None | SS Necklace | None | None | 
+Crit Rate >150% | 100% | FlatPercent | CurrentBuild | Threshold | No | Yes | VeryHigh | 
+ConditionalCritDamage | Requires crit breakpoint | Crit_Rate_And_Damage_2025-03-09 
+Rex_Active_CD | CritDamage | Pet | None | None | Rex | None | Rex active | 5%/10% | 
+FlatPercent | CurrentPetBuild | ActivePet | No | Yes | MediumHigh | PetCritDamage | Rex must 
+be active | Crit_Rate_And_Damage_2025-03-09 
+ 
+Formula logic for the optimizer 
+Store the pieces separately first: 
+TotalCritRate = 
+ GlobalCritRate 
++ GearCritRate_Equipped 
++ SkillCritRate_Active 
++ PetCritRate_Active 
++ SurvivorPassiveCritRate_Active 
++ ConditionalCritRate_Active 
+TotalCritDamage = 
+ DefaultCritDamage 
++ GlobalCritDamage 
++ GearCritDamage_Equipped 
++ SkillCritDamage_Active 
++ PetCritDamage_Active 
++ SurvivorPassiveCritDamage_Active 
++ ConditionalCritDamage_Active 
+Then calculate DPS after checking conditions: 
+If TotalCritRate > 100: 
+   apply CritDamage threshold bonuses that require CR > 100 
+ 
+If TotalCritRate > 150: 
+   apply CritDamage threshold bonuses that require CR > 150 
+Do not hardcode the final damage formula yet until we verify Survivor.io’s exact crit math. But 
+for ranking choices, this source clearly says Crit Rate and Crit Damage are major DPS 
+multipliers and should be weighted very heavily. 
+
+--- PAGE 40 ---
+Data type 3: Pets, Pet Skills, Pet 
+Awakening 
+Sources used here: 
+Pets_2024-11-28 
+Pet_Skills_2024-09-09 
+Pet_Awakening_Guide_2024-10-25 
+Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04 
+Pet_Awakening_Guide_-_Murica_2024-10-10 
+Pet_Awakening_Guide_-_Croaky_2024-10-11 
+Pet_Awakening_Guide_-_Rex_2024-10-11 
+This data type belongs in the optimizer as: 
+Pet | Pet Skill | Pet Awakening | Assist Skill | Pet Toy | Pet Affection | Pet DPS | Owner DPS Buff 
+| Pet Crit | Pet Cooldown | Pet Inherited ATK | Pet Utility 
+For your calculator, pets matter in two different ways: 
+1.​ Direct pet damage — Murica/Eagle whirlwind, Crab bullets, Robot lasers, etc. 
+2.​ Owner DPS buffs — Crit Rate, Crit Damage, Skill Damage, cooldown, pet skill damage, 
+inherited ATK. 
+HP, damage reduction, revival time, and invincibility should be stored, but mostly marked as 
+ignore for DPS unless later you make a survival-mode version. 
+ 
+Main pet structure 
+Every pet has: 
+Primary Attack 
+Fixed pet skill pool 
+Awakening/star progression 
+Assist skill compatibility 
+Disposition 
+Toy/affection bonus 
+The optimizer should not treat all pets equally. A pet is valuable based on: 
+
+--- PAGE 41 ---
+PetBaseAttack 
+PetAttackCooldown 
+PetSkillDamage 
+PetCooldownReduction 
+PetCritRate 
+PetCritDamage 
+PetInheritedATK 
+OwnerCritRateBuff 
+OwnerCritDamageBuff 
+OwnerSkillDamageBuff 
+AssistSkillSetup 
+AwakeningLevel 
+ 
+Pet list from Pets_2024-11-28 
+1. Frog / Croaky 
+Main association 
+Frog | Croaky | Corrosive Saliva | Poison/DOT style damage | Owner Skill Damage | Crit Rate | 
+Crit Damage 
+Primary attack 
+Frog spits corrosive saliva that deals: 
+200% ATK damage every 1 second for 2 seconds 
+Cooldown: 1 second 
+This is a damage-over-time style attack. 
+Built-in skill themes 
+Frog/Croaky is associated with: 
+Owner Skill Damage 
+Pet inherited HP 
+Battle EXP gain 
+Owner Crit Rate 
+Owner Crit Damage 
+
+--- PAGE 42 ---
+Visible pet effects include: 
+Owner Skill Damage +3% 
+Pet inherited HP +10% 
+Owner Battle EXP gain +7.5% 
+Owner Crit Rate +4% 
+Owner Crit Damage +10% 
+Optimizer notes 
+Croaky is not just a pet attack pet. It also has owner DPS buff value because it can connect to 
+Skill Damage, Crit Rate, and Crit Damage. 
+The pet awakening guide says Rex or Croaky should be taken to R5 first, because both are 
+close in total damage. 
+Database flags: 
+Pet = Croaky 
+PrimaryAttack = Corrosive Saliva 
+DamageType = DOT / Poison-like 
+OwnerSkillDamageSource = Yes 
+OwnerCritRateSource = Yes 
+OwnerCritDamageSource = Yes 
+PetDirectDamage = Medium/High 
+DPSRelevant = High 
+ 
+2. Fish 
+Main association 
+Fish | Explosive Bubbles | Explosion Damage | Battle EXP | Time Stop 
+Primary attack 
+Fish spits explosive bubbles: 
+Bubble hit damage: 200% ATK 
+Explosion damage: 200% ATK 
+Cooldown: 1 second 
+
+--- PAGE 43 ---
+Built-in skill themes 
+Fish is associated with: 
+Battle EXP gain 
+Collision damage reduction 
+Shot damage reduction 
+Pet size/range 
+Time Stop 
+The red skill shown is: 
+When owner's HP is below 30%, stops time and freezes all enemies for 5 seconds. 
+During this, player and pet are invincible. 
+Cooldown: 60 seconds. 
+Optimizer notes 
+Fish has some damage from explosion, but a lot of its value is utility/survival, not pure DPS. 
+Database flags: 
+Pet = Fish 
+PrimaryAttack = Explosive Bubbles 
+DamageType = Explosion / AoE 
+Utility = Time Stop 
+DPSRelevant = Medium 
+IgnoreForDPS = Time Stop, damage reduction, survival effects 
+ 
+3. Dog / Rex 
+Main association 
+Dog | Rex | Yell Attack | Owner Crit Rate | Owner Crit Damage | Damage Transfer | Pet HP 
+Absorb 
+Primary attack 
+Dog yells at enemies with loud noises: 
+250% ATK damage 
+
+--- PAGE 44 ---
+Cooldown: 1 second 
+Built-in skill themes 
+Dog/Rex is associated with: 
+Owner Crit Rate 
+Owner Crit Damage 
+Pet movement speed 
+Pet HP absorb 
+Damage transfer 
+Visible pet effects include: 
+Owner Crit Rate +3% 
+Owner Crit Damage +6% 
+Pet movement speed +75% 
+Pet HP absorb from attacks +2% 
+Takes 30% damage in place of owner 
+Rex awakening guide 
+The Rex guide recommends assist skills: 
+Raid* 
+Strong 
+Anything 
+Disposition: 
+Hot-blooded 
+Battler 
+Rex shares the same key owner-buff skills as Croaky: 
+Battle Lust 
+Diligence 
+Encouragement 
+Inspiration 
+Motivation 
+Vampirism 
+Optimizer notes 
+
+--- PAGE 45 ---
+Rex matters because it can support owner Crit Rate and Crit Damage, and the awakening 
+cost guide specifically says Rex or Croaky should be pushed to R5 first. 
+Database flags: 
+Pet = Rex 
+PrimaryAttack = Yell 
+OwnerCritRateSource = Yes 
+OwnerCritDamageSource = Yes 
+SurvivalUtility = Damage transfer 
+DPSRelevant = High 
+ 
+4. Turtle 
+Main association 
+Turtle | Shockwave | Damage Reduction | Revival | Tank Pet 
+Primary attack 
+Turtle leaps up and smashes the ground: 
+Shockwave damage: 300% ATK 
+Cooldown: 1 second 
+Built-in skill themes 
+Turtle is associated with: 
+Shot damage reduction 
+Collision damage reduction 
+Pet revival time reduction 
+Pet inherited HP 
+Pet damage taken reduction 
+Visible effects include: 
+Owner Shot Damage Reduction +10% 
+Owner Collision Damage Reduction +10% 
+Pet revival time -30% 
+Pet inherited HP +15% 
+
+--- PAGE 46 ---
+Pet damage taken -60% 
+Optimizer notes 
+Turtle is mostly a survival/tank pet. For your damage-only calculator, most of this gets stored 
+but not scored. 
+Database flags: 
+Pet = Turtle 
+PrimaryAttack = Shockwave 
+DamageType = AoE 
+TankUtility = High 
+DPSRelevant = Low/Medium 
+IgnoreForDPS = Most defensive effects 
+ 
+5. Eagle / Murica 
+Main association 
+Eagle | Murica | Whirlwind | Penetrating Damage | Cooldown Reduction | Crush | Pet Skill 
+Damage 
+Primary attack 
+Eagle flaps wings to create a whirlwind: 
+350% ATK damage 
+Whirlwind penetrates all enemies 
+Cooldown: 1 second 
+This is why Murica is so strong early/mid game. Penetrating attacks are very valuable when they 
+hit multiple enemies or bosses consistently. 
+Built-in skill themes 
+Murica is associated with: 
+Pet size/range 
+Pet ATK damage 
+
+--- PAGE 47 ---
+Pet cooldown reduction 
+Pet movement speed 
+Crush / 10x damage chance 
+Visible effects include: 
+Pet becomes bigger 
+Pet ATK and skill range +15% 
+Pet ATK damage +15% 
+Pet ATK and skill cooldown -20% 
+Pet movement speed +75% 
+Attacks have 5% chance to deal 10x damage to enemies below 50% HP 
+Murica awakening guide 
+The guide recommends assist skills: 
+Raid* 
+Powerful 
+Boost 
+Penetration 
+Disposition: 
+Shrewd 
+Hot-blooded 
+Battler 
+Important note from the source: 
+Replace Motivation with Inspiration if high Crit Rate % 
+After Y5, look at switching to Rex or Croaky. 
+Otherwise, use the Pet Optimizer. 
+Optimizer notes 
+Murica should be modeled as a direct pet DPS pet. 
+Its strongest associations are: 
+Whirlwind 
+Penetration 
+Cooldown reduction 
+Skill damage 
+Crush 
+
+--- PAGE 48 ---
+Pet ATK damage 
+Database flags: 
+Pet = Murica 
+PrimaryAttack = Whirlwind 
+DamageType = Penetrating 
+PetCooldownReduction = Yes 
+PetSkillDamage = Yes 
+Crush = Yes 
+DirectPetDPS = Very High 
+DPSRelevant = Very High 
+ 
+6. Cat 
+Main association 
+Cat | Claw Attack | Pet Crit Rate | Pet Cooldown | Nine Lives 
+Primary attack 
+Cat scratches enemies with sharp claws: 
+200% ATK damage 
+Cooldown: 0.5 seconds 
+This means it attacks faster than most pets. 
+Built-in skill themes 
+Cat is associated with: 
+Pet ATK and skill Crit Rate 
+Pet inherited HP 
+Pet cooldown reduction 
+Pet ATK damage 
+Fatal-damage protection 
+Visible effects include: 
+Pet ATK and skill Crit Rate +15% 
+
+--- PAGE 49 ---
+Pet inherited HP +10% 
+Pet ATK and skill cooldown -20% 
+Pet ATK damage +20% 
+When player and pet take fatal damage, nullify that attack and heal allies for 50% HP 
+Cooldown: 100 seconds 
+Optimizer notes 
+Cat has real DPS value because of fast attack speed, pet crit, pet cooldown, and pet ATK 
+damage. The fatal-damage protection is survival, so store it but ignore for DPS. 
+Database flags: 
+Pet = Cat 
+PrimaryAttack = Claws 
+AttackCooldown = 0.5s 
+PetCritRateSource = Yes 
+PetCooldownReduction = Yes 
+PetATKDamageSource = Yes 
+DPSRelevant = High 
+ 
+7. Crab 
+Main association 
+Crab | Water Bullets | Pet ATK Damage | Pet Crit Rate | Pet Inherited ATK | Pet Cooldown 
+Primary attack 
+Crab fires powerful water bullets: 
+500% ATK damage 
+Cooldown: 1 second 
+Built-in skill themes 
+Crab is associated with: 
+Pet HP absorb 
+Pet ATK damage 
+
+--- PAGE 50 ---
+Pet ATK and skill Crit Rate 
+Pet inherited ATK 
+Pet cooldown reduction 
+Visible effects include: 
+Pet HP absorb from attacks +1% 
+Pet ATK damage +15% 
+Pet ATK and skill Crit Rate +20% 
+Pet inherited ATK +15% 
+Pet ATK and skill cooldown -30% 
+Optimizer notes 
+Crab is a clean pet DPS scaling pet. Unlike Turtle/Fish, most of Crab’s good stats are directly 
+damage-related. 
+Database flags: 
+Pet = Crab 
+PrimaryAttack = Water Bullets 
+PrimaryDamage = 500% ATK 
+PetCritRateSource = Yes 
+PetCooldownReduction = Yes 
+PetInheritedATKSource = Yes 
+PetATKDamageSource = Yes 
+DPSRelevant = High/Very High 
+Since you have cared about Crab before, this source confirms Crab is not random trash. It has a 
+real DPS identity, especially through cooldown, crit rate, inherited ATK, and 500% primary 
+attack. 
+ 
+8. Robot 
+Main association 
+Robot | Burning Lasers | Satellite Cannon | Pet Cooldown | Inherited ATK 
+Primary attack 
+
+--- PAGE 51 ---
+Robot fires 3 burning lasers: 
+3 lasers 
+Each laser deals 400% ATK damage 
+Cooldown: 1 second 
+If all lasers connect, this can be very high theoretical damage. 
+Built-in skill themes 
+Robot is associated with: 
+Pet cooldown reduction 
+Pet revival time 
+Pet damage reduction 
+Pet inherited ATK 
+Satellite Cannon 
+Visible effects include: 
+Pet ATK and skill cooldown -15% 
+Pet revival time -20% 
+Pet damage taken -40% 
+Pet inherited ATK +15% 
+Satellite blast deals 1000% ATK damage 
+Cooldown: 5 seconds 
++250% damage when owner levels up 
+Optimizer notes 
+Robot has high theoretical DPS because of lasers and Satellite Cannon, but the calculator 
+needs to eventually model hit consistency. If the lasers miss or split badly, the real value 
+drops. 
+Database flags: 
+Pet = Robot 
+PrimaryAttack = Burning Lasers 
+PrimaryDamage = 3 x 400% ATK 
+SpecialSkill = Satellite Cannon 
+SpecialDamage = 1000% ATK 
+Cooldown = 5s 
+LevelUpScaling = +250% damage when owner levels up 
+DPSRelevant = High but hit-dependent 
+
+--- PAGE 52 ---
+ 
+Pet skill registry 
+Source: Pet_Skills_2024-09-09 and Pet_Awakening_Guide_2024-10-25 
+This is the skill dictionary. These skills should be stored separately from pets because different 
+pets unlock different skills at different rarity/star levels. 
+ 
+Owner / Survivor buff skills 
+These affect the player, not only the pet. 
+Barrier 
+Increases player's Range Damage Reduction by 10/15% 
+DPSRelevant = No 
+Diligence 
+Increases player's Battle EXP gain by 5/7.5/10% 
+DPSRelevant = Indirect only 
+Encouragement 
+Increases player's Skill Damage by 3/5% 
+DPSRelevant = Yes 
+Guard 
+Increases player's Collision Damage Reduction by 10% 
+DPSRelevant = No 
+Inspiration 
+Increases player's Crit Damage by 6/10% 
+DPSRelevant = Yes 
+Motivation 
+Increases player's Crit Rate by 3/4/5% 
+DPSRelevant = Yes 
+Optimizer notes 
+For your damage-only calculator, the big owner-buff pet skills are: 
+Encouragement = Skill Damage 
+Inspiration = Crit Damage 
+Motivation = Crit Rate 
+
+--- PAGE 53 ---
+Diligence should be stored because faster leveling can matter in chapters, but it is not a direct 
+boss DPS stat. 
+ 
+Pet DPS skills 
+These affect the pet’s own damage. 
+Crush 
+Attacks have 5% chance to deal 10x damage 
+DPSRelevant = Very High 
+Battle Lust 
+Reduces pet cooldowns by 15/20/30% 
+DPSRelevant = Very High 
+Frenzy 
+Increases pet Crit Rate by 15/20/60% 
+DPSRelevant = Very High 
+Gargantua 
+Pet becomes bigger and range increases by 15/20% 
+DPSRelevant = Medium/High because it improves hit coverage 
+High Windchaser 
+Pet movement speed +75% 
+DPSRelevant = Low/Medium, mostly hit consistency 
+Painstrike 
+Increases pet Crit Damage by 60% 
+DPSRelevant = High 
+Sharp Claws 
+Increases pet Skill Damage by 15/20/60% 
+DPSRelevant = Very High 
+Tough Skin 
+Reduces pet damage taken by 40/60% 
+DPSRelevant = No 
+United Effort 
+Increases pet inherited HP by 10/15/35% 
+DPSRelevant = No 
+United Stand 
+Increases pet inherited ATK by 15/35% 
+DPSRelevant = High 
+Unyielding Will 
+Reduces pet revival time by 20/30/40% 
+DPSRelevant = Mostly no 
+Utmost Loyalty 
+
+--- PAGE 54 ---
+Pet takes 30% damage in place of player 
+DPSRelevant = No 
+Vampirism 
+Increases pet HP absorb from attacks by 1/2% 
+DPSRelevant = No, unless survival model is added 
+ 
+Misc pet skills 
+Nine Lives 
+When player and pet take fatal damage, nullifies that attack and heals allies for 50% HP. 
+Cooldown: 100 seconds. 
+DPSRelevant = No 
+Satellite Cannon 
+Guides satellite to blast a shot at a certain area. 
+Damage: 1000% ATK. 
+Cooldown: 5 seconds. 
++250% damage when owner levels up. 
+DPSRelevant = Yes 
+Time Stop 
+When player's HP is below 30%, stops time and freezes enemies for 5 seconds. 
+Player and pet are invincible during it. 
+Cooldown: 60 seconds. 
+DPSRelevant = No, but useful utility 
+ 
+Assist skills 
+Assist skills are separate from the deployed pet’s normal skill set. These should be modeled as: 
+AssistPetSkill | AssistPet | DeployedPetBuff | InBattleScaling 
+The assist skills shown: 
+Boost 
+For every 5 owner levels, pet Range increases by 5/6/7.5/10%. 
+DPSRelevant = Medium/High 
+Durable 
+For every 5 owner levels, pet shot Duration increases by 8/10/12/15%. 
+DPSRelevant = Medium/High if pet projectile duration matters 
+Penetration 
+For every 10/8/6/5 owner levels, penetrated units of pet shot +1. 
+
+--- PAGE 55 ---
+DPSRelevant = High for projectile/whirlwind pets 
+Powerful 
+For every 5 owner levels, pet Skill Damage increases by 5/6/7.5/10%. 
+DPSRelevant = High 
+Strong 
+For every 5 owner levels, pet Max HP increases by 10/12/15/20%. 
+DPSRelevant = No 
+Raid 
+For every 5 owner levels, pet Skill Damage increases by 6/7.5/10%. 
+Bonus trait: deployed pet cooldowns reduced by 10/15/20%. 
+DPSRelevant = Very High 
+Important note: 
+Raid is marked as Gary exclusive. 
+That means the optimizer needs an availability check: 
+If GaryAvailable = false: 
+   RaidAssistSkill = unavailable 
+ 
+Recommended pet awakening setups 
+Murica 
+Source: Pet_Awakening_Guide_-_Murica_2024-10-10 
+Murica recommended assist skills: 
+Raid* 
+Powerful 
+Boost 
+Penetration 
+Disposition: 
+Shrewd 
+Hot-blooded 
+Battler 
+Important source note: 
+
+--- PAGE 56 ---
+Replace Motivation with Inspiration if high Crit Rate % 
+After Y5, look at making the switch to Rex or Croaky. 
+Otherwise, use the Pet Optimizer. 
+Optimizer interpretation 
+Murica is great when the build needs: 
+Direct pet DPS 
+Whirlwind damage 
+Cooldown reduction 
+Skill damage scaling 
+Penetration/range scaling 
+But once your account has high crit and stronger pet awakenings, the guide says to consider 
+Rex or Croaky after Y5. 
+ 
+Croaky 
+Source: Pet_Awakening_Guide_-_Croaky_2024-10-11 
+Croaky recommended assist skills: 
+Boost 
+Raid* 
+Strong 
+Disposition: 
+Shrewd 
+Hot-blooded 
+Battler 
+Important note: 
+Use a lower tier of Battle Lust for every tier of Raid used. 
+Optimizer interpretation 
+Croaky is strong because it mixes: 
+Owner Skill Damage 
+
+--- PAGE 57 ---
+Owner Crit Rate 
+Owner Crit Damage 
+Pet damage scaling 
+Assist scaling 
+Croaky should be scored as a strong long-term pet, not just as an early pet. 
+ 
+Rex 
+Source: Pet_Awakening_Guide_-_Rex_2024-10-11 
+Rex recommended assist skills: 
+Raid* 
+Strong 
+Anything 
+Disposition: 
+Hot-blooded 
+Battler 
+Optimizer interpretation 
+Rex is valuable because it has: 
+Owner Crit Rate 
+Owner Crit Damage 
+Damage transfer utility 
+Pet HP absorb 
+The pet cost guide also says Rex or Croaky should be taken to R5 first because they are close 
+in total damage. 
+ 
+Pet awakening costs and affection 
+bonuses 
+Source: Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04 
+
+--- PAGE 58 ---
+This is a cost/progression table. It matters because the optimizer needs to decide where 
+awakening crystals should go. 
+Total awakening crystals 
+Total crystals to full pet awakening path shown: 350 
+Awakening crystal costs by stage 
+Y1: +5 crystals 
+Y2: +5 crystals 
+Y3: +10 crystals 
+Y4: +20 crystals 
+Y5: +30 crystals 
+R1: +40 crystals 
+R2: +60 crystals 
+R3: +60 crystals 
+R4: +60 crystals 
+R5: +60 crystals 
+Total: 350 crystals 
+Deploy count shown 
+Y1: 3 deployed pets 
+Y2: 3 deployed pets 
+Y3: 5 deployed pets 
+Y4: 5 deployed pets 
+Y5: 7 deployed pets 
+R1: 7 deployed pets 
+R2: 9 deployed pets 
+R3: 9 deployed pets 
+R4: 9 deployed pets 
+R5: 15 deployed pets 
+Affection level caps 
+Base: Level 10 
+Y1: Level 20 
+Y2: Level 30 
+Y3: Level 40 
+Y4: Level 50 
+Y5: Level 60 
+R1: Level 70 
+R2: Level 80 
+
+--- PAGE 59 ---
+R3: Level 90 
+R4: Level 105 
+R5: Level 130 
+Player ATK from affection 
+The table gives player ATK per affection level and max ATK. 
+Important max ATK values: 
+Base: 300 max ATK 
+Y1: 900 max ATK 
+Y2: 1800 max ATK 
+Y3: 2700 max ATK 
+Y4: 3600 max ATK 
+Y5: 4800 max ATK 
+R1: 6000 max ATK 
+R2: 7500 max ATK 
+R3: 9000 max ATK 
+R4: 11.3k max ATK 
+R5: 15k max ATK 
+Optimizer notes 
+This is very important because pet awakening is not only pet damage. It gives player ATK 
+through affection. 
+For the calculator: 
+PetAffectionATK = Global/player ATK source 
+PetAwakeningCrystalCost = investment cost 
+PetAwakeningStage = unlock requirement 
+HP values should be stored but not scored for your DPS optimizer. 
+ 
+Preferred pet toys 
+The source groups toys by pet pair. 
+Dog + Cat 
+Robot + Frog 
+
+--- PAGE 60 ---
+Fish + Eagle 
+Turtle + Crab 
+Toy stat values shown: 
+Blue toy: 3 ATK, 12 HP 
+Purple toy: 15 ATK, 60 HP 
+Yellow toy: 45 ATK, 180 HP 
+Important note: 
+You must level up affection before gaining the benefits. 
+Optimizer notes 
+Toy stats are small individually but permanent. Since your optimizer cares about damage: 
+ToyATK = count 
+ToyHP = store but ignore 
+ 
+Pet awakening investment advice from the 
+source 
+The source gives a clear priority rule: 
+1. Take Rex or Croaky to R5 first. Both are very close in total damage. 
+2. After that, take each pet to Y5 with a balanced approach to get the most ATK per crystal. 
+  Example: all pets to Y2, then all to Y3, etc. 
+3. Finally, take one pet from each gift type to R5. 
+It also says: 
+Since Y5 to R5 takes 280 crystals, the average for all 5 levels is about 36.5 crystals. 
+It is not worth rushing R1-R3 at worse rates when cheaper Y-level sources still exist. 
+Optimizer interpretation 
+This means the optimizer should not blindly push one pet from Y5 to R1/R2/R3 if the player has 
+cheaper account-wide ATK available from other pets. 
+The calculator needs a value function like: 
+
+--- PAGE 61 ---
+ATK gained per awakening crystal 
+DPS gained per awakening crystal 
+Unlock value from new skill slot 
+Direct pet damage gained 
+Owner DPS buff gained 
+ 
+Biggest DPS-relevant pet stats 
+For the optimizer, the pet system should prioritize: 
+Owner Crit Rate 
+Owner Crit Damage 
+Owner Skill Damage 
+Pet Skill Damage 
+Pet ATK Damage 
+Pet Crit Rate 
+Pet Crit Damage 
+Pet Cooldown Reduction 
+Pet Inherited ATK 
+Pet Range / Penetration 
+Pet Primary Attack Damage 
+Pet Affection ATK 
+Ignore or down-rank: 
+Pet HP 
+Owner HP 
+Damage reduction 
+Revival time 
+Invincibility 
+Damage transfer 
+Time stop 
+Store them anyway, but mark: 
+DPSRelevant = No 
+ 
+Clean database format for this data type 
+Use these tables. 
+
+--- PAGE 62 ---
+Pet base table 
+PetID 
+PetName 
+BaseAnimal 
+PrimaryAttackName 
+PrimaryAttackDescription 
+PrimaryDamagePercent 
+PrimaryCooldown 
+DamageType 
+HitType 
+DPSRelevant 
+Notes 
+SourceImage 
+SourceDate 
+Example: 
+PET_MURICA | Murica | Eagle | Whirlwind | Creates penetrating whirlwind | 350% ATK | 1s | 
+Penetrating | Multi-hit/line | Yes | Strong direct pet DPS | Pets_2024-11-28 
+Example: 
+PET_CRAB | Crab | Crab | Water Bullets | Fires powerful water bullets | 500% ATK | 1s | 
+Projectile | Bullet | Yes | Strong pet DPS scaling from crit/CD/ATK | Pets_2024-11-28 
+ 
+Pet skill table 
+PetSkillID 
+SkillName 
+SkillCategory 
+AffectedTarget 
+AffectedStat 
+ValuePurple 
+ValueYellow 
+ValueRed 
+Condition 
+DPSRelevant 
+Notes 
+SourceImage 
+SourceDate 
+Example: 
+
+--- PAGE 63 ---
+PETSKILL_MOTIVATION | Motivation | SurvivorBuff | Owner | CritRate | 3% | 4% | 5% | Pet skill 
+unlocked/equipped | Yes | Owner DPS crit source | Pet_Skills_2024-09-09 
+Example: 
+PETSKILL_BATTLE_LUST | Battle Lust | PetBuff | Pet | CooldownReduction | 15% | 20% | 30% 
+| Pet skill unlocked/equipped | Yes | Very high pet DPS scaling | Pet_Skills_2024-09-09 
+Example: 
+PETSKILL_CRUSH | Crush | PetBuff | Pet | DamageProc | None | None | 5% chance 10x 
+damage | Pet attacks | Yes | Strong burst pet DPS | Pet_Skills_2024-09-09 
+ 
+Pet awakening cost table 
+AwakeningStage 
+CrystalCost 
+TotalCrystalCost 
+DeployCountRequired 
+SacrificeRequirement 
+AffectionLevelCap 
+PlayerATKPerLevel 
+MaxPlayerATK 
+HPPerLevel 
+MaxHP 
+DPSRelevant 
+SourceImage 
+SourceDate 
+Example: 
+Y5 | 30 | 70 total to Y5 | 7 | Red pet sacrifice | 60 | +120 | 4800 | +480 | 28.8k | Yes for ATK, no 
+for HP | Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04 
+Example: 
+R5 | 60 | 350 total | 15 | Red pet sacrifice | 130 | +150 | 15k | +600 | 78k | Yes for ATK, no for HP 
+| Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04 
+ 
+Pet recommendation table 
+PetID 
+RecommendedStage 
+
+--- PAGE 64 ---
+RecommendedAssist1 
+RecommendedAssist2 
+RecommendedAssist3 
+RecommendedAssist4 
+PreferredDisposition1 
+PreferredDisposition2 
+PreferredDisposition3 
+SpecialNote 
+DPSPriority 
+SourceImage 
+SourceDate 
+Example: 
+PET_MURICA | Y5+ | Raid | Powerful | Boost | Penetration | Shrewd | Hot-blooded | Battler | 
+Replace Motivation with Inspiration if high Crit Rate; after Y5 consider Rex/Croaky | Very High 
+early/mid | Pet_Awakening_Guide_-_Murica_2024-10-10 
+Example: 
+PET_CROAKY | R5 target | Boost | Raid | Strong | None | Shrewd | Hot-blooded | Battler | Use 
+lower tier Battle Lust for each Raid tier used | Very High long-term | 
+Pet_Awakening_Guide_-_Croaky_2024-10-11 
+Example: 
+PET_REX | R5 target | Raid | Strong | Anything | None | Hot-blooded | Battler | None | Rex or 
+Croaky to R5 first; close total damage | Very High long-term | 
+Pet_Awakening_Guide_-_Rex_2024-10-11 
+ 
+Formula logic for pet DPS 
+Keep pet DPS separate first: 
+PetDPS = 
+ PetBaseAttackDamage 
+* PetAttackFrequency 
+* PetATKMultiplier 
+* PetSkillDamageMultiplier 
+* PetCritMultiplier 
+* PetCooldownMultiplier 
+* HitConsistencyMultiplier 
+
+--- PAGE 65 ---
+Then owner DPS buffs from pets: 
+OwnerDPSFromPetBuffs = 
+ OwnerCritRateFromPet 
++ OwnerCritDamageFromPet 
++ OwnerSkillDamageFromPet 
++ PlayerATKFromPetAffection 
+Do not mix these too early. A pet can be good because it does direct damage, or because it 
+buffs the owner. 
+ 
+Important conclusion for the optimizer 
+The pet system is not “just pick Murica forever.” 
+The source data says: 
+Murica = strong direct pet DPS, especially through whirlwind, cooldown, Crush, and assist 
+scaling. 
+Croaky = strong long-term owner/pet DPS mix. 
+Rex = strong long-term owner crit support and total damage contender. 
+Crab = real pet DPS scaling through 500% attack, crit rate, cooldown, and inherited ATK. 
+Robot = high theoretical laser/satellite damage but hit consistency matters. 
+Turtle/Fish = more utility/survival than damage. 
+For your damage-only optimizer, the highest-value pet stats are: 
+Battle Lust 
+Raid 
+Powerful 
+Sharp Claws 
+Frenzy 
+Crush 
+Motivation 
+Inspiration 
+Encouragement 
+United Stand 
+Pet Affection ATK 
+ 
+ 
+
+--- PAGE 66 ---
+Data type 4: SS Gear / Relic Core Gear 
+Pathing 
+Source: SS_Gear_2025-02-06​
+ Game version shown: 3.6​
+ Updated: 2025-02-06 
+This image is not just “equipment.” It is a full SS gear upgrade map showing: 
+SS Gear Slot 
+Base rarity effects 
+Eternal forge path 
+Void forge path 
+Chaos forge path 
+Chaos Fusion Power 
+Collectible set bonuses tied to SS gear 
+Relic/core/fodder cost rows 
+Damage/debuff/crit/shield associations 
+For the optimizer, this should become: 
+SSGear | Slot | ForgePath | ForgeLevel | EffectName | StatAffected | Condition | DPSRelevant | 
+Cost | AssociatedDebuff | AssociatedCollectibleSet 
+Important note: some official item names are not written clearly in the table, so I’m labeling them 
+by slot + effect name when needed. That is safer than inventing a wrong item name. 
+ 
+SS gear slots shown 
+The image has 6 SS gear columns: 
+SS Weapon 
+SS Necklace 
+SS Gloves 
+SS Armor 
+SS Belt 
+SS Boots 
+DPS value by slot 
+
+--- PAGE 67 ---
+For your damage-only optimizer: 
+SS Weapon = Very High DPS 
+SS Gloves = Very High DPS 
+SS Belt = Very High DPS 
+SS Armor = High DPS 
+SS Boots = High but condition-based DPS 
+SS Necklace = Medium/High, mostly skill/shield conditional 
+HP effects should be stored but mostly ignored for DPS. 
+ 
+1. SS Weapon 
+Main association 
+SS Weapon | Starforged Havoc | Havoc Nova | Eternity Ray | Void Fissure | Void Power | 
+Energy Overload | Chaos Meteor | Chilled/Weakened damage 
+This is one of the most important DPS systems because it combines: 
+Skill damage 
+Attack speed/interval changes 
+Void Fissure damage taken debuff 
+Energy Overload stacking 
+Chaos path max-level increases 
+Chilled target damage 
+Weakened target damage 
+Boss lock-on behavior 
+Base / rarity effects 
+ATK +15% 
+Starforge: 
+Triggers Energy Overload 1 time for every 2 Eternity Ray attacks. 
+Increases own skill damage by 30% for 10 seconds. 
+Max 2 stacks. 
+Starforged Havoc: 
+Higher thrust damage with lower HP. 
+ATK +25% 
+Havoc Nova: 
+Releases Void power during a thrust. 
+
+--- PAGE 68 ---
+Targets hit by Void Fissure take an additional 10% damage. 
+Havoc Nova: 
+Outermost rim of Eternity Ray has suppression force. 
+Eternal forge path 
+E1: 
+Energy Overload count also recorded when Eternity Ray retracts. 
+Starforge and Havoc start at Lv.3. 
+E2: 
+ATK +10% 
+E3: 
+Super Star: 
+Each Energy Overload stack’s damage increased to 35%. 
+E4: 
+Final ATK +4000 
+E5: 
+Jade Cluster: 
+Energy Overload stacks up to 3 times. 
+Void forge path 
+V1: 
+ATK +10% 
+V2: 
+Disordered Death: 
+Void power damage +80%. 
+Targets hit by Void Fissure take an additional 20% damage. 
+V3: 
+Final ATK +4000 
+V4: 
+Blink: 
+Thrusts performed at low HP reduce base attack intervals by up to 1 second. 
+V5: 
+Final ATK +8000 
+Chaos forge path 
+This source shows Chaos path only under the weapon. 
+C1: 
+Max Level +5 
+C2: 
+Meteorite: 
+
+--- PAGE 69 ---
+When Void Power is fired, additional homing Chaos Meteor fires are launched. 
+Inflicts 10% Vulnerability on hit for 10 seconds. 
+Does not stack. 
+C3: 
+Max Level +5 
+C4: 
+Damage to Weakened targets +20% 
+C5: 
+Max Level +5 
+C6: 
+Shatterstar: 
+When Chaos Meteorite hits enemies, Chaos Shatterstar is triggered. 
+C7: 
+Max Level +5 
+C8: 
+Damage to Chilled targets +30% 
+C9: 
+Max Level +10 
+C10: 
+Warp: 
+After Void Power hits a boss, it locks onto the boss aura and homes back in after flying out to 
+deal damage again. 
+Void Power base damage -30%. 
+Chaos Fusion Power 
+3x: 
+Eternally Immortal: 
+Thrusts no longer depend on HP. 
+All effects trigger at full HP. 
+Targets hit by Void Fissure take +10% additional damage. 
+6x: 
+Infinity Void: 
+Void Power additionally gains 30% of Overload’s damage bonus. 
+Targets hit by Void Fissure take +20% additional damage. 
+9x: 
+Chaos Wind: 
+Removes Eternity Ray and fuses its energy into Void Power, transforming it into Chaos Wind. 
+Post-fusion Chaos Wind triggers Energy Overload. 
+Each Overload stack’s damage boost effect +25%. 
+Optimizer notes 
+This is a core DPS item. The calculator should track: 
+
+--- PAGE 70 ---
+EnergyOverloadStacks 
+SkillDamageBonus 
+VoidFissureDamageTakenBonus 
+VoidPowerDamage 
+ChaosMeteorVulnerability 
+DamageToWeakened 
+DamageToChilled 
+BossLockOnBehavior 
+AttackIntervalReduction 
+MaxSkillLevelIncrease 
+Database flags: 
+Slot = Weapon 
+DPSRelevant = Very High 
+Debuffs = Vulnerability, Void Fissure damage taken, Weakened synergy, Chilled synergy 
+ModeValue = Very High for boss modes and general DPS 
+ 
+2. SS Necklace 
+Main association 
+SS Necklace | Skill Choice | Energy Shield | Clarity | Skill Damage | Reverse Scale | Shield HP 
+This is a mixed item. A lot of it is shield/HP, but the useful DPS parts are: 
+Extra skill choice 
+Skill damage 
+Shield-based skill damage 
+Clarity upgrade 
+Reverse Scale 
+Base / rarity effects 
+Skill choice chances when match starts +1 
+HP +15% 
+Adversity: 
+Gain an energy shield with 30% of Max HP when dying. 
+Once per battle. 
+Resets on revival. 
+HP +25% 
+Clarity: 
+
+--- PAGE 71 ---
+Skill damage +20%. 
+Effect fades on death. 
+Preservation: 
+HP recovery through supplies also restores 10% of energy shield. 
+Shield recovery cannot exceed max HP. 
+Max 100% HP. 
+Eternal forge path 
+E1: 
+Halberd Shield: 
+Shield damage +10%. 
+Damage up when shield is active. 
+Taking damage lasts 10 seconds. 
+Energy shield slowly restores 2.5% HP every second. 
+Cannot exceed max shield HP. 
+E2: 
+HP +10% 
+E3: 
+Shield damage +10%. 
+Violent Backlash: 
+When own HP is higher than 10%, own HP is deducted first before shield HP when taking 
+damage. 
+E4: 
+Final HP +16000 
+E5: 
+Omnicombat: 
+The higher the energy shield’s HP, the higher the damage. 
+For every 25% shield HP, shield damage +5%. 
+Void forge path 
+V1: 
+HP +10% 
+V2: 
+Reverse Scale: 
+When shield HP is higher than own HP, skill damage +10%. 
+V3: 
+Final HP +16000 
+V4: 
+Clarity increases skill damage by +15%. 
+V5: 
+Final HP +32000 
+
+--- PAGE 72 ---
+Optimizer notes 
+The necklace is not a simple raw DPS piece. It needs condition checks. 
+Track: 
+ExtraSkillChoice 
+SkillDamage 
+EnergyShieldPercent 
+ShieldHigherThanHP 
+DeathReset 
+ClarityActive 
+ShieldDamageBoost 
+Database flags: 
+Slot = Necklace 
+DPSRelevant = Medium/High 
+ConditionType = ShieldBased / DeathSensitive / SkillChoice 
+IgnoreForDPS = HP-only lines 
+ 
+3. SS Gloves 
+Main association 
+SS Gloves | Weaken | Damage to Weakened | Red Star passive upgrades | Berserk | Crit 
+Damage from passive levels 
+This is a very important DPS slot because it connects to Weakened target damage and 
+passive skill scaling. 
+Base / rarity effects 
+Hatred: 
+On hit, inflicts Weaken on attacker, reducing its Attack by 10%. 
+ATK +15% 
+Defensive Stance: 
+Restores 15% of Energy Shield when skills level up. 
+ATK +25% 
+Potential Unleashed: 
+All passive skills learned in battle can be upgraded to Red Star, including character-exclusive 
+passives. 
+
+--- PAGE 73 ---
+Amplify: 
++25% damage to Weakened targets. 
+Eternal forge path 
+E1: 
+Berserk: 
++20 seconds Berserk when skill levels up. 
++50% skill damage during Berserk. 
+Defeat monsters to extend Berserk duration. 
+Max 200 seconds. 
+E2: 
+ATK +10% 
+E3: 
+Wondermight: 
+The higher the shield value, the more damage dealt to Weakened targets. 
+For every 20% of Energy Shield value, +2% damage to Weakened targets. 
+E4: 
+Final HP +16000 
+E5: 
+Limit Break: 
++40% Max Energy Shield. 
+Void forge path 
+V1: 
+ATK +10% 
+V2: 
+Stealth Attack: 
++2% Crit Damage for every 2 levels of passive skills learned. 
+V3: 
+Final ATK +4000 
+V4: 
+Divine Might: 
+Initial passive skill level +1. 
+For each Red Star passive upgrade, Crit Damage +10%. 
+V5: 
+Final ATK +8000 
+Optimizer notes 
+This item should be scored very high when the build uses: 
+Weaken 
+
+--- PAGE 74 ---
+High passive level count 
+Red Star passive upgrades 
+Crit Damage stacking 
+Skill Damage 
+Energy Shield 
+Database flags: 
+Slot = Gloves 
+DPSRelevant = Very High 
+Debuff = Weaken 
+ScalingInputs = PassiveSkillLevels, RedStarPassiveCount, EnergyShieldValue 
+StatTypes = SkillDamage, CritDamage, DamageToWeakened 
+ 
+4. SS Armor 
+Main association 
+SS Armor | Revival | Toughened Armor | Energy Orbs | Energy Level | Damage Multiplier | Skill 
+Damage | Crit Damage 
+This armor has survival, but also real DPS through energy level damage multipliers. 
+Base / rarity effects 
+Revival Effect +35% 
+HP +15% 
+Toughened Armor: 
+Triggers Toughened Armor for 5 seconds when attacked. 
+60-second cooldown. 
+Immune to all damage during this period. 
+Collisions instakill minions. 
+HP +25% 
+Eternal Recharge: 
+Energy orbs drop every 50th kill. 
+Collect orbs to raise energy level, up to Lv.5. 
++5% damage multiplier for each energy level. 
+Energy drains over time. 
+Super Enhance: 
+When total energy is above 90%, +30% additional skill damage. 
+
+--- PAGE 75 ---
+Eternal forge path 
+E1: 
+Peerless: 
+-100 required hits for energy orb drops. 
++5% additional damage multiplier for each energy level. 
+E2: 
+HP +10% 
+E3: 
+Suppression: 
+Able to trigger Super Enhance at Lv.4. 
++5% additional damage multiplier for each energy level. 
+E4: 
+Final HP +16000 
+E5: 
+Ultimate Eternity: 
+-100 required hits for energy orb drops. 
++10% additional Crit Damage for each energy level. 
+Void forge path 
+V1: 
+HP +10% 
+V2: 
+Cabalistic: 
+Energy level is maxed at the start. 
+Restore additional 2% of energy shield when looting energy orbs. 
+Shield damage boost +10%. 
+V3: 
+Final HP +16000 
+V4: 
+Destructive Restraint: 
+Energy drain speed halved. 
+Shield damage boost +20%. 
+V5: 
+Final HP +32000 
+Optimizer notes 
+This armor is not just tank gear. It creates a full energy-level DPS system. 
+Track: 
+EnergyLevel 
+
+--- PAGE 76 ---
+EnergyOrbDropRequirement 
+DamageMultiplierPerEnergyLevel 
+SkillDamageWhenEnergyAbove90 
+CritDamagePerEnergyLevel 
+EnergyDrainRate 
+StartingEnergyLevel 
+Database flags: 
+Slot = Armor 
+DPSRelevant = High 
+ScalingInput = EnergyLevel 
+StatTypes = DamageMultiplier, SkillDamage, CritDamage 
+IgnoreForDPS = Revival/HP unless survival mode is added 
+ 
+5. SS Belt 
+Main association 
+SS Belt | Crit Rate ramp | Energy Shield restore | Eternal Laser | Crit Rate threshold | Crit 
+Damage threshold | Skill Damage threshold 
+This is one of the most important optimizer items because it has crit breakpoints. 
+Base / rarity effects 
+Crit Rate +5% for every 500 effective attacks in battle. 
+Max 30%. 
+ATK +15% 
+0.5% of energy shield restored when a critical hit defeats a monster. 
+Max 5 times every second. 
+ATK +25% 
+Shield damage +10% 
+Light Judgment: 
+Fires 1 Eternal Laser every 10 seconds. 
+Marks 1 boss 10 seconds before firing and enters Charging Attack state. 
+During this time, 100% of total damage dealt to boss is converted into Charging Damage. 
+Charging Damage fires as a single laser when charge phase ends. 
+Charging damage is not affected by attack multiplier bonuses. 
+Eternal forge path 
+
+--- PAGE 77 ---
+E1: 
+Mega Crit I: 
+If Crit Rate exceeds 100%, Crit Damage +30%. 
+E2: 
+ATK +10% 
+E3: 
+Mega Crit II: 
+If Crit Rate exceeds 130%, Skill Damage +30%. 
+E4: 
+Final ATK +4000 
+E5: 
+Mega Crit III: 
+If Crit Rate exceeds 150%, Crit Damage +100%. 
+Void forge path 
+V1: 
+ATK +10% 
+V2: 
+Revolution: 
+Shield damage boost +20%. 
+Restore 10% energy shield after laser is fired. 
+V3: 
+Final ATK +4000 
+V4: 
+Final Evolution: 
+During Eternal Laser charging period, Crit Rate +20%. 
+Stored Damage +30%. 
+V5: 
+Final ATK +8000 
+Optimizer notes 
+This belt should be a major DPS engine if the player can hit Crit Rate breakpoints. 
+Track: 
+EffectiveAttackCount 
+CritRateFromBelt 
+TotalCritRate 
+CritRateAbove100 
+CritRateAbove130 
+CritRateAbove150 
+EternalLaserChargeState 
+
+--- PAGE 78 ---
+StoredDamage 
+BossMarked 
+ShieldRestoreOnCritKill 
+Database flags: 
+Slot = Belt 
+DPSRelevant = Very High 
+Breakpoints = 100% CR, 130% CR, 150% CR 
+StatTypes = CritRate, CritDamage, SkillDamage, StoredDamage 
+ModeValue = Very High for boss modes 
+This connects directly to the earlier Crit Rate & Crit Damage data type. 
+ 
+6. SS Boots 
+Main association 
+SS Boots | Movement Speed | Chilled enemies | Crystal Trail | Ice Blocks | Glacial Bloodline | 
+Vulnerability | Damage stacks 
+The boots are very conditional. They are strong if the build can maintain chill/glacial stacks. 
+Base / rarity effects 
+Base Movement Speed +3 
+HP +15% 
+Crystal Trail: 
+Moving leaves a trail of ice blocks lasting 10 seconds. 
+Ignites key explosions when they expire. 
+Enemies touching blocks or hit by explosions are Chilled for 10 seconds. 
+Unstackable. 
+HP +25% 
+Damage to Chilled enemies +15% 
+Glacial Bloodline: 
+Move to start charging. 
+The faster the speed, the faster the charge. 
+Charge weakens when movement stops. 
+At full charge, gain 1 Glacial Bloodline stack. 
+Each stack gives +12% damage, lasting 15 seconds. 
+Max 5 stacks. 
+
+--- PAGE 79 ---
+Repeat to extend duration. 
+Eternal forge path 
+E1: 
+Ice Armor: 
+2% Energy Shield. 
++4% shield damage boost for each Glacial Bloodline stack. 
+E2: 
+HP +10% 
+E3: 
+Enhanced Ice Armor: 
+Shield damage boost +21%. 
+For every 25% shield HP gained, Movement Speed +10%. 
+E4: 
+Final HP +16000 
+E5: 
+Rime Blast: 
+Charge stacks +1. 
+Void forge path 
+V1: 
+HP +10% 
+V2: 
+Frost Blast: 
+Damage on Chilled enemies +20%. 
+V3: 
+Final HP +16000 
+V4: 
+Ice Arrow: 
+Damage on Chilled enemies +20%. 
+When crystal trail reaches 30 blocks in length, the trail immediately explodes, firing homing ice 
+arrows. 
+Ice arrows inflict Chill and 10% Vulnerability for 10 seconds. 
+Unstackable. 
+V5: 
+Final HP +32000 
+Optimizer notes 
+Boots are good, but they are not always active. The calculator should score them based on 
+whether the mode allows movement and whether chill uptime is realistic. 
+
+--- PAGE 80 ---
+Track: 
+MovementSpeed 
+ChillUptime 
+DamageToChilled 
+GlacialBloodlineStacks 
+ChargeState 
+VulnerabilityFromIceArrow 
+ShieldDamageBoost 
+MovementRequired = True 
+Database flags: 
+Slot = Boots 
+DPSRelevant = High but conditional 
+Debuffs = Chill, Vulnerability 
+ConditionType = MovementBased / ChillBased / StackBased 
+ 
+Forge cost structure 
+The SS gear source also shows costs for each path. 
+The pattern is: 
+ForgePath 
+ForgeLevel 
+Relic/Core requirement 
+Faction core requirement 
+Fodder gear requirement 
+The image shows separate paths: 
+E1-E5 = Eternal path 
+V1-V5 = Void path 
+C1-C10 = Chaos path, shown for weapon 
+For the calculator, do not only store “effect.” Store cost per upgrade too, because relic cores 
+are a major bottleneck. 
+Suggested fields: 
+ForgeCostID 
+GearSlot 
+
+--- PAGE 81 ---
+ForgePath 
+ForgeLevel 
+RelicCoreCost 
+FactionCoreType 
+FactionCoreCost 
+FodderRarity 
+FodderCount 
+SourceImage 
+Important optimizer rule: 
+Relic cores should be spent where the next forge level gives the most DPS per relic core. 
+That means the recommender should compare: 
+DPSGain / RelicCoreCost 
+DPSGain / FactionCoreCost 
+DPSGain / FodderGearCost 
+ 
+Collectible sets tied to SS gear 
+At the bottom, the source shows SS gear collectible-set bonuses. 
+Erudite Heirloom 
+Associated mostly with SS Weapon / Starforged Havoc. 
+Each 3 yellow stars: 
+Starforged Havoc higher thrust damage with lower HP. 
+Max damage +20%. 
+Each 3 red stars: 
+Super Star E3: 
+Each Energy Overload stack’s damage +10%. 
+25 stars total: 
+Disordered Death V2: 
+Targets take additional +15% damage. 
+Otherworld Treasure 
+Associated with shield / Clarity / Reverse Scale. 
+
+--- PAGE 82 ---
+Each 3 yellow stars: 
+Omnicombat E5: 
+-5% required shield value to trigger each damage buff. 
+Each 3 red stars: 
+Clarity increases skill damage by +10%. 
+25 stars total: 
+Reverse Scale V2: 
+Triggered skill damage +20%. 
+Meaning of Life 
+Associated with Fury / Weakened targets / Stealth Attack crit damage. 
+Each 3 yellow stars: 
+When Fury is active, +10% additional skill damage. 
+Each 3 red stars: 
++10% additional damage dealt to Weakened targets. 
+25 stars total: 
+Stealth Attack V2: 
++1% additional Crit Damage for every 2 levels of passive skills learned. 
+Interdimension Movement 
+Associated with SS Armor energy/shield system. 
+Each 3 yellow stars: 
+Cabalistic shield damage boost +10%. 
+Each 3 red stars: 
+Suppression: 
+Super Enhance deals additional +5% Skill Damage every level. 
+25 stars total: 
+Eternal Recharge: 
+Each Energy level additionally adds +1% damage multiplier. 
+Optimizer notes 
+Collectibles should not be treated as separate random bonuses. They modify specific SS gear 
+effects. 
+Database flags: 
+CollectibleSetBonus 
+AssociatedGearSlot 
+
+--- PAGE 83 ---
+AssociatedForgeEffect 
+RequiredStars 
+BonusType 
+DPSRelevant 
+ 
+Most important DPS connections from this 
+source 
+1. Crit Rate breakpoint system 
+The SS Belt creates major breakpoints: 
+Crit Rate >100% = Crit Damage +30% 
+Crit Rate >130% = Skill Damage +30% 
+Crit Rate >150% = Crit Damage +100% 
+This means Crit Rate is not linear. If an upgrade pushes the player over 100/130/150%, it 
+becomes more valuable. 
+ 
+2. Debuff families involved 
+This SS gear source connects to multiple debuffs: 
+Weaken 
+Chill 
+Vulnerability 
+Void Fissure damage taken 
+That means this source must connect to your Boss_Debuffs table later. 
+ 
+3. Energy Shield / Energy Level are separate systems 
+Do not mix these up. 
+Energy Shield = shield HP system 
+Energy Level = armor/orb damage multiplier system 
+
+--- PAGE 84 ---
+Energy Overload = weapon stack system 
+They sound similar, but they are different optimizer variables. 
+ 
+4. SS weapon, belt, gloves are probably the highest DPS 
+modeling priority 
+For your calculator, the most urgent SS gear models are: 
+SS Weapon: 
+Energy Overload, Void Fissure, Chaos path, Void Power 
+ 
+SS Belt: 
+Crit Rate ramp, Crit thresholds, Eternal Laser 
+ 
+SS Gloves: 
+Weakened damage, Red Star passive upgrades, Crit Damage scaling 
+Armor and boots matter too, but they are more conditional. 
+ 
+Clean database format for this data type 
+SSGearEffectID 
+GearSlot 
+GearNameOrEffectFamily 
+ForgePath 
+ForgeLevel 
+EffectName 
+EffectDescription 
+AffectedStat 
+StatAmount 
+TargetScope 
+ConditionType 
+AssociatedDebuff 
+AssociatedMechanic 
+DPSRelevant 
+IgnoreForDPS 
+CostRelicCore 
+CostFactionCoreType 
+
+--- PAGE 85 ---
+CostFactionCoreAmount 
+CostFodderType 
+CostFodderAmount 
+SourceImage 
+SourceDate 
+Example rows: 
+SS_WEAPON_E3_SUPER_STAR | Weapon | Starforged Havoc | Eternal | E3 | Super Star | 
+Each Energy Overload stack damage increased to 35% | SkillDamage | Stack-based | 
+CurrentBuild | EnergyOverloadActive | None | EnergyOverload | Yes | No | TBD | EternalCore | 
+TBD | GearFodder | TBD | SS_Gear_2025-02-06 
+SS_BELT_E5_MEGA_CRIT_III | Belt | SS Belt | Eternal | E5 | Mega Crit III | If Crit Rate exceeds 
+150%, Crit Damage +100% | CritDamage | +100% | CurrentBuild | CritRateAbove150 | None | 
+CritBreakpoint | VeryHigh | No | TBD | EternalCore | TBD | GearFodder | TBD | 
+SS_Gear_2025-02-06 
+SS_GLOVES_V4_DIVINE_MIGHT | Gloves | SS Gloves | Void | V4 | Divine Might | Initial 
+passive skill level +1; each Red Star passive upgrade gives Crit Damage +10% | CritDamage | 
++10% per Red Star passive | CurrentBuild | RedStarPassiveCount | None | PassiveSkillScaling | 
+VeryHigh | No | TBD | VoidCore | TBD | GearFodder | TBD | SS_Gear_2025-02-06 
+SS_BOOTS_V4_ICE_ARROW | Boots | SS Boots | Void | V4 | Ice Arrow | Crystal trail explosion 
+fires homing ice arrows that inflict Chill and 10% Vulnerability for 10s | Vulnerability | 10% | 
+EnemiesHit | TrailLength30Blocks | Chill/Vulnerability | MovementTrail | High | No | TBD | 
+VoidCore | TBD | GearFodder | TBD | SS_Gear_2025-02-06 
+ 
+Optimizer scoring rule 
+For SS gear recommendations, don’t rank upgrades only by rarity. Rank by: 
+1. Does it increase direct DPS? 
+2. Does it unlock a crit breakpoint? 
+3. Does it add a debuff damage multiplier? 
+4. Does it improve boss damage specifically? 
+5. Does it scale with stats the player already has? 
+6. What is the relic core cost? 
+7. Is the condition realistic for the player’s mode? 
+For your current damage-only style, the calculator should heavily favor: 
+Crit Rate breakpoint upgrades 
+Void Fissure / Vulnerability upgrades 
+Energy Overload stack upgrades 
+
+--- PAGE 86 ---
+Damage to Weakened / Chilled targets 
+Skill Damage and Crit Damage scaling 
+Passive Red Star / passive level scaling 
+Boss laser / stored damage mechanics 
+ 
+ 
+1. Main chapter unlocks 
+From Chapter_Unlocks-2024-09-17. 
+Chapter 
+Feature unlocked 
+What it does 
+1, after 
+losing 
+Talent Tree 
+Permanent account upgrades using gold/oil-style 
+progression. DPS value depends on ATK/crit nodes. 
+1, after 
+losing 
+Shop 
+Basic item purchasing. 
+1, after 
+losing 
+Equipment 
+Unlocks gear system: weapon, necklace, gloves, 
+armor, belt, boots. 
+1, after 
+winning 
+7 Days Challenge 
+Starter reward ladder. 
+1, after 
+winning 
+Rookie Login Gifts 
+Starter login rewards. 
+1, after 
+winning 
+Monthly + Super 
+Monthly Cards 
+Paid/passive reward cards. 
+2, after 
+losing 
+Growth Fund 
+Gem reward progression. 
+2, after 
+losing 
+Daily Shop 
+Daily purchasable items. 
+2, after 
+losing 
+Friends 
+Social/friend rewards. 
+2, after 
+winning 
+Mission Control 
+Dailies and weeklies. Important for gem/pass/pass 
+EXP income. 
+2, after 
+winning 
+Main Challenges 
+Extra challenge content tied to chapters. 
+
+--- PAGE 87 ---
+2, after 
+winning 
+Quick Earnings 
+Idle rewards. Important for designs, gold, EXP. 
+2, after 
+winning 
+Survivor Costumes 
+Cosmetic system; some may have stats depending 
+on source. 
+2, after 
+winning 
+Events 
+Limited-time events and shops. Big source of keys, 
+shards, cores, collectibles. 
+3, after 
+losing 
+Daily Rewards 
+Login/daily collection. 
+3, after 
+winning 
+Clans 
+Unlocks clan system, clan shop, clan level rewards, 
+clan expedition. 
+3, after 
+winning 
+Daily Discount 
+Discount shop section. 
+4, after 
+winning 
+Durian skill 
+In-battle skill unlock. 
+4, after 
+winning 
+Laser Launcher skill 
+In-battle skill unlock. 
+5, after 
+winning 
+Daily Event: Gold 
+Mine 
+Gold farming mode. 
+6, after 
+losing 
+Regular Challenge 
+Recurring challenge mode; also tied to Survivor Pass 
+EXP. 
+6, after 
+losing 
+Tech Parts after 
+Regular Challenge 
+Unlocks tech part system. Important for Drone, 
+Molotov, RPG, resonance. 
+7, after 
+winning 
+Skill Visuals 
+Visual/cosmetic skill display feature. 
+8, after 
+winning 
+Ender’s Echo 
+Boss damage mode. Very important for DPS 
+optimizer. 
+8, after 
+winning 
+Survivor Pass / Super 
+Survivor Pass 
+Paid/free pass reward systems. 
+8, after 
+winning 
+Special Ops 
+Mission system for gems, gear, rewards. 
+9, after 
+winning 
+Pets 
+Unlocks pet system, pet skills, pet awakening, pet 
+toys. 
+
+--- PAGE 88 ---
+9, after 
+winning 
+Survivor level up 
+Unlocks leveling survivors for global stats. 
+10, after 
+losing 
+Modular Mine 
+In-battle skill unlock. 
+10, after 
+losing 
+Thunderbolt Bomb 
+In-battle skill unlock. 
+10, after 
+losing 
+Inferno Bomb 
+In-battle skill unlock. 
+11, after 
+losing 
+Permanent Privilege 
+Card 
+Permanent card purchase. Important for long-term 
+F2P/low-spend gem planning. 
+30, after 
+winning 
+Zone Ops & Extreme 
+Ops 
+Late challenge system. Useful for rewards and 
+progression checks. 
+Big rule for the calculator: chapter unlocks control what systems the optimizer is allowed to 
+recommend. Example: before Chapter 9, don’t recommend pet awakening. Before Chapter 6, 
+don’t recommend tech parts. 
+ 
+2. Equipment system 
+Sources: 
+Weapons_V2_2_2024-11-28​
+ Necklaces_V2_2024-11-28​
+ Eternal_Necklace_2024-11-28​
+ Gloves_V2_2024-11-28​
+ Armor_V2_2024-11-28​
+ Belts_V2_2024-11-28​
+ Boots_V2_2024-11-28​
+ Merging_-_Equip_2024-11-28​
+ Equip_Design_Costs_2024-11-14​
+ Astral_Forge_2024-10-06​
+ SS_Gear_2025-02-06 
+What it does 
+
+--- PAGE 89 ---
+Equipment is the main build system. It gives: 
+●​ Base ATK / HP 
+●​ Gear-specific effects 
+●​ Skill damage 
+●​ Crit rate 
+●​ Crit damage 
+●​ Boss damage 
+●​ Shield effects 
+●​ Revive effects 
+●​ Movement bonuses 
+●​ Debuff effects like Chill, Weaken, Vulnerability, Bleed, Laceration 
+●​ SS gear forge paths 
+Unlock requirement 
+●​ Equipment unlocks at Chapter 1 after losing. 
+●​ Merging requires duplicate gear and rarity progression. 
+●​ Astral Forge requires high-rarity gear and cores/materials. 
+●​ SS gear requires SS item creation/unlock plus relic cores/faction cores for upgrades. 
+Optimizer rule 
+For your calculator, equipment should be split into: 
+Normal Gear 
+S Gear 
+SS Gear 
+Astral Forge Upgrades 
+Collectible Gear Bonuses 
+Merge Cost / Upgrade Cost 
+HP-only gear effects should be stored but marked DPSRelevant = No. 
+ 
+3. SS gear system 
+Source: SS_Gear_2025-02-06 
+What it does 
+
+--- PAGE 90 ---
+SS gear is the late-game gear layer. Each slot has special systems: 
+Slot 
+Main function 
+SS 
+Weapon 
+Starforged Havoc, Void Power, Energy Overload, Void Fissure, Chaos Meteor, 
+boss damage loops. 
+SS 
+Necklace 
+Extra skill choices, skill damage, energy shield effects. 
+SS Gloves 
+Weaken, damage to Weakened targets, Red Star passive scaling, crit damage 
+scaling. 
+SS Armor 
+Energy levels, energy orbs, damage multiplier, skill damage, crit damage by 
+energy level. 
+SS Belt 
+Crit rate ramping, Mega Crit breakpoints, Eternal Laser stored damage. 
+SS Boots 
+Movement speed, Chill, Glacial Bloodline stacks, damage to Chilled enemies, 
+Vulnerability from ice arrows. 
+Unlock / upgrade requirement 
+SS gear upgrades use: 
+Relic Cores 
+Eternal Cores 
+Void Cores 
+Chaos Cores 
+SS gear/fodder requirements 
+Forge path level: E1-E5, V1-V5, Chaos levels where available 
+Most important DPS breakpoints 
+From SS Belt: 
+Crit Rate >100% = Crit Damage +30% 
+Crit Rate >130% = Skill Damage +30% 
+Crit Rate >150% = Crit Damage +100% 
+This means the optimizer must value Crit Rate extra hard when it crosses one of those 
+breakpoints. 
+ 
+
+--- PAGE 91 ---
+4. Relic core usage 
+Sources: 
+Relic_Core_Usage_-_Clan_Expedition_2024-11-29​
+ Relic_Core_Usage_-_Clan_Expedition_mini_2024-11-29​
+ Relic_Core_Usage_-_Enders_Echo_2024-11-29​
+ Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29 
+What it does 
+These files show the recommended SS forge spread for different numbers of relic cores. 
+There are separate tables for: 
+Clan Expedition 
+Ender’s Echo 
+because the best SS gear spread changes depending on mode. 
+Unlock / usage requirement 
+You need: 
+SS gear unlocked 
+Relic cores 
+Eternal/Void/Chaos cores 
+Enough faction cores/fodder 
+Optimizer rule 
+This becomes a relic-core recommender: 
+Input: 
+- Player relic core count 
+- Mode = Ender's Echo or Clan Expedition 
+- Current SS gear levels 
+- Crit rate 
+- Equipped gear 
+ 
+Output: 
+- Best next relic core spend 
+
+--- PAGE 92 ---
+Important notes from the source: 
+●​ SS Gloves E3 requires a minimum of 101% Crit Rate from other sources, not 
+including gloves. 
+●​ For E5, you need about 121% Crit Rate to have 100% uptime. 
+●​ The Clan Expedition table has special notes around 10, 29, 50 relic cores and when to 
+switch priorities. 
+So yes, the relic core data is already in your source pack. 
+ 
+5. Tech parts 
+Sources: 
+Tech_Parts_2024-10-09​
+ Merging_-_Tech_Parts_2024-11-28​
+ Tech_Part_Resonance_Cost_2024-11-28​
+ Resonance_2024-10-30​
+ Tech_Part_Resonance_Drone_2024-11-28​
+ Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28​
+ Twinborn_Part_2025-02-23 
+Unlock requirement 
+Tech parts unlock at: 
+Chapter 6 after losing Regular Challenge 
+What tech parts do 
+Tech parts modify in-battle skills. They turn normal skills into much stronger versions. 
+Major offensive tech parts include: 
+Tech part 
+Associated skill 
+What it does 
+Drone tech 
+Drones / Destroyer 
+One of the most important DPS techs. Unlocks Drone 
+improvement and later Drone Resonance. 
+
+--- PAGE 93 ---
+Lightning 
+tech 
+Lightning Emitter / 
+Supercell 
+Boosts lightning/electric skill damage and behavior. 
+Soccer tech Soccer Ball / Quantum 
+Ball 
+Improves soccer ball damage, duration, and behavior. 
+RPG tech 
+RPG / Sharkmaw Gun 
+/ C4 resonance 
+Improves rockets/explosions and becomes important 
+in resonance. 
+Laser tech 
+Laser Launcher 
+Improves lasers and laser behavior. 
+Molotov 
+tech 
+Molotov / Fuel Barrel 
+Improves fire pools, burn/fire effects, and Molotov 
+resonance. 
+Major defensive/utility tech parts include: 
+Tech part 
+Associated skill 
+What it does 
+Brick tech 
+Brick / Dumbbell 
+Improves brick/dumbbell behavior and 
+damage. 
+Guardian tech 
+Guardian 
+Improves knockback, guardian behavior, 
+and damage. 
+Forcefield tech 
+Forcefield 
+Improves area field damage and utility. 
+Boomerang tech 
+Boomerang / 
+Magnetic Dart 
+Improves boomerang behavior. 
+Durian tech 
+Durian 
+Improves durian movement/damage. 
+Rocket/defensive tech 
+shown 
+Defensive skill 
+modifiers 
+Some are more survival/utility than DPS. 
+Optimizer rule 
+For damage-only optimizer: 
+Drone tech = very high priority 
+RPG/C4 resonance = high priority if using that resonance path 
+Molotov resonance = high if fire/SF/poison/deep wound synergies are used 
+Defensive tech = only count if it gives real damage 
+HP/defense-only tech = store but ignore 
+ 
+
+--- PAGE 94 ---
+6. Tech resonance 
+Sources: 
+Tech_Part_Resonance_Cost_2024-11-28​
+ Resonance_2024-10-30​
+ Tech_Part_Resonance_Drone_2024-11-28​
+ Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28 
+What it does 
+Tech resonance lets a main tech part gain bonus effects from support tech parts. It adds: 
+Resonance Energy 
+ATK/HP from resonance 
+Special resonance skills 
+Multiplier upgrades 
+Drone wingbits 
+RPG/C4 explosion bonuses 
+Molotov/SF fire and poison bonuses 
+Resonance energy values 
+From Tech_Part_Resonance_Cost: 
+Yellow tech part = 50 
+Yellow +1 = 100 
+Yellow +2 = 150 
+Yellow +3 = 200 
+Red = 300 
+Red +1 = 400 
+Red +2 = 550 
+Red +3 = 700 
+Red +4 = 850 
+Rainbow / resonance-tier part = 1000 
+Multiplier upgrade cost 
+1.0 → 1.2 = 1 resonance chip 
+1.2 → 1.4 = 1 
+1.4 → 1.6 = 2 
+1.6 → 1.8 = 3 
+
+--- PAGE 95 ---
+1.8 → 2.0 = 5 
+2.0 → 2.2 = 5 
+2.2 → 2.4 = 7 
+2.4 → 2.6 = 9 
+2.6 → 2.8 = 12 
+2.8 → 3.0 = 15 
+Total = 60 resonance chips 
+Drone resonance 
+Drone resonance gives: 
+Attack Wingbit 
+Augment Wingbit 
+Attack Wingbit damage 
+Augment Wingbit damage 
+Wingbit interval reduction 
+Extra shots 
+Precision Device ATK bonuses 
+ATK/HP from resonance milestones 
+The special Drone source also says: 
+Augment Wingbit increases Destroyer/Drone damage. 
+Attack Wingbit attacks enemies with bullets. 
+Attack Wingbit base damage = x8 base attack. 
+Attack duration = 2s. 
+Base cooldown = 4s, can go down to 1s. 
+Augment Wingbit buff duration = 3s. 
+Base buff cooldown = 3s, can go down to 1s. 
+RPG / C4 resonance 
+RPG resonance is tied to: 
+RPG 
+Sharkmaw Gun 
+C4 
+Hi-Maintainer 
+Explosion radius 
+Launch interval 
+Explosion delay 
+C4 explosion damage 
+
+--- PAGE 96 ---
+The C4 source says: 
+Base damage = x8 base attack 
+Maximum damage increase from resonance skills can be +240% 
+Base launch interval = 1.5s, max 0.6s 
+Throws new C4 every 1.5s 
+Base explosion delay = 4s, max 1s 
+C4 explodes after 4s from launch time 
+Molotov resonance 
+Molotov resonance is tied to: 
+Molotov 
+Fuel Barrel 
+SF / fire field effects 
+Deep Wound 
+Poison effect damage 
+Fire damage 
+SF generation interval 
+Optimizer rule 
+Tech resonance must be its own system. Do not just score it as “tech part rarity.” 
+Use: 
+MainTechPart 
+SupportTechParts 
+ResonanceEnergy 
+ResonanceMultiplier 
+ResonanceChipCost 
+SpecialMilestoneEffects 
+DPSGain 
+ 
+7. Survivor system 
+Sources: 
+Survivor_2024-09-07​
+ Survivors_2025-01-26​
+
+--- PAGE 97 ---
+ Survivors_S_2025-01-26​
+ Survivors_SP_2025-01-26​
+ Survivor_Stat_Boosts_2024-12-12​
+ Survivor_Upgrade_Costs_2024-12-19​
+ Master_Yang_Skills_2024-11-28​
+ Awakening_Core_Guide_2024-10-04 
+Unlock requirement 
+Survivor level-up unlocks at: 
+Chapter 9 after winning 
+What it does 
+Survivors give: 
+Active survivor skills 
+Passive skills 
+Global ATK / Crit / Crit Damage boosts 
+Star upgrades 
+Awakening skills 
+Teamwork passive slots 
+Mode-specific damage value 
+Survivor stat milestones 
+Important global milestone types: 
+Level 40 
+Level 80 
+Level 120 
+5 yellow stars 
+Red awakening stars 
+High-value DPS stats 
+ATK % 
+Crit Rate 
+Crit Damage 
+Skill Damage 
+Vulnerability 
+
+--- PAGE 98 ---
+Laceration 
+Poisoned target damage 
+Chilled target damage 
+Weakened target damage 
+Teamwork passive slots 
+SP/TMNT survivors 
+TMNT survivors are SP-grade and event-limited. 
+Each 5-star TMNT survivor gives: 
+All Survivors Crit Rate +8% 
+That is huge for the optimizer because it feeds SS Belt crit breakpoints. 
+Awakening cores 
+Awakening cores are used for survivor awakening. The guide gives different priority paths for: 
+Ender’s Echo 
+Clan Expedition 
+Yang 
+Metallia 
+King 
+Worm 
+Common 
+Catnips 
+TMNT survivors 
+Optimizer rule: 
+Awakening cores should be spent by DPS gain per core, not just favorite survivor. 
+ 
+8. Combat Harmony / Survivor Synergy 
+Source: 
+Survivor_Combat_Harmony_Skills_and_Costs_2024-12-20 
+What it does 
+
+--- PAGE 99 ---
+Combat Harmony gives extra skill/passive effects and global bonuses. 
+It includes: 
+Combat Harmony skill upgrades 
+Survivor synergy levels 
+Crit Rate bonuses 
+Crit Damage bonuses 
+Level cost requirements 
+Important DPS value 
+From the crit source and harmony source: 
+Combat Harmony can give up to 30% global Crit Rate. 
+Survivor Synergy can give up to 30% global Crit Damage. 
+Optimizer rule 
+This is a global account system. It should be treated like: 
+GlobalCritRateSource 
+GlobalCritDamageSource 
+SurvivorInvestmentSystem 
+Very high long-term DPS value. 
+ 
+9. Crit Rate / Crit Damage system 
+Source: 
+Crit_Rate_And_Damage_2025-03-09 
+What it does 
+This tracks every major source of: 
+Crit Rate 
+Crit Damage 
+Global crit 
+
+--- PAGE 100 ---
+Conditional crit 
+Pet crit 
+Gear crit 
+Skill crit 
+Collectible crit 
+Survivor crit 
+Why it matters 
+Crit Rate does not only increase average damage. It also unlocks SS Belt thresholds: 
+>100% Crit Rate 
+>130% Crit Rate 
+>150% Crit Rate 
+Optimizer rule 
+Crit must be stored by source: 
+GlobalCritRate 
+GearCritRate 
+SkillCritRate 
+PetCritRate 
+CollectibleCritRate 
+ConditionalCritRate 
+GlobalCritDamage 
+GearCritDamage 
+SkillCritDamage 
+PetCritDamage 
+CollectibleCritDamage 
+Do not just make one flat crit number. 
+ 
+10. Debuff / multiplier system 
+Sources: 
+Boss_Debuffs_2024-12-27​
+ Shield_and_Skill_Damage_Multipliers_2024-12-27 
+
+--- PAGE 101 ---
+What it does 
+Tracks damage multipliers and enemy debuffs, including: 
+Chill 
+Poison 
+Exposed 
+Weaken 
+Debilitate 
+Yin Yang 
+Laceration 
+Vulnerability 
+Shield damage multipliers 
+Skill damage multipliers 
+Optimizer rule 
+Debuffs should be treated as their own damage layer. 
+Important reason: multiple systems say “damage to Chilled,” “damage to Weakened,” “damage 
+to Lacerated,” or “Vulnerability.” Those only matter if the debuff exists and has uptime. 
+Use: 
+DebuffSource 
+DebuffDuration 
+DebuffStackLimit 
+DebuffUptime 
+DamageToDebuffedTarget 
+ModeReliability 
+ 
+11. Pet system 
+Sources: 
+Pets_2024-11-28​
+ Pet_Skills_2024-09-09​
+ Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04​
+ Pet_Awakening_Guide_2024-10-25​
+ Pet_Awakening_Guide_-_Murica_2024-10-10​
+ Pet_Awakening_Guide_-_Croaky_2024-10-11​
+
+--- PAGE 102 ---
+ Pet_Awakening_Guide_-_Rex_2024-10-11​
+ Merging_-_Pets_2024-11-28 
+Unlock requirement 
+Pets unlock at: 
+Chapter 9 after winning 
+What pets do 
+Pets give: 
+Direct pet damage 
+Owner Crit Rate 
+Owner Crit Damage 
+Owner Skill Damage 
+Pet Skill Damage 
+Pet Crit Rate 
+Pet Crit Damage 
+Pet cooldown reduction 
+Pet inherited ATK 
+Pet affection ATK 
+Assist skill bonuses 
+Toy bonuses 
+Important pets 
+Pet 
+Main use 
+Murica / Eagle 
+Direct pet DPS, whirlwind, penetration, cooldown, Crush. 
+Croaky / Frog 
+Owner skill damage, crit, long-term DPS support. 
+Rex / Dog 
+Owner crit rate/crit damage and long-term DPS support. 
+Crab 
+Strong pet DPS scaling: high attack, crit, cooldown, inherited ATK. 
+Robot 
+High theoretical damage with lasers/satellite, hit consistency 
+matters. 
+Cat 
+Fast attacks, pet crit, cooldown, survival passive. 
+Fish 
+Utility/time stop, medium damage. 
+
+--- PAGE 103 ---
+Turtle 
+Mostly defensive/tank. 
+Pet awakening requirement 
+Pet awakening uses awakening crystals and pet sacrifices. 
+Important cost path: 
+Y1 = 5 crystals 
+Y2 = 5 
+Y3 = 10 
+Y4 = 20 
+Y5 = 30 
+R1 = 40 
+R2 = 60 
+R3 = 60 
+R4 = 60 
+R5 = 60 
+Total = 350 crystals 
+Optimizer rule 
+The source says: 
+Take Rex or Croaky to R5 first. 
+After that, raise other pets in a balanced way to Y5 for better ATK per crystal. 
+For your damage-only calculator, pet HP and survival should be stored but ignored. 
+ 
+12. Collectibles 
+Sources: 
+Collectible_Chest_Odds_2024-11-28​
+ Collectible_Costs_2024-10-11​
+ Collectibles_Edition_1_2024-11-28​
+ Collectibles_Edition_2_2024-11-28​
+ Collectibles_Edition_3_2024-11-28 
+
+--- PAGE 104 ---
+What they do 
+Collectibles give: 
+Global ATK 
+Crit Rate 
+Crit Damage 
+Gear-specific bonuses 
+SS gear set bonuses 
+Skill damage bonuses 
+Target-specific damage bonuses 
+Unlock requirement 
+The source set has collectible chest odds and costs, but the exact chapter unlock is not shown 
+in the chapter unlock chart. So in the optimizer, mark unlock as: 
+UnlockRequirement = Collectible system available / event or chest access 
+Do not invent a chapter until confirmed. 
+Optimizer rule 
+Collectibles must connect to exact gear/skill systems. 
+Example: 
+Some collectibles boost SS Weapon Energy Overload. 
+Some boost SS Belt/Armor/Gloves effects. 
+Some give global Crit Rate or Crit Damage. 
+Collectibles are later-game but very important for final DPS. 
+ 
+13. Clan system 
+Sources: 
+Clan_Shop_2025-02-17​
+ Clan_Level_Rewards_2024-11-28​
+ Clan_Expedition_Rewards_2024-11-28 
+
+--- PAGE 105 ---
+Unlock requirement 
+Clans unlock at: 
+Chapter 3 after winning 
+What clan does 
+Clan gives: 
+Clan shop 
+Clan expedition 
+Clan level perks 
+Clan member stat boosts 
+Quick earning boosts 
+Clan EXP rewards 
+Clan currency spending 
+Clan shop 
+The clan shop source includes: 
+S selector/chests 
+S survivor shards 
+Survivor shards 
+Collectible keys 
+Tech keys 
+Pet/equipment related chests 
+Relic/core-style items 
+Other upgrade currencies 
+The chart shows stock changing by clan level: 
+Level 1-11 
+Level 12 
+Level 13 
+Level 14 
+Level 15 
+Level 16 
+Important: some clan shop items are icon-only in the image, so I’ll store them by icon ID first if 
+the exact item name is not readable. 
+Example: 
+
+--- PAGE 106 ---
+ClanShopItem_01 | Cost 40000 | Qty 1 | Stock scales by clan level 
+Then later we map exact names. 
+Optimizer rule 
+Clan shop should be valued by: 
+Gem-equivalent value 
+DPS relevance 
+Rarity bottleneck 
+Player progression stage 
+Clan currency cost 
+Monthly/weekly stock limit 
+High-priority shop items are usually rare bottleneck items like relic cores, S selectors, shards, 
+tech keys, collectible keys, and resonance/awakening materials depending on stage. 
+ 
+14. Survivor Pass 
+Sources: 
+Survivor_Pass_2024-12-19​
+ Survivor_Pass_Experience_2024-09-16 
+Unlock requirement 
+Survivor Pass unlocks at: 
+Chapter 8 after winning 
+What it does 
+Survivor Pass gives reward tracks for: 
+Survivor resources 
+Tech parts 
+Equipment resources 
+Joey shards 
+Essence 
+
+--- PAGE 107 ---
+Survivor shards 
+Reset vial key 
+Awakening core 
+Tech keys 
+S keys 
+Relic core 
+Collectible key 
+Pass EXP sources 
+From the pass EXP chart: 
+Dailies 
+Defeat monsters 
+Clear main chapters/challenges 
+Regular Challenge 
+Path of Trials 
+Ender’s Echo 
+Clan Expedition 
+Special Ops 
+Season max shown: 
+15,590 to 15,740 EXP range 
+Optimizer rule 
+Pass value should be treated as: 
+RewardValue / Cost 
+DPSMaterialValue 
+RelicCoreValue 
+ShardValue 
+KeyValue 
+ 
+15. Gems, oil, essence, designs, item 
+values 
+Sources: 
+
+--- PAGE 108 ---
+Sources_Of_Gems_2024-10-07​
+ Sources_of_Gems_2024-12-18​
+ Sources_Of_Oil_2024-11-03​
+ Sources_of_Oil_2024-12-18​
+ Energy_Essence_Cost_2024-11-28​
+ Energy_Essence_Cost_Full_2024-11-28​
+ Equip_Design_Costs_2024-11-14​
+ Item_Values_2024-10-02 
+What they do 
+These are economy/value sources. 
+They track: 
+Where gems come from 
+Where oil comes from 
+Survivor level essence costs 
+Equipment design costs 
+Item gem-equivalent values 
+Upgrade costs 
+Optimizer rule 
+This is needed for event/shop decisions. 
+Use it to answer: 
+Is this worth buying? 
+Should I spend gems? 
+Should I save for Black Friday? 
+What item has better gem value? 
+What is my bottleneck? 
+For your account, this matters because you are trying to avoid wasting gems and maximize 
+DPS. 
+ 
+16. Ender’s Echo rewards 
+
+--- PAGE 109 ---
+Source: 
+EE_Rewards_2024-09-15 
+Unlock requirement 
+Ender’s Echo unlocks at: 
+Chapter 8 after winning 
+What it does 
+Ender’s Echo is a boss damage/ranking mode. It gives rewards based on performance/ranking. 
+Optimizer rule 
+For Ender’s Echo, favor: 
+Boss DPS 
+Crit Rate breakpoints 
+Relic core spread from EE guide 
+Debuff uptime 
+Single-target damage 
+Pet direct DPS 
+Yang/Metallia/Joey mode-specific paths 
+Do not overvalue mob-clearing effects for EE unless they directly boost boss damage. 
+ 
+17. Skills 
+Source: 
+Skills_2024-11-28 
+What it does 
+This contains in-battle skills and likely their evo/passive pairings. 
+
+--- PAGE 110 ---
+Skills are needed because tech parts, drones, resonance, survivor skills, and SS gear modify 
+them. 
+Unlock requirement 
+Some skills are chapter-unlocked: 
+Durian = Chapter 4 after winning 
+Laser Launcher = Chapter 4 after winning 
+Modular Mine = Chapter 10 after losing 
+Thunderbolt Bomb = Chapter 10 after losing 
+Inferno Bomb = Chapter 10 after losing 
+Optimizer rule 
+Skills should be stored as: 
+SkillName 
+EvoName 
+PassiveRequired 
+BaseFunction 
+TechPartAssociation 
+ResonanceAssociation 
+DPSRole 
+MapClearValue 
+BossValue 
+ 
+18. Wishlist probabilities 
+Source: 
+Wishlist_Probabilities_2024-11-28 
+What it does 
+Shows odds/probabilities for wishlist pulls. 
+Unlock requirement 
+Requires the relevant chest/wishlist system to be available. 
+
+--- PAGE 111 ---
+Optimizer rule 
+Use this for: 
+Expected value 
+Chest opening strategy 
+How many keys/gems needed 
+Chance to get target gear 
+ 
+19. Timed Muster medal conversion 
+Source: 
+Timed_Muster_Medal_Conversion_2024-12-12 
+What it does 
+Shows conversion/value for timed muster medals. 
+Optimizer rule 
+Use for event value and whether to convert/spend medals now or save/use differently. 
+ 
+20. Master source index for the calculator 
+This is the source pack I’ll use going forward: 
+Chapter_Unlocks 
+Skills 
+Boss_Debuffs 
+Shield_and_Skill_Damage_Multipliers 
+Crit_Rate_And_Damage 
+ 
+Survivor 
+Survivors 
+Survivors_S 
+Survivors_SP 
+
+--- PAGE 112 ---
+Survivor_Stat_Boosts 
+Survivor_Upgrade_Costs 
+Survivor_Combat_Harmony_Skills_and_Costs 
+Master_Yang_Skills 
+Awakening_Core_Guide 
+ 
+Weapons 
+Necklaces 
+Eternal_Necklace 
+Gloves 
+Armor 
+Belts 
+Boots 
+SS_Gear 
+Astral_Forge 
+Relic_Core_Usage_Enders_Echo 
+Relic_Core_Usage_Clan_Expedition 
+ 
+Tech_Parts 
+Tech_Part_Resonance_Cost 
+Resonance 
+Tech_Part_Resonance_Drone 
+Tech_Part_Resonance_HI_Maintainer_RPG 
+Twinborn_Part 
+Merging_Tech_Parts 
+ 
+Pets 
+Pet_Skills 
+Pet_Awakening_Costs_and_Toy_Bonuses 
+Pet_Awakening_Guide 
+Pet_Awakening_Guide_Murica 
+Pet_Awakening_Guide_Croaky 
+Pet_Awakening_Guide_Rex 
+Merging_Pets 
+ 
+Collectible_Chest_Odds 
+Collectible_Costs 
+Collectibles_Edition_1 
+Collectibles_Edition_2 
+Collectibles_Edition_3 
+ 
+Clan_Shop 
+Clan_Level_Rewards 
+Clan_Expedition_Rewards 
+
+--- PAGE 113 ---
+ 
+Survivor_Pass 
+Survivor_Pass_Experience 
+EE_Rewards 
+ 
+Sources_Of_Gems 
+Sources_Of_Oil 
+Energy_Essence_Cost 
+Energy_Essence_Cost_Full 
+Equip_Design_Costs 
+Item_Values 
+Merging_Equip 
+Wishlist_Probabilities 
+Timed_Muster_Medal_Conversion 
+ 

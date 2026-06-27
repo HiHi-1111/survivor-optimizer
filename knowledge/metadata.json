@@ -1,0 +1,6 @@
+{
+  "project": "survivor-optimizer",
+  "knowledge_version": "0.2.0",
+  "generated_from": ["data_sources/source_pack/optimizer_source_reference.pdf"],
+  "notes": "Explanation-derived records are labeled inferred/medium or needs-review; icon-only clan-shop rows are not treated as purchasable data."
+}

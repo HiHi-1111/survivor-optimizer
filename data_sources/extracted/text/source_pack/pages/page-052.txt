@@ -1,0 +1,30 @@
+Pet skill registry 
+Source: Pet_Skills_2024-09-09 and Pet_Awakening_Guide_2024-10-25 
+This is the skill dictionary. These skills should be stored separately from pets because different 
+pets unlock different skills at different rarity/star levels. 
+ 
+Owner / Survivor buff skills 
+These affect the player, not only the pet. 
+Barrier 
+Increases player's Range Damage Reduction by 10/15% 
+DPSRelevant = No 
+Diligence 
+Increases player's Battle EXP gain by 5/7.5/10% 
+DPSRelevant = Indirect only 
+Encouragement 
+Increases player's Skill Damage by 3/5% 
+DPSRelevant = Yes 
+Guard 
+Increases player's Collision Damage Reduction by 10% 
+DPSRelevant = No 
+Inspiration 
+Increases player's Crit Damage by 6/10% 
+DPSRelevant = Yes 
+Motivation 
+Increases player's Crit Rate by 3/4/5% 
+DPSRelevant = Yes 
+Optimizer notes 
+For your damage-only calculator, the big owner-buff pet skills are: 
+Encouragement = Skill Damage 
+Inspiration = Crit Damage 
+Motivation = Crit Rate

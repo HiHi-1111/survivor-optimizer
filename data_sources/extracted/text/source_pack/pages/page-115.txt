@@ -1,0 +1,43 @@
+Crit Damage +40 
+Buff: Crit Damage +40% 
+ 
+250: 
++600 ATK, +2400 HP 
+ 
+300: 
+Falling thunder deals +14% damage to enemies damaged by swirling Thunderburst field 
+ 
+350: 
++800 ATK, +3200 HP 
+ 
+400: 
+Phase Driver ATK +5%, HP +5% 
+ 
+450: 
+Skill Damage +40 
+Buff: Skill Damage +40% 
+ 
+500: 
++1000 ATK, +4000 HP 
+ 
+550: 
+Phase Driver ATK +5%, HP +5% 
+ 
+600: 
+After 8 falling thunder strikes, the next 4 strikes deal +36% damage 
+ 
+700: 
++1200 ATK, +4800 HP 
+ 
+800: 
+Phase Driver ATK +5%, HP +5% 
+ 
+900: 
+Vulnerability +50 
+Enemies damaged by swirling Thunderburst field are inflicted with 50% Vulnerability 
+ 
+1000: 
++1400 ATK, +5600 HP 
+ 
+1100: 
+Phase Driver ATK +5%, HP +5%

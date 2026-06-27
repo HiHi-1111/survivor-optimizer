@@ -1,0 +1,29 @@
+●​ AF3: Giantbane gives +3% Crit Rate when an elite or boss is defeated. 
+The crit source image also shows Eternal Gloves as: 
+0–40% Crit Rate, +10% with R5 collectible 
+This means Eternal Gloves crit value may depend on gear rarity, AF state, collectible support, or 
+battle condition. 
+Leather Gloves 
+Leather Gloves are associated with: 
+●​ Crit Rate +5% 
+●​ Crit Damage +50% 
+●​ Crits inflict Bleed 
+This matters because it connects crit with the Bleed / Laceration / debuff family, not just raw 
+crit. 
+SS / advanced gear sources 
+The image shows additional SS-style gear crit sources: 
+●​ 10% Crit Rate 
+●​ 20% Crit Rate 
+●​ AF3: +3% extra Crit Rate per boss / elite kill 
+●​ 30% Crit Rate 
+●​ V4: +20% Crit Rate during laser charge 
+Optimizer notes 
+Gear crit should not be treated as permanent global. It only counts if the item is equipped and 
+the condition is active. 
+Database flags: 
+SourceCategory = Gear 
+Slot = Gloves / Necklace / SSGear 
+TargetScope = CurrentBuildOnly 
+ConditionType = Equipped / BattleConditional 
+DPSRelevant = High 
+Example row:

@@ -1,0 +1,43 @@
+Total ATK 600, Total HP 3600 
++400 ATK, +2400 HP 
+ 
+200: 
+Passive skill not required to evolve. 
+Soulfire adds a 5s Poison effect to the target it hits. 
+Does not stack. 
+ 
+250: 
+Total ATK 1200, Total HP 6800 
++600 ATK, +3200 HP 
+ 
+300: 
+Soulfire generated +1. 
+Fuel Barrel fire damage +5%. 
+ 
+350: 
+Total ATK 2000, Total HP 10000 
++800 ATK, +3200 HP 
+ 
+400: 
+Energy Diffuser ATK +5% 
+ 
+450: 
+Soulfire damage +20%. 
+When 3 Soulfires hit the same target, it is inflicted with +5% Deep Wound for 10s. 
+ 
+500: 
+Total ATK 3000, Total HP 14000 
++1000 ATK, +4000 HP 
+ 
+550: 
+Energy Diffuser ATK +5% 
+ 
+600: 
+Soulfire spawn round interval -1 
+ 
+700: 
+Total ATK 4200, Total HP 18800 
++1200 ATK, +4800 HP 
+ 
+800: 
+Energy Diffuser ATK +5%

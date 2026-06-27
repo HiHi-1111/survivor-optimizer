@@ -1,0 +1,38 @@
+CurrentSSWeapon_E/V/C 
+CurrentSSBelt_E/V/C 
+CurrentSSGloves_E/V/C 
+CurrentSSBoots_E/V/C 
+CurrentSSNecklace_E/V/C 
+CurrentSSArmor_E/V/C 
+CritRate 
+CritDamage 
+SkillDamage 
+RecommendedNextUpgrade 
+Reason 
+DPSGainEstimate 
+ 
+4. Astral Forge / Merge / Salvage 
+Sources: 
+Astral_Forge_2024-10-06 
+Merging_-_Equip_2024-11-28 
+Merging_-_Pets_2024-11-28 
+Merging_-_Tech_Parts_2024-11-28 
+Equipment guide text 
+Merge system 
+System 
+What merging does 
+Equipment 
+merge 
+Raises gear rarity: normal → excellent → epic → legendary → higher red 
+variants 
+Pet merge 
+Raises pet rarity/star path 
+Tech merge 
+Raises tech part rarity, required for resonance and Twinborn 
+S gear saving 
+S gear should be saved for AF, SS gear, cores, or exact future needs 
+Hard warning 
+Do not feed spare S gear randomly into other gear. 
+Save S gear for: 
+- Astral Forge 
+- SS crafting

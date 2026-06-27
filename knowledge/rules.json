@@ -1,0 +1,197 @@
+[
+  {
+    "id": "astral_core_near_breakpoint_priority",
+    "name": "Astral Core Near Breakpoint Priority",
+    "category": "rule",
+    "description": "Astral Core can be valuable when it helps reach an SS gear or astral forge breakpoint.",
+    "effects": [],
+    "tags": [
+      "astral_core",
+      "priority",
+      "breakpoint"
+    ],
+    "source_type": "inferred",
+    "source": "data_sources/legacy/manual_notes/core_test.txt",
+    "date": "",
+    "confidence": "medium",
+    "notes": "No exact breakpoint values are provided. Missing source metadata from AI output.",
+    "scoring_relevance": [
+      "utility"
+    ],
+    "applies_to": [
+      "astral_core"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/core_test.json"
+  },
+  {
+    "id": "xeno_core_long_term_breakpoint_priority",
+    "name": "Xeno Core Long-Term Breakpoint Priority",
+    "category": "rule",
+    "description": "Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.",
+    "effects": [],
+    "tags": [
+      "xeno_core",
+      "long_term",
+      "awakening",
+      "breakpoint"
+    ],
+    "source_type": "inferred",
+    "source": "data_sources/legacy/manual_notes/core_test.txt",
+    "date": "",
+    "confidence": "medium",
+    "notes": "No exact awakening breakpoint values are provided. Missing source metadata from AI output.",
+    "scoring_relevance": [
+      "utility"
+    ],
+    "applies_to": [
+      "xeno_core"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/core_test.json"
+  },
+  {
+    "id": "resonance_chip_lower_without_breakpoint",
+    "name": "Resonance Chip Lower Without Breakpoint",
+    "category": "rule",
+    "description": "Resonance Chip may be weaker if it does not unlock a major breakpoint.",
+    "effects": [],
+    "tags": [
+      "resonance_chip",
+      "avoid",
+      "breakpoint"
+    ],
+    "source_type": "inferred",
+    "source": "data_sources/legacy/manual_notes/core_test.txt",
+    "date": "",
+    "confidence": "medium",
+    "notes": "No exact resonance breakpoint values are provided. Missing source metadata from AI output.",
+    "scoring_relevance": [
+      "utility"
+    ],
+    "applies_to": [
+      "resonance_chip"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/core_test.json"
+  },
+  {
+    "id": "rule_breakpoint_astral_forge_2024_10_06",
+    "name": "Rule: Breakpoint",
+    "category": "rule",
+    "description": "Common ss Breakpoints & eet",
+    "effects": [],
+    "tags": [
+      "breakpoint"
+    ],
+    "source": "Astral_Forge_2024-10-06.webp",
+    "source_type": "discord",
+    "confidence": "low",
+    "notes": "Heuristic rule extracted from trigger wording. Review before treating as final balance guidance.",
+    "scoring_relevance": [
+      "utility"
+    ],
+    "applies_to": [
+      "gear",
+      "resources"
+    ],
+    "date": "2024-10-06",
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "rule_breakpoint_astral_forge_2024_10_06_result",
+    "name": "Rule: Breakpoint",
+    "category": "rule",
+    "description": "Common ss Breakpoints & eG",
+    "effects": [],
+    "tags": [
+      "breakpoint"
+    ],
+    "source": "Astral_Forge_2024-10-06_result.tif",
+    "source_type": "discord",
+    "confidence": "low",
+    "notes": "Heuristic rule extracted from trigger wording. Review before treating as final balance guidance.",
+    "scoring_relevance": [
+      "utility"
+    ],
+    "applies_to": [
+      "gear",
+      "resources"
+    ],
+    "date": "2024-10-06",
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "rule_not_worth_pet_awakening_costs_and_toy_bonuses_2024_12_04",
+    "name": "Rule: Not Worth",
+    "category": "rule",
+    "description": "Disclaimer: Since Y5 to R5 takes 280 crystals, your average for all 5 levels is ~36.5 so it's not worth the R1-R3 at lesser rates to get the 62.5 when you have much",
+    "effects": [],
+    "tags": [
+      "not_worth"
+    ],
+    "source": "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04.webp",
+    "source_type": "discord",
+    "date": "2024-12-04",
+    "confidence": "low",
+    "notes": "Heuristic rule extracted from trigger wording. Review before treating as final balance guidance.",
+    "scoring_relevance": [
+      "utility"
+    ],
+    "applies_to": [
+      "pets",
+      "survivors",
+      "damage",
+      "survival"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "rule_not_worth_pet_awakening_costs_and_toy_bonuses_2024_12_04_result",
+    "name": "Rule: Not Worth",
+    "category": "rule",
+    "description": "Disclaimer: Since Y5 to R5 takes 280 crystals, your average for all 5 levels is ~36.5 so it's not worth the R1-R3 at lesser rates to get the 62.5 when you have much",
+    "effects": [],
+    "tags": [
+      "not_worth"
+    ],
+    "source": "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04_result.tif",
+    "source_type": "discord",
+    "date": "2024-12-04",
+    "confidence": "low",
+    "notes": "Heuristic rule extracted from trigger wording. Review before treating as final balance guidance.",
+    "scoring_relevance": [
+      "utility"
+    ],
+    "applies_to": [
+      "pets",
+      "survivors",
+      "damage",
+      "survival"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "pet_awakening_priority_rex_croaky",
+    "name": "Pet Awakening Priority",
+    "category": "rule",
+    "description": "The explanation recommends taking Rex to R5, then Croaky to R5, before bringing other pets to Y5.",
+    "effects": [],
+    "applies_to": [
+      "pets",
+      "pet_awakenings",
+      "awakening_crystal"
+    ],
+    "tags": [
+      "pet",
+      "awakening",
+      "priority",
+      "damage_first"
+    ],
+    "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#page=103",
+    "confidence": "medium",
+    "notes": "Build-specific recommendation; keep exploration and verify against primary pet guides.",
+    "scoring_relevance": [
+      "damage",
+      "resource"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+xT x1 Ai1,0) 5) XA é2) x1
+600 600
+
+@) Cost 40000 | 36000 | 10000 | 4000 | 2000 | 18000 | 2200 | 13500 | 2500 | 18000 | 2200 | 3600 | 600
+Quantity 1 1 10 5 1 1 1 1 1 1 1 1 1 1 1
+Level 16 20 20 2 6 4 4 4 4 4 25 25 25
+Level 15 20
+Level 14 20
+Level 13 20
+Level 12 20
+20
+Updated 2025-02-17 Charts by @procrastinazn
+
+Calculator Available: https://tinyurl.com/sio-clan-shop

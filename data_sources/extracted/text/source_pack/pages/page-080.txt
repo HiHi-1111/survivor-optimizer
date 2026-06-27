@@ -1,0 +1,32 @@
+Track: 
+MovementSpeed 
+ChillUptime 
+DamageToChilled 
+GlacialBloodlineStacks 
+ChargeState 
+VulnerabilityFromIceArrow 
+ShieldDamageBoost 
+MovementRequired = True 
+Database flags: 
+Slot = Boots 
+DPSRelevant = High but conditional 
+Debuffs = Chill, Vulnerability 
+ConditionType = MovementBased / ChillBased / StackBased 
+ 
+Forge cost structure 
+The SS gear source also shows costs for each path. 
+The pattern is: 
+ForgePath 
+ForgeLevel 
+Relic/Core requirement 
+Faction core requirement 
+Fodder gear requirement 
+The image shows separate paths: 
+E1-E5 = Eternal path 
+V1-V5 = Void path 
+C1-C10 = Chaos path, shown for weapon 
+For the calculator, do not only store “effect.” Store cost per upgrade too, because relic cores 
+are a major bottleneck. 
+Suggested fields: 
+ForgeCostID 
+GearSlot

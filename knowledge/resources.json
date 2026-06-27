@@ -1,0 +1,166 @@
+[
+  {
+    "id": "astral_core",
+    "name": "Astral Core",
+    "category": "resource",
+    "description": "Core resource used for SS gear progression and astral forge progression.",
+    "effects": [],
+    "tags": [
+      "core",
+      "ss_gear",
+      "astral_forge",
+      "breakpoint"
+    ],
+    "source_type": "inferred",
+    "source": "data_sources/legacy/manual_notes/core_test.txt",
+    "date": "",
+    "confidence": "medium",
+    "notes": "Small manual test note. Does not include exact costs or damage values. Missing source metadata from AI output.",
+    "scoring_relevance": [
+      "resource"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/core_test.json"
+  },
+  {
+    "id": "xeno_core",
+    "name": "Xeno Core",
+    "category": "resource",
+    "description": "Core resource used for Xeno pet progression.",
+    "effects": [],
+    "tags": [
+      "core",
+      "xeno_pet",
+      "awakening",
+      "long_term"
+    ],
+    "source_type": "inferred",
+    "source": "data_sources/legacy/manual_notes/core_test.txt",
+    "date": "",
+    "confidence": "medium",
+    "notes": "Small manual test note. Does not include exact costs or damage values. Missing source metadata from AI output.",
+    "scoring_relevance": [
+      "resource"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/core_test.json"
+  },
+  {
+    "id": "resonance_chip",
+    "name": "Resonance Chip",
+    "category": "resource",
+    "description": "Resource used for tech and resonance progression.",
+    "effects": [],
+    "tags": [
+      "resource",
+      "tech",
+      "resonance",
+      "breakpoint"
+    ],
+    "source_type": "inferred",
+    "source": "data_sources/legacy/manual_notes/core_test.txt",
+    "date": "",
+    "confidence": "medium",
+    "notes": "Small manual test note. Does not include exact costs or damage values. Missing source metadata from AI output.",
+    "scoring_relevance": [
+      "resource"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/core_test.json"
+  },
+  {
+    "id": "relic_core",
+    "name": "Relic Core",
+    "category": "resource",
+    "description": "Relic Core is mentioned as an optimizer resource in the source dataset.",
+    "effects": [],
+    "tags": [
+      "core",
+      "relic"
+    ],
+    "source": "Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29_result.tif",
+    "source_type": "discord",
+    "date": "2024-11-29",
+    "confidence": "low",
+    "notes": "Heuristic extraction from local training text; verify exact values before trusting recommendations.",
+    "scoring_relevance": [
+      "resource"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "gem",
+    "name": "Gem",
+    "category": "resource",
+    "description": "Gem is mentioned as an optimizer resource in the source dataset.",
+    "effects": [],
+    "tags": [
+      "currency"
+    ],
+    "source": "Sources_of_Gems_2024-12-18_result.tif",
+    "source_type": "discord",
+    "date": "2024-12-18",
+    "confidence": "low",
+    "notes": "Heuristic extraction from local training text; verify exact values before trusting recommendations.",
+    "scoring_relevance": [
+      "resource"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "energy_essence",
+    "name": "Energy Essence",
+    "category": "resource",
+    "description": "Energy Essence is mentioned as an optimizer resource in the source dataset.",
+    "effects": [],
+    "tags": [
+      "survivor",
+      "upgrade"
+    ],
+    "source": "Energy_Essence_Cost_Full_2024-11-28_result.tif",
+    "source_type": "discord",
+    "date": "2024-11-28",
+    "confidence": "low",
+    "notes": "Heuristic extraction from local training text; verify exact values before trusting recommendations.",
+    "scoring_relevance": [
+      "resource"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "awakening_crystal",
+    "name": "Awakening Crystal",
+    "category": "resource",
+    "description": "Currency consumed by pet awakening levels.",
+    "effects": [],
+    "tags": [
+      "currency",
+      "pet",
+      "awakening"
+    ],
+    "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#page=103",
+    "confidence": "medium",
+    "notes": "Exact acquisition sources are still missing.",
+    "scoring_relevance": [
+      "resource"
+    ]
+  },
+  {
+    "id": "clan_currency",
+    "name": "Clan Currency",
+    "category": "resource",
+    "description": "Currency spent in the Clan Shop.",
+    "effects": [],
+    "tags": [
+      "currency",
+      "clan_shop",
+      "missing_acquisition_details",
+      "needs_review"
+    ],
+    "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=105-106",
+    "confidence": "low",
+    "notes": "Display name, acquisition rate, and verified item-cost mappings are missing.",
+    "scoring_relevance": [
+      "resource"
+    ]
+  }
+]

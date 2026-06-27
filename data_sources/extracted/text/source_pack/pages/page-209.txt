@@ -1,0 +1,34 @@
+Relic_Core_Usage_-_Clan_Expedition_2024-11-29 
+Relic_Core_Usage_-_Clan_Expedition_mini_2024-11-29 
+SS_Gear_2025-02-06 
+Equipment guide text 
+What relic cores do 
+Relic cores are used for SS gear forge upgrades. 
+They affect: 
+Eternal Forge levels 
+Void Forge levels 
+Chaos Forge unlock path 
+Relic core allocation by game mode 
+SS gear power spikes 
+Mode-specific usage 
+Mode 
+What matters most 
+Ender’s Echo 
+Boss DPS, crit breakpoints, single-target damage, SS 
+Belt/Gloves/Weapon value 
+Clan Expedition 
+Boss damage plus mode-specific thresholds; may differ from EE path 
+Chapters / Zone 
+Ops 
+Survival, movement, crowd control, Armor of Quietus, SS Boots, Void 
+Power/SS Weapon 
+Key relic core rule 
+Spend relic cores by DPS gain per relic core, not by “highest rarity” or “newest item.” 
+Important notes 
+SS Weapon and SS Belt are usually high-value relic core targets. 
+SS Gloves depend heavily on crit/passive scaling. 
+SS Necklace becomes better once crit rate and passive level systems are strong. 
+SS Armor is weak at base and should not be early priority. 
+Relic core recommender fields 
+Mode 
+RelicCoreCount

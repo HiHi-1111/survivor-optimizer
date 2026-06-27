@@ -1,0 +1,9 @@
+{
+  "enemy_wins": 2,
+  "failures": {
+    "aggressive protected fact score too low": 1400,
+    "extreme protected fact score too low": 1400,
+    "safe protected fact score too low": 1400
+  },
+  "optimizer_wins": 0
+}

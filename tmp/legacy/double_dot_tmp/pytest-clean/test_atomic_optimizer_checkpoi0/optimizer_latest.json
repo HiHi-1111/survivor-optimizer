@@ -1,0 +1,19 @@
+{
+  "completed": false,
+  "device": "cpu",
+  "elapsed_seconds": 1.2,
+  "false_prune_rate": 0.0,
+  "full_search_audits": 0,
+  "interrupted": true,
+  "processed_this_run": 4,
+  "profiles_learned_from": 0,
+  "profiles_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\..tmp\\pytest-clean\\test_atomic_optimizer_checkpoi0\\profiles.jsonl",
+  "profiles_submitted": 5,
+  "results_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\..tmp\\pytest-clean\\test_atomic_optimizer_checkpoi0\\results.jsonl",
+  "systems_covered": [
+    "cores"
+  ],
+  "updated_at": "2026-06-21T21:42:52Z",
+  "version": 1,
+  "workers": 2
+}

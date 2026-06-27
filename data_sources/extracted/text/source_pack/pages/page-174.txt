@@ -1,0 +1,34 @@
+Optimizer flags 
+Debuff = DamageTaken, Chill/Fire interaction 
+Stats = CritDamage, ShieldDamage, FireBombDamage 
+SpecialMechanics = FireWhistleshot, IceWhistleshot, FireBomb, PullEffect 
+DPSRelevant = Very High late 
+MetaPriority = Second Eternal Twinborn priority from guide 
+ 
+6. Twinborn RPG / Twinborn Blaster 
+Sharkmaw Gun 
+Pair association 
+TwinbornPairID = TB_DRILL_RPG 
+Mode = RPG side 
+BaseTech = RPG 
+PairTech = Drill Shot 
+CanEvolveInto = Twinborn Blaster Sharkmaw Gun 
+Effects by rarity 
+Blue: 
+ATK +100 
+HP +400 
+Purple: 
+RPG skill turns into Twinborn RPG. 
+Can evolve into Twinborn Blaster Sharkmaw Gun. 
+ 
+Twinborn RPG: 
+Fire rate cooldown -0.5s. 
+ 
+Drill Shot: 
+Drill flight speed +30%. 
+Yellow: 
+ATK +400 
+HP +1600 
+Red: 
+Twinborn Blaster Sharkmaw Gun: 
+Blaster Sharkmaw Gun fires Cluster Arrows upon explosion, inflicting Poison on targets.

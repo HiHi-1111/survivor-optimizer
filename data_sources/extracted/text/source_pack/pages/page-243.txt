@@ -1,0 +1,59 @@
+Higher stacks = more damage boost from the board. 
+When hit, Shockwave Blast triggers. 
+Skill/star effects 
+Stage 
+Sync 
+rate 
+Effect 
+Yellow 1 
+0.33 
+Thorn Shield quality upgrade: Additional Shockwave Blast damage 
++16.7% 
+Yellow 2 
+0.36 
+For each Shockwave Blast triggered, damage to Chilled targets +6%, 
+max 60% 
+Yellow 3 
+0.40 
+Thorn Shield quality upgrade: Additional Shockwave Blast damage 
++16.7% 
+Yellow 4 
+0.45 
+Damage to Chilled targets +40%; Skill Damage +30% 
+Red 1 
+0.50 
+Accelerated Charging: Energy gain rate +25% 
+Red 2 
+0.55 
+Damage to Chilled targets +60%; Skill Damage +45% 
+Red 3 
+0.60 
+Accelerated Charging: Energy gain rate +25% 
+Red 4 
+0.75 
+Max Shield Resonance stacks +6 
+Line effects 
+Line 
+Unlock 
+Effect 
+Line 
+1 
+Default 
+Damage to Chilled targets +15%; Skill Damage +10% 
+Line 
+2 
+Default 
+When Thorn Shield fades, 20% chance to not consume stacks 
+Line 
+3 
+Default 
+Damage to Chilled targets +25%; Skill Damage +15% 
+Line 
+4 
+Default 
+When gaining Thorn Shield, gain 1 Shield Resonance stack. Shield 
+Damage Boost +10% for each stack, up to 4 stacks 
+Line 
+5 
+Yellow 2 For each Shockwave Blast triggered, +6% damage to Chilled targets, max 
+60%

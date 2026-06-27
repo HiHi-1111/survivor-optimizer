@@ -1,0 +1,80 @@
+[
+  {
+    "id": "scenario_1",
+    "name": "Short-term Boss Damage",
+    "description": "Optimizes immediate damage output using current inventory.",
+    "weights": {
+      "damage_score": 1.0,
+      "long_term_score": 0.2,
+      "resource_efficiency_score": 0.4,
+      "breakpoint_score": 0.8,
+      "confidence_score": 0.2
+    }
+  },
+  {
+    "id": "scenario_2",
+    "name": "Long-term Account Damage",
+    "description": "Optimizes future account scaling and resource efficiency.",
+    "weights": {
+      "damage_score": 0.6,
+      "long_term_score": 1.0,
+      "resource_efficiency_score": 0.8,
+      "breakpoint_score": 1.0,
+      "confidence_score": 0.2
+    }
+  },
+  {
+    "id": "scenario_3",
+    "name": "Balanced Progression",
+    "description": "Balances immediate damage, future scaling, and resource efficiency.",
+    "weights": {
+      "damage_score": 0.8,
+      "long_term_score": 0.7,
+      "resource_efficiency_score": 0.7,
+      "breakpoint_score": 0.9,
+      "confidence_score": 0.2
+    }
+  },
+  {
+    "id": "scenario_event_shop",
+    "name": "Event Shop Value",
+    "description": "Prioritizes damage-enabling event purchases, breakpoint unlocks, and currency efficiency.",
+    "weights": {"damage_score": 0.7, "long_term_score": 0.8, "resource_efficiency_score": 1.0, "breakpoint_score": 1.0, "confidence_score": 0.3}
+  },
+  {
+    "id": "scenario_f2p_gems",
+    "name": "F2P Gem Conservation",
+    "description": "Protects scarce gems while prioritizing source-backed damage breakpoints.",
+    "weights": {"damage_score": 0.6, "long_term_score": 0.9, "resource_efficiency_score": 1.2, "breakpoint_score": 1.0, "confidence_score": 0.4}
+  },
+  {
+    "id": "scenario_chapter_push",
+    "name": "Chapter Push / Steamroll",
+    "description": "Prioritizes immediate broadly applicable damage for chapter progression without valuing survival-only stats.",
+    "weights": {"damage_score": 1.0, "long_term_score": 0.4, "resource_efficiency_score": 0.5, "breakpoint_score": 0.8, "confidence_score": 0.3}
+  },
+  {
+    "id": "scenario_clan_shop",
+    "name": "Clan Shop Planning",
+    "description": "Prioritizes clan-currency purchases that unlock damage progression and avoids unsupported purchases.",
+    "weights": {"damage_score": 0.7, "long_term_score": 0.9, "resource_efficiency_score": 1.0, "breakpoint_score": 1.0, "confidence_score": 0.4}
+  },
+  {
+    "id": "scenario_pet_xeno",
+    "name": "Pet / Xeno Progression",
+    "description": "Prioritizes long-term pet and Xeno damage breakpoints while preserving required copies and cores.",
+    "weights": {"damage_score": 0.6, "long_term_score": 1.1, "resource_efficiency_score": 0.7, "breakpoint_score": 1.2, "confidence_score": 0.3}
+  },
+  {
+    "id": "scenario_gear_ss",
+    "name": "Gear / SS / Astral Forge",
+    "description": "Prioritizes gear, SS gear, core allocation, and astral-forge damage breakpoints.",
+    "weights": {"damage_score": 0.9, "long_term_score": 0.9, "resource_efficiency_score": 0.7, "breakpoint_score": 1.2, "confidence_score": 0.3}
+  },
+  {
+    "id": "scenario_collectibles",
+    "name": "Collectible Set Progression",
+    "description": "Prioritizes source-backed collectible set damage breakpoints and shard efficiency.",
+    "weights": {"damage_score": 0.6, "long_term_score": 1.0, "resource_efficiency_score": 0.8, "breakpoint_score": 1.2, "confidence_score": 0.4}
+  }
+]

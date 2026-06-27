@@ -1,0 +1,18 @@
+{
+  "tested": 1000,
+  "new_failures": 180,
+  "failure_counts": {
+    "lazy_generic_guardrail_specific_missing": 180
+  },
+  "bank_size": 704,
+  "generated_test": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\tests\\test_global_plan_specificity_v3_memory.py",
+  "pytest_returncode": 1,
+  "pytest_tail": "F...........................                                             [100%]\n================================== FAILURES ===================================\n___________________ test_global_plan_specificity_v3_memory ____________________\ntests\\test_global_plan_specificity_v3_memory.py:43: in test_global_plan_specificity_v3_memory\n    assert len(specific_hits) >= max(1, min(2, len(specific))), c\nE   AssertionError: {'id': 601, 'kind': 'inactive_slot_specific', 'slot': 'weapon', 'crit': 101, ...}\nE   assert 0 >= 1\nE    +  where 0 = len([])\nE    +  and   1 = max(1, 1)\nE    +    where 1 = min(2, 1)\nE    +      where 1 = len(['weapon'])\n=========================== short test summary info ===========================\nFAILED tests/test_global_plan_specificity_v3_memory.py::test_global_plan_specificity_v3_memory\n1 failed, 27 passed in 46.85s\n",
+  "runtime": {
+    "folder": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517",
+    "zip": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517.zip",
+    "folder_mb": 0.793,
+    "zip_mb": 0.081
+  },
+  "created_at": 1782519524.9494648
+}

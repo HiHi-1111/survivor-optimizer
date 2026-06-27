@@ -1,0 +1,33 @@
+StoredDamage 
+BossMarked 
+ShieldRestoreOnCritKill 
+Database flags: 
+Slot = Belt 
+DPSRelevant = Very High 
+Breakpoints = 100% CR, 130% CR, 150% CR 
+StatTypes = CritRate, CritDamage, SkillDamage, StoredDamage 
+ModeValue = Very High for boss modes 
+This connects directly to the earlier Crit Rate & Crit Damage data type. 
+ 
+6. SS Boots 
+Main association 
+SS Boots | Movement Speed | Chilled enemies | Crystal Trail | Ice Blocks | Glacial Bloodline | 
+Vulnerability | Damage stacks 
+The boots are very conditional. They are strong if the build can maintain chill/glacial stacks. 
+Base / rarity effects 
+Base Movement Speed +3 
+HP +15% 
+Crystal Trail: 
+Moving leaves a trail of ice blocks lasting 10 seconds. 
+Ignites key explosions when they expire. 
+Enemies touching blocks or hit by explosions are Chilled for 10 seconds. 
+Unstackable. 
+HP +25% 
+Damage to Chilled enemies +15% 
+Glacial Bloodline: 
+Move to start charging. 
+The faster the speed, the faster the charge. 
+Charge weakens when movement stops. 
+At full charge, gain 1 Glacial Bloodline stack. 
+Each stack gives +12% damage, lasting 15 seconds. 
+Max 5 stacks.

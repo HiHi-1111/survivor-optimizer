@@ -1,0 +1,42 @@
+[
+  {
+    "row_id": "src_5e4341db4c0b8fd4",
+    "data_type": "equipment_priority",
+    "system": "gear",
+    "subsystem": "recommendations",
+    "item_id": null,
+    "name": "Equipment guide priority section",
+    "rarity": null,
+    "level": null,
+    "star": null,
+    "awakening": null,
+    "cost": null,
+    "currency": null,
+    "quantity": null,
+    "limit": null,
+    "unlock_condition": null,
+    "effect_type": null,
+    "effect_value": null,
+    "effect_unit": null,
+    "damage_bucket": null,
+    "debuff_type": null,
+    "applies_to": null,
+    "consumed_by": null,
+    "source_kind": "opinion",
+    "confidence": "medium",
+    "extraction_method": "embedded_pdf_label",
+    "damage_relevance": "survival",
+    "long_term_value": null,
+    "recommended_disposition": "needs_review",
+    "ignore_for_dps": true,
+    "needs_review": true,
+    "source": {
+      "source_file": "source_database_map.pdf",
+      "page_or_image": 195,
+      "section": "Equipment Guide",
+      "original_source_file": null
+    },
+    "notes": "Source labels this section as meta/priority guidance; it cannot override exact effects.",
+    "metadata": {}
+  }
+]

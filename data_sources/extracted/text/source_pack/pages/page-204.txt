@@ -1,0 +1,37 @@
+4 
+50 Void Power hits 
+Base/available 
+earlier 
+5 
+Defeat 100 enemies 
+XT2 
+Xeno trigger effects 
+Effect 
+Unlock 
+Chilled 
+Default 
+Poison 
+XT3 
+Weakene
+d 
+XT7 
+ 
+O) Optimizer warnings to hardcode 
+Never feed spare S gear randomly into other gear. 
+Save S gear for: 
+- Astral Forge 
+- SS crafting 
+- SS forge fodder 
+- Salvage cores 
+- Future selectors/core needs 
+ 
+Do not rush: 
+- SS Armor 
+- SS Necklace before enough crit 
+- Chaos wishlist early just for Chaos cores 
+- Normal RPG/Molotov resonance if Twinborn path is available 
+ 
+Combined Remaining Extraction — 
+Survivor.io Optimizer Source Pack 
+This covers the rest of the main systems still needing extraction: 
+Boss Debuffs

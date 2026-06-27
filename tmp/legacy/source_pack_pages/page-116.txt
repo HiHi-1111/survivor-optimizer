@@ -1,0 +1,43 @@
+1200: 
+Twinborn Maelstorm Damage +6% 
+ 
+1350: 
++1600 ATK, +6400 HP 
+ 
+1500: 
+Phase Driver ATK +5%, HP +5% 
+ 
+1650: 
+Skill Damage +70 
+Buff: Skill Damage +30% 
+ 
+1800: 
++1800 ATK, +7200 HP 
+ 
+1950: 
+Phase Driver ATK +5%, HP +5% 
+ 
+2100: 
+Falling thunder deals +10% damage to enemies damaged by swirling Thunderburst field 
+ 
+2250: 
++2000 ATK, +8000 HP 
+ 
+2400: 
+Phase Driver ATK +5%, HP +5% 
+ 
+2550: 
+Crit Damage +70 
+Buff: Crit Damage +30% 
+ 
+2700: 
++2500 ATK, +10000 HP 
+ 
+2850: 
+Phase Driver ATK +5%, HP +5% 
+ 
+3000: 
+Twinborn Maelstorm Damage +5% 
+ 
+3500: 
++3000 ATK, +12000 HP

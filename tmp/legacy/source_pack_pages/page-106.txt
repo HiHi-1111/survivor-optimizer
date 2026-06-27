@@ -1,0 +1,27 @@
+ClanShopItem_01 | Cost 40000 | Qty 1 | Stock scales by clan level 
+Then later we map exact names. 
+Optimizer rule 
+Clan shop should be valued by: 
+Gem-equivalent value 
+DPS relevance 
+Rarity bottleneck 
+Player progression stage 
+Clan currency cost 
+Monthly/weekly stock limit 
+High-priority shop items are usually rare bottleneck items like relic cores, S selectors, shards, 
+tech keys, collectible keys, and resonance/awakening materials depending on stage. 
+ 
+14. Survivor Pass 
+Sources: 
+Survivor_Pass_2024-12-19​
+ Survivor_Pass_Experience_2024-09-16 
+Unlock requirement 
+Survivor Pass unlocks at: 
+Chapter 8 after winning 
+What it does 
+Survivor Pass gives reward tracks for: 
+Survivor resources 
+Tech parts 
+Equipment resources 
+Joey shards 
+Essence

@@ -1,0 +1,1024 @@
+{
+  "actions_by_system": {
+    "chests": 1,
+    "clan": 1,
+    "clan_shop": 1,
+    "collectible_sets": 1,
+    "collectibles": 1,
+    "cores": 6,
+    "event_shops": 1,
+    "events": 1,
+    "exchanges": 2,
+    "gear": 1,
+    "merge": 12,
+    "pet_awakenings": 2,
+    "pet_merging": 1,
+    "pets": 8,
+    "resonance": 8,
+    "resources": 1,
+    "salvage": 12,
+    "save_hold": 1,
+    "selectors": 3,
+    "shops": 1,
+    "skills": 10,
+    "special_ops": 1,
+    "ss_gear": 6,
+    "survivor_awakening": 10,
+    "survivors": 24,
+    "tech_parts": 6,
+    "universal_exchange": 1,
+    "xeno_pets": 2
+  },
+  "actions_generated_for_audit_state": 125,
+  "actions_scored_by_system": {
+    "chests": 1,
+    "cores": 6,
+    "merge": 12,
+    "pet_awakenings": 2,
+    "pets": 8,
+    "resonance": 8,
+    "salvage": 6,
+    "save_hold": 1,
+    "selectors": 3,
+    "skills": 6,
+    "ss_gear": 6,
+    "survivor_awakening": 10,
+    "survivors": 24,
+    "tech_parts": 6,
+    "xeno_pets": 2
+  },
+  "actions_skipped_by_system": {
+    "clan": 1,
+    "clan_shop": 1,
+    "collectible_sets": 1,
+    "collectibles": 1,
+    "event_shops": 1,
+    "events": 1,
+    "exchanges": 2,
+    "gear": 1,
+    "pet_merging": 1,
+    "resources": 1,
+    "salvage": 6,
+    "shops": 1,
+    "skills": 4,
+    "special_ops": 1,
+    "universal_exchange": 1
+  },
+  "destructive_actions_requiring_caution": [
+    "salvage:check_salvage_safety:murica",
+    "salvage:check_salvage_safety:croaky",
+    "salvage:check_salvage_safety:rex",
+    "salvage:check_salvage_safety:precision_device_drone",
+    "salvage:check_salvage_safety:hi_maintainer_rpg",
+    "salvage:check_salvage_safety:energy_diffuser_molotov"
+  ],
+  "event_currencies_without_active_shop_data": [],
+  "generator_manifests": {
+    "chests": {
+      "can_score_now": true,
+      "disposition": "evaluate",
+      "generated_candidate_actions": 1,
+      "missing_data_warnings": [],
+      "plugin_module": "optimizer.action_generators.chests",
+      "required_resources": [
+        "core_selector_chest"
+      ],
+      "supported_action_types": [
+        "open_chest"
+      ],
+      "system": "chests"
+    },
+    "clan": {
+      "can_score_now": false,
+      "disposition": "evaluate_later",
+      "generated_candidate_actions": 0,
+      "missing_data_warnings": [
+        "No source-backed records or owned resources are available for this system."
+      ],
+      "plugin_module": "optimizer.action_generators.shops",
+      "required_resources": [],
+      "supported_action_types": [],
+      "system": "clan"
+    },
+    "clan_shop": {
+      "can_score_now": false,
+      "disposition": "skip_with_warning",
+      "generated_candidate_actions": 1,
+      "missing_data_warnings": [
+        "Missing clan-shop cost or insufficient known currency; purchase is not assumed."
+      ],
+      "plugin_module": "optimizer.action_generators.clan_shop",
+      "required_resources": [],
+      "supported_action_types": [
+        "buy_clan_shop_item"
+      ],
+      "system": "clan_shop"
+    },
+    "collectible_sets": {
+      "can_score_now": false,
+      "disposition": "evaluate_later",
+      "generated_candidate_actions": 0,
+      "missing_data_warnings": [
+        "No source-backed records or owned resources are available for this system."
+      ],
+      "plugin_module": "optimizer.action_generators.collectible_sets",
+      "required_resources": [],
+      "supported_action_types": [
+        "complete_collectible_set"
+      ],
+      "system": "collectible_sets"
+    },
+    "collectibles": {
+      "can_score_now": false,
+      "disposition": "evaluate_later",
+      "generated_candidate_actions": 0,
+      "missing_data_warnings": [
+        "No source-backed records or owned resources are available for this system."
+      ],
+      "plugin_module": "optimizer.action_generators.collectibles",
+      "required_resources": [],
+      "supported_action_types": [
+        "upgrade_collectible"
+      ],
+      "system": "collectibles"
+    },
+    "cores": {
+      "can_score_now": true,
+      "disposition": "evaluate",
+      "generated_candidate_actions": 6,
+      "missing_data_warnings": [],
+      "plugin_module": "optimizer.action_generators.cores",
+      "required_resources": [
+        "astral_core",
+        "relic_core",
+        "xeno_core"
+      ],
+      "supported_action_types": [
+        "spend_core"
+      ],
+      "system": "cores"
+    },
+    "event_shops": {
+      "can_score_now": false,
+      "disposition": "evaluate_later",
+      "generated_candidate_actions": 0,
+      "missing_data_warnings": [
+        "No source-backed records or owned resources are available for this system."
+      ],
+      "plugin_module": "optimizer.action_generators.event_shops",
+      "required_resources": [],
+      "supported_action_types": [
+        "buy_event_shop_item"
+      ],
+      "system": "event_shops"
+    },
+    "events": {
+      "can_score_now": false,
+      "disposition": "evaluate_later",
+      "generated_candidate_actions": 0,
+      "missing_data_warnings": [
+        "No source-backed records or owned resources are available for this system."
+      ],
+      "plugin_module": "optimizer.action_generators.events",
+      "required_resources": [],
+      "supported_action_types": [
+        "spend_event_resource"
+      ],
+      "system": "events"
+    },
+    "exchanges": {
+      "can_score_now": false,
+      "disposition": "skip_with_warning",
+      "generated_candidate_actions": 2,
+      "missing_data_warnings": [
+        "No concrete exchange table is known yet; action is coverage-only."
+      ],
+      "plugin_module": "optimizer.action_generators.exchanges",
+      "required_resources": [
+        "clan_currency",
+        "gem"
+      ],
+      "supported_action_types": [
+        "exchange_resource"
+      ],
+      "system": "exchanges"
+    },
+    "gear": {
+      "can_score_now": false,
+      "disposition": "evaluate_later",
+      "generated_candidate_actions": 0,
+      "missing_data_warnings": [
+        "No source-backed records or owned resources are available for this system."
+      ],
+      "plugin_module": "optimizer.action_generators.gear",
+      "required_resources": [],
+      "supported_action_types": [
+        "upgrade_or_equip_gear"
+      ],
+      "system": "gear"
+    },
+    "merge": {
+      "can_score_now": true,
+      "disposition": "evaluate",
+      "generated_candidate_actions": 12,
+      "missing_data_warnings": [],
+      "plugin_module": "optimizer.action_generators.merge",
+      "required_resources": [
+        "croaky",
+        "energy_diffuser_molotov",
+        "hi_maintainer_rpg",
+        "murica",
+        "precision_device_drone",
+        "rex"
+      ],
+      "supported_action_types": [
+        "merge_item"
+      ],
+      "system": "merge"
+    },
+    "pet_awakenings": {
+      "can_score_now": true,
+      "disposition": "evaluate",
+      "generated_candidate_actions": 2,
+      "missing_data_warnings": [],
+      "plugin_module": "optimizer.action_generators.pet_awakenings",
+      "required_resources": [
+        "pet_awakening_crystal_path"
+      ],
+      "supported_action_types": [
+        "awaken_pet"
+      ],
+      "system": "pet_awakenings"
+    },
+    "pet_merging": {
+      "can_score_now": false,
+      "disposition": "evaluate_later",
+      "generated_candidate_actions": 0,
+      "missing_data_warnings": [
+        "No source-backed records or owned resources are available for this system."
+      ],
+      "plugin_module": "optimizer.action_generators.pet_merging",
+      "required_resources": [],
+      "supported_action_types": [
+        "merge_pet"
+      ],
+      "system": "pet_merging"
+    },
+    "pets": {
+      "can_score_now": true,
+      "disposition": "evaluate",
+      "generated_candidate_actions": 8,
+      "missing_data_warnings": [],
+      "plugin_module": "optimizer.action_generators.pets",
+      "required_resources": [
+        "croaky",
+        "murica",
+        "pet_awakening_crystal_path",
+        "rex"
+      ],
+      "supported_action_types": [
+        "upgrade_or_awaken_pet"
+      ],
+      "system": "pets"
+    },
+    "resonance": {
+      "can_score_now": true,
+      "disposition": "evaluate",
+      "generated_candidate_actions": 8,
+      "missing_data_warnings": [],
+      "plugin_module": "optimizer.action_generators.resonance",
+      "required_resources": [
+        "energy_diffuser_molotov",
+        "hi_maintainer_rpg",
+        "precision_device_drone",
+        "resonance_chip"
+      ],
+      "supported_action_types": [
+        "advance_resonance"
+      ],
+      "system": "resonance"
+    },
+    "resources": {
+      "can_score_now": false,
+      "disposition": "evaluate_later",
+      "generated_candidate_actions": 0,
+      "missing_data_warnings": [
+        "No source-backed records or owned resources are available for this system."
+      ],
+      "plugin_module": "optimizer.action_generators.resources",
+      "required_resources": [],
+      "supported_action_types": [
+        "spend_resource"
+      ],
+      "system": "resources"
+    },
+    "salvage": {
+      "can_score_now": true,
+      "disposition": "evaluate",
+      "generated_candidate_actions": 12,
+      "missing_data_warnings": [
+        "No source-backed safe salvage rule; destructive action is blocked."
+      ],
+      "plugin_module": "optimizer.action_generators.salvage",
+      "required_resources": [
+        "croaky",
+        "energy_diffuser_molotov",
+        "hi_maintainer_rpg",
+        "murica",
+        "precision_device_drone",
+        "rex"
+      ],
+      "supported_action_types": [
+        "salvage_item"
+      ],
+      "system": "salvage"
+    },
+    "save_hold": {
+      "can_score_now": true,
+      "disposition": "evaluate",
+      "generated_candidate_actions": 1,
+      "missing_data_warnings": [],
+      "plugin_module": "optimizer.action_generators.save_hold",
+      "required_resources": [
+        "xeno_core"
+      ],
+      "supported_action_types": [
+        "save_hold"
+      ],
+      "system": "save_hold"
+    },
+    "selectors": {
+      "can_score_now": true,
+      "disposition": "evaluate",
+      "generated_candidate_actions": 3,
+      "missing_data_warnings": [],
+      "plugin_module": "optimizer.action_generators.selectors",
+      "required_resources": [
+        "core_selector_chest"
+      ],
+      "supported_action_types": [
+        "select_from_chest"
+      ],
+      "system": "selectors"
+    },
+    "shops": {
+      "can_score_now": false,
+      "disposition": "evaluate_later",
+      "generated_candidate_actions": 0,
+      "missing_data_warnings": [
+        "No source-backed records or owned resources are available for this system."
+      ],
+      "plugin_module": "optimizer.action_generators.shops",
+      "required_resources": [],
+      "supported_action_types": [],
+      "system": "shops"
+    },
+    "skills": {
+      "can_score_now": true,
+      "disposition": "evaluate",
+      "generated_candidate_actions": 10,
+      "missing_data_warnings": [
+        "Missing known use/effect path; not recommended except as save/hold."
+      ],
+      "plugin_module": "optimizer.action_generators.skills",
+      "required_resources": [
+        "durian",
+        "inferno_bomb",
+        "laser_launcher",
+        "modular_mine",
+        "thunderbolt_bomb"
+      ],
+      "supported_action_types": [
+        "equip_or_evolve_skill"
+      ],
+      "system": "skills"
+    },
+    "special_ops": {
+      "can_score_now": false,
+      "disposition": "evaluate_later",
+      "generated_candidate_actions": 0,
+      "missing_data_warnings": [
+        "No source-backed records or owned resources are available for this system."
+      ],
+      "plugin_module": "optimizer.action_generators.shops",
+      "required_resources": [],
+      "supported_action_types": [],
+      "system": "special_ops"
+    },
+    "ss_gear": {
+      "can_score_now": true,
+      "disposition": "evaluate",
+      "generated_candidate_actions": 6,
+      "missing_data_warnings": [],
+      "plugin_module": "optimizer.action_generators.ss_gear",
+      "required_resources": [
+        "astral_core",
+        "relic_core",
+        "xeno_core"
+      ],
+      "supported_action_types": [
+        "forge_ss_gear"
+      ],
+      "system": "ss_gear"
+    },
+    "survivor_awakening": {
+      "can_score_now": true,
+      "disposition": "evaluate",
+      "generated_candidate_actions": 10,
+      "missing_data_warnings": [],
+      "plugin_module": "optimizer.action_generators.survivor_awakening",
+      "required_resources": [
+        "april_reporter_snapshot_a3",
+        "donatello_brotherhood_a1",
+        "donatello_brotherhood_a2",
+        "splinter_master_mentor_a1",
+        "teamwork_slots_a4_a6"
+      ],
+      "supported_action_types": [
+        "awaken_survivor"
+      ],
+      "system": "survivor_awakening"
+    },
+    "survivors": {
+      "can_score_now": true,
+      "disposition": "evaluate",
+      "generated_candidate_actions": 24,
+      "missing_data_warnings": [],
+      "plugin_module": "optimizer.action_generators.survivors",
+      "required_resources": [
+        "april_reporter_snapshot_a3",
+        "april_sp",
+        "donatello_brotherhood_a1",
+        "donatello_brotherhood_a2",
+        "donatello_sp",
+        "energy_essence",
+        "leonardo_sp",
+        "michelangelo_sp",
+        "raphael_sp",
+        "splinter_master_mentor_a1",
+        "splinter_sp",
+        "teamwork_slots_a4_a6"
+      ],
+      "supported_action_types": [
+        "upgrade_survivor"
+      ],
+      "system": "survivors"
+    },
+    "tech_parts": {
+      "can_score_now": true,
+      "disposition": "evaluate",
+      "generated_candidate_actions": 6,
+      "missing_data_warnings": [],
+      "plugin_module": "optimizer.action_generators.tech_parts",
+      "required_resources": [
+        "energy_diffuser_molotov",
+        "hi_maintainer_rpg",
+        "precision_device_drone"
+      ],
+      "supported_action_types": [
+        "upgrade_or_equip_tech"
+      ],
+      "system": "tech_parts"
+    },
+    "universal_exchange": {
+      "can_score_now": false,
+      "disposition": "evaluate_later",
+      "generated_candidate_actions": 0,
+      "missing_data_warnings": [
+        "No source-backed records or owned resources are available for this system."
+      ],
+      "plugin_module": "optimizer.action_generators.universal_exchange",
+      "required_resources": [],
+      "supported_action_types": [
+        "universal_exchange"
+      ],
+      "system": "universal_exchange"
+    },
+    "xeno_pets": {
+      "can_score_now": true,
+      "disposition": "evaluate",
+      "generated_candidate_actions": 2,
+      "missing_data_warnings": [],
+      "plugin_module": "optimizer.action_generators.xeno_pets",
+      "required_resources": [
+        "xeno_core"
+      ],
+      "supported_action_types": [
+        "unlock_or_upgrade_xeno_pet"
+      ],
+      "system": "xeno_pets"
+    }
+  },
+  "inventory_action_coverage_percent": 87.879,
+  "item_affordance_coverage_percent": 96.97,
+  "items_with_conflicting_guide_data": [
+    "conflict_resources_astral_core",
+    "conflict_resources_xeno_core",
+    "conflict_resources_resonance_chip",
+    "conflict_warnings_core_test_generic_placeholder_warning",
+    "conflict_chests_core_selector_chest",
+    "conflict_rules_astral_core_near_breakpoint_priority",
+    "conflict_rules_xeno_core_long_term_breakpoint_priority",
+    "conflict_rules_resonance_chip_lower_without_breakpoint",
+    "conflict_item_effects_survival_effect_armor_v2_2024_11_28_result",
+    "conflict_item_effects_survival_effect_clan_level_rewards_2024_11_28",
+    "conflict_item_effects_survival_effect_clan_level_rewards_2024_11_28_result",
+    "conflict_item_effects_survival_effect_eternal_necklace_2024_11_28",
+    "conflict_item_effects_survival_effect_eternal_necklace_2024_11_28_result",
+    "conflict_item_effects_survival_effect_gloves_v2_2024_11_28",
+    "conflict_item_effects_survival_effect_gloves_v2_2024_11_28_result",
+    "conflict_rules_rule_breakpoint_astral_forge_2024_10_06",
+    "conflict_rules_rule_breakpoint_astral_forge_2024_10_06_result",
+    "conflict_warnings_training_no_text_armor_v2_2024_11_28_result",
+    "conflict_warnings_training_no_text_belts_v2_2024_11_28_result",
+    "conflict_warnings_training_no_text_boots_v2_2024_11_28",
+    "conflict_warnings_training_no_text_boots_v2_2024_11_28_result",
+    "conflict_resources_relic_core",
+    "conflict_breakpoints_breakpoint_ee_armor_v2_2024_11_28",
+    "conflict_breakpoints_breakpoint_ee_astral_forge_2024_10_06",
+    "conflict_breakpoints_breakpoint_ce_astral_forge_2024_10_06_result",
+    "conflict_breakpoints_breakpoint_cores_awakening_core_guide_2024_10_04",
+    "conflict_breakpoints_breakpoint_cores_awakening_core_guide_2024_10_04_result",
+    "conflict_breakpoints_breakpoint_ee_awakening_core_guide_2024_10_04_result",
+    "conflict_breakpoints_breakpoint_ee_boss_debuffs_2024_12_27",
+    "conflict_breakpoints_breakpoint_ee_boss_debuffs_2024_12_27_result",
+    "conflict_breakpoints_breakpoint_af_chapter_unlocks_2024_09_17",
+    "conflict_breakpoints_breakpoint_af_chapter_unlocks_2024_09_17_result",
+    "conflict_breakpoints_breakpoint_ce_clan_expedition_rewards_2024_11_28",
+    "conflict_breakpoints_breakpoint_ce_clan_expedition_rewards_2024_11_28_result",
+    "conflict_breakpoints_breakpoint_ee_clan_expedition_rewards_2024_11_28_result",
+    "conflict_breakpoints_breakpoint_ce_clan_level_rewards_2024_11_28",
+    "conflict_breakpoints_breakpoint_ce_clan_level_rewards_2024_11_28_result",
+    "conflict_breakpoints_breakpoint_cost_clan_shop_2025_02_17",
+    "conflict_breakpoints_breakpoint_cost_clan_shop_2025_02_17_result",
+    "conflict_breakpoints_breakpoint_ce_collectible_costs_2024_10_11",
+    "conflict_breakpoints_breakpoint_ee_collectible_costs_2024_10_11_result",
+    "conflict_breakpoints_breakpoint_af_collectibles_edition_1_2024_11_28",
+    "conflict_breakpoints_breakpoint_ee_collectibles_edition_2_2024_11_28",
+    "conflict_breakpoints_breakpoint_ee_collectibles_edition_2_2024_11_28_result",
+    "conflict_breakpoints_breakpoint_ee_collectibles_edition_3_2024_11_28",
+    "conflict_breakpoints_breakpoint_ce_collectibles_edition_3_2024_11_28_result",
+    "conflict_breakpoints_breakpoint_ee_crit_rate_and_damage_2025_03_09_1",
+    "conflict_breakpoints_breakpoint_ce_crit_rate_and_damage_2025_03_09_1_result",
+    "conflict_breakpoints_breakpoint_ee_crit_rate_and_damage_2025_03_09_1_result",
+    "conflict_breakpoints_breakpoint_ee_crit_rate_and_damage_2025_03_09",
+    "conflict_breakpoints_breakpoint_ce_crit_rate_and_damage_2025_03_09_result",
+    "conflict_breakpoints_breakpoint_ee_crit_rate_and_damage_2025_03_09_result",
+    "conflict_breakpoints_breakpoint_ce_ee_rewards_2024_09_15",
+    "conflict_breakpoints_breakpoint_ce_ee_rewards_2024_09_15_result",
+    "conflict_breakpoints_breakpoint_ee_energy_essence_cost_2024_11_28_1_result",
+    "conflict_breakpoints_breakpoint_ee_energy_essence_cost_2024_11_28_result",
+    "conflict_breakpoints_breakpoint_ce_energy_essence_cost_full_2024_11_28_1",
+    "conflict_breakpoints_breakpoint_ee_energy_essence_cost_full_2024_11_28_1_result",
+    "conflict_breakpoints_breakpoint_ce_energy_essence_cost_full_2024_11_28_1_result",
+    "conflict_breakpoints_breakpoint_ce_energy_essence_cost_full_2024_11_28",
+    "conflict_breakpoints_breakpoint_ee_energy_essence_cost_full_2024_11_28_result",
+    "conflict_breakpoints_breakpoint_ce_energy_essence_cost_full_2024_11_28_result",
+    "conflict_breakpoints_breakpoint_ee_equip_design_costs_2024_11_14",
+    "conflict_breakpoints_breakpoint_ce_eternal_necklace_2024_11_28",
+    "conflict_breakpoints_breakpoint_ee_eternal_necklace_2024_11_28",
+    "conflict_breakpoints_breakpoint_ce_eternal_necklace_2024_11_28_result",
+    "conflict_breakpoints_breakpoint_ee_eternal_necklace_2024_11_28_result",
+    "conflict_breakpoints_breakpoint_ce_gloves_v2_2024_11_28",
+    "conflict_breakpoints_breakpoint_ce_gloves_v2_2024_11_28_result",
+    "conflict_breakpoints_breakpoint_ce_item_values_2024_10_02",
+    "conflict_breakpoints_breakpoint_awakening_item_values_2024_10_02_result",
+    "conflict_breakpoints_breakpoint_ee_master_yang_skills_2024_11_28",
+    "conflict_breakpoints_breakpoint_ce_resonance_2024_10_30",
+    "conflict_breakpoints_breakpoint_ce_resonance_2024_10_30_result",
+    "conflict_breakpoints_breakpoint_ce_sources_of_gems_2024_10_07",
+    "conflict_breakpoints_breakpoint_ce_sources_of_gems_2024_10_07_result",
+    "conflict_breakpoints_breakpoint_ce_sources_of_gems_2024_12_18",
+    "conflict_breakpoints_breakpoint_ce_sources_of_gems_2024_12_18_result",
+    "conflict_breakpoints_breakpoint_ce_sources_of_oil_2024_11_03",
+    "conflict_breakpoints_breakpoint_ce_sources_of_oil_2024_11_03_result",
+    "conflict_breakpoints_breakpoint_ce_sources_of_oil_2024_12_18",
+    "conflict_breakpoints_breakpoint_ce_sources_of_oil_2024_12_18_result",
+    "conflict_breakpoints_breakpoint_ce_survivor_pass_experience_2024_09_16",
+    "conflict_breakpoints_breakpoint_ce_survivor_pass_experience_2024_09_16_result",
+    "conflict_warnings_training_no_text_merging_equip_2024_11_28_result",
+    "conflict_warnings_training_no_text_merging_tech_parts_2024_11_28_result",
+    "conflict_warnings_training_no_text_necklaces_v2_2024_11_28",
+    "conflict_warnings_training_no_text_pet_skills_2024_09_09",
+    "conflict_warnings_training_no_text_relic_core_usage_clan_expedition_mini_2024_11_29_result",
+    "conflict_warnings_training_no_text_relic_core_usage_enders_echo_mini_2024_11_29",
+    "conflict_warnings_training_no_text_survivor_combat_harmony_skills_and_costs_2024_12_20_result",
+    "conflict_warnings_training_extract_warning_survivor_upgrade_costs_2024_12_19_result_1",
+    "conflict_resources_gem"
+  ],
+  "items_with_no_known_spend_use_action": [
+    "awakening_crystal",
+    "clan_currency",
+    "clan_shop_catalog_needs_review",
+    "gem"
+  ],
+  "items_with_unknown_effects": [
+    "awakening_crystal",
+    "clan_currency",
+    "clan_shop_catalog_needs_review",
+    "gem"
+  ],
+  "missing_chest_contents": [],
+  "missing_costs": [
+    "clan_shop_catalog_needs_review"
+  ],
+  "missing_data_by_system": {
+    "clan_shop": [
+      "Missing clan-shop cost or insufficient known currency; purchase is not assumed."
+    ],
+    "collectible_sets": [
+      "No source-backed records or owned resources are available for this system."
+    ],
+    "collectibles": [
+      "No source-backed records or owned resources are available for this system."
+    ],
+    "event_shops": [
+      "No source-backed records or owned resources are available for this system."
+    ],
+    "events": [
+      "No source-backed records or owned resources are available for this system."
+    ],
+    "exchanges": [
+      "No concrete exchange table is known yet; action is coverage-only."
+    ],
+    "gear": [
+      "No source-backed records or owned resources are available for this system."
+    ],
+    "pet_merging": [
+      "No source-backed records or owned resources are available for this system."
+    ],
+    "resources": [
+      "No source-backed records or owned resources are available for this system."
+    ],
+    "universal_exchange": [
+      "No source-backed records or owned resources are available for this system."
+    ]
+  },
+  "missing_item_names": [
+    "clan_shop_catalog_needs_review"
+  ],
+  "missing_unlock_requirements": [
+    "april_sp",
+    "croaky",
+    "donatello_sp",
+    "leonardo_sp",
+    "michelangelo_sp",
+    "murica",
+    "pet_awakening_crystal_path",
+    "raphael_sp",
+    "rex",
+    "splinter_sp"
+  ],
+  "needs_review_by_system": {
+    "chests": [
+      "core_selector_chest"
+    ],
+    "clan_shop": [
+      "clan_shop_catalog_needs_review"
+    ],
+    "cores": [
+      "clan_currency",
+      "energy_essence",
+      "gem",
+      "relic_core"
+    ],
+    "resonance": [
+      "clan_currency",
+      "energy_essence",
+      "gem",
+      "relic_core"
+    ],
+    "resources": [
+      "clan_currency",
+      "energy_essence",
+      "gem",
+      "relic_core"
+    ],
+    "save_hold": [
+      "clan_currency",
+      "core_selector_chest",
+      "energy_essence",
+      "gem",
+      "relic_core"
+    ],
+    "selectors": [
+      "core_selector_chest"
+    ],
+    "ss_gear": [
+      "clan_currency",
+      "energy_essence",
+      "gem",
+      "relic_core"
+    ],
+    "survivors": [
+      "clan_currency",
+      "energy_essence",
+      "gem",
+      "relic_core"
+    ],
+    "tech_parts": [
+      "clan_currency",
+      "energy_essence",
+      "gem",
+      "relic_core"
+    ],
+    "xeno_pets": [
+      "clan_currency",
+      "energy_essence",
+      "gem",
+      "relic_core"
+    ]
+  },
+  "next_data_needed": {
+    "collectible_sets": "Add source-backed records for: collectible_sets.",
+    "collectibles": "Add source-backed records for: collectibles, collectible_sets.",
+    "event_shops": "Add source-backed records for: event_shops.",
+    "events": "Add source-backed records for: events.",
+    "exchanges": "Add source-backed records for: universal_exchange.",
+    "gear": "Add source-backed records for: gear, weapons.",
+    "pet_merging": "Add source-backed records for: pet_merging.",
+    "universal_exchange": "Add source-backed records for: universal_exchange."
+  },
+  "placeholder_only_systems": [
+    "clan_shop"
+  ],
+  "random_chests_without_odds": [],
+  "real_data_systems": [
+    "chests",
+    "cores",
+    "merge",
+    "pet_awakenings",
+    "pets",
+    "resonance",
+    "resources",
+    "salvage",
+    "save_hold",
+    "selectors",
+    "skills",
+    "ss_gear",
+    "survivor_awakening",
+    "survivors",
+    "tech_parts",
+    "xeno_pets"
+  ],
+  "real_data_systems_not_observed_this_run": [
+    "resources",
+    "survivor_awakening"
+  ],
+  "real_data_systems_observed_this_run": [
+    "chests",
+    "cores",
+    "merge",
+    "pet_awakenings",
+    "pets",
+    "resonance",
+    "salvage",
+    "save_hold",
+    "selectors",
+    "skills",
+    "ss_gear",
+    "survivors",
+    "tech_parts",
+    "xeno_pets"
+  ],
+  "selector_chests_without_options": [],
+  "supported_items": 29,
+  "supported_systems": [
+    "chests",
+    "clan_shop",
+    "collectible_sets",
+    "collectibles",
+    "cores",
+    "event_shops",
+    "events",
+    "exchanges",
+    "gear",
+    "merge",
+    "pet_awakenings",
+    "pet_merging",
+    "pets",
+    "resonance",
+    "resources",
+    "salvage",
+    "save_hold",
+    "selectors",
+    "skills",
+    "ss_gear",
+    "survivor_awakening",
+    "survivors",
+    "tech_parts",
+    "universal_exchange",
+    "xeno_pets"
+  ],
+  "systems_fully_supported": [
+    "chests",
+    "cores",
+    "merge",
+    "pet_awakenings",
+    "pets",
+    "resonance",
+    "salvage",
+    "save_hold",
+    "selectors",
+    "skills",
+    "ss_gear",
+    "survivor_awakening",
+    "survivors",
+    "tech_parts",
+    "xeno_pets"
+  ],
+  "systems_generated_actions": [
+    "chests",
+    "clan_shop",
+    "collectible_sets",
+    "collectibles",
+    "cores",
+    "event_shops",
+    "events",
+    "exchanges",
+    "gear",
+    "merge",
+    "pet_awakenings",
+    "pet_merging",
+    "pets",
+    "resonance",
+    "resources",
+    "salvage",
+    "save_hold",
+    "selectors",
+    "skills",
+    "ss_gear",
+    "survivor_awakening",
+    "survivors",
+    "tech_parts",
+    "universal_exchange",
+    "xeno_pets"
+  ],
+  "systems_implemented": [
+    "chests",
+    "clan_shop",
+    "collectible_sets",
+    "collectibles",
+    "cores",
+    "event_shops",
+    "events",
+    "exchanges",
+    "gear",
+    "merge",
+    "pet_awakenings",
+    "pet_merging",
+    "pets",
+    "resonance",
+    "resources",
+    "salvage",
+    "save_hold",
+    "selectors",
+    "skills",
+    "ss_gear",
+    "survivor_awakening",
+    "survivors",
+    "tech_parts",
+    "universal_exchange",
+    "xeno_pets"
+  ],
+  "systems_missing_data": [
+    "collectible_sets",
+    "collectibles",
+    "event_shops",
+    "events",
+    "exchanges",
+    "gear",
+    "pet_merging",
+    "universal_exchange"
+  ],
+  "systems_not_observed_count": 11,
+  "systems_not_observed_this_run": [
+    "clan_shop",
+    "collectible_sets",
+    "collectibles",
+    "event_shops",
+    "events",
+    "exchanges",
+    "gear",
+    "pet_merging",
+    "resources",
+    "survivor_awakening",
+    "universal_exchange"
+  ],
+  "systems_observed_this_run": [
+    "chests",
+    "cores",
+    "merge",
+    "pet_awakenings",
+    "pets",
+    "resonance",
+    "salvage",
+    "save_hold",
+    "selectors",
+    "skills",
+    "ss_gear",
+    "survivors",
+    "tech_parts",
+    "xeno_pets"
+  ],
+  "systems_partially_supported": [
+    "clan_shop",
+    "collectible_sets",
+    "collectibles",
+    "event_shops",
+    "events",
+    "exchanges",
+    "gear",
+    "pet_merging",
+    "resources",
+    "universal_exchange"
+  ],
+  "systems_scored": [],
+  "systems_seen_in_profiles": [
+    "chests",
+    "clan",
+    "clan_shop",
+    "collectible_sets",
+    "collectibles",
+    "cores",
+    "event_shops",
+    "events",
+    "exchanges",
+    "gear",
+    "merge",
+    "pet_awakenings",
+    "pet_merging",
+    "pets",
+    "resonance",
+    "resources",
+    "salvage",
+    "save_hold",
+    "selectors",
+    "shops",
+    "skills",
+    "special_ops",
+    "ss_gear",
+    "survivor_awakening",
+    "survivors",
+    "tech_parts",
+    "universal_exchange",
+    "xeno_pets"
+  ],
+  "systems_simulated": [],
+  "systems_with_generators": [
+    "chests",
+    "clan",
+    "clan_shop",
+    "collectible_sets",
+    "collectibles",
+    "cores",
+    "event_shops",
+    "events",
+    "exchanges",
+    "gear",
+    "merge",
+    "pet_awakenings",
+    "pet_merging",
+    "pets",
+    "resonance",
+    "resources",
+    "salvage",
+    "save_hold",
+    "selectors",
+    "shops",
+    "skills",
+    "special_ops",
+    "ss_gear",
+    "survivor_awakening",
+    "survivors",
+    "tech_parts",
+    "universal_exchange",
+    "xeno_pets"
+  ],
+  "total_known_inventory_item_ids": 33,
+  "total_known_items": 33,
+  "total_supported_by_action_generator": 29,
+  "unsupported_categories": {
+    "clan_shop": [
+      "clan_shop_catalog_needs_review"
+    ],
+    "resources": [
+      "awakening_crystal",
+      "clan_currency",
+      "gem"
+    ]
+  },
+  "unsupported_ids": [
+    "awakening_crystal",
+    "clan_currency",
+    "clan_shop_catalog_needs_review",
+    "gem"
+  ],
+  "unsupported_items": [
+    "awakening_crystal",
+    "clan_currency",
+    "clan_shop_catalog_needs_review",
+    "gem"
+  ],
+  "unsupported_systems": []
+}

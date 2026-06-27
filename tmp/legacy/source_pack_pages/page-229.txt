@@ -1,0 +1,30 @@
+Necklace: Voidwaker Emblem first 
+Gloves: Voidwaker Handguards first 
+Armor: Armor of Quietus first, then Eternal Suit 
+Belt: Twisting/Chaos Belt first 
+Boots: Voidwaker Treads first 
+ 
+20. Timed Muster Medal Conversion 
+Source: 
+Timed_Muster_Medal_Conversion_2024-12-12 
+What it does 
+Shows conversion/value for Timed Muster medals. 
+Use for: 
+Event shop efficiency 
+Medal conversion value 
+Should spend vs save decision 
+Fields: 
+MedalItem 
+ConversionCost 
+RewardItem 
+GemEquivalent 
+DPSRelevant 
+Priority 
+ 
+21. Chapter Unlocks — final rule table 
+Source: 
+Chapter_Unlocks-2024-09-17 
+System 
+Unlock 
+Equipment 
+Chapter 1 after losing

@@ -1,0 +1,28 @@
+DebuffFamily = Laceration​
+ DamageModifierType = Damage to Lacerated targets​
+ StackingType = Needs testing / source-specific 
+ 
+3. Vulnerability package 
+April adds Vulnerability through Reporter Snapshot. 
+This connects directly to the Boss_Debuffs source because Vulnerability is a major damage 
+amplifier. 
+Suggested field: 
+DebuffFamily = Vulnerability​
+ Source = April Awakening A3/A5​
+ DPSRelevant = Very High 
+ 
+4. Pet package 
+April and Splinter both connect to pets. 
+April: 
+●​ Pet ATK 
+●​ Pet HP 
+Splinter: 
+●​ Pet Crit Rate 
+●​ Pet Crit Damage 
+●​ Pet Skill cooldown 
+For your calculator: 
+PetATK = count for DPS​
+ PetCritRate = count for DPS​
+ PetCritDamage = count for DPS​
+ PetSkillCDReduction = count for DPS if pet skill damage is modeled​
+ PetHP = store but ignore

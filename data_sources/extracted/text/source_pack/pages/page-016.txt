@@ -1,0 +1,32 @@
+1-star 
+●​ Exclusive weapon: Secret Art Blast 
+●​ Splinter brandishes his cane and fires a power wave at enemies. 
+●​ Can evolve into Secret Art Fusion. 
+2-star 
+●​ Survivor License: 
+○​ Survivor ATK +400 
+○​ Survivor HP +2000 
+3-star 
+●​ Bonecrusher Blast 
+●​ Secret Art Blast / Secret Art Fusion power wave damage +30%. 
+●​ Inflicts Slow. 
+●​ Survivor HP +20%. 
+4-star 
+●​ Advanced Survivor License: 
+○​ Survivor ATK +1000 
+○​ Survivor HP +5000 
+5-star 
+●​ All Survivors: Crit Rate +8% 
+6-star 
+●​ Fatality Blast 
+●​ Secret Art Blast / Secret Art Fusion power wave damage +30%. 
+●​ Inflicts enhanced Slow. 
+●​ Survivor ATK +20%. 
+Awakening upgrades 
+A1 
+●​ Active: Phantom Assault 
+●​ Adds 1 phantom. 
+●​ Phantom damage +20%. 
+●​ Passive: Master Mentor 
+●​ Equipped pet skill cooldown -5%. 
+●​ Pet Crit Rate +10%.

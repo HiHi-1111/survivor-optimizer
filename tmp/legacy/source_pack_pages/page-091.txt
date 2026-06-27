@@ -1,0 +1,29 @@
+4. Relic core usage 
+Sources: 
+Relic_Core_Usage_-_Clan_Expedition_2024-11-29​
+ Relic_Core_Usage_-_Clan_Expedition_mini_2024-11-29​
+ Relic_Core_Usage_-_Enders_Echo_2024-11-29​
+ Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29 
+What it does 
+These files show the recommended SS forge spread for different numbers of relic cores. 
+There are separate tables for: 
+Clan Expedition 
+Ender’s Echo 
+because the best SS gear spread changes depending on mode. 
+Unlock / usage requirement 
+You need: 
+SS gear unlocked 
+Relic cores 
+Eternal/Void/Chaos cores 
+Enough faction cores/fodder 
+Optimizer rule 
+This becomes a relic-core recommender: 
+Input: 
+- Player relic core count 
+- Mode = Ender's Echo or Clan Expedition 
+- Current SS gear levels 
+- Crit rate 
+- Equipped gear 
+ 
+Output: 
+- Best next relic core spend

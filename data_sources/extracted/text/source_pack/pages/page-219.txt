@@ -1,0 +1,54 @@
+Example: 
+Interdimension Movement 25 stars modifies SS Armor Eternal Recharge. 
+Meaning of Life modifies SS Gloves Stealth Attack / Weaken scaling. 
+ 
+10. Twinborn Collectible Sets 
+From Tech Parts - Twinborn charts. 
+Set 
+Twinborn pair/mode 
+Main bonuses 
+Close to Creation 
+Durian/Caltrops 
+Caltrops spike damage, Durian/Caltrops 
+damage, shield damage 
+Open Void Gate 
+Soccer/Quantum Ball 
+Quantum Ball duration, shield damage, 
+Soccer damage, skill damage, crit damage 
+Transgalactic 
+Tentacle 
+Drone/Destroyer 
+Missile count, single-shot damage 
+Impression Idols 
+Forcefield/Force 
+Barrier 
+Forcefield damage, vulnerability, crit damage, 
+damage rate, skill damage 
+Multiverse 
+Perspective 
+Drill/Frostfire 
+Drill/Frostfire damage, Fire Bomb damage 
+Hyperrift Tech 
+RPG/Sharkmaw 
+Sharkmaw damage, Cluster Arrows, lacerated 
+damage 
+Rewriting the Stars’ 
+Memories 
+Lightning/Maelstorm 
+Maelstorm damage 
+Goldfinger 
+Boomerang/Magvolt 
+Skill damage, vulnerability max stacks, 
+weakened damage 
+Cyber Wonderland 
+Guardian/Defender 
+Defender damage, skill damage, poisoned 
+target damage 
+Try All Possibilities 
+Laser/Death Ray 
+Crit damage, shield damage, poisoned target 
+damage, Death Ray damage, skill damage 
+Brewing Recipe 
+Brick/1-ton Iron 
+Brick damage, shield damage, skill damage, 
+crit damage

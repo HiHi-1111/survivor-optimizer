@@ -1,0 +1,37 @@
+Stats = CritDamage, SkillDamage, ShieldDamage, DamageToChilled 
+SpecialMechanics = SpikedQuantumBall, QuantumEntanglement 
+DPSRelevant = Medium/High 
+MetaPriority = Lower than Drone/Forcefield and Drill/RPG, but important for crit/chill builds 
+ 
+3. Twinborn Drone / Twinborn Destroyer 
+Pair association 
+TwinbornPairID = TB_DRONE_FORCEFIELD 
+Mode = Drone side 
+BaseTech = Drone 
+PairTech = Forcefield 
+CanEvolveInto = Twinborn Destroyer 
+Effects by rarity 
+Blue: 
+ATK +100 
+HP +400 
+Purple: 
+Drone skills become Twinborn Drone in a match and can evolve into Twinborn Destroyer. 
+ 
+Twinborn Drone: 
+Auto-Guidance. 
+Missiles home in on enemies in firing range, but with reduced fire rate. 
+ 
+Forcefield: 
+Energy Compression. 
+Range -25%, 2x damage. 
+Yellow: 
+ATK +400 
+HP +1600 
+Red: 
+Twinborn Destroyer exclusive: 
+Newtype Warhead. 
+Restores fire rate and missile explosion range is doubled. 
+Twinborn Destroyer generates a destruction forcefield. 
+EXP +25%. 
+Twinborn Destroyer missile damage +6%. 
+Skill Damage +75%.

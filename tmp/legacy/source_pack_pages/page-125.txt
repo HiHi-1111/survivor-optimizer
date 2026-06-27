@@ -1,0 +1,38 @@
+Chill Damage 
+Crit Damage 
+Lacerate Damage 
+Optimizer identity 
+Twinborn Drill is a Chill + Crit + Laceration + Shield Damage tech. It has a big late-game 
+identity because it stacks Ice Focus and boosts damage to Chilled/Lacerated enemies. 
+DPSRelevant = High / Very High 
+DebuffFamily = Chill, Laceration 
+ScalingType = Ice Focus stacks + Chilled target damage + Lacerated target damage 
+Extracted resonance rows 
+50: 
++200 ATK, +800 HP 
+ 
+100: 
+Shield Damage +15 
+Fire Whistleshot Damage +18% 
+Shield Damage Boost +15% 
+ 
+150: 
++400 ATK, +1600 HP 
+ 
+200: 
+Chill Damage +30 
+Ice Focus: 
+When Ice Whistleshot hits 10 times, gain 1 Ice Focus stack 
++30% damage to Chilled targets for each stack 
+Max 1 stack 
+ 
+250: 
++600 ATK, +2400 HP 
+ 
+300: 
+Chill Damage +40 
+Ice Whistleshot damage +18% 
+Damage to Chilled targets +10% 
+ 
+350: 
++800 ATK, +3200 HP

@@ -1,0 +1,31 @@
+Then owner DPS buffs from pets: 
+OwnerDPSFromPetBuffs = 
+ OwnerCritRateFromPet 
++ OwnerCritDamageFromPet 
++ OwnerSkillDamageFromPet 
++ PlayerATKFromPetAffection 
+Do not mix these too early. A pet can be good because it does direct damage, or because it 
+buffs the owner. 
+ 
+Important conclusion for the optimizer 
+The pet system is not “just pick Murica forever.” 
+The source data says: 
+Murica = strong direct pet DPS, especially through whirlwind, cooldown, Crush, and assist 
+scaling. 
+Croaky = strong long-term owner/pet DPS mix. 
+Rex = strong long-term owner crit support and total damage contender. 
+Crab = real pet DPS scaling through 500% attack, crit rate, cooldown, and inherited ATK. 
+Robot = high theoretical laser/satellite damage but hit consistency matters. 
+Turtle/Fish = more utility/survival than damage. 
+For your damage-only optimizer, the highest-value pet stats are: 
+Battle Lust 
+Raid 
+Powerful 
+Sharp Claws 
+Frenzy 
+Crush 
+Motivation 
+Inspiration 
+Encouragement 
+United Stand 
+Pet Affection ATK

@@ -1,0 +1,55 @@
+Lightning 
+tech 
+Lightning Emitter / 
+Supercell 
+Boosts lightning/electric skill damage and behavior. 
+Soccer tech Soccer Ball / Quantum 
+Ball 
+Improves soccer ball damage, duration, and behavior. 
+RPG tech 
+RPG / Sharkmaw Gun 
+/ C4 resonance 
+Improves rockets/explosions and becomes important 
+in resonance. 
+Laser tech 
+Laser Launcher 
+Improves lasers and laser behavior. 
+Molotov 
+tech 
+Molotov / Fuel Barrel 
+Improves fire pools, burn/fire effects, and Molotov 
+resonance. 
+Major defensive/utility tech parts include: 
+Tech part 
+Associated skill 
+What it does 
+Brick tech 
+Brick / Dumbbell 
+Improves brick/dumbbell behavior and 
+damage. 
+Guardian tech 
+Guardian 
+Improves knockback, guardian behavior, 
+and damage. 
+Forcefield tech 
+Forcefield 
+Improves area field damage and utility. 
+Boomerang tech 
+Boomerang / 
+Magnetic Dart 
+Improves boomerang behavior. 
+Durian tech 
+Durian 
+Improves durian movement/damage. 
+Rocket/defensive tech 
+shown 
+Defensive skill 
+modifiers 
+Some are more survival/utility than DPS. 
+Optimizer rule 
+For damage-only optimizer: 
+Drone tech = very high priority 
+RPG/C4 resonance = high priority if using that resonance path 
+Molotov resonance = high if fire/SF/poison/deep wound synergies are used 
+Defensive tech = only count if it gives real damage 
+HP/defense-only tech = store but ignore

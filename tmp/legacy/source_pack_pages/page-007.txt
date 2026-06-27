@@ -1,0 +1,29 @@
+●​ Secret Art Limit 
+●​ Fullmoon Slash breakthrough art. 
+●​ Adds attack. 
+●​ Survivor ATK +20%. 
+Awakening upgrades 
+A1 
+●​ Active: Whirlwind Slash 
+●​ Whirlwind Slash damage +50%. 
+●​ Passive: Undaunted Will 
+●​ When hit by monster collisions, inflicts Laceration. 
+●​ Damage on Lacerated targets +2% for 5 seconds. 
+A2 
+●​ Additional damage on Lacerated targets +2%. 
+●​ Laceration duration +5 seconds. 
+A3 
+●​ Reduces Whirlwind Slash cooldown. 
+A4 
+●​ Additional damage on Lacerated targets +3%. 
+●​ Laceration duration +5 seconds. 
+●​ Unlocks 1 Teamwork Passive Slot. 
+A5 
+●​ Whirlwind Slash duration up. 
+A6 
+●​ Additional damage on Lacerated targets +3%. 
+●​ Laceration duration becomes permanent. 
+●​ Teamwork Passive Slot +1. 
+Optimizer notes 
+Leonardo is another Laceration support/DPS source, but his numbers look smaller than 
+Raphael/Michelangelo. His value is more about Laceration uptime and duration.

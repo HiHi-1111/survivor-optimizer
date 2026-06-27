@@ -1,0 +1,41 @@
+{
+  "average_size_reduction": 0.079506,
+  "categories_tested": {
+    "aliases: Relic Core, S Awakening Core, Yang shard": 48,
+    "cheap material bait vs rare blockers": 48,
+    "inactive Twinborn mode": 48,
+    "locked AF / Cosmic Cast preview": 47,
+    "locked collectible breakpoint preview": 47,
+    "multiplier strings: 2.35x, 175%, +25%": 47,
+    "near milestone missing both core and shards": 47,
+    "positive control": 84,
+    "source/catalog rows mixed into player state": 47,
+    "unbought event shop item": 47,
+    "unequipped gear": 47,
+    "unequipped pet": 48,
+    "unselected survivor roster": 48,
+    "unslotted resonance assist": 47
+  },
+  "compression_failure_categories": {},
+  "enemy_wins": 0,
+  "fatal_error": null,
+  "latest_accuracy": 1.0,
+  "latest_compact_accuracy": 1.0,
+  "latest_top_fail": "none",
+  "lessons_file": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\evolution_duel_lessons.json",
+  "optimizer_wins": 10,
+  "remaining_failure_categories": {},
+  "rounds_completed": 1,
+  "scenario_axes_tested": {
+    "boss_180s": 100,
+    "cyclic_uptime_180s": 100,
+    "elders_echo_180s": 100,
+    "long_300s": 100,
+    "normal_180s": 100,
+    "short_60s": 100,
+    "steamroll_180s": 100
+  },
+  "total_compression_regressions": 0,
+  "total_failures_found": 0,
+  "total_profiles_tested": 700
+}

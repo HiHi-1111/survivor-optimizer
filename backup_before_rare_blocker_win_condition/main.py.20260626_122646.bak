@@ -1,0 +1,171 @@
+"""Public optimizer entry point."""
+
+from __future__ import annotations
+
+from dataclasses import asdict, is_dataclass
+from typing import Any
+
+from optimizer.damage_engine import estimate_damage_totals
+from optimizer.action_generator import generate_core_selector_splits
+from optimizer.explainer import explain_recommendations
+from optimizer.coverage import coverage_audit_state, coverage_report
+from optimizer.global_planner import plan_global_inventory
+from optimizer.knowledge_loader import load_knowledge
+from optimizer.player_state import PlayerState, validate_player_state
+from optimizer.recommender import rank_recommendations
+from optimizer.rules_engine import apply_rules
+from optimizer.scorer import ScoredAction, score_core_selector_result
+from optimizer.search_memory import search_guide_memory
+from optimizer.simulator import apply_core_selector_split
+from optimizer.source_pack_optimizer import optimize_source_pack_actions
+
+
+def _dump(value: Any) -> Any:
+    if is_dataclass(value):
+        return asdict(value)
+    if hasattr(value, "model_dump"):
+        return value.model_dump()
+    if hasattr(value, "dict"):
+        return value.dict()
+    return value
+
+
+def _select_scenario(knowledge: dict[str, Any], scenario_id: str):
+    for scenario in knowledge["scenarios"]:
+        if scenario.id == scenario_id:
+            return scenario
+    return knowledge["scenarios"][0]
+
+
+def _sum_resources(steps: list[dict[str, Any]], field: str) -> dict[str, float]:
+    totals: dict[str, float] = {}
+    for step in steps:
+        for item_id, amount in (step.get(field) or {}).items():
+            totals[str(item_id)] = totals.get(str(item_id), 0.0) + float(amount)
+    return totals
+
+
+def optimize(
+    player_state_dict: dict[str, Any] | PlayerState,
+    *,
+    include_global_plan: bool = True,
+    planner_options: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    knowledge = load_knowledge()
+    player_state = validate_player_state(player_state_dict)
+    scenario = _select_scenario(knowledge, player_state.goal_scenario)
+    source_pack_plan = optimize_source_pack_actions(player_state)
+    damage_report = estimate_damage_totals(player_state_dict)
+
+    splits = generate_core_selector_splits(player_state.inventory.core_selector_chests)
+    scored: list[ScoredAction] = []
+    for split in splits:
+        future_state = apply_core_selector_split(player_state, split)
+        scored.append(
+            score_core_selector_result(
+                player_state,
+                future_state,
+                split,
+                scenario,
+                knowledge.get("scoring_weights"),
+            )
+        )
+
+    scored = apply_rules(scored, knowledge.get("rules", []))
+    recommendation = rank_recommendations(scored)
+    explanation = explain_recommendations(recommendation)
+    best = recommendation.get("best")
+    guide_query = " ".join(key.replace("_", " ") for key, value in best.allocation.items() if value) if best else ""
+    guide_matches = search_guide_memory(guide_query)
+    source_refs = sorted({str(match.get("source_ref") or match.get("source")) for match in guide_matches if match.get("source_ref") or match.get("source")})
+    planner_options = planner_options or {}
+    global_plan = None
+    action_chain: list[dict[str, Any]] = []
+    if include_global_plan:
+        global_plan = plan_global_inventory(
+            player_state,
+            knowledge,
+            chain_depth=int(planner_options.get("chain_depth", 2)),
+            beam_size=int(planner_options.get("beam_size", 100)),
+            max_actions_per_profile=int(planner_options.get("max_actions_per_profile", 500)),
+            include_saves=True,
+            include_random_ev=True,
+        )
+        action_chain = list(global_plan.get("best_action_chain", {}).get("ordered_steps", []))
+        global_plan.pop("numeric_chain_candidates", None)
+
+    best_dump = _dump(recommendation["best"])
+    top_options = [_dump(item) for item in recommendation["top_options"]]
+    avoid = [_dump(item) for item in recommendation["avoid"]]
+    resources_used = _sum_resources(action_chain, "consumed_items")
+    current_resources = player_state.resources.model_dump()
+    resources_saved = {
+        key: max(0.0, float(value or 0) - resources_used.get(key, 0.0))
+        for key, value in current_resources.items()
+        if float(value or 0) - resources_used.get(key, 0.0) > 0
+    }
+    coverage = coverage_report(knowledge, coverage_audit_state(knowledge))
+    chain_marginal = (global_plan or {}).get("best_action_chain", {}).get("marginal_value", {})
+    expected_damage_gain = float(chain_marginal.get("delta", 0.0) or 0.0)
+    if best_dump:
+        expected_damage_gain = max(expected_damage_gain, float(best_dump.get("sub_scores", {}).get("damage_score", 0.0)))
+    chain_warnings = [warning for step in action_chain for warning in step.get("warnings", [])]
+    assumptions = [reason for reason in (best_dump or {}).get("reasons", []) if any(term in reason.lower() for term in ["possible", "estimate", "until", "may"])]
+    reached = chain_marginal.get("after", {}).get("breakpoints", []) or []
+    future_goals = [f"Build toward confirmed damage breakpoint: {breakpoint_id}." for breakpoint_id in reached]
+    if not future_goals:
+        future_goals = ["Add source-backed breakpoint and item-effect data for currently unsupported systems."]
+    next_best = top_options[1] if len(top_options) > 1 else None
+    explanation.update(
+        {
+            "scenario_tradeoff": scenario.description,
+            "resources_used": resources_used,
+            "resources_saved": resources_saved,
+            "expected_damage_gain": expected_damage_gain,
+            "long_term_value": float((best_dump or {}).get("sub_scores", {}).get("long_term_score", 0.0)),
+            "assumptions": assumptions,
+            "missing_data": coverage.get("systems_missing_data", []),
+            "future_goals": future_goals,
+            "next_best_action": next_best,
+        }
+    )
+
+    return {
+        "scenario": _dump(scenario),
+        "recommendation": best_dump,
+        "best": best_dump,
+        "ranked_alternatives": top_options,
+        "top_options": top_options,
+        "rejected_alternatives": avoid,
+        "avoid": avoid,
+        "action_chain": action_chain,
+        "resources_used": resources_used,
+        "damage_report": damage_report,
+        "total_damage": damage_report.get("total_damage"),
+        "final_damage_multiplier": damage_report.get("final_damage_multiplier"),
+        "multiplier_breakdown": damage_report.get("multiplier_breakdown"),
+        "blocker_analysis": damage_report.get("blocker_analysis"),
+        "resources_saved": resources_saved,
+        "expected_damage_gain": round(expected_damage_gain, 6),
+        "long_term_value": float((best_dump or {}).get("sub_scores", {}).get("long_term_score", 0.0)),
+        "scenario_used": scenario.id,
+        "explanation": explanation,
+        "warnings": sorted(set(chain_warnings)),
+        "assumptions": assumptions,
+        "future_goals": future_goals,
+        "missing_data": coverage.get("systems_missing_data", []),
+        "confidence_level": (best_dump or {}).get("confidence", "low"),
+        "next_best_action": next_best,
+        "global_plan": global_plan,
+        "guide_matches": guide_matches,
+        "source_refs": source_refs,
+        "confidence": (best_dump or {}).get("confidence", "low"),
+        "next_goal": future_goals[0] if future_goals else None,
+        "source_pack_plan": source_pack_plan,
+    }
+
+
+if __name__ == "__main__":
+    from run_demo import main
+
+    main()

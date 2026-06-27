@@ -1,0 +1,30 @@
+Equipment is the main build system. It gives: 
+●​ Base ATK / HP 
+●​ Gear-specific effects 
+●​ Skill damage 
+●​ Crit rate 
+●​ Crit damage 
+●​ Boss damage 
+●​ Shield effects 
+●​ Revive effects 
+●​ Movement bonuses 
+●​ Debuff effects like Chill, Weaken, Vulnerability, Bleed, Laceration 
+●​ SS gear forge paths 
+Unlock requirement 
+●​ Equipment unlocks at Chapter 1 after losing. 
+●​ Merging requires duplicate gear and rarity progression. 
+●​ Astral Forge requires high-rarity gear and cores/materials. 
+●​ SS gear requires SS item creation/unlock plus relic cores/faction cores for upgrades. 
+Optimizer rule 
+For your calculator, equipment should be split into: 
+Normal Gear 
+S Gear 
+SS Gear 
+Astral Forge Upgrades 
+Collectible Gear Bonuses 
+Merge Cost / Upgrade Cost 
+HP-only gear effects should be stored but marked DPSRelevant = No. 
+ 
+3. SS gear system 
+Source: SS_Gear_2025-02-06 
+What it does

@@ -1,0 +1,120 @@
+................F.........                                               [100%]
+================================== FAILURES ===================================
+_______________________ test_inf_harder_decision_memory _______________________
+tests\test_inf_harder_decision_memory.py:46: in test_inf_harder_decision_memory
+    assert len(hits) >= min_terms, c
+E   AssertionError: {'name': 'locked_preview_necklace', 'profile': {'profile_name': 'Realistic_Hard_Base', 'base_damage': 185000, 'player_...lace_1000000000000000000x', 'required_terms': ['locked', 'inactive', 'ignore', 'not active', 'not count', 'save'], ...}
+E   assert 1 >= 2
+E    +  where 1 = len(['save'])
+=========================== short test summary info ===========================
+FAILED tests/test_inf_harder_decision_memory.py::test_inf_harder_decision_memory
+1 failed, 25 passed in 2.57s
+
+Runtime: {"folder": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517", "zip": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517.zip", "folder_mb": 0.793, "zip_mb": 0.081}
+CYCLE DONE in 32.959s
+Next difficulty=497 cases=2000 trap_power=1000000000000000000
+
+================================================================================
+CYCLE 150 | difficulty=497 | cases=2000 | trap_power=1000000000000000000
+Generated cases: 2000
+New decision failures: 906
+Failure counts: {"missing_decision_explanation": 906}
+Bank size: 600
+Generated memory test: C:\Users\iyoua\Downloads\survivor-optimizer\tests\test_inf_harder_decision_memory.py
+Hard pytest: FAIL
+Pytest tail:
+................F.........                                               [100%]
+================================== FAILURES ===================================
+_______________________ test_inf_harder_decision_memory _______________________
+tests\test_inf_harder_decision_memory.py:46: in test_inf_harder_decision_memory
+    assert len(hits) >= min_terms, c
+E   AssertionError: {'name': 'locked_preview_necklace', 'profile': {'profile_name': 'Realistic_Hard_Base', 'base_damage': 185000, 'player_...lace_1000000000000000000x', 'required_terms': ['locked', 'inactive', 'ignore', 'not active', 'not count', 'save'], ...}
+E   assert 1 >= 2
+E    +  where 1 = len(['save'])
+=========================== short test summary info ===========================
+FAILED tests/test_inf_harder_decision_memory.py::test_inf_harder_decision_memory
+1 failed, 25 passed in 2.69s
+
+Runtime: {"folder": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517", "zip": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517.zip", "folder_mb": 0.793, "zip_mb": 0.081}
+CYCLE DONE in 32.21s
+Next difficulty=500 cases=2000 trap_power=1000000000000000000
+
+================================================================================
+CYCLE 151 | difficulty=500 | cases=2000 | trap_power=1000000000000000000
+Generated cases: 2000
+New decision failures: 929
+Failure counts: {"missing_decision_explanation": 929}
+Bank size: 600
+Generated memory test: C:\Users\iyoua\Downloads\survivor-optimizer\tests\test_inf_harder_decision_memory.py
+Hard pytest: FAIL
+Pytest tail:
+................F.........                                               [100%]
+================================== FAILURES ===================================
+_______________________ test_inf_harder_decision_memory _______________________
+tests\test_inf_harder_decision_memory.py:46: in test_inf_harder_decision_memory
+    assert len(hits) >= min_terms, c
+E   AssertionError: {'name': 'inactive_inventory_gloves', 'profile': {'profile_name': 'Realistic_Hard_Base', 'base_damage': 185000, 'playe...ntory_gloves_1000000000000000000x', 'required_terms': ['equipped', 'active', 'ignore', 'not active', 'not count'], ...}
+E   assert 0 >= 2
+E    +  where 0 = len([])
+=========================== short test summary info ===========================
+FAILED tests/test_inf_harder_decision_memory.py::test_inf_harder_decision_memory
+1 failed, 25 passed in 2.57s
+
+Runtime: {"folder": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517", "zip": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517.zip", "folder_mb": 0.793, "zip_mb": 0.081}
+CYCLE DONE in 33.865s
+Next difficulty=503 cases=2000 trap_power=1000000000000000000
+
+================================================================================
+CYCLE 152 | difficulty=503 | cases=2000 | trap_power=1000000000000000000
+Generated cases: 2000
+New decision failures: 925
+Failure counts: {"missing_decision_explanation": 925}
+Bank size: 600
+Generated memory test: C:\Users\iyoua\Downloads\survivor-optimizer\tests\test_inf_harder_decision_memory.py
+Hard pytest: FAIL
+Pytest tail:
+................F.........                                               [100%]
+================================== FAILURES ===================================
+_______________________ test_inf_harder_decision_memory _______________________
+tests\test_inf_harder_decision_memory.py:46: in test_inf_harder_decision_memory
+    assert len(hits) >= min_terms, c
+E   AssertionError: {'name': 'locked_preview_weapon', 'profile': {'profile_name': 'Realistic_Hard_Base', 'base_damage': 185000, 'player_st...apon_1000000000000000000x', 'required_terms': ['locked', 'inactive', 'ignore', 'not active', 'not count', 'save'], ...}
+E   assert 1 >= 2
+E    +  where 1 = len(['save'])
+=========================== short test summary info ===========================
+FAILED tests/test_inf_harder_decision_memory.py::test_inf_harder_decision_memory
+1 failed, 25 passed in 2.42s
+
+Runtime: {"folder": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517", "zip": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517.zip", "folder_mb": 0.793, "zip_mb": 0.081}
+CYCLE DONE in 30.913s
+Next difficulty=506 cases=2000 trap_power=1000000000000000000
+
+================================================================================
+CYCLE 153 | difficulty=506 | cases=2000 | trap_power=1000000000000000000
+Generated cases: 2000
+New decision failures: 958
+Failure counts: {"missing_decision_explanation": 958}
+Bank size: 600
+Generated memory test: C:\Users\iyoua\Downloads\survivor-optimizer\tests\test_inf_harder_decision_memory.py
+Hard pytest: FAIL
+Pytest tail:
+................F.........                                               [100%]
+================================== FAILURES ===================================
+_______________________ test_inf_harder_decision_memory _______________________
+tests\test_inf_harder_decision_memory.py:46: in test_inf_harder_decision_memory
+    assert len(hits) >= min_terms, c
+E   AssertionError: {'name': 'inactive_inventory_belt', 'profile': {'profile_name': 'Realistic_Hard_Base', 'base_damage': 185000, 'player_...ventory_belt_1000000000000000000x', 'required_terms': ['equipped', 'active', 'ignore', 'not active', 'not count'], ...}
+E   assert 0 >= 2
+E    +  where 0 = len([])
+=========================== short test summary info ===========================
+FAILED tests/test_inf_harder_decision_memory.py::test_inf_harder_decision_memory
+1 failed, 25 passed in 2.45s
+
+Runtime: {"folder": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517", "zip": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517.zip", "folder_mb": 0.793, "zip_mb": 0.081}
+CYCLE DONE in 29.756s
+Next difficulty=509 cases=2000 trap_power=1000000000000000000
+
+================================================================================
+CYCLE 154 | difficulty=509 | cases=2000 | trap_power=1000000000000000000
+
+STOPPED CLEANLY

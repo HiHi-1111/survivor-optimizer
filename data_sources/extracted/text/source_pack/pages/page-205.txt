@@ -1,0 +1,52 @@
+Shield / Skill Damage Multipliers 
+Relic Core Usage 
+Astral Forge / Merge Rules 
+Normal Gear Effects 
+Clan Shop / Clan Rewards 
+Collectibles 
+Survivor Upgrade / Stat Boosts 
+Survivor Pass / Pass EXP 
+Energy Essence / Design Costs 
+Item Values 
+Wishlist / Merging 
+Gems / Oil Sources 
+Ender’s Echo Rewards 
+ 
+1. Boss Debuffs / Damage-taken effects 
+Sources: 
+Boss_Debuffs_2024-12-27 
+Shield_and_Skill_Damage_Multipliers_2024-12-27 
+Crit_Rate_And_Damage_2025-03-09 
+SS_Gear_2025-02-06 
+Tech/Twinborn charts 
+Main debuff families 
+Debuff 
+What it does 
+Associated systems 
+DPS relevance 
+Vulnerability 
+Increases damage taken 
+by enemy. Often 
+boss-focused. 
+Yang, Joey, April, Laser, 
+Boomerang, Lightning, 
+Xeno, SS Boots, Twinborn 
+charts 
+Very high 
+Weaken 
+Reduces enemy attack, 
+but also enables “damage 
+to Weakened targets.” 
+SS Gloves, Boomerang, 
+Brick, Xeno, Donatello, 
+boss debuffs 
+Very high if build 
+has Weaken 
+scaling 
+Chill 
+Slows/freezes enemies 
+and enables damage to 
+Chilled targets. 
+SS Boots, Drill, Guardian, 
+Soccer, RPG, Xeno 
+High

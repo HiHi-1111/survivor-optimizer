@@ -1,0 +1,27 @@
+What they do 
+Collectibles give: 
+Global ATK 
+Crit Rate 
+Crit Damage 
+Gear-specific bonuses 
+SS gear set bonuses 
+Skill damage bonuses 
+Target-specific damage bonuses 
+Unlock requirement 
+The source set has collectible chest odds and costs, but the exact chapter unlock is not shown 
+in the chapter unlock chart. So in the optimizer, mark unlock as: 
+UnlockRequirement = Collectible system available / event or chest access 
+Do not invent a chapter until confirmed. 
+Optimizer rule 
+Collectibles must connect to exact gear/skill systems. 
+Example: 
+Some collectibles boost SS Weapon Energy Overload. 
+Some boost SS Belt/Armor/Gloves effects. 
+Some give global Crit Rate or Crit Damage. 
+Collectibles are later-game but very important for final DPS. 
+ 
+13. Clan system 
+Sources: 
+Clan_Shop_2025-02-17​
+ Clan_Level_Rewards_2024-11-28​
+ Clan_Expedition_Rewards_2024-11-28

@@ -1,0 +1,335 @@
+{
+  "action_priors": {
+    "resources:use:astral_core": {
+      "samples": 1,
+      "scenarios": {
+        "scenario_f2p_gems": 1
+      },
+      "score_total": 50.0,
+      "wins": 1
+    }
+  },
+  "archetype_buckets": {
+    "chest_heavy": {
+      "average_score": 50.0,
+      "breakpoint_hits": 1,
+      "breakpoint_rate": 1.0,
+      "confidence": "low",
+      "examples": [
+        "synthetic_midgame_00000001_423852036"
+      ],
+      "samples": 1,
+      "score_total": 50.0,
+      "tag": "chest_heavy",
+      "top_systems": [
+        "core_selector"
+      ],
+      "winner_counts": {
+        "core_selector": 1
+      }
+    },
+    "clan_shop_heavy": {
+      "average_score": 50.0,
+      "breakpoint_hits": 1,
+      "breakpoint_rate": 1.0,
+      "confidence": "low",
+      "examples": [
+        "synthetic_midgame_00000001_423852036"
+      ],
+      "samples": 1,
+      "score_total": 50.0,
+      "tag": "clan_shop_heavy",
+      "top_systems": [
+        "core_selector"
+      ],
+      "winner_counts": {
+        "core_selector": 1
+      }
+    },
+    "f2p": {
+      "average_score": 50.0,
+      "breakpoint_hits": 1,
+      "breakpoint_rate": 1.0,
+      "confidence": "low",
+      "examples": [
+        "synthetic_midgame_00000001_423852036"
+      ],
+      "samples": 1,
+      "score_total": 50.0,
+      "tag": "f2p",
+      "top_systems": [
+        "core_selector"
+      ],
+      "winner_counts": {
+        "core_selector": 1
+      }
+    },
+    "far_from_breakpoint": {
+      "average_score": 50.0,
+      "breakpoint_hits": 1,
+      "breakpoint_rate": 1.0,
+      "confidence": "low",
+      "examples": [
+        "synthetic_midgame_00000001_423852036"
+      ],
+      "samples": 1,
+      "score_total": 50.0,
+      "tag": "far_from_breakpoint",
+      "top_systems": [
+        "core_selector"
+      ],
+      "winner_counts": {
+        "core_selector": 1
+      }
+    },
+    "gem_poor": {
+      "average_score": 50.0,
+      "breakpoint_hits": 1,
+      "breakpoint_rate": 1.0,
+      "confidence": "low",
+      "examples": [
+        "synthetic_midgame_00000001_423852036"
+      ],
+      "samples": 1,
+      "score_total": 50.0,
+      "tag": "gem_poor",
+      "top_systems": [
+        "core_selector"
+      ],
+      "winner_counts": {
+        "core_selector": 1
+      }
+    },
+    "midgame": {
+      "average_score": 50.0,
+      "breakpoint_hits": 1,
+      "breakpoint_rate": 1.0,
+      "confidence": "low",
+      "examples": [
+        "synthetic_midgame_00000001_423852036"
+      ],
+      "samples": 1,
+      "score_total": 50.0,
+      "tag": "midgame",
+      "top_systems": [
+        "core_selector"
+      ],
+      "winner_counts": {
+        "core_selector": 1
+      }
+    },
+    "pet_heavy": {
+      "average_score": 50.0,
+      "breakpoint_hits": 1,
+      "breakpoint_rate": 1.0,
+      "confidence": "low",
+      "examples": [
+        "synthetic_midgame_00000001_423852036"
+      ],
+      "samples": 1,
+      "score_total": 50.0,
+      "tag": "pet_heavy",
+      "top_systems": [
+        "core_selector"
+      ],
+      "winner_counts": {
+        "core_selector": 1
+      }
+    },
+    "scenario_f2p_gems": {
+      "average_score": 50.0,
+      "breakpoint_hits": 1,
+      "breakpoint_rate": 1.0,
+      "confidence": "low",
+      "examples": [
+        "synthetic_midgame_00000001_423852036"
+      ],
+      "samples": 1,
+      "score_total": 50.0,
+      "tag": "scenario_f2p_gems",
+      "top_systems": [
+        "core_selector"
+      ],
+      "winner_counts": {
+        "core_selector": 1
+      }
+    },
+    "selector_heavy": {
+      "average_score": 50.0,
+      "breakpoint_hits": 1,
+      "breakpoint_rate": 1.0,
+      "confidence": "low",
+      "examples": [
+        "synthetic_midgame_00000001_423852036"
+      ],
+      "samples": 1,
+      "score_total": 50.0,
+      "tag": "selector_heavy",
+      "top_systems": [
+        "core_selector"
+      ],
+      "winner_counts": {
+        "core_selector": 1
+      }
+    }
+  },
+  "audit": {
+    "downgraded_buckets": [],
+    "false_prune_examples": [],
+    "false_prune_rate": 0.0,
+    "false_prunes": 0,
+    "full_search_audits": 0
+  },
+  "buckets": {
+    "account_stage:midgame|scenario:scenario_f2p_gems|inventory_size_bucket:4-8|damage_stage:50-150k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:True|close_to_tech_resonance_breakpoint:True|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:False|has_many_rare_resources:False|current_best_action_system:core_selector|unsupported_missing_data_bucket:0": {
+      "avg_best_score": 50.0,
+      "best_score_total": 50.0,
+      "breakpoint_hits": 1,
+      "breakpoint_rate": 1.0,
+      "bucket": "account_stage:midgame|scenario:scenario_f2p_gems|inventory_size_bucket:4-8|damage_stage:50-150k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:True|close_to_tech_resonance_breakpoint:True|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:False|has_many_rare_resources:False|current_best_action_system:core_selector|unsupported_missing_data_bucket:0",
+      "chain_simulator_runs": 0,
+      "chain_step_hits": 0,
+      "chain_step_rate": 0.0,
+      "combos": {
+        "core_selector+astral_forge": {
+          "average_value": 50.0,
+          "combo_id": "core_selector+astral_forge",
+          "common_warnings": {
+            "Guide rule: first saved reason": 1
+          },
+          "confidence": "low",
+          "evidence_count": 1,
+          "example_profile_ids": [
+            "synthetic_midgame_00000001_423852036"
+          ],
+          "tried_count": 1,
+          "value_total": 50.0,
+          "when_bad": {},
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 1
+        },
+        "core_selector+xeno_core": {
+          "average_value": 50.0,
+          "combo_id": "core_selector+xeno_core",
+          "common_warnings": {
+            "Guide rule: first saved reason": 1
+          },
+          "confidence": "low",
+          "evidence_count": 1,
+          "example_profile_ids": [
+            "synthetic_midgame_00000001_423852036"
+          ],
+          "tried_count": 1,
+          "value_total": 50.0,
+          "when_bad": {},
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 1
+        },
+        "multiple_resources+same_breakpoint": {
+          "average_value": 50.0,
+          "combo_id": "multiple_resources+same_breakpoint",
+          "common_warnings": {
+            "Guide rule: first saved reason": 1
+          },
+          "confidence": "low",
+          "evidence_count": 1,
+          "example_profile_ids": [
+            "synthetic_midgame_00000001_423852036"
+          ],
+          "tried_count": 1,
+          "value_total": 50.0,
+          "when_bad": {},
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 1
+        }
+      },
+      "commonly_pruned": {},
+      "confidence": "low",
+      "false_prune_rate": 0.0,
+      "false_prunes": 0,
+      "features": {
+        "account_stage": "midgame",
+        "close_to_astral_forge_breakpoint": true,
+        "close_to_collectible_set_breakpoint": false,
+        "close_to_survivor_breakpoint": false,
+        "close_to_tech_resonance_breakpoint": true,
+        "close_to_xeno_breakpoint": false,
+        "current_best_action_system": "core_selector",
+        "damage_stage": "50-150k",
+        "has_collectible_chest": false,
+        "has_core_selector_chest": true,
+        "has_event_clan_currency": false,
+        "has_major_selector_chest": true,
+        "has_many_rare_resources": false,
+        "has_pet_chest": false,
+        "has_xeno_unlocked": false,
+        "inventory_size_bucket": "4-8",
+        "scenario": "scenario_f2p_gems",
+        "unsupported_missing_data_bucket": "0"
+      },
+      "full_search_audits": 0,
+      "global_planner_runs": 0,
+      "global_save_hold_hits": 0,
+      "global_save_hold_rate": 0.0,
+      "needs_more_deep_exploration": true,
+      "notes": [],
+      "prune_hint": "learning",
+      "pruned_but_later_good": {},
+      "samples": 1,
+      "self_consistency_rate": 0.0,
+      "self_consistent_hits": 0,
+      "systems": {
+        "core_selector": {
+          "average_chain_value": 0.0,
+          "average_marginal_value": 0.0,
+          "average_score": 50.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 1.0,
+          "breakpoint_hits": 1,
+          "chain_value_total": 0.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-21T18:53:11Z",
+          "marginal_value_total": 0.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 50.0,
+          "system": "core_selector",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 1
+        }
+      },
+      "top_systems": [
+        "core_selector"
+      ],
+      "weak_systems": []
+    }
+  },
+  "created_at": "2026-06-21T18:53:11Z",
+  "scenario_stats": {
+    "scenario_f2p_gems": {
+      "breakpoint_wins": 1,
+      "samples": 1,
+      "save_hold_wins": 0,
+      "score_total": 50.0,
+      "winner_counts": {
+        "core_selector": 1
+      }
+    }
+  },
+  "total_samples": 1,
+  "updated_at": "2026-06-21T18:53:11Z",
+  "version": 3
+}

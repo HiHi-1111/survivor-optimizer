@@ -1,0 +1,33 @@
+ComponentValue = 
+   ComponentStatPercent 
+   * SyncMultiplier 
+   * DamageBucketNeed 
+   * DebuffUptime 
+   * ModeWeight 
+Where: 
+SyncMultiplier = 1.0 if installed in equipped mount 
+SyncMultiplier = mount sync rate if installed in inactive mount 
+DamageBucketNeed examples: 
+If SkillDamage is negative or low: 
+   SkillDamage components gain high value. 
+ 
+If ShieldDamage is negative or low and player uses shield systems: 
+   ShieldDamage components gain high value. 
+ 
+If Poisoned damage is already strong and Poison uptime is high: 
+   Poisoned components can be valuable. 
+ 
+If Chilled damage is negative but Chill uptime is low: 
+   Chilled component value stays low. 
+General guide text says: 
+Skill Damage is usually the best general component target. 
+Shield Damage can be second if negative/needed. 
+Boss Damage is small per component but direct. 
+Lacerated/Crit/Chill/Weaken/Poison depend on player pools and debuff uptime. 
+Store this as: 
+AssumptionRule = ComponentFallbackPreference 
+NotHardcodedTruth = True 
+ 
+20. Clean database schema for mounts 
+MountBase 
+MountID

@@ -1,0 +1,1 @@
+"""Inventory action generator package."""

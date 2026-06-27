@@ -1,0 +1,43 @@
+Damage to Lacerated targets +25% 
+ 
+1000: 
++1400 ATK, +5600 HP 
+ 
+1100: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+1200: 
+Blaster Sharkmaw Gun fires faster 
+Larger explosion radius 
+ 
+1350: 
++1600 ATK, +6400 HP 
+ 
+1500: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+1650: 
+Skill Damage +45 
+Skill Damage +20% 
+ 
+1800: 
++1800 ATK, +7200 HP 
+ 
+1950: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+2100: 
+Cluster Arrows +2 
+ 
+2250: 
++2000 ATK, +8000 HP 
+ 
+2400: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+2550: 
+Poison Damage +120 
+Max Mad Blight stacks +2 
+ 
+2700: 
++2500 ATK, +10000 HP

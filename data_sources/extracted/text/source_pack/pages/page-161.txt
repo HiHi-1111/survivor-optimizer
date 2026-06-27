@@ -1,0 +1,44 @@
+Fuel Barrel fire damage +5%. 
+ 
+2700: 
+Total ATK 13500, Total HP 56000 
++2500 ATK, +10000 HP 
+ 
+2850: 
+Energy Diffuser ATK +5% 
+ 
+3000: 
+Soulfire damage +30%. 
+Deep Wound effect +5%. 
+ 
+3500: 
+Total ATK 16500, Total HP 68000 
++3000 ATK, +12000 HP 
+ 
+4000: 
+Energy Diffuser ATK +5% 
+ 
+4500: 
+Soulfire generated +1. 
+Fuel Barrel fire damage +3%. 
+ 
+5000: 
+Total ATK 20000, Total HP 82000 
++3500 ATK, +14000 HP 
+ 
+5500: 
+Energy Diffuser ATK +5% 
+ 
+6000: 
+Soulfire Damage +15% 
+ 
+6500: 
+Total ATK 24000, Total HP 98000 
++4000 ATK, +16000 HP 
+ 
+7000: 
+Energy Diffuser ATK +5% 
+ 
+7500: 
+Soulfire generated +1. 
+Fuel Barrel fire damage +5%.

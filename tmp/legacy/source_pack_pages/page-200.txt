@@ -1,0 +1,47 @@
+H) SS gear creation order 
+Rank 
+SS item 
+Reason 
+1 
+Twin Lance / SS 
+Weapon 
+Best weapon, huge boss damage. 
+2 
+SS Boots 
+Strong at base, big DPS if moving. 
+3 
+SS Belt 
+Stronger at base than AF3 Chaos Belt; scales with hits and 
+Destroyer. 
+4 
+SS Gloves 
+Strong burst cycle, crit/damage value. 
+5 
+SS Necklace 
+Crit-dependent; needs higher crit and AF. 
+6 
+SS Armor 
+Weak at base, needs many relic cores. 
+Optimizer rule 
+Do not recommend SS Armor early. 
+Do not recommend SS Necklace unless crit rate and forge level are good enough. 
+Twin Lance always comes first. 
+ 
+I) Wishlist rules 
+Rule 
+Meaning 
+Wishlist applies only to S-key 
+chests 
+Does not apply to EDF keys or random S from events. 
+Wishlist blocks counterparts 
+If Void Power is wishlisted, Lightchaser and Sword of 
+Disorder are blocked from that weapon slot. 
+One wishlist item is not enough 
+You can still pull from the other 5 slots. 
+Six wishlist items 
+You can only pull the 6 selected S items, blocking the 
+other 12. 
+Do not wishlist Chaos just for 
+Chaos cores early 
+Eternal/Void fragments are more needed early; Chaos is 
+more late-game.

@@ -1,0 +1,44 @@
+Skill Damage +25 
+Blaster Sharkmaw Gun Chills enemies on hit 
+Skill Damage +25% 
+ 
+250: 
++600 ATK, +2400 HP 
+ 
+300: 
+Poison Damage +50 
+When Cluster Arrows hit, you gain 1 Mad Blight stack 
+Gain 10% damage to Poisoned targets for each stack 
+Max 5 stacks 
+ 
+350: 
++800 ATK, +3200 HP 
+ 
+400: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+450: 
+Cluster Arrows +2 
+Cluster Arrows Damage +10% 
+ 
+500: 
++1000 ATK, +4000 HP 
+ 
+550: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+600: 
+Poison Damage +100 
+Max Mad Blight stacks +5 
+ 
+700: 
++1200 ATK, +4800 HP 
+ 
+800: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+900: 
+Shield Damage +30 
+Lacerate Damage +25 
+Restores 30% Shield after 5 Blaster Sharkmaw Gun shots 
+Shield Damage Boost +30%

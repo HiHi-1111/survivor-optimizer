@@ -1,0 +1,37 @@
+Pet_Awakening_Guide_-_Rex_2024-10-11​
+ Merging_-_Pets_2024-11-28 
+Unlock requirement 
+Pets unlock at: 
+Chapter 9 after winning 
+What pets do 
+Pets give: 
+Direct pet damage 
+Owner Crit Rate 
+Owner Crit Damage 
+Owner Skill Damage 
+Pet Skill Damage 
+Pet Crit Rate 
+Pet Crit Damage 
+Pet cooldown reduction 
+Pet inherited ATK 
+Pet affection ATK 
+Assist skill bonuses 
+Toy bonuses 
+Important pets 
+Pet 
+Main use 
+Murica / Eagle 
+Direct pet DPS, whirlwind, penetration, cooldown, Crush. 
+Croaky / Frog 
+Owner skill damage, crit, long-term DPS support. 
+Rex / Dog 
+Owner crit rate/crit damage and long-term DPS support. 
+Crab 
+Strong pet DPS scaling: high attack, crit, cooldown, inherited ATK. 
+Robot 
+High theoretical damage with lasers/satellite, hit consistency 
+matters. 
+Cat 
+Fast attacks, pet crit, cooldown, survival passive. 
+Fish 
+Utility/time stop, medium damage.

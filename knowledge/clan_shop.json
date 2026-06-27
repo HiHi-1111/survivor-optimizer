@@ -1,0 +1,9 @@
+[
+  {
+    "id": "clan_shop_catalog_needs_review", "name": "Clan Shop Catalog (Needs Review)", "category": "clan_shop_item",
+    "description": "The explanation confirms a clan-currency shop with multiple item categories, but its icon-only table does not reliably map item names to costs.",
+    "effects": [], "cost": {}, "tags": ["clan_shop", "placeholder", "missing_item_names", "missing_costs", "needs_review"],
+    "source_type": "inferred", "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=105-106", "confidence": "low",
+    "notes": "Coverage marker only. Do not generate purchase candidates until names, currencies, and row-to-cost mappings are verified.", "scoring_relevance": ["resource"]
+  }
+]

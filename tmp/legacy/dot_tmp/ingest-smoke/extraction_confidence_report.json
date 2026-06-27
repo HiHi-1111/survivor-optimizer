@@ -1,0 +1,8 @@
+{
+  "confidence_levels": {
+    "low": 2
+  },
+  "policy": "Only confirmed/high evidence may be promoted; low/missing evidence is never used for final scoring.",
+  "requires_review": 2,
+  "usable_without_warning": 0
+}

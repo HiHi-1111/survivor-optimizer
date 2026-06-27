@@ -1,0 +1,30 @@
+●​ Active: Twin Throw 
+●​ Nunchucks thrown by Twin Throw can be thrown again. 
+●​ Passive: Fantastic Storm 
+●​ Every 500 attacks on hit spawns 1 windstorm. 
+●​ Windstorm inflicts Lacerate for 5 seconds. 
+●​ Skill cooldown: 20 seconds. 
+●​ Damage to Lacerated targets +10%. 
+A2 
+●​ Fantastic Storm: 
+○​ Required hits -100 
+○​ Damage to Lacerated targets +10% 
+A3 
+●​ Twin Throw thrown nunchucks count up. 
+A4 
+●​ Fantastic Storm: 
+○​ Required hits -100 
+○​ Damage to Lacerated targets +10% 
+●​ Unlocks 1 Teamwork Passive Slot. 
+A5 
+●​ Twin Throw nunchucks attack range up. 
+●​ Attack damage +50%. 
+A6 
+●​ Fantastic Storm: 
+○​ Required hits -200 
+○​ Damage to Lacerated targets +20% 
+●​ Teamwork Passive Slot +1. 
+Optimizer notes 
+Michelangelo looks like a stronger Laceration DPS support than Leonardo because he has 
+bigger Lacerated-target damage chunks and hit-count scaling. 
+Database flags:

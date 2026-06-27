@@ -1,0 +1,129 @@
+{
+  "smartness_score_percent": 100.0,
+  "passed": 5,
+  "total": 5,
+  "scored_field": "result.global_plan.best_action_chain",
+  "verdict": "SMART_ENOUGH_FOR_SITE_ALPHA",
+  "results": [
+    {
+      "name": "save_rare_core_when_no_breakpoint",
+      "passed": true,
+      "checks": [
+        {
+          "check": "best_must_include_any",
+          "passed": true,
+          "expected": [
+            "save",
+            "hold",
+            "wait"
+          ]
+        },
+        {
+          "check": "best_must_not_include_any",
+          "passed": true,
+          "expected_absent": [
+            "trash",
+            "waste"
+          ]
+        }
+      ],
+      "best_preview": "{\"summary\": [\"chain includes save/hold to preserve flexibility where spend value is uncertain.\"], \"marginal_value\": {\"delta\": 2.0, \"before\": {\"total\": 0.05, \"damage_value\": 0, \"resource_flexibility\": 0.05, \"save_value\": 0.0, \"breakpoints\": []}, \"after\": {\"total\": 2.05, \"damage_value\": 0, \"resource_flexibility\": 0.05, \"save_value\": 2.0, \"breakpoints\": []}}, \"ordered_steps\": [{\"step\": 1, \"action_id\": \"save_hold:save_hold:relic_core\", \"action_type\": \"save_hold\", \"system\": \"save_hold\", \"required_items\": {\"relic_core\": 1}, \"required_resources\": {\"relic_core\": 1}, \"consumed_items\": {}, \"consumed_resources\": {}, \"produced_items\": {}, \"produced_state_delta\": {}, \"expected_damage_delta\": 0.0, \"long_term_value\": 0.0, \"long_term_value_delta\": 0.0, \"breakpoint_value\": 0.0, \"explanation\": \"hold relic core: holding preserves the highest-value uncertain resource option.\", \"warnings\": [], \"missing_data_warnings\": [], \"risk_uncertainty\": [], \"source_refs\": [\"relic_core_usage_-_enders_echo_mini_2024-11-29_result.tif\"], \"confidence\": \"low\", \"can_score_now\": true}, {\"step\": 2, \"action_id\": \"save_hold:save_hold:relic_core\", \"action_type\": \"save_hold\", \"system\": \"save_hold\", \"required_items\": {\"relic_core\": 1}, \"required_resources\": {\"relic_core\": 1}, \"consumed_items\": {}, \"consumed_resources\": {}, \"produced_items\": {}, \"produced_state_delta\": {}, \"expected_damage_delta\": 0.0, \"long_term_value\": 0.0, \"long_term_value_delta\": 0.0, \"breakpoint_value\": 0.0, \"explanation\": \"hold relic core: holding pr"
+    },
+    {
+      "name": "pet_chest_plus_xeno_core_combo",
+      "passed": true,
+      "checks": [
+        {
+          "check": "best_must_include_any",
+          "passed": true,
+          "expected": [
+            "xeno",
+            "pet",
+            "xeno_breakpoint"
+          ]
+        },
+        {
+          "check": "best_must_not_include_any",
+          "passed": true,
+          "expected_absent": [
+            "collectible"
+          ]
+        }
+      ],
+      "best_preview": "{\"summary\": [\"final state reaches xeno_breakpoint; counted once for the whole chain.\", \"chain includes save/hold to preserve flexibility where spend value is uncertain.\"], \"marginal_value\": {\"delta\": 80.95, \"before\": {\"total\": 0.05, \"damage_value\": 0, \"resource_flexibility\": 0.05, \"save_value\": 0.0, \"breakpoints\": []}, \"after\": {\"total\": 81.0, \"damage_value\": 80.0, \"resource_flexibility\": 0.0, \"save_value\": 1.0, \"breakpoints\": [\"xeno_breakpoint\"]}}, \"ordered_steps\": [{\"step\": 1, \"action_id\": \"save_hold:save_hold:xeno_core\", \"action_type\": \"save_hold\", \"system\": \"save_hold\", \"required_items\": {\"xeno_core\": 1}, \"required_resources\": {\"xeno_core\": 1}, \"consumed_items\": {}, \"consumed_resources\": {}, \"produced_items\": {}, \"produced_state_delta\": {}, \"expected_damage_delta\": 0.0, \"long_term_value\": 0.0, \"long_term_value_delta\": 0.0, \"breakpoint_value\": 0.0, \"explanation\": \"hold xeno core: holding preserves the highest-value uncertain resource option.\", \"warnings\": [], \"missing_data_warnings\": [], \"risk_uncertainty\": [], \"source_refs\": [\"data_sources/legacy/manual_notes/core_test.txt\"], \"confidence\": \"medium\", \"can_score_now\": true}, {\"step\": 2, \"action_id\": \"xeno_pets:upgrade_or_unlock_xeno_pet:xeno_core\", \"action_type\": \"upgrade_or_unlock_xeno_pet\", \"system\": \"xeno_pets\", \"required_items\": {\"xeno_core\": 1}, \"required_resources\": {\"xeno_core\": 1}, \"consumed_items\": {\"xeno_core\": 1}, \"consumed_resources\": {\"xeno_core\": 1}, \"produced_items\": {}, \"produced_state_delta\": {}, \"expected_"
+    },
+    {
+      "name": "astral_core_prefers_ss_or_af_path",
+      "passed": true,
+      "checks": [
+        {
+          "check": "best_must_include_any",
+          "passed": true,
+          "expected": [
+            "astral",
+            "ss",
+            "forge",
+            "breakpoint"
+          ]
+        },
+        {
+          "check": "best_must_not_include_any",
+          "passed": true,
+          "expected_absent": [
+            "trash"
+          ]
+        }
+      ],
+      "best_preview": "{\"summary\": [\"final state reaches astral_forge_breakpoint; counted once for the whole chain.\"], \"marginal_value\": {\"delta\": 119.9, \"before\": {\"total\": 0.1, \"damage_value\": 0, \"resource_flexibility\": 0.1, \"save_value\": 0.0, \"breakpoints\": []}, \"after\": {\"total\": 120.0, \"damage_value\": 120.0, \"resource_flexibility\": 0.0, \"save_value\": 0.0, \"breakpoints\": [\"astral_forge_breakpoint\"]}}, \"ordered_steps\": [{\"step\": 1, \"action_id\": \"cores:spend_core:astral_core\", \"action_type\": \"spend_core\", \"system\": \"cores\", \"required_items\": {\"astral_core\": 1}, \"required_resources\": {\"astral_core\": 1}, \"consumed_items\": {\"astral_core\": 1}, \"consumed_resources\": {\"astral_core\": 1}, \"produced_items\": {}, \"produced_state_delta\": {}, \"expected_damage_delta\": 0.0, \"long_term_value\": 0.0, \"long_term_value_delta\": 0.0, \"breakpoint_value\": 0.0, \"explanation\": \"evaluate spend core for astral core using known guide/knowledge data.\", \"warnings\": [], \"missing_data_warnings\": [], \"risk_uncertainty\": [], \"source_refs\": [\"data_sources/legacy/manual_notes/core_test.txt\"], \"confidence\": \"medium\", \"can_score_now\": true}, {\"step\": 2, \"action_id\": \"cores:spend_core:astral_core\", \"action_type\": \"spend_core\", \"system\": \"cores\", \"required_items\": {\"astral_core\": 1}, \"required_resources\": {\"astral_core\": 1}, \"consumed_items\": {\"astral_core\": 1}, \"consumed_resources\": {\"astral_core\": 1}, \"produced_items\": {}, \"produced_state_delta\": {}, \"expected_damage_delta\": 0.0, \"long_term_value\": 0.0, \"long_term_value_delta\": 0.0, \""
+    },
+    {
+      "name": "collectible_chest_with_shards",
+      "passed": true,
+      "checks": [
+        {
+          "check": "best_must_include_any",
+          "passed": true,
+          "expected": [
+            "collectible",
+            "shard",
+            "set"
+          ]
+        },
+        {
+          "check": "best_must_not_include_any",
+          "passed": true,
+          "expected_absent": [
+            "xeno_pets"
+          ]
+        }
+      ],
+      "best_preview": "{\"summary\": [\"final state reaches collectible_set_breakpoint; counted once for the whole chain.\"], \"marginal_value\": {\"delta\": 70.0, \"before\": {\"total\": 0.0, \"damage_value\": 0, \"resource_flexibility\": 0.0, \"save_value\": 0.0, \"breakpoints\": []}, \"after\": {\"total\": 70.0, \"damage_value\": 70.0, \"resource_flexibility\": 0.0, \"save_value\": 0.0, \"breakpoints\": [\"collectible_set_breakpoint\"]}}, \"ordered_steps\": [{\"step\": 1, \"action_id\": \"collectibles:use_collectible_shards:collectible_shard\", \"action_type\": \"use_collectible_shards\", \"system\": \"collectibles\", \"required_items\": {\"collectible_shard\": 10.0}, \"required_resources\": {\"collectible_shard\": 10.0}, \"consumed_items\": {\"collectible_shard\": 10.0}, \"consumed_resources\": {\"collectible_shard\": 10.0}, \"produced_items\": {}, \"produced_state_delta\": {}, \"expected_damage_delta\": 0.0, \"long_term_value\": 0.0, \"long_term_value_delta\": 0.0, \"breakpoint_value\": 0.0, \"explanation\": \"use/evaluate collectible shards for collectible set progress.\", \"warnings\": [], \"missing_data_warnings\": [], \"risk_uncertainty\": [], \"source_refs\": [\"source_database_map.pdf | page_or_image=26 | icon-only collectible crit rate\"], \"confidence\": \"confirmed\", \"can_score_now\": true}]}"
+    },
+    {
+      "name": "steamroll_prioritizes_damage_not_survival",
+      "passed": true,
+      "checks": [
+        {
+          "check": "best_must_include_any",
+          "passed": true,
+          "expected": [
+            "damage",
+            "xeno",
+            "astral",
+            "breakpoint",
+            "core"
+          ]
+        },
+        {
+          "check": "best_must_not_include_any",
+          "passed": true,
+          "expected_absent": [
+            "healing",
+            "revive"
+          ]
+        }
+      ],
+      "best_preview": "{\"summary\": [\"final state reaches astral_forge_breakpoint; counted once for the whole chain.\"], \"marginal_value\": {\"delta\": 119.9, \"before\": {\"total\": 0.4, \"damage_value\": 0, \"resource_flexibility\": 0.4, \"save_value\": 0.0, \"breakpoints\": []}, \"after\": {\"total\": 120.3, \"damage_value\": 120.0, \"resource_flexibility\": 0.3, \"save_value\": 0.0, \"breakpoints\": [\"astral_forge_breakpoint\"]}}, \"ordered_steps\": [{\"step\": 1, \"action_id\": \"cores:spend_core:astral_core\", \"action_type\": \"spend_core\", \"system\": \"cores\", \"required_items\": {\"astral_core\": 1}, \"required_resources\": {\"astral_core\": 1}, \"consumed_items\": {\"astral_core\": 1}, \"consumed_resources\": {\"astral_core\": 1}, \"produced_items\": {}, \"produced_state_delta\": {}, \"expected_damage_delta\": 0.0, \"long_term_value\": 0.0, \"long_term_value_delta\": 0.0, \"breakpoint_value\": 0.0, \"explanation\": \"evaluate spend core for astral core using known guide/knowledge data.\", \"warnings\": [], \"missing_data_warnings\": [], \"risk_uncertainty\": [], \"source_refs\": [\"data_sources/legacy/manual_notes/core_test.txt\"], \"confidence\": \"medium\", \"can_score_now\": true}, {\"step\": 2, \"action_id\": \"cores:spend_core:astral_core\", \"action_type\": \"spend_core\", \"system\": \"cores\", \"required_items\": {\"astral_core\": 1}, \"required_resources\": {\"astral_core\": 1}, \"consumed_items\": {\"astral_core\": 1}, \"consumed_resources\": {\"astral_core\": 1}, \"produced_items\": {}, \"produced_state_delta\": {}, \"expected_damage_delta\": 0.0, \"long_term_value\": 0.0, \"long_term_value_delta\": 0.0, \""
+    }
+  ]
+}

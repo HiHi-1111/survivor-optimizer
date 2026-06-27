@@ -1,0 +1,32 @@
+Pet cooldown reduction 
+Pet movement speed 
+Crush / 10x damage chance 
+Visible effects include: 
+Pet becomes bigger 
+Pet ATK and skill range +15% 
+Pet ATK damage +15% 
+Pet ATK and skill cooldown -20% 
+Pet movement speed +75% 
+Attacks have 5% chance to deal 10x damage to enemies below 50% HP 
+Murica awakening guide 
+The guide recommends assist skills: 
+Raid* 
+Powerful 
+Boost 
+Penetration 
+Disposition: 
+Shrewd 
+Hot-blooded 
+Battler 
+Important note from the source: 
+Replace Motivation with Inspiration if high Crit Rate % 
+After Y5, look at switching to Rex or Croaky. 
+Otherwise, use the Pet Optimizer. 
+Optimizer notes 
+Murica should be modeled as a direct pet DPS pet. 
+Its strongest associations are: 
+Whirlwind 
+Penetration 
+Cooldown reduction 
+Skill damage 
+Crush

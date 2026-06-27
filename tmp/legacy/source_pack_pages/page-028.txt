@@ -1,0 +1,27 @@
+7. Pet Crit Rate 
+This is associated with: 
+Pet Skill | Motivation | Pet / build-dependent DPS 
+The source shows: 
+●​ Pet skill: Motivation 
+●​ Crit Rate +3% / +4% / +5% 
+The value likely depends on the pet skill level / rarity. 
+Optimizer notes 
+This should only count when the pet has the skill equipped/active. 
+Database flags: 
+SourceCategory = PetSkill 
+PetSkill = Motivation 
+StatType = CritRate 
+Value = 3/4/5% 
+TargetScope = CurrentPetBuild 
+ConditionType = EquippedPetSkill 
+DPSRelevant = Medium/High 
+ 
+8. Donatello Crit Rate passive 
+This is associated with: 
+Donatello | Brotherhood | TMNT Passive Count | Global / Loadout 
+Scaling 
+The source shows: 
+●​ Donatello 1 red star 
+●​ Crit Rate: 3% / 6% / 9% 
+●​ Text: 3% per equipped TMNT passive 
+This connects directly to the previous SP survivor source.

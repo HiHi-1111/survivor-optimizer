@@ -1,0 +1,5 @@
+{
+  "pages_jsonl": "data_sources\\extracted\\text\\source_pack\\pages.jsonl",
+  "page_text_directory": "data_sources\\extracted\\text\\source_pack\\pages",
+  "page_count": 259
+}

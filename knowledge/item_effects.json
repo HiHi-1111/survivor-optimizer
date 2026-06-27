@@ -1,0 +1,548 @@
+[
+  {
+    "id": "survival_effect_armor_v2_2024_11_28_result",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Armor_V2_2024-11-28_result.tif",
+    "source_type": "discord",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "date": "2024-11-28",
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_clan_level_rewards_2024_11_28",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Clan_Level_Rewards_2024-11-28.png",
+    "source_type": "discord",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "date": "2024-11-28",
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_clan_level_rewards_2024_11_28_result",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Clan_Level_Rewards_2024-11-28_result.tif",
+    "source_type": "discord",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "date": "2024-11-28",
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_eternal_necklace_2024_11_28",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Eternal_Necklace_2024-11-28.webp",
+    "source_type": "discord",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "date": "2024-11-28",
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_eternal_necklace_2024_11_28_result",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Eternal_Necklace_2024-11-28_result.tif",
+    "source_type": "discord",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "date": "2024-11-28",
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_gloves_v2_2024_11_28",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Gloves_V2_2024-11-28.webp",
+    "source_type": "discord",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "date": "2024-11-28",
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_gloves_v2_2024_11_28_result",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Gloves_V2_2024-11-28_result.tif",
+    "source_type": "discord",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "date": "2024-11-28",
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_pet_awakening_costs_and_toy_bonuses_2024_12_04",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04.webp",
+    "source_type": "discord",
+    "date": "2024-12-04",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_pet_awakening_costs_and_toy_bonuses_2024_12_04_result",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04_result.tif",
+    "source_type": "discord",
+    "date": "2024-12-04",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_pet_awakening_guide_croaky_2024_10_11",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Pet_Awakening_Guide_-_Croaky_2024-10-11.webp",
+    "source_type": "discord",
+    "date": "2024-10-11",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_pet_awakening_guide_croaky_2024_10_11_result",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Pet_Awakening_Guide_-_Croaky_2024-10-11_result.tif",
+    "source_type": "discord",
+    "date": "2024-10-11",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_pet_awakening_guide_murica_2024_10_10",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Pet_Awakening_Guide_-_Murica_2024-10-10.webp",
+    "source_type": "discord",
+    "date": "2024-10-10",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_pet_awakening_guide_murica_2024_10_10_result",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Pet_Awakening_Guide_-_Murica_2024-10-10_result.tif",
+    "source_type": "discord",
+    "date": "2024-10-10",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_pet_awakening_guide_2024_10_25",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Pet_Awakening_Guide_2024-10-25.webp",
+    "source_type": "discord",
+    "date": "2024-10-25",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_pet_awakening_guide_2024_10_25_result",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Pet_Awakening_Guide_2024-10-25_result.tif",
+    "source_type": "discord",
+    "date": "2024-10-25",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_pets_2024_11_28",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Pets_2024-11-28.webp",
+    "source_type": "discord",
+    "date": "2024-11-28",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_pets_2024_11_28_result",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Pets_2024-11-28_result.tif",
+    "source_type": "discord",
+    "date": "2024-11-28",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_resonance_2024_10_30",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Resonance_2024-10-30.webp",
+    "source_type": "discord",
+    "date": "2024-10-30",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_resonance_2024_10_30_result",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Resonance_2024-10-30_result.tif",
+    "source_type": "discord",
+    "date": "2024-10-30",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_shield_and_skill_damage_multipliers_2024_12_27_result",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Shield_and_Skill_Damage__Multipliers_2024-12-27_result.tif",
+    "source_type": "discord",
+    "date": "2024-12-27",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_survivor_pass_2024_12_19",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Survivor_Pass_2024-12-19.webp",
+    "source_type": "discord",
+    "date": "2024-12-19",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_survivor_pass_2024_12_19_result",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Survivor_Pass_2024-12-19_result.tif",
+    "source_type": "discord",
+    "date": "2024-12-19",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_survivor_stat_boosts_2024_12_12",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Survivor_Stat_Boosts_2024-12-12.webp",
+    "source_type": "discord",
+    "date": "2024-12-12",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_survivor_stat_boosts_2024_12_12_result",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Survivor_Stat_Boosts_2024-12-12_result.tif",
+    "source_type": "discord",
+    "date": "2024-12-12",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_survivors_2025_01_26",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Survivors_2025-01-26.webp",
+    "source_type": "discord",
+    "date": "2025-01-26",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  },
+  {
+    "id": "survival_effect_armor_v2_2024_11_28",
+    "name": "Survival-Only Effect",
+    "category": "item_effect",
+    "description": "Survival-only stat mentioned in source text.",
+    "effects": [],
+    "tags": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "source": "Armor_V2_2024-11-28.webp",
+    "source_type": "discord",
+    "date": "2024-11-28",
+    "confidence": "low",
+    "notes": "Stored for completeness and ignored by default in damage-first scoring.",
+    "scoring_relevance": [
+      "survival",
+      "ignored_by_default"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/training_extracted.json"
+  }
+]

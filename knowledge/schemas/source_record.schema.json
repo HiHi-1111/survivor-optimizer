@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://survivor-optimizer.local/schemas/source_record.schema.json",
+  "title": "Source-traced Survivor.io fact",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "row_id", "data_type", "system", "name", "source_kind", "confidence",
+    "extraction_method", "damage_relevance", "long_term_value", "recommended_disposition",
+    "ignore_for_dps", "needs_review", "source", "notes"
+  ],
+  "properties": {
+    "row_id": {"type": "string", "minLength": 1},
+    "data_type": {"type": "string", "minLength": 1},
+    "system": {"type": "string", "minLength": 1},
+    "subsystem": {"type": ["string", "null"]},
+    "item_id": {"type": ["string", "null"]},
+    "name": {"type": "string", "minLength": 1},
+    "rarity": {"type": ["string", "null"]},
+    "level": {"type": ["number", "string", "null"]},
+    "star": {"type": ["number", "string", "null"]},
+    "awakening": {"type": ["string", "null"]},
+    "cost": {"type": ["number", "null"]},
+    "currency": {"type": ["string", "null"]},
+    "quantity": {"type": ["number", "null"]},
+    "limit": {"type": ["number", "null"]},
+    "unlock_condition": {"type": ["string", "null"]},
+    "effect_type": {"type": ["string", "null"]},
+    "effect_value": {"type": ["number", "null"]},
+    "effect_unit": {"type": ["string", "null"]},
+    "damage_bucket": {"type": ["string", "null"]},
+    "debuff_type": {"type": ["string", "null"]},
+    "applies_to": {"type": ["string", "null"]},
+    "consumed_by": {"type": ["string", "null"]},
+    "source_kind": {"enum": ["exact", "inferred", "opinion", "placeholder"]},
+    "confidence": {"enum": ["exact", "high", "medium", "low"]},
+    "extraction_method": {"type": "string", "minLength": 1},
+    "damage_relevance": {"enum": ["direct", "conditional", "indirect", "survival", "utility", "unknown"]},
+    "long_term_value": {"type": ["number", "null"]},
+    "recommended_disposition": {"enum": ["profile_dependent", "spend", "save", "open", "exchange", "merge", "ignore", "knowledge_only", "needs_review"]},
+    "ignore_for_dps": {"type": "boolean"},
+    "needs_review": {"type": "boolean"},
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_file", "page_or_image", "section"],
+      "properties": {
+        "source_file": {"type": "string", "minLength": 1},
+        "page_or_image": {"type": ["integer", "string"]},
+        "section": {"type": "string", "minLength": 1},
+        "original_source_file": {"type": ["string", "null"]}
+      }
+    },
+    "notes": {"type": "string"},
+    "metadata": {"type": "object"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"source_kind": {"const": "opinion"}}, "required": ["source_kind"]},
+      "then": {
+        "properties": {
+          "confidence": {"enum": ["high", "medium", "low"]},
+          "needs_review": {"const": true}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"source_kind": {"const": "placeholder"}}, "required": ["source_kind"]},
+      "then": {"properties": {"needs_review": {"const": true}}}
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+Force Barrier exclusive: 
+Gain extra EXP when enemies are defeated in Forcefield range. 
+Eternal / Rainbow: 
+Twinborn Drone: 
+Starts at Lv.3. 
+ 
+Twinborn Destroyer: 
+Homing range up. 
+More missiles. 
+Twinborn Destroyer missile damage +10%. 
++50% damage to Weakened targets. 
+ 
+Forcefield: 
+Restores Forcefield range. 
+Fires a large-area pulse every few seconds. 
+ 
+Force Barrier: 
+Fires a suppression pulse every few seconds. 
+Monsters hit by pulse are Snared, excluding bosses. 
+Collectible set 
+CollectibleSetName = Transgalactic Tentacle 
+AssociatedTwinborn = Twinborn Drone / Twinborn Destroyer 
+10x yellow stars: 
+Twinborn Drone missile count +5%. 
+Single shot damage +5%. 
+ 
+20x yellow stars: 
+Twinborn Drone missile count +10%. 
+Single shot damage +10%. 
+ 
+10x red stars: 
+Twinborn Drone missile count +10%. 
+Single shot damage +10%. 
+ 
+20x red stars: 
+Twinborn Drone missile count +10%. 
+Single shot damage +10%. 
+Optimizer flags 
+Debuff = Weakened target damage

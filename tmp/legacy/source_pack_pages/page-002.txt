@@ -1,0 +1,32 @@
+Chill, Poison, Exposed, Weaken, Debilitate, Yin Yang, Laceration, Vulnerability. This is very 
+important for DPS stacking logic. 
+11.​Crit_Rate_And_Damage​
+ Crit rate and crit damage sources from survivor levels, gear, collectibles, skills, pets, 
+talents, combat harmony, survivor synergy, Don passive, Rex, etc. 
+Progression / Unlocks​
+ 12. Chapter_Unlocks​
+ Unlock timing by chapter: shop, equipment, tech parts, pets, clans, Ender’s Echo, Zone Ops, 
+Special Ops, privilege card, etc. 
+Clan​
+ 13. Clan_Expedition_Rewards​
+ Novice, Adept, Elite clan expedition rewards: chapter rewards, chest rewards, ranking rewards, 
+clan tier limits. 
+14.​Clan_Level_Rewards​
+ Clan level perks, clan EXP, clan size, quick earnings, clan member ATK/HP boosts. 
+15.​Clan_Shop​
+ Clan shop items, costs, quantities, and how stock changes by clan level. 
+Collectibles​
+ 16. Collectible_Chest_Odds​
+ Collectible chest rarity odds and shard odds. 
+17.​Collectible_Costs​
+ Collectible star costs, shard costs, exchange rates, collector’s hearts, purchase costs. 
+18.​Collectibles_Edition_1​
+ 1st Edition collectible chest item pool and drop rates. 
+19.​Collectibles_Edition_2​
+ 2nd Edition collectible chest item pool and drop rates. 
+20.​Collectibles_Edition_3​
+ 3rd Edition collectible chest item pool and drop rates. 
+ 
+Data type 1: SP Survivors / TMNT 
+Survivors 
+Source: Survivors_SP_2025-01-26

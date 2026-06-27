@@ -1,0 +1,43 @@
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+1650: 
+Crit Damage +40 
+Crit Damage +20% 
+ 
+1800: 
++1800 ATK, +7200 HP 
+ 
+1950: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+2100: 
+After Ice Whistleshot hits a target, Fire Whistleshot damage to target +15% 
+ 
+2250: 
++2000 ATK, +8000 HP 
+ 
+2400: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+2550: 
+Chill Damage +120 
+Damage to Chilled targets +20% 
+ 
+2700: 
++2500 ATK, +10000 HP 
+ 
+2850: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+3000: 
+After Fire Whistleshot hits a target, Ice Whistleshot damage to target +60% 
+ 
+3500: 
++3000 ATK, +12000 HP 
+ 
+4000: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+4500: 
+Shield Damage +35 
+Shield Damage Boost +20%

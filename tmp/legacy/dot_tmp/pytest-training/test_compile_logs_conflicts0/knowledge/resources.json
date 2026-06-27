@@ -1,0 +1,19 @@
+[
+  {
+    "id": "test_core",
+    "name": "Test Core",
+    "category": "resource",
+    "description": "New higher confidence value.",
+    "source": "new.txt",
+    "source_type": "community-tested",
+    "date": "2025-01-01",
+    "confidence": "medium",
+    "notes": "new",
+    "scoring_relevance": [
+      "resource"
+    ],
+    "effects": [],
+    "tags": [],
+    "_compiled_from": ".tmp\\pytest-training\\test_compile_logs_conflicts0\\ai_outputs\\conflict.json"
+  }
+]

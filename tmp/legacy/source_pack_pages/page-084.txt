@@ -1,0 +1,34 @@
+Energy Overload = weapon stack system 
+They sound similar, but they are different optimizer variables. 
+ 
+4. SS weapon, belt, gloves are probably the highest DPS 
+modeling priority 
+For your calculator, the most urgent SS gear models are: 
+SS Weapon: 
+Energy Overload, Void Fissure, Chaos path, Void Power 
+ 
+SS Belt: 
+Crit Rate ramp, Crit thresholds, Eternal Laser 
+ 
+SS Gloves: 
+Weakened damage, Red Star passive upgrades, Crit Damage scaling 
+Armor and boots matter too, but they are more conditional. 
+ 
+Clean database format for this data type 
+SSGearEffectID 
+GearSlot 
+GearNameOrEffectFamily 
+ForgePath 
+ForgeLevel 
+EffectName 
+EffectDescription 
+AffectedStat 
+StatAmount 
+TargetScope 
+ConditionType 
+AssociatedDebuff 
+AssociatedMechanic 
+DPSRelevant 
+IgnoreForDPS 
+CostRelicCore 
+CostFactionCoreType

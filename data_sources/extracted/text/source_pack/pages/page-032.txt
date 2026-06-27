@@ -1,0 +1,28 @@
+Especially important: 
+If Crit Rate >100%, add +30% Crit Damage 
+If Crit Rate >150%, add +100% Crit Damage 
+That means Crit Rate can unlock more Crit Damage. This makes Crit Rate more valuable than it 
+looks. 
+Database flags: 
+SourceCategory = Gear 
+StatType = CritDamage 
+ConditionType = Equipped / Threshold / EnergyLevel 
+DependsOn = CritRate / EnergyLevel / GearRarity 
+DPSRelevant = Very High 
+Example row: 
+SS_Necklace_CR_Threshold_E1 | Gear | Necklace | CritDamage | +30% | CurrentBuild | 
+Requires CritRate >100% | Yes 
+Example row: 
+SS_Necklace_CR_Threshold_E5 | Gear | Necklace | CritDamage | +100% | CurrentBuild | 
+Requires CritRate >150% | Yes 
+ 
+4. Skill Crit Damage 
+This is associated with: 
+Survivor Skill | Awakening Stars | Active Survivor DPS 
+The source shows: 
+Metallia / red-haired survivor skill 
+●​ 1 red star: Crit Damage +20% 
+●​ 3 red stars: additional +20% 
+●​ 5 red stars: additional +20% 
+Total shown: 
++60% Crit Damage

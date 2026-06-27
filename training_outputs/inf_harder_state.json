@@ -1,0 +1,19 @@
+{
+  "cycle": 153,
+  "difficulty": 509,
+  "case_count": 2000,
+  "trap_power": 1000000000000000000,
+  "pass_streak": 0,
+  "total_failures": 129209,
+  "last_failure_counts": {
+    "missing_decision_explanation": 958
+  },
+  "last_pytest_ok": false,
+  "last_runtime": {
+    "folder": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517",
+    "zip": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517.zip",
+    "folder_mb": 0.793,
+    "zip_mb": 0.081
+  },
+  "last_seconds": 29.756
+}

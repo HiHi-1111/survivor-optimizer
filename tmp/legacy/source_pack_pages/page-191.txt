@@ -1,0 +1,40 @@
+Assist restriction 
+Offensive → Offensive, Defensive → Defensive 
+Same tech as assist 
+Allowed 
+Assist tech lost? 
+No, can unequip/re-equip 
+Max setup shown 
+3 Eternal assists + 3x multiplier 
+Chip cost to max multiplier 
+60 chips 
+Normal resonance table fields 
+NormalResonanceID 
+MainTech 
+MainTechType 
+AssistTechTypeAllowed 
+MaxResonance 
+CurrentResonance 
+Multiplier 
+ChipInvested 
+BuffUnlocked 
+DPSRelevant 
+ 
+D) Twinborn resonance rules 
+Rule 
+Data 
+Unlock requirement 
+Legendary rarity of both paired techs 
+Eternal Twinborn requirement 2 Eternal techs 
+Max resonance 
+15000 
+Assist restriction 
+No type restriction 
+Offensive assist allowed? 
+Yes 
+Defensive assist allowed? 
+Yes 
+Same tech as assist 
+Allowed 
+Can equip both modes? 
+No

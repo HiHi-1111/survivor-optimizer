@@ -1,0 +1,44 @@
+6000: 
+Shield Damage +50 
+EM explosion damage +45%. 
+Overload EM explosion damage +45%. 
+Additional shield damage boost +10%. 
+ 
+6500: 
++4000 ATK, +16000 HP 
+ 
+7000: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+7500: 
+Poison Damage +80 
+Lightning ball damage +50%. 
+Boost effect permanently increases damage to Poisoned targets by an additional 15%. 
+ 
+8000: 
++6000 ATK, +24000 HP 
+ 
+8500: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+9000: 
+Poison Damage +100 
+Lightning ball damage +50%. 
+Boost effect permanently increases damage to Poisoned targets by an additional 20%. 
+ 
+9500: 
++7500 ATK, +30000 HP 
+ 
+10000: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+10500: 
+Poison Damage +120 
+Lightning ball damage +50%. 
+Boost effect permanently increases damage to Poisoned targets by an additional 20%. 
+ 
+11000: 
++7500 ATK, +30000 HP 
+ 
+11500: 
+Quantum Nanobot ATK +5%, HP +5%

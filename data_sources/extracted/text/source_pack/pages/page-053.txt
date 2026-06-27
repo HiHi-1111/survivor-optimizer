@@ -1,0 +1,39 @@
+Diligence should be stored because faster leveling can matter in chapters, but it is not a direct 
+boss DPS stat. 
+ 
+Pet DPS skills 
+These affect the pet’s own damage. 
+Crush 
+Attacks have 5% chance to deal 10x damage 
+DPSRelevant = Very High 
+Battle Lust 
+Reduces pet cooldowns by 15/20/30% 
+DPSRelevant = Very High 
+Frenzy 
+Increases pet Crit Rate by 15/20/60% 
+DPSRelevant = Very High 
+Gargantua 
+Pet becomes bigger and range increases by 15/20% 
+DPSRelevant = Medium/High because it improves hit coverage 
+High Windchaser 
+Pet movement speed +75% 
+DPSRelevant = Low/Medium, mostly hit consistency 
+Painstrike 
+Increases pet Crit Damage by 60% 
+DPSRelevant = High 
+Sharp Claws 
+Increases pet Skill Damage by 15/20/60% 
+DPSRelevant = Very High 
+Tough Skin 
+Reduces pet damage taken by 40/60% 
+DPSRelevant = No 
+United Effort 
+Increases pet inherited HP by 10/15/35% 
+DPSRelevant = No 
+United Stand 
+Increases pet inherited ATK by 15/35% 
+DPSRelevant = High 
+Unyielding Will 
+Reduces pet revival time by 20/30/40% 
+DPSRelevant = Mostly no 
+Utmost Loyalty

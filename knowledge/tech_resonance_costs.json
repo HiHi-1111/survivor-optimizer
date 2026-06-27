@@ -1,0 +1,18 @@
+[
+  {
+    "id": "resonance_energy_tier_costs", "name": "Resonance Energy Tier Costs", "category": "tech_resonance_cost",
+    "description": "Resonance energy by tech tier: Y 50, Y+1 100, Y+2 150, Y+3 200, R 300, R+1 400, R+2 550, R+3 700, R+4 850, Rainbow 1000.",
+    "effects": [], "energy_by_tier": {"yellow": 50, "yellow_1": 100, "yellow_2": 150, "yellow_3": 200, "red": 300, "red_1": 400, "red_2": 550, "red_3": 700, "red_4": 850, "rainbow": 1000},
+    "tags": ["tech", "resonance", "energy", "cost"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#page=95", "confidence": "medium",
+    "notes": "Explanation-derived table; verify against the named resonance guide before confirmed.", "scoring_relevance": ["resource", "damage"]
+  },
+  {
+    "id": "resonance_chip_multiplier_costs", "name": "Resonance Chip Multiplier Costs", "category": "tech_resonance_cost",
+    "description": "Successive multiplier levels cost 1, 1, 2, 3, 5, 5, 7, 9, 12, and 15 resonance chips, totaling 60.",
+    "effects": [], "cost_sequence": [1, 1, 2, 3, 5, 5, 7, 9, 12, 15], "total_cost": {"resonance_chip": 60},
+    "tags": ["tech", "resonance", "chip", "cost"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#page=96", "confidence": "medium",
+    "notes": "Explanation-derived table; exact level labels need primary-guide verification.", "scoring_relevance": ["resource", "damage"]
+  }
+]

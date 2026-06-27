@@ -1,0 +1,52 @@
+Final Mount Batch — Survivor.io Optimizer 
+Data 
+1. Mount system basics 
+SystemName = Mounts / Vehicles 
+DPSRelevant = Yes 
+MainPurpose = Extra damage source + component stat board + synced stats from inactive 
+mounts 
+UnknownMounts = Ignore 
+ConfirmedMounts = Electric Scooter, Tech Hoverboard, Doomsteed 
+Mounts matter in two different ways: 
+1. Equipped mount skill damage/effects 
+2. Component board stats from equipped + inactive synced mounts 
+Important rule: 
+Components not installed in any mount = 0 value. 
+Components in equipped mount = 100% value. 
+Components in inactive mounts = partial value based on that mount's Sync Rate. 
+ 
+2. Confirmed mount list 
+Mount 
+Unlock cost 
+Upgrade material 
+Starting 
+sync rate 
+Use style 
+Electric 
+Scooter 
+30 Scooter 
+shards 
+Scooter shards only 
+0.20 
+Auto damage, 
+easiest 
+Tech 
+Hoverboard 
+50 Hoverboard 
+shards 
+Hoverboard shards 
+only 
+0.30 
+Shield stack / avoid 
+getting hit 
+Doomsteed 
+80 Doomsteed 
+shards 
+Doomsteed shards + 
+Mount Cores 
+0.40 
+Boss hugging / 
+movement scaling 
+Database row format: 
+MountID 
+MountName

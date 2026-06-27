@@ -1,0 +1,33 @@
+PETSKILL_MOTIVATION | Motivation | SurvivorBuff | Owner | CritRate | 3% | 4% | 5% | Pet skill 
+unlocked/equipped | Yes | Owner DPS crit source | Pet_Skills_2024-09-09 
+Example: 
+PETSKILL_BATTLE_LUST | Battle Lust | PetBuff | Pet | CooldownReduction | 15% | 20% | 30% 
+| Pet skill unlocked/equipped | Yes | Very high pet DPS scaling | Pet_Skills_2024-09-09 
+Example: 
+PETSKILL_CRUSH | Crush | PetBuff | Pet | DamageProc | None | None | 5% chance 10x 
+damage | Pet attacks | Yes | Strong burst pet DPS | Pet_Skills_2024-09-09 
+ 
+Pet awakening cost table 
+AwakeningStage 
+CrystalCost 
+TotalCrystalCost 
+DeployCountRequired 
+SacrificeRequirement 
+AffectionLevelCap 
+PlayerATKPerLevel 
+MaxPlayerATK 
+HPPerLevel 
+MaxHP 
+DPSRelevant 
+SourceImage 
+SourceDate 
+Example: 
+Y5 | 30 | 70 total to Y5 | 7 | Red pet sacrifice | 60 | +120 | 4800 | +480 | 28.8k | Yes for ATK, no 
+for HP | Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04 
+Example: 
+R5 | 60 | 350 total | 15 | Red pet sacrifice | 130 | +150 | 15k | +600 | 78k | Yes for ATK, no for HP 
+| Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04 
+ 
+Pet recommendation table 
+PetID 
+RecommendedStage

@@ -1,0 +1,163 @@
+{
+  "checkpoint_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\.tmp\\pytest-training\\test_optimizer_training_resume0\\learned_ranker.json",
+  "enabled": true,
+  "feature_importance": [
+    {
+      "feature": "breakpoint_value",
+      "importance": 0.02949899,
+      "weight": 0.02949899
+    },
+    {
+      "feature": "immediate_damage",
+      "importance": 0.02062329,
+      "weight": 0.02062329
+    },
+    {
+      "feature": "damage_gain_estimate",
+      "importance": 0.02062329,
+      "weight": 0.02062329
+    },
+    {
+      "feature": "long_term_damage",
+      "importance": 0.01991753,
+      "weight": 0.01991753
+    },
+    {
+      "feature": "long_term_value_estimate",
+      "importance": 0.01991753,
+      "weight": 0.01991753
+    },
+    {
+      "feature": "resource_efficiency",
+      "importance": 0.01388345,
+      "weight": 0.01388345
+    },
+    {
+      "feature": "confidence",
+      "importance": 0.00717825,
+      "weight": 0.00717825
+    },
+    {
+      "feature": "confidence_score",
+      "importance": 0.00717825,
+      "weight": 0.00717825
+    },
+    {
+      "feature": "source_confidence",
+      "importance": 0.00717825,
+      "weight": 0.00717825
+    },
+    {
+      "feature": "rarity_value",
+      "importance": 0.00277867,
+      "weight": 0.00277867
+    },
+    {
+      "feature": "chain_reaction_value",
+      "importance": 0.00262961,
+      "weight": 0.00262961
+    },
+    {
+      "feature": "profile_stage",
+      "importance": 0.00107848,
+      "weight": -0.00107848
+    },
+    {
+      "feature": "scenario_id",
+      "importance": 0.00107848,
+      "weight": -0.00107848
+    },
+    {
+      "feature": "action_type",
+      "importance": 0.00086216,
+      "weight": -0.00086216
+    },
+    {
+      "feature": "save_value",
+      "importance": 0.00064624,
+      "weight": -0.00064624
+    },
+    {
+      "feature": "system_type",
+      "importance": 0.00064401,
+      "weight": -0.00064401
+    },
+    {
+      "feature": "resource_costs",
+      "importance": 0.0004905,
+      "weight": 0.0004905
+    },
+    {
+      "feature": "missing_data_penalty",
+      "importance": 0.0004696,
+      "weight": 0.0004696
+    },
+    {
+      "feature": "mode_relevance",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "crit_gain_estimate",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "attack_gain_estimate",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "breakpoint_distance",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "resource_bottleneck_score",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "synergy_score",
+      "importance": 0.0,
+      "weight": 0.0
+    },
+    {
+      "feature": "chest_expected_value",
+      "importance": 0.0,
+      "weight": 0.0
+    }
+  ],
+  "loaded_from_checkpoint": true,
+  "model": "online_linear_pairwise_ranker",
+  "samples": 6,
+  "updates": 6,
+  "version": 1,
+  "weights": [
+    0.02062328910493705,
+    0.019917531220195687,
+    0.029498987341591502,
+    0.013883450607950038,
+    0.0027786678874791625,
+    0.0071782549978573916,
+    0.0,
+    0.0026296074846254946,
+    -0.001078477348692403,
+    -0.001078477348692403,
+    -0.0006440149608093234,
+    -0.0008621637444383654,
+    0.0004905005111777935,
+    0.02062328910493705,
+    0.0,
+    0.0,
+    0.019917531220195687,
+    0.0,
+    0.0,
+    0.0,
+    -0.0006462379777597079,
+    0.0,
+    0.0071782549978573916,
+    0.0004696018335464102,
+    0.0071782549978573916
+  ]
+}

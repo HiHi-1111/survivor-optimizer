@@ -1,0 +1,30 @@
+ForgePath 
+ForgeLevel 
+RelicCoreCost 
+FactionCoreType 
+FactionCoreCost 
+FodderRarity 
+FodderCount 
+SourceImage 
+Important optimizer rule: 
+Relic cores should be spent where the next forge level gives the most DPS per relic core. 
+That means the recommender should compare: 
+DPSGain / RelicCoreCost 
+DPSGain / FactionCoreCost 
+DPSGain / FodderGearCost 
+ 
+Collectible sets tied to SS gear 
+At the bottom, the source shows SS gear collectible-set bonuses. 
+Erudite Heirloom 
+Associated mostly with SS Weapon / Starforged Havoc. 
+Each 3 yellow stars: 
+Starforged Havoc higher thrust damage with lower HP. 
+Max damage +20%. 
+Each 3 red stars: 
+Super Star E3: 
+Each Energy Overload stack’s damage +10%. 
+25 stars total: 
+Disordered Death V2: 
+Targets take additional +15% damage. 
+Otherworld Treasure 
+Associated with shield / Clarity / Reverse Scale.

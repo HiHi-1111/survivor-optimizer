@@ -1,0 +1,23 @@
+[
+  {
+    "id": "precision_device_drone", "name": "Precision Device (Drone)", "category": "tech_part",
+    "description": "Offensive Drone tech part; the explanation identifies Drone as a resonance path.", "effects": [],
+    "tags": ["tech", "offensive", "drone", "resonance"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=92-96", "confidence": "medium",
+    "notes": "Exact tier effects require verification against the named Tech Parts guide.", "scoring_relevance": ["damage"]
+  },
+  {
+    "id": "hi_maintainer_rpg", "name": "Hi-Maintainer (RPG)", "category": "tech_part",
+    "description": "Offensive RPG tech part; the explanation identifies RPG/C4 as a resonance path.", "effects": [],
+    "tags": ["tech", "offensive", "rpg", "resonance"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=92-96", "confidence": "medium",
+    "notes": "Exact tier effects require verification against the named Tech Parts guide.", "scoring_relevance": ["damage"]
+  },
+  {
+    "id": "energy_diffuser_molotov", "name": "Energy Diffuser (Molotov)", "category": "tech_part",
+    "description": "Offensive Molotov tech part; the explanation identifies Molotov as a resonance path.", "effects": [],
+    "tags": ["tech", "offensive", "molotov", "resonance"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=92-96", "confidence": "medium",
+    "notes": "Exact tier effects require verification against the named Tech Parts guide.", "scoring_relevance": ["damage"]
+  }
+]

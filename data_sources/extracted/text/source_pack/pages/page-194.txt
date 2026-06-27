@@ -1,0 +1,41 @@
+Legendary Twinborn priority 
+Rank 
+Twinborn pair 
+1 
+Drone + Forcefield 
+2 
+Molotov + Brick 
+3 
+Laser + Guardian 
+4 
+Lightning + Boomerang 
+5 
+Drill + RPG 
+6 
+Soccer + Durian 
+Eternal Twinborn priority 
+Rank 
+Twinborn pair 
+1 
+Drone + Forcefield 
+2 
+Drill + RPG 
+3 
+Lightning + Boomerang 
+4 
+Laser + Guardian 
+5 
+Molotov + Brick 
+6 
+Soccer + Durian 
+ 
+H) Optimizer scoring rules 
+1. Do not recommend resonance before Legendary tech. 
+2. Do not recommend Twinborn before both paired techs are Legendary. 
+3. Do not recommend Tech Overload before 3000 Twinborn resonance. 
+4. Value ATK, skill damage, crit, vulnerability, poison, chill, laceration, weaken, and shield 
+damage. 
+5. Store HP but mark IgnoreForDPS. 
+6. Normal Drone resonance is good before Twinborn. 
+7. Normal RPG/Molotov resonance becomes lower value once Twinborn options exist. 
+8. Resonance chips should be spent by DPS gain per chip, not evenly across every tech.

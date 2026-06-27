@@ -1,0 +1,25 @@
+This is associated with: 
+Survivor Synergy | Global Account Stat | Crit Damage 
+The source shows: 
+●​ Synergy level 5: Crit Damage +5% 
+●​ Synergy level 10: additional +5% 
+●​ Synergy level 15: additional +10% 
+●​ Synergy level 20: additional +10% 
+Total: 
+30% global Crit Damage 
+Optimizer notes 
+This is clean global DPS. 
+Database row: 
+Survivor_Synergy_CD | SurvivorSynergy | CritDamage | +30% total | Global | Based on synergy 
+level | Yes 
+ 
+8. Pet Crit Damage 
+This is associated with: 
+Pet | Rex | Inspiration | Active Pet DPS 
+The source shows two pet-related Crit Damage sources. 
+Rex 
+●​ Rex at 3 yellow stars: Crit Damage +5% 
+●​ Rex at red stars: Crit Damage +10% 
+●​ Note: Rex must be active 
+This means Rex is not just a passive account source. It only counts when Rex is deployed. 
+Inspiration

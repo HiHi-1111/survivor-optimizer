@@ -1,0 +1,142 @@
+{
+  "items": [],
+  "item_effects": [],
+  "gear": [],
+  "gear_sets": [],
+  "survivors": [],
+  "survivor_awakenings": [],
+  "pets": [],
+  "xeno_pets": [],
+  "tech_parts": [],
+  "collectibles": [],
+  "collectible_sets": [],
+  "resources": [
+    {
+      "id": "astral_core",
+      "name": "Astral Core",
+      "category": "resource",
+      "description": "Core resource used for SS gear progression and astral forge progression.",
+      "effects": [],
+      "tags": ["core", "ss_gear", "astral_forge", "breakpoint"],
+      "source_type": "inferred",
+      "source": "data_sources/legacy/manual_notes/core_test.txt",
+      "date": "",
+      "confidence": "medium",
+      "notes": "Small manual test note. Does not include exact costs or damage values.",
+      "scoring_relevance": ["resource"]
+    },
+    {
+      "id": "xeno_core",
+      "name": "Xeno Core",
+      "category": "resource",
+      "description": "Core resource used for Xeno pet progression.",
+      "effects": [],
+      "tags": ["core", "xeno_pet", "awakening", "long_term"],
+      "source_type": "inferred",
+      "source": "data_sources/legacy/manual_notes/core_test.txt",
+      "date": "",
+      "confidence": "medium",
+      "notes": "Small manual test note. Does not include exact costs or damage values.",
+      "scoring_relevance": ["resource"]
+    },
+    {
+      "id": "resonance_chip",
+      "name": "Resonance Chip",
+      "category": "resource",
+      "description": "Resource used for tech and resonance progression.",
+      "effects": [],
+      "tags": ["resource", "tech", "resonance", "breakpoint"],
+      "source_type": "inferred",
+      "source": "data_sources/legacy/manual_notes/core_test.txt",
+      "date": "",
+      "confidence": "medium",
+      "notes": "Small manual test note. Does not include exact costs or damage values.",
+      "scoring_relevance": ["resource"]
+    }
+  ],
+  "chests": [
+    {
+      "id": "core_selector_chest",
+      "name": "Core Selector Chest",
+      "category": "chest",
+      "description": "Selector chest for choosing between core resources in the V1 optimizer test.",
+      "effects": [],
+      "tags": ["selector", "core"],
+      "source_type": "inferred",
+      "source": "data_sources/legacy/manual_notes/core_test.txt",
+      "date": "",
+      "confidence": "low",
+      "notes": "The manual note mentions the core resources, but not an exact in-game chest name or choice list.",
+      "scoring_relevance": ["resource"],
+      "choices": ["astral_core", "xeno_core", "resonance_chip"]
+    }
+  ],
+  "events": [],
+  "event_shops": [],
+  "breakpoints": [],
+  "rules": [
+    {
+      "id": "astral_core_near_breakpoint_priority",
+      "name": "Astral Core Near Breakpoint Priority",
+      "category": "rule",
+      "description": "Astral Core can be valuable when it helps reach an SS gear or astral forge breakpoint.",
+      "effects": [],
+      "tags": ["astral_core", "priority", "breakpoint"],
+      "source_type": "inferred",
+      "source": "data_sources/legacy/manual_notes/core_test.txt",
+      "date": "",
+      "confidence": "medium",
+      "notes": "No exact breakpoint values are provided.",
+      "scoring_relevance": ["utility"],
+      "applies_to": ["astral_core"]
+    },
+    {
+      "id": "xeno_core_long_term_breakpoint_priority",
+      "name": "Xeno Core Long-Term Breakpoint Priority",
+      "category": "rule",
+      "description": "Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.",
+      "effects": [],
+      "tags": ["xeno_core", "long_term", "awakening", "breakpoint"],
+      "source_type": "inferred",
+      "source": "data_sources/legacy/manual_notes/core_test.txt",
+      "date": "",
+      "confidence": "medium",
+      "notes": "No exact awakening breakpoint values are provided.",
+      "scoring_relevance": ["utility"],
+      "applies_to": ["xeno_core"]
+    },
+    {
+      "id": "resonance_chip_lower_without_breakpoint",
+      "name": "Resonance Chip Lower Without Breakpoint",
+      "category": "rule",
+      "description": "Resonance Chip may be weaker if it does not unlock a major breakpoint.",
+      "effects": [],
+      "tags": ["resonance_chip", "avoid", "breakpoint"],
+      "source_type": "inferred",
+      "source": "data_sources/legacy/manual_notes/core_test.txt",
+      "date": "",
+      "confidence": "medium",
+      "notes": "No exact resonance breakpoint values are provided.",
+      "scoring_relevance": ["utility"],
+      "applies_to": ["resonance_chip"]
+    }
+  ],
+  "hidden_interactions": [],
+  "warnings": [
+    {
+      "id": "core_test_generic_placeholder_warning",
+      "name": "Core Test Generic Placeholder Warning",
+      "category": "warning",
+      "description": "The manual core test contains generic progression notes only.",
+      "effects": [],
+      "tags": ["manual_note", "placeholder"],
+      "source_type": "inferred",
+      "source": "data_sources/legacy/manual_notes/core_test.txt",
+      "date": "",
+      "confidence": "low",
+      "notes": "Do not treat this as final Survivor.io balance data.",
+      "scoring_relevance": ["utility"]
+    }
+  ]
+}
+

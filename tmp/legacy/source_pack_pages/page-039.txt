@@ -1,0 +1,37 @@
+Donatello_Brotherhood_CR | CritRate | SurvivorPassive | Donatello | None | None | Brotherhood 
+| Don A1 + equipped TMNT passives | 3% per passive | ScalingPercent | CurrentLoadout | 
+PassiveCount | Maybe | Yes | VeryHigh | LoadoutCritRate | Max shown 9% | 
+Crit_Rate_And_Damage_2025-03-09 
+SS_Necklace_CR_Threshold_CD | CritDamage | Gear | None | SS Necklace | None | None | 
+Crit Rate >150% | 100% | FlatPercent | CurrentBuild | Threshold | No | Yes | VeryHigh | 
+ConditionalCritDamage | Requires crit breakpoint | Crit_Rate_And_Damage_2025-03-09 
+Rex_Active_CD | CritDamage | Pet | None | None | Rex | None | Rex active | 5%/10% | 
+FlatPercent | CurrentPetBuild | ActivePet | No | Yes | MediumHigh | PetCritDamage | Rex must 
+be active | Crit_Rate_And_Damage_2025-03-09 
+ 
+Formula logic for the optimizer 
+Store the pieces separately first: 
+TotalCritRate = 
+ GlobalCritRate 
++ GearCritRate_Equipped 
++ SkillCritRate_Active 
++ PetCritRate_Active 
++ SurvivorPassiveCritRate_Active 
++ ConditionalCritRate_Active 
+TotalCritDamage = 
+ DefaultCritDamage 
++ GlobalCritDamage 
++ GearCritDamage_Equipped 
++ SkillCritDamage_Active 
++ PetCritDamage_Active 
++ SurvivorPassiveCritDamage_Active 
++ ConditionalCritDamage_Active 
+Then calculate DPS after checking conditions: 
+If TotalCritRate > 100: 
+   apply CritDamage threshold bonuses that require CR > 100 
+ 
+If TotalCritRate > 150: 
+   apply CritDamage threshold bonuses that require CR > 150 
+Do not hardcode the final damage formula yet until we verify Survivor.io’s exact crit math. But 
+for ranking choices, this source clearly says Crit Rate and Crit Damage are major DPS 
+multipliers and should be weighted very heavily.

@@ -1,0 +1,46 @@
+CollectibleName 
+Edition 
+Rarity 
+AssociatedGear 
+AssociatedSkill 
+AssociatedTech 
+AssociatedSurvivor 
+AffectedStat 
+DropPool 
+If exact names are icon-only/unclear, store: 
+Collectible_IconID 
+ExactNamePending 
+Do not guess names from icons. 
+ 
+9. SS Gear Collectible Sets 
+From SS gear chart bottom. 
+Collectible set 
+Associated 
+system 
+Effects 
+Erudite Heirloom 
+SS Weapon / 
+Starforged Havoc 
+Higher thrust damage, Energy Overload stack 
+damage, Disordered Death/Void Fissure damage 
+Otherworld 
+Treasure 
+SS Necklace / 
+shield 
+Omnicombat shield requirement reduction, 
+Clarity skill damage, Reverse Scale skill damage 
+Meaning of Life 
+SS Gloves / Fury / 
+Weaken 
+Skill damage during Fury, damage to Weakened, 
+Stealth Attack crit damage 
+Interdimension 
+Movement 
+SS Armor / energy 
+level 
+Cabalistic shield boost, Suppression skill 
+damage, Eternal Recharge energy damage 
+multiplier 
+Optimizer rule 
+Collectibles are not generic only. 
+Some must attach directly to gear effect IDs.

@@ -1,0 +1,28 @@
+Replace Motivation with Inspiration if high Crit Rate % 
+After Y5, look at making the switch to Rex or Croaky. 
+Otherwise, use the Pet Optimizer. 
+Optimizer interpretation 
+Murica is great when the build needs: 
+Direct pet DPS 
+Whirlwind damage 
+Cooldown reduction 
+Skill damage scaling 
+Penetration/range scaling 
+But once your account has high crit and stronger pet awakenings, the guide says to consider 
+Rex or Croaky after Y5. 
+ 
+Croaky 
+Source: Pet_Awakening_Guide_-_Croaky_2024-10-11 
+Croaky recommended assist skills: 
+Boost 
+Raid* 
+Strong 
+Disposition: 
+Shrewd 
+Hot-blooded 
+Battler 
+Important note: 
+Use a lower tier of Battle Lust for every tier of Raid used. 
+Optimizer interpretation 
+Croaky is strong because it mixes: 
+Owner Skill Damage

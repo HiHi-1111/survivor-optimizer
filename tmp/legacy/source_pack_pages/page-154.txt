@@ -1,0 +1,40 @@
+Optimizer identity 
+Normal RPG resonance is a C4 / Sharkmaw Gun explosion path. The newer guide says RPG 
+and Molotov normal resonance are mostly not worth focusing once Twinborn versions exist, but 
+the data is still useful for earlier accounts or source completeness. 
+Extracted resonance rows 
+50: 
+Total ATK 200, Total HP 1200 
++200 ATK, +1200 HP 
+ 
+100: 
+Sharkmaw Gun launches C4 bomb. 
+Sharkmaw Gun damage +10%. 
+ 
+150: 
+Total ATK 600, Total HP 4200 
++400 ATK, +2400 HP 
+ 
+200: 
+C4 bomb explosion radius +20%. 
+Sharkmaw Gun damage +10%. 
+ 
+250: 
+Total ATK 1200, Total HP 8000 
++600 ATK, +3200 HP 
+ 
+300: 
+C4 +1. 
+Sharkmaw Gun damage +20%. 
+ 
+350: 
+Total ATK 2000, Total HP 12000 
++800 ATK, +3200 HP 
+ 
+400: 
+Hi-Maintainer HP +5% 
+ 
+450: 
+C4 explosion radius +10%. 
+C4 launch interval -0.2s. 
+Sharkmaw Gun damage +20%.

@@ -1,0 +1,29 @@
+Sources_Of_Gems_2024-10-07​
+ Sources_of_Gems_2024-12-18​
+ Sources_Of_Oil_2024-11-03​
+ Sources_of_Oil_2024-12-18​
+ Energy_Essence_Cost_2024-11-28​
+ Energy_Essence_Cost_Full_2024-11-28​
+ Equip_Design_Costs_2024-11-14​
+ Item_Values_2024-10-02 
+What they do 
+These are economy/value sources. 
+They track: 
+Where gems come from 
+Where oil comes from 
+Survivor level essence costs 
+Equipment design costs 
+Item gem-equivalent values 
+Upgrade costs 
+Optimizer rule 
+This is needed for event/shop decisions. 
+Use it to answer: 
+Is this worth buying? 
+Should I spend gems? 
+Should I save for Black Friday? 
+What item has better gem value? 
+What is my bottleneck? 
+For your account, this matters because you are trying to avoid wasting gems and maximize 
+DPS. 
+ 
+16. Ender’s Echo rewards

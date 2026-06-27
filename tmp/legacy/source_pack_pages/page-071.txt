@@ -1,0 +1,39 @@
+Skill damage +20%. 
+Effect fades on death. 
+Preservation: 
+HP recovery through supplies also restores 10% of energy shield. 
+Shield recovery cannot exceed max HP. 
+Max 100% HP. 
+Eternal forge path 
+E1: 
+Halberd Shield: 
+Shield damage +10%. 
+Damage up when shield is active. 
+Taking damage lasts 10 seconds. 
+Energy shield slowly restores 2.5% HP every second. 
+Cannot exceed max shield HP. 
+E2: 
+HP +10% 
+E3: 
+Shield damage +10%. 
+Violent Backlash: 
+When own HP is higher than 10%, own HP is deducted first before shield HP when taking 
+damage. 
+E4: 
+Final HP +16000 
+E5: 
+Omnicombat: 
+The higher the energy shield’s HP, the higher the damage. 
+For every 25% shield HP, shield damage +5%. 
+Void forge path 
+V1: 
+HP +10% 
+V2: 
+Reverse Scale: 
+When shield HP is higher than own HP, skill damage +10%. 
+V3: 
+Final HP +16000 
+V4: 
+Clarity increases skill damage by +15%. 
+V5: 
+Final HP +32000

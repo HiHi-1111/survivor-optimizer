@@ -1,0 +1,27 @@
+[
+  {
+    "id": "core_selector_chest",
+    "name": "Core Selector Chest",
+    "category": "chest",
+    "description": "Selector chest for choosing between core resources in the V1 optimizer test.",
+    "effects": [],
+    "tags": [
+      "selector",
+      "core"
+    ],
+    "source_type": "inferred",
+    "source": "data_sources/legacy/manual_notes/core_test.txt",
+    "date": "",
+    "confidence": "low",
+    "notes": "The manual note mentions the core resources, but not an exact in-game chest name or choice list. Missing source metadata from AI output.",
+    "scoring_relevance": [
+      "resource"
+    ],
+    "choices": [
+      "astral_core",
+      "xeno_core",
+      "resonance_chip"
+    ],
+    "_compiled_from": "data_sources/extracted/ai_outputs/core_test.json"
+  }
+]

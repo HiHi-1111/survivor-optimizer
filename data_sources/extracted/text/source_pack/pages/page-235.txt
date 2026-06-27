@@ -1,0 +1,31 @@
+UnlockShardCost 
+UsesMountCoreForUpgrade 
+BaseSyncRate 
+MainDamageStyle 
+DPSRelevant 
+Source 
+Rows: 
+MOUNT_SCOOTER | Electric Scooter | 30 | No | 0.20 | Auto discs / lightning / laceration | Yes | 
+Mount Discord + image 
+MOUNT_HOVERBOARD | Tech Hoverboard | 50 | No | 0.30 | Thorn Shield / Shockwave Blast / 
+Chilled damage | Yes | Mount Discord + image 
+MOUNT_DOOMSTEED | Doomsteed | 80 | Yes | 0.40 | Blazing Charge / collision / poison + 
+boss scaling | Yes | Mount Discord + image 
+ 
+3. Mount selection rule 
+This is not a “priority chart.” This is a system rule from the guide: 
+Use the highest unlocked mount. 
+Doomsteed > Tech Hoverboard > Electric Scooter. 
+Reason: 
+Once the better mount is unlocked, use it even if the older mount has more stars. 
+Older mounts still matter because their installed components give partial stats through Sync 
+Rate. 
+Optimizer logic: 
+if DoomsteedUnlocked: 
+   EquippedMount = Doomsteed 
+elif TechHoverboardUnlocked: 
+   EquippedMount = TechHoverboard 
+else: 
+   EquippedMount = ElectricScooter 
+ 
+4. Mount upgrade cost table

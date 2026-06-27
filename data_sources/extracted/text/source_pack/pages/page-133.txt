@@ -1,0 +1,43 @@
+2850: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+3000: 
+Shield Damage +50 
+Shield Damage Boost +20% 
+ 
+3500: 
++3000 ATK, +12000 HP 
+ 
+4000: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+4500: 
+Skill Damage +60 
+Shield Damage +65 
+Shield Damage Boost +15% 
+Skill Damage +15% 
+ 
+5000: 
++3500 ATK, +14000 HP 
+ 
+5500: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+6000: 
+Blaster Sharkmaw Gun damage +60% 
+ 
+6500: 
++4000 ATK, +16000 HP 
+ 
+7000: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+7500: 
+Poison Damage +150 
+Max Mad Blight stacks +3 
+ 
+8000: 
++6000 ATK, +24000 HP 
+ 
+8500: 
+Antimatter Maintainer ATK +5%, HP +5%

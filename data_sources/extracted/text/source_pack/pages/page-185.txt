@@ -1,0 +1,33 @@
+Twinborn Brick damage +5%. 
+Skill Damage +20%. 
+ 
+10x red stars: 
+Twinborn Brick damage +5%. 
+Crit Damage +20%. 
+ 
+20x red stars: 
+Twinborn Brick damage +5%. 
+Shield Damage Boost +20%. 
+Optimizer flags 
+Debuff = Deep Wound, Weaken 
+Stats = CritDamage, SkillDamage, ShieldDamage, DamageToWeakened 
+SpecialMechanics = ShatterSpace, 1TonIronCount, WeakeningHits 
+DPSRelevant = High 
+MetaPriority = Strong Legendary priority because Molotov/Brick is second Legendary Twinborn 
+path 
+ 
+12. Twinborn Molotov / Twinborn Fuel 
+Spray 
+Pair association 
+TwinbornPairID = TB_MOLOTOV_BRICK 
+Mode = Molotov side 
+BaseTech = Molotov 
+PairTech = Brick 
+CanEvolveInto = Twinborn Fuel Spray 
+Effects by rarity 
+Blue: 
+ATK +100 
+HP +400 
+Purple: 
+In-match Molotov skill becomes Twinborn Molotov. 
+Can evolve into Twinborn Fuel Spray.

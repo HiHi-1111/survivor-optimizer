@@ -1,0 +1,32 @@
+Collectibles give: 
+Global ATK 
+Crit Rate 
+Crit Damage 
+Skill damage 
+Gear-specific bonuses 
+SS gear-specific bonuses 
+Twinborn tech-specific bonuses 
+Damage to debuffed targets 
+Shield damage boosts 
+Collectible cost system 
+Collectibles require shards/stars and scale by rarity. 
+Important fields: 
+CollectibleID 
+Edition 
+Rarity 
+ShardCost 
+StarLevel 
+OwnedStars 
+SetBonus 
+AffectedSystem 
+DPSRelevant 
+Collectible chest odds 
+Need store as probability table: 
+ChestType 
+Rarity 
+DropRate 
+ShardRate 
+FullItemRate 
+ExpectedValue 
+Collectible editions 
+Edition 1/2/3 charts define collectible pools. The optimizer needs:

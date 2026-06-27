@@ -1,0 +1,28 @@
+Pet inherited HP +10% 
+Pet ATK and skill cooldown -20% 
+Pet ATK damage +20% 
+When player and pet take fatal damage, nullify that attack and heal allies for 50% HP 
+Cooldown: 100 seconds 
+Optimizer notes 
+Cat has real DPS value because of fast attack speed, pet crit, pet cooldown, and pet ATK 
+damage. The fatal-damage protection is survival, so store it but ignore for DPS. 
+Database flags: 
+Pet = Cat 
+PrimaryAttack = Claws 
+AttackCooldown = 0.5s 
+PetCritRateSource = Yes 
+PetCooldownReduction = Yes 
+PetATKDamageSource = Yes 
+DPSRelevant = High 
+ 
+7. Crab 
+Main association 
+Crab | Water Bullets | Pet ATK Damage | Pet Crit Rate | Pet Inherited ATK | Pet Cooldown 
+Primary attack 
+Crab fires powerful water bullets: 
+500% ATK damage 
+Cooldown: 1 second 
+Built-in skill themes 
+Crab is associated with: 
+Pet HP absorb 
+Pet ATK damage

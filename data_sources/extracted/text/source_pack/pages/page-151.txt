@@ -1,0 +1,43 @@
+1100: 
+Precision Device ATK +5% 
+ 
+1200: 
+Attack Wingbit Damage +50% 
+Increase from previous 2.64% 
+Increase from base 28.75% 
+ 
+1350: 
+Total ATK 7200, Total HP 38000 
++1600 ATK, +6400 HP 
+ 
+1500: 
+Precision Device ATK +5% 
+ 
+1650: 
+Augment Wingbit Interval -1s 
+Increase from previous 2.70% 
+Increase from base 32.22% 
+ 
+1800: 
+Total ATK 9000, Total HP 47000 
++1800 ATK, +7200 HP 
+ 
+1950: 
+Precision Device ATK +5% 
+ 
+2100: 
+Attack Wingbit +5 shots, Interval -1s 
+Increase from previous 6.58% 
+Increase from base 40.93% 
+ 
+2250: 
+Total ATK 11000, Total HP 57000 
++2000 ATK, +8000 HP 
+ 
+2400: 
+Precision Device ATK +5% 
+ 
+2550: 
+Augment Wingbit Damage Enhancement +30% 
+Increase from previous 11.08% 
+Increase from base 56.55%

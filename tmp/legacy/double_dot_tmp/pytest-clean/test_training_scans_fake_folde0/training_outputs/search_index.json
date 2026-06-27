@@ -1,0 +1,33 @@
+[
+  {
+    "id": "guide_1",
+    "source": "guide.txt",
+    "systems": [
+      "resources",
+      "pets",
+      "survivors",
+      "survival"
+    ],
+    "keywords": [
+      "af",
+      "awakening",
+      "best",
+      "breakpoint",
+      "healing",
+      "hp",
+      "scales_later"
+    ],
+    "excerpt": "Astral Core is best near an AF breakpoint.\nXeno Core scales later for awakening.\nHP and healing are survival-only comfort stats."
+  },
+  {
+    "id": "screenshot_1",
+    "source": "screenshot.png",
+    "systems": [
+      "unknown"
+    ],
+    "keywords": [
+      "ee"
+    ],
+    "excerpt": "screenshot"
+  }
+]

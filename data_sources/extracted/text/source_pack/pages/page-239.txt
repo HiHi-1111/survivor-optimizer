@@ -1,0 +1,53 @@
+Yellow 2 
+0.24 
+0.36 
+0.48 
+Yellow 3 
+0.28 
+0.40 
+0.55 
+Yellow 4 
+0.32 
+0.45 
+0.62 
+Red 1 
+0.38 
+0.50 
+0.71 
+Red 2 
+0.44 
+0.55 
+0.80 
+Red 3 
+0.52 
+0.60 
+0.90 
+Red 4 
+0.60 
+0.75 
+1.00 
+Optimizer formula: 
+ComponentEffectiveValue = 
+   ComponentStatValue * SyncRate 
+For equipped mount: 
+SyncRate = 1.00 
+Example from guide: 
+Using Doomsteed as main mount. 
+ 
+Gold Skill Damage component = 27%. 
+ 
+If installed in Doomsteed: 
+27% * 1.00 = 27% 
+ 
+If installed in 0-star Hoverboard: 
+27% * 0.30 = 8.1% / roughly 9% in guide example 
+ 
+If installed in 0-star Scooter: 
+27% * 0.20 = 5.4% 
+ 
+Total if installed across all 3 mounts: 
+27 + 8.1 + 5.4 = 40.5% 
+This is why: 
+Do not merge too early. 
+Fill all unlocked boards first. 
+Then merge extra components.

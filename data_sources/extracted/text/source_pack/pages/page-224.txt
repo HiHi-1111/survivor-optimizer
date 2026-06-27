@@ -1,0 +1,25 @@
+Survival-only 
+ 
+14. Equip Design Costs 
+Source: 
+Equip_Design_Costs_2024-11-14 
+What it tracks 
+Designs are used to level equipment. 
+Fields: 
+GearSlot 
+GearLevel 
+DesignCost 
+GoldCost 
+ATKGain 
+HPGain 
+DPSRelevant 
+Optimizer rule 
+Weapon/glove/necklace/belt/boots ATK-related leveling gets DPS value. 
+Armor/HP-only gains are lower for damage-only scoring. 
+Design bottleneck should be part of upgrade recommendation. 
+ 
+15. Item Values 
+Source: 
+Item_Values_2024-10-02 
+What it does 
+Assigns approximate gem-equivalent value to items.

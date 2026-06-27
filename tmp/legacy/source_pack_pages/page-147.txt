@@ -1,0 +1,42 @@
+6500: 
++4000 ATK, +16000 HP 
+ 
+7000: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+7500: 
+Crit Damage +100 
+Super Soccer Ball explosion damage +100%. 
+Hi-Energy gains additional +15% Crit Damage. 
+ 
+8000: 
++6000 ATK, +24000 HP 
+ 
+8500: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+9000: 
+Crit Damage +120 
+Chill Damage +110 
+Hoarfrost gains additional +20% damage to Chilled targets. 
+Hi-Energy gains additional +20% Crit Damage. 
+ 
+9500: 
++7500 ATK, +30000 HP 
+ 
+10000: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+10500: 
+Chill Damage +145 
+Hoarfrost gains additional +35% damage to Chilled targets. 
+ 
+11000: 
++7500 ATK, +30000 HP 
+ 
+11500: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+12000: 
+Shield Damage +80 
+Protection gains additional +20% Shield damage boost.

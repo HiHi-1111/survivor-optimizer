@@ -1,0 +1,21 @@
+[
+  {
+    "id": "conflict_resources_test_core",
+    "name": "Conflicting AI output for test_core",
+    "category": "warning",
+    "description": "Duplicate id test_core in resources had conflicting records. Preferred higher confidence or more complete record.",
+    "effects": [],
+    "tags": [
+      "ai_output",
+      "compile"
+    ],
+    "source_type": "unknown",
+    "source": ".tmp\\pytest-clean\\test_compile_logs_conflicts0\\ai_outputs\\conflict.json",
+    "date": "",
+    "confidence": "low",
+    "notes": "{\"kept\": {\"id\": \"test_core\", \"name\": \"Test Core\", \"category\": \"resource\", \"description\": \"New higher confidence value.\", \"source\": \"new.txt\", \"source_type\": \"community-tested\", \"date\": \"2025-01-01\", \"confidence\": \"medium\", \"notes\": \"new\", \"scoring_relevance\": [\"resource\"], \"effects\": [], \"tags\": [], \"_compiled_from\": \".tmp\\\\pytest-clean\\\\test_compile_logs_conflicts0\\\\ai_outputs\\\\conflict.json\"}, \"discarded\": {\"id\": \"test_core\", \"name\": \"Test Core\", \"category\": \"resource\", \"description\": \"Old lower confidence value.\", \"source\": \"old.txt\", \"source_type\": \"unknown\", \"date\": \"2024-01-01\", \"confidence\": \"low\", \"notes\": \"old\", \"scoring_relevance\": [\"resource\"], \"effects\": [], \"tags\": [], \"_compiled_from\": \".tmp\\\\pytest-clean\\\\test_compile_logs_conflicts0\\\\ai_outputs\\\\conflict.json\"}}",
+    "scoring_relevance": [
+      "utility"
+    ]
+  }
+]

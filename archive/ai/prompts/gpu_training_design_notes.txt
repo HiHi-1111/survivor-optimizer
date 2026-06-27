@@ -1,0 +1,342 @@
+You are working on my Survivor.io optimizer project. I want a major upgrade focused on higher full-mode training speed, better GPU usage, smarter AI/ML-guided search, cleaner data ingestion, and cleaner terminal output.
+
+Main goal: make the optimizer much smarter and faster without turning on shallow fast mode. I want full-mode deep evaluation to become more efficient, not less accurate. The optimizer should use my CPU and RTX 4070 GPU much harder, send more useful work to the GPU, learn from every profile, and improve over time so it can process many more profiles per second while still deeply evaluating complex Survivor.io accounts.
+
+Current hardware:
+CPU: AMD Ryzen 7 8700 with 8 cores / 16 logical threads.
+GPU: NVIDIA RTX 4070 with CUDA working.
+NPU: ignore for now unless the NPU probe proves AMD XRT/VitisAI can run a real inference. Do not block anything on NPU.
+
+Current problem:
+The GPU is being used, but not enough. The GPU active compute speed is high, but wall-clock GPU rows/sec and GPU batch utilization are low. That means the GPU is fast when it gets work, but the optimizer is not feeding it enough useful candidate rows or large enough batches. The CPU is still doing too much scoring/search work in Python that could be converted into numeric feature batches for GPU ranking/scoring/pruning.
+
+I want you to redesign the CPU/GPU pipeline so the CPU does what CPUs are good at and the GPU does much more of what GPUs are good at.
+
+CPU should handle:
+profile generation, inventory parsing, action generation, rules, branching, state transitions, chain expansion, global planning control flow, state hashing, duplicate detection, dominated-state checks, JSON/state logic, knowledge lookups, profile workers, explanation generation, audit control, and final recommendation formatting.
+
+GPU should handle much more:
+large numeric candidate scoring, candidate chain scoring, profile feature matrices, action feature matrices, chain feature matrices, learned ranker inference, learned pruning inference, beam candidate ranking, final-state batch scoring, scenario-weighted score calculation, breakpoint-distance scoring, resource-efficiency scoring, and top-k candidate selection.
+
+Do not try to move random Python branching logic directly onto the GPU. Instead, restructure the optimizer so more planner outputs become numeric matrices/tensors that CUDA can score and rank in large batches. The correct design is: CPU generates candidate actions and chains, CPU converts them into numeric feature rows, GPU scores/ranks/prunes thousands or millions of rows in batches, CPU expands the best candidates deeper, and training updates the learned memory after each profile or batch.
+
+Increase GPU utilization by:
+creating more GPU-scoreable rows from chain states, not only simple actions;
+batching candidate chains across multiple profiles, not only inside one profile;
+using larger batch windows before flushing to GPU;
+keeping GPU tensors resident when possible;
+avoiding tiny GPU batches unless latency requires it;
+adding async CPU producer and GPU consumer queues;
+using pinned memory if useful;
+using torch.no_grad/inference_mode for ranker/scorer;
+moving feature normalization and score weighting to GPU when possible;
+using top-k selection on GPU when possible;
+tracking GPU queue fill rate, GPU wall rows/sec, GPU active compute rows/sec, average batch size, batch utilization, and GPU idle time.
+
+Current performance goal:
+I want full-mode training to target at least 20 to 30 profiles/sec eventually on my machine if possible. Do not fake this number. Profile/sec should only count completed full-mode profiles. If 20 to 30 profiles/sec is not possible yet, show the bottleneck and what still prevents it. Add benchmarks so I can see progress toward that target.
+
+Do not reduce correctness just to increase profiles/sec. I want deep mode. Speed should come from better batching, caching, learned pruning, better search order, better GPU scoring, less repeated work, and better data structures.
+
+Add a real AI/ML optimizer layer:
+The optimizer should learn from every completed profile. After each profile or batch, update persistent learned memory so future profiles are searched smarter. The learned system should not be fake. It should actually affect search order, pruning, candidate ranking, and GPU scoring.
+
+The AI/ML layer should include:
+profile bucket priors;
+action priors;
+system priors;
+combo priors;
+resource bottleneck priors;
+breakpoint-distance priors;
+learned action ranking;
+learned chain ranking;
+learned pruning;
+false-prune audits;
+feature importance tracking;
+scenario-specific learned weights;
+persistent checkpoints;
+resume training;
+fresh training;
+profile clustering if useful;
+optional learned ranker model running on CUDA.
+
+The learned system should answer:
+which actions are usually good for this profile type;
+which chains usually lead to high final damage value;
+which resources are common bottlenecks;
+which systems matter most near a breakpoint;
+which branches are usually trash;
+which save/hold decisions usually win;
+which event/shop/chest choices are usually bait;
+which candidates deserve deeper search.
+
+Use learned pruning carefully:
+Search promising paths first.
+Prune low-value branches earlier.
+Keep exploration so the system does not become overconfident.
+Run full-search audits.
+Track false prunes.
+If false-prune rate rises, automatically weaken pruning.
+Never silently remove high-value recommendations too often.
+Make the logs show how many actions were reordered, pruned, audited, and corrected.
+
+Important: do not use a large language model inside the hot inner training loop if it slows training down. Use LLM-style reasoning where it makes sense: data ingestion, guide interpretation, schema creation, explanation writing, missing-data notes, rule drafting, and manual review summaries. For the actual high-speed optimizer loop, use deterministic logic plus a small learned ranker/pruner model that can run locally and quickly on CUDA. If you add an LLM interface, make it optional and offline-from-training by default so it does not destroy profiles/sec.
+
+Data ingestion goal:
+I have Google Drive files with Survivor.io guide images, TIFFs, PDFs, and visual tables. Not all of this can be trusted by simple OCR. Build an ingestion pipeline that can scan image/PDF guide files, convert images to readable previews, run OCR/table extraction, preserve source references, and create structured knowledge candidates with confidence levels. Do not blindly trust OCR. Use manual review queues for uncertain data.
+
+The ingestion system should create:
+raw extracted OCR text;
+image preview paths;
+source file metadata;
+detected tables;
+candidate structured JSON;
+confidence scores;
+manual review files;
+missing-data warnings;
+accepted knowledge JSON;
+rejected/uncertain entries;
+source links for each extracted fact.
+
+The optimizer knowledge should cover:
+weapons, gear, boots, necklaces, gloves, belts, armor, S gear, SS gear, astral forge, resonance, tech parts, tech resonance, pets, pet awakening, pet crystals, pet cookies, xeno pets, collectibles, collectible sets, collectible chest odds, survivors, survivor shards, survivor awakening, energy essence costs, skills, crit rate, crit damage, clan shop, event shops, events, chests, selector chests, shard conversion, universal exchange, merge, salvage, gems, keys, cores, designs, essence, future event planning, and save/hold logic.
+
+Do not invent missing game data. If a value is not confirmed, store it as missing, assumed, or needs_review. The optimizer should know when data is missing and explain that in recommendations.
+
+Improve the knowledge/data layer:
+Load knowledge once and cache it.
+Validate JSON schemas.
+Separate confirmed data from assumptions.
+Track source and confidence for every important value.
+Make all data JSON-serializable.
+Keep knowledge easy to update later.
+Add game data versioning.
+Add source review tools.
+Add a coverage report showing fully supported, partially supported, unsupported, and not-observed systems.
+
+Improve full-mode planning:
+The optimizer must evaluate the whole inventory, not items one by one. It should think in action chains and final states. It should understand that some resources are only valuable when combined with other resources.
+
+Examples:
+selector chest plus shard conversion plus event shop item plus saved resources may unlock a better breakpoint;
+pet crystals may only matter if they complete awakening;
+collectible shards may only matter if they complete a set bonus;
+SS gear material may only matter if it unlocks an astral forge level;
+gems may be better saved for a future event or Black Friday;
+clan shop purchases may be good only if they fill a bottleneck;
+save/hold can be the best recommendation.
+
+Scoring should be final-state based:
+score the account after the action chain, not just the individual action.
+Compare current damage value, long-term damage value, resource efficiency, breakpoint progress, opportunity cost, and scenario value.
+
+Damage-first rules:
+DPS and damage progress are the main objective.
+Ignore HP, healing, defense, revive, and survival-only value unless it directly enables damage progress or unlocks better farming/progression.
+Do not let survival stats dominate scoring.
+Short-term boss damage, long-term account damage, and balanced progression should have different weights.
+
+Scenario support:
+short-term boss damage;
+long-term account damage;
+balanced progression;
+event shop value;
+F2P gem conservation;
+chapter push/Steamroll;
+clan shop planning;
+pet/xeno progression;
+gear/SS/astral forge progression;
+collectible set progression;
+future event planning;
+Black Friday/gem spending planning.
+
+Synthetic profile generation:
+Make profiles more realistic and more diverse. Include early, mid, late, and endgame accounts; F2P; gem-hoarders; selector-heavy inventories; chest-heavy inventories; pet-heavy profiles; gear-heavy profiles; SS-heavy profiles; collectible-heavy profiles; event-shop profiles; clan-shop profiles; near-breakpoint profiles; far-from-breakpoint profiles; messy inventories; bad past upgrade choices; saved resources; resource bottlenecks; and weird edge cases.
+
+Use only real known item IDs from knowledge. If data is missing, mark it missing instead of making fake IDs or fake stats.
+
+GPU-specific profile training improvements:
+Create profile feature matrices.
+Create action feature matrices.
+Create chain feature matrices.
+Batch candidates from many CPU workers together.
+Use CUDA to score and rank candidate chains.
+Use GPU top-k to return best candidate IDs.
+Let CPU continue expanding only top candidates.
+Track how many chain states were GPU scored versus CPU scored.
+Increase the percent of deep chain states that become GPU rows.
+Add a target metric: GPU-scored chain coverage percentage.
+I want to see this number increase over time.
+
+Add these metrics:
+profiles/sec;
+full-mode profiles/sec;
+actions generated/sec;
+chain states/sec;
+chains scored/sec;
+GPU rows submitted;
+GPU rows scored;
+GPU-scored chain coverage;
+GPU wall rows/sec;
+GPU active compute rows/sec;
+GPU batch utilization;
+average GPU batch size;
+GPU idle percentage;
+CPU worker utilization;
+CPU waiting on GPU;
+GPU waiting on CPU;
+profile queue size;
+GPU queue size;
+learned pruning usage;
+actions reordered by learned priors;
+actions pruned by learned priors;
+full-search audits;
+false prunes found;
+false prune rate;
+systems covered;
+systems not observed;
+unsupported systems;
+cache hit rate;
+cache miss rate;
+dominated states removed;
+checkpoint saves;
+training ETA;
+best chains found;
+hardware bottleneck.
+
+Terminal output issue:
+When the training session ends, it currently dumps way too much text and jargon into the terminal. Fix this. I want the terminal to show only the live dashboard while training, then a short clean summary when finished. Do not print a massive wall of raw internal details at the end.
+
+Add logging modes:
+quiet;
+normal;
+debug;
+json-log-to-file.
+
+Default should be normal:
+during training, show the live dashboard only;
+at the end, show a short summary with the most important metrics;
+save the detailed raw metrics to files, not the terminal.
+
+End summary should include only:
+profiles tested;
+profiles/sec;
+systems covered;
+GPU actually used;
+GPU batch utilization;
+GPU wall rows/sec;
+learned pruning usage;
+false prune rate;
+best checkpoint path;
+coverage report path;
+detailed metrics file path;
+test result status.
+
+All huge debug data should go to:
+training_outputs/latest_summary.json
+training_outputs/latest_metrics.json
+training_outputs/latest_coverage_report.json
+training_outputs/latest_learning_report.json
+training_outputs/latest_hardware_report.json
+training_outputs/latest_debug.log
+
+Add a --Verbose or -DebugLogs option if I want the giant internal dump. Do not show it by default.
+
+Windows reliability:
+Fix temp folder problems.
+Use python -m pytest --basetemp ..tmp\pytest-clean.
+Make Ctrl+C save progress and stop cleanly.
+Avoid zombie multiprocessing processes.
+Avoid locked temp folders.
+Avoid path issues.
+Do not reload JSON repeatedly.
+Make resume training reliable.
+Make training interruption safe.
+
+Future website/app design:
+Keep optimizer core separate from CLI and training tools. The core should be usable later by a website or app.
+
+The API should stay simple:
+from optimizer.main import optimize
+result = optimize(player_state)
+
+Result must be JSON-serializable and include:
+recommendation;
+ranked alternatives;
+action chain;
+resources used;
+resources saved;
+expected damage gain;
+long-term value;
+scenario used;
+explanation;
+rejected alternatives;
+warnings;
+assumptions;
+missing data;
+confidence;
+future goals;
+next best action.
+
+Future features I want:
+free website/app;
+manual account input;
+import/export save key;
+screenshot import later;
+guide/image ingestion pipeline;
+event shop calculator;
+Black Friday/gem planner;
+clan shop planner;
+pet/xeno planner;
+SS/astral forge planner;
+collectible set planner;
+long-term roadmap generator;
+hardware/training dashboard;
+data review dashboard;
+confidence scoring;
+missing-data warnings;
+human-readable explanations;
+client-side or low-cost hosting if possible.
+
+Implementation plan:
+First, inspect the current code and identify where CPU scoring, chain scoring, GPU scoring, learned pruning, training logging, profile generation, and data ingestion currently happen.
+Second, fix the terminal logging so the end-of-run output is clean.
+Third, improve GPU batching so more candidate chain states become GPU rows.
+Fourth, add GPU-scored chain coverage and better GPU utilization metrics.
+Fifth, add or improve the learned ranker/pruner so it runs on CUDA and affects search order/pruning.
+Sixth, improve profile learning memory so each profile teaches the optimizer.
+Seventh, build or improve the Drive/image/PDF data ingestion pipeline with OCR confidence and manual review.
+Eighth, expand system coverage and action generators.
+Ninth, add tests and benchmarks.
+Tenth, run before/after training tests and show proof.
+
+Acceptance criteria:
+Do not claim success unless tests pass and metrics prove improvement.
+Show before/after:
+profiles/sec;
+full-mode profiles/sec;
+GPU batch utilization;
+GPU wall rows/sec;
+GPU-scored chain coverage;
+systems covered;
+systems not observed;
+learned pruning usage;
+false prune rate;
+test results;
+terminal output cleanup.
+
+Run:
+python tools/gpu_smoke_test.py
+python tools/npu_probe.py
+python tools/validate_knowledge.py
+python run_demo.py
+python -m pytest --basetemp ..tmp\pytest-clean
+
+Then run:
+.\tools\run_training.ps1 -Minutes 6 -ProfileCount 5000 -Workers auto -Device cuda -BatchSize 8192 -GpuScore -ComboMode -ChainDepth 2 -BeamSize 150 -MaxActionsPerProfile 1000 -KeepGenerating -LearnedPruning normal -ExplorationRate 0.08 -AuditFullSearchInterval 100 -CoverageReport
+
+Then run a longer test:
+.\tools\run_training.ps1 -Minutes 60 -ProfileCount 500000 -Workers auto -Device cuda -BatchSize 8192 -GpuScore -ComboMode -ChainDepth 2 -BeamSize 150 -MaxActionsPerProfile 1000 -KeepGenerating -LearnedPruning normal -ExplorationRate 0.08 -AuditFullSearchInterval 100 -CoverageReport
+
+Final goal:
+Get full-mode training much closer to 20 to 30 profiles/sec on my CPU plus RTX 4070 if realistically possible, while increasing GPU utilization and keeping recommendation quality high. The optimizer should learn from every profile, use GPU for much more scoring/ranking/pruning work, keep CPU and GPU working independently, avoid useless branches, stay explainable, and be built for my future free Survivor.io optimizer website/app.

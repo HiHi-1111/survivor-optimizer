@@ -1,0 +1,51 @@
+Max setup shown 
+3 Eternal techs + 10 Legendary techs + 90 
+chips 
+Main advantage 
+Bigger resonance table + Tech Overload 
+access 
+Twinborn pair rule 
+One Twinborn pair has 2 modes, but only 1 mode can be equipped. 
+Example: 
+Drone + Forcefield pair can use Twinborn Destroyer OR Twinborn Force Barrier, not both. 
+ 
+E) Normal vs Twinborn resonance 
+comparison 
+System 
+Unlock 
+Max 
+resonance 
+Fodder 
+restriction 
+Chip max 
+noted 
+Priority 
+Normal tech Legendary 
+tech 
+9000 
+Same side only 
+60 
+Early/mid 
+Twinborn 
+tech 
+Legendary 
+pair 
+15000 
+Any tech type 
+90 
+Late/current 
+meta 
+Optimizer rule 
+If Twinborn is unlocked: 
+   prioritize Twinborn resonance over normal RPG/Molotov resonance. 
+ 
+If no Twinborn: 
+   normal Drone resonance is still high value. 
+ 
+F) Tech Overload 
+Field 
+Data 
+Unlock requirement 
+3000 resonance on a Twinborn 
+Max levels 
+18

@@ -1,0 +1,35 @@
+Optimizer flags 
+Debuff = Bleed 
+Stats = SkillDamage, CritDamage, ShieldDamage 
+SpecialMechanics = TransgenicCaltrops, FireBombs, FireTrail, PungentWhiff 
+DPSRelevant = Medium/High 
+MetaPriority = Lower Twinborn priority, but real poison/bleed/skill scaling exists 
+ 
+2. Twinborn Soccer Ball / Twinborn 
+Quantum Ball 
+Pair association 
+TwinbornPairID = TB_DURIAN_SOCCER 
+Mode = Soccer side 
+BaseTech = Soccer Ball 
+PairTech = Durian 
+CanEvolveInto = Twinborn Quantum Ball 
+Effects by rarity 
+Blue: 
+ATK +100 
+HP +400 
+Purple: 
+Soccer Ball skill becomes Twinborn Soccer Ball in a match and can evolve into Twinborn 
+Quantum Ball. 
+ 
+Twinborn Soccer Ball: 
+Twinborn Soccer Ball damage +30%. 
+ 
+Durian: 
+Flight control. 
+Durian will not stray too far from you. 
+Yellow: 
+ATK +400 
+HP +1600 
+Red: 
+Twinborn Quantum Ball: 
+Quantum balls turn into Spiked Quantum Balls.

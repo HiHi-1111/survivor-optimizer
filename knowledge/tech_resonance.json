@@ -1,0 +1,23 @@
+[
+  {
+    "id": "drone_resonance", "name": "Drone Resonance", "category": "tech_resonance",
+    "description": "Drone resonance consumes resonance energy supplied by equipped resonant tech parts.", "effects": [],
+    "tags": ["tech", "drone", "resonance", "breakpoint"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=94-96", "confidence": "medium",
+    "notes": "Exact breakpoint effects need verification against the source guide.", "scoring_relevance": ["damage"]
+  },
+  {
+    "id": "rpg_c4_resonance", "name": "RPG/C4 Resonance", "category": "tech_resonance",
+    "description": "RPG resonance path paired with C4 in the explanation.", "effects": [],
+    "tags": ["tech", "rpg", "c4", "resonance", "breakpoint"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=94-96", "confidence": "medium",
+    "notes": "Exact breakpoint effects need verification against the source guide.", "scoring_relevance": ["damage"]
+  },
+  {
+    "id": "molotov_resonance", "name": "Molotov Resonance", "category": "tech_resonance",
+    "description": "Molotov resonance path documented in the explanation.", "effects": [],
+    "tags": ["tech", "molotov", "resonance", "breakpoint"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=94-96", "confidence": "medium",
+    "notes": "Exact breakpoint effects need verification against the source guide.", "scoring_relevance": ["damage"]
+  }
+]

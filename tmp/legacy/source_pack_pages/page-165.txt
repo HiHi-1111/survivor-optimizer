@@ -1,0 +1,41 @@
+HP +1600 
+Red: 
+Twinborn Caltrops: 
+Iron and Blood. 
+Spikes also inflict Bleed. 
+Adds 1 Transgenic Caltrops. 
+Skill damage for entire match +75%. 
+ 
+Quantum Ball: 
+Ball duration +1s. 
+Eternal / Rainbow: 
+Twinborn Durian: 
+Leaves behind pungent whiff during flight. 
+Follows bosses on hit. 
+ 
+Twinborn Caltrops: 
+Leaves behind fire trail during flight. 
+Leaves behind 1 fire bomb every 1s that explodes after 3s. 
+Transgenic Caltrops deal +20% damage. 
+ 
+Crit Damage for entire match +75%. 
+ 
+Soccer Ball: 
++1 Ball. 
+ 
+Quantum Ball: 
++1 Ball. 
+Quantum entanglement occurs after the balls eventually split up. 
+Collectible set 
+CollectibleSetName = Close to Creation 
+AssociatedTwinborn = Twinborn Durian / Twinborn Caltrops 
+Each 3 yellow stars: 
+Twinborn Caltrops spike damage +100%. 
+ 
+Each 3 red stars: 
+Twinborn Durian and Twinborn Caltrops damage +100%. 
+Shield Damage Boost +10%. 
+ 
+Total 25 stars: 
+Twinborn Durian and Twinborn Caltrops damage +100%. 
+Shield Damage Boost +15%.

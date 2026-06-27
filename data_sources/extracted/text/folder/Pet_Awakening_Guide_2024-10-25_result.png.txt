@@ -1,0 +1,51 @@
+“Cary Exch pp
+
+Name Unlocked Description
+Barrier Increases player's Range Damage Reduction by 10/15%
+iligence Increases player's Battle EXP gain by 5/7.5/ %
+Raid Powerful Boost Pen. .
+“Gory exclusive @ SM encouragement Increases player's Skill Damage by 3/ %
+>
+5 Guard Increases player's Collision Damage Reduction by 10%
+a
+Disposition Inspiration Increases player's Crit Damage by 6/ %
+Motivation Increases player's Crit Rate by 3/4/ %
+Crush Attacks have % chance to deal 10x damage
+Replace Motivation z, with Inspiration : IF high crit % Battle Lust Reduces pet's Cooldowns by 15/20/ %
+“After Y5, look at making the switch to Rex or Croaky. rene Increases pet's Crit Rate by 15/20/-%
+Otherwise, use the Pet Optimizer
+Gargantua Increases pet's Size and Range by 15/20%
+High Windchaser Pet Movement Speed +75%
+eo +
+«a Painstrike Increases pet's Crit Damage by %
+Bic “ate > Anything ps age by
+Roid* Strong Sharp Claws Increases pet's Skill Damage by 15/20/. %
+“Gary exclusive Gf
+Tough Skin Reduces pet's damage taken by 40/  %
+United Effort Increases pet's inherited HP by 10/15/  %
+Disposition
+United Stand Increases pet's inherited ATK by 15/ %
+6 Hot-blooded
+Unyielding Will Reduces pet's revival time by 20/30/  %
+Utmost Loyalty Pet takes % damage in place of player
+Vampirism Increases pet's HP absorb from attacks by (/2%
+Nine Lives When player and pet take fatal damage, nullify that attack and heal all
+ine Li allies for % HP (does not count as revival. Effective in co-op). 100s CD
+. Guides satellite to blast a powerful shot at a certain orea to deal %
+boost ak! GaeloGerica ATK damage. 5s CD. +250% damage when owner levels up
+“Gary exclusive
+Time Sto} When player's HP is below — %, stops time and freezes all enemies for
+L P 5s, during which the player and pet are Invincible. 60s CD.
+Disposition Boost In battle, for every 5 level(s) owner gains, pet's Range increases by 5/6/7.5/ %
+hr
+ent Durable os In battle, for every 5 level(s) owner gains, pet's shot Duration increases by 8/10/12/ %
+ter of Raid used
+m/j|_g4m3r Hot-blooded
+cutis 6 Hi] Penetration | s$fr4_nbattle, for every 10/8/6/. leveK.s) owner goins, increases Penetrated units of pet's shot by 1
+$K Battier a .
+= Powerful | {f¢_, In battle, for every 5 level(s) owner gains, pet's Skill Damage increase by 5/6/75/  %
+Strong se In battle, for every 5 level(s) owner gains, pet Max HP increases by 10/12/15/ %
+aD 4 Inbottle for every 5 levels) owner gain, pet's Skil Damage increase by 6/75/_%
+bt
+
+Bonus Trait: Deployed pet's Cooldowns reduced by 10/15/.% (does not increase with owner level)

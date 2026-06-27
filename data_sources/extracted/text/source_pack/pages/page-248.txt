@@ -1,0 +1,86 @@
+Shield Damage 
+5% 
+7% 
+9% 
+11% 
+14% 
+18% 
+21% 
+Boss Damage 
+1% 
+2% 
+2.5% 
+3% 
+3.5% 4% 
+5% 
+Lacerated Damage 2% 
+3% 
+4% 
+5% 
+5% 
+7% 
+8% 
+Skill Damage 
+10% 
+15% 
+19% 
+23% 
+27% 
+35% 
+42% 
+Crit Damage 
+8% 
+12% 
+15% 
+18% 
+22% 
+28% 
+33% 
+Weakened 
+Damage 
+10% 
+15% 
+19% 
+23% 
+27% 
+35% 
+42% 
+Chilled Damage 
+10% 
+15% 
+19% 
+23% 
+27% 
+35% 
+42% 
+Poisoned Damage 
+10% 
+15% 
+19% 
+23% 
+27% 
+35% 
+42% 
+Database row format: 
+ComponentStatID 
+StatName 
+Rarity 
+ValuePercent 
+DamageBucket 
+DPSRelevant 
+Example rows: 
+COMP_SKILL_GOLD | Skill Damage | Gold | 27% | SkillDamage | Yes 
+COMP_SHIELD_RED | Shield Damage | Red | 21% | ShieldDamage | Yes 
+COMP_BOSS_RED | Boss Damage | Red | 5% | BossDamage | Yes 
+COMP_POISON_GOLD1 | Poisoned Damage | Gold+1 | 35% | DamageToPoisoned | Yes 
+ 
+10. Component merging 
+Merging rerolls/randomizes the boost unless a component is locked away and not merged. 
+Merge input 
+Output 
+2 Green 
+1 Blue 
+2 Blue 
+1 Purple 
+2 Purple 
+1 Purple +1

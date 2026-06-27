@@ -1,0 +1,41 @@
+Line 
+7 
+Red 2 
+Damage to Poisoned targets +80%; Damage to Bosses +5% 
+Line 
+8 
+Red 4 
+For every 160% damage to Poisoned targets, +5% damage to bosses, up 
+to 25% 
+Optimizer notes 
+Main buckets: 
+- Skill Damage 
+- Damage to Poisoned targets 
+- Damage to Lacerated targets 
+- Damage to Bosses 
+- Movement Speed scaling 
+- Collision damage 
+- Charge stacks 
+ 
+Debuffs: 
+- Poisoned target damage 
+- Lacerated target damage 
+- Root utility 
+ 
+Conditions: 
+- Needs movement/contact uptime 
+- Best when hugging/circling boss 
+- Better when Movement Speed > 12 
+- Better with SS Boots-style movement stacking 
+- Better if Poison/Laceration uptime exists 
+ 
+DPSRelevant = Very High 
+UseStyle = Active boss contact / movement scaling 
+ 
+9. Component stat values 
+Components roll a stat randomly. The shape does not decide the stat. The percentage is fixed 
+by stat type and rarity. 
+Component stat table 
+Component stat 
+Green Blue Purple Purple +1 Gold Gold +1 
+Red

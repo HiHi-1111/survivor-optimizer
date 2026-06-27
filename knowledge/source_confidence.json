@@ -1,0 +1,4904 @@
+[
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_007d10926219509c3faa9ce6",
+    "name": "Necklaces_V2_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Necklaces_V2_2024-11-28.webp",
+    "source_refs": [
+      "Necklaces_V2_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_00ff143305c4d0f832778e30",
+    "name": "Armor_V2_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Armor_V2_2024-11-28.webp",
+    "source_refs": [
+      "Armor_V2_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_014653b46ba9a7055c96c827",
+    "name": "Chapter_Unlocks-2024-09-17_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Chapter_Unlocks-2024-09-17_result.tif",
+    "source_refs": [
+      "Chapter_Unlocks-2024-09-17_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events",
+      "pets",
+      "skills",
+      "survivors",
+      "tech_parts"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_0254edd57e00db43bda317dd",
+    "name": "Boots_V2_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Boots_V2_2024-11-28_result.tif",
+    "source_refs": [
+      "Boots_V2_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_03137505d26162f930d8ab23",
+    "name": "Energy_Essence_Cost_2024-11-28 (1)_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Energy_Essence_Cost_2024-11-28 (1)_result.png",
+    "source_refs": [
+      "Energy_Essence_Cost_2024-11-28 (1)_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivor_energy_essence_costs"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_0538f12df9a8ad8dfa29e087",
+    "name": "Energy_Essence_Cost_Full_2024-11-28 (1)_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Energy_Essence_Cost_Full_2024-11-28 (1)_result.tif",
+    "source_refs": [
+      "Energy_Essence_Cost_Full_2024-11-28 (1)_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivor_energy_essence_costs"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_06ef09462c3fd6611d5986f1",
+    "name": "Survivor_Pass_Experience_2024-09-16.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivor_Pass_Experience_2024-09-16.webp",
+    "source_refs": [
+      "Survivor_Pass_Experience_2024-09-16.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_07627a498b1c478512b654a3",
+    "name": "Pet_Awakening_Guide_2024-10-25.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pet_Awakening_Guide_2024-10-25.webp",
+    "source_refs": [
+      "Pet_Awakening_Guide_2024-10-25.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "pet_awakenings",
+      "pets",
+      "skills",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_07d37ba45499a9bff22abb7a",
+    "name": "Necklaces_V2_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Necklaces_V2_2024-11-28_result.png",
+    "source_refs": [
+      "Necklaces_V2_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_09930c0f7ac0519bc40c5f2e",
+    "name": "Pet_Awakening_Guide_-_Croaky_2024-10-11.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pet_Awakening_Guide_-_Croaky_2024-10-11.webp",
+    "source_refs": [
+      "Pet_Awakening_Guide_-_Croaky_2024-10-11.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "pet_awakenings",
+      "pets",
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_09c3a2068ffe73cb0cc83e78",
+    "name": "Collectible_Chest_Odds_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Collectible_Chest_Odds_2024-11-28_result.png",
+    "source_refs": [
+      "Collectible_Chest_Odds_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chest_odds",
+      "chests",
+      "collectible_chest_odds",
+      "collectibles"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_0a8bb559084e6bfcdd03284f",
+    "name": "Pet_Awakening_Guide_-_Rex_2024-10-11.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pet_Awakening_Guide_-_Rex_2024-10-11.webp",
+    "source_refs": [
+      "Pet_Awakening_Guide_-_Rex_2024-10-11.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "pet_awakenings",
+      "pets"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_0aaa3951807b0533b9a4a538",
+    "name": "Tech_Parts_2024-10-09.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Tech_Parts_2024-10-09.webp",
+    "source_refs": [
+      "Tech_Parts_2024-10-09.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "tech_parts"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_0c22930ae4db6040913ba079",
+    "name": "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.tif",
+    "source_refs": [
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "events",
+      "gear",
+      "resources"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_0dcf4b10f2aeb1255bc214bb",
+    "name": "Twinborn_Part_2025-02-23_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Twinborn_Part_2025-02-23_result.tif",
+    "source_refs": [
+      "Twinborn_Part_2025-02-23_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "tech_parts"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_0f0bb097dd8af372c8679aea",
+    "name": "Awakening_Core_Guide_2024-10-04.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Awakening_Core_Guide_2024-10-04.webp",
+    "source_refs": [
+      "Awakening_Core_Guide_2024-10-04.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events",
+      "resources"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_113c36439e4eec3f2dfd0abd",
+    "name": "Sources_Of_Oil_2024-11-03_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Sources_Of_Oil_2024-11-03_result.tif",
+    "source_refs": [
+      "Sources_Of_Oil_2024-11-03_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chests",
+      "resources"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_11f31be56ff7b7785e640665",
+    "name": "Twinborn_Part_2025-02-23_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Twinborn_Part_2025-02-23_result.png",
+    "source_refs": [
+      "Twinborn_Part_2025-02-23_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "tech_parts"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_1234836e7d8ce96b331b924c",
+    "name": "Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29.webp",
+    "source_refs": [
+      "Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events",
+      "resources"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_12d0279c7ffac8381e93caa6",
+    "name": "Energy_Essence_Cost_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Energy_Essence_Cost_2024-11-28_result.png",
+    "source_refs": [
+      "Energy_Essence_Cost_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivor_energy_essence_costs"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_130294f8f6ec4eabb36e6189",
+    "name": "Eternal_Necklace_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Eternal_Necklace_2024-11-28_result.tif",
+    "source_refs": [
+      "Eternal_Necklace_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear",
+      "pets",
+      "skills",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_131615fbb7c41da0d50aa209",
+    "name": "Relic_Core_Usage_-_Clan_Expedition_mini_2024-11-29_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Relic_Core_Usage_-_Clan_Expedition_mini_2024-11-29_result.png",
+    "source_refs": [
+      "Relic_Core_Usage_-_Clan_Expedition_mini_2024-11-29_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events",
+      "resources"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_133bd44552c7154ac3e28f32",
+    "name": "Energy_Essence_Cost_2024-11-28 (1)_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Energy_Essence_Cost_2024-11-28 (1)_result.tif",
+    "source_refs": [
+      "Energy_Essence_Cost_2024-11-28 (1)_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivor_energy_essence_costs"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_13a873dea2893931ac733f57",
+    "name": "Crit_Rate_And_Damage_2025-03-09_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Crit_Rate_And_Damage_2025-03-09_result.png",
+    "source_refs": [
+      "Crit_Rate_And_Damage_2025-03-09_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "collectibles",
+      "crit_stats",
+      "pets",
+      "skills",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_13b7d384e5f13a08cc542c76",
+    "name": "Astral_Forge_2024-10-06.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Astral_Forge_2024-10-06.webp",
+    "source_refs": [
+      "Astral_Forge_2024-10-06.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "breakpoints",
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_16bef1ce4b95f70c59036e2c",
+    "name": "aire.pdf",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "aire.pdf",
+    "source_refs": [
+      "aire.pdf"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chest_odds",
+      "chests"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_17fb498be77ccf3060993b02",
+    "name": "Survivors_SP_2025-01-26.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivors_SP_2025-01-26.webp",
+    "source_refs": [
+      "Survivors_SP_2025-01-26.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "gear",
+      "pets",
+      "skills",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_198e179c8d79a94d957c425d",
+    "name": "SS_Gear_2025-02-06_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "SS_Gear_2025-02-06_result.tif",
+    "source_refs": [
+      "SS_Gear_2025-02-06_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "collectibles",
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_1a1d78734fba5b1ea1b4e7ec",
+    "name": "Crit_Rate_And_Damage_2025-03-09.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Crit_Rate_And_Damage_2025-03-09.webp",
+    "source_refs": [
+      "Crit_Rate_And_Damage_2025-03-09.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "collectibles",
+      "crit_stats",
+      "pets",
+      "skills",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_1a2e3ccac32357a1928493af",
+    "name": "Survivor_Combat_Harmony_Skills_and_Costs_2024-12-20_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivor_Combat_Harmony_Skills_and_Costs_2024-12-20_result.png",
+    "source_refs": [
+      "Survivor_Combat_Harmony_Skills_and_Costs_2024-12-20_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_1a64ef9713d4464242dfd240",
+    "name": "Shield_and_Skill_Damage__Multipliers_2024-12-27_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Shield_and_Skill_Damage__Multipliers_2024-12-27_result.tif",
+    "source_refs": [
+      "Shield_and_Skill_Damage__Multipliers_2024-12-27_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_1aa9c31d9eb9f954e1aae340",
+    "name": "Pets_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pets_2024-11-28_result.tif",
+    "source_refs": [
+      "Pets_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "pets",
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_1df23eb69c97dd0aa72e2211",
+    "name": "Boots_V2_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Boots_V2_2024-11-28.webp",
+    "source_refs": [
+      "Boots_V2_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_1e658f8b05f86a88848c3408",
+    "name": "Survivor_Pass_2024-12-19.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivor_Pass_2024-12-19.webp",
+    "source_refs": [
+      "Survivor_Pass_2024-12-19.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chests",
+      "collectibles",
+      "events",
+      "gear",
+      "resources"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_1e9bf6b10c50170a14348d45",
+    "name": "Collectibles_Edition_1_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Collectibles_Edition_1_2024-11-28_result.tif",
+    "source_refs": [
+      "Collectibles_Edition_1_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chests",
+      "collectibles"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_20228d84877ed3e760ccec93",
+    "name": "Awakening_Core_Guide_2024-10-04_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Awakening_Core_Guide_2024-10-04_result.png",
+    "source_refs": [
+      "Awakening_Core_Guide_2024-10-04_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events",
+      "resources"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_2064ade2d15ad7b3fec42a8a",
+    "name": "Gloves_V2_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Gloves_V2_2024-11-28.webp",
+    "source_refs": [
+      "Gloves_V2_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "gear",
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_216f1d8ac74f8847184d8be7",
+    "name": "Boss_Debuffs_2024-12-27.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Boss_Debuffs_2024-12-27.webp",
+    "source_refs": [
+      "Boss_Debuffs_2024-12-27.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "pets",
+      "survivors",
+      "tech_parts",
+      "tech_resonance"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_2c8271ab6d420f6b26d440ca",
+    "name": "Skills_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Skills_2024-11-28_result.tif",
+    "source_refs": [
+      "Skills_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_2d02ed46d3537b5bc77209cc",
+    "name": "Survivor_Combat_Harmony_Skills_and_Costs_2024-12-20_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivor_Combat_Harmony_Skills_and_Costs_2024-12-20_result.tif",
+    "source_refs": [
+      "Survivor_Combat_Harmony_Skills_and_Costs_2024-12-20_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_2e4e1166db21a245ef669ad6",
+    "name": "Merging_-_Tech_Parts_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Merging_-_Tech_Parts_2024-11-28.webp",
+    "source_refs": [
+      "Merging_-_Tech_Parts_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "merge",
+      "tech_parts"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_2f9071b0a7e26ddd6d9adf21",
+    "name": "Collectibles_Edition_2_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Collectibles_Edition_2_2024-11-28_result.tif",
+    "source_refs": [
+      "Collectibles_Edition_2_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chests",
+      "collectibles"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_31ed5bcae5e153165dfbc9f8",
+    "name": "Energy_Essence_Cost_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Energy_Essence_Cost_2024-11-28.webp",
+    "source_refs": [
+      "Energy_Essence_Cost_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivor_energy_essence_costs"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_332ec3f804c0d7b165152325",
+    "name": "Merging_-_Equip_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Merging_-_Equip_2024-11-28.webp",
+    "source_refs": [
+      "Merging_-_Equip_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear",
+      "merge"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "medium",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_3470dbc74773fe8a14581039",
+    "name": "Tech_Part_Resonance_Drone_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Tech_Part_Resonance_Drone_2024-11-28_result.tif",
+    "source_refs": [
+      "Tech_Part_Resonance_Drone_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills",
+      "tech_parts",
+      "tech_resonance"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_3475e3bddeb31623e2b6a699",
+    "name": "Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.png",
+    "source_refs": [
+      "Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events",
+      "gear",
+      "resources",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_35b4bed18843c126122110fd",
+    "name": "Astral_Forge_2024-10-06_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Astral_Forge_2024-10-06_result.tif",
+    "source_refs": [
+      "Astral_Forge_2024-10-06_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "breakpoints",
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_391b5096368b8b23c9b7bea9",
+    "name": "Collectible_Costs_2024-10-11_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Collectible_Costs_2024-10-11_result.tif",
+    "source_refs": [
+      "Collectible_Costs_2024-10-11_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "collectibles"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_3cdb62f54fd3bdd1ee3d2487",
+    "name": "Survivor_Upgrade_Costs_2024-12-19.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivor_Upgrade_Costs_2024-12-19.webp",
+    "source_refs": [
+      "Survivor_Upgrade_Costs_2024-12-19.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_3fdfed44989302992879c4ee",
+    "name": "Relic_Core_Usage_-_Clan_Expedition_mini_2024-11-29_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Relic_Core_Usage_-_Clan_Expedition_mini_2024-11-29_result.tif",
+    "source_refs": [
+      "Relic_Core_Usage_-_Clan_Expedition_mini_2024-11-29_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events",
+      "resources"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_4185ce85f5ae6a4e9bf8a030",
+    "name": "Survivor_2024-09-07.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivor_2024-09-07.webp",
+    "source_refs": [
+      "Survivor_2024-09-07.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "high",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_42a8146a310fd701cb234454",
+    "name": "Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28_result.tif",
+    "needs_review": false,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28_result.tif",
+    "source_refs": [
+      "Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills",
+      "tech_parts",
+      "tech_resonance"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_4356b070a63ce22031be8075",
+    "name": "Clan_Level_Rewards_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Clan_Level_Rewards_2024-11-28_result.tif",
+    "source_refs": [
+      "Clan_Level_Rewards_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_4369afad1dc3c47f773ede72",
+    "name": "Collectible_Chest_Odds_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Collectible_Chest_Odds_2024-11-28.webp",
+    "source_refs": [
+      "Collectible_Chest_Odds_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chest_odds",
+      "chests",
+      "collectible_chest_odds",
+      "collectibles"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_438b155f12a9c0bc16abd156",
+    "name": "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.png",
+    "source_refs": [
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "events",
+      "gear",
+      "resources"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_43f114c5268e57ce4b93d928",
+    "name": "Clan_Shop_2025-02-17_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Clan_Shop_2025-02-17_result.png",
+    "source_refs": [
+      "Clan_Shop_2025-02-17_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "clan_shop"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_44028f129f08515fd19031a3",
+    "name": "Master_Yang_Skills_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Master_Yang_Skills_2024-11-28_result.png",
+    "source_refs": [
+      "Master_Yang_Skills_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_4850358c3ab7792bec1a374b",
+    "name": "Eternal_Necklace_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Eternal_Necklace_2024-11-28.webp",
+    "source_refs": [
+      "Eternal_Necklace_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear",
+      "pets",
+      "skills",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_498d01981b4fb5e07c80a37a",
+    "name": "Pet_Skills_2024-09-09_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pet_Skills_2024-09-09_result.png",
+    "source_refs": [
+      "Pet_Skills_2024-09-09_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_4a364733c7b1f2031487910d",
+    "name": "Clan_Expedition_Rewards_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Clan_Expedition_Rewards_2024-11-28.webp",
+    "source_refs": [
+      "Clan_Expedition_Rewards_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_4a9b1b7d6bcbcfb513d669d2",
+    "name": "Survivor_2024-09-07_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivor_2024-09-07_result.tif",
+    "source_refs": [
+      "Survivor_2024-09-07_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_4ad13c421b1783db7fe9e5df",
+    "name": "Energy_Essence_Cost_2024-11-28 (1).webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Energy_Essence_Cost_2024-11-28 (1).webp",
+    "source_refs": [
+      "Energy_Essence_Cost_2024-11-28 (1).webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivor_energy_essence_costs"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_4ce74da22d9e921e59ede2e9",
+    "name": "Boss_Debuffs_2024-12-27_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Boss_Debuffs_2024-12-27_result.png",
+    "source_refs": [
+      "Boss_Debuffs_2024-12-27_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "pets",
+      "survivors",
+      "tech_parts",
+      "tech_resonance"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_4d315170d18831e3406e857b",
+    "name": "Tech_Parts_2024-10-09_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Tech_Parts_2024-10-09_result.png",
+    "source_refs": [
+      "Tech_Parts_2024-10-09_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "tech_parts"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_4d8efd4d41d8aca9673a1a45",
+    "name": "Pet_Awakening_Guide_-_Rex_2024-10-11_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pet_Awakening_Guide_-_Rex_2024-10-11_result.png",
+    "source_refs": [
+      "Pet_Awakening_Guide_-_Rex_2024-10-11_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "pet_awakenings",
+      "pets"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_4ee4436243a444b7a5fe5dbc",
+    "name": "Relic_Core_Usage_-_Enders_Echo_2024-11-29.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Relic_Core_Usage_-_Enders_Echo_2024-11-29.webp",
+    "source_refs": [
+      "Relic_Core_Usage_-_Enders_Echo_2024-11-29.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events",
+      "gear",
+      "resources",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_4f29276fd3601ee900bd2566",
+    "name": "Eternal_Necklace_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Eternal_Necklace_2024-11-28_result.png",
+    "source_refs": [
+      "Eternal_Necklace_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear",
+      "pets",
+      "skills",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_50004c4bbd32c009b5791676",
+    "name": "Twinborn_Part_2025-02-23.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Twinborn_Part_2025-02-23.webp",
+    "source_refs": [
+      "Twinborn_Part_2025-02-23.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "tech_parts"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_51615eef0393ffccbb874d88",
+    "name": "Item_Values_2024-10-02.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Item_Values_2024-10-02.webp",
+    "source_refs": [
+      "Item_Values_2024-10-02.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "collectibles",
+      "events",
+      "pets",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_51fd767bb492ad491078c1a1",
+    "name": "Crit_Rate_And_Damage_2025-03-09_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Crit_Rate_And_Damage_2025-03-09_result.tif",
+    "source_refs": [
+      "Crit_Rate_And_Damage_2025-03-09_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "collectibles",
+      "crit_stats",
+      "gear",
+      "skills",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_528e494f4b2e765557118da6",
+    "name": "Pet_Awakening_Guide_-_Rex_2024-10-11_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pet_Awakening_Guide_-_Rex_2024-10-11_result.tif",
+    "source_refs": [
+      "Pet_Awakening_Guide_-_Rex_2024-10-11_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "pet_awakenings",
+      "pets"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_546f6a52a16bd790bd6b292f",
+    "name": "Item_Values_2024-10-02_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Item_Values_2024-10-02_result.tif",
+    "source_refs": [
+      "Item_Values_2024-10-02_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "pets",
+      "resources",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_57ef2dd1da964da49ff75783",
+    "name": "Chapter_Unlocks-2024-09-17_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Chapter_Unlocks-2024-09-17_result.png",
+    "source_refs": [
+      "Chapter_Unlocks-2024-09-17_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events",
+      "gear",
+      "pets",
+      "skills",
+      "tech_parts"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_585ece6f9c70ea6c282193f2",
+    "name": "Survivor_Combat_Harmony_Skills_and_Costs_2024-12-20.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivor_Combat_Harmony_Skills_and_Costs_2024-12-20.webp",
+    "source_refs": [
+      "Survivor_Combat_Harmony_Skills_and_Costs_2024-12-20.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_5b560424a8b53a0790bee6b8",
+    "name": "Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.tif",
+    "source_refs": [
+      "Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events",
+      "gear",
+      "resources",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_5b8fc7a79547583b9407f9e3",
+    "name": "Collectibles_Edition_1_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Collectibles_Edition_1_2024-11-28_result.png",
+    "source_refs": [
+      "Collectibles_Edition_1_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chests",
+      "collectibles"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_5e8d35646a19e2c140cf9acb",
+    "name": "Collectibles_Edition_1_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Collectibles_Edition_1_2024-11-28.webp",
+    "source_refs": [
+      "Collectibles_Edition_1_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chests",
+      "collectibles"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_62d21847f6105bf9cb7df4bd",
+    "name": "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04.webp",
+    "source_refs": [
+      "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "pet_awakenings",
+      "pets"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_636bc7c336c1d744e7a884b8",
+    "name": "Chapter_Unlocks-2024-09-17.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Chapter_Unlocks-2024-09-17.webp",
+    "source_refs": [
+      "Chapter_Unlocks-2024-09-17.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events",
+      "gear",
+      "pets",
+      "skills",
+      "tech_parts"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_638f705ea832d93da23d1131",
+    "name": "Survivor_Pass_Experience_2024-09-16_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivor_Pass_Experience_2024-09-16_result.tif",
+    "source_refs": [
+      "Survivor_Pass_Experience_2024-09-16_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_65f9db231fb42389c84b91ca",
+    "name": "Sources_of_Oil_2024-12-18_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Sources_of_Oil_2024-12-18_result.png",
+    "source_refs": [
+      "Sources_of_Oil_2024-12-18_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_67f08643aa8fd0bc124fba01",
+    "name": "EE_Rewards_2024-09-15.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "EE_Rewards_2024-09-15.webp",
+    "source_refs": [
+      "EE_Rewards_2024-09-15.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_684ef1665a9f239d3e6905d7",
+    "name": "EE_Rewards_2024-09-15_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "EE_Rewards_2024-09-15_result.tif",
+    "source_refs": [
+      "EE_Rewards_2024-09-15_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "high",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_68502444851817a31cea2b62",
+    "name": "Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28.webp",
+    "needs_review": false,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28.webp",
+    "source_refs": [
+      "Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills",
+      "tech_parts",
+      "tech_resonance"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_68db4ac9a93a322a3537da86",
+    "name": "Awakening_Core_Guide_2024-10-04_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Awakening_Core_Guide_2024-10-04_result.tif",
+    "source_refs": [
+      "Awakening_Core_Guide_2024-10-04_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events",
+      "resources"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_690f41b2d06f6d733579d955",
+    "name": "Gloves_V2_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Gloves_V2_2024-11-28_result.png",
+    "source_refs": [
+      "Gloves_V2_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "gear",
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_6c5fd39724dda1bb755b7a35",
+    "name": "Clan_Shop_2025-02-17.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Clan_Shop_2025-02-17.webp",
+    "source_refs": [
+      "Clan_Shop_2025-02-17.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "clan_shop"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_6c6ec4c395225b94ae200e00",
+    "name": "Master_Yang_Skills_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Master_Yang_Skills_2024-11-28.webp",
+    "source_refs": [
+      "Master_Yang_Skills_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_6c73598d7a8641186d942a23",
+    "name": "Tech_Part_Resonance_Cost_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Tech_Part_Resonance_Cost_2024-11-28_result.png",
+    "source_refs": [
+      "Tech_Part_Resonance_Cost_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "tech_parts",
+      "tech_resonance",
+      "tech_resonance_costs"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_6cd0fc1c300852d5e94d13ec",
+    "name": "Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29_result.png",
+    "source_refs": [
+      "Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events",
+      "resources"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_6df43d5d5c6e27fff8ab426f",
+    "name": "Survivor_Upgrade_Costs_2024-12-19_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivor_Upgrade_Costs_2024-12-19_result.png",
+    "source_refs": [
+      "Survivor_Upgrade_Costs_2024-12-19_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_71ea8677bcdeec77e6ac6d90",
+    "name": "Merging_-_Equip_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Merging_-_Equip_2024-11-28_result.png",
+    "source_refs": [
+      "Merging_-_Equip_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear",
+      "merge"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_72d4340d91827ef9e3e64f91",
+    "name": "Relic_Core_Usage_-_Clan_Expedition_2024-11-29.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Relic_Core_Usage_-_Clan_Expedition_2024-11-29.webp",
+    "source_refs": [
+      "Relic_Core_Usage_-_Clan_Expedition_2024-11-29.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "events",
+      "gear",
+      "resources"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_7384ba8eacbf0b9db4fd7ec8",
+    "name": "Collectibles_Edition_2_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Collectibles_Edition_2_2024-11-28_result.png",
+    "source_refs": [
+      "Collectibles_Edition_2_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chests",
+      "collectibles"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_73c852a724d142b780cda3c7",
+    "name": "Survivors_S_2025-01-26_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivors_S_2025-01-26_result.png",
+    "source_refs": [
+      "Survivors_S_2025-01-26_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "gear",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_7470d6de3201882bb3b58b0c",
+    "name": "Shield_and_Skill_Damage__Multipliers_2024-12-27.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Shield_and_Skill_Damage__Multipliers_2024-12-27.webp",
+    "source_refs": [
+      "Shield_and_Skill_Damage__Multipliers_2024-12-27.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_7658c366202e05ce6134b971",
+    "name": "Necklaces_V2_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Necklaces_V2_2024-11-28_result.tif",
+    "source_refs": [
+      "Necklaces_V2_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "high",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_783ce12f7c9b616fa94096fb",
+    "name": "Timed_Muster_Medal_Conversion_2024-12-12.webp",
+    "needs_review": false,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Timed_Muster_Medal_Conversion_2024-12-12.webp",
+    "source_refs": [
+      "Timed_Muster_Medal_Conversion_2024-12-12.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "conversions"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "medium",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_7bcb6f711e130ea1e1559163",
+    "name": "Tech_Part_Resonance_Drone_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Tech_Part_Resonance_Drone_2024-11-28.webp",
+    "source_refs": [
+      "Tech_Part_Resonance_Drone_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills",
+      "tech_parts",
+      "tech_resonance"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_7c4e6a9648b1932ef9d5aaa0",
+    "name": "Survivor_Pass_2024-12-19_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivor_Pass_2024-12-19_result.tif",
+    "source_refs": [
+      "Survivor_Pass_2024-12-19_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "collectibles",
+      "events",
+      "gear",
+      "resources",
+      "tech_parts"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_7d2d72ee959ad9fccebaf17b",
+    "name": "Clan_Expedition_Rewards_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Clan_Expedition_Rewards_2024-11-28_result.tif",
+    "source_refs": [
+      "Clan_Expedition_Rewards_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chests",
+      "events"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "high",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_7ea5607a0b4a0f22d62eead0",
+    "name": "Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28_result.png",
+    "needs_review": false,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28_result.png",
+    "source_refs": [
+      "Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills",
+      "tech_parts",
+      "tech_resonance"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_806d96b7026c1e5469a08f21",
+    "name": "Clan_Shop_2025-02-17_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Clan_Shop_2025-02-17_result.tif",
+    "source_refs": [
+      "Clan_Shop_2025-02-17_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "clan_shop"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_807f6dd14ee9303af69b32b2",
+    "name": "Weapons_V2_2_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Weapons_V2_2_2024-11-28.webp",
+    "source_refs": [
+      "Weapons_V2_2_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear",
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_8094d94e0348b8b72e3ac287",
+    "name": "Energy_Essence_Cost_Full_2024-11-28 (1).webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Energy_Essence_Cost_Full_2024-11-28 (1).webp",
+    "source_refs": [
+      "Energy_Essence_Cost_Full_2024-11-28 (1).webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivor_energy_essence_costs"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_80d70feb3a343f769887f454",
+    "name": "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04_result.tif",
+    "source_refs": [
+      "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "pet_awakenings",
+      "pets"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_812695f82a170fa897022f71",
+    "name": "Energy_Essence_Cost_Full_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Energy_Essence_Cost_Full_2024-11-28_result.png",
+    "source_refs": [
+      "Energy_Essence_Cost_Full_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivor_energy_essence_costs"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_83571303b4810855181bbc0e",
+    "name": "Weapons_V2_2_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Weapons_V2_2_2024-11-28_result.tif",
+    "source_refs": [
+      "Weapons_V2_2_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear",
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_83c9a797722c8754bd37463c",
+    "name": "Energy_Essence_Cost_Full_2024-11-28 (1)_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Energy_Essence_Cost_Full_2024-11-28 (1)_result.png",
+    "source_refs": [
+      "Energy_Essence_Cost_Full_2024-11-28 (1)_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivor_energy_essence_costs"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_83cc7a70dccaf092012a9ded",
+    "name": "Survivors_S_2025-01-26_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivors_S_2025-01-26_result.tif",
+    "source_refs": [
+      "Survivors_S_2025-01-26_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "gear",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_887f02f7c9f275465bb252ba",
+    "name": "Energy_Essence_Cost_Full_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Energy_Essence_Cost_Full_2024-11-28.webp",
+    "source_refs": [
+      "Energy_Essence_Cost_Full_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivor_energy_essence_costs"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_88eb941a8acb96de8889f891",
+    "name": "Pet_Awakening_Guide_2024-10-25_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pet_Awakening_Guide_2024-10-25_result.png",
+    "source_refs": [
+      "Pet_Awakening_Guide_2024-10-25_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "pet_awakenings",
+      "pets",
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_8911e8a3c5b6413c31bca19a",
+    "name": "Survivors_2025-01-26_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivors_2025-01-26_result.png",
+    "source_refs": [
+      "Survivors_2025-01-26_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "gear",
+      "skills",
+      "survivors",
+      "tech_resonance"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_8cdf1df8ac52e5e22fe482f1",
+    "name": "Crit_Rate_And_Damage_2025-03-09 (1)_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Crit_Rate_And_Damage_2025-03-09 (1)_result.tif",
+    "source_refs": [
+      "Crit_Rate_And_Damage_2025-03-09 (1)_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "collectibles",
+      "crit_stats",
+      "gear",
+      "skills",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_8ddbbb9b46c4db52cacc74b9",
+    "name": "Sources_Of_Oil_2024-11-03_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Sources_Of_Oil_2024-11-03_result.png",
+    "source_refs": [
+      "Sources_Of_Oil_2024-11-03_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_8ecc59c088e02c5278d33ea6",
+    "name": "Belts_V2_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Belts_V2_2024-11-28_result.png",
+    "source_refs": [
+      "Belts_V2_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_8efb69d08f8d8a37683c4d0f",
+    "name": "Equip_Design_Costs_2024-11-14_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Equip_Design_Costs_2024-11-14_result.tif",
+    "source_refs": [
+      "Equip_Design_Costs_2024-11-14_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_9094f322cd2d21fa8d5c3e5a",
+    "name": "Equip_Design_Costs_2024-11-14.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Equip_Design_Costs_2024-11-14.webp",
+    "source_refs": [
+      "Equip_Design_Costs_2024-11-14.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_9126c6a832af830e70d7e612",
+    "name": "Pet_Awakening_Guide_2024-10-25_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pet_Awakening_Guide_2024-10-25_result.tif",
+    "source_refs": [
+      "Pet_Awakening_Guide_2024-10-25_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "pet_awakenings",
+      "pets",
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_91337f04ad4959c636d325a5",
+    "name": "Pets_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pets_2024-11-28_result.png",
+    "source_refs": [
+      "Pets_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "pets",
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_91ef085b2499ecf3d5760168",
+    "name": "Pet_Awakening_Guide_-_Murica_2024-10-10_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pet_Awakening_Guide_-_Murica_2024-10-10_result.tif",
+    "source_refs": [
+      "Pet_Awakening_Guide_-_Murica_2024-10-10_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "pet_awakenings",
+      "pets",
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_921b8b9f2a86b3f3fff15751",
+    "name": "Survivor_Upgrade_Costs_2024-12-19_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivor_Upgrade_Costs_2024-12-19_result.tif",
+    "source_refs": [
+      "Survivor_Upgrade_Costs_2024-12-19_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_92aebb1b49fbb8ae66f056c9",
+    "name": "Wishlist_Probabilities_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Wishlist_Probabilities_2024-11-28_result.png",
+    "source_refs": [
+      "Wishlist_Probabilities_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chest_odds"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_955936aa3494b17f654e77b0",
+    "name": "Tech_Part_Resonance_Cost_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Tech_Part_Resonance_Cost_2024-11-28.webp",
+    "source_refs": [
+      "Tech_Part_Resonance_Cost_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "tech_parts",
+      "tech_resonance",
+      "tech_resonance_costs"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_95c509372850f9183410c83b",
+    "name": "Pet_Awakening_Guide_-_Murica_2024-10-10.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pet_Awakening_Guide_-_Murica_2024-10-10.webp",
+    "source_refs": [
+      "Pet_Awakening_Guide_-_Murica_2024-10-10.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "pet_awakenings",
+      "pets",
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_99146d68843199c9971117a3",
+    "name": "Pets_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pets_2024-11-28.webp",
+    "source_refs": [
+      "Pets_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "pets",
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_a09a9951be797f6ebad1a0b8",
+    "name": "Astral_Forge_2024-10-06_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Astral_Forge_2024-10-06_result.png",
+    "source_refs": [
+      "Astral_Forge_2024-10-06_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "breakpoints",
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_a1d04c934a0a07f12264428c",
+    "name": "Sources_Of_Gems_2024-10-07.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Sources_Of_Gems_2024-10-07.webp",
+    "source_refs": [
+      "Sources_Of_Gems_2024-10-07.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chests",
+      "events"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_a4d91b33fd4ccd09d78997f0",
+    "name": "Survivor_Stat_Boosts_2024-12-12.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivor_Stat_Boosts_2024-12-12.webp",
+    "source_refs": [
+      "Survivor_Stat_Boosts_2024-12-12.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "events",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_a5a8a098a432b61c3522a764",
+    "name": "SS_Gear_2025-02-06.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "SS_Gear_2025-02-06.webp",
+    "source_refs": [
+      "SS_Gear_2025-02-06.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "collectibles",
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_a89ad97922634e2b241fde3f",
+    "name": "Armor_V2_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Armor_V2_2024-11-28_result.tif",
+    "source_refs": [
+      "Armor_V2_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_a9cfac34c23c97089bd5da3f",
+    "name": "Merging_-_Tech_Parts_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Merging_-_Tech_Parts_2024-11-28_result.tif",
+    "source_refs": [
+      "Merging_-_Tech_Parts_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "merge",
+      "tech_parts"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_ab31276317d074976b63d16a",
+    "name": "Sources_Of_Gems_2024-10-07_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Sources_Of_Gems_2024-10-07_result.tif",
+    "source_refs": [
+      "Sources_Of_Gems_2024-10-07_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chests",
+      "events"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_ab4fa7e3e7c073f4a0682a65",
+    "name": "Collectible_Chest_Odds_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Collectible_Chest_Odds_2024-11-28_result.tif",
+    "source_refs": [
+      "Collectible_Chest_Odds_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chest_odds",
+      "chests",
+      "collectible_chest_odds",
+      "collectibles"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_ac26c99c5f31906b4d0b1937",
+    "name": "Collectibles_Edition_3_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Collectibles_Edition_3_2024-11-28_result.png",
+    "source_refs": [
+      "Collectibles_Edition_3_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chests",
+      "collectibles",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_ae0e86964395b2cfe0224e98",
+    "name": "Skills_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Skills_2024-11-28.webp",
+    "source_refs": [
+      "Skills_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_ae17d987e7b5bff2d6880f1e",
+    "name": "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04_result.png",
+    "source_refs": [
+      "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "pet_awakenings",
+      "pets"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_af3c0e49ee933ebb1f55e684",
+    "name": "Clan_Level_Rewards_2024-11-28.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Clan_Level_Rewards_2024-11-28.png",
+    "source_refs": [
+      "Clan_Level_Rewards_2024-11-28.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_af7e2d290c0b2976264f6bdf",
+    "name": "Survivors_S_2025-01-26.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivors_S_2025-01-26.webp",
+    "source_refs": [
+      "Survivors_S_2025-01-26.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "gear",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_b3f09ee8a36ca5882edbed32",
+    "name": "Master_Yang_Skills_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Master_Yang_Skills_2024-11-28_result.tif",
+    "source_refs": [
+      "Master_Yang_Skills_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_b808e1da74d05cf0d207f085",
+    "name": "Survivor_2024-09-07_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivor_2024-09-07_result.png",
+    "source_refs": [
+      "Survivor_2024-09-07_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_ba39e1ce8905524727f5c28f",
+    "name": "Item_Values_2024-10-02_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Item_Values_2024-10-02_result.png",
+    "source_refs": [
+      "Item_Values_2024-10-02_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "collectibles",
+      "events",
+      "pets",
+      "resources",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_bad8d7737b0e5bfc795caea3",
+    "name": "Survivor_Pass_2024-12-19_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivor_Pass_2024-12-19_result.png",
+    "source_refs": [
+      "Survivor_Pass_2024-12-19_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "collectibles",
+      "events",
+      "gear",
+      "resources",
+      "tech_parts"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_bbfcce2a023e1ef65b841e20",
+    "name": "Belts_V2_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Belts_V2_2024-11-28_result.tif",
+    "source_refs": [
+      "Belts_V2_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_bc502f2db4aaed987c9b36f6",
+    "name": "Collectibles_Edition_2_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Collectibles_Edition_2_2024-11-28.webp",
+    "source_refs": [
+      "Collectibles_Edition_2_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chests",
+      "collectibles"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_bd9f0056847b603a064dd404",
+    "name": "Merging_-_Pets_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Merging_-_Pets_2024-11-28.webp",
+    "source_refs": [
+      "Merging_-_Pets_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "pet_merging",
+      "pets"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_be8d903eb3b46c8808b0e106",
+    "name": "Resonance_2024-10-30.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Resonance_2024-10-30.webp",
+    "source_refs": [
+      "Resonance_2024-10-30.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "tech_parts",
+      "tech_resonance"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_bf9a8c5ee5248c2053ab7c1e",
+    "name": "Collectibles_Edition_3_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Collectibles_Edition_3_2024-11-28_result.tif",
+    "source_refs": [
+      "Collectibles_Edition_3_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "collectibles",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_c187f9ab92a79d4852a9144c",
+    "name": "Crit_Rate_And_Damage_2025-03-09 (1)_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Crit_Rate_And_Damage_2025-03-09 (1)_result.png",
+    "source_refs": [
+      "Crit_Rate_And_Damage_2025-03-09 (1)_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "collectibles",
+      "crit_stats",
+      "pets",
+      "skills",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_c200b9fda6678d8fe1007cf7",
+    "name": "Survivor_Stat_Boosts_2024-12-12_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivor_Stat_Boosts_2024-12-12_result.tif",
+    "source_refs": [
+      "Survivor_Stat_Boosts_2024-12-12_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "events",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_c236f025a0a0eae7de0ad3ab",
+    "name": "Crit_Rate_And_Damage_2025-03-09 (1).webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Crit_Rate_And_Damage_2025-03-09 (1).webp",
+    "source_refs": [
+      "Crit_Rate_And_Damage_2025-03-09 (1).webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "collectibles",
+      "crit_stats",
+      "pets",
+      "skills",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_c23fd81a67b1bf41076e8e71",
+    "name": "Armor_V2_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Armor_V2_2024-11-28_result.png",
+    "source_refs": [
+      "Armor_V2_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_c24a1f4529430905ec5dccef",
+    "name": "Resonance_2024-10-30_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Resonance_2024-10-30_result.tif",
+    "source_refs": [
+      "Resonance_2024-10-30_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "tech_resonance"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_c2f64f9ef00160a61338394a",
+    "name": "Merging_-_Tech_Parts_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Merging_-_Tech_Parts_2024-11-28_result.png",
+    "source_refs": [
+      "Merging_-_Tech_Parts_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "merge",
+      "tech_parts"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_c2fbd77af02819ef93ae1fa1",
+    "name": "Wishlist_Probabilities_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Wishlist_Probabilities_2024-11-28_result.tif",
+    "source_refs": [
+      "Wishlist_Probabilities_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chest_odds"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_c31cb163014278142fff1f0d",
+    "name": "Sources_of_Oil_2024-12-18.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Sources_of_Oil_2024-12-18.webp",
+    "source_refs": [
+      "Sources_of_Oil_2024-12-18.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_c368a198791678fcd23148cc",
+    "name": "Survivors_2025-01-26.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivors_2025-01-26.webp",
+    "source_refs": [
+      "Survivors_2025-01-26.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "gear",
+      "skills",
+      "survivors",
+      "tech_resonance"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_c3edfeef3d6aea035ae52a13",
+    "name": "Gloves_V2_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Gloves_V2_2024-11-28_result.tif",
+    "source_refs": [
+      "Gloves_V2_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "gear",
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_c7228260cac40f33dbcf1d1e",
+    "name": "EE_Rewards_2024-09-15_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "EE_Rewards_2024-09-15_result.png",
+    "source_refs": [
+      "EE_Rewards_2024-09-15_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "medium",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_c798fa73a9285e7c7a8138ea",
+    "name": "Tech_Part_Resonance_Drone_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Tech_Part_Resonance_Drone_2024-11-28_result.png",
+    "source_refs": [
+      "Tech_Part_Resonance_Drone_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills",
+      "tech_parts",
+      "tech_resonance"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "high",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_c8606ca788ca4827465dbbac",
+    "name": "Timed_Muster_Medal_Conversion_2024-12-12_result.tif",
+    "needs_review": false,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Timed_Muster_Medal_Conversion_2024-12-12_result.tif",
+    "source_refs": [
+      "Timed_Muster_Medal_Conversion_2024-12-12_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "conversions"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_c8c0f40e5682c2376b6ca6fc",
+    "name": "Survivors_2025-01-26_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivors_2025-01-26_result.tif",
+    "source_refs": [
+      "Survivors_2025-01-26_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "gear",
+      "skills",
+      "survivors",
+      "tech_resonance"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_c924d71c8255625a79094c4f",
+    "name": "Resonance_2024-10-30_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Resonance_2024-10-30_result.png",
+    "source_refs": [
+      "Resonance_2024-10-30_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "tech_resonance"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_ca3afa22487983d5cfa6d131",
+    "name": "Clan_Expedition_Rewards_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Clan_Expedition_Rewards_2024-11-28_result.png",
+    "source_refs": [
+      "Clan_Expedition_Rewards_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_ca68924058a46c3eab3c374b",
+    "name": "Boss_Debuffs_2024-12-27_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Boss_Debuffs_2024-12-27_result.tif",
+    "source_refs": [
+      "Boss_Debuffs_2024-12-27_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "pets",
+      "survivors",
+      "tech_parts",
+      "tech_resonance"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_cb6392d78b9581acdf4c0178",
+    "name": "Energy_Essence_Cost_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Energy_Essence_Cost_2024-11-28_result.tif",
+    "source_refs": [
+      "Energy_Essence_Cost_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivor_energy_essence_costs"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_cbe2edd204196d24c8342417",
+    "name": "Pet_Awakening_Guide_-_Croaky_2024-10-11_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pet_Awakening_Guide_-_Croaky_2024-10-11_result.png",
+    "source_refs": [
+      "Pet_Awakening_Guide_-_Croaky_2024-10-11_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "pet_awakenings",
+      "pets",
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_ce8555194fc982483950846d",
+    "name": "Sources_Of_Gems_2024-10-07_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Sources_Of_Gems_2024-10-07_result.png",
+    "source_refs": [
+      "Sources_Of_Gems_2024-10-07_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chests",
+      "events"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_d215719c9a15341683410771",
+    "name": "Sources_of_Gems_2024-12-18_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Sources_of_Gems_2024-12-18_result.png",
+    "source_refs": [
+      "Sources_of_Gems_2024-12-18_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chests",
+      "events"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_d27cfe59ece3c05f4db12d33",
+    "name": "Collectibles_Edition_3_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Collectibles_Edition_3_2024-11-28.webp",
+    "source_refs": [
+      "Collectibles_Edition_3_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chests",
+      "collectibles"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_d46041a607a49c4f4f029e29",
+    "name": "Skills_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Skills_2024-11-28_result.png",
+    "source_refs": [
+      "Skills_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_d4d90703c202705785fa8c5a",
+    "name": "Sources_of_Oil_2024-12-18_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Sources_of_Oil_2024-12-18_result.tif",
+    "source_refs": [
+      "Sources_of_Oil_2024-12-18_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_d6b42ea9323d5012b91ad34f",
+    "name": "SS_Gear_2025-02-06_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "SS_Gear_2025-02-06_result.png",
+    "source_refs": [
+      "SS_Gear_2025-02-06_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "collectibles",
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_d7df737e0eb2d79c70a78808",
+    "name": "Pet_Awakening_Guide_-_Croaky_2024-10-11_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pet_Awakening_Guide_-_Croaky_2024-10-11_result.tif",
+    "source_refs": [
+      "Pet_Awakening_Guide_-_Croaky_2024-10-11_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "pet_awakenings",
+      "pets",
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_d8535c767d9fe11ea2f7685e",
+    "name": "Belts_V2_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Belts_V2_2024-11-28.webp",
+    "source_refs": [
+      "Belts_V2_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_d97b9e4080750108fe64a6f3",
+    "name": "Merging_-_Pets_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Merging_-_Pets_2024-11-28_result.png",
+    "source_refs": [
+      "Merging_-_Pets_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "pet_merging",
+      "pets"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_da9a9cdca3935fa4be330b8e",
+    "name": "Boots_V2_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Boots_V2_2024-11-28_result.png",
+    "source_refs": [
+      "Boots_V2_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_dd51f4d6137f0c5648deee10",
+    "name": "Clan_Level_Rewards_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Clan_Level_Rewards_2024-11-28_result.png",
+    "source_refs": [
+      "Clan_Level_Rewards_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_df23c659f2b050d3543cf1a7",
+    "name": "Relic_Core_Usage_-_Clan_Expedition_mini_2024-11-29.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Relic_Core_Usage_-_Clan_Expedition_mini_2024-11-29.webp",
+    "source_refs": [
+      "Relic_Core_Usage_-_Clan_Expedition_mini_2024-11-29.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events",
+      "resources"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "high",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_e00dd42f73f94cde01799288",
+    "name": "Timed_Muster_Medal_Conversion_2024-12-12_result.png",
+    "needs_review": false,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Timed_Muster_Medal_Conversion_2024-12-12_result.png",
+    "source_refs": [
+      "Timed_Muster_Medal_Conversion_2024-12-12_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "conversions"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_e0d31958ce7ad5eadbec5c09",
+    "name": "Tech_Parts_2024-10-09_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Tech_Parts_2024-10-09_result.tif",
+    "source_refs": [
+      "Tech_Parts_2024-10-09_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "tech_parts"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_e0e2aa178d9ec62aa9e940c9",
+    "name": "Collectible_Costs_2024-10-11.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Collectible_Costs_2024-10-11.webp",
+    "source_refs": [
+      "Collectible_Costs_2024-10-11.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "collectibles"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_e3a352f28313e47ba2a9616a",
+    "name": "Equip_Design_Costs_2024-11-14_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Equip_Design_Costs_2024-11-14_result.png",
+    "source_refs": [
+      "Equip_Design_Costs_2024-11-14_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_e48a9cc809c0cb91d80a6939",
+    "name": "Survivors_SP_2025-01-26_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivors_SP_2025-01-26_result.tif",
+    "source_refs": [
+      "Survivors_SP_2025-01-26_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "gear",
+      "pets",
+      "skills",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_e48e11677ac971d63a967e23",
+    "name": "Survivors_SP_2025-01-26_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivors_SP_2025-01-26_result.png",
+    "source_refs": [
+      "Survivors_SP_2025-01-26_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "gear",
+      "pets",
+      "skills",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_e975596ac44d8c5dda6b3f16",
+    "name": "Wishlist_Probabilities_2024-11-28.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Wishlist_Probabilities_2024-11-28.webp",
+    "source_refs": [
+      "Wishlist_Probabilities_2024-11-28.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chest_odds"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_eae2aa9ae365ae09a083b541",
+    "name": "Pet_Awakening_Guide_-_Murica_2024-10-10_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pet_Awakening_Guide_-_Murica_2024-10-10_result.png",
+    "source_refs": [
+      "Pet_Awakening_Guide_-_Murica_2024-10-10_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "pet_awakenings",
+      "pets",
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_eb16710d860897ca42768393",
+    "name": "Survivor_Stat_Boosts_2024-12-12_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivor_Stat_Boosts_2024-12-12_result.png",
+    "source_refs": [
+      "Survivor_Stat_Boosts_2024-12-12_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats",
+      "events",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_eb632d4a97efcc10e324bf4a",
+    "name": "Pet_Skills_2024-09-09_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pet_Skills_2024-09-09_result.tif",
+    "source_refs": [
+      "Pet_Skills_2024-09-09_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_ebb184d0a97fc92405ed715d",
+    "name": "Sources_of_Gems_2024-12-18.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Sources_of_Gems_2024-12-18.webp",
+    "source_refs": [
+      "Sources_of_Gems_2024-12-18.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chests",
+      "events"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_ef559ed0155977bc3af490b2",
+    "name": "Collectible_Costs_2024-10-11_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Collectible_Costs_2024-10-11_result.png",
+    "source_refs": [
+      "Collectible_Costs_2024-10-11_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "collectibles"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_f0cf930af2de1dc3c0b04d3a",
+    "name": "Survivor_Pass_Experience_2024-09-16_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Survivor_Pass_Experience_2024-09-16_result.png",
+    "source_refs": [
+      "Survivor_Pass_Experience_2024-09-16_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events",
+      "survivors"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_f155b10021700b1f77234504",
+    "name": "Energy_Essence_Cost_Full_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Energy_Essence_Cost_Full_2024-11-28_result.tif",
+    "source_refs": [
+      "Energy_Essence_Cost_Full_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "survivor_energy_essence_costs"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_f2f0ec6f55e507a617b5e4d3",
+    "name": "Shield_and_Skill_Damage__Multipliers_2024-12-27_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Shield_and_Skill_Damage__Multipliers_2024-12-27_result.png",
+    "source_refs": [
+      "Shield_and_Skill_Damage__Multipliers_2024-12-27_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_f38bbdd242b65b7f242a636d",
+    "name": "Sources_Of_Oil_2024-11-03.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Sources_Of_Oil_2024-11-03.webp",
+    "source_refs": [
+      "Sources_Of_Oil_2024-11-03.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chests",
+      "resources"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_f3c7fbaa11b5d0e5351e00b0",
+    "name": "Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29_result.tif",
+    "source_refs": [
+      "Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "events",
+      "resources"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_f9a31913ad699a38264c9b2a",
+    "name": "Tech_Part_Resonance_Cost_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Tech_Part_Resonance_Cost_2024-11-28_result.tif",
+    "source_refs": [
+      "Tech_Part_Resonance_Cost_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "tech_parts",
+      "tech_resonance",
+      "tech_resonance_costs"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_fbba17add16771f918303378",
+    "name": "Merging_-_Equip_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Merging_-_Equip_2024-11-28_result.tif",
+    "source_refs": [
+      "Merging_-_Equip_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear",
+      "merge"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_fbdd1e6f39aaca0485d5431a",
+    "name": "Pet_Skills_2024-09-09.webp",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pet_Skills_2024-09-09.webp",
+    "source_refs": [
+      "Pet_Skills_2024-09-09.webp"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_fcaa3cf3a5e470cedb201a3e",
+    "name": "Weapons_V2_2_2024-11-28_result.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Weapons_V2_2_2024-11-28_result.png",
+    "source_refs": [
+      "Weapons_V2_2_2024-11-28_result.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "gear",
+      "skills"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_fd1171ac21e21caa075098db",
+    "name": "Sources_of_Gems_2024-12-18_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Sources_of_Gems_2024-12-18_result.tif",
+    "source_refs": [
+      "Sources_of_Gems_2024-12-18_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chests",
+      "events"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_ffa4f7de4837809911d87725",
+    "name": "Merging_-_Pets_2024-11-28_result.tif",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Merging_-_Pets_2024-11-28_result.tif",
+    "source_refs": [
+      "Merging_-_Pets_2024-11-28_result.tif"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "pet_merging",
+      "pets"
+    ]
+  }
+]

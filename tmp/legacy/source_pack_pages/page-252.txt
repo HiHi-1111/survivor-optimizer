@@ -1,0 +1,30 @@
+StatAmount 
+Condition 
+DPSRelevant 
+ 
+14. Random component stats display 
+The in-game “Random Component Stats” section shows stats from the components installed in 
+the mount you are using. 
+For optimizer, do not rely only on displayed stats. 
+Use two separate totals: 
+DisplayedMainMountStats = 
+   Sum(components installed in equipped mount) 
+ 
+SyncedInactiveMountStats = 
+   Sum(components installed in inactive mounts * that mount's sync rate) 
+ 
+TotalMountComponentStats = 
+   DisplayedMainMountStats + SyncedInactiveMountStats 
+This matters because inactive mount stats may not show the same way, but they still matter 
+through sync. 
+ 
+15. Mount material sources 
+From Discord text: 
+Mount Vehicle Core comes from Core Choice Chest. 
+Mount Vehicle Component Key comes from Events, Operation Retreat, and Clan Shop. 
+Mount Vehicle Refine Essence comes from component chests and events. 
+Database format: 
+MountMaterialID 
+MaterialName 
+UsedFor 
+Source

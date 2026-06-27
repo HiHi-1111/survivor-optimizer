@@ -1,0 +1,19 @@
+{
+  "baseline": {
+    "full_mode_profiles_per_second": 6.253,
+    "gpu_batch_utilization": 27.953,
+    "gpu_idle_percentage": 78.563,
+    "gpu_scored_chain_coverage_percent": 6.979,
+    "gpu_wall_rows_per_sec": 1657.425
+  },
+  "command": ".\\tools\\run_training.ps1 -Minutes 6 -ProfileCount 5000 -Workers auto -Device cuda -BatchSize 8192 -GpuScore -ComboMode -ChainDepth 2 -BeamSize 150 -MaxActionsPerProfile 1000 -KeepGenerating -LearnedPruning normal -ExplorationRate 0.08 -AuditFullSearchInterval 100 -CoverageReport",
+  "final": {
+    "full_mode_profiles_per_second": 15.663,
+    "gpu_batch_utilization": 40.743,
+    "gpu_idle_percentage": 46.592,
+    "gpu_scored_chain_coverage_percent": 93.978,
+    "gpu_wall_rows_per_sec": 9301.522
+  },
+  "profiles_per_second_improvement_percent": 150.488,
+  "same_command": true
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "confidence": "low",
+    "extraction_method": "tesseract_tsv",
+    "extraction_timestamp": "2026-06-21T03:37:41Z",
+    "height": 40,
+    "modified_date": "2026-06-21T03:37:41.932460+00:00",
+    "needs_review": true,
+    "preview_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\.tmp\\pytest-guide\\test_ingest_checkpoint_skips_u0\\knowledge\\extracted\\previews\\Crit_Rate.png.page-001.png",
+    "source_file": "Crit_Rate.png",
+    "source_id": "source_ab3feab2cfeae4b94679ed38",
+    "source_image_hash": "4144c634b6315a9b27167057289a10e578960d6f5515924dca299b0e09e7d919",
+    "source_page": 1,
+    "source_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\.tmp\\pytest-guide\\test_ingest_checkpoint_skips_u0\\guides\\Crit_Rate.png",
+    "source_sha256": "b849fffa3126408cb07f0bf8a282dc045ddb5b00d8b86cdef2d1b5c82d74bf4a",
+    "systems": [
+      "crit_stats"
+    ],
+    "width": 40
+  }
+]

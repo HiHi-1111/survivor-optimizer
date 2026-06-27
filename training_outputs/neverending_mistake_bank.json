@@ -1,0 +1,26 @@
+[
+  {
+    "category": "format_or_alias_hard_failure",
+    "source": "pytest",
+    "line": "E   AssertionError: REALISTIC VULNERABILITY: optimizer cannot parse realistic multiplier formatting like 2.35x or 175%.",
+    "goal": "learn from hard regression failure"
+  },
+  {
+    "category": "format_or_alias_hard_failure",
+    "source": "pytest",
+    "line": "FAILED tests/test_optimizer_red_team_realistic_hard.py::test_realistic_hard_percent_and_x_formatting_is_parsed",
+    "goal": "learn from hard regression failure"
+  },
+  {
+    "category": "format_or_alias_hard_failure",
+    "source": "pytest",
+    "line": "E   AssertionError: REALISTIC VULNERABILITY: optimizer cannot parse realistic multiplier formatting like 2.35x or 175%.",
+    "goal": "learn from hard regression failure"
+  },
+  {
+    "category": "format_or_alias_hard_failure",
+    "source": "pytest",
+    "line": "FAILED tests/test_optimizer_red_team_realistic_hard.py::test_realistic_hard_percent_and_x_formatting_is_parsed",
+    "goal": "learn from hard regression failure"
+  }
+]

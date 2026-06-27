@@ -1,0 +1,82 @@
+{
+  "active_gpu_processes": null,
+  "bottleneck": "CPU candidate generation/search is starving the GPU",
+  "cpu_utilization_percent": 1.0,
+  "gpu": {
+    "async_pipeline": true,
+    "average_batch_size": 4103.467,
+    "average_gpu_batch_size": 4103.467,
+    "average_requests_per_gpu_batch": 12.4,
+    "cpu_gpu_wait_fraction": 0.111445,
+    "cpu_waiting_on_gpu": true,
+    "cpu_workers_cuda_isolated": true,
+    "cuda_available": true,
+    "cuda_detected": true,
+    "cuda_initialization_count": 1,
+    "cuda_owner_thread_id": 15872,
+    "cuda_released": true,
+    "errors": [],
+    "failure_reason": "",
+    "gpu_acceleration_enabled": true,
+    "gpu_acceleration_reason": "shared-memory CUDA ranking before beam pruning",
+    "gpu_active_compute_rows_per_sec": 633771.847,
+    "gpu_actually_used": true,
+    "gpu_batch_utilization": 100.0,
+    "gpu_batches_completed": 17197,
+    "gpu_chain_rows_scored": 70567330,
+    "gpu_chain_rows_submitted": 70567330,
+    "gpu_idle_percentage": 78.219,
+    "gpu_idle_reason": "waiting_for_cpu_candidates",
+    "gpu_idle_reasons_seconds": {
+      "cpu_pruned_before_gpu": 0.0,
+      "gpu_disabled": 0.0,
+      "queue_backpressure": 0.0,
+      "scoring": 111.345006,
+      "waiting_for_batch_fill": 93.185491,
+      "waiting_for_cpu_candidates": 2726.938881
+    },
+    "gpu_initialized": true,
+    "gpu_operations_planned": [
+      "shared_memory_preprune_ranking",
+      "cuda_topk"
+    ],
+    "gpu_pipeline_active": true,
+    "gpu_queue_fill_rate": 0.042741,
+    "gpu_queue_high_water": 24,
+    "gpu_queue_size": 0,
+    "gpu_queue_starvation_events": 31859,
+    "gpu_requested": true,
+    "gpu_rows_scored": 70567330,
+    "gpu_rows_submitted": 70567330,
+    "gpu_used": true,
+    "gpu_waiting_on_cpu": true,
+    "gpu_wall_rows_per_sec": 19572.45,
+    "prepared_gpu_batches": 24,
+    "preprune_requests": 213237,
+    "preprune_rows_by_phase": {
+      "final_state": 18464131,
+      "proposal": 52103199
+    },
+    "scored_rows": 70567330,
+    "scoring_batches": 17197,
+    "scoring_elapsed_seconds": 111.345006,
+    "service_failed": false,
+    "start_calls": 1,
+    "submitted_rows": 70567330,
+    "successful_cuda_scoring_batches": 17197,
+    "thread_start_count": 1
+  },
+  "memory_rss_mb": 10105.402,
+  "npu": {
+    "active": false,
+    "available": false,
+    "idle_reason": "backend_unavailable",
+    "provider": null,
+    "providers": [
+      "AzureExecutionProvider",
+      "CPUExecutionProvider"
+    ],
+    "reason": "NPU unavailable for this Python path; using CPU/GPU."
+  },
+  "system_memory_percent": 62.8
+}

@@ -1,0 +1,38 @@
+{
+  "categories_tested": {
+    "aliases: Relic Core, S Awakening Core, Yang shard": 6085,
+    "cheap material bait vs rare blockers": 6086,
+    "inactive Twinborn mode": 6087,
+    "locked AF / Cosmic Cast preview": 6088,
+    "locked collectible breakpoint preview": 6088,
+    "multiplier strings: 2.35x, 175%, +25%": 6088,
+    "near milestone missing both core and shards": 6088,
+    "positive control": 13965,
+    "source/catalog rows mixed into player state": 6088,
+    "unbought event shop item": 6088,
+    "unequipped gear": 6088,
+    "unequipped pet": 6088,
+    "unselected survivor roster": 6087,
+    "unslotted resonance assist": 6086
+  },
+  "fatal_error": null,
+  "gpu_rows_scored": 126000,
+  "latest_accuracy": 0.935714,
+  "latest_top_fail": "cheap material bait vs rare blockers",
+  "remaining_failure_categories": {
+    "cheap material bait vs rare blockers": 6086
+  },
+  "rounds_completed": 133,
+  "scenario_axes_tested": {
+    "boss_180s": 13300,
+    "cyclic_uptime_180s": 13300,
+    "elders_echo_180s": 13300,
+    "long_300s": 13300,
+    "normal_180s": 13300,
+    "short_60s": 13300,
+    "steamroll_180s": 13300
+  },
+  "total_failures_found": 6086,
+  "total_passed": 87014,
+  "total_profiles_tested": 93100
+}

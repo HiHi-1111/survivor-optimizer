@@ -1,0 +1,37 @@
+[
+  {
+    "id": "donatello_brotherhood_a1", "name": "Donatello Brotherhood A1", "category": "survivor_awakening",
+    "survivor_id": "donatello_sp", "level": 1, "description": "Global passive: Crit Rate +3% per equipped SP-grade survivor awakening passive.",
+    "effects": [{"stat": "crit_rate_per_sp_passive", "value": 0.03, "operation": "add"}],
+    "tags": ["awakening", "global_passive", "brotherhood", "crit_rate"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#page=9", "confidence": "medium", "notes": "Cannot be equipped in Teamwork passive slots.", "scoring_relevance": ["damage"]
+  },
+  {
+    "id": "donatello_brotherhood_a2", "name": "Donatello Brotherhood A2", "category": "survivor_awakening",
+    "survivor_id": "donatello_sp", "level": 2, "description": "Skill Damage and Crit Damage +3% per equipped SP awakening passive.",
+    "effects": [{"stat": "skill_damage_per_sp_passive", "value": 0.03}, {"stat": "crit_damage_per_sp_passive", "value": 0.03}],
+    "tags": ["awakening", "global_passive", "skill_damage", "crit_damage"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#page=9", "confidence": "medium", "notes": "Build-count input is required.", "scoring_relevance": ["damage"]
+  },
+  {
+    "id": "april_reporter_snapshot_a3", "name": "April Reporter Snapshot A3", "category": "survivor_awakening",
+    "survivor_id": "april_sp", "level": 3, "description": "Reporter Snapshot applies 5% Vulnerability.",
+    "effects": [{"stat": "vulnerability", "value": 0.05, "operation": "add"}],
+    "tags": ["awakening", "vulnerability", "pet_build"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#page=14", "confidence": "medium", "notes": "Uptime requires mode/skill modeling.", "scoring_relevance": ["damage"]
+  },
+  {
+    "id": "splinter_master_mentor_a1", "name": "Splinter Master Mentor A1", "category": "survivor_awakening",
+    "survivor_id": "splinter_sp", "level": 1, "description": "Equipped pet skill cooldown -5% and Pet Crit Rate +10%.",
+    "effects": [{"stat": "pet_skill_cooldown", "value": -0.05}, {"stat": "pet_crit_rate", "value": 0.10}],
+    "tags": ["awakening", "pet_crit", "pet_cooldown"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#page=16", "confidence": "medium", "notes": "Damage value depends on deployed pet contribution.", "scoring_relevance": ["damage"]
+  },
+  {
+    "id": "teamwork_slots_a4_a6", "name": "SP Teamwork Passive Slots", "category": "survivor_awakening",
+    "description": "Most listed SP survivors unlock one Teamwork Passive Slot at A4 and another at A6.",
+    "effects": [{"stat": "teamwork_passive_slots", "value": 1, "condition": "awakening == 4"}, {"stat": "teamwork_passive_slots", "value": 1, "condition": "awakening == 6"}],
+    "tags": ["awakening", "teamwork", "breakpoint"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=18-20", "confidence": "medium", "notes": "Apply only to survivors whose source explicitly shows these slots.", "scoring_relevance": ["damage", "utility"]
+  }
+]

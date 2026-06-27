@@ -1,0 +1,42 @@
+[
+  {
+    "row_id": "src_0fc9d15b4511b5a6",
+    "data_type": "rule",
+    "system": "mounts",
+    "subsystem": "components",
+    "item_id": "mount_component",
+    "name": "Component merge rerolls stats",
+    "rarity": null,
+    "level": null,
+    "star": null,
+    "awakening": null,
+    "cost": null,
+    "currency": null,
+    "quantity": null,
+    "limit": null,
+    "unlock_condition": null,
+    "effect_type": "reroll",
+    "effect_value": null,
+    "effect_unit": null,
+    "damage_bucket": null,
+    "debuff_type": null,
+    "applies_to": null,
+    "consumed_by": null,
+    "source_kind": "exact",
+    "confidence": "exact",
+    "extraction_method": "embedded_pdf_table_verified",
+    "damage_relevance": "survival",
+    "long_term_value": null,
+    "recommended_disposition": "profile_dependent",
+    "ignore_for_dps": true,
+    "needs_review": false,
+    "source": {
+      "source_file": "source_database_map.pdf",
+      "page_or_image": 249,
+      "section": "Mount Component Merge Rules",
+      "original_source_file": null
+    },
+    "notes": "Merging rerolls component stats unless a stat is locked.",
+    "metadata": {}
+  }
+]

@@ -1,0 +1,33 @@
+4. Twinborn Rocket / RPG Resonance 
+Main association 
+Twinborn Rocket / RPG 
+Twinborn Blaster Sharkmaw Gun 
+Cluster Arrows 
+Mad Blight 
+Poisoned target damage 
+Shield Damage 
+Lacerated target damage 
+Skill Damage 
+Antimatter Maintainer 
+Stat columns 
+Skill Damage 
+Poison Damage 
+Shield Damage 
+Lacerate Damage 
+Optimizer identity 
+Twinborn Rocket/RPG is a Poison + Shield + Skill Damage + Laceration tech. The main 
+special mechanic is Mad Blight stacks, which increase damage to Poisoned targets. 
+DPSRelevant = High later 
+DebuffFamily = Poison, Laceration, Chill 
+ScalingType = Mad Blight stacks + Sharkmaw Gun + Cluster Arrows 
+Extracted resonance rows 
+50: 
++200 ATK, +800 HP 
+ 
+100: 
+Blaster Sharkmaw Gun Damage +50% 
+ 
+150: 
++400 ATK, +1600 HP 
+ 
+200:

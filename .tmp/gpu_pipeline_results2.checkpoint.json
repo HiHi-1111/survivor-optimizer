@@ -1,0 +1,31 @@
+{
+  "completed": true,
+  "device": "cuda",
+  "elapsed_seconds": 5.328,
+  "false_prune_rate": 0.0,
+  "full_search_audits": 0,
+  "interrupted": false,
+  "processed_this_run": 1,
+  "profiles_learned_from": 0,
+  "profiles_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\.tmp\\gpu_pipeline_profiles2.jsonl",
+  "profiles_submitted": 1,
+  "results_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\.tmp\\gpu_pipeline_results2.jsonl",
+  "systems_covered": [
+    "collectibles",
+    "cores",
+    "merge",
+    "pet_awakenings",
+    "pets",
+    "resonance",
+    "save_hold",
+    "selectors",
+    "skills",
+    "ss_gear",
+    "survivor_awakening",
+    "tech_parts",
+    "xeno_pets"
+  ],
+  "updated_at": "2026-06-24T19:45:48Z",
+  "version": 1,
+  "workers": 1
+}

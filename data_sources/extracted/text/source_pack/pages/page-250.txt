@@ -1,0 +1,33 @@
+Shield Damage 
+Boss Damage 
+Lacerated Damage 
+Crit Damage 
+Chilled / Weakened / Poisoned only if that pool is already useful/positive 
+But store this as a fallback assumption, not a hard rule. 
+ 
+12. Component placement logic 
+Core rules 
+1. Put best components in equipped/main mount first. 
+2. Fill all unlocked mount boards before merging extras. 
+3. Components in inactive mounts still give partial value through Sync Rate. 
+4. Components not installed give no value. 
+5. Do not move components every day; set and forget unless doing a serious recalculation. 
+Why filling boards beats merging early 
+Example: 
+You have 3 Gold Skill Damage components. 
+Each Gold Skill Damage = 27%. 
+ 
+Option A: 
+Merge 3 Gold into 1 Gold+1. 
+Gold+1 Skill Damage = 35%. 
+ 
+Option B: 
+Install all 3: 
+Main mount = 27% 
+Inactive Hoverboard 0-star = 27% * 0.30 = 8.1% 
+Inactive Scooter 0-star = 27% * 0.20 = 5.4% 
+ 
+Total = 40.5% 
+ 
+40.5% > 35% 
+Optimizer should calculate this automatically:

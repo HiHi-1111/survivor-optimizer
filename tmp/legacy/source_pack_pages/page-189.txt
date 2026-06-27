@@ -1,0 +1,37 @@
+Missile count/damage 
+Fire Bomb damage 
+Cluster Arrow damage 
+ 
+Batch 5 — Tech Resonance Cost, Rules, 
+Chip Cost, Overload 
+Sources:​
+ Tech_Part_Resonance_Cost_2024-11-28, Resonance_2024-10-30, normal resonance 
+charts, and tech guide text. 
+ 
+A) Resonance energy by tech rarity 
+Tech rarity / level 
+Resonance 
+energy 
+Yellow / Epic 
+50 
+Yellow +1 
+100 
+Yellow +2 
+150 
+Yellow +3 
+200 
+Red / Legendary 
+300 
+Red +1 
+400 
+Red +2 
+550 
+Red +3 
+700 
+Red +4 
+850 
+Eternal / Rainbow 
+1000 
+Optimizer fields 
+TechRarity | ResonanceEnergy | CanBeAssist | DPSRelevant 
+Yellow      | 50              | Yes         | Indirect

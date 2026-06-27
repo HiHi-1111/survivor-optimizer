@@ -1,0 +1,28 @@
+Laceration 
+Poisoned target damage 
+Chilled target damage 
+Weakened target damage 
+Teamwork passive slots 
+SP/TMNT survivors 
+TMNT survivors are SP-grade and event-limited. 
+Each 5-star TMNT survivor gives: 
+All Survivors Crit Rate +8% 
+That is huge for the optimizer because it feeds SS Belt crit breakpoints. 
+Awakening cores 
+Awakening cores are used for survivor awakening. The guide gives different priority paths for: 
+Ender’s Echo 
+Clan Expedition 
+Yang 
+Metallia 
+King 
+Worm 
+Common 
+Catnips 
+TMNT survivors 
+Optimizer rule: 
+Awakening cores should be spent by DPS gain per core, not just favorite survivor. 
+ 
+8. Combat Harmony / Survivor Synergy 
+Source: 
+Survivor_Combat_Harmony_Skills_and_Costs_2024-12-20 
+What it does

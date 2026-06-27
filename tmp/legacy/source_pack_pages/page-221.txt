@@ -1,0 +1,32 @@
+Non-S survivor essence costs 
+S survivor essence costs 
+SP survivor pizza/shard/book costs 
+Awakening core costs 
+Blue material costs 
+Shard costs 
+Optimizer rule 
+Survivor investment should be scored by permanent DPS: 
+- Global ATK 
+- Global Crit Rate 
+- Global Crit Damage 
+- Active survivor DPS gain 
+- Teamwork passive unlock 
+- Debuff source unlock 
+HP/healing mostly ignored for damage-only optimizer. 
+ 
+12. Survivor Pass / Survivor Pass EXP 
+Sources: 
+Survivor_Pass_2024-12-19 
+Survivor_Pass_Experience_2024-09-16 
+Unlock 
+Survivor Pass unlocks after Chapter 8 win. 
+Pass categories 
+Pass type 
+Reward focus 
+Survivor pass 
+Shards, essence, awakening core, reset vial key, collectible 
+key 
+Tech parts pass Epic tech chest, tech keys, tech parts, resonance chip 
+Equipment 
+pass 
+Designs, epic equipment, S keys, S chest, relic core

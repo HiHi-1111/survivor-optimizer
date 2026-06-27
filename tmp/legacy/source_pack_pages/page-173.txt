@@ -1,0 +1,42 @@
+Twinborn Frostfire Dualist: 
+After Fire Whistleshot hits, a Fire Bomb is installed on the target. 
+ 
+Sharkmaw Gun exclusive: 
+Double shot. 
+Fires 2 shots each time. 
+ 
+Crit Damage +50%. 
+Eternal / Rainbow: 
+Twinborn Drill Shot: 
+Targets hit by Twinborn Drill Shot take extra 5% damage. 
+ 
+Twinborn Frostfire Dualist: 
+Fire Whistleshot damage doubled. 
+Targets hit by Fire Whistleshot take extra 900% damage from Ice Whistleshot for 1.5s. 
+Launches an extra fire missile at targets hit by fire bomb explosions. 
+ 
+RPG: 
+Explosion gains pull effect. 
+ 
+Sharkmaw Gun: 
+Triggers mini-explosion on enemy contact. 
+ 
+Shield Damage Boost +75%. 
+Collectible set 
+CollectibleSetName = Multiverse Perspective 
+AssociatedTwinborn = Twinborn Drill Shot / Twinborn Frostfire Dualist 
+10x yellow stars: 
+Twinborn Drill and Twinborn Frostfire Dualist damage +10%. 
+Fire Bomb Damage +15%. 
+ 
+20x yellow stars: 
+Twinborn Drill and Twinborn Frostfire Dualist damage +18%. 
+Fire Bomb Damage +25%. 
+ 
+10x red stars: 
+Twinborn Drill and Twinborn Frostfire Dualist damage +18%. 
+Fire Bomb Damage +25%. 
+ 
+20x red stars: 
+Twinborn Drill and Twinborn Frostfire Dualist damage +25%. 
+Fire Bomb Damage +35%.

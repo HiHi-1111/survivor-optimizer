@@ -1,0 +1,30 @@
+High-value pass items: 
+Relic core 
+Awakening core 
+Resonance chip 
+S chest / S keys 
+Tech keys 
+Collectible keys 
+Survivor shards 
+ 
+13. Energy Essence / Survivor Upgrade 
+Costs 
+Sources: 
+Energy_Essence_Cost_2024-11-28 
+Energy_Essence_Cost_Full_2024-11-28 
+Survivor_Upgrade_Costs_2024-12-19 
+What it tracks 
+Essence cost to level survivors 
+Level 40/80/120 breakpoints 
+Total essence required 
+Different cost curves for normal, S, and SP survivors 
+Optimizer scoring 
+EssenceSpendValue = 
+ DPSGainAtNextBreakpoint / EssenceCost 
+Best upgrades are usually: 
+Level 40 if gives crit damage or ATK 
+Level 80 if gives crit rate 
+Level 120 if gives crit rate/crit damage/ATK 
+Bad upgrades for DPS: 
+HP-only 
+Healing-only

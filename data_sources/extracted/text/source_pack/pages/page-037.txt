@@ -1,0 +1,28 @@
+Passive = Brotherhood 
+StatType = CritDamage 
+ScalingInput = EquippedTMNTPassiveCount 
+ValuePerPassive = +3% 
+MaxShown = +9% 
+ConditionType = DonatelloAwakeningUnlocked + TMNTPassivesEquipped 
+DPSRelevant = Very High 
+ 
+Most important optimizer takeaways 
+1. Crit Rate is not just a damage stat — it unlocks Crit 
+Damage bonuses 
+Because some gear gives extra Crit Damage only when Crit Rate is above a threshold: 
+Crit Rate >100% = extra Crit Damage 
+Crit Rate >150% = much bigger extra Crit Damage 
+So the calculator should give extra value to Crit Rate when it helps cross those breakpoints. 
+ 
+2. Global crit sources are the best long-term investments 
+Highest-value global sources in this image: 
+Survivor Levels 
+Collectibles 
+Combat Harmony 
+Talents 
+Survivor Synergy 
+TMNT 5-star bonuses 
+These help every build and every mode. 
+ 
+3. Yang, King, Metallia, Donatello, and pets should be 
+conditional

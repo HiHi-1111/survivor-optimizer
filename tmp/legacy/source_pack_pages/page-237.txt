@@ -1,0 +1,45 @@
+Upgrade costs: 
+Stage 
+Cost 
+Yellow 1 
+10 shards 
+Yellow 2 
+15 shards 
+Yellow 3 
+20 shards 
+Yellow 4 
+35 shards 
+Red 1 
+45 shards 
+Red 2 
+60 shards 
+Red 3 
+75 shards 
+Red 4 
+100 
+shards 
+Total upgrade cost 
+360 
+shards 
+Total including unlock 
+410 
+shards 
+MountID = MOUNT_HOVERBOARD 
+OpenCost = 50 
+UpgradeCostOnly = 360 
+TotalCostWithUnlock = 410 
+CoreCost = 0 
+Doomsteed 
+Unlock cost: 
+Open = 80 Doomsteed shards 
+Upgrade costs: 
+Stage 
+Shard
+s 
+Mount Cores 
+Yellow 1 
+20 
+1 
+Yellow 2 
+30 
+1

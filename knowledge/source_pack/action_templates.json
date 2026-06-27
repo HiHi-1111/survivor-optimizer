@@ -1,0 +1,1246 @@
+[
+  {
+    "action_id": "resonance_multiplier_1_2",
+    "system": "tech_parts",
+    "action_type": "upgrade_resonance_multiplier",
+    "target_id": "resonance_multiplier",
+    "requirements": {
+      "current_multiplier": 1.0
+    },
+    "costs": [
+      {
+        "resource_id": "resonance_chip",
+        "amount": 1
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "resonance_multiplier_delta",
+        "value": 0.2,
+        "unit": "multiplier",
+        "damage_bucket": "skill_specific"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "1.2",
+    "confidence": "exact",
+    "explanation_key": "resonance_multiplier_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_db44ff4a4bd4db46"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "resonance_multiplier_1_4",
+    "system": "tech_parts",
+    "action_type": "upgrade_resonance_multiplier",
+    "target_id": "resonance_multiplier",
+    "requirements": {
+      "current_multiplier": 1.2
+    },
+    "costs": [
+      {
+        "resource_id": "resonance_chip",
+        "amount": 1
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "resonance_multiplier_delta",
+        "value": 0.2,
+        "unit": "multiplier",
+        "damage_bucket": "skill_specific"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "1.4",
+    "confidence": "exact",
+    "explanation_key": "resonance_multiplier_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_50c58b4ead13cc95"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "resonance_multiplier_1_6",
+    "system": "tech_parts",
+    "action_type": "upgrade_resonance_multiplier",
+    "target_id": "resonance_multiplier",
+    "requirements": {
+      "current_multiplier": 1.4
+    },
+    "costs": [
+      {
+        "resource_id": "resonance_chip",
+        "amount": 2
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "resonance_multiplier_delta",
+        "value": 0.2,
+        "unit": "multiplier",
+        "damage_bucket": "skill_specific"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "1.6",
+    "confidence": "exact",
+    "explanation_key": "resonance_multiplier_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_12f5c540b97846b6"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "resonance_multiplier_1_8",
+    "system": "tech_parts",
+    "action_type": "upgrade_resonance_multiplier",
+    "target_id": "resonance_multiplier",
+    "requirements": {
+      "current_multiplier": 1.6
+    },
+    "costs": [
+      {
+        "resource_id": "resonance_chip",
+        "amount": 3
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "resonance_multiplier_delta",
+        "value": 0.2,
+        "unit": "multiplier",
+        "damage_bucket": "skill_specific"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "1.8",
+    "confidence": "exact",
+    "explanation_key": "resonance_multiplier_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_d90bc5bc6ca7f2a0"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "resonance_multiplier_2_0",
+    "system": "tech_parts",
+    "action_type": "upgrade_resonance_multiplier",
+    "target_id": "resonance_multiplier",
+    "requirements": {
+      "current_multiplier": 1.8
+    },
+    "costs": [
+      {
+        "resource_id": "resonance_chip",
+        "amount": 5
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "resonance_multiplier_delta",
+        "value": 0.2,
+        "unit": "multiplier",
+        "damage_bucket": "skill_specific"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "2.0",
+    "confidence": "exact",
+    "explanation_key": "resonance_multiplier_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_050dea9ce474c103"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "resonance_multiplier_2_2",
+    "system": "tech_parts",
+    "action_type": "upgrade_resonance_multiplier",
+    "target_id": "resonance_multiplier",
+    "requirements": {
+      "current_multiplier": 2.0
+    },
+    "costs": [
+      {
+        "resource_id": "resonance_chip",
+        "amount": 5
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "resonance_multiplier_delta",
+        "value": 0.2,
+        "unit": "multiplier",
+        "damage_bucket": "skill_specific"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "2.2",
+    "confidence": "exact",
+    "explanation_key": "resonance_multiplier_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_38012e9eac9332f8"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "resonance_multiplier_2_4",
+    "system": "tech_parts",
+    "action_type": "upgrade_resonance_multiplier",
+    "target_id": "resonance_multiplier",
+    "requirements": {
+      "current_multiplier": 2.2
+    },
+    "costs": [
+      {
+        "resource_id": "resonance_chip",
+        "amount": 7
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "resonance_multiplier_delta",
+        "value": 0.2,
+        "unit": "multiplier",
+        "damage_bucket": "skill_specific"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "2.4",
+    "confidence": "exact",
+    "explanation_key": "resonance_multiplier_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_76db5e08a7aadad8"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "resonance_multiplier_2_6",
+    "system": "tech_parts",
+    "action_type": "upgrade_resonance_multiplier",
+    "target_id": "resonance_multiplier",
+    "requirements": {
+      "current_multiplier": 2.4
+    },
+    "costs": [
+      {
+        "resource_id": "resonance_chip",
+        "amount": 9
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "resonance_multiplier_delta",
+        "value": 0.2,
+        "unit": "multiplier",
+        "damage_bucket": "skill_specific"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "2.6",
+    "confidence": "exact",
+    "explanation_key": "resonance_multiplier_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_966ef5c3fea20d1e"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "resonance_multiplier_2_8",
+    "system": "tech_parts",
+    "action_type": "upgrade_resonance_multiplier",
+    "target_id": "resonance_multiplier",
+    "requirements": {
+      "current_multiplier": 2.6
+    },
+    "costs": [
+      {
+        "resource_id": "resonance_chip",
+        "amount": 12
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "resonance_multiplier_delta",
+        "value": 0.2,
+        "unit": "multiplier",
+        "damage_bucket": "skill_specific"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "2.8",
+    "confidence": "exact",
+    "explanation_key": "resonance_multiplier_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_15bb3f2a94a16f83"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "resonance_multiplier_3_0",
+    "system": "tech_parts",
+    "action_type": "upgrade_resonance_multiplier",
+    "target_id": "resonance_multiplier",
+    "requirements": {
+      "current_multiplier": 2.8
+    },
+    "costs": [
+      {
+        "resource_id": "resonance_chip",
+        "amount": 15
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "resonance_multiplier_delta",
+        "value": 0.2,
+        "unit": "multiplier",
+        "damage_bucket": "skill_specific"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "3.0",
+    "confidence": "exact",
+    "explanation_key": "resonance_multiplier_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_39f24768de1c4764"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_doomsteed_r1",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "doomsteed",
+    "requirements": {
+      "current_rarity_precedes": "R1",
+      "mount_owned": "doomsteed"
+    },
+    "costs": [
+      {
+        "resource_id": "doomsteed_shard",
+        "amount": 100
+      },
+      {
+        "resource_id": "mount_core",
+        "amount": 4
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.71,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "R1",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_049fe92cd8d44f14",
+      "src_3b5c8df70dde3d9c",
+      "src_b333d376b803c453"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_doomsteed_r2",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "doomsteed",
+    "requirements": {
+      "current_rarity_precedes": "R2",
+      "mount_owned": "doomsteed"
+    },
+    "costs": [
+      {
+        "resource_id": "doomsteed_shard",
+        "amount": 140
+      },
+      {
+        "resource_id": "mount_core",
+        "amount": 4
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.8,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "R2",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_cb063fe4919d2aa8",
+      "src_7c3d77e69f205a17",
+      "src_386790bb84584e8b"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_doomsteed_r3",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "doomsteed",
+    "requirements": {
+      "current_rarity_precedes": "R3",
+      "mount_owned": "doomsteed"
+    },
+    "costs": [
+      {
+        "resource_id": "doomsteed_shard",
+        "amount": 180
+      },
+      {
+        "resource_id": "mount_core",
+        "amount": 4
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.9,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "R3",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_b9e52e61e76c0558",
+      "src_93f5ef013d2e88cc",
+      "src_f6ebee38dc7b58d4"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_doomsteed_r4",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "doomsteed",
+    "requirements": {
+      "current_rarity_precedes": "R4",
+      "mount_owned": "doomsteed"
+    },
+    "costs": [
+      {
+        "resource_id": "doomsteed_shard",
+        "amount": 220
+      },
+      {
+        "resource_id": "mount_core",
+        "amount": 6
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 1.0,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "R4",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_757b2f0db03ed184",
+      "src_ca6365cba84fb57e",
+      "src_026ce758f7cad196"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_doomsteed_y1",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "doomsteed",
+    "requirements": {
+      "current_rarity_precedes": "Y1",
+      "mount_owned": "doomsteed"
+    },
+    "costs": [
+      {
+        "resource_id": "doomsteed_shard",
+        "amount": 20
+      },
+      {
+        "resource_id": "mount_core",
+        "amount": 1
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.44,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "Y1",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_4f862c42284b4201",
+      "src_50def7ed3afcf709",
+      "src_e5b21c341956ef16"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_doomsteed_y2",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "doomsteed",
+    "requirements": {
+      "current_rarity_precedes": "Y2",
+      "mount_owned": "doomsteed"
+    },
+    "costs": [
+      {
+        "resource_id": "doomsteed_shard",
+        "amount": 30
+      },
+      {
+        "resource_id": "mount_core",
+        "amount": 1
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.48,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "Y2",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_e2ceaeeab6135b6d",
+      "src_d29706fcf0927466",
+      "src_83b1e915c779f454"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_doomsteed_y3",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "doomsteed",
+    "requirements": {
+      "current_rarity_precedes": "Y3",
+      "mount_owned": "doomsteed"
+    },
+    "costs": [
+      {
+        "resource_id": "doomsteed_shard",
+        "amount": 45
+      },
+      {
+        "resource_id": "mount_core",
+        "amount": 2
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.55,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "Y3",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_104580ba52c80988",
+      "src_2dce3148532641a1",
+      "src_bed5ae1025010c26"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_doomsteed_y4",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "doomsteed",
+    "requirements": {
+      "current_rarity_precedes": "Y4",
+      "mount_owned": "doomsteed"
+    },
+    "costs": [
+      {
+        "resource_id": "doomsteed_shard",
+        "amount": 65
+      },
+      {
+        "resource_id": "mount_core",
+        "amount": 2
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.62,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "Y4",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_3154452d9ca88dd9",
+      "src_f6c0d66d01c49460",
+      "src_a34c7ed365508bd1"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_electric_scooter_r1",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "electric_scooter",
+    "requirements": {
+      "current_rarity_precedes": "R1",
+      "mount_owned": "electric_scooter"
+    },
+    "costs": [
+      {
+        "resource_id": "electric_scooter_shard",
+        "amount": 75
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.38,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "R1",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_2d3947be1c71691c",
+      "src_2592fdcd9eabd3b6"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_electric_scooter_r2",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "electric_scooter",
+    "requirements": {
+      "current_rarity_precedes": "R2",
+      "mount_owned": "electric_scooter"
+    },
+    "costs": [
+      {
+        "resource_id": "electric_scooter_shard",
+        "amount": 100
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.44,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "R2",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_36ab8bf74277bcb7",
+      "src_dd74d0073156588a"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_electric_scooter_r3",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "electric_scooter",
+    "requirements": {
+      "current_rarity_precedes": "R3",
+      "mount_owned": "electric_scooter"
+    },
+    "costs": [
+      {
+        "resource_id": "electric_scooter_shard",
+        "amount": 120
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.52,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "R3",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_a28d84db0083f8bc",
+      "src_f5f50ef0219b7074"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_electric_scooter_r4",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "electric_scooter",
+    "requirements": {
+      "current_rarity_precedes": "R4",
+      "mount_owned": "electric_scooter"
+    },
+    "costs": [
+      {
+        "resource_id": "electric_scooter_shard",
+        "amount": 160
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.6,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "R4",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_d6cbf7837b91fcad",
+      "src_01fe01967a9ae0f7"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_electric_scooter_y1",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "electric_scooter",
+    "requirements": {
+      "current_rarity_precedes": "Y1",
+      "mount_owned": "electric_scooter"
+    },
+    "costs": [
+      {
+        "resource_id": "electric_scooter_shard",
+        "amount": 20
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.22,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "Y1",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_e47a8b3351b6697a",
+      "src_e922639a9902d8de"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_electric_scooter_y2",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "electric_scooter",
+    "requirements": {
+      "current_rarity_precedes": "Y2",
+      "mount_owned": "electric_scooter"
+    },
+    "costs": [
+      {
+        "resource_id": "electric_scooter_shard",
+        "amount": 25
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.24,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "Y2",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_a2599489d8ac1c60",
+      "src_8a8e5e3a205fa562"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_electric_scooter_y3",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "electric_scooter",
+    "requirements": {
+      "current_rarity_precedes": "Y3",
+      "mount_owned": "electric_scooter"
+    },
+    "costs": [
+      {
+        "resource_id": "electric_scooter_shard",
+        "amount": 40
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.28,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "Y3",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_20ae4f8608a81504",
+      "src_03ad1cbc8a8e5afe"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_electric_scooter_y4",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "electric_scooter",
+    "requirements": {
+      "current_rarity_precedes": "Y4",
+      "mount_owned": "electric_scooter"
+    },
+    "costs": [
+      {
+        "resource_id": "electric_scooter_shard",
+        "amount": 50
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.32,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "Y4",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_af3f9ac4eec6aff2",
+      "src_f3b0db6b13735a43"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_hoverboard_r1",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "hoverboard",
+    "requirements": {
+      "current_rarity_precedes": "R1",
+      "mount_owned": "hoverboard"
+    },
+    "costs": [
+      {
+        "resource_id": "hoverboard_shard",
+        "amount": 45
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.5,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "R1",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_53f4c41eb316a870",
+      "src_6ae3c75f71f13da9"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_hoverboard_r2",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "hoverboard",
+    "requirements": {
+      "current_rarity_precedes": "R2",
+      "mount_owned": "hoverboard"
+    },
+    "costs": [
+      {
+        "resource_id": "hoverboard_shard",
+        "amount": 60
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.55,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "R2",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_d7e5d7e58e9b3839",
+      "src_1091bf0eab0cf82d"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_hoverboard_r3",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "hoverboard",
+    "requirements": {
+      "current_rarity_precedes": "R3",
+      "mount_owned": "hoverboard"
+    },
+    "costs": [
+      {
+        "resource_id": "hoverboard_shard",
+        "amount": 75
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.6,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "R3",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_61181b60834e39fd",
+      "src_e34292319e38d245"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_hoverboard_r4",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "hoverboard",
+    "requirements": {
+      "current_rarity_precedes": "R4",
+      "mount_owned": "hoverboard"
+    },
+    "costs": [
+      {
+        "resource_id": "hoverboard_shard",
+        "amount": 100
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.75,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "R4",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_2cfe219eb48d586c",
+      "src_501e1ef73237db25"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_hoverboard_y1",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "hoverboard",
+    "requirements": {
+      "current_rarity_precedes": "Y1",
+      "mount_owned": "hoverboard"
+    },
+    "costs": [
+      {
+        "resource_id": "hoverboard_shard",
+        "amount": 10
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.33,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "Y1",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_e24f2bcc1e2a7008",
+      "src_e308920e56f840ff"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_hoverboard_y2",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "hoverboard",
+    "requirements": {
+      "current_rarity_precedes": "Y2",
+      "mount_owned": "hoverboard"
+    },
+    "costs": [
+      {
+        "resource_id": "hoverboard_shard",
+        "amount": 15
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.36,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "Y2",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_682cb41a797392a2",
+      "src_1dd569fe9379665e"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_hoverboard_y3",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "hoverboard",
+    "requirements": {
+      "current_rarity_precedes": "Y3",
+      "mount_owned": "hoverboard"
+    },
+    "costs": [
+      {
+        "resource_id": "hoverboard_shard",
+        "amount": 20
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.4,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "Y3",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_305f95463591a030",
+      "src_a15f2c8167c45038"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  },
+  {
+    "action_id": "upgrade_hoverboard_y4",
+    "system": "mounts",
+    "action_type": "upgrade_mount",
+    "target_id": "hoverboard",
+    "requirements": {
+      "current_rarity_precedes": "Y4",
+      "mount_owned": "hoverboard"
+    },
+    "costs": [
+      {
+        "resource_id": "hoverboard_shard",
+        "amount": 35
+      }
+    ],
+    "effects": [
+      {
+        "effect_type": "attack_sync_rate_target",
+        "value": 0.45,
+        "unit": "ratio",
+        "damage_bucket": "attack"
+      }
+    ],
+    "expected_dps_gain": null,
+    "breakpoint_distance": null,
+    "unlock_target": "Y4",
+    "confidence": "exact",
+    "explanation_key": "mount_sync_rate_upgrade",
+    "aliases": [],
+    "source_row_ids": [
+      "src_2fec95ffe9fb8e30",
+      "src_f03730c58042946e"
+    ],
+    "enabled": true,
+    "disabled_reason": null
+  }
+]

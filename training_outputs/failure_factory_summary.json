@@ -1,0 +1,8 @@
+{
+  "created_at": 1782512697.822944,
+  "tested": 194,
+  "failures": 0,
+  "failure_counts": {},
+  "base_damage": 60841740.32,
+  "goal": "more failures, smarter active-state-only DPS optimizer"
+}

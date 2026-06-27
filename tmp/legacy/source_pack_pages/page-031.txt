@@ -1,0 +1,31 @@
+●​ Metallia / red-haired survivor level 120: Crit Damage +10% 
+●​ Catnips / cat-like survivor level 120: Crit Damage +10% 
+●​ SpongeBob level 40: Crit Damage +5% 
+●​ Squidward level 40: Crit Damage +5% 
+●​ Patrick level 40: Crit Damage +5% 
+●​ Sandy level 40: Crit Damage +5% 
+Optimizer notes 
+This is permanent account DPS scaling. 
+Database flags: 
+SourceCategory = SurvivorLevel 
+StatType = CritDamage 
+TargetScope = AllSurvivors 
+ConditionType = PermanentGlobal 
+DPSRelevant = Very High 
+ 
+3. Gear Crit Damage 
+This is associated with: 
+Equipped Gear | Gloves / SS gear / Necklace | Conditional DPS 
+The source shows several gear Crit Damage sources: 
+●​ V2 gear source: Crit Damage +36% 
+●​ V4 gear source: Crit Damage +60% 
+●​ Leather Gloves: Crit Damage +50% 
+●​ Eternal Gloves red: Crit Damage +100% 
+●​ Gear + collectible condition: Crit Damage +20% 
+●​ SS necklace / energy shield condition: 
+○​ E5: 0–50%, listed as 10% per energy level 
+○​ E1: if Crit Rate >100%, Crit Damage +30% 
+○​ E5: if Crit Rate >150%, Crit Damage +100% 
+Optimizer notes 
+This is where crit math becomes conditional. The optimizer needs to know the player’s Crit 
+Rate before applying some Crit Damage bonuses.

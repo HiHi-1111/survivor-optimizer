@@ -1,0 +1,2679 @@
+{
+  "audit": {
+    "downgraded_buckets": [
+      "account_stage:late_game|scenario:scenario_gear_ss|inventory_size_bucket:9-15|damage_stage:700k-1.2m|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:True|current_best_action_system:xeno_pet|unsupported_missing_data_bucket:0"
+    ],
+    "false_prune_examples": [
+      {
+        "bucket": "account_stage:late_game|scenario:scenario_gear_ss|inventory_size_bucket:9-15|damage_stage:700k-1.2m|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:True|current_best_action_system:xeno_pet|unsupported_missing_data_bucket:0",
+        "learned_systems": [
+          "exchange",
+          "merge",
+          "pet",
+          "salvage",
+          "save_hold"
+        ],
+        "missed_action_id": "xeno_pets:upgrade_or_unlock_xeno_pet:xeno_core",
+        "missed_system": "xeno_pet",
+        "profile_id": "synthetic_late_game_00000027_283129358",
+        "score_difference": 49.95,
+        "selected_action_id": "pets:upgrade_or_equip_pet:croaky"
+      }
+    ],
+    "false_prune_rate": 0.5,
+    "false_prunes": 1,
+    "full_search_audits": 2
+  },
+  "bucket_count": 69,
+  "needs_more_deep_exploration_count": 67,
+  "recovery": {},
+  "stable_bucket_count": 2,
+  "top_buckets": [
+    {
+      "avg_best_score": 13.076923,
+      "best_score_total": 680.0,
+      "breakpoint_hits": 2,
+      "breakpoint_rate": 0.038462,
+      "bucket": "account_stage:endgame|scenario:scenario_gear_ss|inventory_size_bucket:16-30|damage_stage:1.2m+|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:True|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+      "chain_simulator_runs": 0,
+      "chain_step_hits": 2,
+      "chain_step_rate": 0.038462,
+      "combos": {
+        "core_selector+astral_forge": {
+          "average_value": 90.0,
+          "combo_id": "core_selector+astral_forge",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 2,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 2,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 2
+          },
+          "confidence": "low",
+          "evidence_count": 2,
+          "example_profile_ids": [
+            "synthetic_endgame_00000028_635427140",
+            "synthetic_endgame_00000010_320177631"
+          ],
+          "tried_count": 2,
+          "value_total": 180.0,
+          "when_bad": {},
+          "when_good": {
+            "breakpoint_reason": 2
+          },
+          "win_count": 2
+        },
+        "multiple_resources+same_breakpoint": {
+          "average_value": 13.076923,
+          "combo_id": "multiple_resources+same_breakpoint",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 2,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 2,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 2
+          },
+          "confidence": "high",
+          "evidence_count": 52,
+          "example_profile_ids": [
+            "synthetic_endgame_00000010_320177631",
+            "synthetic_endgame_00000028_635427140",
+            "synthetic_endgame_00000010_320177631",
+            "synthetic_endgame_00000028_635427140",
+            "synthetic_endgame_00000010_320177631"
+          ],
+          "tried_count": 52,
+          "value_total": 680.0,
+          "when_bad": {
+            "no_breakpoint": 50
+          },
+          "when_good": {
+            "breakpoint_reason": 2
+          },
+          "win_count": 2
+        },
+        "pet_chest+xeno_core": {
+          "average_value": 13.076923,
+          "combo_id": "pet_chest+xeno_core",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 2,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 2,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 2
+          },
+          "confidence": "high",
+          "evidence_count": 52,
+          "example_profile_ids": [
+            "synthetic_endgame_00000010_320177631",
+            "synthetic_endgame_00000028_635427140",
+            "synthetic_endgame_00000010_320177631",
+            "synthetic_endgame_00000028_635427140",
+            "synthetic_endgame_00000010_320177631"
+          ],
+          "tried_count": 52,
+          "value_total": 680.0,
+          "when_bad": {
+            "no_breakpoint": 50
+          },
+          "when_good": {
+            "breakpoint_reason": 2
+          },
+          "win_count": 52
+        }
+      },
+      "commonly_pruned": {},
+      "confidence": "high",
+      "false_prune_rate": 0.0,
+      "false_prunes": 0,
+      "features": {
+        "account_stage": "endgame",
+        "close_to_astral_forge_breakpoint": false,
+        "close_to_collectible_set_breakpoint": false,
+        "close_to_survivor_breakpoint": false,
+        "close_to_tech_resonance_breakpoint": false,
+        "close_to_xeno_breakpoint": false,
+        "current_best_action_system": "pet",
+        "damage_stage": "1.2m+",
+        "has_collectible_chest": false,
+        "has_core_selector_chest": true,
+        "has_event_clan_currency": true,
+        "has_major_selector_chest": true,
+        "has_many_rare_resources": true,
+        "has_pet_chest": false,
+        "has_xeno_unlocked": false,
+        "inventory_size_bucket": "16-30",
+        "scenario": "scenario_gear_ss",
+        "unsupported_missing_data_bucket": "0"
+      },
+      "full_search_audits": 0,
+      "global_planner_runs": 52,
+      "global_save_hold_hits": 0,
+      "global_save_hold_rate": 0.0,
+      "needs_more_deep_exploration": false,
+      "notes": [],
+      "prune_hint": "stable",
+      "pruned_but_later_good": {},
+      "samples": 52,
+      "self_consistency_rate": 1.0,
+      "self_consistent_hits": 52,
+      "systems": {
+        "core_selector": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 4.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 2,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:19Z",
+          "marginal_value_total": 4.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 0.0,
+          "system": "core_selector",
+          "top_3_count": 0,
+          "tried_count": 2,
+          "win_count": 0
+        },
+        "merge": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 4.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 2,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:19Z",
+          "marginal_value_total": 4.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 0.0,
+          "system": "merge",
+          "top_3_count": 0,
+          "tried_count": 2,
+          "win_count": 0
+        },
+        "pet": {
+          "average_chain_value": 0.076923,
+          "average_marginal_value": 0.076923,
+          "average_score": 13.076923,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.038462,
+          "breakpoint_hits": 2,
+          "chain_value_total": 4.0,
+          "confidence": "high",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 52,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:19Z",
+          "marginal_value_total": 4.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 680.0,
+          "system": "pet",
+          "top_3_count": 0,
+          "tried_count": 52,
+          "win_count": 52
+        },
+        "save_hold": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 4.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 2,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:19Z",
+          "marginal_value_total": 4.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 2,
+          "save_recommendation_rate": 1.0,
+          "score_total": 0.0,
+          "system": "save_hold",
+          "top_3_count": 0,
+          "tried_count": 2,
+          "win_count": 0
+        }
+      },
+      "top_systems": [
+        "pet",
+        "core_selector",
+        "merge",
+        "save_hold"
+      ],
+      "weak_systems": []
+    },
+    {
+      "avg_best_score": 11.568627,
+      "best_score_total": 590.0,
+      "breakpoint_hits": 1,
+      "breakpoint_rate": 0.019608,
+      "bucket": "account_stage:late_game|scenario:scenario_gear_ss|inventory_size_bucket:9-15|damage_stage:700k-1.2m|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:True|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+      "chain_simulator_runs": 0,
+      "chain_step_hits": 1,
+      "chain_step_rate": 0.019608,
+      "combos": {
+        "core_selector+astral_forge": {
+          "average_value": 90.0,
+          "combo_id": "core_selector+astral_forge",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "low",
+          "evidence_count": 1,
+          "example_profile_ids": [
+            "synthetic_late_game_00000011_393298479"
+          ],
+          "tried_count": 1,
+          "value_total": 90.0,
+          "when_bad": {},
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 1
+        },
+        "multiple_resources+same_breakpoint": {
+          "average_value": 11.568627,
+          "combo_id": "multiple_resources+same_breakpoint",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "high",
+          "evidence_count": 51,
+          "example_profile_ids": [
+            "synthetic_late_game_00000011_393298479",
+            "synthetic_late_game_00000027_283129358",
+            "synthetic_late_game_00000011_393298479",
+            "synthetic_late_game_00000027_283129358",
+            "synthetic_late_game_00000011_393298479"
+          ],
+          "tried_count": 51,
+          "value_total": 590.0,
+          "when_bad": {
+            "no_breakpoint": 50
+          },
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 1
+        },
+        "pet_chest+xeno_core": {
+          "average_value": 11.568627,
+          "combo_id": "pet_chest+xeno_core",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "high",
+          "evidence_count": 51,
+          "example_profile_ids": [
+            "synthetic_late_game_00000011_393298479",
+            "synthetic_late_game_00000027_283129358",
+            "synthetic_late_game_00000011_393298479",
+            "synthetic_late_game_00000027_283129358",
+            "synthetic_late_game_00000011_393298479"
+          ],
+          "tried_count": 51,
+          "value_total": 590.0,
+          "when_bad": {
+            "no_breakpoint": 50
+          },
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 51
+        }
+      },
+      "commonly_pruned": {},
+      "confidence": "high",
+      "false_prune_rate": 0.0,
+      "false_prunes": 0,
+      "features": {
+        "account_stage": "late_game",
+        "close_to_astral_forge_breakpoint": false,
+        "close_to_collectible_set_breakpoint": false,
+        "close_to_survivor_breakpoint": false,
+        "close_to_tech_resonance_breakpoint": false,
+        "close_to_xeno_breakpoint": false,
+        "current_best_action_system": "pet",
+        "damage_stage": "700k-1.2m",
+        "has_collectible_chest": false,
+        "has_core_selector_chest": true,
+        "has_event_clan_currency": true,
+        "has_major_selector_chest": true,
+        "has_many_rare_resources": true,
+        "has_pet_chest": false,
+        "has_xeno_unlocked": false,
+        "inventory_size_bucket": "9-15",
+        "scenario": "scenario_gear_ss",
+        "unsupported_missing_data_bucket": "0"
+      },
+      "full_search_audits": 0,
+      "global_planner_runs": 51,
+      "global_save_hold_hits": 0,
+      "global_save_hold_rate": 0.0,
+      "needs_more_deep_exploration": false,
+      "notes": [],
+      "prune_hint": "stable",
+      "pruned_but_later_good": {},
+      "samples": 51,
+      "self_consistency_rate": 1.0,
+      "self_consistent_hits": 51,
+      "systems": {
+        "core_selector": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 0.0,
+          "system": "core_selector",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        },
+        "merge": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 0.0,
+          "system": "merge",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        },
+        "pet": {
+          "average_chain_value": 0.039216,
+          "average_marginal_value": 0.039216,
+          "average_score": 11.568627,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.019608,
+          "breakpoint_hits": 1,
+          "chain_value_total": 2.0,
+          "confidence": "high",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 51,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 590.0,
+          "system": "pet",
+          "top_3_count": 0,
+          "tried_count": 51,
+          "win_count": 51
+        },
+        "save_hold": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 1,
+          "save_recommendation_rate": 1.0,
+          "score_total": 0.0,
+          "system": "save_hold",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        }
+      },
+      "top_systems": [
+        "pet",
+        "core_selector",
+        "merge",
+        "save_hold"
+      ],
+      "weak_systems": []
+    },
+    {
+      "avg_best_score": 13.076923,
+      "best_score_total": 340.0,
+      "breakpoint_hits": 1,
+      "breakpoint_rate": 0.038462,
+      "bucket": "account_stage:late_game|scenario:scenario_event_shop|inventory_size_bucket:16-30|damage_stage:300-700k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:True|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+      "chain_simulator_runs": 0,
+      "chain_step_hits": 1,
+      "chain_step_rate": 0.038462,
+      "combos": {
+        "core_selector+astral_forge": {
+          "average_value": 90.0,
+          "combo_id": "core_selector+astral_forge",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "low",
+          "evidence_count": 1,
+          "example_profile_ids": [
+            "synthetic_late_game_00000007_551739175"
+          ],
+          "tried_count": 1,
+          "value_total": 90.0,
+          "when_bad": {},
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 1
+        },
+        "multiple_resources+same_breakpoint": {
+          "average_value": 13.076923,
+          "combo_id": "multiple_resources+same_breakpoint",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "medium",
+          "evidence_count": 26,
+          "example_profile_ids": [
+            "synthetic_late_game_00000007_551739175",
+            "synthetic_late_game_00000007_551739175",
+            "synthetic_late_game_00000007_551739175",
+            "synthetic_late_game_00000007_551739175",
+            "synthetic_late_game_00000007_551739175"
+          ],
+          "tried_count": 26,
+          "value_total": 340.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 1
+        },
+        "pet_chest+xeno_core": {
+          "average_value": 13.076923,
+          "combo_id": "pet_chest+xeno_core",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "medium",
+          "evidence_count": 26,
+          "example_profile_ids": [
+            "synthetic_late_game_00000007_551739175",
+            "synthetic_late_game_00000007_551739175",
+            "synthetic_late_game_00000007_551739175",
+            "synthetic_late_game_00000007_551739175",
+            "synthetic_late_game_00000007_551739175"
+          ],
+          "tried_count": 26,
+          "value_total": 340.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 26
+        }
+      },
+      "commonly_pruned": {},
+      "confidence": "medium",
+      "false_prune_rate": 0.0,
+      "false_prunes": 0,
+      "features": {
+        "account_stage": "late_game",
+        "close_to_astral_forge_breakpoint": false,
+        "close_to_collectible_set_breakpoint": false,
+        "close_to_survivor_breakpoint": false,
+        "close_to_tech_resonance_breakpoint": false,
+        "close_to_xeno_breakpoint": false,
+        "current_best_action_system": "pet",
+        "damage_stage": "300-700k",
+        "has_collectible_chest": false,
+        "has_core_selector_chest": true,
+        "has_event_clan_currency": true,
+        "has_major_selector_chest": true,
+        "has_many_rare_resources": true,
+        "has_pet_chest": false,
+        "has_xeno_unlocked": false,
+        "inventory_size_bucket": "16-30",
+        "scenario": "scenario_event_shop",
+        "unsupported_missing_data_bucket": "0"
+      },
+      "full_search_audits": 0,
+      "global_planner_runs": 26,
+      "global_save_hold_hits": 0,
+      "global_save_hold_rate": 0.0,
+      "needs_more_deep_exploration": true,
+      "notes": [],
+      "prune_hint": "learning",
+      "pruned_but_later_good": {},
+      "samples": 26,
+      "self_consistency_rate": 1.0,
+      "self_consistent_hits": 26,
+      "systems": {
+        "core_selector": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:19Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 0.0,
+          "system": "core_selector",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        },
+        "merge": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:19Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 0.0,
+          "system": "merge",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        },
+        "pet": {
+          "average_chain_value": 0.076923,
+          "average_marginal_value": 0.076923,
+          "average_score": 13.076923,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.038462,
+          "breakpoint_hits": 1,
+          "chain_value_total": 2.0,
+          "confidence": "medium",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 26,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:19Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 340.0,
+          "system": "pet",
+          "top_3_count": 0,
+          "tried_count": 26,
+          "win_count": 26
+        },
+        "save_hold": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:19Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 1,
+          "save_recommendation_rate": 1.0,
+          "score_total": 0.0,
+          "system": "save_hold",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        }
+      },
+      "top_systems": [
+        "pet",
+        "core_selector",
+        "merge",
+        "save_hold"
+      ],
+      "weak_systems": []
+    },
+    {
+      "avg_best_score": 13.076923,
+      "best_score_total": 340.0,
+      "breakpoint_hits": 1,
+      "breakpoint_rate": 0.038462,
+      "bucket": "account_stage:late_game|scenario:scenario_event_shop|inventory_size_bucket:9-15|damage_stage:700k-1.2m|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:True|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+      "chain_simulator_runs": 0,
+      "chain_step_hits": 1,
+      "chain_step_rate": 0.038462,
+      "combos": {
+        "core_selector+astral_forge": {
+          "average_value": 90.0,
+          "combo_id": "core_selector+astral_forge",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "low",
+          "evidence_count": 1,
+          "example_profile_ids": [
+            "synthetic_late_game_00000038_493570716"
+          ],
+          "tried_count": 1,
+          "value_total": 90.0,
+          "when_bad": {},
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 1
+        },
+        "multiple_resources+same_breakpoint": {
+          "average_value": 13.076923,
+          "combo_id": "multiple_resources+same_breakpoint",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "medium",
+          "evidence_count": 26,
+          "example_profile_ids": [
+            "synthetic_late_game_00000038_493570716",
+            "synthetic_late_game_00000038_493570716",
+            "synthetic_late_game_00000038_493570716",
+            "synthetic_late_game_00000038_493570716",
+            "synthetic_late_game_00000038_493570716"
+          ],
+          "tried_count": 26,
+          "value_total": 340.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 1
+        },
+        "pet_chest+xeno_core": {
+          "average_value": 13.076923,
+          "combo_id": "pet_chest+xeno_core",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "medium",
+          "evidence_count": 26,
+          "example_profile_ids": [
+            "synthetic_late_game_00000038_493570716",
+            "synthetic_late_game_00000038_493570716",
+            "synthetic_late_game_00000038_493570716",
+            "synthetic_late_game_00000038_493570716",
+            "synthetic_late_game_00000038_493570716"
+          ],
+          "tried_count": 26,
+          "value_total": 340.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 26
+        }
+      },
+      "commonly_pruned": {},
+      "confidence": "medium",
+      "false_prune_rate": 0.0,
+      "false_prunes": 0,
+      "features": {
+        "account_stage": "late_game",
+        "close_to_astral_forge_breakpoint": false,
+        "close_to_collectible_set_breakpoint": false,
+        "close_to_survivor_breakpoint": false,
+        "close_to_tech_resonance_breakpoint": false,
+        "close_to_xeno_breakpoint": false,
+        "current_best_action_system": "pet",
+        "damage_stage": "700k-1.2m",
+        "has_collectible_chest": false,
+        "has_core_selector_chest": true,
+        "has_event_clan_currency": true,
+        "has_major_selector_chest": true,
+        "has_many_rare_resources": true,
+        "has_pet_chest": false,
+        "has_xeno_unlocked": false,
+        "inventory_size_bucket": "9-15",
+        "scenario": "scenario_event_shop",
+        "unsupported_missing_data_bucket": "0"
+      },
+      "full_search_audits": 0,
+      "global_planner_runs": 26,
+      "global_save_hold_hits": 0,
+      "global_save_hold_rate": 0.0,
+      "needs_more_deep_exploration": true,
+      "notes": [],
+      "prune_hint": "learning",
+      "pruned_but_later_good": {},
+      "samples": 26,
+      "self_consistency_rate": 1.0,
+      "self_consistent_hits": 26,
+      "systems": {
+        "core_selector": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 0.0,
+          "system": "core_selector",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        },
+        "merge": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 0.0,
+          "system": "merge",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        },
+        "pet": {
+          "average_chain_value": 0.076923,
+          "average_marginal_value": 0.076923,
+          "average_score": 13.076923,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.038462,
+          "breakpoint_hits": 1,
+          "chain_value_total": 2.0,
+          "confidence": "medium",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 26,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 340.0,
+          "system": "pet",
+          "top_3_count": 0,
+          "tried_count": 26,
+          "win_count": 26
+        },
+        "save_hold": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 1,
+          "save_recommendation_rate": 1.0,
+          "score_total": 0.0,
+          "system": "save_hold",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        }
+      },
+      "top_systems": [
+        "pet",
+        "core_selector",
+        "merge",
+        "save_hold"
+      ],
+      "weak_systems": []
+    },
+    {
+      "avg_best_score": 13.076923,
+      "best_score_total": 340.0,
+      "breakpoint_hits": 1,
+      "breakpoint_rate": 0.038462,
+      "bucket": "account_stage:late_game|scenario:scenario_f2p_gems|inventory_size_bucket:16-30|damage_stage:300-700k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:True|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+      "chain_simulator_runs": 0,
+      "chain_step_hits": 1,
+      "chain_step_rate": 0.038462,
+      "combos": {
+        "core_selector+astral_forge": {
+          "average_value": 90.0,
+          "combo_id": "core_selector+astral_forge",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "low",
+          "evidence_count": 1,
+          "example_profile_ids": [
+            "synthetic_late_game_00000023_440556545"
+          ],
+          "tried_count": 1,
+          "value_total": 90.0,
+          "when_bad": {},
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 1
+        },
+        "multiple_resources+same_breakpoint": {
+          "average_value": 13.076923,
+          "combo_id": "multiple_resources+same_breakpoint",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "medium",
+          "evidence_count": 26,
+          "example_profile_ids": [
+            "synthetic_late_game_00000023_440556545",
+            "synthetic_late_game_00000023_440556545",
+            "synthetic_late_game_00000023_440556545",
+            "synthetic_late_game_00000023_440556545",
+            "synthetic_late_game_00000023_440556545"
+          ],
+          "tried_count": 26,
+          "value_total": 340.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 1
+        },
+        "pet_chest+xeno_core": {
+          "average_value": 13.076923,
+          "combo_id": "pet_chest+xeno_core",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "medium",
+          "evidence_count": 26,
+          "example_profile_ids": [
+            "synthetic_late_game_00000023_440556545",
+            "synthetic_late_game_00000023_440556545",
+            "synthetic_late_game_00000023_440556545",
+            "synthetic_late_game_00000023_440556545",
+            "synthetic_late_game_00000023_440556545"
+          ],
+          "tried_count": 26,
+          "value_total": 340.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 26
+        }
+      },
+      "commonly_pruned": {},
+      "confidence": "medium",
+      "false_prune_rate": 0.0,
+      "false_prunes": 0,
+      "features": {
+        "account_stage": "late_game",
+        "close_to_astral_forge_breakpoint": false,
+        "close_to_collectible_set_breakpoint": false,
+        "close_to_survivor_breakpoint": false,
+        "close_to_tech_resonance_breakpoint": false,
+        "close_to_xeno_breakpoint": false,
+        "current_best_action_system": "pet",
+        "damage_stage": "300-700k",
+        "has_collectible_chest": false,
+        "has_core_selector_chest": true,
+        "has_event_clan_currency": true,
+        "has_major_selector_chest": true,
+        "has_many_rare_resources": true,
+        "has_pet_chest": false,
+        "has_xeno_unlocked": false,
+        "inventory_size_bucket": "16-30",
+        "scenario": "scenario_f2p_gems",
+        "unsupported_missing_data_bucket": "0"
+      },
+      "full_search_audits": 0,
+      "global_planner_runs": 26,
+      "global_save_hold_hits": 0,
+      "global_save_hold_rate": 0.0,
+      "needs_more_deep_exploration": true,
+      "notes": [],
+      "prune_hint": "learning",
+      "pruned_but_later_good": {},
+      "samples": 26,
+      "self_consistency_rate": 1.0,
+      "self_consistent_hits": 26,
+      "systems": {
+        "core_selector": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 0.0,
+          "system": "core_selector",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        },
+        "merge": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 0.0,
+          "system": "merge",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        },
+        "pet": {
+          "average_chain_value": 0.076923,
+          "average_marginal_value": 0.076923,
+          "average_score": 13.076923,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.038462,
+          "breakpoint_hits": 1,
+          "chain_value_total": 2.0,
+          "confidence": "medium",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 26,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 340.0,
+          "system": "pet",
+          "top_3_count": 0,
+          "tried_count": 26,
+          "win_count": 26
+        },
+        "save_hold": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 1,
+          "save_recommendation_rate": 1.0,
+          "score_total": 0.0,
+          "system": "save_hold",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        }
+      },
+      "top_systems": [
+        "pet",
+        "core_selector",
+        "merge",
+        "save_hold"
+      ],
+      "weak_systems": []
+    },
+    {
+      "avg_best_score": 13.076923,
+      "best_score_total": 340.0,
+      "breakpoint_hits": 1,
+      "breakpoint_rate": 0.038462,
+      "bucket": "account_stage:late_midgame|scenario:scenario_3|inventory_size_bucket:9-15|damage_stage:300-700k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:True|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+      "chain_simulator_runs": 0,
+      "chain_step_hits": 1,
+      "chain_step_rate": 0.038462,
+      "combos": {
+        "core_selector+astral_forge": {
+          "average_value": 90.0,
+          "combo_id": "core_selector+astral_forge",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "low",
+          "evidence_count": 1,
+          "example_profile_ids": [
+            "synthetic_late_midgame_00000004_863226908"
+          ],
+          "tried_count": 1,
+          "value_total": 90.0,
+          "when_bad": {},
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 1
+        },
+        "multiple_resources+same_breakpoint": {
+          "average_value": 13.076923,
+          "combo_id": "multiple_resources+same_breakpoint",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "medium",
+          "evidence_count": 26,
+          "example_profile_ids": [
+            "synthetic_late_midgame_00000004_863226908",
+            "synthetic_late_midgame_00000004_863226908",
+            "synthetic_late_midgame_00000004_863226908",
+            "synthetic_late_midgame_00000004_863226908",
+            "synthetic_late_midgame_00000004_863226908"
+          ],
+          "tried_count": 26,
+          "value_total": 340.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 1
+        },
+        "pet_chest+xeno_core": {
+          "average_value": 13.076923,
+          "combo_id": "pet_chest+xeno_core",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "medium",
+          "evidence_count": 26,
+          "example_profile_ids": [
+            "synthetic_late_midgame_00000004_863226908",
+            "synthetic_late_midgame_00000004_863226908",
+            "synthetic_late_midgame_00000004_863226908",
+            "synthetic_late_midgame_00000004_863226908",
+            "synthetic_late_midgame_00000004_863226908"
+          ],
+          "tried_count": 26,
+          "value_total": 340.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 26
+        }
+      },
+      "commonly_pruned": {},
+      "confidence": "medium",
+      "false_prune_rate": 0.0,
+      "false_prunes": 0,
+      "features": {
+        "account_stage": "late_midgame",
+        "close_to_astral_forge_breakpoint": false,
+        "close_to_collectible_set_breakpoint": false,
+        "close_to_survivor_breakpoint": false,
+        "close_to_tech_resonance_breakpoint": false,
+        "close_to_xeno_breakpoint": false,
+        "current_best_action_system": "pet",
+        "damage_stage": "300-700k",
+        "has_collectible_chest": false,
+        "has_core_selector_chest": true,
+        "has_event_clan_currency": true,
+        "has_major_selector_chest": true,
+        "has_many_rare_resources": true,
+        "has_pet_chest": false,
+        "has_xeno_unlocked": false,
+        "inventory_size_bucket": "9-15",
+        "scenario": "scenario_3",
+        "unsupported_missing_data_bucket": "0"
+      },
+      "full_search_audits": 0,
+      "global_planner_runs": 26,
+      "global_save_hold_hits": 0,
+      "global_save_hold_rate": 0.0,
+      "needs_more_deep_exploration": true,
+      "notes": [],
+      "prune_hint": "learning",
+      "pruned_but_later_good": {},
+      "samples": 26,
+      "self_consistency_rate": 1.0,
+      "self_consistent_hits": 26,
+      "systems": {
+        "core_selector": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:19Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 0.0,
+          "system": "core_selector",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        },
+        "merge": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:19Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 0.0,
+          "system": "merge",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        },
+        "pet": {
+          "average_chain_value": 0.076923,
+          "average_marginal_value": 0.076923,
+          "average_score": 13.076923,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.038462,
+          "breakpoint_hits": 1,
+          "chain_value_total": 2.0,
+          "confidence": "medium",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 26,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:19Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 340.0,
+          "system": "pet",
+          "top_3_count": 0,
+          "tried_count": 26,
+          "win_count": 26
+        },
+        "save_hold": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:19Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 1,
+          "save_recommendation_rate": 1.0,
+          "score_total": 0.0,
+          "system": "save_hold",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        }
+      },
+      "top_systems": [
+        "pet",
+        "core_selector",
+        "merge",
+        "save_hold"
+      ],
+      "weak_systems": []
+    },
+    {
+      "avg_best_score": 13.076923,
+      "best_score_total": 340.0,
+      "breakpoint_hits": 1,
+      "breakpoint_rate": 0.038462,
+      "bucket": "account_stage:late_midgame|scenario:scenario_pet_xeno|inventory_size_bucket:4-8|damage_stage:300-700k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:True|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+      "chain_simulator_runs": 0,
+      "chain_step_hits": 1,
+      "chain_step_rate": 0.038462,
+      "combos": {
+        "core_selector+astral_forge": {
+          "average_value": 90.0,
+          "combo_id": "core_selector+astral_forge",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "low",
+          "evidence_count": 1,
+          "example_profile_ids": [
+            "synthetic_late_midgame_00000032_608362357"
+          ],
+          "tried_count": 1,
+          "value_total": 90.0,
+          "when_bad": {},
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 1
+        },
+        "multiple_resources+same_breakpoint": {
+          "average_value": 13.076923,
+          "combo_id": "multiple_resources+same_breakpoint",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "medium",
+          "evidence_count": 26,
+          "example_profile_ids": [
+            "synthetic_late_midgame_00000032_608362357",
+            "synthetic_late_midgame_00000032_608362357",
+            "synthetic_late_midgame_00000032_608362357",
+            "synthetic_late_midgame_00000032_608362357",
+            "synthetic_late_midgame_00000032_608362357"
+          ],
+          "tried_count": 26,
+          "value_total": 340.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 1
+        },
+        "pet_chest+xeno_core": {
+          "average_value": 13.076923,
+          "combo_id": "pet_chest+xeno_core",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "medium",
+          "evidence_count": 26,
+          "example_profile_ids": [
+            "synthetic_late_midgame_00000032_608362357",
+            "synthetic_late_midgame_00000032_608362357",
+            "synthetic_late_midgame_00000032_608362357",
+            "synthetic_late_midgame_00000032_608362357",
+            "synthetic_late_midgame_00000032_608362357"
+          ],
+          "tried_count": 26,
+          "value_total": 340.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 26
+        }
+      },
+      "commonly_pruned": {},
+      "confidence": "medium",
+      "false_prune_rate": 0.0,
+      "false_prunes": 0,
+      "features": {
+        "account_stage": "late_midgame",
+        "close_to_astral_forge_breakpoint": false,
+        "close_to_collectible_set_breakpoint": false,
+        "close_to_survivor_breakpoint": false,
+        "close_to_tech_resonance_breakpoint": false,
+        "close_to_xeno_breakpoint": false,
+        "current_best_action_system": "pet",
+        "damage_stage": "300-700k",
+        "has_collectible_chest": false,
+        "has_core_selector_chest": true,
+        "has_event_clan_currency": true,
+        "has_major_selector_chest": true,
+        "has_many_rare_resources": true,
+        "has_pet_chest": false,
+        "has_xeno_unlocked": false,
+        "inventory_size_bucket": "4-8",
+        "scenario": "scenario_pet_xeno",
+        "unsupported_missing_data_bucket": "0"
+      },
+      "full_search_audits": 0,
+      "global_planner_runs": 26,
+      "global_save_hold_hits": 0,
+      "global_save_hold_rate": 0.0,
+      "needs_more_deep_exploration": true,
+      "notes": [],
+      "prune_hint": "learning",
+      "pruned_but_later_good": {},
+      "samples": 26,
+      "self_consistency_rate": 1.0,
+      "self_consistent_hits": 26,
+      "systems": {
+        "core_selector": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 0.0,
+          "system": "core_selector",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        },
+        "merge": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 0.0,
+          "system": "merge",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        },
+        "pet": {
+          "average_chain_value": 0.076923,
+          "average_marginal_value": 0.076923,
+          "average_score": 13.076923,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.038462,
+          "breakpoint_hits": 1,
+          "chain_value_total": 2.0,
+          "confidence": "medium",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 26,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 340.0,
+          "system": "pet",
+          "top_3_count": 0,
+          "tried_count": 26,
+          "win_count": 26
+        },
+        "save_hold": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 1,
+          "save_recommendation_rate": 1.0,
+          "score_total": 0.0,
+          "system": "save_hold",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        }
+      },
+      "top_systems": [
+        "pet",
+        "core_selector",
+        "merge",
+        "save_hold"
+      ],
+      "weak_systems": []
+    },
+    {
+      "avg_best_score": 13.076923,
+      "best_score_total": 340.0,
+      "breakpoint_hits": 1,
+      "breakpoint_rate": 0.038462,
+      "bucket": "account_stage:midgame|scenario:scenario_collectibles|inventory_size_bucket:4-8|damage_stage:150-300k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+      "chain_simulator_runs": 0,
+      "chain_step_hits": 1,
+      "chain_step_rate": 0.038462,
+      "combos": {
+        "core_selector+astral_forge": {
+          "average_value": 90.0,
+          "combo_id": "core_selector+astral_forge",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "low",
+          "evidence_count": 1,
+          "example_profile_ids": [
+            "synthetic_midgame_00000009_976073286"
+          ],
+          "tried_count": 1,
+          "value_total": 90.0,
+          "when_bad": {},
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 1
+        },
+        "multiple_resources+same_breakpoint": {
+          "average_value": 13.076923,
+          "combo_id": "multiple_resources+same_breakpoint",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "medium",
+          "evidence_count": 26,
+          "example_profile_ids": [
+            "synthetic_midgame_00000009_976073286",
+            "synthetic_midgame_00000009_976073286",
+            "synthetic_midgame_00000009_976073286",
+            "synthetic_midgame_00000009_976073286",
+            "synthetic_midgame_00000009_976073286"
+          ],
+          "tried_count": 26,
+          "value_total": 340.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 1
+        },
+        "pet_chest+xeno_core": {
+          "average_value": 13.076923,
+          "combo_id": "pet_chest+xeno_core",
+          "common_warnings": {
+            "Astral cores reach a possible SS or astral breakpoint.": 1,
+            "Guide rule: Xeno Core is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.": 1,
+            "Xeno cores reach a useful long-term xeno progression threshold.": 1
+          },
+          "confidence": "medium",
+          "evidence_count": 26,
+          "example_profile_ids": [
+            "synthetic_midgame_00000009_976073286",
+            "synthetic_midgame_00000009_976073286",
+            "synthetic_midgame_00000009_976073286",
+            "synthetic_midgame_00000009_976073286",
+            "synthetic_midgame_00000009_976073286"
+          ],
+          "tried_count": 26,
+          "value_total": 340.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {
+            "breakpoint_reason": 1
+          },
+          "win_count": 26
+        }
+      },
+      "commonly_pruned": {},
+      "confidence": "medium",
+      "false_prune_rate": 0.0,
+      "false_prunes": 0,
+      "features": {
+        "account_stage": "midgame",
+        "close_to_astral_forge_breakpoint": false,
+        "close_to_collectible_set_breakpoint": false,
+        "close_to_survivor_breakpoint": false,
+        "close_to_tech_resonance_breakpoint": false,
+        "close_to_xeno_breakpoint": false,
+        "current_best_action_system": "pet",
+        "damage_stage": "150-300k",
+        "has_collectible_chest": false,
+        "has_core_selector_chest": true,
+        "has_event_clan_currency": true,
+        "has_major_selector_chest": true,
+        "has_many_rare_resources": false,
+        "has_pet_chest": false,
+        "has_xeno_unlocked": false,
+        "inventory_size_bucket": "4-8",
+        "scenario": "scenario_collectibles",
+        "unsupported_missing_data_bucket": "0"
+      },
+      "full_search_audits": 0,
+      "global_planner_runs": 26,
+      "global_save_hold_hits": 0,
+      "global_save_hold_rate": 0.0,
+      "needs_more_deep_exploration": true,
+      "notes": [],
+      "prune_hint": "learning",
+      "pruned_but_later_good": {},
+      "samples": 26,
+      "self_consistency_rate": 1.0,
+      "self_consistent_hits": 26,
+      "systems": {
+        "core_selector": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 0.0,
+          "system": "core_selector",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        },
+        "merge": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 0.0,
+          "system": "merge",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        },
+        "pet": {
+          "average_chain_value": 0.076923,
+          "average_marginal_value": 0.076923,
+          "average_score": 13.076923,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.038462,
+          "breakpoint_hits": 1,
+          "chain_value_total": 2.0,
+          "confidence": "medium",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 26,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 340.0,
+          "system": "pet",
+          "top_3_count": 0,
+          "tried_count": 26,
+          "win_count": 26
+        },
+        "save_hold": {
+          "average_chain_value": 2.0,
+          "average_marginal_value": 2.0,
+          "average_score": 0.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 2.0,
+          "confidence": "low",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 1,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:17Z",
+          "marginal_value_total": 2.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 1,
+          "save_recommendation_rate": 1.0,
+          "score_total": 0.0,
+          "system": "save_hold",
+          "top_3_count": 0,
+          "tried_count": 1,
+          "win_count": 0
+        }
+      },
+      "top_systems": [
+        "pet",
+        "core_selector",
+        "merge",
+        "save_hold"
+      ],
+      "weak_systems": []
+    },
+    {
+      "avg_best_score": 10.0,
+      "best_score_total": 250.0,
+      "breakpoint_hits": 0,
+      "breakpoint_rate": 0.0,
+      "bucket": "account_stage:beginner|scenario:scenario_chapter_push|inventory_size_bucket:0-3|damage_stage:0-50k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+      "chain_simulator_runs": 0,
+      "chain_step_hits": 0,
+      "chain_step_rate": 0.0,
+      "combos": {},
+      "commonly_pruned": {},
+      "confidence": "medium",
+      "false_prune_rate": 0.0,
+      "false_prunes": 0,
+      "features": {
+        "account_stage": "beginner",
+        "close_to_astral_forge_breakpoint": false,
+        "close_to_collectible_set_breakpoint": false,
+        "close_to_survivor_breakpoint": false,
+        "close_to_tech_resonance_breakpoint": false,
+        "close_to_xeno_breakpoint": false,
+        "current_best_action_system": "pet",
+        "damage_stage": "0-50k",
+        "has_collectible_chest": false,
+        "has_core_selector_chest": true,
+        "has_event_clan_currency": true,
+        "has_major_selector_chest": true,
+        "has_many_rare_resources": false,
+        "has_pet_chest": false,
+        "has_xeno_unlocked": false,
+        "inventory_size_bucket": "0-3",
+        "scenario": "scenario_chapter_push",
+        "unsupported_missing_data_bucket": "0"
+      },
+      "full_search_audits": 0,
+      "global_planner_runs": 25,
+      "global_save_hold_hits": 0,
+      "global_save_hold_rate": 0.0,
+      "needs_more_deep_exploration": true,
+      "notes": [],
+      "prune_hint": "learning",
+      "pruned_but_later_good": {},
+      "samples": 25,
+      "self_consistency_rate": 1.0,
+      "self_consistent_hits": 25,
+      "systems": {
+        "pet": {
+          "average_chain_value": 0.0,
+          "average_marginal_value": 0.0,
+          "average_score": 10.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 0.0,
+          "confidence": "medium",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 25,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:07Z",
+          "marginal_value_total": 0.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 250.0,
+          "system": "pet",
+          "top_3_count": 0,
+          "tried_count": 25,
+          "win_count": 25
+        }
+      },
+      "top_systems": [
+        "pet"
+      ],
+      "weak_systems": []
+    },
+    {
+      "avg_best_score": 10.0,
+      "best_score_total": 250.0,
+      "breakpoint_hits": 0,
+      "breakpoint_rate": 0.0,
+      "bucket": "account_stage:beginner|scenario:scenario_event_shop|inventory_size_bucket:0-3|damage_stage:0-50k|has_xeno_unlocked:False|close_to_xeno_breakpoint:True|close_to_astral_forge_breakpoint:True|close_to_tech_resonance_breakpoint:True|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+      "chain_simulator_runs": 0,
+      "chain_step_hits": 0,
+      "chain_step_rate": 0.0,
+      "combos": {
+        "multiple_resources+same_breakpoint": {
+          "average_value": 10.0,
+          "combo_id": "multiple_resources+same_breakpoint",
+          "common_warnings": {},
+          "confidence": "medium",
+          "evidence_count": 25,
+          "example_profile_ids": [
+            "synthetic_beginner_00000024_560001574",
+            "synthetic_beginner_00000024_560001574",
+            "synthetic_beginner_00000024_560001574",
+            "synthetic_beginner_00000024_560001574",
+            "synthetic_beginner_00000024_560001574"
+          ],
+          "tried_count": 25,
+          "value_total": 250.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {},
+          "win_count": 0
+        },
+        "pet_chest+xeno_core": {
+          "average_value": 10.0,
+          "combo_id": "pet_chest+xeno_core",
+          "common_warnings": {},
+          "confidence": "medium",
+          "evidence_count": 25,
+          "example_profile_ids": [
+            "synthetic_beginner_00000024_560001574",
+            "synthetic_beginner_00000024_560001574",
+            "synthetic_beginner_00000024_560001574",
+            "synthetic_beginner_00000024_560001574",
+            "synthetic_beginner_00000024_560001574"
+          ],
+          "tried_count": 25,
+          "value_total": 250.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {},
+          "win_count": 25
+        },
+        "xeno_requirement_close+epic_pet_chest": {
+          "average_value": 10.0,
+          "combo_id": "xeno_requirement_close+epic_pet_chest",
+          "common_warnings": {},
+          "confidence": "medium",
+          "evidence_count": 25,
+          "example_profile_ids": [
+            "synthetic_beginner_00000024_560001574",
+            "synthetic_beginner_00000024_560001574",
+            "synthetic_beginner_00000024_560001574",
+            "synthetic_beginner_00000024_560001574",
+            "synthetic_beginner_00000024_560001574"
+          ],
+          "tried_count": 25,
+          "value_total": 250.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {},
+          "win_count": 25
+        }
+      },
+      "commonly_pruned": {},
+      "confidence": "medium",
+      "false_prune_rate": 0.0,
+      "false_prunes": 0,
+      "features": {
+        "account_stage": "beginner",
+        "close_to_astral_forge_breakpoint": true,
+        "close_to_collectible_set_breakpoint": false,
+        "close_to_survivor_breakpoint": false,
+        "close_to_tech_resonance_breakpoint": true,
+        "close_to_xeno_breakpoint": true,
+        "current_best_action_system": "pet",
+        "damage_stage": "0-50k",
+        "has_collectible_chest": false,
+        "has_core_selector_chest": true,
+        "has_event_clan_currency": true,
+        "has_major_selector_chest": true,
+        "has_many_rare_resources": false,
+        "has_pet_chest": false,
+        "has_xeno_unlocked": false,
+        "inventory_size_bucket": "0-3",
+        "scenario": "scenario_event_shop",
+        "unsupported_missing_data_bucket": "0"
+      },
+      "full_search_audits": 0,
+      "global_planner_runs": 25,
+      "global_save_hold_hits": 0,
+      "global_save_hold_rate": 0.0,
+      "needs_more_deep_exploration": true,
+      "notes": [],
+      "prune_hint": "learning",
+      "pruned_but_later_good": {},
+      "samples": 25,
+      "self_consistency_rate": 1.0,
+      "self_consistent_hits": 25,
+      "systems": {
+        "pet": {
+          "average_chain_value": 0.0,
+          "average_marginal_value": 0.0,
+          "average_score": 10.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 0.0,
+          "confidence": "medium",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 25,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:07Z",
+          "marginal_value_total": 0.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 250.0,
+          "system": "pet",
+          "top_3_count": 0,
+          "tried_count": 25,
+          "win_count": 25
+        }
+      },
+      "top_systems": [
+        "pet"
+      ],
+      "weak_systems": []
+    },
+    {
+      "avg_best_score": 10.0,
+      "best_score_total": 250.0,
+      "breakpoint_hits": 0,
+      "breakpoint_rate": 0.0,
+      "bucket": "account_stage:beginner|scenario:scenario_event_shop|inventory_size_bucket:4-8|damage_stage:0-50k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+      "chain_simulator_runs": 0,
+      "chain_step_hits": 0,
+      "chain_step_rate": 0.0,
+      "combos": {
+        "multiple_resources+same_breakpoint": {
+          "average_value": 10.0,
+          "combo_id": "multiple_resources+same_breakpoint",
+          "common_warnings": {},
+          "confidence": "medium",
+          "evidence_count": 25,
+          "example_profile_ids": [
+            "synthetic_beginner_00000025_349051088",
+            "synthetic_beginner_00000025_349051088",
+            "synthetic_beginner_00000025_349051088",
+            "synthetic_beginner_00000025_349051088",
+            "synthetic_beginner_00000025_349051088"
+          ],
+          "tried_count": 25,
+          "value_total": 250.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {},
+          "win_count": 0
+        },
+        "pet_chest+xeno_core": {
+          "average_value": 10.0,
+          "combo_id": "pet_chest+xeno_core",
+          "common_warnings": {},
+          "confidence": "medium",
+          "evidence_count": 25,
+          "example_profile_ids": [
+            "synthetic_beginner_00000025_349051088",
+            "synthetic_beginner_00000025_349051088",
+            "synthetic_beginner_00000025_349051088",
+            "synthetic_beginner_00000025_349051088",
+            "synthetic_beginner_00000025_349051088"
+          ],
+          "tried_count": 25,
+          "value_total": 250.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {},
+          "win_count": 25
+        }
+      },
+      "commonly_pruned": {},
+      "confidence": "medium",
+      "false_prune_rate": 0.0,
+      "false_prunes": 0,
+      "features": {
+        "account_stage": "beginner",
+        "close_to_astral_forge_breakpoint": false,
+        "close_to_collectible_set_breakpoint": false,
+        "close_to_survivor_breakpoint": false,
+        "close_to_tech_resonance_breakpoint": false,
+        "close_to_xeno_breakpoint": false,
+        "current_best_action_system": "pet",
+        "damage_stage": "0-50k",
+        "has_collectible_chest": false,
+        "has_core_selector_chest": true,
+        "has_event_clan_currency": true,
+        "has_major_selector_chest": true,
+        "has_many_rare_resources": false,
+        "has_pet_chest": false,
+        "has_xeno_unlocked": false,
+        "inventory_size_bucket": "4-8",
+        "scenario": "scenario_event_shop",
+        "unsupported_missing_data_bucket": "0"
+      },
+      "full_search_audits": 0,
+      "global_planner_runs": 25,
+      "global_save_hold_hits": 0,
+      "global_save_hold_rate": 0.0,
+      "needs_more_deep_exploration": true,
+      "notes": [],
+      "prune_hint": "learning",
+      "pruned_but_later_good": {},
+      "samples": 25,
+      "self_consistency_rate": 1.0,
+      "self_consistent_hits": 25,
+      "systems": {
+        "pet": {
+          "average_chain_value": 0.0,
+          "average_marginal_value": 0.0,
+          "average_score": 10.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 0.0,
+          "confidence": "medium",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 25,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:07Z",
+          "marginal_value_total": 0.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 250.0,
+          "system": "pet",
+          "top_3_count": 0,
+          "tried_count": 25,
+          "win_count": 25
+        }
+      },
+      "top_systems": [
+        "pet"
+      ],
+      "weak_systems": []
+    },
+    {
+      "avg_best_score": 10.0,
+      "best_score_total": 250.0,
+      "breakpoint_hits": 0,
+      "breakpoint_rate": 0.0,
+      "bucket": "account_stage:beginner|scenario:scenario_f2p_gems|inventory_size_bucket:0-3|damage_stage:0-50k|has_xeno_unlocked:False|close_to_xeno_breakpoint:True|close_to_astral_forge_breakpoint:True|close_to_tech_resonance_breakpoint:True|close_to_collectible_set_breakpoint:True|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+      "chain_simulator_runs": 0,
+      "chain_step_hits": 0,
+      "chain_step_rate": 0.0,
+      "combos": {
+        "multiple_resources+same_breakpoint": {
+          "average_value": 10.0,
+          "combo_id": "multiple_resources+same_breakpoint",
+          "common_warnings": {},
+          "confidence": "medium",
+          "evidence_count": 25,
+          "example_profile_ids": [
+            "synthetic_beginner_00000018_730709515",
+            "synthetic_beginner_00000018_730709515",
+            "synthetic_beginner_00000018_730709515",
+            "synthetic_beginner_00000018_730709515",
+            "synthetic_beginner_00000018_730709515"
+          ],
+          "tried_count": 25,
+          "value_total": 250.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {},
+          "win_count": 0
+        },
+        "pet_chest+xeno_core": {
+          "average_value": 10.0,
+          "combo_id": "pet_chest+xeno_core",
+          "common_warnings": {},
+          "confidence": "medium",
+          "evidence_count": 25,
+          "example_profile_ids": [
+            "synthetic_beginner_00000018_730709515",
+            "synthetic_beginner_00000018_730709515",
+            "synthetic_beginner_00000018_730709515",
+            "synthetic_beginner_00000018_730709515",
+            "synthetic_beginner_00000018_730709515"
+          ],
+          "tried_count": 25,
+          "value_total": 250.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {},
+          "win_count": 25
+        },
+        "xeno_requirement_close+epic_pet_chest": {
+          "average_value": 10.0,
+          "combo_id": "xeno_requirement_close+epic_pet_chest",
+          "common_warnings": {},
+          "confidence": "medium",
+          "evidence_count": 25,
+          "example_profile_ids": [
+            "synthetic_beginner_00000018_730709515",
+            "synthetic_beginner_00000018_730709515",
+            "synthetic_beginner_00000018_730709515",
+            "synthetic_beginner_00000018_730709515",
+            "synthetic_beginner_00000018_730709515"
+          ],
+          "tried_count": 25,
+          "value_total": 250.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {},
+          "win_count": 25
+        }
+      },
+      "commonly_pruned": {},
+      "confidence": "medium",
+      "false_prune_rate": 0.0,
+      "false_prunes": 0,
+      "features": {
+        "account_stage": "beginner",
+        "close_to_astral_forge_breakpoint": true,
+        "close_to_collectible_set_breakpoint": true,
+        "close_to_survivor_breakpoint": false,
+        "close_to_tech_resonance_breakpoint": true,
+        "close_to_xeno_breakpoint": true,
+        "current_best_action_system": "pet",
+        "damage_stage": "0-50k",
+        "has_collectible_chest": false,
+        "has_core_selector_chest": true,
+        "has_event_clan_currency": true,
+        "has_major_selector_chest": true,
+        "has_many_rare_resources": false,
+        "has_pet_chest": false,
+        "has_xeno_unlocked": false,
+        "inventory_size_bucket": "0-3",
+        "scenario": "scenario_f2p_gems",
+        "unsupported_missing_data_bucket": "0"
+      },
+      "full_search_audits": 0,
+      "global_planner_runs": 25,
+      "global_save_hold_hits": 0,
+      "global_save_hold_rate": 0.0,
+      "needs_more_deep_exploration": true,
+      "notes": [],
+      "prune_hint": "learning",
+      "pruned_but_later_good": {},
+      "samples": 25,
+      "self_consistency_rate": 1.0,
+      "self_consistent_hits": 25,
+      "systems": {
+        "pet": {
+          "average_chain_value": 0.0,
+          "average_marginal_value": 0.0,
+          "average_score": 10.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 0.0,
+          "confidence": "medium",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 25,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:07Z",
+          "marginal_value_total": 0.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 250.0,
+          "system": "pet",
+          "top_3_count": 0,
+          "tried_count": 25,
+          "win_count": 25
+        }
+      },
+      "top_systems": [
+        "pet"
+      ],
+      "weak_systems": []
+    },
+    {
+      "avg_best_score": 10.0,
+      "best_score_total": 250.0,
+      "breakpoint_hits": 0,
+      "breakpoint_rate": 0.0,
+      "bucket": "account_stage:beginner|scenario:scenario_gear_ss|inventory_size_bucket:0-3|damage_stage:0-50k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:True|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+      "chain_simulator_runs": 0,
+      "chain_step_hits": 0,
+      "chain_step_rate": 0.0,
+      "combos": {},
+      "commonly_pruned": {},
+      "confidence": "medium",
+      "false_prune_rate": 0.0,
+      "false_prunes": 0,
+      "features": {
+        "account_stage": "beginner",
+        "close_to_astral_forge_breakpoint": true,
+        "close_to_collectible_set_breakpoint": false,
+        "close_to_survivor_breakpoint": false,
+        "close_to_tech_resonance_breakpoint": false,
+        "close_to_xeno_breakpoint": false,
+        "current_best_action_system": "pet",
+        "damage_stage": "0-50k",
+        "has_collectible_chest": false,
+        "has_core_selector_chest": true,
+        "has_event_clan_currency": true,
+        "has_major_selector_chest": true,
+        "has_many_rare_resources": false,
+        "has_pet_chest": false,
+        "has_xeno_unlocked": false,
+        "inventory_size_bucket": "0-3",
+        "scenario": "scenario_gear_ss",
+        "unsupported_missing_data_bucket": "0"
+      },
+      "full_search_audits": 0,
+      "global_planner_runs": 25,
+      "global_save_hold_hits": 0,
+      "global_save_hold_rate": 0.0,
+      "needs_more_deep_exploration": true,
+      "notes": [],
+      "prune_hint": "learning",
+      "pruned_but_later_good": {},
+      "samples": 25,
+      "self_consistency_rate": 1.0,
+      "self_consistent_hits": 25,
+      "systems": {
+        "pet": {
+          "average_chain_value": 0.0,
+          "average_marginal_value": 0.0,
+          "average_score": 10.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 0.0,
+          "confidence": "medium",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 25,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:07Z",
+          "marginal_value_total": 0.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 250.0,
+          "system": "pet",
+          "top_3_count": 0,
+          "tried_count": 25,
+          "win_count": 25
+        }
+      },
+      "top_systems": [
+        "pet"
+      ],
+      "weak_systems": []
+    },
+    {
+      "avg_best_score": 10.0,
+      "best_score_total": 250.0,
+      "breakpoint_hits": 0,
+      "breakpoint_rate": 0.0,
+      "bucket": "account_stage:beginner|scenario:scenario_gear_ss|inventory_size_bucket:4-8|damage_stage:0-50k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:True|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:False|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:False|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+      "chain_simulator_runs": 0,
+      "chain_step_hits": 0,
+      "chain_step_rate": 0.0,
+      "combos": {
+        "multiple_resources+same_breakpoint": {
+          "average_value": 10.0,
+          "combo_id": "multiple_resources+same_breakpoint",
+          "common_warnings": {},
+          "confidence": "medium",
+          "evidence_count": 25,
+          "example_profile_ids": [
+            "synthetic_beginner_00000034_433987508",
+            "synthetic_beginner_00000034_433987508",
+            "synthetic_beginner_00000034_433987508",
+            "synthetic_beginner_00000034_433987508",
+            "synthetic_beginner_00000034_433987508"
+          ],
+          "tried_count": 25,
+          "value_total": 250.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {},
+          "win_count": 0
+        }
+      },
+      "commonly_pruned": {},
+      "confidence": "medium",
+      "false_prune_rate": 0.0,
+      "false_prunes": 0,
+      "features": {
+        "account_stage": "beginner",
+        "close_to_astral_forge_breakpoint": false,
+        "close_to_collectible_set_breakpoint": false,
+        "close_to_survivor_breakpoint": false,
+        "close_to_tech_resonance_breakpoint": true,
+        "close_to_xeno_breakpoint": false,
+        "current_best_action_system": "pet",
+        "damage_stage": "0-50k",
+        "has_collectible_chest": false,
+        "has_core_selector_chest": false,
+        "has_event_clan_currency": true,
+        "has_major_selector_chest": false,
+        "has_many_rare_resources": false,
+        "has_pet_chest": false,
+        "has_xeno_unlocked": false,
+        "inventory_size_bucket": "4-8",
+        "scenario": "scenario_gear_ss",
+        "unsupported_missing_data_bucket": "0"
+      },
+      "full_search_audits": 0,
+      "global_planner_runs": 25,
+      "global_save_hold_hits": 0,
+      "global_save_hold_rate": 0.0,
+      "needs_more_deep_exploration": true,
+      "notes": [],
+      "prune_hint": "learning",
+      "pruned_but_later_good": {},
+      "samples": 25,
+      "self_consistency_rate": 1.0,
+      "self_consistent_hits": 25,
+      "systems": {
+        "pet": {
+          "average_chain_value": 0.0,
+          "average_marginal_value": 0.0,
+          "average_score": 10.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 0.0,
+          "confidence": "medium",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 25,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:07Z",
+          "marginal_value_total": 0.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 250.0,
+          "system": "pet",
+          "top_3_count": 0,
+          "tried_count": 25,
+          "win_count": 25
+        }
+      },
+      "top_systems": [
+        "pet"
+      ],
+      "weak_systems": []
+    },
+    {
+      "avg_best_score": 10.0,
+      "best_score_total": 250.0,
+      "breakpoint_hits": 0,
+      "breakpoint_rate": 0.0,
+      "bucket": "account_stage:early_midgame|scenario:scenario_chapter_push|inventory_size_bucket:4-8|damage_stage:50-150k|has_xeno_unlocked:False|close_to_xeno_breakpoint:True|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+      "chain_simulator_runs": 0,
+      "chain_step_hits": 0,
+      "chain_step_rate": 0.0,
+      "combos": {
+        "multiple_resources+same_breakpoint": {
+          "average_value": 10.0,
+          "combo_id": "multiple_resources+same_breakpoint",
+          "common_warnings": {},
+          "confidence": "medium",
+          "evidence_count": 25,
+          "example_profile_ids": [
+            "synthetic_early_midgame_00000015_967884983",
+            "synthetic_early_midgame_00000015_967884983",
+            "synthetic_early_midgame_00000015_967884983",
+            "synthetic_early_midgame_00000015_967884983",
+            "synthetic_early_midgame_00000015_967884983"
+          ],
+          "tried_count": 25,
+          "value_total": 250.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {},
+          "win_count": 0
+        },
+        "pet_chest+xeno_core": {
+          "average_value": 10.0,
+          "combo_id": "pet_chest+xeno_core",
+          "common_warnings": {},
+          "confidence": "medium",
+          "evidence_count": 25,
+          "example_profile_ids": [
+            "synthetic_early_midgame_00000015_967884983",
+            "synthetic_early_midgame_00000015_967884983",
+            "synthetic_early_midgame_00000015_967884983",
+            "synthetic_early_midgame_00000015_967884983",
+            "synthetic_early_midgame_00000015_967884983"
+          ],
+          "tried_count": 25,
+          "value_total": 250.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {},
+          "win_count": 25
+        },
+        "xeno_requirement_close+epic_pet_chest": {
+          "average_value": 10.0,
+          "combo_id": "xeno_requirement_close+epic_pet_chest",
+          "common_warnings": {},
+          "confidence": "medium",
+          "evidence_count": 25,
+          "example_profile_ids": [
+            "synthetic_early_midgame_00000015_967884983",
+            "synthetic_early_midgame_00000015_967884983",
+            "synthetic_early_midgame_00000015_967884983",
+            "synthetic_early_midgame_00000015_967884983",
+            "synthetic_early_midgame_00000015_967884983"
+          ],
+          "tried_count": 25,
+          "value_total": 250.0,
+          "when_bad": {
+            "no_breakpoint": 25
+          },
+          "when_good": {},
+          "win_count": 25
+        }
+      },
+      "commonly_pruned": {},
+      "confidence": "medium",
+      "false_prune_rate": 0.0,
+      "false_prunes": 0,
+      "features": {
+        "account_stage": "early_midgame",
+        "close_to_astral_forge_breakpoint": false,
+        "close_to_collectible_set_breakpoint": false,
+        "close_to_survivor_breakpoint": false,
+        "close_to_tech_resonance_breakpoint": false,
+        "close_to_xeno_breakpoint": true,
+        "current_best_action_system": "pet",
+        "damage_stage": "50-150k",
+        "has_collectible_chest": false,
+        "has_core_selector_chest": true,
+        "has_event_clan_currency": true,
+        "has_major_selector_chest": true,
+        "has_many_rare_resources": false,
+        "has_pet_chest": false,
+        "has_xeno_unlocked": false,
+        "inventory_size_bucket": "4-8",
+        "scenario": "scenario_chapter_push",
+        "unsupported_missing_data_bucket": "0"
+      },
+      "full_search_audits": 0,
+      "global_planner_runs": 25,
+      "global_save_hold_hits": 0,
+      "global_save_hold_rate": 0.0,
+      "needs_more_deep_exploration": true,
+      "notes": [],
+      "prune_hint": "learning",
+      "pruned_but_later_good": {},
+      "samples": 25,
+      "self_consistency_rate": 1.0,
+      "self_consistent_hits": 25,
+      "systems": {
+        "pet": {
+          "average_chain_value": 0.0,
+          "average_marginal_value": 0.0,
+          "average_score": 10.0,
+          "avoid_count": 0,
+          "breakpoint_hit_rate": 0.0,
+          "breakpoint_hits": 0,
+          "chain_value_total": 0.0,
+          "confidence": "medium",
+          "destructive_action_block_hits": 0,
+          "destructive_action_block_rate": 0.0,
+          "evidence_count": 25,
+          "false_prune_hits": 0,
+          "last_updated": "2026-06-23T16:02:07Z",
+          "marginal_value_total": 0.0,
+          "resource_waste_hits": 0,
+          "resource_waste_rate": 0.0,
+          "save_recommendation_hits": 0,
+          "save_recommendation_rate": 0.0,
+          "score_total": 250.0,
+          "system": "pet",
+          "top_3_count": 0,
+          "tried_count": 25,
+          "win_count": 25
+        }
+      },
+      "top_systems": [
+        "pet"
+      ],
+      "weak_systems": []
+    }
+  ],
+  "total_samples": 1040
+}

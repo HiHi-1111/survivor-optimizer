@@ -1,0 +1,27 @@
+Debuff = Bleed, Laceration​
+ Mechanic = Hit count trigger​
+ Trigger = Every 500 attacks, reduced by awakenings​
+ DamageType = Lacerated target damage​
+ GlobalValue = Crit Rate at 5-star​
+ TeamworkSlot = A4 and A6​
+ DPSRelevant = High 
+ 
+April 
+Main association 
+April is associated with: 
+Soundwave Balls / Mega Soundwave Balls / Vulnerability / Pet ATK / Pet 
+HP / Reporter Snapshot 
+April matters because she connects survivor awakening + pet damage + vulnerability. 
+Yellow-star upgrades 
+1-star 
+●​ Exclusive weapon: Microphone 
+●​ April fires soundwave balls at enemies. 
+●​ Can evolve into Mega Soundwave Balls. 
+2-star 
+●​ Survivor License: 
+○​ Survivor ATK +400 
+○​ Survivor HP +2000 
+3-star 
+●​ Increased Volume 
+●​ Soundwave Ball damage +30%. 
+●​ Survivor HP +20%.

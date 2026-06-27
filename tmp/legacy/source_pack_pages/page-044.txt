@@ -1,0 +1,30 @@
+Cooldown: 1 second 
+Built-in skill themes 
+Dog/Rex is associated with: 
+Owner Crit Rate 
+Owner Crit Damage 
+Pet movement speed 
+Pet HP absorb 
+Damage transfer 
+Visible pet effects include: 
+Owner Crit Rate +3% 
+Owner Crit Damage +6% 
+Pet movement speed +75% 
+Pet HP absorb from attacks +2% 
+Takes 30% damage in place of owner 
+Rex awakening guide 
+The Rex guide recommends assist skills: 
+Raid* 
+Strong 
+Anything 
+Disposition: 
+Hot-blooded 
+Battler 
+Rex shares the same key owner-buff skills as Croaky: 
+Battle Lust 
+Diligence 
+Encouragement 
+Inspiration 
+Motivation 
+Vampirism 
+Optimizer notes

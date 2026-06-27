@@ -1,0 +1,40 @@
+- Augment Wingbit 
+- Best normal resonance path before Twinborn Destroyer 
+ 
+Normal RPG: 
+- C4 explosion scaling 
+- C4 Chill 
+- Sharkmaw Gun damage 
+ 
+Normal Molotov: 
+- Soulfire generation 
+- Poison effect 
+- Deep Wound 
+- Fuel Barrel fire damage 
+Highest-value DPS fields added 
+PoisonDamage 
+ChillDamage 
+CritDamage 
+ShieldDamage 
+SkillDamage 
+DeepWound 
+DamageToPoisonedTargets 
+DamageToChilledTargets 
+AttackWingbitCount 
+AugmentWingbitCount 
+C4ExplosionRadius 
+C4ExplosionDelay 
+SoulfireGenerated 
+Recommendation logic update 
+If player has no Twinborn: 
+   Normal Drone Resonance is very important. 
+ 
+If player has Twinborn Drone/Forcefield: 
+   Shift priority away from normal Drone resonance into Twinborn resonance/overload. 
+ 
+If player is choosing between normal RPG/Molotov resonance and Twinborn: 
+   Prefer Twinborn paths unless the player is too early to unlock them. 
+ 
+Twinborn Durian/Soccer: 
+   Store fully, but rank lower than Drone/Forcefield, Drill/RPG, Lightning/Boomerang, 
+Laser/Guardian, and Molotov/Bri

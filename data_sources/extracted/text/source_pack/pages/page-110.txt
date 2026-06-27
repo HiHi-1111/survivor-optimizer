@@ -1,0 +1,28 @@
+Skills are needed because tech parts, drones, resonance, survivor skills, and SS gear modify 
+them. 
+Unlock requirement 
+Some skills are chapter-unlocked: 
+Durian = Chapter 4 after winning 
+Laser Launcher = Chapter 4 after winning 
+Modular Mine = Chapter 10 after losing 
+Thunderbolt Bomb = Chapter 10 after losing 
+Inferno Bomb = Chapter 10 after losing 
+Optimizer rule 
+Skills should be stored as: 
+SkillName 
+EvoName 
+PassiveRequired 
+BaseFunction 
+TechPartAssociation 
+ResonanceAssociation 
+DPSRole 
+MapClearValue 
+BossValue 
+ 
+18. Wishlist probabilities 
+Source: 
+Wishlist_Probabilities_2024-11-28 
+What it does 
+Shows odds/probabilities for wishlist pulls. 
+Unlock requirement 
+Requires the relevant chest/wishlist system to be available.

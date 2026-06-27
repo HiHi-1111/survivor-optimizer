@@ -1,0 +1,25 @@
+[
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_16bef1ce4b95f70c59036e2c",
+    "name": "aire.pdf",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "aire.pdf",
+    "source_refs": [
+      "aire.pdf"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "unknown"
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+- SS forge materials 
+- Salvage cores 
+- Wishlist/selector strategy 
+This warning is directly supported by the equipment guide text. 
+Astral Forge unlock 
+Requires at least 1 Legendary gear. 
+Only Legendary and SS gear can be Astral Forged. 
+Astral Forge requirement rules 
+Gear type 
+Requirement 
+Non-S Legendary Epic S gear from same slot category + matching fragments 
+S Legendary 
+Extra Epic copy of same S item + matching fragments 
+SS Gear 
+Relic cores + faction cores/fragments + gear/fodder 
+requirements 
+Chaos Forge 
+Unlock Chaos Forge when SS gear has 3 total Eternal/Void forge levels. 
+Chaos level cannot exceed total Eternal + Void level. 
+Chaos Fusion Power is based on total Chaos Forge levels across SS gear. 
+ 
+5. Normal Gear Effects — Equipment slot 
+extraction 
+Sources: 
+Weapons_V2_2_2024-11-28 
+Necklaces_V2_2024-11-28 
+Eternal_Necklace_2024-11-28 
+Gloves_V2_2024-11-28 
+Armor_V2_2024-11-28 
+Belts_V2_2024-11-28 
+Boots_V2_2024-11-28 
+Equipment guide text

@@ -1,0 +1,23 @@
+{
+  "cycle": 7,
+  "difficulty": 32,
+  "trap_strength": 125000000,
+  "random_cases": 3600,
+  "best_pass_streak": 2,
+  "total_failures_found": 0,
+  "created_at": 1782512810.288253,
+  "pass_streak": 2,
+  "speed_pressure": 1,
+  "last_cycle_seconds": 84.704,
+  "last_failures": 0,
+  "last_failure_counts": {},
+  "last_hard_ok": true,
+  "last_speed_ok": true,
+  "last_size_ok": true,
+  "last_runtime_zip": {
+    "folder": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517",
+    "zip": "C:\\Users\\iyoua\\Desktop\\survivor_nano_v2_runtime_20260626_174517.zip",
+    "folder_mb": 0.793,
+    "zip_mb": 0.081
+  }
+}

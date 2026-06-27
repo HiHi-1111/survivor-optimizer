@@ -1,0 +1,44 @@
+900: 
+Soulfire Damage +30% 
+ 
+1000: 
+Total ATK 5600, Total HP 24400 
++1400 ATK, +5600 HP 
+ 
+1100: 
+Energy Diffuser ATK +5% 
+ 
+1200: 
+Soulfire generated +1. 
+Fuel Barrel fire damage +5%. 
+ 
+1350: 
+Total ATK 7200, Total HP 30800 
++1600 ATK, +6400 HP 
+ 
+1500: 
+Energy Diffuser ATK +5% 
+ 
+1650: 
+Soulfire Poison effect damage +100%. 
+Poison duration +2s. 
+ 
+1800: 
+Total ATK 9000, Total HP 38000 
++1800 ATK, +7200 HP 
+ 
+1950: 
+Energy Diffuser ATK +5% 
+ 
+2100: 
+Soulfire generation interval -1 
+ 
+2250: 
+Total ATK 11000, Total HP 46000 
++2000 ATK, +8000 HP 
+ 
+2400: 
+Energy Diffuser ATK +5% 
+ 
+2550: 
+Soulfire Poison effect damage +100%.

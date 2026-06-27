@@ -1,0 +1,34 @@
+RecommendedAssist1 
+RecommendedAssist2 
+RecommendedAssist3 
+RecommendedAssist4 
+PreferredDisposition1 
+PreferredDisposition2 
+PreferredDisposition3 
+SpecialNote 
+DPSPriority 
+SourceImage 
+SourceDate 
+Example: 
+PET_MURICA | Y5+ | Raid | Powerful | Boost | Penetration | Shrewd | Hot-blooded | Battler | 
+Replace Motivation with Inspiration if high Crit Rate; after Y5 consider Rex/Croaky | Very High 
+early/mid | Pet_Awakening_Guide_-_Murica_2024-10-10 
+Example: 
+PET_CROAKY | R5 target | Boost | Raid | Strong | None | Shrewd | Hot-blooded | Battler | Use 
+lower tier Battle Lust for each Raid tier used | Very High long-term | 
+Pet_Awakening_Guide_-_Croaky_2024-10-11 
+Example: 
+PET_REX | R5 target | Raid | Strong | Anything | None | Hot-blooded | Battler | None | Rex or 
+Croaky to R5 first; close total damage | Very High long-term | 
+Pet_Awakening_Guide_-_Rex_2024-10-11 
+ 
+Formula logic for pet DPS 
+Keep pet DPS separate first: 
+PetDPS = 
+ PetBaseAttackDamage 
+* PetAttackFrequency 
+* PetATKMultiplier 
+* PetSkillDamageMultiplier 
+* PetCritMultiplier 
+* PetCooldownMultiplier 
+* HitConsistencyMultiplier

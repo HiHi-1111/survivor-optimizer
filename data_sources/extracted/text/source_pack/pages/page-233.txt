@@ -1,0 +1,36 @@
+BestUpgrade = 
+ Highest DPS gain 
+ divided by scarce cost 
+ adjusted for unlock state 
+ adjusted for mode 
+ adjusted for player’s current bottleneck 
+Where scarce costs include: 
+Gems 
+Relic cores 
+Awakening cores 
+Resonance chips 
+Xeno cores 
+S selectors 
+S gear fodder 
+Tech fodder 
+Pet awakening crystals 
+Collectible shards 
+Energy essence 
+Designs 
+ 
+24. Final source-type warning 
+Use each source for the right job: 
+Source type 
+Use for 
+Charts/images 
+Exact stats, breakpoints, costs 
+Discord/meta guide Priority, warnings, progression logic 
+Item value chart 
+Gem-equivalent value 
+Relic core charts 
+SS upgrade order by mode 
+Crit/debuff charts 
+Damage formula inputs 
+Chapter chart 
+Unlock gating 
+Do not use meta opinion as exact stat data unless a chart confirms it.

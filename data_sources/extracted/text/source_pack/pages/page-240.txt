@@ -1,0 +1,43 @@
+6. Electric Scooter full extraction 
+Mount identity 
+MountID = MOUNT_SCOOTER 
+MountName = Electric Scooter 
+UnlockCost = 30 Scooter shards 
+DamageStyle = Auto discs + shock lightning 
+Debuffs = Laceration, Shock 
+BestUseLogic = Easiest mount, no input needed 
+DPSRelevant = Yes 
+Special skill 
+SkillName = Volta Disc 
+When used, fires 2 hi-voltage discs. 
+Hitting the same target twice inflicts Shock. 
+Shock triggers a lightning strike at the target's location. 
+Discs inflict Laceration for 2 seconds on hit. 
+Fields: 
+AppliesLaceration = Yes 
+LacerationDuration = 2s 
+AppliesShock = Yes 
+ShockTrigger = Same target hit twice 
+LightningStrike = Yes 
+Skill/star effects 
+Stage 
+Sync 
+rate 
+Effect 
+Yellow 
+1 
+0.22 
+Shock triggers 2 lightning strikes 
+Yellow 
+2 
+0.24 
+Every 3 lightning strikes grants 1 Laceration Mastery stack. Each stack 
+gives +2% damage to Lacerated targets, up to 5 stacks 
+Yellow 
+3 
+0.28 
+Disc Damage +33% 
+Yellow 
+4 
+0.32 
+Damage to Weakened targets +20%; Crit Damage +55%

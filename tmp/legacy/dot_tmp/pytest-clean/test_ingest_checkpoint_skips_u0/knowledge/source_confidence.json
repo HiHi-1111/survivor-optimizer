@@ -1,0 +1,25 @@
+[
+  {
+    "category": "source_confidence",
+    "confidence": "low",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_5ae7bdaa21ffb84590bdd63b",
+    "name": "Crit_Rate.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Crit_Rate.png",
+    "source_refs": [
+      "Crit_Rate.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "crit_stats"
+    ]
+  }
+]

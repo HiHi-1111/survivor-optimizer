@@ -1,0 +1,30 @@
+Expedition tier rewards 
+Tech/equipment/material rewards 
+Optimizer role 
+Clan Expedition should be treated as: 
+Recurring reward source 
+Boss DPS mode 
+Relic core / shop currency pathway 
+Clan progression pathway 
+Mode scoring 
+For Clan Expedition builds, prioritize: 
+Boss damage 
+Crit rate breakpoints 
+Skill damage 
+Vulnerability 
+Weaken/Chill/Poison/Laceration uptime 
+Pet direct damage 
+SS Belt/Gloves/Weapon synergy 
+Relic core allocation from Clan-specific guide 
+ 
+8. Collectibles 
+Sources: 
+Collectible_Chest_Odds_2024-11-28 
+Collectible_Costs_2024-10-11 
+Collectibles_Edition_1_2024-11-28 
+Collectibles_Edition_2_2024-11-28 
+Collectibles_Edition_3_2024-11-28 
+SS_Gear_2025-02-06 
+Tech Parts - Twinborn collectible sets 
+Crit_Rate_And_Damage_2025-03-09 
+What collectibles do

@@ -1,0 +1,44 @@
+ETERNAL NECKLACE @ EFFECTS EXPLANATION
+
+cD) Mystical divine item thot @ Adds 0.5x base damage per hit (NOT +50% damage bonus) when enemy is ot
+ignites one's inner courage to 100% health, scaling down to O when enemy is ot 50% health. Examples:
+match the enemy's strength 90% Enemy Health: +0.40x base damage per hit
+75% Enemy Health: +0.25x base damage per hit
+50% Enemy Health: no bonus
+@ The higher the target's HP, the more @ Adds 1.0x base damage per hit to enemies with full health. With the first effect,
+damage dealt the first hit is +1.5x base damage. This is NOT a +150% damage bonus.
+@ ATK +15% © All passive effects are multiplied by 1.15x before being applied to your survivor.
+@ Deals additional damage to enemies with For example, if you get a 5* Hi-Power Bullet, your damage bonus is 50% x 1.15 =
+57.5%.
+full HP
+@ ATK +25% © Your first passive can be evolved, adding another level. For example, if you have
+© Allpassive effects +15% in battle HP Bullet, each level adds 10%. If you evo it, it goes from +50% dmg to +60%
+. . ding (excluding the 1.15x red effect). For Fitness Guide, each level adds 20%, so
+© Nova: 1st learned passive can be evolved evo'd is +120% HP. If you pick a character-exclusive passive first (such as
+(not compatible with character's Survivor Instinct), then your 2nd passive will be the one that can be evolved.
+exclusive passives)
+
+Base damage is your attack with additional skill damage bonuses (such as from survivor or pets), and other damage bonuses included
+(hi-power bullet, dominator state, etc.) It is the damage that a 1* Drill Shot would do.
+
+EXAMPLE: Assume your base damage is 10k, you're using a 1* Lightchaser, and your enemy starts out with 100k health.
+Lightchaser's 1* skill damage is 2x base damage (see #game-information for weapon/skill damage multipliers), so normally it will do 20k
+damage.
+~ 1st Hit: 35k damage. (Normal 20k damage + 1.5x base damage from Eternal Necklace purple effect)
+~ 2nd Hit: 21.5k damage. (Enemy is now ot 65% health, so Eternal Necklace green effect only adds 0.15x base damage, or 1.5k
+damage)
+~ 3rd Hit: 20k damage. (Enemy is now below 50% health, so no damage bonus.)
+
+WM Crits will scale the increased damage.
+
+(} Purple effect is always active, so +1.5x base damage for every hit.
+
+In theory, you get the most effect out of weapons/skills that do high-frequency damage (examples might be Eternal Boots fire
+trail, Gatling gun). Gatling gun's damage multiplier is 2x, so adding an extra 1.5x is equivalent to a 75% damage bonus. Spirit
+Shuriken's damage multiplier is 5.625 with +30% kunai damage from blue effect, so adding 1.5x is equivalent to a ~20.5% damage
+bonus. Hard to tell whether Eternal Necklace’s damage bonus makes one weapon more effective than others, as Spirit Shuriken
+fires pretty quickly already.
+
+Moffinmuch (2023-07-16)
+
+Additional credit to Sluz (Dodging & Math God)

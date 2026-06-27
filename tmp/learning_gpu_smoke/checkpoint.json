@@ -1,0 +1,33 @@
+{
+  "completed": true,
+  "device": "cuda",
+  "elapsed_seconds": 12.469,
+  "false_prune_rate": 0.5,
+  "full_search_audits": 2,
+  "interrupted": false,
+  "processed_this_run": 40,
+  "profiles_learned_from": 1040,
+  "profiles_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\tmp\\learning_gpu_smoke\\profiles.jsonl",
+  "profiles_submitted": 40,
+  "results_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\tmp\\learning_gpu_smoke\\results.jsonl",
+  "systems_covered": [
+    "chests",
+    "cores",
+    "merge",
+    "pet_awakenings",
+    "pets",
+    "resonance",
+    "salvage",
+    "save_hold",
+    "selectors",
+    "skills",
+    "ss_gear",
+    "survivor_awakening",
+    "survivors",
+    "tech_parts",
+    "xeno_pets"
+  ],
+  "updated_at": "2026-06-23T16:02:22Z",
+  "version": 1,
+  "workers": 24
+}

@@ -1,0 +1,37 @@
+7500: 
+Attack Wingbit Damage +25% 
+Increase from previous 3.54% 
+Increase from base 110.01% 
+ 
+8000: 
+Total ATK 30000, Total HP 152000 
++6000 ATK, +24000 HP 
+ 
+8500: 
+Precision Device ATK +5% 
+ 
+9000: 
+Augment Wingbit Damage Enhancement +20% 
+Increase from previous 6.20% 
+Increase from base 123.02% 
+Database flags 
+TechResonanceID = NORMAL_DRONE 
+MainTech = Drone / Destroyer 
+SpecialUnits = AttackWingbit, AugmentWingbit 
+SupportUnit = PrecisionDevice 
+MaxResonance = 9000 
+DPSRelevant = VeryHighBeforeTwinborn 
+LateGameNote = Lower priority after Twinborn Destroyer 
+IgnoreForDPS = HP 
+ 
+4. Normal RPG Resonance 
+Main association 
+RPG 
+Sharkmaw Gun 
+C4 Bomb 
+Hi-Maintainer 
+C4 Explosion Radius 
+C4 Launch Interval 
+C4 Explosion Delay 
+C4 Chill 
+Sharkmaw Gun Damage

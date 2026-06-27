@@ -1,0 +1,41 @@
+Twinborn Brick: 
+Heavy like it. 
+Penetrates enemies. 
+ 
+Molotov: 
+Fires will spread. 
+Yellow: 
+ATK +400 
+HP +1600 
+Red: 
+Twinborn 1-ton Iron: 
+On hit, Twinborn 1-ton Iron shatters space, dealing small-area damage. 
+Shatter Damage +150%. 
+Crit Damage +80%. 
+ 
+Fuel Barrel EX: 
+Burnt enemies inflicted with Deep Wounds. 
++10% damage taken. 
+Eternal / Rainbow: 
+Twinborn Brick: 
+Count +2 at all levels. 
+ 
+Twinborn 1-ton Iron: 
+Count +2. 
+1-ton Iron Weakens targets hit for 10s. 
+Twinborn 1-ton Iron damage +170%. 
+Damage to Weakened targets +70%. 
+ 
+Molotov: 
+Damage rate up. 
+ 
+Fuel Barrel: 
+Fire trail follows character. 
+Collectible set 
+CollectibleSetName = Brewing Recipe 
+AssociatedTwinborn = Twinborn Brick / Twinborn 1-ton Iron 
+10x yellow stars: 
+Twinborn Brick damage +5%. 
+Shield Damage Boost +10%. 
+ 
+20x yellow stars:

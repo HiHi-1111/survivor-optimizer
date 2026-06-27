@@ -1,0 +1,52 @@
+{
+  "latest_round": {
+    "aggressive_accuracy": 1.0,
+    "best_cut_percent": 77.563,
+    "best_mode": "starvation",
+    "critic_regressions": 2100,
+    "cuts_by_mode_percent": {
+      "aggressive": 76.485,
+      "extreme": 76.485,
+      "risky": 77.115,
+      "safe": 76.473,
+      "starvation": 77.563
+    },
+    "difficulty": 1,
+    "evaluator_regressions": 0,
+    "extreme_accuracy": 1.0,
+    "full_accuracy": 1.0,
+    "full_failures": 0,
+    "gpu_critic_rows": 403200,
+    "gpu_critic_rps": 1101020.246,
+    "profiles_per_sec": 27.96,
+    "risky_accuracy": 1.0,
+    "round": 2,
+    "safe_accuracy": 1.0,
+    "starvation_accuracy": 1.0,
+    "top_fail": "safe protected fact score too low",
+    "wall_seconds": 150.2149
+  },
+  "summary": {
+    "best_cut_percent": 77.563,
+    "dashboard": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\critic_sprint_lab\\critic_sprint_dashboard.html",
+    "enemy_wins": 2,
+    "latest_best_mode": "starvation",
+    "latest_critic_regressions": 2100,
+    "latest_evaluator_regressions": 0,
+    "latest_gpu_critic_rows": 403200,
+    "latest_profiles_per_sec": 27.96,
+    "latest_top_fail": "safe protected fact score too low",
+    "lessons": {
+      "enemy_wins": 2,
+      "failures": {
+        "aggressive protected fact score too low": 1400,
+        "extreme protected fact score too low": 1400,
+        "safe protected fact score too low": 1400
+      },
+      "optimizer_wins": 0
+    },
+    "optimizer_wins": 0,
+    "rounds_completed": 2,
+    "rounds_file": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\critic_sprint_lab\\critic_sprint_rounds.json"
+  }
+}

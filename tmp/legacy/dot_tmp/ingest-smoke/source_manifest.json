@@ -1,0 +1,40 @@
+[
+  {
+    "confidence": "low",
+    "extraction_method": "cached_legacy_ocr",
+    "extraction_timestamp": "2026-06-21T03:32:33Z",
+    "height": 350,
+    "modified_date": "2026-06-17T20:15:06.068889+00:00",
+    "needs_review": true,
+    "preview_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\.tmp\\ingest-smoke\\previews\\Armor_V2_2024-11-28.webp.page-001.png",
+    "source_file": "Armor_V2_2024-11-28.webp",
+    "source_id": "source_d44d4cfc6f25c2982a54b917",
+    "source_image_hash": "678338cf57660f0d1f6ef04ded0259898c14625833a0c09e54f2cdffe42e13fd",
+    "source_page": 1,
+    "source_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\folder\\Armor_V2_2024-11-28.webp",
+    "source_sha256": "14423a4ed418d7e2779539addecd8b5482d116ce97361b4759fb1b1287053c0e",
+    "systems": [
+      "gear"
+    ],
+    "width": 388
+  },
+  {
+    "confidence": "low",
+    "extraction_method": "cached_legacy_ocr",
+    "extraction_timestamp": "2026-06-21T03:32:33Z",
+    "height": 598,
+    "modified_date": "2026-06-18T00:48:37.242288+00:00",
+    "needs_review": true,
+    "preview_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\.tmp\\ingest-smoke\\previews\\aire.pdf.page-001.png",
+    "source_file": "aire.pdf",
+    "source_id": "source_bd18c97fa7d7beb2d0e2a77f",
+    "source_image_hash": "b374f4afd28be7fbafa659320ae7c1320f0edd7fe0086b76d55c6e61e5620a2d",
+    "source_page": 1,
+    "source_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\folder\\aire.pdf",
+    "source_sha256": "81f24edae9cff6e83f5b78f1d31f5e7ff721ab97644bca3dc428b44f036e14ea",
+    "systems": [
+      "unknown"
+    ],
+    "width": 1100
+  }
+]

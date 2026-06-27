@@ -1,0 +1,30 @@
+Conditional crit 
+Pet crit 
+Gear crit 
+Skill crit 
+Collectible crit 
+Survivor crit 
+Why it matters 
+Crit Rate does not only increase average damage. It also unlocks SS Belt thresholds: 
+>100% Crit Rate 
+>130% Crit Rate 
+>150% Crit Rate 
+Optimizer rule 
+Crit must be stored by source: 
+GlobalCritRate 
+GearCritRate 
+SkillCritRate 
+PetCritRate 
+CollectibleCritRate 
+ConditionalCritRate 
+GlobalCritDamage 
+GearCritDamage 
+SkillCritDamage 
+PetCritDamage 
+CollectibleCritDamage 
+Do not just make one flat crit number. 
+ 
+10. Debuff / multiplier system 
+Sources: 
+Boss_Debuffs_2024-12-27​
+ Shield_and_Skill_Damage_Multipliers_2024-12-27

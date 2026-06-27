@@ -1,0 +1,1356 @@
+{
+  "profile_memory": {
+    "archetype_bucket_count": 40,
+    "audit": {
+      "downgraded_buckets": [
+        "account_stage:late_game|scenario:scenario_gear_ss|inventory_size_bucket:9-15|damage_stage:700k-1.2m|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:True|current_best_action_system:xeno_pet|unsupported_missing_data_bucket:0"
+      ],
+      "false_prune_examples": [
+        {
+          "bucket": "account_stage:late_game|scenario:scenario_gear_ss|inventory_size_bucket:9-15|damage_stage:700k-1.2m|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:True|current_best_action_system:xeno_pet|unsupported_missing_data_bucket:0",
+          "learned_systems": [
+            "exchange",
+            "merge",
+            "pet",
+            "salvage",
+            "save_hold"
+          ],
+          "missed_action_id": "xeno_pets:upgrade_or_unlock_xeno_pet:xeno_core",
+          "missed_system": "xeno_pet",
+          "profile_id": "synthetic_late_game_00000027_283129358",
+          "score_difference": 49.95,
+          "selected_action_id": "pets:upgrade_or_equip_pet:croaky"
+        }
+      ],
+      "false_prune_rate": 0.5,
+      "false_prunes": 1,
+      "full_search_audits": 2
+    },
+    "best_chain_priors": [
+      [
+        "awaken_survivor>upgrade_or_unlock_xeno_pet",
+        {
+          "samples": 16,
+          "score_total": 2239.2,
+          "systems": [
+            "cores",
+            "merge",
+            "pets",
+            "resonance",
+            "save_hold",
+            "selectors",
+            "ss_gear",
+            "survivor_awakening",
+            "tech_parts",
+            "xeno_pets"
+          ]
+        }
+      ],
+      [
+        "spend_core>spend_core",
+        {
+          "samples": 10,
+          "score_total": 1199.0,
+          "systems": [
+            "chests",
+            "cores",
+            "merge",
+            "pets",
+            "resonance",
+            "salvage",
+            "save_hold",
+            "selectors",
+            "skills",
+            "ss_gear",
+            "survivors",
+            "tech_parts",
+            "xeno_pets"
+          ]
+        }
+      ],
+      [
+        "upgrade_or_equip_pet>upgrade_or_equip_pet",
+        {
+          "samples": 9,
+          "score_total": 810.0,
+          "systems": [
+            "merge",
+            "pets",
+            "save_hold"
+          ]
+        }
+      ],
+      [
+        "save_hold>save_hold",
+        {
+          "samples": 3,
+          "score_total": 6.0,
+          "systems": [
+            "pets",
+            "save_hold"
+          ]
+        }
+      ],
+      [
+        "upgrade_or_unlock_xeno_pet>awaken_survivor",
+        {
+          "samples": 2,
+          "score_total": 279.9,
+          "systems": [
+            "chests",
+            "cores",
+            "merge",
+            "pets",
+            "resonance",
+            "salvage",
+            "save_hold",
+            "selectors",
+            "skills",
+            "ss_gear",
+            "survivor_awakening",
+            "survivors",
+            "tech_parts",
+            "xeno_pets"
+          ]
+        }
+      ]
+    ],
+    "high_value_chain_examples": [
+      {
+        "average_best_score": 13.076923,
+        "bucket": "account_stage:endgame|scenario:scenario_gear_ss|inventory_size_bucket:16-30|damage_stage:1.2m+|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:True|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 52,
+        "top_systems": [
+          "pet",
+          "core_selector",
+          "merge",
+          "save_hold"
+        ]
+      },
+      {
+        "average_best_score": 11.568627,
+        "bucket": "account_stage:late_game|scenario:scenario_gear_ss|inventory_size_bucket:9-15|damage_stage:700k-1.2m|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:True|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 51,
+        "top_systems": [
+          "pet",
+          "core_selector",
+          "merge",
+          "save_hold"
+        ]
+      },
+      {
+        "average_best_score": 13.076923,
+        "bucket": "account_stage:late_game|scenario:scenario_event_shop|inventory_size_bucket:16-30|damage_stage:300-700k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:True|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 26,
+        "top_systems": [
+          "pet",
+          "core_selector",
+          "merge",
+          "save_hold"
+        ]
+      },
+      {
+        "average_best_score": 13.076923,
+        "bucket": "account_stage:late_game|scenario:scenario_event_shop|inventory_size_bucket:9-15|damage_stage:700k-1.2m|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:True|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 26,
+        "top_systems": [
+          "pet",
+          "core_selector",
+          "merge",
+          "save_hold"
+        ]
+      },
+      {
+        "average_best_score": 13.076923,
+        "bucket": "account_stage:late_game|scenario:scenario_f2p_gems|inventory_size_bucket:16-30|damage_stage:300-700k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:True|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 26,
+        "top_systems": [
+          "pet",
+          "core_selector",
+          "merge",
+          "save_hold"
+        ]
+      },
+      {
+        "average_best_score": 13.076923,
+        "bucket": "account_stage:late_midgame|scenario:scenario_3|inventory_size_bucket:9-15|damage_stage:300-700k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:True|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 26,
+        "top_systems": [
+          "pet",
+          "core_selector",
+          "merge",
+          "save_hold"
+        ]
+      },
+      {
+        "average_best_score": 13.076923,
+        "bucket": "account_stage:late_midgame|scenario:scenario_pet_xeno|inventory_size_bucket:4-8|damage_stage:300-700k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:True|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 26,
+        "top_systems": [
+          "pet",
+          "core_selector",
+          "merge",
+          "save_hold"
+        ]
+      },
+      {
+        "average_best_score": 13.076923,
+        "bucket": "account_stage:midgame|scenario:scenario_collectibles|inventory_size_bucket:4-8|damage_stage:150-300k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 26,
+        "top_systems": [
+          "pet",
+          "core_selector",
+          "merge",
+          "save_hold"
+        ]
+      },
+      {
+        "average_best_score": 10.0,
+        "bucket": "account_stage:beginner|scenario:scenario_chapter_push|inventory_size_bucket:0-3|damage_stage:0-50k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 25,
+        "top_systems": [
+          "pet"
+        ]
+      },
+      {
+        "average_best_score": 10.0,
+        "bucket": "account_stage:beginner|scenario:scenario_event_shop|inventory_size_bucket:0-3|damage_stage:0-50k|has_xeno_unlocked:False|close_to_xeno_breakpoint:True|close_to_astral_forge_breakpoint:True|close_to_tech_resonance_breakpoint:True|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 25,
+        "top_systems": [
+          "pet"
+        ]
+      },
+      {
+        "average_best_score": 10.0,
+        "bucket": "account_stage:beginner|scenario:scenario_event_shop|inventory_size_bucket:4-8|damage_stage:0-50k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 25,
+        "top_systems": [
+          "pet"
+        ]
+      },
+      {
+        "average_best_score": 10.0,
+        "bucket": "account_stage:beginner|scenario:scenario_f2p_gems|inventory_size_bucket:0-3|damage_stage:0-50k|has_xeno_unlocked:False|close_to_xeno_breakpoint:True|close_to_astral_forge_breakpoint:True|close_to_tech_resonance_breakpoint:True|close_to_collectible_set_breakpoint:True|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 25,
+        "top_systems": [
+          "pet"
+        ]
+      },
+      {
+        "average_best_score": 10.0,
+        "bucket": "account_stage:beginner|scenario:scenario_gear_ss|inventory_size_bucket:0-3|damage_stage:0-50k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:True|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 25,
+        "top_systems": [
+          "pet"
+        ]
+      },
+      {
+        "average_best_score": 10.0,
+        "bucket": "account_stage:beginner|scenario:scenario_gear_ss|inventory_size_bucket:4-8|damage_stage:0-50k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:True|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:False|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:False|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 25,
+        "top_systems": [
+          "pet"
+        ]
+      },
+      {
+        "average_best_score": 10.0,
+        "bucket": "account_stage:early_midgame|scenario:scenario_chapter_push|inventory_size_bucket:4-8|damage_stage:50-150k|has_xeno_unlocked:False|close_to_xeno_breakpoint:True|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 25,
+        "top_systems": [
+          "pet"
+        ]
+      },
+      {
+        "average_best_score": 10.0,
+        "bucket": "account_stage:early_midgame|scenario:scenario_clan_shop|inventory_size_bucket:4-8|damage_stage:50-150k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:True|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:False|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:False|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 25,
+        "top_systems": [
+          "pet"
+        ]
+      },
+      {
+        "average_best_score": 10.0,
+        "bucket": "account_stage:early_midgame|scenario:scenario_clan_shop|inventory_size_bucket:4-8|damage_stage:50-150k|has_xeno_unlocked:False|close_to_xeno_breakpoint:True|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 25,
+        "top_systems": [
+          "pet"
+        ]
+      },
+      {
+        "average_best_score": 10.0,
+        "bucket": "account_stage:early_midgame|scenario:scenario_event_shop|inventory_size_bucket:4-8|damage_stage:50-150k|has_xeno_unlocked:False|close_to_xeno_breakpoint:True|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:True|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 25,
+        "top_systems": [
+          "pet"
+        ]
+      },
+      {
+        "average_best_score": 10.0,
+        "bucket": "account_stage:early_midgame|scenario:scenario_f2p_gems|inventory_size_bucket:4-8|damage_stage:50-150k|has_xeno_unlocked:False|close_to_xeno_breakpoint:True|close_to_astral_forge_breakpoint:True|close_to_tech_resonance_breakpoint:True|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 25,
+        "top_systems": [
+          "pet"
+        ]
+      },
+      {
+        "average_best_score": 10.0,
+        "bucket": "account_stage:early_midgame|scenario:scenario_f2p_gems|inventory_size_bucket:9-15|damage_stage:50-150k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:True|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 25,
+        "top_systems": [
+          "pet"
+        ]
+      },
+      {
+        "average_best_score": 10.0,
+        "bucket": "account_stage:early_midgame|scenario:scenario_gear_ss|inventory_size_bucket:4-8|damage_stage:50-150k|has_xeno_unlocked:False|close_to_xeno_breakpoint:True|close_to_astral_forge_breakpoint:True|close_to_tech_resonance_breakpoint:True|close_to_collectible_set_breakpoint:True|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:False|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 25,
+        "top_systems": [
+          "pet"
+        ]
+      },
+      {
+        "average_best_score": 10.0,
+        "bucket": "account_stage:early_midgame|scenario:scenario_gear_ss|inventory_size_bucket:9-15|damage_stage:50-150k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:True|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 25,
+        "top_systems": [
+          "pet"
+        ]
+      },
+      {
+        "average_best_score": 10.0,
+        "bucket": "account_stage:early_midgame|scenario:scenario_pet_xeno|inventory_size_bucket:4-8|damage_stage:50-150k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:False|close_to_tech_resonance_breakpoint:False|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:False|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:False|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 25,
+        "top_systems": [
+          "pet"
+        ]
+      },
+      {
+        "average_best_score": 10.0,
+        "bucket": "account_stage:early_midgame|scenario:scenario_pet_xeno|inventory_size_bucket:4-8|damage_stage:50-150k|has_xeno_unlocked:False|close_to_xeno_breakpoint:False|close_to_astral_forge_breakpoint:True|close_to_tech_resonance_breakpoint:True|close_to_collectible_set_breakpoint:False|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:False|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 25,
+        "top_systems": [
+          "pet"
+        ]
+      },
+      {
+        "average_best_score": 10.0,
+        "bucket": "account_stage:endgame|scenario:scenario_chapter_push|inventory_size_bucket:16-30|damage_stage:1.2m+|has_xeno_unlocked:False|close_to_xeno_breakpoint:True|close_to_astral_forge_breakpoint:True|close_to_tech_resonance_breakpoint:True|close_to_collectible_set_breakpoint:True|close_to_survivor_breakpoint:False|has_major_selector_chest:True|has_pet_chest:False|has_collectible_chest:False|has_core_selector_chest:True|has_event_clan_currency:True|has_many_rare_resources:True|current_best_action_system:pet|unsupported_missing_data_bucket:0",
+        "samples": 25,
+        "top_systems": [
+          "pet"
+        ]
+      }
+    ],
+    "legacy_memory": {},
+    "profile_bucket_count": 69,
+    "profiles_learned_from": 1040,
+    "resource_bottlenecks": {
+      "pet": 51,
+      "save_hold": 1
+    },
+    "scenario_stats": {
+      "scenario_1": {
+        "breakpoint_wins": 1,
+        "samples": 26,
+        "save_hold_wins": 0,
+        "score_total": 369.9,
+        "winner_counts": {
+          "core_selector": 1,
+          "pet": 25
+        }
+      },
+      "scenario_2": {
+        "breakpoint_wins": 1,
+        "samples": 26,
+        "save_hold_wins": 0,
+        "score_total": 369.9,
+        "winner_counts": {
+          "core_selector": 1,
+          "pet": 25
+        }
+      },
+      "scenario_3": {
+        "breakpoint_wins": 2,
+        "samples": 52,
+        "save_hold_wins": 0,
+        "score_total": 709.9,
+        "winner_counts": {
+          "core_selector": 1,
+          "pet": 51
+        }
+      },
+      "scenario_chapter_push": {
+        "breakpoint_wins": 3,
+        "samples": 78,
+        "save_hold_wins": 1,
+        "score_total": 1011.85,
+        "winner_counts": {
+          "core_selector": 1,
+          "pet": 75,
+          "save_hold": 1,
+          "survivor": 1
+        }
+      },
+      "scenario_clan_shop": {
+        "breakpoint_wins": 4,
+        "samples": 104,
+        "save_hold_wins": 0,
+        "score_total": 1539.75,
+        "winner_counts": {
+          "core_selector": 1,
+          "pet": 100,
+          "survivor": 3
+        }
+      },
+      "scenario_collectibles": {
+        "breakpoint_wins": 3,
+        "samples": 78,
+        "save_hold_wins": 0,
+        "score_total": 1099.85,
+        "winner_counts": {
+          "core_selector": 1,
+          "pet": 76,
+          "survivor": 1
+        }
+      },
+      "scenario_event_shop": {
+        "breakpoint_wins": 5,
+        "samples": 130,
+        "save_hold_wins": 1,
+        "score_total": 1691.85,
+        "winner_counts": {
+          "core_selector": 1,
+          "pet": 127,
+          "save_hold": 1,
+          "survivor": 1
+        }
+      },
+      "scenario_f2p_gems": {
+        "breakpoint_wins": 6,
+        "samples": 156,
+        "save_hold_wins": 0,
+        "score_total": 2249.65,
+        "winner_counts": {
+          "core_selector": 2,
+          "pet": 151,
+          "survivor": 3
+        }
+      },
+      "scenario_gear_ss": {
+        "breakpoint_wins": 9,
+        "samples": 260,
+        "save_hold_wins": 0,
+        "score_total": 3729.6,
+        "winner_counts": {
+          "core_selector": 1,
+          "pet": 253,
+          "survivor": 4,
+          "xeno_pet": 2
+        }
+      },
+      "scenario_pet_xeno": {
+        "breakpoint_wins": 5,
+        "samples": 130,
+        "save_hold_wins": 1,
+        "score_total": 1761.85,
+        "winner_counts": {
+          "pet": 126,
+          "save_hold": 1,
+          "survivor": 3
+        }
+      }
+    },
+    "top_action_priors": [
+      [
+        "pets:upgrade:known_pet",
+        {
+          "samples": 1000,
+          "scenarios": {
+            "scenario_1": 25,
+            "scenario_2": 25,
+            "scenario_3": 50,
+            "scenario_chapter_push": 75,
+            "scenario_clan_shop": 100,
+            "scenario_collectibles": 75,
+            "scenario_event_shop": 125,
+            "scenario_f2p_gems": 150,
+            "scenario_gear_ss": 250,
+            "scenario_pet_xeno": 125
+          },
+          "score_total": 10000.0,
+          "wins": 1000
+        }
+      ],
+      [
+        "core_selector:xeno_core_4",
+        {
+          "samples": 6,
+          "scenarios": {
+            "scenario_collectibles": 1,
+            "scenario_event_shop": 2,
+            "scenario_f2p_gems": 2,
+            "scenario_pet_xeno": 1
+          },
+          "score_total": 719.75,
+          "wins": 6
+        }
+      ],
+      [
+        "core_selector:xeno_core_7",
+        {
+          "samples": 6,
+          "scenarios": {
+            "scenario_2": 1,
+            "scenario_3": 1,
+            "scenario_clan_shop": 1,
+            "scenario_collectibles": 1,
+            "scenario_f2p_gems": 1,
+            "scenario_gear_ss": 1
+          },
+          "score_total": 699.7,
+          "wins": 6
+        }
+      ],
+      [
+        "core_selector:",
+        {
+          "samples": 5,
+          "scenarios": {
+            "scenario_3": 1,
+            "scenario_clan_shop": 1,
+            "scenario_f2p_gems": 1,
+            "scenario_gear_ss": 1,
+            "scenario_pet_xeno": 1
+          },
+          "score_total": 521.7,
+          "wins": 5
+        }
+      ],
+      [
+        "core_selector:xeno_core_2",
+        {
+          "samples": 5,
+          "scenarios": {
+            "scenario_1": 1,
+            "scenario_event_shop": 2,
+            "scenario_f2p_gems": 1,
+            "scenario_gear_ss": 1
+          },
+          "score_total": 471.75,
+          "wins": 5
+        }
+      ],
+      [
+        "core_selector:xeno_core_5",
+        {
+          "samples": 3,
+          "scenarios": {
+            "scenario_gear_ss": 2,
+            "scenario_pet_xeno": 1
+          },
+          "score_total": 319.95,
+          "wins": 3
+        }
+      ],
+      [
+        "core_selector:xeno_core_1",
+        {
+          "samples": 3,
+          "scenarios": {
+            "scenario_gear_ss": 2,
+            "scenario_pet_xeno": 1
+          },
+          "score_total": 419.85,
+          "wins": 3
+        }
+      ],
+      [
+        "core_selector:xeno_core_3",
+        {
+          "samples": 1,
+          "scenarios": {
+            "scenario_gear_ss": 1
+          },
+          "score_total": 90.0,
+          "wins": 1
+        }
+      ],
+      [
+        "core_selector:astral_core_4",
+        {
+          "samples": 1,
+          "scenarios": {
+            "scenario_chapter_push": 1
+          },
+          "score_total": 119.9,
+          "wins": 1
+        }
+      ],
+      [
+        "core_selector:astral_core_1,xeno_core_3",
+        {
+          "samples": 1,
+          "scenarios": {
+            "scenario_clan_shop": 1
+          },
+          "score_total": 139.95,
+          "wins": 1
+        }
+      ],
+      [
+        "core_selector:astral_core_7",
+        {
+          "samples": 1,
+          "scenarios": {
+            "scenario_chapter_push": 1
+          },
+          "score_total": 139.95,
+          "wins": 1
+        }
+      ],
+      [
+        "core_selector:xeno_core_10",
+        {
+          "samples": 1,
+          "scenarios": {
+            "scenario_gear_ss": 1
+          },
+          "score_total": 90.0,
+          "wins": 1
+        }
+      ],
+      [
+        "core_selector:astral_core_1",
+        {
+          "samples": 1,
+          "scenarios": {
+            "scenario_gear_ss": 1
+          },
+          "score_total": 119.9,
+          "wins": 1
+        }
+      ],
+      [
+        "core_selector:astral_core_1,xeno_core_2",
+        {
+          "samples": 1,
+          "scenarios": {
+            "scenario_collectibles": 1
+          },
+          "score_total": 139.95,
+          "wins": 1
+        }
+      ],
+      [
+        "core_selector:astral_core_2,xeno_core_2",
+        {
+          "samples": 1,
+          "scenarios": {
+            "scenario_clan_shop": 1
+          },
+          "score_total": 139.95,
+          "wins": 1
+        }
+      ],
+      [
+        "core_selector:astral_core_2",
+        {
+          "samples": 1,
+          "scenarios": {
+            "scenario_chapter_push": 1
+          },
+          "score_total": 2.0,
+          "wins": 1
+        }
+      ],
+      [
+        "core_selector:xeno_core_15",
+        {
+          "samples": 1,
+          "scenarios": {
+            "scenario_f2p_gems": 1
+          },
+          "score_total": 139.95,
+          "wins": 1
+        }
+      ],
+      [
+        "core_selector:astral_core_1,xeno_core_1",
+        {
+          "samples": 1,
+          "scenarios": {
+            "scenario_event_shop": 1
+          },
+          "score_total": 119.9,
+          "wins": 1
+        }
+      ],
+      [
+        "core_selector:xeno_core_8",
+        {
+          "samples": 1,
+          "scenarios": {
+            "scenario_pet_xeno": 1
+          },
+          "score_total": 139.95,
+          "wins": 1
+        }
+      ]
+    ],
+    "top_archetypes": [
+      {
+        "average_score": 13.551174,
+        "breakpoint_rate": 0.0375,
+        "confidence": "high",
+        "samples": 1040,
+        "tag": "gem_poor",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "core_selector",
+          "save_hold",
+          "xeno_pet"
+        ]
+      },
+      {
+        "average_score": 13.987173,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 910,
+        "tag": "chest_heavy",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "core_selector",
+          "save_hold",
+          "xeno_pet"
+        ]
+      },
+      {
+        "average_score": 13.987173,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 910,
+        "tag": "selector_heavy",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "core_selector",
+          "save_hold",
+          "xeno_pet"
+        ]
+      },
+      {
+        "average_score": 13.719523,
+        "breakpoint_rate": 0.037037,
+        "confidence": "high",
+        "samples": 702,
+        "tag": "far_from_breakpoint",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "core_selector",
+          "save_hold",
+          "xeno_pet"
+        ]
+      },
+      {
+        "average_score": 13.672723,
+        "breakpoint_rate": 0.036982,
+        "confidence": "high",
+        "samples": 676,
+        "tag": "clan_shop_heavy",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "core_selector",
+          "save_hold",
+          "xeno_pet"
+        ]
+      },
+      {
+        "average_score": 14.107859,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 390,
+        "tag": "pet_heavy",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "core_selector",
+          "save_hold"
+        ]
+      },
+      {
+        "average_score": 13.201527,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 338,
+        "tag": "near_breakpoint",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "core_selector",
+          "save_hold"
+        ]
+      },
+      {
+        "average_score": 14.336036,
+        "breakpoint_rate": 0.035503,
+        "confidence": "high",
+        "samples": 338,
+        "tag": "ss_heavy",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "core_selector",
+          "xeno_pet"
+        ]
+      },
+      {
+        "average_score": 15.200519,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 260,
+        "tag": "collectible_heavy",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "core_selector",
+          "xeno_pet"
+        ]
+      },
+      {
+        "average_score": 12.493977,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 260,
+        "tag": "early_midgame",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "core_selector",
+          "save_hold"
+        ]
+      },
+      {
+        "average_score": 13.2845,
+        "breakpoint_rate": 0.034615,
+        "confidence": "high",
+        "samples": 260,
+        "tag": "scenario_gear_ss",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "xeno_pet",
+          "core_selector"
+        ]
+      },
+      {
+        "average_score": 13.740299,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 234,
+        "tag": "tech_heavy",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "save_hold",
+          "core_selector"
+        ]
+      },
+      {
+        "average_score": 14.686644,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 208,
+        "tag": "gear_heavy",
+        "top_systems": [
+          "pet",
+          "core_selector",
+          "survivor",
+          "xeno_pet"
+        ]
+      },
+      {
+        "average_score": 14.812312,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 208,
+        "tag": "late_midgame",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "core_selector"
+        ]
+      },
+      {
+        "average_score": 11.494224,
+        "breakpoint_rate": 0.032051,
+        "confidence": "high",
+        "samples": 156,
+        "tag": "beginner",
+        "top_systems": [
+          "pet",
+          "core_selector",
+          "save_hold",
+          "xeno_pet"
+        ]
+      },
+      {
+        "average_score": 14.464609,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 156,
+        "tag": "late_game",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "xeno_pet"
+        ]
+      },
+      {
+        "average_score": 14.929385,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 156,
+        "tag": "scenario_f2p_gems",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "core_selector"
+        ]
+      },
+      {
+        "average_score": 16.620431,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 130,
+        "tag": "endgame",
+        "top_systems": [
+          "pet",
+          "survivor"
+        ]
+      },
+      {
+        "average_score": 11.950708,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 130,
+        "tag": "midgame",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "core_selector"
+        ]
+      },
+      {
+        "average_score": 12.9992,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 130,
+        "tag": "near_gear_breakpoint",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "core_selector"
+        ]
+      },
+      {
+        "average_score": 12.703962,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 130,
+        "tag": "scenario_event_shop",
+        "top_systems": [
+          "pet",
+          "save_hold",
+          "survivor",
+          "core_selector"
+        ]
+      },
+      {
+        "average_score": 13.554731,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 130,
+        "tag": "scenario_pet_xeno",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "save_hold"
+        ]
+      },
+      {
+        "average_score": 13.555346,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 104,
+        "tag": "scenario_clan_shop",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "core_selector"
+        ]
+      },
+      {
+        "average_score": 12.095756,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 78,
+        "tag": "event_heavy",
+        "top_systems": [
+          "pet",
+          "save_hold",
+          "core_selector"
+        ]
+      },
+      {
+        "average_score": 12.775538,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 78,
+        "tag": "f2p",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "core_selector"
+        ]
+      },
+      {
+        "average_score": 12.604231,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 78,
+        "tag": "near_collectible_set_breakpoint",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "core_selector"
+        ]
+      },
+      {
+        "average_score": 12.604231,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 78,
+        "tag": "near_pet_breakpoint",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "core_selector"
+        ]
+      },
+      {
+        "average_score": 12.951141,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 78,
+        "tag": "scenario_chapter_push",
+        "top_systems": [
+          "pet",
+          "core_selector",
+          "survivor",
+          "save_hold"
+        ]
+      },
+      {
+        "average_score": 14.301179,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 78,
+        "tag": "scenario_collectibles",
+        "top_systems": [
+          "pet",
+          "core_selector",
+          "survivor"
+        ]
+      },
+      {
+        "average_score": 12.477423,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 52,
+        "tag": "bad_upgrade_history",
+        "top_systems": [
+          "pet",
+          "survivor",
+          "core_selector"
+        ]
+      },
+      {
+        "average_score": 13.805904,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 52,
+        "tag": "bottlenecked",
+        "top_systems": [
+          "pet",
+          "save_hold"
+        ]
+      },
+      {
+        "average_score": 12.715385,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 52,
+        "tag": "scenario_3",
+        "top_systems": [
+          "pet",
+          "core_selector"
+        ]
+      },
+      {
+        "average_score": 12.708577,
+        "breakpoint_rate": 0.038462,
+        "confidence": "high",
+        "samples": 52,
+        "tag": "xeno_heavy",
+        "top_systems": [
+          "pet",
+          "save_hold"
+        ]
+      },
+      {
+        "average_score": 13.740923,
+        "breakpoint_rate": 0.038462,
+        "confidence": "medium",
+        "samples": 26,
+        "tag": "gem_heavy",
+        "top_systems": [
+          "pet",
+          "survivor"
+        ]
+      },
+      {
+        "average_score": 13.139346,
+        "breakpoint_rate": 0.038462,
+        "confidence": "medium",
+        "samples": 26,
+        "tag": "low_spender",
+        "top_systems": [
+          "pet"
+        ]
+      },
+      {
+        "average_score": 10.346154,
+        "breakpoint_rate": 0.038462,
+        "confidence": "medium",
+        "samples": 26,
+        "tag": "messy_inventory",
+        "top_systems": [
+          "pet",
+          "core_selector"
+        ]
+      },
+      {
+        "average_score": 11.223077,
+        "breakpoint_rate": 0.038462,
+        "confidence": "medium",
+        "samples": 26,
+        "tag": "saved_resources",
+        "top_systems": [
+          "pet",
+          "core_selector"
+        ]
+      },
+      {
+        "average_score": 11.223077,
+        "breakpoint_rate": 0.038462,
+        "confidence": "medium",
+        "samples": 26,
+        "tag": "scenario_1",
+        "top_systems": [
+          "pet",
+          "core_selector"
+        ]
+      },
+      {
+        "average_score": 15.7,
+        "breakpoint_rate": 0.038462,
+        "confidence": "medium",
+        "samples": 26,
+        "tag": "scenario_2",
+        "top_systems": [
+          "pet",
+          "core_selector"
+        ]
+      },
+      {
+        "average_score": 13.616269,
+        "breakpoint_rate": 0.038462,
+        "confidence": "medium",
+        "samples": 26,
+        "tag": "shard_heavy",
+        "top_systems": [
+          "pet"
+        ]
+      }
+    ],
+    "updated_at": "2026-06-23T16:02:22Z",
+    "version": 1
+  },
+  "ranker": {
+    "checkpoint_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\tmp\\learning_gpu_smoke\\learned_ranker.json",
+    "enabled": true,
+    "feature_importance": [
+      {
+        "feature": "immediate_damage",
+        "importance": 0.23689057,
+        "weight": 0.23689057
+      },
+      {
+        "feature": "damage_gain_estimate",
+        "importance": 0.23689057,
+        "weight": 0.23689057
+      },
+      {
+        "feature": "long_term_damage",
+        "importance": 0.07943958,
+        "weight": 0.07943958
+      },
+      {
+        "feature": "long_term_value_estimate",
+        "importance": 0.07943958,
+        "weight": 0.07943958
+      },
+      {
+        "feature": "breakpoint_value",
+        "importance": 0.05593047,
+        "weight": 0.05593047
+      },
+      {
+        "feature": "resource_efficiency",
+        "importance": 0.04978175,
+        "weight": 0.04978175
+      },
+      {
+        "feature": "confidence",
+        "importance": 0.01238471,
+        "weight": 0.01238471
+      },
+      {
+        "feature": "confidence_score",
+        "importance": 0.01238471,
+        "weight": 0.01238471
+      },
+      {
+        "feature": "source_confidence",
+        "importance": 0.01238471,
+        "weight": 0.01238471
+      },
+      {
+        "feature": "rarity_value",
+        "importance": 0.0106355,
+        "weight": 0.0106355
+      },
+      {
+        "feature": "chain_reaction_value",
+        "importance": 0.00442407,
+        "weight": 0.00442407
+      },
+      {
+        "feature": "resource_costs",
+        "importance": 0.00358286,
+        "weight": 0.00358286
+      },
+      {
+        "feature": "scenario_id",
+        "importance": 0.00187055,
+        "weight": -0.00187055
+      },
+      {
+        "feature": "profile_stage",
+        "importance": 0.0016654,
+        "weight": -0.0016654
+      },
+      {
+        "feature": "synergy_score",
+        "importance": 0.00147956,
+        "weight": -0.00147956
+      },
+      {
+        "feature": "system_type",
+        "importance": 0.0011825,
+        "weight": -0.0011825
+      },
+      {
+        "feature": "action_type",
+        "importance": 0.0010645,
+        "weight": -0.0010645
+      },
+      {
+        "feature": "missing_data_penalty",
+        "importance": 0.00104817,
+        "weight": 0.00104817
+      },
+      {
+        "feature": "save_value",
+        "importance": 0.00090569,
+        "weight": -0.00090569
+      },
+      {
+        "feature": "mode_relevance",
+        "importance": 0.0,
+        "weight": 0.0
+      },
+      {
+        "feature": "crit_gain_estimate",
+        "importance": 0.0,
+        "weight": 0.0
+      },
+      {
+        "feature": "attack_gain_estimate",
+        "importance": 0.0,
+        "weight": 0.0
+      },
+      {
+        "feature": "breakpoint_distance",
+        "importance": 0.0,
+        "weight": 0.0
+      },
+      {
+        "feature": "resource_bottleneck_score",
+        "importance": 0.0,
+        "weight": 0.0
+      },
+      {
+        "feature": "chest_expected_value",
+        "importance": 0.0,
+        "weight": 0.0
+      }
+    ],
+    "loaded_from_checkpoint": false,
+    "model": "online_linear_pairwise_ranker",
+    "samples": 40,
+    "updates": 40,
+    "version": 1,
+    "weights": [
+      0.236890569425575,
+      0.07943958240085769,
+      0.05593046807882764,
+      0.04978175219983294,
+      0.010635501339399672,
+      0.01238470966308712,
+      0.0,
+      0.004424066832095246,
+      -0.001665399220021122,
+      -0.0018705522464825524,
+      -0.0011825038091571954,
+      -0.0010645030729553478,
+      0.0035828629936788424,
+      0.236890569425575,
+      0.0,
+      0.0,
+      0.07943958240085769,
+      0.0,
+      0.0,
+      -0.0014795639372372502,
+      -0.0009056926529929313,
+      0.0,
+      0.01238470966308712,
+      0.0010481701355057724,
+      0.01238470966308712
+    ]
+  }
+}

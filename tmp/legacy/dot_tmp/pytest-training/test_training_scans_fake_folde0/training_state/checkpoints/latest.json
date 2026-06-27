@@ -1,0 +1,13 @@
+{
+  "data_folder": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\.tmp\\pytest-training\\test_training_scans_fake_folde0\\folder",
+  "requested_device": "cpu",
+  "device": "cpu",
+  "device_warnings": [],
+  "heavy_gpu": false,
+  "force": false,
+  "scanned": 2,
+  "processed": 0,
+  "skipped": 2,
+  "failed_or_warned": 0,
+  "stopped_for_time": false
+}

@@ -1,0 +1,30 @@
+Data type 4: SS Gear / Relic Core Gear 
+Pathing 
+Source: SS_Gear_2025-02-06​
+ Game version shown: 3.6​
+ Updated: 2025-02-06 
+This image is not just “equipment.” It is a full SS gear upgrade map showing: 
+SS Gear Slot 
+Base rarity effects 
+Eternal forge path 
+Void forge path 
+Chaos forge path 
+Chaos Fusion Power 
+Collectible set bonuses tied to SS gear 
+Relic/core/fodder cost rows 
+Damage/debuff/crit/shield associations 
+For the optimizer, this should become: 
+SSGear | Slot | ForgePath | ForgeLevel | EffectName | StatAffected | Condition | DPSRelevant | 
+Cost | AssociatedDebuff | AssociatedCollectibleSet 
+Important note: some official item names are not written clearly in the table, so I’m labeling them 
+by slot + effect name when needed. That is safer than inventing a wrong item name. 
+ 
+SS gear slots shown 
+The image has 6 SS gear columns: 
+SS Weapon 
+SS Necklace 
+SS Gloves 
+SS Armor 
+SS Belt 
+SS Boots 
+DPS value by slot

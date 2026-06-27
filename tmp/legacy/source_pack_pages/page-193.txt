@@ -1,0 +1,38 @@
+Full access 
+requirement 
+15000 resonance 
+Upgrade material 
+Harmony/Resonance chips 
+Applies to 
+Twinborn tech overload 
+system 
+Logic 
+if TwinbornResonance < 3000: 
+   TechOverloadUnlocked = False 
+   MaxOverloadLevel = 0 
+ 
+if TwinbornResonance >= 3000: 
+   TechOverloadUnlocked = True 
+ 
+if TwinbornResonance == 15000: 
+   MaxOverloadLevel = 18 
+Database fields 
+TechOverloadID 
+TwinbornID 
+RequiredResonance 
+OverloadLevel 
+ChipCost 
+EffectText 
+AffectedStat 
+DPSRelevant 
+ 
+G) Progression priority from tech guide 
+Excellent tech priority 
+Rank 
+Tech 
+1 
+Drone / Destroyer 
+2 
+Molotov 
+3 
+Guardian

@@ -1,0 +1,21 @@
+{
+  "archetype_bucket_count": 0,
+  "audit": {
+    "downgraded_buckets": [],
+    "false_prune_examples": [],
+    "false_prune_rate": 0.0,
+    "false_prunes": 0,
+    "full_search_audits": 0
+  },
+  "best_chain_priors": [],
+  "high_value_chain_examples": [],
+  "legacy_memory": {},
+  "profile_bucket_count": 0,
+  "profiles_learned_from": 0,
+  "resource_bottlenecks": {},
+  "scenario_stats": {},
+  "top_action_priors": [],
+  "top_archetypes": [],
+  "updated_at": "2026-06-21T21:42:52Z",
+  "version": 1
+}

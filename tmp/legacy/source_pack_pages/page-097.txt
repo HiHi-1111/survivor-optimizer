@@ -1,0 +1,31 @@
+Survivors_S_2025-01-26​
+ Survivors_SP_2025-01-26​
+ Survivor_Stat_Boosts_2024-12-12​
+ Survivor_Upgrade_Costs_2024-12-19​
+ Master_Yang_Skills_2024-11-28​
+ Awakening_Core_Guide_2024-10-04 
+Unlock requirement 
+Survivor level-up unlocks at: 
+Chapter 9 after winning 
+What it does 
+Survivors give: 
+Active survivor skills 
+Passive skills 
+Global ATK / Crit / Crit Damage boosts 
+Star upgrades 
+Awakening skills 
+Teamwork passive slots 
+Mode-specific damage value 
+Survivor stat milestones 
+Important global milestone types: 
+Level 40 
+Level 80 
+Level 120 
+5 yellow stars 
+Red awakening stars 
+High-value DPS stats 
+ATK % 
+Crit Rate 
+Crit Damage 
+Skill Damage 
+Vulnerability

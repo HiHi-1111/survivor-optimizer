@@ -1,0 +1,65 @@
+Extract structured Survivor.io optimizer knowledge from the text below.
+
+Supported systems:
+gear, gear rarity, eternal/void/chaos/SS gear, astral forge, cosmic cast,
+relic cores, astral cores, xeno cores, resonance chips, core selector chests,
+survivors, survivor awakening, pets, xeno pets, pet awakening, assisting pets,
+tech parts, resonance, collectibles, collectible selector chests, salvage,
+event shops, event currencies, player stats, detailed damage stats, conditional
+damage bonuses, debuffs, enemy states, mode-specific recommendations, hidden or
+uncertain interactions, and community-tested veteran rules.
+
+Return JSON only. Do not include markdown, comments, prose, or explanations
+outside the JSON object. Do not invent stats, costs, percentages, breakpoints, or
+rankings.
+
+Allowed top-level sections only:
+items, item_effects, gear, gear_sets, survivors, survivor_awakenings, pets,
+xeno_pets, tech_parts, collectibles, collectible_sets, resources, chests, events,
+event_shops, breakpoints, rules, hidden_interactions, warnings.
+
+Every record must use snake_case ids and include:
+- id
+- name
+- category or type
+- description
+- effects
+- tags
+- source
+- source_type
+- confidence
+- notes
+
+Allowed confidence values: low, medium, high.
+Allowed source_type values: game, discord, community-tested, veteran-rule,
+inferred, unknown.
+
+Distinguish official game text from Discord, community-tested, veteran-rule, and
+inferred information. If source quality is unclear, use source_type "unknown" and
+confidence "low".
+
+If info is unclear, uncertain, disputed, or incomplete, put it in warnings or
+hidden_interactions with confidence "low" and explain the uncertainty in notes.
+Records with confidence "low" should have notes.
+
+If information belongs to multiple systems, duplicate references by id in the
+relevant records instead of writing vague text.
+
+Extraction rules:
+- If a guide mentions "best", "priority", "worth it", "trap", "avoid",
+  "only good if", "breakpoint", "scales later", or "not worth without X",
+  extract that as a rule.
+- If a guide mentions "works differently than written", "hidden", "tested",
+  "overperforms", "underperforms", or "veteran knowledge", extract that as a
+  hidden_interaction.
+- If a guide mentions upgrade thresholds, costs, stars, awakening, cores, AF,
+  EE, CE, PoT, or mode differences, extract those as breakpoints or rules.
+
+Source file: manual_notes\core_test.txt
+
+TEXT:
+Astral Core is used for SS gear progression and can be valuable when it helps reach an astral forge breakpoint.
+
+Xeno Core is used for Xeno pet progression and is usually more valuable long-term when the player is close to a Xeno awakening breakpoint.
+
+Resonance Chip is used for tech/resonance progression. It can be useful for immediate stat gains, but may be weaker if it does not unlock a major breakpoint.

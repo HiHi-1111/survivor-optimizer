@@ -1,0 +1,50 @@
+[
+  {
+    "id": "raphael_sp", "name": "Raphael", "category": "survivor", "type": "sp",
+    "description": "TMNT SP survivor focused on Sai, Bleed, Laceration, and damage to Lacerated targets.",
+    "effects": [{"stat": "global_crit_rate", "value": 0.08, "operation": "add", "condition": "yellow_stars >= 5"}],
+    "tags": ["sp", "tmnt", "laceration", "bleed", "crit_source"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=3-5", "confidence": "medium",
+    "notes": "Explanation-derived from Survivors_SP_2025-01-26; verify against the named guide before confirmed.", "scoring_relevance": ["damage"]
+  },
+  {
+    "id": "leonardo_sp", "name": "Leonardo", "category": "survivor", "type": "sp",
+    "description": "TMNT SP survivor focused on Laceration uptime, duration, and Whirlwind Slash.",
+    "effects": [{"stat": "global_crit_rate", "value": 0.08, "operation": "add", "condition": "yellow_stars >= 5"}],
+    "tags": ["sp", "tmnt", "laceration", "duration", "crit_source"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=6-8", "confidence": "medium",
+    "notes": "Explanation-derived from Survivors_SP_2025-01-26; verify against the named guide before confirmed.", "scoring_relevance": ["damage"]
+  },
+  {
+    "id": "donatello_sp", "name": "Donatello", "category": "survivor", "type": "sp",
+    "description": "TMNT SP survivor whose Brotherhood passive scales with equipped SP awakening passives.",
+    "effects": [{"stat": "global_crit_rate", "value": 0.08, "operation": "add", "condition": "yellow_stars >= 5"}],
+    "tags": ["sp", "tmnt", "brotherhood", "skill_damage", "crit_damage", "crit_source"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=8-10", "confidence": "medium",
+    "notes": "Explanation-derived from Survivors_SP_2025-01-26; Brotherhood requires build-synergy modeling.", "scoring_relevance": ["damage"]
+  },
+  {
+    "id": "michelangelo_sp", "name": "Michelangelo", "category": "survivor", "type": "sp",
+    "description": "TMNT SP survivor focused on hit-triggered windstorms, Bleed, Laceration, and Lacerated-target damage.",
+    "effects": [{"stat": "global_crit_rate", "value": 0.08, "operation": "add", "condition": "yellow_stars >= 5"}],
+    "tags": ["sp", "tmnt", "laceration", "bleed", "hit_count", "crit_source"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=10-13", "confidence": "medium",
+    "notes": "Explanation-derived from Survivors_SP_2025-01-26; verify against the named guide before confirmed.", "scoring_relevance": ["damage"]
+  },
+  {
+    "id": "april_sp", "name": "April", "category": "survivor", "type": "sp",
+    "description": "TMNT SP survivor connecting Vulnerability with deployed-pet attack scaling.",
+    "effects": [{"stat": "global_crit_rate", "value": 0.08, "operation": "add", "condition": "yellow_stars >= 5"}],
+    "tags": ["sp", "tmnt", "vulnerability", "pet_attack", "crit_source"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=13-15", "confidence": "medium",
+    "notes": "Pet HP is stored but ignored by damage-first scoring.", "scoring_relevance": ["damage"]
+  },
+  {
+    "id": "splinter_sp", "name": "Splinter", "category": "survivor", "type": "sp",
+    "description": "TMNT SP survivor focused on pet crit rate, pet crit damage, and pet skill cooldown.",
+    "effects": [{"stat": "global_crit_rate", "value": 0.08, "operation": "add", "condition": "yellow_stars >= 5"}],
+    "tags": ["sp", "tmnt", "pet_crit", "pet_cooldown", "crit_source"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=15-18", "confidence": "medium",
+    "notes": "Explanation-derived from Survivors_SP_2025-01-26; verify against the named guide before confirmed.", "scoring_relevance": ["damage"]
+  }
+]

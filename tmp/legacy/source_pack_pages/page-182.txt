@@ -1,0 +1,42 @@
+Blue: 
+ATK +100 
+HP +400 
+Purple: 
+In-match Laser Launcher skill becomes Twinborn Laser Launcher. 
+Can evolve into Twinborn Death Ray. 
+ 
+Twinborn Laser Launcher: 
+Lasers slow enemies on hit. 
+ 
+Guardian: 
+Knockback distance doubled. 
+Yellow: 
+ATK +400 
+HP +1600 
+Red: 
+Twinborn Death Ray EX: 
+Continuously tracks and locks onto enemies. 
+Bosses and elites first. 
+Crit Rate +20%. 
+Crit Damage +40%. 
+ 
+Defender EX: 
+Defender spreads out and retreats. 
+Eternal / Rainbow: 
+Twinborn Laser Launcher: 
+Triggers delayed explosions along the laser path. 
+ 
+Twinborn Death Ray: 
+Triggers small-range explosion when rays gather. 
+Twinborn Death Ray damage +10%. 
+Skill Damage +80%. 
+Crit Damage +40%. 
+ 
+Guardian: 
+Enemies hit by Guardian deal -10% damage. 
+ 
+Defender: 
+Each Defender revolves around several smaller Guardians. 
+Collectible set 
+CollectibleSetName = Try All Possibilities 
+AssociatedTwinborn = Twinborn Laser Launcher / Twinborn Death Ray

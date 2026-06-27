@@ -1,0 +1,28 @@
+Doomsteed + SS Boots 
+Doomsteed wants movement and boss contact. 
+SS Boots also reward movement and stacking. 
+So Doomsteed and SS Boots should have a synergy flag. 
+Fields: 
+SynergyID = DOOMSTEED_SSBOOTS 
+Condition = Player can keep moving around/touching boss 
+Stats = MovementSpeed, GlacialBloodline, BossCollisionDamage 
+DPSRelevant = High 
+Hoverboard + shield systems 
+Hoverboard uses Thorn Shield and Shield Resonance. 
+This links to Shield Damage Boost and shield-based damage systems. 
+Fields: 
+SynergyID = HOVERBOARD_SHIELD_DAMAGE 
+Stats = ShieldDamageBoost, SkillDamage, DamageToChilled 
+DPSRelevant = High 
+Scooter + Laceration / Weaken 
+Scooter applies Laceration through discs. 
+It also gives damage to Weakened targets and Crit Damage. 
+Fields: 
+SynergyID = SCOOTER_LACERATE_WEAKEN 
+Stats = DamageToLacerated, DamageToWeakened, CritDamage 
+DPSRelevant = Medium/High 
+ 
+19. Mount component stat 
+recommendation logic 
+This is not a priority chart. This is how the optimizer should calculate value. 
+Component value should depend on player damage pool:

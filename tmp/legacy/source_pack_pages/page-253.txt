@@ -1,0 +1,36 @@
+DPSRelevant 
+Bottleneck 
+Rows: 
+MOUNT_SHARD_SCOOTER | Scooter Shards | Unlock/upgrade Electric Scooter | 
+Events/shops/chests | Yes | Medium 
+MOUNT_SHARD_HOVERBOARD | Hoverboard Shards | Unlock/upgrade Tech Hoverboard | 
+Events/shops/chests | Yes | Medium 
+MOUNT_SHARD_DOOMSTEED | Doomsteed Shards | Unlock/upgrade Doomsteed | 
+Events/shops/chests | Yes | High 
+MOUNT_CORE | Mount Core | Doomsteed upgrades | Core Choice Chest | Yes | High 
+MOUNT_COMPONENT_KEY | Vehicle Component Key | Open component chests | 
+Events/Operation Retreat/Clan Shop | Yes | High 
+MOUNT_REFINE_ESSENCE | Vehicle Refine Essence | Reroll component stat | Component 
+chests/events | Yes | Medium/High 
+ 
+16. Mount damage buckets added to 
+optimizer 
+Mounts add these buckets: 
+MountSkillDamage 
+MountCollisionDamage 
+MountDiscDamage 
+MountShockDamage 
+MountShockwaveBlastDamage 
+MountDamageToWeakened 
+MountDamageToLacerated 
+MountDamageToChilled 
+MountDamageToPoisoned 
+MountDamageToBoss 
+MountCritDamage 
+MountShieldDamage 
+MountComponentSkillDamage 
+MountComponentShieldDamage 
+MountComponentBossDamage 
+MountComponentElementalDamage 
+MountMovementSpeed 
+MountSyncRate

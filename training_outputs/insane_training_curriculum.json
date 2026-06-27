@@ -1,0 +1,57 @@
+{
+  "created_at": 1782512573.4955702,
+  "goal": "smarter faster smaller Survivor.io optimizer",
+  "rules": {
+    "dps_first": true,
+    "hp_weight": 0,
+    "active_state_only": true,
+    "locked_preview_never_counts": true,
+    "inventory_not_equipped_never_counts": true,
+    "unselected_roster_never_counts": true,
+    "unslotted_resonance_never_counts": true,
+    "rare_blockers_protected": [
+      "relic_core",
+      "awakening_core",
+      "resonance_chip",
+      "xeno_core",
+      "selector",
+      "s_shard",
+      "pet_awakening_crystal"
+    ],
+    "cheap_materials_are_not_primary_blockers": true,
+    "result_must_return_real_damage": true,
+    "must_route_to_global_plan": true
+  },
+  "failure_class_counts": {
+    "inactive_inventory_counted": 0,
+    "locked_preview_counted": 0,
+    "inactive_mode_counted": 0,
+    "unslotted_counted": 0,
+    "format_or_alias": 1,
+    "missing_real_damage_output": 0,
+    "rare_blocker_bait": 0,
+    "hp_or_defense_bait": 0
+  },
+  "failed_lines": [
+    {
+      "line": "E   AssertionError: REALISTIC VULNERABILITY: optimizer cannot parse realistic multiplier formatting like 2.35x or 175%.",
+      "categories": [
+        "format_or_alias"
+      ]
+    },
+    {
+      "line": "FAILED tests/test_optimizer_red_team_realistic_hard.py::test_realistic_hard_percent_and_x_formatting_is_parsed",
+      "categories": [
+        "uncategorized"
+      ]
+    }
+  ],
+  "pytest_returncode": 1,
+  "raw_report": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\insane_curriculum_pytest_raw.txt",
+  "next_patch_targets": [
+    "optimizer/damage_engine.py active-state traversal",
+    "optimizer/global_planner.py global_plan final answer",
+    "optimizer/rare_blocker_guardrails.py scarce blocker dominance",
+    "optimizer/scorer.py HP/defense downrank and cheap bait penalty"
+  ]
+}

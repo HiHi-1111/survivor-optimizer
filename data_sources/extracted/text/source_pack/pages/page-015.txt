@@ -1,0 +1,26 @@
+●​ Reporter Snapshot damage +50%. 
+●​ Targets hit by Snapshot get additional 5% Vulnerability. 
+A6 
+●​ Deployed pet additional: 
+○​ Attack +10% 
+○​ HP +10% 
+●​ Teamwork Passive Slot +1. 
+Optimizer notes 
+April is not just personal damage. She is a pet amplifier and vulnerability source. 
+Database flags: 
+Debuff = Vulnerability​
+ PetATKSource = Yes​
+ PetHPSource = Ignore for DPS​
+ Vulnerability = 5% at A3, additional 5% at A5​
+ GlobalValue = Crit Rate at 5-star​
+ TeamworkSlot = A4 and A6​
+ DPSRelevant = High if pet build / vulnerability stacking 
+For your optimizer, April should become more valuable if the player uses a strong pet setup. 
+ 
+Splinter 
+Main association 
+Splinter is associated with: 
+Secret Art Blast / Secret Art Fusion / Slow / Enhanced Slow / Phantom 
+Assault / Pet Crit Rate / Pet Crit Damage / Pet Skill CD 
+Splinter is a pet-crit support survivor. 
+Yellow-star upgrades

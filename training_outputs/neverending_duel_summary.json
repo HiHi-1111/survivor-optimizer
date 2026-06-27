@@ -1,0 +1,113 @@
+{
+  "best_size_cut_percent": 35.629,
+  "dashboard": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\neverending_duel_dashboard.html",
+  "enemy_wins": 0,
+  "gpu_info": {
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 4070",
+    "torch_installed": true,
+    "warmup_note": "GPU is available. Real duel speed still depends on whether the evaluator uses batched numeric scoring or Python rule checks.",
+    "warmup_seconds": 0.045688
+  },
+  "latest_aggressive_accuracy": 1.0,
+  "latest_full_accuracy": 1.0,
+  "latest_profiles_per_sec": 55.876,
+  "latest_safe_accuracy": 1.0,
+  "latest_top_fail": "none",
+  "lessons": {
+    "enemy_wins": 0,
+    "failures": {},
+    "optimizer_wins": 27,
+    "plateaus": 0
+  },
+  "optimizer_wins": 27,
+  "plateau": false,
+  "repo_weight": {
+    "active_repo_mb_excluding_venv_git_outputs": 1370.293,
+    "note": "This is a safe audit only. It does not delete or rewrite code.",
+    "top_files": [
+      {
+        "mb": 93.771,
+        "path": "archive\\training_runs\\legacy_2026-06-22\\primary_like_cache_assumptions.json"
+      },
+      {
+        "mb": 64.876,
+        "path": "archive\\training_runs\\legacy_2026-06-22\\primary_like_v3_assumptions.json"
+      },
+      {
+        "mb": 64.875,
+        "path": "archive\\training_runs\\legacy_2026-06-22\\primary_like_assumptions.json"
+      },
+      {
+        "mb": 64.875,
+        "path": "archive\\training_runs\\legacy_2026-06-22\\primary_like_v2_assumptions.json"
+      },
+      {
+        "mb": 64.86,
+        "path": "archive\\training_runs\\legacy_2026-06-22\\primary_like_32w_assumptions.json"
+      },
+      {
+        "mb": 46.118,
+        "path": "archive\\training_runs\\legacy_2026-06-22\\profile_assumption_chart.v2_legacy.json"
+      },
+      {
+        "mb": 16.564,
+        "path": "archive\\training_runs\\legacy_2026-06-22\\baseline_profiles.jsonl"
+      },
+      {
+        "mb": 10.683,
+        "path": "archive\\training_runs\\legacy_2026-06-22\\preprune_24w_200ms_assumptions.json"
+      },
+      {
+        "mb": 10.683,
+        "path": "archive\\training_runs\\legacy_2026-06-22\\preprune_24w_assumptions.json"
+      },
+      {
+        "mb": 10.252,
+        "path": "archive\\training_runs\\legacy_2026-06-22\\preprune_dedupe_40ms_assumptions.json"
+      },
+      {
+        "mb": 10.252,
+        "path": "archive\\training_runs\\legacy_2026-06-22\\preprune_dedupe_assumptions.json"
+      },
+      {
+        "mb": 10.046,
+        "path": "data_sources\\extracted\\processed_images\\folder\\Clan_Level_Rewards_2024-11-28_result.png"
+      },
+      {
+        "mb": 10.046,
+        "path": "data_sources\\source_pack\\raw\\Clan_Level_Rewards_2024-11-28_result.png"
+      },
+      {
+        "mb": 9.531,
+        "path": "archive\\training_runs\\legacy_2026-06-22\\search_index.json"
+      },
+      {
+        "mb": 9.339,
+        "path": "archive\\training_runs\\legacy_2026-06-22\\preprune_dedupe_200ms_assumptions.json"
+      },
+      {
+        "mb": 7.965,
+        "path": "knowledge\\source_pack\\source_database.json"
+      },
+      {
+        "mb": 7.69,
+        "path": "archive\\training_runs\\legacy_2026-06-22\\preprune_1x_assumptions.json"
+      },
+      {
+        "mb": 7.69,
+        "path": "archive\\training_runs\\legacy_2026-06-22\\preprune_fastcopy_assumptions.json"
+      },
+      {
+        "mb": 7.69,
+        "path": "archive\\training_runs\\legacy_2026-06-22\\preprune_10ms_assumptions.json"
+      },
+      {
+        "mb": 7.69,
+        "path": "archive\\training_runs\\legacy_2026-06-22\\preprune_nocache_assumptions.json"
+      }
+    ]
+  },
+  "rounds_completed": 27,
+  "rounds_file": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\neverending_duel_rounds.json"
+}

@@ -1,0 +1,40 @@
+{
+  "benchmark_valid": true,
+  "cpu_waiting_on_gpu": true,
+  "cuda_preflight_passed": true,
+  "failure_reason": null,
+  "failure_stage": null,
+  "false_prune_rate": 0.0,
+  "gpu_batch_utilization": 38.792,
+  "gpu_idle_percentage": 82.801,
+  "gpu_idle_reason": "waiting_for_cpu_candidates",
+  "gpu_waiting_on_cpu": true,
+  "gpu_wall_rows_per_sec": 5485.083,
+  "learned_pruned_profiles": 0,
+  "learned_pruning_usage_percent": 100.0,
+  "learned_ranker_samples": 585366,
+  "learned_ranker_updates": 585366,
+  "learned_reordered_profiles": 3300,
+  "learned_usage_diagnostics": {
+    "blocked_reasons": {
+      "learned priors reordered systems; hard pruning disabled by safety latch after 34 historical false prune(s)": 3300
+    },
+    "chart_loaded": true,
+    "chart_samples": 958620,
+    "decision_counts": {
+      "reordered": 3300
+    },
+    "ranker_observe_updates": 585366,
+    "ranker_weights_nonzero": 19
+  },
+  "main_bottleneck": "CPU candidate generation/search is starving the GPU",
+  "partial_results_valid": false,
+  "preprune_false_prune_rate": 0.0,
+  "profiles_per_second": 15.801,
+  "profiles_tested": 3300,
+  "runtime_failed": false,
+  "startup_failed": false,
+  "summary_generated_from": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\training_outputs\\latest_metrics.json",
+  "systems_covered_count": 15,
+  "systems_not_observed": []
+}

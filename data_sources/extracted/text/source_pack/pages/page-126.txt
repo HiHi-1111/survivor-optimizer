@@ -1,0 +1,44 @@
+400: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+450: 
+Chill Damage +70 
+Crit Damage +20 
+Required hits for Ice Focus -5 
+Max stacks +1 
+Crit Damage +20% 
+ 
+500: 
++1000 ATK, +4000 HP 
+ 
+550: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+600: 
+Fire Bomb Damage +40% 
+ 
+700: 
++1200 ATK, +4800 HP 
+ 
+800: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+900: 
+Chill Damage +100 
+Lacerate Damage +30 
+Max Ice Focus stacks +1 
+Extra damage to Lacerated targets +30% 
+ 
+1000: 
++1400 ATK, +5600 HP 
+ 
+1100: 
+Antimatter Maintainer ATK +5%, HP +5% 
+ 
+1200: 
+After 10 Fire Whistleshot hits, Fire Whistleshot damage +18% 
+ 
+1350: 
++1600 ATK, +6400 HP 
+ 
+1500:

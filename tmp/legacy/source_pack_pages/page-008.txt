@@ -1,0 +1,28 @@
+Database flags: 
+Debuff = Laceration​
+ DamageType = Lacerated target damage​
+ Mechanic = Duration extension / permanent laceration​
+ GlobalValue = Crit Rate at 5-star​
+ TeamworkSlot = A4 and A6​
+ DPSRelevant = Yes 
+ 
+Donatello 
+Main association 
+Donatello is associated with: 
+Bo / Savage Bo / Skill Damage / Crit Damage / Crit Rate / SP passive 
+scaling / Brotherhood 
+This is one of the most important ones for the calculator because Donatello has global SP 
+passive scaling. 
+Yellow-star upgrades 
+1-star 
+●​ Exclusive weapon: Seeker Bo 
+●​ Donatello spins his bo to attack enemies. 
+●​ Can be upgraded to Savage Bo. 
+2-star 
+●​ Survivor License: 
+○​ Survivor ATK +400 
+○​ Survivor HP +2000 
+3-star 
+●​ Super Sweep 
+●​ Seeker Bo and Savage Bo damage +30%. 
+●​ Survivor HP +20%.

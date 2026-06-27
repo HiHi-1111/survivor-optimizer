@@ -1,0 +1,28 @@
+Database flags: 
+SourceCategory = Collectible 
+StatType = CritDamage 
+TargetScope = Global 
+ConditionType = OwnedCollectibleStarThreshold 
+DPSRelevant = Very High 
+ 
+6. Master Yang awakening Crit Damage 
+This is associated with: 
+Master Yang | Awakening Red Stars | Active Survivor DPS 
+The source shows: 
+●​ 1 red star: Crit Damage +5% 
+●​ 4 red stars: additional +10% 
+●​ 6 red stars: additional +25% 
+Total shown: 
+40% Crit Damage 
+Optimizer notes 
+Treat this as Yang-specific unless another source confirms it is global. 
+Database flags: 
+SourceCategory = SurvivorAwakening 
+Survivor = MasterYang 
+StatType = CritDamage 
+ValueTotal = +40% 
+TargetScope = ActiveSurvivorLikely 
+ConditionType = AwakeningLevel 
+DPSRelevant = High 
+ 
+7. Survivor Synergy Crit Damage

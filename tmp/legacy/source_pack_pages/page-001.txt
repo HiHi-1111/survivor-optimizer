@@ -1,0 +1,34 @@
+Source files received / data types found 
+Survivors 
+1.​ Survivors_SP_2025-01-26​
+ SP / TMNT survivors: Raphael, Leonardo, Donatello, Michelangelo, April, Splinter. 
+Includes yellow-star upgrades, red awakening upgrades, passive skills, active skills, 
+teamwork passive slots, crit rate, laceration, vulnerability, pet boosts, etc. 
+Tech Part Resonance​
+ 2. Tech_Part_Resonance_Drone​
+ Drone resonance: Augment Wingbit + Attack Wingbit, damage scaling, cooldown, duration, 
+what gets boosted. 
+3.​ Tech_Part_Resonance_HI_Maintainer_RPG​
+ C4 / RPG / HI-Maintainer style resonance. Shows base damage, launch interval, 
+explosion delay, max values. 
+Equipment​
+ 4. Weapons_V2_2​
+ Weapons: Void Power, Lightchaser, Sword of Disorder, Kunai, Baseball Bat, Katana, Shotgun, 
+Revolver. 
+5.​ Armor_V2​
+ Chest armor: Eternal Suit, Voidwaker Windbreaker, Armor of Quietus, Full Metal Suit, 
+Traveler’s Jacket, Carapace, Army Uniform, Protective Suit. 
+6.​ Belts_V2​
+ Belts: Twisting Belt, Eternal Belt, Stylish Belt, Leather Belt, Voidwaker Sash, Army Belt, 
+Plated Sensor, Broad Waistguard. 
+7.​ Boots_V2​
+ Boots: Voidwaker Treads, Eternal Boots, Light Runners, Shoes of Confusion, Army 
+Boots, Prosthetic Legs, Layered Snowshoes, Highboots. 
+Forge / Cores​
+ 8. Astral_Forge​
+ AF requirements, SS gear requirements, non-SS AF costs, salvage returns, SS breakpoints. 
+9.​ Awakening_Core_Guide​
+ Awakening core priority paths for Yang, Metallia, King, Worm, Common, Catnips, TMNT 
+survivors in Ender’s Echo and Clan Expedition. 
+Debuffs / Damage Multipliers​
+ 10. Boss_Debuffs​

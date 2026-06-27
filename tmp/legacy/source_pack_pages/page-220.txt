@@ -1,0 +1,37 @@
+Wind Totem 
+Molotov/Fuel Spray 
+Deep Wound, Molotov damage 
+ 
+11. Survivor Stat Boosts 
+Sources: 
+Survivor_Stat_Boosts_2024-12-12 
+Survivor_Upgrade_Costs_2024-12-19 
+Survivors_2025-01-26 
+Survivors_S_2025-01-26 
+Survivors_SP_2025-01-26 
+Crit_Rate_And_Damage_2025-03-09 
+Main milestone types 
+Milestone 
+What it gives 
+Level 40 
+Often ATK, crit damage, HP, or healing 
+Level 80 
+Often crit rate or healing 
+Level 120 
+Often crit rate, crit damage, ATK 
+5 yellow stars 
+Often global ATK/HP/crit depending survivor 
+Red 
+awakening 
+Active/passive skill upgrades and Teamwork Passive 
+slots 
+Important global DPS sources 
+Yang level 120: Crit Rate +10% 
+Metallia level 120: Crit Damage +10% 
+Joey level 120: Crit Damage +10% 
+King/Tsukuyomi/Worm/Wesson level 80/120 crit sources 
+TMNT 5-star: each gives All Survivors Crit Rate +8% 
+Combat Harmony: up to 30% global Crit Rate 
+Survivor Synergy: up to 30% global Crit Damage 
+Upgrade costs 
+Need store costs by survivor type:

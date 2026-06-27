@@ -1,0 +1,39 @@
+Electric Scooter 
+Unlock cost: 
+Open = 30 Scooter shards 
+Upgrade costs: 
+Stage 
+Cost 
+Yellow 1 
+20 shards 
+Yellow 2 
+25 shards 
+Yellow 3 
+40 shards 
+Yellow 4 
+50 shards 
+Red 1 
+75 shards 
+Red 2 
+100 
+shards 
+Red 3 
+120 
+shards 
+Red 4 
+160 
+shards 
+Total upgrade cost 
+590 
+shards 
+Total including unlock 
+620 
+shards 
+MountID = MOUNT_SCOOTER 
+OpenCost = 30 
+UpgradeCostOnly = 590 
+TotalCostWithUnlock = 620 
+CoreCost = 0 
+Tech Hoverboard 
+Unlock cost: 
+Open = 50 Hoverboard shards

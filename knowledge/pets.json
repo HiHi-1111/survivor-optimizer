@@ -1,0 +1,23 @@
+[
+  {
+    "id": "murica", "name": "Murica", "category": "pet",
+    "description": "Awakened eagle pet presented as a direct-damage option; its pet damage share falls as the survivor build becomes stronger.",
+    "effects": [], "tags": ["pet", "damage", "awakening"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=101-103", "confidence": "medium",
+    "notes": "Secondary explanation derived from named pet guides; exact skill values need primary-guide verification.", "scoring_relevance": ["damage"]
+  },
+  {
+    "id": "croaky", "name": "Croaky", "category": "pet",
+    "description": "Pet with damage and utility progression; the explanation prioritizes its red awakening after Rex.",
+    "effects": [], "tags": ["pet", "damage", "utility", "awakening"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=101-103", "confidence": "medium",
+    "notes": "Exact skill values need primary-guide verification.", "scoring_relevance": ["damage", "utility"]
+  },
+  {
+    "id": "rex", "name": "Rex", "category": "pet",
+    "description": "Pet whose red awakening is listed as the first awakening priority in the explanation.",
+    "effects": [], "tags": ["pet", "damage_support", "awakening", "priority"], "source_type": "inferred",
+    "source": "data_sources/source_pack/optimizer_source_reference.pdf#pages=101-103", "confidence": "medium",
+    "notes": "Exact skill values need primary-guide verification.", "scoring_relevance": ["damage", "utility"]
+  }
+]

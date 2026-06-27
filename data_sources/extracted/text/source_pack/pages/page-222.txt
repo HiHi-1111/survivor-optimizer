@@ -1,0 +1,61 @@
+Notable rewards 
+Joey shards 
+Energy essence 
+Survivor shard boxes 
+Reset vial key 
+Awakening core 
+Collectible key 
+Epic tech part 
+Tech part key 
+Resonance chip 
+Designs 
+Epic equipment 
+S keys 
+S chest 
+Relic core 
+Pass EXP sources 
+Mission 
+Daily max 
+Weekly max 
+Season max 
+Dailies 
+130 
+910 
+3640 
+Defeat monsters 180,000 90 
+630 
+2520 
+Clear 
+chapters/challenges 
+100 
+700 
+2800 
+Regular Challenge 
+0–150 
+300–450 
+1350–1500 
+Path of Trials 
+50 
+350 
+1400 
+Ender’s Echo 
+60 
+420 
+1680 
+Clan Expedition 
+— 
+200 
+800 
+Special Ops 
+50 
+350 
+1400 
+Total 
+480–630 
+3860–4010 
+15590–1574
+0 
+Optimizer use 
+PassValue = 
+ Sum(ItemValue * Quantity) 
+- Cost

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "guide.txt": {
+      "fingerprint": {
+        "size": 130,
+        "mtime_ns": 1782094770561062600,
+        "sha256": "2b3bd9506abb30354d06a4a8411938cd98883ff665fddcb390f8cb8a66077a17"
+      },
+      "processed_at": "2026-06-22T02:19:30Z",
+      "text_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\.tmp\\pytest-training\\test_training_scans_fake_folde0\\extracted_text\\folder\\guide.txt.txt",
+      "processed_path": null,
+      "warnings": []
+    },
+    "screenshot.png": {
+      "fingerprint": {
+        "size": 45,
+        "mtime_ns": 1782094770561062600,
+        "sha256": "43c11b7174703048d0940e19982756845a6b13bb4c8a7e027ce713b87f513f9e"
+      },
+      "processed_at": "2026-06-22T02:19:30Z",
+      "text_path": null,
+      "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\.tmp\\pytest-training\\test_training_scans_fake_folde0\\processed_images\\folder\\screenshot.png",
+      "warnings": [
+        "Local OCR dependencies are unavailable; image was copied but not OCRed."
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+Amplify: 
++25% damage to Weakened targets. 
+Eternal forge path 
+E1: 
+Berserk: 
++20 seconds Berserk when skill levels up. 
++50% skill damage during Berserk. 
+Defeat monsters to extend Berserk duration. 
+Max 200 seconds. 
+E2: 
+ATK +10% 
+E3: 
+Wondermight: 
+The higher the shield value, the more damage dealt to Weakened targets. 
+For every 20% of Energy Shield value, +2% damage to Weakened targets. 
+E4: 
+Final HP +16000 
+E5: 
+Limit Break: 
++40% Max Energy Shield. 
+Void forge path 
+V1: 
+ATK +10% 
+V2: 
+Stealth Attack: 
++2% Crit Damage for every 2 levels of passive skills learned. 
+V3: 
+Final ATK +4000 
+V4: 
+Divine Might: 
+Initial passive skill level +1. 
+For each Red Star passive upgrade, Crit Damage +10%. 
+V5: 
+Final ATK +8000 
+Optimizer notes 
+This item should be scored very high when the build uses: 
+Weaken

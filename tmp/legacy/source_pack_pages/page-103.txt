@@ -1,0 +1,29 @@
+Turtle 
+Mostly defensive/tank. 
+Pet awakening requirement 
+Pet awakening uses awakening crystals and pet sacrifices. 
+Important cost path: 
+Y1 = 5 crystals 
+Y2 = 5 
+Y3 = 10 
+Y4 = 20 
+Y5 = 30 
+R1 = 40 
+R2 = 60 
+R3 = 60 
+R4 = 60 
+R5 = 60 
+Total = 350 crystals 
+Optimizer rule 
+The source says: 
+Take Rex or Croaky to R5 first. 
+After that, raise other pets in a balanced way to Y5 for better ATK per crystal. 
+For your damage-only calculator, pet HP and survival should be stored but ignored. 
+ 
+12. Collectibles 
+Sources: 
+Collectible_Chest_Odds_2024-11-28​
+ Collectible_Costs_2024-10-11​
+ Collectibles_Edition_1_2024-11-28​
+ Collectibles_Edition_2_2024-11-28​
+ Collectibles_Edition_3_2024-11-28

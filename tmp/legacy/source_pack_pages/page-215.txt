@@ -1,0 +1,34 @@
+S selectors / S chests 
+Survivor shards 
+Tech keys 
+Collectible keys 
+Pet-related materials 
+Equipment-related materials 
+Relic/core-style materials 
+Awakening / resonance resources 
+General upgrade currencies 
+Optimizer valuation rule 
+ClanShopValue = 
+ DPSValue 
++ BottleneckValue 
++ GemEquivalentValue 
++ AccountStageValue 
+- ClanCurrencyCost 
+High priority usually: 
+Relic cores / rare cores 
+S selectors or S chests 
+Tech keys if chasing tech/Twinborn 
+Collectible keys later 
+Survivor shards if they unlock crit/ATK breakpoint 
+Pet awakening materials if pet path is bottlenecked 
+Low priority: 
+HP-only value 
+Common resources that are not bottlenecked 
+Items with poor gem-equivalent value 
+ 
+7. Clan Expedition Rewards 
+Reward types 
+Clan currency 
+Clan EXP 
+Chest rewards 
+Ranking rewards

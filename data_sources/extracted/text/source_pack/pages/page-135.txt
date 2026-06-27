@@ -1,0 +1,36 @@
+Damage to Lacerated targets +25% 
+Database flags 
+TwinbornID = TB_ROCKET_RPG 
+Mode = Rocket / Blaster Sharkmaw Gun 
+PrimaryStats = SkillDamage, PoisonDamage, ShieldDamage, LacerateDamage 
+Debuff = Poison, Laceration, Chill 
+SpecialMechanic = MadBlightStacks 
+DPSRelevant = High 
+BestUse = Poison/lacerate/shield damage builds 
+IgnoreForDPS = HP 
+ 
+Batch 2 optimizer takeaways 
+Best DPS mechanics from this batch 
+Lightning: 
+- Vulnerability 
+- Crit Damage 
+- Skill Damage 
+- Thunderburst field damage 
+ 
+Boomerang: 
+- Vulnerability stacks 
+- Damage to Weakened targets 
+- Skill Damage 
+ 
+Drill: 
+- Damage to Chilled targets 
+- Ice Focus stacks 
+- Damage to Lacerated targets 
+- Crit Damage 
+ 
+Rocket/RPG: 
+- Mad Blight stacks 
+- Damage to Poisoned targets 
+- Damage to Lacerated targets 
+- Shield Damage 
+- Skill Damage

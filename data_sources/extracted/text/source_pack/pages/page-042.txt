@@ -1,0 +1,29 @@
+Visible pet effects include: 
+Owner Skill Damage +3% 
+Pet inherited HP +10% 
+Owner Battle EXP gain +7.5% 
+Owner Crit Rate +4% 
+Owner Crit Damage +10% 
+Optimizer notes 
+Croaky is not just a pet attack pet. It also has owner DPS buff value because it can connect to 
+Skill Damage, Crit Rate, and Crit Damage. 
+The pet awakening guide says Rex or Croaky should be taken to R5 first, because both are 
+close in total damage. 
+Database flags: 
+Pet = Croaky 
+PrimaryAttack = Corrosive Saliva 
+DamageType = DOT / Poison-like 
+OwnerSkillDamageSource = Yes 
+OwnerCritRateSource = Yes 
+OwnerCritDamageSource = Yes 
+PetDirectDamage = Medium/High 
+DPSRelevant = High 
+ 
+2. Fish 
+Main association 
+Fish | Explosive Bubbles | Explosion Damage | Battle EXP | Time Stop 
+Primary attack 
+Fish spits explosive bubbles: 
+Bubble hit damage: 200% ATK 
+Explosion damage: 200% ATK 
+Cooldown: 1 second

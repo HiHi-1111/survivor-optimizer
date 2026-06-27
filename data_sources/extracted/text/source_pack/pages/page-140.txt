@@ -1,0 +1,42 @@
+2100: 
+Shield Damage +40 
+Additional shield damage boost +10%. 
+ 
+2250: 
++2000 ATK, +8000 HP 
+ 
+2400: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+2550: 
+Skill Damage +70 
+Required Transgenic Caltrops hits to trigger mutation effect -15. 
+Mutation effect permanently increases Skill Damage by an additional 25%. 
+ 
+2700: 
++2500 ATK, +10000 HP 
+ 
+2850: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+3000: 
+Poison Damage +65 
+Transgenic Caltrops damage +10%. 
+Lightning ball damage +30%. 
+Boost effect permanently increases damage to Poisoned targets by an additional 15%. 
+ 
+3500: 
++3000 ATK, +12000 HP 
+ 
+4000: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+4500: 
+Skill Damage +100 
+Mutation effect permanently increases Skill Damage by an additional 30%. 
+ 
+5000: 
++3500 ATK, +14000 HP 
+ 
+5500: 
+Quantum Nanobot ATK +5%, HP +5%

@@ -1,0 +1,36 @@
+CostFactionCoreAmount 
+CostFodderType 
+CostFodderAmount 
+SourceImage 
+SourceDate 
+Example rows: 
+SS_WEAPON_E3_SUPER_STAR | Weapon | Starforged Havoc | Eternal | E3 | Super Star | 
+Each Energy Overload stack damage increased to 35% | SkillDamage | Stack-based | 
+CurrentBuild | EnergyOverloadActive | None | EnergyOverload | Yes | No | TBD | EternalCore | 
+TBD | GearFodder | TBD | SS_Gear_2025-02-06 
+SS_BELT_E5_MEGA_CRIT_III | Belt | SS Belt | Eternal | E5 | Mega Crit III | If Crit Rate exceeds 
+150%, Crit Damage +100% | CritDamage | +100% | CurrentBuild | CritRateAbove150 | None | 
+CritBreakpoint | VeryHigh | No | TBD | EternalCore | TBD | GearFodder | TBD | 
+SS_Gear_2025-02-06 
+SS_GLOVES_V4_DIVINE_MIGHT | Gloves | SS Gloves | Void | V4 | Divine Might | Initial 
+passive skill level +1; each Red Star passive upgrade gives Crit Damage +10% | CritDamage | 
++10% per Red Star passive | CurrentBuild | RedStarPassiveCount | None | PassiveSkillScaling | 
+VeryHigh | No | TBD | VoidCore | TBD | GearFodder | TBD | SS_Gear_2025-02-06 
+SS_BOOTS_V4_ICE_ARROW | Boots | SS Boots | Void | V4 | Ice Arrow | Crystal trail explosion 
+fires homing ice arrows that inflict Chill and 10% Vulnerability for 10s | Vulnerability | 10% | 
+EnemiesHit | TrailLength30Blocks | Chill/Vulnerability | MovementTrail | High | No | TBD | 
+VoidCore | TBD | GearFodder | TBD | SS_Gear_2025-02-06 
+ 
+Optimizer scoring rule 
+For SS gear recommendations, don’t rank upgrades only by rarity. Rank by: 
+1. Does it increase direct DPS? 
+2. Does it unlock a crit breakpoint? 
+3. Does it add a debuff damage multiplier? 
+4. Does it improve boss damage specifically? 
+5. Does it scale with stats the player already has? 
+6. What is the relic core cost? 
+7. Is the condition realistic for the player’s mode? 
+For your current damage-only style, the calculator should heavily favor: 
+Crit Rate breakpoint upgrades 
+Void Fissure / Vulnerability upgrades 
+Energy Overload stack upgrades

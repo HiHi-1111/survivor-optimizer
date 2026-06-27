@@ -1,0 +1,21 @@
+[
+  {
+    "confidence": "low",
+    "extraction_method": "cached_legacy_ocr",
+    "extraction_timestamp": "2026-06-21T03:39:09Z",
+    "height": 598,
+    "modified_date": "2026-06-18T00:48:37.242288+00:00",
+    "needs_review": true,
+    "preview_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\.tmp\\ingest-ocr-smoke\\previews\\aire.pdf.page-001.png",
+    "source_file": "aire.pdf",
+    "source_id": "source_bd18c97fa7d7beb2d0e2a77f",
+    "source_image_hash": "b374f4afd28be7fbafa659320ae7c1320f0edd7fe0086b76d55c6e61e5620a2d",
+    "source_page": 1,
+    "source_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\folder\\aire.pdf",
+    "source_sha256": "81f24edae9cff6e83f5b78f1d31f5e7ff721ab97644bca3dc428b44f036e14ea",
+    "systems": [
+      "unknown"
+    ],
+    "width": 1100
+  }
+]

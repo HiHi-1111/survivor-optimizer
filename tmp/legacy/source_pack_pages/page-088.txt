@@ -1,0 +1,46 @@
+9, after 
+winning 
+Survivor level up 
+Unlocks leveling survivors for global stats. 
+10, after 
+losing 
+Modular Mine 
+In-battle skill unlock. 
+10, after 
+losing 
+Thunderbolt Bomb 
+In-battle skill unlock. 
+10, after 
+losing 
+Inferno Bomb 
+In-battle skill unlock. 
+11, after 
+losing 
+Permanent Privilege 
+Card 
+Permanent card purchase. Important for long-term 
+F2P/low-spend gem planning. 
+30, after 
+winning 
+Zone Ops & Extreme 
+Ops 
+Late challenge system. Useful for rewards and 
+progression checks. 
+Big rule for the calculator: chapter unlocks control what systems the optimizer is allowed to 
+recommend. Example: before Chapter 9, don’t recommend pet awakening. Before Chapter 6, 
+don’t recommend tech parts. 
+ 
+2. Equipment system 
+Sources: 
+Weapons_V2_2_2024-11-28​
+ Necklaces_V2_2024-11-28​
+ Eternal_Necklace_2024-11-28​
+ Gloves_V2_2024-11-28​
+ Armor_V2_2024-11-28​
+ Belts_V2_2024-11-28​
+ Boots_V2_2024-11-28​
+ Merging_-_Equip_2024-11-28​
+ Equip_Design_Costs_2024-11-14​
+ Astral_Forge_2024-10-06​
+ SS_Gear_2025-02-06 
+What it does

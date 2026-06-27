@@ -1,0 +1,13 @@
+...................................F....................                 [100%]
+================================== FAILURES ===================================
+___________ test_realistic_hard_percent_and_x_formatting_is_parsed ____________
+tests\test_optimizer_red_team_realistic_hard.py:330: in test_realistic_hard_percent_and_x_formatting_is_parsed
+    assert _damage(formatted_result) == _damage(numeric_result), (
+E   AssertionError: REALISTIC VULNERABILITY: optimizer cannot parse realistic multiplier formatting like 2.35x or 175%.
+E   assert 88220523.39 == 60841740.32
+E    +  where 88220523.39 = _damage({'scenario': {'id': 'scenario_1', 'name': 'Short-term Boss Damage', 'description': 'Optimizes immediate damage output ...selector_chest', 'allocation': {'astral_core': 0, 'xeno_core': 0, 'resonance_chip': 0}, 'total_score': 1.0, ...}], ...})
+E    +  and   60841740.32 = _damage({'scenario': {'id': 'scenario_1', 'name': 'Short-term Boss Damage', 'description': 'Optimizes immediate damage output ...selector_chest', 'allocation': {'astral_core': 0, 'xeno_core': 0, 'resonance_chip': 0}, 'total_score': 1.0, ...}], ...})
+=========================== short test summary info ===========================
+FAILED tests/test_optimizer_red_team_realistic_hard.py::test_realistic_hard_percent_and_x_formatting_is_parsed
+1 failed, 55 passed in 3.61s
+

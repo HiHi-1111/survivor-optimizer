@@ -1,0 +1,36 @@
+MetaPriority = Strong late Twinborn path, especially with Poison/Laceration 
+ 
+7. Twinborn Lightning Emitter / Twinborn 
+Maelstorm 
+Pair association 
+TwinbornPairID = TB_LIGHTNING_BOOMERANG 
+Mode = Lightning side 
+BaseTech = Lightning Emitter 
+PairTech = Boomerang 
+CanEvolveInto = Twinborn Maelstorm 
+Effects by rarity 
+Blue: 
+ATK +100 
+HP +400 
+Purple: 
+Lightning Emitter skill turns into Twinborn Lightning Emitter. 
+Can evolve into Twinborn Maelstorm. 
+ 
+Twinborn Lightning Emitter: 
+Bolt count at all levels +2. 
+ 
+Boomerang: 
+You can catch the boomerang and reset its cooldown. 
+Yellow: 
+ATK +400 
+HP +1600 
+Red: 
+Twinborn Maelstorm: 
+Falling thunder generates swirling Thunderburst fields. 
+Subsequent lightning strikes that hit the field trigger Thunderbursts. 
+ 
+Magnetic Rebounder EX: 
+EM induction. 
+Rebounder generates lightning arcs. 
+ 
+Crit Damage +80%.

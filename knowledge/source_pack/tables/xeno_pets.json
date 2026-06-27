@@ -1,0 +1,42 @@
+[
+  {
+    "row_id": "src_db980b0620225344",
+    "data_type": "xeno_pet",
+    "system": "xeno_pets",
+    "subsystem": "transmute",
+    "item_id": "xeno_transmute_rule",
+    "name": "EffectPending Xeno transmute rule",
+    "rarity": null,
+    "level": null,
+    "star": null,
+    "awakening": null,
+    "cost": null,
+    "currency": null,
+    "quantity": null,
+    "limit": null,
+    "unlock_condition": null,
+    "effect_type": null,
+    "effect_value": null,
+    "effect_unit": null,
+    "damage_bucket": null,
+    "debuff_type": null,
+    "applies_to": null,
+    "consumed_by": null,
+    "source_kind": "placeholder",
+    "confidence": "low",
+    "extraction_method": "embedded_pdf_missing_table_marker",
+    "damage_relevance": "unknown",
+    "long_term_value": null,
+    "recommended_disposition": "needs_review",
+    "ignore_for_dps": true,
+    "needs_review": true,
+    "source": {
+      "source_file": "source_database_map.pdf",
+      "page_or_image": 231,
+      "section": "Final Database Schema List",
+      "original_source_file": null
+    },
+    "notes": "The master map lists XenoTransmuteRules, but no readable numeric Xeno table is present in the supplied pack.",
+    "metadata": {}
+  }
+]

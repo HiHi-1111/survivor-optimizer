@@ -1,0 +1,38 @@
+E1: 
+Mega Crit I: 
+If Crit Rate exceeds 100%, Crit Damage +30%. 
+E2: 
+ATK +10% 
+E3: 
+Mega Crit II: 
+If Crit Rate exceeds 130%, Skill Damage +30%. 
+E4: 
+Final ATK +4000 
+E5: 
+Mega Crit III: 
+If Crit Rate exceeds 150%, Crit Damage +100%. 
+Void forge path 
+V1: 
+ATK +10% 
+V2: 
+Revolution: 
+Shield damage boost +20%. 
+Restore 10% energy shield after laser is fired. 
+V3: 
+Final ATK +4000 
+V4: 
+Final Evolution: 
+During Eternal Laser charging period, Crit Rate +20%. 
+Stored Damage +30%. 
+V5: 
+Final ATK +8000 
+Optimizer notes 
+This belt should be a major DPS engine if the player can hit Crit Rate breakpoints. 
+Track: 
+EffectiveAttackCount 
+CritRateFromBelt 
+TotalCritRate 
+CritRateAbove100 
+CritRateAbove130 
+CritRateAbove150 
+EternalLaserChargeState

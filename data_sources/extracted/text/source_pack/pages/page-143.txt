@@ -1,0 +1,35 @@
+Main association 
+Twinborn Soccer 
+Twinborn Quantum Ball 
+Spiked Quantum Ball 
+Icy Quantum Ball 
+Super Soccer Ball 
+Hi-Energy 
+Protection 
+Hoarfrost 
+Chill 
+Crit Damage 
+Shield Damage 
+Quantum Nanobot 
+Stat columns 
+Shield Damage 
+Crit Damage 
+Chill Damage 
+Optimizer identity 
+Twinborn Soccer is a Crit Damage + Chill Damage + Shield Damage tech. It has several 
+named internal effects: 
+Spiked Quantum Ball 
+Icy Quantum Ball 
+Hi-Energy 
+Protection 
+Hoarfrost 
+Super Soccer Ball 
+It is more useful when the build benefits from Chill damage or crit damage, but the guide still 
+ranked Soccer/Durian lower than the other Twinborn pairs. 
+Extracted resonance rows 
+50: 
++200 ATK, +800 HP 
+ 
+100: 
+Chill Damage +25 
+When Spiked Quantum Ball splits for the first time, it spawns 2 Icy Quantum Balls.

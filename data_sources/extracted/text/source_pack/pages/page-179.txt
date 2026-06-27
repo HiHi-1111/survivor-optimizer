@@ -1,0 +1,33 @@
+Skill Damage +100%. 
+Collectible set 
+CollectibleSetName = Goldfinger 
+AssociatedTwinborn = Twinborn Boomerang / Twinborn Magvolt Fang 
+10x yellow stars: 
+Skill Damage +20%. 
+ 
+20x yellow stars: 
+Twinborn Magvolt Fang damage +30%. 
+Lightning Zone strike Vulnerability max stacks +2. 
+ 
+10x red stars: 
+Skill Damage +20%. 
+Damage to Weakened targets +10%. 
+ 
+20x red stars: 
+Lightning Zone strike Vulnerability max stacks +3. 
+Damage to Weakened targets +20%. 
+Optimizer flags 
+Debuff = Vulnerability, Weaken 
+Stats = SkillDamage, DamageToWeakened 
+SpecialMechanics = LightningZone, MagvoltFang, Thunderburst 
+DPSRelevant = High 
+MetaPriority = Better than normal Boomerang; becomes real DPS through Twinborn 
+ 
+9. Twinborn Guardian / Twinborn Defender 
+Pair association 
+TwinbornPairID = TB_LASER_GUARDIAN 
+Mode = Guardian side 
+BaseTech = Guardian 
+PairTech = Laser Launcher 
+CanEvolveInto = Twinborn Defender 
+Effects by rarity

@@ -1,0 +1,32 @@
+Normal RPG Resonance 
+Normal Molotov Resonance 
+Game versions shown: 
+- Twinborn charts: v4.5, updated 2026-02-23 
+- Normal resonance chart: v3.3, updated 2024-10-30 
+HP is stored but marked IgnoreForDPS. ATK, crit, skill damage, shield damage, poison 
+damage, chill damage, lacerate damage, vulnerability, and Deep Wound are DPSRelevant. 
+ 
+1. Twinborn Durian Resonance 
+Main association 
+Twinborn Durian 
+Twinborn Caltrops 
+Transgenic Caltrops 
+EM Explosions 
+Overload EM Explosion 
+Lightning Balls 
+Poison 
+Mutation Effect 
+Shield Damage 
+Skill Damage 
+Poison Damage 
+Quantum Nanobot 
+Stat columns 
+Shield Damage 
+Skill Damage 
+Poison Damage 
+Optimizer identity 
+Twinborn Durian is a Poison + Skill Damage + Shield Damage tech. It is not just Durian 
+movement anymore. The important mechanics are: 
+Transgenic Caltrops trigger EM explosions 
+Overload EM explosions 
+Lightning balls apply Poison

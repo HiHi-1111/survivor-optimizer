@@ -1,0 +1,75 @@
+[
+  {
+    "category": "source_confidence",
+    "confidence": "medium",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_2deacd968510b59dc15a53ab",
+    "name": "Drone_Resonance_Cost.png",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Drone_Resonance_Cost.png",
+    "source_refs": [
+      "Drone_Resonance_Cost.png"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "tech_resonance",
+      "tech_resonance_costs"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "missing",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_539a4dcd59fc5cec9c7ca3ba",
+    "name": "Pet_Awakening_Rex.tiff",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Pet_Awakening_Rex.tiff",
+    "source_refs": [
+      "Pet_Awakening_Rex.tiff"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "pet_awakenings",
+      "pets"
+    ]
+  },
+  {
+    "category": "source_confidence",
+    "confidence": "medium",
+    "date": "",
+    "description": "OCR/source confidence metadata for a local guide file.",
+    "effects": [],
+    "id": "source_6b33c7d967e47662baafb4bb",
+    "name": "Chest_Odds.pdf",
+    "needs_review": true,
+    "notes": "Gameplay values remain in the extraction review workflow until verified.",
+    "page_count": 1,
+    "scoring_relevance": [
+      "utility"
+    ],
+    "source": "Chest_Odds.pdf",
+    "source_refs": [
+      "Chest_Odds.pdf"
+    ],
+    "source_type": "discord",
+    "tags": [
+      "chest_odds",
+      "chests",
+      "tech_resonance"
+    ]
+  }
+]

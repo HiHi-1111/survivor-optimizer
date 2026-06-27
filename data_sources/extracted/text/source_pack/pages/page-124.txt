@@ -1,0 +1,34 @@
+14500: 
+Phase Driver ATK +5%, HP +5% 
+ 
+15000: 
+Vulnerability +175 
+Skill Damage +150 
+Weakened Damage +150 
+Lightning zone strike Vulnerability max stacks +5 
+Skill Damage +30% 
+Damage to Weakened targets +30% 
+Database flags 
+TwinbornID = TB_BOOMERANG 
+Mode = Boomerang / Magvolt Fang 
+PrimaryStats = Vulnerability, SkillDamage, DamageToWeakened 
+Debuff = Vulnerability, Weaken 
+DPSRelevant = High 
+BestUse = Debuff stacking / Weaken synergy 
+IgnoreForDPS = HP 
+ 
+3. Twinborn Drill Resonance 
+Main association 
+Twinborn Drill 
+Twinborn Frostfire Dualist 
+Fire Whistleshot 
+Ice Whistleshot 
+Ice Focus 
+Fire Bomb 
+Shield Damage 
+Chilled Damage 
+Crit Damage 
+Lacerated Damage 
+Antimatter Maintainer 
+Stat columns 
+Shield Damage

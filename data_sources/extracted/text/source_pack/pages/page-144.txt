@@ -1,0 +1,43 @@
+Icy Quantum Balls inflict Chill for 10s on targets hit. 
+Damage to Chilled targets +25%. 
+ 
+150: 
++400 ATK, +1600 HP 
+ 
+200: 
+Shield Damage +10 
+Gain 0.5% Shield when firing Spiked Quantum Ball. 
+Max 15% in a single match. 
+Shield damage boost +10%. 
+ 
+250: 
++600 ATK, +2400 HP 
+ 
+300: 
+After every 5s, kicks a Super Soccer Ball that explodes on impact. 
+ 
+350: 
++800 ATK, +3200 HP 
+ 
+400: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+450: 
+Crit Damage +30 
+Crit Damage +30%. 
+Twinborn Quantum Ball upgrade does not require passive skill. 
+ 
+500: 
++1000 ATK, +4000 HP 
+ 
+550: 
+Quantum Nanobot ATK +5%, HP +5% 
+ 
+600: 
+Shield Damage +20 
+Chill Damage +50 
+Shield damage boost +10%. 
+Damage to Chilled targets +25%. 
+ 
+700: 
++1200 ATK, +4800 HP

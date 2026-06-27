@@ -1,0 +1,36 @@
+Assist Skills
+
+(in order of preference)
+
+"Gary exclusive 6ff
+
+Disposition
+
+“Q* shrewa
+
+6 Hot-blooded
+
+if high crit % 5X Battler
+
+Ww with Gary Gi
+=
+
+Replace Motivation it 2 with Inspiration
+
+“After Y5, look at making the switch to Rex or Croaky.
+Otherwise, use the Pet Optimizer
+
+Skill Unlock Description
+
+Battle Lust Reduces pet's Cooldowns by 15/20/50%
+Crush Attacks have 5% chance to deal 10x damage to enemies
+Frenzy Increases pet's Crit Rate by 15/20/60%
+Inspiration Increases owner's Crit Damage by 6/10%
+Motivation Increases owner's Crit Rate by 3/4/5%
+Sharp Claws Increases pet's Skill Damage by 15/20/60%
+United Stand Increases pet's inherited ATK by 15/35%
+Vampirism Increases pet's HP absorb from attacks by 1/2%
+
+Charts by @procrastinazn
+Full guide @ https://ko-fi.com/jj_g4m3r
+Game version 3.2. Updated 2024-10-10

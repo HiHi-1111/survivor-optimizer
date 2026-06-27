@@ -1,0 +1,44 @@
+Unlock Chaos Forge Need total 3 Eternal/Void forge levels on that SS 
+item 
+Example unlocks 
+E3, E1V2, E2V1 
+Chaos level cap 
+Chaos level cannot exceed total Eternal + Void 
+levels 
+Main purpose 
+Chaos Fusion Power for Twin Lance 
+Chaos Fusion 
+source 
+Total Chaos Forge levels across SS gear 
+ 
+N) Xeno Transmute rules 
+Rule 
+Data 
+Unlock 
+E4 + V4 on the gear 
+Levels 
+13 
+Current target 
+Twin Lance only, for now 
+F2P source 
+Universal exchange 
+Monthly F2P amount 6 Xeno Trans Cores 
+Cost 
+Relic Core + 5,000 gems per XTC 
+Events 
+Usually expensive / not worth 
+Xeno trigger priority 
+Rank 
+Trigger condition 
+Unlock 
+1 
+20 Energy Overload 
+triggers 
+XT10 
+2 
+100 Drone hits 
+XT6 
+3 
+10 Forcefield hits 
+Base/available 
+earlier

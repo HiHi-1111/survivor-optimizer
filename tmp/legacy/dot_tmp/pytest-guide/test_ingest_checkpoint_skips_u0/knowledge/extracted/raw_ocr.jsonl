@@ -1,0 +1,1 @@
+{"confidence": "low", "extraction_method": "tesseract_tsv", "needs_review": true, "notes": "", "ocr_confidence": 0.9, "raw_text": "Crit rate 10%", "source_file": "Crit_Rate.png", "source_id": "source_ab3feab2cfeae4b94679ed38", "source_image_hash": "4144c634b6315a9b27167057289a10e578960d6f5515924dca299b0e09e7d919", "source_page": 1, "systems": ["crit_stats"], "word_boxes": []}

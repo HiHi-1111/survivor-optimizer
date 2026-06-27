@@ -1,0 +1,30 @@
+PetBaseAttack 
+PetAttackCooldown 
+PetSkillDamage 
+PetCooldownReduction 
+PetCritRate 
+PetCritDamage 
+PetInheritedATK 
+OwnerCritRateBuff 
+OwnerCritDamageBuff 
+OwnerSkillDamageBuff 
+AssistSkillSetup 
+AwakeningLevel 
+ 
+Pet list from Pets_2024-11-28 
+1. Frog / Croaky 
+Main association 
+Frog | Croaky | Corrosive Saliva | Poison/DOT style damage | Owner Skill Damage | Crit Rate | 
+Crit Damage 
+Primary attack 
+Frog spits corrosive saliva that deals: 
+200% ATK damage every 1 second for 2 seconds 
+Cooldown: 1 second 
+This is a damage-over-time style attack. 
+Built-in skill themes 
+Frog/Croaky is associated with: 
+Owner Skill Damage 
+Pet inherited HP 
+Battle EXP gain 
+Owner Crit Rate 
+Owner Crit Damage

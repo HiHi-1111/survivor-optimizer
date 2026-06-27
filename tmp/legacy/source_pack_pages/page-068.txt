@@ -1,0 +1,37 @@
+Targets hit by Void Fissure take an additional 10% damage. 
+Havoc Nova: 
+Outermost rim of Eternity Ray has suppression force. 
+Eternal forge path 
+E1: 
+Energy Overload count also recorded when Eternity Ray retracts. 
+Starforge and Havoc start at Lv.3. 
+E2: 
+ATK +10% 
+E3: 
+Super Star: 
+Each Energy Overload stack’s damage increased to 35%. 
+E4: 
+Final ATK +4000 
+E5: 
+Jade Cluster: 
+Energy Overload stacks up to 3 times. 
+Void forge path 
+V1: 
+ATK +10% 
+V2: 
+Disordered Death: 
+Void power damage +80%. 
+Targets hit by Void Fissure take an additional 20% damage. 
+V3: 
+Final ATK +4000 
+V4: 
+Blink: 
+Thrusts performed at low HP reduce base attack intervals by up to 1 second. 
+V5: 
+Final ATK +8000 
+Chaos forge path 
+This source shows Chaos path only under the weapon. 
+C1: 
+Max Level +5 
+C2: 
+Meteorite:

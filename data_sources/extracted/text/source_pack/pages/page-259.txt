@@ -1,0 +1,29 @@
+21. Final mount optimizer rules 
+Use these exact rules: 
+1. Ignore unknown/unused mount from old leak image. 
+2. Only use Electric Scooter, Tech Hoverboard, Doomsteed. 
+3. Use highest unlocked mount as equipped mount. 
+4. Still upgrade unused mounts because their sync rate improves inactive component value. 
+5. Installed components in equipped mount give 100% value. 
+6. Installed components in inactive mounts give value × that mount's sync rate. 
+7. Uninstalled components give 0 value. 
+8. Fill all unlocked boards before merging extras. 
+9. Merging rerolls component stat unless locked/not merged. 
+10. Refine mostly Yellow or higher components. 
+11. Component stat value depends on rarity and stat type, not shape. 
+12. Only completed horizontal rows activate line effects. 
+13. Lines 1-4 default, Line 5 requires 2Y, Line 6 requires 4Y, Line 7 requires 2R, Line 8 requires 
+4R. 
+14. Only equipped mount line effects count. 
+15. Component stat display may show only equipped mount stats, but optimizer should 
+calculate synced inactive stats too. 
+ 
+22. Final “is source pack complete?” 
+answer 
+Status = Complete enough for v1 DPS optimizer 
+MissingMajorSystems = None 
+IgnoredSystems = Unknown leaked mount 
+MountDataStatus = Added 
+Only thing still not perfect: 
+Exact in-game formula testing is still needed for how every damage bucket multiplies. 
+But source data coverage is now good enough to build the optimizer.

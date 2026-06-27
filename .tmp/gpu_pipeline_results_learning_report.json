@@ -1,0 +1,180 @@
+{
+  "profile_memory": {
+    "archetype_bucket_count": 0,
+    "audit": {},
+    "best_chain_priors": [],
+    "high_value_chain_examples": [],
+    "legacy_memory": {},
+    "profile_bucket_count": 0,
+    "profiles_learned_from": 0,
+    "resource_bottlenecks": {},
+    "scenario_stats": {},
+    "top_action_priors": [],
+    "top_archetypes": [],
+    "updated_at": "2026-06-24T19:45:22Z",
+    "version": 1
+  },
+  "ranker": {
+    "checkpoint_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\.tmp\\learned_ranker.json",
+    "enabled": true,
+    "feature_importance": [
+      {
+        "feature": "immediate_damage",
+        "importance": 0.00657324,
+        "weight": 0.00657324
+      },
+      {
+        "feature": "damage_gain_estimate",
+        "importance": 0.00657324,
+        "weight": 0.00657324
+      },
+      {
+        "feature": "long_term_damage",
+        "importance": 0.00233933,
+        "weight": 0.00233933
+      },
+      {
+        "feature": "long_term_value_estimate",
+        "importance": 0.00233933,
+        "weight": 0.00233933
+      },
+      {
+        "feature": "resource_efficiency",
+        "importance": 0.00133466,
+        "weight": 0.00133466
+      },
+      {
+        "feature": "breakpoint_value",
+        "importance": 0.0008168,
+        "weight": 0.0008168
+      },
+      {
+        "feature": "rarity_value",
+        "importance": 0.00026138,
+        "weight": 0.00026138
+      },
+      {
+        "feature": "confidence",
+        "importance": 0.00018509,
+        "weight": 0.00018509
+      },
+      {
+        "feature": "confidence_score",
+        "importance": 0.00018509,
+        "weight": 0.00018509
+      },
+      {
+        "feature": "source_confidence",
+        "importance": 0.00018509,
+        "weight": 0.00018509
+      },
+      {
+        "feature": "chain_reaction_value",
+        "importance": 0.00011599,
+        "weight": 0.00011599
+      },
+      {
+        "feature": "resource_costs",
+        "importance": 5.718e-05,
+        "weight": 5.718e-05
+      },
+      {
+        "feature": "scenario_id",
+        "importance": 4.896e-05,
+        "weight": -4.896e-05
+      },
+      {
+        "feature": "missing_data_penalty",
+        "importance": 2.614e-05,
+        "weight": 2.614e-05
+      },
+      {
+        "feature": "profile_stage",
+        "importance": 1.969e-05,
+        "weight": -1.969e-05
+      },
+      {
+        "feature": "action_type",
+        "importance": 1.938e-05,
+        "weight": -1.938e-05
+      },
+      {
+        "feature": "system_type",
+        "importance": 9.39e-06,
+        "weight": -9.39e-06
+      },
+      {
+        "feature": "save_value",
+        "importance": 3.27e-06,
+        "weight": -3.27e-06
+      },
+      {
+        "feature": "mode_relevance",
+        "importance": 0.0,
+        "weight": 0.0
+      },
+      {
+        "feature": "crit_gain_estimate",
+        "importance": 0.0,
+        "weight": 0.0
+      },
+      {
+        "feature": "attack_gain_estimate",
+        "importance": 0.0,
+        "weight": 0.0
+      },
+      {
+        "feature": "breakpoint_distance",
+        "importance": 0.0,
+        "weight": 0.0
+      },
+      {
+        "feature": "resource_bottleneck_score",
+        "importance": 0.0,
+        "weight": 0.0
+      },
+      {
+        "feature": "synergy_score",
+        "importance": 0.0,
+        "weight": 0.0
+      },
+      {
+        "feature": "chest_expected_value",
+        "importance": 0.0,
+        "weight": 0.0
+      }
+    ],
+    "loaded_from_checkpoint": false,
+    "model": "online_linear_pairwise_ranker",
+    "samples": 1,
+    "updates": 1,
+    "version": 1,
+    "weights": [
+      0.006573235330960814,
+      0.0023393284856007166,
+      0.000816804638827066,
+      0.0013346587798434256,
+      0.00026137748442466106,
+      0.00018508793115821313,
+      0.0,
+      0.00011598625871344335,
+      -1.9688687264953503e-05,
+      -4.8961290407317125e-05,
+      -9.394643042356668e-06,
+      -1.937614903159381e-05,
+      5.7176324717894605e-05,
+      0.006573235330960814,
+      0.0,
+      0.0,
+      0.0023393284856007166,
+      0.0,
+      0.0,
+      0.0,
+      -3.2672185553082636e-06,
+      0.0,
+      0.00018508793115821313,
+      2.613774844246611e-05,
+      0.00018508793115821313
+    ]
+  }
+}

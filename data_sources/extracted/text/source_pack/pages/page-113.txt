@@ -1,0 +1,34 @@
+Survivor_Pass 
+Survivor_Pass_Experience 
+EE_Rewards 
+ 
+Sources_Of_Gems 
+Sources_Of_Oil 
+Energy_Essence_Cost 
+Energy_Essence_Cost_Full 
+Equip_Design_Costs 
+Item_Values 
+Merging_Equip 
+Wishlist_Probabilities 
+Timed_Muster_Medal_Conversion 
+ 
+ 
+Batch 2 — Twinborn Lightning, 
+Boomerang, Drill, Rocket/RPG Resonance 
+Sources extracted from the images you gave: 
+Twinborn Lightning Resonance 
+Twinborn Boomerang Resonance 
+Twinborn Drill Resonance 
+Twinborn Rocket / RPG Resonance 
+Game version 4.5 
+Updated 2026-02-23 
+Shared structure for these charts: 
+ResonanceAmount 
+TotalATK 
+TotalHP 
+DamageStatColumns 
+BuffText 
+DPSRelevant 
+AssociatedDebuff 
+AssociatedSkill 
+HP is stored but ignored for your DPS optimizer.

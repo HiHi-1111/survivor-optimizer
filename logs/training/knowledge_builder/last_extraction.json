@@ -1,0 +1,2222 @@
+[
+  {
+    "source": "aire.pdf",
+    "source_type": "unknown",
+    "file_type": ".pdf",
+    "text": "--- PAGE 1 ---",
+    "text_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\text\\folder\\aire.pdf.txt",
+    "processed_path": null,
+    "warnings": []
+  },
+  {
+    "source": "Armor_V2_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Armor_V2_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Armor_V2_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Armor_V2_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Armor_V2_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Armor_V2_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Astral_Forge_2024-10-06.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Astral_Forge_2024-10-06.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Astral_Forge_2024-10-06_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Astral_Forge_2024-10-06_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Astral_Forge_2024-10-06_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Astral_Forge_2024-10-06_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Awakening_Core_Guide_2024-10-04.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Awakening_Core_Guide_2024-10-04.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Awakening_Core_Guide_2024-10-04_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Awakening_Core_Guide_2024-10-04_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Awakening_Core_Guide_2024-10-04_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Awakening_Core_Guide_2024-10-04_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Belts_V2_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Belts_V2_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Belts_V2_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Belts_V2_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Belts_V2_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Belts_V2_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Boots_V2_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Boots_V2_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Boots_V2_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Boots_V2_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Boots_V2_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Boots_V2_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Boss_Debuffs_2024-12-27.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Boss_Debuffs_2024-12-27.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Boss_Debuffs_2024-12-27_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Boss_Debuffs_2024-12-27_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Boss_Debuffs_2024-12-27_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Boss_Debuffs_2024-12-27_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Chapter_Unlocks-2024-09-17.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Chapter_Unlocks-2024-09-17.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Chapter_Unlocks-2024-09-17_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Chapter_Unlocks-2024-09-17_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Chapter_Unlocks-2024-09-17_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Chapter_Unlocks-2024-09-17_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Clan_Expedition_Rewards_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Clan_Expedition_Rewards_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Clan_Expedition_Rewards_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Clan_Expedition_Rewards_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Clan_Expedition_Rewards_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Clan_Expedition_Rewards_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Clan_Level_Rewards_2024-11-28.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Clan_Level_Rewards_2024-11-28.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Clan_Level_Rewards_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Clan_Level_Rewards_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Clan_Level_Rewards_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Clan_Level_Rewards_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Clan_Shop_2025-02-17.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Clan_Shop_2025-02-17.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Clan_Shop_2025-02-17_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Clan_Shop_2025-02-17_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Clan_Shop_2025-02-17_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Clan_Shop_2025-02-17_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Collectible_Chest_Odds_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Collectible_Chest_Odds_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Collectible_Chest_Odds_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Collectible_Chest_Odds_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Collectible_Chest_Odds_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Collectible_Chest_Odds_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Collectible_Costs_2024-10-11.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Collectible_Costs_2024-10-11.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Collectible_Costs_2024-10-11_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Collectible_Costs_2024-10-11_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Collectible_Costs_2024-10-11_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Collectible_Costs_2024-10-11_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Collectibles_Edition_1_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Collectibles_Edition_1_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Collectibles_Edition_1_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Collectibles_Edition_1_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Collectibles_Edition_1_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Collectibles_Edition_1_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Collectibles_Edition_2_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Collectibles_Edition_2_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Collectibles_Edition_2_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Collectibles_Edition_2_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Collectibles_Edition_2_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Collectibles_Edition_2_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Collectibles_Edition_3_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Collectibles_Edition_3_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Collectibles_Edition_3_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Collectibles_Edition_3_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Collectibles_Edition_3_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Collectibles_Edition_3_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Crit_Rate_And_Damage_2025-03-09 (1).webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Crit_Rate_And_Damage_2025-03-09 (1).webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Crit_Rate_And_Damage_2025-03-09 (1)_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Crit_Rate_And_Damage_2025-03-09 (1)_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Crit_Rate_And_Damage_2025-03-09 (1)_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Crit_Rate_And_Damage_2025-03-09 (1)_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Crit_Rate_And_Damage_2025-03-09.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Crit_Rate_And_Damage_2025-03-09.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Crit_Rate_And_Damage_2025-03-09_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Crit_Rate_And_Damage_2025-03-09_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Crit_Rate_And_Damage_2025-03-09_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Crit_Rate_And_Damage_2025-03-09_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "EE_Rewards_2024-09-15.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\EE_Rewards_2024-09-15.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "EE_Rewards_2024-09-15_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\EE_Rewards_2024-09-15_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "EE_Rewards_2024-09-15_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\EE_Rewards_2024-09-15_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Energy_Essence_Cost_2024-11-28 (1).webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Energy_Essence_Cost_2024-11-28 (1).webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Energy_Essence_Cost_2024-11-28 (1)_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Energy_Essence_Cost_2024-11-28 (1)_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Energy_Essence_Cost_2024-11-28 (1)_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Energy_Essence_Cost_2024-11-28 (1)_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Energy_Essence_Cost_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Energy_Essence_Cost_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Energy_Essence_Cost_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Energy_Essence_Cost_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Energy_Essence_Cost_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Energy_Essence_Cost_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Energy_Essence_Cost_Full_2024-11-28 (1).webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Energy_Essence_Cost_Full_2024-11-28 (1).webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Energy_Essence_Cost_Full_2024-11-28 (1)_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Energy_Essence_Cost_Full_2024-11-28 (1)_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Energy_Essence_Cost_Full_2024-11-28 (1)_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Energy_Essence_Cost_Full_2024-11-28 (1)_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Energy_Essence_Cost_Full_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Energy_Essence_Cost_Full_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Energy_Essence_Cost_Full_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Energy_Essence_Cost_Full_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Energy_Essence_Cost_Full_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Energy_Essence_Cost_Full_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Equip_Design_Costs_2024-11-14.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Equip_Design_Costs_2024-11-14.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Equip_Design_Costs_2024-11-14_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Equip_Design_Costs_2024-11-14_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Equip_Design_Costs_2024-11-14_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Equip_Design_Costs_2024-11-14_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Eternal_Necklace_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Eternal_Necklace_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Eternal_Necklace_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Eternal_Necklace_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Eternal_Necklace_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Eternal_Necklace_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Gloves_V2_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Gloves_V2_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Gloves_V2_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Gloves_V2_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Gloves_V2_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Gloves_V2_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Item_Values_2024-10-02.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Item_Values_2024-10-02.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Item_Values_2024-10-02_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Item_Values_2024-10-02_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Item_Values_2024-10-02_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Item_Values_2024-10-02_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Master_Yang_Skills_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Master_Yang_Skills_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Master_Yang_Skills_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Master_Yang_Skills_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Master_Yang_Skills_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Master_Yang_Skills_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Merging_-_Equip_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Merging_-_Equip_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Merging_-_Equip_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Merging_-_Equip_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Merging_-_Equip_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Merging_-_Equip_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Merging_-_Pets_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Merging_-_Pets_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Merging_-_Pets_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Merging_-_Pets_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Merging_-_Pets_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Merging_-_Pets_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Merging_-_Tech_Parts_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Merging_-_Tech_Parts_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Merging_-_Tech_Parts_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Merging_-_Tech_Parts_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Merging_-_Tech_Parts_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Merging_-_Tech_Parts_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Necklaces_V2_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Necklaces_V2_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Necklaces_V2_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Necklaces_V2_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Necklaces_V2_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Necklaces_V2_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pet_Awakening_Costs_and_Toy_Bonuses_2024-12-04_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pet_Awakening_Guide_-_Croaky_2024-10-11.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pet_Awakening_Guide_-_Croaky_2024-10-11.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pet_Awakening_Guide_-_Croaky_2024-10-11_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pet_Awakening_Guide_-_Croaky_2024-10-11_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pet_Awakening_Guide_-_Croaky_2024-10-11_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pet_Awakening_Guide_-_Croaky_2024-10-11_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pet_Awakening_Guide_-_Murica_2024-10-10.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pet_Awakening_Guide_-_Murica_2024-10-10.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pet_Awakening_Guide_-_Murica_2024-10-10_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pet_Awakening_Guide_-_Murica_2024-10-10_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pet_Awakening_Guide_-_Murica_2024-10-10_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pet_Awakening_Guide_-_Murica_2024-10-10_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pet_Awakening_Guide_-_Rex_2024-10-11.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pet_Awakening_Guide_-_Rex_2024-10-11.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pet_Awakening_Guide_-_Rex_2024-10-11_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pet_Awakening_Guide_-_Rex_2024-10-11_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pet_Awakening_Guide_-_Rex_2024-10-11_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pet_Awakening_Guide_-_Rex_2024-10-11_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pet_Awakening_Guide_2024-10-25.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pet_Awakening_Guide_2024-10-25.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pet_Awakening_Guide_2024-10-25_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pet_Awakening_Guide_2024-10-25_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pet_Awakening_Guide_2024-10-25_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pet_Awakening_Guide_2024-10-25_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pet_Skills_2024-09-09.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pet_Skills_2024-09-09.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pet_Skills_2024-09-09_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pet_Skills_2024-09-09_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pet_Skills_2024-09-09_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pet_Skills_2024-09-09_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pets_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pets_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pets_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pets_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Pets_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Pets_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Relic_Core_Usage_-_Clan_Expedition_2024-11-29.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Relic_Core_Usage_-_Clan_Expedition_2024-11-29.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Relic_Core_Usage_-_Clan_Expedition_2024-11-29_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Relic_Core_Usage_-_Clan_Expedition_mini_2024-11-29.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Relic_Core_Usage_-_Clan_Expedition_mini_2024-11-29.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Relic_Core_Usage_-_Clan_Expedition_mini_2024-11-29_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Relic_Core_Usage_-_Clan_Expedition_mini_2024-11-29_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Relic_Core_Usage_-_Clan_Expedition_mini_2024-11-29_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Relic_Core_Usage_-_Clan_Expedition_mini_2024-11-29_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Relic_Core_Usage_-_Enders_Echo_2024-11-29.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Relic_Core_Usage_-_Enders_Echo_2024-11-29.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Relic_Core_Usage_-_Enders_Echo_2024-11-29_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Relic_Core_Usage_-_Enders_Echo_mini_2024-11-29_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Resonance_2024-10-30.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Resonance_2024-10-30.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Resonance_2024-10-30_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Resonance_2024-10-30_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Resonance_2024-10-30_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Resonance_2024-10-30_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Shield_and_Skill_Damage__Multipliers_2024-12-27.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Shield_and_Skill_Damage__Multipliers_2024-12-27.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Shield_and_Skill_Damage__Multipliers_2024-12-27_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Shield_and_Skill_Damage__Multipliers_2024-12-27_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Shield_and_Skill_Damage__Multipliers_2024-12-27_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Shield_and_Skill_Damage__Multipliers_2024-12-27_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Skills_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Skills_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Skills_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Skills_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Skills_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Skills_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Sources_Of_Gems_2024-10-07.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Sources_Of_Gems_2024-10-07.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Sources_Of_Gems_2024-10-07_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Sources_Of_Gems_2024-10-07_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Sources_Of_Gems_2024-10-07_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Sources_Of_Gems_2024-10-07_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Sources_of_Gems_2024-12-18.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Sources_of_Gems_2024-12-18.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Sources_of_Gems_2024-12-18_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Sources_of_Gems_2024-12-18_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Sources_of_Gems_2024-12-18_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Sources_of_Gems_2024-12-18_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Sources_Of_Oil_2024-11-03.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Sources_Of_Oil_2024-11-03.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Sources_Of_Oil_2024-11-03_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Sources_Of_Oil_2024-11-03_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Sources_Of_Oil_2024-11-03_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Sources_Of_Oil_2024-11-03_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Sources_of_Oil_2024-12-18.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Sources_of_Oil_2024-12-18.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Sources_of_Oil_2024-12-18_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Sources_of_Oil_2024-12-18_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Sources_of_Oil_2024-12-18_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Sources_of_Oil_2024-12-18_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "SS_Gear_2025-02-06.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\SS_Gear_2025-02-06.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "SS_Gear_2025-02-06_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\SS_Gear_2025-02-06_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "SS_Gear_2025-02-06_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\SS_Gear_2025-02-06_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivor_2024-09-07.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivor_2024-09-07.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivor_2024-09-07_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivor_2024-09-07_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivor_2024-09-07_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivor_2024-09-07_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivor_Combat_Harmony_Skills_and_Costs_2024-12-20.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivor_Combat_Harmony_Skills_and_Costs_2024-12-20.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivor_Combat_Harmony_Skills_and_Costs_2024-12-20_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivor_Combat_Harmony_Skills_and_Costs_2024-12-20_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivor_Combat_Harmony_Skills_and_Costs_2024-12-20_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivor_Combat_Harmony_Skills_and_Costs_2024-12-20_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivor_Pass_2024-12-19.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivor_Pass_2024-12-19.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivor_Pass_2024-12-19_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivor_Pass_2024-12-19_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivor_Pass_2024-12-19_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivor_Pass_2024-12-19_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivor_Pass_Experience_2024-09-16.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivor_Pass_Experience_2024-09-16.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivor_Pass_Experience_2024-09-16_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivor_Pass_Experience_2024-09-16_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivor_Pass_Experience_2024-09-16_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivor_Pass_Experience_2024-09-16_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivor_Stat_Boosts_2024-12-12.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivor_Stat_Boosts_2024-12-12.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivor_Stat_Boosts_2024-12-12_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivor_Stat_Boosts_2024-12-12_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivor_Stat_Boosts_2024-12-12_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivor_Stat_Boosts_2024-12-12_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivor_Upgrade_Costs_2024-12-19.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivor_Upgrade_Costs_2024-12-19.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivor_Upgrade_Costs_2024-12-19_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivor_Upgrade_Costs_2024-12-19_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivor_Upgrade_Costs_2024-12-19_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivor_Upgrade_Costs_2024-12-19_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivors_2025-01-26.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivors_2025-01-26.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivors_2025-01-26_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivors_2025-01-26_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivors_2025-01-26_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivors_2025-01-26_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivors_S_2025-01-26.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivors_S_2025-01-26.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivors_S_2025-01-26_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivors_S_2025-01-26_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivors_S_2025-01-26_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivors_S_2025-01-26_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivors_SP_2025-01-26.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivors_SP_2025-01-26.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivors_SP_2025-01-26_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivors_SP_2025-01-26_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Survivors_SP_2025-01-26_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Survivors_SP_2025-01-26_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Tech_Part_Resonance_Cost_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Tech_Part_Resonance_Cost_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Tech_Part_Resonance_Cost_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Tech_Part_Resonance_Cost_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Tech_Part_Resonance_Cost_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Tech_Part_Resonance_Cost_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Tech_Part_Resonance_Drone_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Tech_Part_Resonance_Drone_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Tech_Part_Resonance_Drone_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Tech_Part_Resonance_Drone_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Tech_Part_Resonance_Drone_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Tech_Part_Resonance_Drone_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Tech_Part_Resonance_HI_Maintainer_RPG_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Tech_Parts_2024-10-09.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Tech_Parts_2024-10-09.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Tech_Parts_2024-10-09_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Tech_Parts_2024-10-09_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Tech_Parts_2024-10-09_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Tech_Parts_2024-10-09_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Timed_Muster_Medal_Conversion_2024-12-12.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Timed_Muster_Medal_Conversion_2024-12-12.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Timed_Muster_Medal_Conversion_2024-12-12_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Timed_Muster_Medal_Conversion_2024-12-12_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Timed_Muster_Medal_Conversion_2024-12-12_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Timed_Muster_Medal_Conversion_2024-12-12_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Twinborn_Part_2025-02-23.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Twinborn_Part_2025-02-23.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Twinborn_Part_2025-02-23_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Twinborn_Part_2025-02-23_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Twinborn_Part_2025-02-23_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Twinborn_Part_2025-02-23_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Weapons_V2_2_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Weapons_V2_2_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Weapons_V2_2_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Weapons_V2_2_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Weapons_V2_2_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Weapons_V2_2_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Wishlist_Probabilities_2024-11-28.webp",
+    "source_type": "discord",
+    "file_type": ".webp",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Wishlist_Probabilities_2024-11-28.webp",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Wishlist_Probabilities_2024-11-28_result.png",
+    "source_type": "discord",
+    "file_type": ".png",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Wishlist_Probabilities_2024-11-28_result.png",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  },
+  {
+    "source": "Wishlist_Probabilities_2024-11-28_result.tif",
+    "source_type": "discord",
+    "file_type": ".tif",
+    "text": "",
+    "text_path": null,
+    "processed_path": "C:\\Users\\iyoua\\Downloads\\survivor-optimizer\\data_sources\\extracted\\processed_images\\folder\\Wishlist_Probabilities_2024-11-28_result.tif",
+    "warnings": [
+      "Local OCR dependencies are unavailable; image was copied but not OCRed."
+    ]
+  }
+]

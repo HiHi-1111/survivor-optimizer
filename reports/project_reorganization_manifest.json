@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "date_moved": "2026-06-22",
+  "policy": "Files were moved without deletion. Renamed source files are traceable in data_sources/source_manifest.json.",
+  "directory_moves": [
+    {"old_name": "folder", "new_name": "data_sources/source_pack/raw", "purpose": "original source-pack files"},
+    {"old_name": "extracted_text", "new_name": "data_sources/extracted/text", "purpose": "raw extracted text"},
+    {"old_name": "processed_images", "new_name": "data_sources/extracted/processed_images", "purpose": "generated image intermediates"},
+    {"old_name": "raw_data", "new_name": "data_sources/legacy", "purpose": "legacy raw inputs"},
+    {"old_name": "ai_outputs", "new_name": "data_sources/extracted/ai_outputs", "purpose": "raw AI extraction output"},
+    {"old_name": "ai_prompts", "new_name": "archive/ai/prompts/generated", "purpose": "historical generated prompts"},
+    {"old_name": "schemas", "new_name": "knowledge/schemas", "purpose": "knowledge schemas"},
+    {"old_name": "training_state", "new_name": "training_outputs/state", "purpose": "runtime state, caches, and checkpoints"},
+    {"old_name": "training_logs", "new_name": "logs/training/legacy_training_logs", "purpose": "historical training logs"},
+    {"old_name": "training_outputs/<historical runs>", "new_name": "archive/training_runs/legacy_2026-06-22", "purpose": "old benchmark and failed-run artifacts"},
+    {"old_name": "knowledge/source_pack/gpu", "new_name": "knowledge/gpu_tables/source_pack", "purpose": "normalized GPU numeric tables"},
+    {"old_name": "knowledge/source_pack/review_queue.jsonl", "new_name": "knowledge/review_queue/source_pack_review_queue.jsonl", "purpose": "human review queue"}
+  ],
+  "compatibility": [
+    {"path": "run_demo.py", "target": "app.cli:main", "purpose": "preserve the original command-line entrypoint"},
+    {"path": "optimizer/paths.py", "purpose": "centralize canonical paths and legacy-path lookup"},
+    {"path": "tools/update_layout_references.py", "purpose": "idempotently update embedded artifact references"}
+  ]
+}
