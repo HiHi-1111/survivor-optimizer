@@ -3,62 +3,106 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Fan-made Survivor.io optimizer calculator hub." />
-  <title>Survivor.io Optimizer</title>
+  <title>Survivor.io Optimization Matrix</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="app">
-    <header class="topbar">
-      <div class="brand">
-        <span class="logo">S</span>
-        <div>
-          <strong>Survivor.io Optimizer</strong>
-          <small>fan-made account tools</small>
-        </div>
-      </div>
-      <div class="top-actions">
-        <button id="sampleBtn" class="btn ghost" type="button">Load sample</button>
-        <button id="copyBtn" class="btn" type="button">Copy results</button>
-      </div>
-    </header>
+  <header class="top-nav">
+    <section class="mode-selector" aria-label="Scenario selector">
+      <button class="mode-btn is-active" data-scenario="clan" type="button">Clan Expedition</button>
+      <button class="mode-btn" data-scenario="enders" type="button">Ender’s Echo</button>
+      <button class="mode-btn" data-scenario="trials" type="button">Path of Trials</button>
+    </section>
 
-    <div class="layout">
-      <aside class="sidebar">
-        <div class="search-wrap">
-          <input id="search" type="search" placeholder="Search tools..." autocomplete="off" />
-        </div>
-        <div id="groups" class="groups"></div>
-      </aside>
+    <section class="base-stats" aria-label="Base stats">
+      <label>Base ATK<input type="number" id="base-atk" min="0" placeholder="0" class="input-field" /></label>
+      <label>Crit Rate %<input type="number" id="crit-rate" min="0" max="100" step="0.1" class="input-field" /></label>
+      <label>Crit DMG %<input type="number" id="crit-dmg" min="0" step="0.1" placeholder="100.0" class="input-field" /></label>
+    </section>
 
-      <main class="workspace">
-        <section class="tool-head">
+    <section class="share-config" aria-label="Share configuration">
+      <input type="text" id="share-string-output" readonly class="input-field share-field" />
+      <button id="btn-copy-string" class="btn-accent" type="button">Copy Configuration</button>
+      <span id="copy-status" class="copy-status" aria-live="polite"></span>
+    </section>
+  </header>
+
+  <main>
+    <section class="dual-grid">
+      <article class="panel character-panel">
+        <div class="panel-head">
+          <h3>Select Survivor</h3>
+          <span id="selected-survivor-label" class="mini-badge">Master Yang</span>
+        </div>
+        <div id="survivor-grid" class="survivor-grid"></div>
+      </article>
+
+      <article class="panel run-panel">
+        <div class="panel-head">
+          <h3>In-Run Active & Passive Skills</h3>
+          <span id="evo-count" class="mini-badge">0 evolutions ready</span>
+        </div>
+        <div class="skill-matrix">
           <div>
-            <p id="toolCategory" class="kicker">Core</p>
-            <h1 id="toolTitle">Global Upgrade Plan</h1>
-            <p id="toolDescription">Rank the next best account move across systems.</p>
+            <h4>Active Skills</h4>
+            <div id="active-grid" class="slot-grid six-grid"></div>
           </div>
-          <span id="toolStatus" class="status">working draft</span>
-        </section>
+          <div>
+            <h4>Passive Evolution Items</h4>
+            <div id="passive-grid" class="slot-grid six-grid"></div>
+          </div>
+        </div>
+      </article>
+    </section>
 
-        <section class="work-grid">
-          <form id="toolForm" class="panel form-panel"></form>
-          <aside class="panel result-panel">
-            <div class="panel-title">
-              <h2>Result</h2>
-              <span id="scoreBadge">—</span>
-            </div>
-            <div id="resultBox" class="result-box"></div>
-          </aside>
-        </section>
+    <section class="equipment-wrapper">
+      <div class="panel-head">
+        <h3>Six-Slot Equipment Matrix</h3>
+        <span class="mini-badge">Weapon • Necklace • Gloves • Armor • Belt • Boots</span>
+      </div>
+      <div id="equipment-grid" class="equipment-grid"></div>
+    </section>
 
-        <section class="panel notes-panel">
-          <h2>Notes / build logic</h2>
-          <div id="notesBox"></div>
-        </section>
-      </main>
-    </div>
-  </div>
+    <section class="advanced-grid">
+      <article class="panel tech-panel">
+        <div class="panel-head"><h3>Tech Parts Configuration</h3><span class="mini-badge">6 slots</span></div>
+        <div id="tech-grid" class="tech-grid"></div>
+        <button id="btn-tech-order" class="btn-secondary wide" type="button">Generate Target Priority Checklist</button>
+        <div id="tech-checklist" class="collapsible-output"></div>
+      </article>
+
+      <article class="panel collectibles-panel">
+        <div class="collectible-header">
+          <h3>Collectibles Progression</h3>
+          <button id="tooltip-guide-trigger" class="lightbulb" type="button" aria-label="Collectible guide">💡</button>
+          <div id="collectible-tooltip" class="tooltip-card" hidden>
+            <strong>Store strategy</strong>
+            <ul>
+              <li>Prioritize damage and crit bonuses first.</li>
+              <li>Finish sets only when the final piece is close.</li>
+              <li>Avoid random shard spending with no breakpoint.</li>
+            </ul>
+          </div>
+        </div>
+        <div id="collectibles-grid" class="collectibles-grid"></div>
+      </article>
+    </section>
+
+    <section class="control-center">
+      <div class="resource-row">
+        <label>Universal Shards Bank<input type="number" id="core-shards-pool" class="input-large" value="0" min="0" /></label>
+        <label>Stellar Cores Bank<input type="number" id="core-stellar-pool" class="input-large" value="0" min="0" /></label>
+      </div>
+
+      <div id="exclusion-toggles" class="toggle-row"></div>
+
+      <button id="btn-execute-optimization" class="btn-primary-trigger" type="button">RUN PERFORMANCE OPTIMIZATION MATRIX</button>
+    </section>
+
+    <section id="results-dashboard" class="results-dashboard" hidden>
+      <div id="results-grid" class="results-grid"></div>
+    </section>
+  </main>
 
   <script src="app.js"></script>
 </body>
