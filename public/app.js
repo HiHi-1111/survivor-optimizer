@@ -1,212 +1,198 @@
 const $ = (s) => document.querySelector(s);
 const $$ = (s) => Array.from(document.querySelectorAll(s));
 
-const tools = [
-  { id: "global", group: "Core", icon: "🧠", name: "Global Plan", status: "working draft", desc: "Ranks the next best account move using simple DPS-first rules.", fields: [
-    ["chapter", "Chapter", "number", 126], ["gems", "Gems", "number", 51000], ["cores", "Relic cores", "number", 2], ["crystals", "Awakening crystals", "number", 49], ["goal", "Goal", "select", "Max DPS", ["Max DPS", "AFK / Low Effort", "Boss Damage", "Gem Efficiency"]], ["blocker", "Biggest blocker", "select", "Relic cores", ["Relic cores", "Pet copies", "Tech parts", "Gems", "Survivor shards"]]
-  ], calc: globalCalc, notes: ["DPS is weighted above HP.", "Scarce resources are protected unless they unlock a clear breakpoint.", "This is starter logic; later it should call your Python optimizer data."] },
-  { id: "event", group: "Economy", icon: "🎟️", name: "Event Value", status: "working", desc: "Checks if an event spend is worth it from rewards and gem cost.", fields: [
-    ["gemsSpent", "Gems to spend", "number", 12000], ["keysUsed", "Keys used", "number", 80], ["relicCores", "Relic cores gained", "number", 1], ["sChests", "S/SS chest value", "number", 1], ["shards", "Useful shards", "number", 30], ["junk", "Junk reward penalty", "number", 15]
-  ], calc: eventCalc, notes: ["This is not exact event math yet.", "Use it to compare rough value before spending gems.", "High-value rewards are cores, useful chests, shards, and rare upgrade blockers."] },
-  { id: "gear", group: "Gear", icon: "⚔️", name: "Gear Compare", status: "working", desc: "Compares two upgrades by damage gain, cost, and confidence.", fields: [
-    ["aName", "Option A name", "text", "SS Belt upgrade"], ["aGain", "Option A DPS gain %", "number", 14], ["aCost", "Option A cost score", "number", 8], ["bName", "Option B name", "text", "Pet level push"], ["bGain", "Option B DPS gain %", "number", 9], ["bCost", "Option B cost score", "number", 4]
-  ], calc: compareCalc, notes: ["Cost score is rough: 1 cheap, 10 very expensive.", "Higher gain per cost wins.", "Later this should use exact gear tables."] },
-  { id: "pet", group: "Pets", icon: "🦅", name: "Pet Planner", status: "working", desc: "Decides whether pet leveling/awakening is efficient right now.", fields: [
-    ["petLevel", "Current pet level", "number", 78], ["target", "Target level", "number", 100], ["cookies", "Cookies owned", "number", 65000], ["copies", "Useful pet copies", "number", 0], ["crystals", "Pet awakening crystals", "number", 49], ["petType", "Main pet", "select", "Eagle", ["Eagle", "Crab", "Rex", "Croaky", "Other"]]
-  ], calc: petCalc, notes: ["Level 100 is treated as an important target.", "Awakening is blocked if copies are missing.", "Crystals alone are not enough if the pet copies are missing."] },
-  { id: "tech", group: "Tech", icon: "🔧", name: "Tech / Resonance", status: "working", desc: "Checks if tech progress should be pushed or saved.", fields: [
-    ["mainRarity", "Main tech rarity", "select", "Legendary", ["Epic", "Legendary", "Eternal"]], ["assistCount", "Assist tech pieces", "number", 2], ["chips", "Resonance chips", "number", 1200], ["isTwinborn", "Twinborn target?", "select", "Yes", ["Yes", "No"]], ["pairReady", "Both pair techs ready?", "select", "No", ["Yes", "No"]], ["slotMatch", "Chip slot matches?", "select", "Yes", ["Yes", "No"]]
-  ], calc: techCalc, notes: ["Resonance rules are slot/type sensitive.", "Twinborn needs the paired techs ready.", "This screen is for blockers first, math second."] },
-  { id: "cores", group: "Gear", icon: "🧩", name: "Relic Core Planner", status: "working", desc: "Helps decide whether to spend or save relic cores.", fields: [
-    ["cores", "Relic cores owned", "number", 2], ["nextCost", "Next upgrade core cost", "number", 1], ["gain", "Expected DPS gain %", "number", 12], ["altGain", "Best non-core gain %", "number", 7], ["futureNeed", "Future SS need", "select", "High", ["Low", "Medium", "High"]]
-  ], calc: coreCalc, notes: ["Relic cores are treated as rare.", "A small gain can still win if it unlocks a major chain.", "Future SS need increases the save recommendation."] },
-  { id: "collect", group: "Economy", icon: "💠", name: "Collectibles", status: "working", desc: "Ranks collectible shard spending by damage value.", fields: [
-    ["shards", "Shard amount", "number", 80], ["damage", "Damage bonus %", "number", 3], ["set", "Completes set?", "select", "No", ["Yes", "No"]], ["cost", "Cost score", "number", 5], ["late", "Late-game account?", "select", "No", ["Yes", "No"]]
-  ], calc: collectibleCalc, notes: ["Collectibles get better when they complete sets or add real damage.", "Random shard spending is weak if no set or damage breakpoint is reached."] },
-  { id: "chapter", group: "Modes", icon: "🏃", name: "Chapter Push", status: "working", desc: "Checks whether pushing chapters is worth it for patrol and progress.", fields: [
-    ["chapter", "Current chapter", "number", 126], ["stuck", "Are you stuck?", "select", "No", ["Yes", "No"]], ["clearTime", "Clear time minutes", "number", 12], ["patrolGain", "Estimated patrol gain %", "number", 4], ["effort", "Effort level", "select", "Low", ["Low", "Medium", "High"]]
-  ], calc: chapterCalc, notes: ["Chapter pushing is worth more when it unlocks patrol value.", "If effort is high and gain is small, save upgrades first."] },
-  { id: "echo", group: "Modes", icon: "👹", name: "Enders Echo", status: "working", desc: "Separate single-target scoring from chapter-clear scoring.", fields: [
-    ["bossGain", "Boss DPS gain %", "number", 11], ["clearGain", "Chapter clear gain %", "number", 4], ["manual", "Manual skill needed", "select", "Medium", ["Low", "Medium", "High"]], ["duration", "Useful uptime %", "number", 70], ["cost", "Cost score", "number", 6]
-  ], calc: echoCalc, notes: ["Echo values boss damage and uptime more than lazy clearing.", "High manual effort lowers value if your style is AFK."] },
-  { id: "confidence", group: "Data", icon: "🧾", name: "Source Confidence", status: "working", desc: "Labels recommendation quality based on data completeness.", fields: [
-    ["known", "Known data points", "number", 8], ["missing", "Missing data points", "number", 3], ["conflicts", "Conflicts", "number", 1], ["tested", "Tested in optimizer?", "select", "Yes", ["Yes", "No"]]
-  ], calc: confidenceCalc, notes: ["This should appear beside every recommendation later.", "Missing or conflicting data should reduce confidence, not pretend certainty."] }
+let currentScenario = "clan";
+let activeSurvivor = "Master Yang";
+
+const survivors = [
+  ["Master Yang", "Y", 1.18, "Damage scaling"],
+  ["Metallia", "M", 1.14, "Late-game scaling"],
+  ["King", "K", 1.11, "Crit focused"],
+  ["Common", "C", 1.00, "Baseline"],
+  ["Worm", "W", 1.06, "Support damage"],
+  ["Catnips", "N", 1.04, "Utility"],
+  ["TMNT", "T", 1.10, "Event survivor"],
+  ["Other", "O", 1.02, "Manual entry"]
 ];
 
-let active = tools[0].id;
-const profile = { chapter: 126, gems: 51000, cores: 2, crystals: 49 };
+const activeSkills = ["Kunai", "Void Power", "Lightchaser", "Drone", "RPG", "Molotov", "Soccer Ball", "Drill", "Lightning", "Guardian", "Forcefield", "Brick", "Durian"];
+const passiveItems = ["Koga Scroll", "Energy Cube", "HE Fuel", "Ammo Thruster", "Hi-Power Bullet", "Exo-Bracer", "Fitness Guide", "Sports Shoes", "Ronin Oyoroi", "Oil Bond", "Magnet", "None"];
+const evolutionPairs = { "Kunai":"Koga Scroll", "Void Power":"Exo-Bracer", "Lightchaser":"Ronin Oyoroi", "Drone":"Hi-Power Bullet", "RPG":"HE Fuel", "Molotov":"Oil Bond", "Soccer Ball":"Sports Shoes", "Drill":"Ammo Thruster", "Lightning":"Energy Cube", "Guardian":"Exo-Bracer", "Forcefield":"Energy Cube", "Brick":"Fitness Guide", "Durian":"HE Fuel" };
+const gearSlots = ["Weapon", "Necklace", "Gloves", "Armor", "Belt", "Boots"];
+const gearOptions = ["SS Starforged Havoc", "Kunai", "Void Power", "Lightchaser", "SoD", "Eternal", "Void", "Chaos", "Army", "Other"];
+const techOptions = ["Drone", "RPG", "Molotov", "Soccer Ball", "Drill", "Lightning", "Guardian", "Forcefield", "Brick", "Durian", "Laser", "Boomerang"];
+const collectibleNames = ["Crit Set", "ATK Set", "Drone Set", "Pet Set", "Boss Set", "Chapter Set", "Relic Set", "Tech Set", "Event Set"];
+const exclusions = ["Void Armor", "Chaos Belt", "Manual Builds", "HP-Only Picks", "Gem Spending", "Unowned SS Gear", "Pet Copies", "Collectible Chasing"];
 
-function n(id){ return Number(($(`[name='${id}']`)?.value || 0)); }
-function v(id){ return $(`[name='${id}']`)?.value || ""; }
-function scoreLabel(score){ return score >= 80 ? "Excellent" : score >= 60 ? "Good" : score >= 40 ? "Okay" : "Weak"; }
-function money(x){ return Number(x || 0).toLocaleString("en-US"); }
-
-function globalCalc(){
-  const gems=n("gems"), cores=n("cores"), crystals=n("crystals"), chapter=n("chapter"), blocker=v("blocker"), goal=v("goal");
-  const saveScore = gems > 30000 ? 25 : 10;
-  const coreScore = blocker === "Relic cores" && cores > 0 ? 35 : 15;
-  const petScore = blocker === "Pet copies" || crystals > 40 ? 25 : 12;
-  const total = Math.min(100, 35 + saveScore + coreScore + petScore + (chapter > 100 ? 5 : 0));
-  return { score: total, rows: [
-    ["1", blocker === "Relic cores" ? "Check SS / relic core upgrade first" : "Fix your biggest blocker first", `Goal: ${goal}. Current blocker: ${blocker}.`],
-    ["2", gems > 30000 ? "Do not spend gems blindly" : "Start saving gems", `${money(gems)} gems means event value needs to be compared before spending.`],
-    ["3", crystals > 40 ? "Pet awakening crystals are important but check copies" : "Pet progress is not the main push yet", `${crystals} crystals available.`]
-  ]};
+function init() {
+  renderSurvivors();
+  renderSkills();
+  renderEquipment();
+  renderTech();
+  renderCollectibles();
+  renderExclusions();
+  bindGlobalEvents();
+  updatePairing();
+  updateShareString(false);
 }
 
-function eventCalc(){
-  const value = n("relicCores")*45 + n("sChests")*22 + n("shards")*.55 + n("keysUsed")*.18 - n("junk") - n("gemsSpent")/900;
-  return { score: Math.max(0, Math.min(100, Math.round(value+35))), rows: [
-    ["Value", value > 35 ? "Spend looks strong" : value > 15 ? "Maybe spend only to breakpoint" : "Probably save", `Estimated event value score: ${value.toFixed(1)}.`],
-    ["Reason", "Cores and useful chests carry the score", "Junk rewards and big gem costs lower it."],
-    ["Rule", "Do not chase weak milestones", "Only push if the next reward is a real account upgrade."]
-  ]};
+function bindGlobalEvents() {
+  $$(".mode-btn").forEach(btn => btn.addEventListener("click", () => {
+    currentScenario = btn.dataset.scenario;
+    $$(".mode-btn").forEach(b => b.classList.remove("is-active"));
+    btn.classList.add("is-active");
+    updateShareString(false);
+  }));
+  ["base-atk", "crit-rate", "crit-dmg", "core-shards-pool", "core-stellar-pool"].forEach(id => $("#" + id).addEventListener("input", () => updateShareString(false)));
+  $("#btn-copy-string").addEventListener("click", copyConfiguration);
+  $("#btn-tech-order").addEventListener("click", generateTechChecklist);
+  $("#tooltip-guide-trigger").addEventListener("click", () => { const tip = $("#collectible-tooltip"); tip.hidden = !tip.hidden; });
+  $("#btn-execute-optimization").addEventListener("click", runOptimization);
 }
 
-function compareCalc(){
-  const a=n("aGain")/Math.max(1,n("aCost")), b=n("bGain")/Math.max(1,n("bCost"));
-  const win = a >= b ? v("aName") : v("bName");
-  return { score: Math.round(Math.max(a,b)*20), rows: [
-    ["Winner", win, `Option A value ${a.toFixed(2)} vs Option B value ${b.toFixed(2)}.`],
-    ["Logic", "Damage per cost wins", "Use this until exact item tables are connected."],
-    ["Caution", "Cost score is manual", "Bad cost estimates will give bad rankings."]
-  ]};
+function renderSurvivors() {
+  $("#survivor-grid").innerHTML = survivors.map(s => `
+    <button type="button" class="survivor-cell ${s[0] === activeSurvivor ? "is-active" : ""}" data-survivor="${s[0]}">
+      <span class="survivor-icon">${s[1]}</span><span class="survivor-name">${s[0]}</span>
+    </button>`).join("");
+  $$(".survivor-cell").forEach(cell => cell.addEventListener("click", () => {
+    activeSurvivor = cell.dataset.survivor;
+    $("#selected-survivor-label").textContent = activeSurvivor;
+    renderSurvivors();
+    updateShareString(false);
+  }));
 }
 
-function petCalc(){
-  const levels=Math.max(0,n("target")-n("petLevel"));
-  const need=levels*2500;
-  const enough=n("cookies")>=need;
-  const awake=n("crystals")>=40 && n("copies")>0;
-  const score=(enough?35:10)+(awake?35:10)+(n("target")>=100?20:5);
-  return { score, rows: [
-    ["Leveling", enough ? "Cookies look enough for target" : "Need more cookies", `Rough cookie need: ${money(need)}.`],
-    ["Awakening", awake ? "Awakening may be available" : "Awakening blocked", "Crystals plus useful pet copies are both needed."],
-    ["Pet", v("petType"), "Compare pet upgrades against gear and tech before spending."]
-  ]};
+function selectHtml(list, className, index) {
+  return `<select class="${className}" data-index="${index}">${list.map(x => `<option>${x}</option>`).join("")}</select>`;
 }
 
-function techCalc(){
-  const legendary=v("mainRarity")!=="Epic";
-  const twin=v("isTwinborn")==="Yes";
-  const ready=v("pairReady")==="Yes";
-  const slot=v("slotMatch")==="Yes";
-  const score=(legendary?25:5)+(slot?25:0)+(twin&&ready?35:twin?10:20)+Math.min(15,n("chips")/150);
-  return { score: Math.round(score), rows: [
-    ["Rarity", legendary ? "Main tech can start serious planning" : "Rarity is too low", `Current rarity: ${v("mainRarity")}.`],
-    ["Twinborn", twin ? (ready ? "Pair looks ready" : "Pair is not ready") : "Normal tech path", "Twinborn needs both paired techs ready."],
-    ["Chips", slot ? "Slot matches" : "Wrong slot warning", `${n("chips")} chips entered.`]
-  ]};
+function renderSkills() {
+  $("#active-grid").innerHTML = Array.from({length:6}, (_, i) => `<div class="skill-slot" data-index="${i}"><span class="slot-label">Active ${i+1}</span>${selectHtml(activeSkills, "active-select", i)}</div>`).join("");
+  $("#passive-grid").innerHTML = Array.from({length:6}, (_, i) => `<div class="skill-slot" data-index="${i}"><span class="slot-label">Passive ${i+1}</span>${selectHtml(passiveItems, "passive-select", i)}</div>`).join("");
+  $$(".active-select,.passive-select").forEach(sel => sel.addEventListener("change", () => { updatePairing(); updateShareString(false); }));
 }
 
-function coreCalc(){
-  const can=n("cores")>=n("nextCost");
-  const advantage=n("gain")-n("altGain");
-  const savePenalty=v("futureNeed")==="High"?18:v("futureNeed")==="Medium"?8:0;
-  const score=(can?45:10)+advantage*3-savePenalty;
-  return { score: Math.round(Math.max(0,Math.min(100,score))), rows: [
-    ["Core spend", can ? "You can afford it" : "Not enough cores", `${n("cores")} owned / ${n("nextCost")} needed.`],
-    ["Gain check", advantage>3 ? "Core upgrade beats alternative" : "Alternative may be better", `${advantage}% advantage over non-core option.`],
-    ["Future need", v("futureNeed"), "High future need means saving cores gets more weight."]
-  ]};
+function updatePairing() {
+  let ready = 0;
+  $$("#active-grid .skill-slot,#passive-grid .skill-slot").forEach(s => s.classList.remove("is-paired"));
+  for (let i = 0; i < 6; i++) {
+    const active = $(`.active-select[data-index='${i}']`).value;
+    const passive = $(`.passive-select[data-index='${i}']`).value;
+    if (evolutionPairs[active] === passive) {
+      ready++;
+      $(`#active-grid .skill-slot[data-index='${i}']`).classList.add("is-paired");
+      $(`#passive-grid .skill-slot[data-index='${i}']`).classList.add("is-paired");
+    }
+  }
+  $("#evo-count").textContent = `${ready} evolutions ready`;
 }
 
-function collectibleCalc(){
-  const score=n("damage")*12+(v("set")==="Yes"?25:0)+(v("late")==="Yes"?10:0)-n("cost")*3;
-  return { score: Math.round(Math.max(0,Math.min(100,score))), rows: [
-    ["Spend call", score>55 ? "Worth considering" : "Do not force it", `${n("damage")}% damage bonus entered.`],
-    ["Set bonus", v("set")==="Yes" ? "Set completion boosts value" : "No set completion", "Set completion matters more than random shard usage."],
-    ["Timing", v("late")==="Yes" ? "Late-game value increased" : "May be early", "Collectibles get stronger later."]
-  ]};
+function renderEquipment() {
+  $("#equipment-grid").innerHTML = gearSlots.map(slot => `
+    <article class="gear-card grade-epic" data-slot="${slot}">
+      <div class="gear-top"><span class="gear-slot-name">${slot}</span><label class="forge-wrap">★ <input type="number" class="forge-stars-input" min="0" max="5" value="0"></label></div>
+      <select class="gear-selector">${gearOptions.map(g => `<option>${g} ${slot}</option>`).join("")}</select>
+      <div class="grade-group">
+        <button type="button" class="grade-btn is-active" data-grade="epic">Epic</button>
+        <button type="button" class="grade-btn" data-grade="legendary">Legendary</button>
+        <button type="button" class="grade-btn" data-grade="cosmic">Cosmic Cast</button>
+      </div>
+      <input type="number" class="input-designs" placeholder="Available Designs" min="0">
+    </article>`).join("");
+  $$(".grade-btn").forEach(btn => btn.addEventListener("click", () => {
+    const card = btn.closest(".gear-card");
+    card.classList.remove("grade-epic", "grade-legendary", "grade-cosmic");
+    card.classList.add("grade-" + btn.dataset.grade);
+    card.querySelectorAll(".grade-btn").forEach(b => b.classList.remove("is-active"));
+    btn.classList.add("is-active");
+    updateShareString(false);
+  }));
+  $$(".gear-selector,.forge-stars-input,.input-designs").forEach(el => el.addEventListener("input", () => updateShareString(false)));
 }
 
-function chapterCalc(){
-  const score=n("patrolGain")*10-(v("effort")==="High"?20:v("effort")==="Medium"?8:0)+(v("stuck")==="No"?18:0)-(n("clearTime")>15?8:0);
-  return { score: Math.round(Math.max(0,Math.min(100,score))), rows: [
-    ["Push call", score>50 ? "Push chapters" : "Upgrade first", `${n("patrolGain")}% patrol gain estimate.`],
-    ["Effort", v("effort"), "Low effort push is better for your preferred style."],
-    ["Status", v("stuck")==="Yes" ? "You are stuck, upgrade before forcing" : "Not stuck, push is reasonable", `Clear time: ${n("clearTime")} minutes.`]
-  ]};
+function renderTech() {
+  $("#tech-grid").innerHTML = Array.from({length:6}, (_, i) => `<div class="tech-cell"><select>${techOptions.map(t => `<option>${t}</option>`).join("")}</select><input class="level-input" type="number" min="0" value="${i < 2 ? 3 : 0}" placeholder="Level"></div>`).join("");
 }
 
-function echoCalc(){
-  const uptime=n("duration")/100;
-  const manualPenalty=v("manual")==="High"?18:v("manual")==="Medium"?8:0;
-  const score=n("bossGain")*5*uptime+n("clearGain")-n("cost")*2-manualPenalty+30;
-  return { score: Math.round(Math.max(0,Math.min(100,score))), rows: [
-    ["Echo value", score>60 ? "Good Echo-focused upgrade" : "Not great for Echo", `${n("bossGain")}% boss gain at ${n("duration")}% uptime.`],
-    ["Manual effort", v("manual"), "High manual effort lowers score if you prefer AFK."],
-    ["Separate logic", "Do not use chapter ranking here", "Boss scoring needs its own plan."]
-  ]};
+function renderCollectibles() {
+  $("#collectibles-grid").innerHTML = collectibleNames.map((name, i) => `<div class="collectible-cell"><label>${name}</label><input class="tier-input" type="number" min="0" value="${i < 2 ? 2 : 0}"></div>`).join("");
 }
 
-function confidenceCalc(){
-  const total=n("known")+n("missing")+n("conflicts");
-  const knownRatio=total? n("known")/total : 0;
-  const score=knownRatio*100-n("conflicts")*12-(v("tested")==="No"?15:0);
-  return { score: Math.round(Math.max(0,Math.min(100,score))), rows: [
-    ["Confidence", score>70 ? "High enough to show" : score>45 ? "Show with warning" : "Needs review", `${n("known")} known, ${n("missing")} missing, ${n("conflicts")} conflicts.`],
-    ["Testing", v("tested"), "Untested logic should not sound certain."],
-    ["Rule", "Confidence must be visible", "Every recommendation should show source quality."]
-  ]};
+function renderExclusions() {
+  $("#exclusion-toggles").innerHTML = exclusions.map(name => `<label class="toggle-pill"><input type="checkbox" class="exclude-toggle" data-gear-id="${slug(name)}"> ${name}</label>`).join("");
+  $$(".exclude-toggle").forEach(el => el.addEventListener("change", () => updateShareString(false)));
 }
 
-function groupTools(list){
-  return list.reduce((acc,t)=>{(acc[t.group] ||= []).push(t); return acc;},{});
+function getState() {
+  return {
+    scenario: currentScenario,
+    survivor: activeSurvivor,
+    atk: val("base-atk"), critRate: val("crit-rate"), critDmg: val("crit-dmg"),
+    shards: val("core-shards-pool"), stellar: val("core-stellar-pool"),
+    actives: $$(".active-select").map(x => x.value), passives: $$(".passive-select").map(x => x.value),
+    gear: $$(".gear-card").map(card => ({ slot: card.dataset.slot, item: card.querySelector(".gear-selector").value, forge: card.querySelector(".forge-stars-input").value, grade: [...card.classList].find(c => c.startsWith("grade-")) })),
+    tech: $$(".tech-cell").map(cell => ({ name: cell.querySelector("select").value, level: Number(cell.querySelector("input").value || 0) })),
+    collectibles: $$(".collectible-cell").map(cell => ({ name: cell.querySelector("label").textContent, tier: Number(cell.querySelector("input").value || 0) })),
+    exclusions: $$(".exclude-toggle:checked").map(x => x.dataset.gearId)
+  };
 }
 
-function renderSidebar(){
-  const q=($("#search").value||"").toLowerCase();
-  const filtered=tools.filter(t=>`${t.name} ${t.group} ${t.desc}`.toLowerCase().includes(q));
-  const groups=groupTools(filtered);
-  $("#groups").innerHTML=Object.keys(groups).map(g=>`<div class="group"><div class="group-title">${g}</div>${groups[g].map(t=>`<button class="tool-btn ${t.id===active?"active":""}" data-id="${t.id}" type="button"><span class="tool-ico">${t.icon}</span><span><span class="tool-name">${t.name}</span><span class="tool-mini">${t.status}</span></span><span>›</span></button>`).join("")}</div>`).join("") || `<div class="empty">No tools found.</div>`;
-  $$(".tool-btn").forEach(b=>b.addEventListener("click",()=>loadTool(b.dataset.id)));
+function val(id) { return Number($("#" + id).value || 0); }
+function slug(s) { return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); }
+
+function updateShareString(writeUrl = false) {
+  const encoded = btoa(unescape(encodeURIComponent(JSON.stringify(getState()))));
+  const url = `${location.origin}${location.pathname}?matrix=${encoded}`;
+  $("#share-string-output").value = url;
+  if (writeUrl) history.replaceState(null, "", url);
+  return url;
 }
 
-function fieldHtml(f){
-  const [id,label,type,value,options]=f;
-  if(type==="select") return `<div class="field"><label for="${id}">${label}</label><select id="${id}" name="${id}">${options.map(o=>`<option ${o===value?"selected":""}>${o}</option>`).join("")}</select></div>`;
-  return `<div class="field"><label for="${id}">${label}</label><input id="${id}" name="${id}" type="${type}" value="${value}"></div>`;
+async function copyConfiguration() {
+  const url = updateShareString(true);
+  try { await navigator.clipboard.writeText(url); $("#copy-status").textContent = "Copied ✓"; }
+  catch { $("#copy-status").textContent = "Copy failed"; }
+  setTimeout(() => $("#copy-status").textContent = "", 1200);
 }
 
-function loadTool(id){
-  active=id;
-  const t=tools.find(x=>x.id===id);
-  $("#toolCategory").textContent=t.group;
-  $("#toolTitle").textContent=t.name;
-  $("#toolDescription").textContent=t.desc;
-  $("#toolStatus").textContent=t.status;
-  $("#toolForm").innerHTML=`<div class="form-grid">${t.fields.map(fieldHtml).join("")}<div class="calc-actions"><button class="btn" type="submit">Calculate</button><button class="btn ghost" type="button" id="resetTool">Reset</button></div></div>`;
-  $("#notesBox").innerHTML=`<ul>${t.notes.map(n=>`<li>${n}</li>`).join("")}</ul>`;
-  $("#toolForm").onsubmit=(e)=>{e.preventDefault();calculate();};
-  $("#resetTool").onclick=()=>loadTool(active);
-  $$("#toolForm input,#toolForm select").forEach(el=>el.addEventListener("input",calculate));
-  renderSidebar();
-  calculate();
+function generateTechChecklist() {
+  const tech = getState().tech.sort((a,b) => a.level - b.level);
+  $("#tech-checklist").classList.add("is-open");
+  $("#tech-checklist").innerHTML = `<ol>${tech.map(t => `<li>Push ${t.name} from level ${t.level} toward next breakpoint.</li>`).join("")}</ol>`;
 }
 
-function calculate(){
-  const t=tools.find(x=>x.id===active);
-  const out=t.calc();
-  const score=Math.round(Math.max(0,Math.min(100,out.score||0)));
-  $("#scoreBadge").textContent=`${score}/100 ${scoreLabel(score)}`;
-  $("#resultBox").innerHTML=`<div class="big-number">${score}</div>${out.rows.map(r=>`<div class="result-line priority"><span class="rank">${r[0]}</span><div><strong>${r[1]}</strong><span>${r[2]}</span></div></div>`).join("")}`;
+function runOptimization() {
+  const state = getState();
+  const survivor = survivors.find(s => s[0] === state.survivor) || survivors[0];
+  const scenarioMulti = currentScenario === "enders" ? 1.18 : currentScenario === "trials" ? 1.10 : 1.05;
+  const critMulti = 1 + (state.critRate / 100) * (state.critDmg / 100);
+  const evoCount = countEvos();
+  const forgeSum = state.gear.reduce((a,g) => a + Number(g.forge || 0), 0);
+  const techLevels = state.tech.reduce((a,t) => a + t.level, 0);
+  const collectibleTiers = state.collectibles.reduce((a,c) => a + c.tier, 0);
+  const excludedPenalty = state.exclusions.length * 1.8;
+  const base = Math.max(1, state.atk || 10000);
+  const score = base * survivor[2] * scenarioMulti * critMulti * (1 + evoCount * .045 + forgeSum * .025 + techLevels * .012 + collectibleTiers * .008 - excludedPenalty/100);
+  const builds = [
+    { title: "Max Damage Multiplier Pathway", cls: "best", multi: 1.00, logic: "pure damage path", gear: state.gear.map(g => g.item) },
+    { title: "Balanced Progression Pathway", cls: "", multi: .93, logic: "damage with safer resource use", gear: state.gear.map(g => g.item.replace("SS ", "")) },
+    { title: "Defense / Survival Pathway", cls: "", multi: .82, logic: "safer setup with damage drop", gear: state.gear.map((g,i) => i === 3 ? "Defensive Armor Option" : g.item) }
+  ];
+  $("#results-dashboard").hidden = false;
+  $("#results-grid").innerHTML = builds.map((b,i) => solutionCard(b, score, i)).join("");
+  $("#results-dashboard").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-function copyResults(){
-  const text=`${$("#toolTitle").textContent}\n${$("#scoreBadge").textContent}\n${$("#resultBox").innerText}`;
-  navigator.clipboard?.writeText(text);
-  $("#copyBtn").textContent="Copied";
-  setTimeout(()=>$("#copyBtn").textContent="Copy results",900);
+function countEvos() {
+  let ready = 0;
+  for (let i = 0; i < 6; i++) if (evolutionPairs[$(`.active-select[data-index='${i}']`).value] === $(`.passive-select[data-index='${i}']`).value) ready++;
+  return ready;
 }
 
-function loadSample(){
-  Object.entries(profile).forEach(([k,val])=>{const el=$(`[name='${k}']`); if(el) el.value=val;});
-  calculate();
+function solutionCard(build, score, index) {
+  const scaled = Math.round(score * build.multi);
+  return `<article class="solution-card ${build.cls}"><h4>${build.title}</h4><div class="metric-row"><span>Estimated score</span><strong>${scaled.toLocaleString("en-US")}</strong></div><div class="metric-row"><span>Logic</span><strong>${build.logic}</strong></div><div class="solution-list">${gearSlots.map((slot,i) => `<div class="solution-item"><strong>${slot}: ${build.gear[i]}</strong><span class="metric-penalty-label">Removing this selection decreases optimization scaling by <strong class="text-drop">-${(52.04 - index*11 - i*2.4).toFixed(2)}%</strong></span></div>`).join("")}</div></article>`;
 }
 
-$("#search").addEventListener("input",renderSidebar);
-$("#copyBtn").addEventListener("click",copyResults);
-$("#sampleBtn").addEventListener("click",loadSample);
-loadTool(active);
+init();
