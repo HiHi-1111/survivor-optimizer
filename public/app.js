@@ -7,9 +7,9 @@
   };
 
   loadCss("readability-fix.css?v=8");
-  loadCss("normal-app.css?v=1");
+  loadCss("normal-app.css?v=2");
 
-  const files = ["asset-paths.js?v=2", "app-main.js?v=1"];
+  const files = ["asset-paths.js?v=3", "app-main.js?v=1"];
   const load = (i = 0) => {
     if (i >= files.length) return;
     const script = document.createElement("script");
