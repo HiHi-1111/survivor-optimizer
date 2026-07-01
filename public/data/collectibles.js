@@ -1,1 +1,9 @@
-(function(){var g=typeof self!=='undefined'?self:window;var names=['Human Genome Mapping','Book of Ancient Wisdom','Immortal Lucky Coin','Instellar Transition Matrix Design','Angelic Tear Crystal','Otherworld Key','Starcore Diamond','High-Lat Energy Cube','Void Bloom','Eye of True Vision','Life Hourglass','Nano-Mimetic Mask','Dice of Destiny','Dimension Foil','Mental Sync Helm','Atomic Mech','Time Essence Bottle','Dragon Tooth','Hyper Neuron','Cyber Totem','Clone Mirror','Dreamscape Puzzle','Gene Splicer','Memory Editor','Temporal Rewinder','Spatial Rewinder','Holodream Fluid','Dark Matter Construct','Timeline Cube','Omni-Symbiote','Aquarius Starlight','Pisces Starlight','Aries Starlight','Taurus Starlight','Golden Cutlery','Old Medical Book','Safehouse Map','Lucky Charm','Super Circuit Board','Mystical Halo','Tablet of Epics','Primordial War Drum','Flaming Plume','Astral Dewdrop','Nuclear Battery','Plasma Sword','Golden Horn','Elemental Ring','Anti-Gravity Device','Hydraulic Flipper','Superhuman Pill','Comms Conch','Mini Dyson Sphere','Micro Artificial Sun','Klein Bottle','Antiparticle Gourd','Wildfire Furnace','Infinity Score','Cosmic Compass','Wormhole Detector','Shuttle Capsule','Neurochip','Star-Rail Passenger Card','Portable Mech Case','Geocore Orb','Aquacore Orb','Pyrocore Orb','Aerocore Orb','Gemini Starlight','Cancer Starlight','Leo Starlight','Virgo Starlight'];g.SIO_COLLECTIBLES={};names.forEach(function(n,i){g.SIO_COLLECTIBLES[n]={maxStars:10,dmgPerStar:i<36?0.006:0.0035,costCurve:function(s){return Math.max(1,(s+1)*(i<36?12:8));}}});})();
+(function(){
+  var g=typeof self!=='undefined'?self:window;
+  function pending(id){return{maxStars:10,dmgPerStar:0,costCurve:function(s){return Math.max(1,(s+1)*8)},sourceStatus:'exact_name_pending',namePending:true,iconId:id}}
+  g.SIO_COLLECTIBLES={};
+  for(var i=1;i<=72;i++){
+    var id='Collectible_IconID_'+String(i).padStart(3,'0');
+    g.SIO_COLLECTIBLES[id]=pending(id);
+  }
+})();
